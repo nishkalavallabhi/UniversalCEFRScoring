@@ -7,7 +7,7 @@ outputdir=$3
 files=`ls $datadir`
 for i in $files
 do
-   ./udpipe --tokenize --parse $modelfile $datadir$i --output conllu --outfile $outputdir$i".parsed.txt"
+   ./udpipe --tokenize --tag --parse $modelfile $datadir$i --output conllu --outfile $outputdir$i".parsed.txt"
    echo $outputdir$i".parsed.txt"
 done
 
