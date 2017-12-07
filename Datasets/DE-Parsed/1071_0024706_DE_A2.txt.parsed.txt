@@ -1,0 +1,82 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024706_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo, Ingo das ist Maria Ingo, zwei Wohen vor habe ich eine Arbeit in Neuburg gefunden.
+1	Hallo	hallo	PROPN	NE	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	Ingo	Ingo	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+4	das	der	PRON	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+7	Ingo	Ingo	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	6	punct	_	_
+9	zwei	zwei	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Wohen	Wohen	NOUN	NN	_	18	obl	_	_
+11	vor	vor	ADP	APPR	_	18	case	_	_
+12	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Neuburg	Neuburg	PROPN	NE	_	15	nmod	_	_
+18	gefunden	finden	VERB	VVPP	VerbForm=Part	6	acl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Aber ich habe keine Wohnung dort.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	dort	doren	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich muss in Kurz Zeit eine Kleine Wohnung, veleicht 45-50m², zu finden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	Kurz	kurz	PROPN	NN	_	5	nmod	_	_
+5	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	Kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	veleicht	veleichen	NOUN	NN	_	8	conj	_	_
+11	45-50m	45-50m	X	NE	_	10	nmod	_	SpaceAfter=No
+12	²	²	NOUN	ADJD	_	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	8	punct	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 4
+# text = Wenn das möglich nähe mit mein Arbeit.
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	das	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+3	möglich	möglich	ADJ	ADJD	Degree=Pos	7	amod	_	_
+4	nähe	nähe	ADJ	ADJA	Degree=Pos	7	advmod	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Ich brauche deine Hilfe, Antworte, bitte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Hilfe	Hilfe	NOUN	NN	_	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\s\n
+6	Antworte	Antwort	PROPN	VVFIN	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	bitte	bitten	PROPN	NN	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Größe Maria
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Größe	Groß	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

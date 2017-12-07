@@ -1,0 +1,182 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100186_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Caro Stefano, cara Beatrice, che bella novità!
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Stefano	Stefano	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	cara	cara	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	Beatrice	Beatore	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+7	che	che	PRON	PR	PronType=Rel	9	case	_	_
+8	bella	bello	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	novità	novità	NOUN	S	Gender=Fem	2	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Tanti auguri per voi.
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Spero che stareste insieme tutta la vostra vita.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	stareste	staredere	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+4	insieme	insieme	ADV	B	_	3	advmod	_	_
+5	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = E che bella chiesa in cui sposate!
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	che	che	SCONJ	CS	_	4	advmod	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	7	obl	_	_
+7	sposate	sposare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Grazie mille per il vostro invito.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	mille	millo	NUM	N	NumType=Card	1	nummod	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	invito	invito	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Mi piace molto di festeggiare questo giorno speciale con voi.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	festeggiare	festeggiare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	speciale	speciale	ADJ	A	Number=Sing	7	amod	_	_
+9	con	con	ADP	E	_	10	case	_	_
+10	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Forse Michele può accompagnarmi, ma sapete che Michele deve lavorare molto.
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	Michele	Michele	PROPN	SP	_	4	nsubj	_	_
+3	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	accompagnarmi	arma|accompagnarme	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	sapete	sapere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	che	che	SCONJ	CS	_	11	mark	_	_
+9	Michele	Michele	PROPN	SP	_	11	nsubj	_	_
+10	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	lavorare	lavorare	VERB	V	VerbForm=Inf	7	ccomp	_	_
+12	molto	molto	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Conosciate un bello albergo in cui possiamo stare?
+1	Conosciate	Conosciare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	cui	cui	PRON	PR	PronType=Rel	8	obl	_	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	stare	stare	VERB	V	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Perché ritornare a casa dopo il festo è molto stressante per noi.
+1	Perché	perché	ADV	B	_	2	mark	_	_
+2	ritornare	ritornare	VERB	V	VerbForm=Inf	10	csubj	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	festo	festo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	stressante	stressante	ADJ	A	Number=Sing	0	root	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Ma che cosa possiamo regalarvi?
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	che	che	DET	DQ	PronType=Int	5	det	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	regalarvi	_	_	_	_	_	_	_	SpaceAfter=No
+5	regalar	regalare	VERB	V	VerbForm=Inf	0	root	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	obj	_	_
+7	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ma penso che scriverò un'altra lettera a Emma perché credo che Emma organizzare tutto.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	scriverò	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	ccomp	_	_
+5	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	altra	altro	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Emma	Emma	PROPN	SP	_	4	obl	_	_
+10	perché	perché	SCONJ	CS	_	11	mark	_	_
+11	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	Emma	Emma	PROPN	SP	_	14	nsubj	_	_
+14	organizzare	organizzare	VERB	V	VerbForm=Inf	11	ccomp	_	_
+15	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Mi piace di rivedervi e di festeggiare insieme.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	rivedervi	_	_	_	_	_	_	_	_
+4	riveder	rivedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	expl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	festeggiare	festeggiare	VERB	V	VerbForm=Inf	4	conj	_	_
+9	insieme	insieme	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Tanti saluti anche di Alberto.
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Alberto	Alberto	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Aspetto la vostra risposta.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 15
+# text = Ci vediamo, Maria
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Maria	Maria	PROPN	SP	_	2	nsubj	_	SpacesAfter=\n
+

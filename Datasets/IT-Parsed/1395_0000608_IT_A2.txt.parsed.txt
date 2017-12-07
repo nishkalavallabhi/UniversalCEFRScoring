@@ -1,0 +1,121 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000608_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Martedí, 12 gennaio, 2010 Caro Marco, caro Carlo, Sono in Italia, con Michele, a Città X.
+1	Martedí	Martedí	PROPN	SP	_	13	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	12	12	NUM	N	NumType=Card	4	nummod	_	_
+4	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	2010	2010	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+8	Marco	Marco	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	caro	caro	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	Carlo	Carlo	PROPN	SP	_	7	appos	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s
+13	Sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Italia	Italia	PROPN	SP	_	13	obl	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	Michele	Michele	PROPN	SP	_	13	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Città	città	PROPN	SP	_	18	conj	_	_
+22	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Le conosci!
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	conosci	conosce	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Stiamo facendo un corso di italiano.
+1	Stiamo	stare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = L'insegnante di questo corso, è la mia ragazza.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insegnante	insegnante	NOUN	S	Number=Sing	10	nsubj	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = Sono contento di trovarmi qui.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	trovarmi	arma|trovarme	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+5	qui	qui	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Impariamo molto i vesti italiani, scriviamo cartoline etc.
+1	Impariamo	Imparare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	molto	molto	ADV	B	_	1	advmod	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	vesti	veste	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	_
+5	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	scriviamo	scrivere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	cartoline	cartolina	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	etc	etc	ADJ	A	_	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = La sera andiamo tutti i due al ristorante, fare un giro in Centro, visitiamo la città.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	6	det:predet	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	due	due	NUM	N	NumType=Card	3	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	3	conj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giro	giro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Centro	centro	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	17	punct	_	_
+17	visitiamo	visitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	città	città	NOUN	S	Gender=Fem	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Vi visto la settimana prossima; ci vediamo presto un abbraccio a tutti Michele
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	8	punct	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+8	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	presto	presto	ADV	B	_	8	advmod	_	SpacesAfter=\n\s\s\s\s\s\s\s
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	8	xcomp	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	11	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+14	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,105 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000465_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 03.07.2010 Ciao Anna!
+1	Città	città	PROPN	SP	_	0	root	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	03.07.2010	03.07.2010	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\s\n
+5	Ciao	Ciao	PROPN	SP	_	1	conj	_	_
+6	Anna	anna	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Finalmente trovo un po' di tempo per scriverti!
+1	Finalmente	finalmente	ADV	B	_	2	advmod	_	_
+2	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8-9	scriverti	_	_	_	_	_	_	_	SpaceAfter=No
+8	scriver	scrivere	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
+10	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = La mia familia sta bene:
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	familia	familia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 4
+# text = zio Michele è allegro e felice anche zia Maria sta bene, Io sono contenta del mio lavoro - ho molto da fare, ma mi piace molto
+1	zio	zio	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+2	Michele	Michele	PROPN	SP	_	1	nmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	allegro	allegro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	felice	felice	ADJ	A	Number=Sing	4	conj	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	zia	zia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	Maria	Maria	PROPN	SP	_	8	nsubj	_	_
+10	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	obj	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	15	punct	_	SpacesAfter=\n
+13	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	contenta	contentare	ADJ	A	Gender=Fem|Number=Sing	10	xcomp	_	_
+16-17	del	_	_	_	_	_	_	_	_
+16	di	di	ADP	E	_	19	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	-	-	PUNCT	FF	_	21	punct	_	_
+21	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+22	molto	molto	ADV	B	_	21	advmod	_	_
+23	da	da	ADP	E	_	24	mark	_	_
+24	fare	fare	VERB	V	VerbForm=Inf	21	ccomp	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	28	punct	_	_
+26	ma	ma	CCONJ	CC	_	28	cc	_	_
+27	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	28	iobj	_	_
+28	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	conj	_	_
+29	molto	molto	ADV	B	_	4	advmod	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = In vacanza sono andata in montagnia - un mio amico ha ci una casa.
+1	In	in	ADP	E	_	2	case	_	_
+2	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	montagnia	montagnia	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	-	-	PUNCT	FB	_	4	punct	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	amico	amico	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+11	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Scrivi una lettera a me!
+1	Scrivi	Scrivare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Saluti!
+1	Saluti	Saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Tua Eva
+1	Tua	tuo	PROPN	SP	_	0	root	_	_
+2	Eva	Eva	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,61 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024873_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 08.03.2012 Lieber Jens, ich Glückwünsche für das Baby und euch.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	08.03.2012	08.03.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Lieber	Lieber	PROPN	NN	_	4	flat	_	_
+6	Jens	Jens	PROPN	NE	_	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+9	Glückwünsche	Glückwünsche	NOUN	NN	_	1	appos	_	_
+10	für	für	ADP	APPR	_	12	case	_	_
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	nmod	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	12	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Was sein Name das Baby?
+1	Was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	5	obj	_	_
+2	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Name	Name	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Baby	Baby	PROPN	NN	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich höffe, das Baby und die Mutter gut sind.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	höffe	höffen	NOUN	NN	Case=Nom|Number=Sing	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Baby	Baby	PROPN	NN	_	2	conj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Mutter	Mutter	NOUN	NN	_	2	conj	_	_
+9	gut	gut	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+10	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Nechsten Monat möchte ich euch gehen.
+1	Nechsten	Nech	ADJ	ADJA	Degree=Sup	2	amod	_	_
+2	Monat	Monat	NOUN	NN	_	6	obl	_	_
+3	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	euch	euch	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	6	obj	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich glücke gut Gesundheit Friedrich
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	glücke	glück	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	4	amod	_	_
+4	Gesundheit	Gesundheit	NOUN	NN	_	1	appos	_	SpacesAfter=\n
+5	Friedrich	Friedrich	PROPN	NE	_	4	appos	_	SpacesAfter=\n
+

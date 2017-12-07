@@ -1,0 +1,102 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000450_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Laura, Come stai?
+1	Ciao	ciao	INTJ	I	_	5	discourse	_	_
+2	Laura	Laura	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+4	Come	come	SCONJ	CS	_	5	advmod	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sono contenta, perché sono stata in America due settimane.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	perché	perché	SCONJ	CS	_	6	mark	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stata	essere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	America	America	PROPN	SP	_	6	obl	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ho visto tante cose interessante.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	interessante	interessante	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Spetto, che sei anche contenta.
+1	Spetto	Spetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+4	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	anche	anche	ADV	B	_	6	advmod	_	_
+6	contenta	contentare	ADJ	A	Gender=Fem|Number=Sing	1	acl:relcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Come va il tuo lavoro?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Lavoro ogni giorno, ma mio lavoro mi piace.
+1	Lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	ma	ma	CCONJ	CC	_	9	cc	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Spetto, che hai tempo libero la prossima settimana, perché la prossima settimana è il mio compleanno e vorrei festeggiare con te!
+1	Spetto	Spetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	4	obj	_	_
+4	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+6	libero	libero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	perché	perché	SCONJ	CS	_	18	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	compleanno	compleanno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	festeggiare	festeggiare	VERB	V	VerbForm=Inf	4	conj	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	obl	_	SpaceAfter=No
+24	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ciao e à presto, Maria
+1	Ciao	ciao	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+2	e	e	CCONJ	CC	_	3	cc	_	_
+3	à	e	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+4	presto	presto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+6	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

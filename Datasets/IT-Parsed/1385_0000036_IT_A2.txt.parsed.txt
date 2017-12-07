@@ -1,0 +1,98 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0000036_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Francesco Cerco, voglio fare questo per te.
+1	Ciao	ciao	PROPN	SP	_	6	nsubj	_	_
+2	Francesco	Francesco	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Cerco	cerco	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	obj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 2
+# text = Puoi mi dire, dove lavori adesso in quale ufficio e in quella città?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	dove	dove	ADV	B	_	6	advmod	_	_
+6	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+7	adesso	adesso	ADV	B	_	10	advmod	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	quale	quale	DET	DQ	Number=Sing|PronType=Int	10	det	_	_
+10	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	città	città	NOUN	S	Gender=Fem	10	conj	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Puoi mi dire che tipo di lavoro vuole fare?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	dire	dire	VERB	V	VerbForm=Inf	9	csubj	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Ami di essere con tante persone o vuole fare il lavoro da solo?
+1	Ami	ame	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	6	mark	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	6	cop	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	xcomp	_	_
+7	o	o	CCONJ	CC	_	9	cc	_	_
+8	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	solo	solo	ADV	B	_	11	advmod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mi dica anche quando vuole cominciare il tuo nuovo lavoro.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	dica	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	quando	quando	SCONJ	CS	_	6	mark	_	_
+5	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cominciare	cominciare	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Preferisci fare le vacanze fra le due posti?
+1	Preferisci	preferire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	fra	fra	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	posti	posto	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Tanti saluti, a presto Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	presto	presto	ADV	B	_	6	advmod	_	SpacesAfter=\s\n
+6	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

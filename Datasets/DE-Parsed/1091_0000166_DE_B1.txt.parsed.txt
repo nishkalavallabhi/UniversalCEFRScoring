@@ -1,0 +1,101 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000166_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 06.01.2012 Hallo Eva, ich muss ein paar Tage nach Stadt X fahren.
+1	06.01.2012	06.01.2012	PROPN	NE	_	0	root	_	SpacesAfter=\n
+2	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
+3	Eva	Eva	PROPN	NE	_	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+6	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+8	paar	paar	PRON	PIAT	PronType=Ind	9	det	_	_
+9	Tage	Tag	NOUN	NN	_	13	obl	_	_
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	13	obl	_	_
+12	X	X	PROPN	NN	_	11	appos	_	_
+13	fahren	fahren	VERB	VVINF	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Könnst du meine Katze mitnehmen? oder besuchen?
+1	Könnst	Könnst	PROPN	NN	_	5	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	flat	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ich fahre am 09.01.2012 um 9.00 Uhr und ich bringen um 08.00.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fahre	fahren	NOUN	NN	Case=Gen|Number=Plur	0	root	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	09.01.2012	09.01.2012	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+6	um	um	ADP	APPR	_	8	case	_	_
+7	9.00	9.00	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	2	nmod	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	bringen	bringen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	conj	_	_
+12	um	um	ADP	APPR	_	13	case	_	_
+13	08.00	08.00	NUM	CARD	NumType=Card	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Uhr mein Schlußel.
+1	Uhr	Uhr	NOUN	NN	_	0	root	_	_
+2	mein	mein	PROPN	PPOSAT	_	1	appos	_	_
+3	Schlußel	Schlußel	PROPN	NN	_	2	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Du Friest bitte meine Katze zwei mal pro Tag / am Morgen und am Abend) und räumst ihre Tualete ein mal auf.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	det:poss	_	_
+2	Friest	Friest	PROPN	NE	_	5	nmod	_	SpacesAfter=\s\s
+3	bitte	bitten	PROPN	NN	_	2	flat	_	_
+4	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	mal	mal	ADV	ADV	_	9	advmod	_	_
+8	pro	pro	ADP	APPR	_	9	case	_	_
+9	Tag	Tag	NOUN	NN	_	5	obl	_	_
+10	/	/	PUNCT	$(	_	13	punct	_	_
+11-12	am	_	_	_	_	_	_	_	_
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Morgen	Morgen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	_
+14	und	und	CCONJ	KON	_	17	cc	_	_
+15-16	am	_	_	_	_	_	_	_	_
+15	an	an	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	conj	_	SpaceAfter=No
+18	)	)	PUNCT	$(	_	5	punct	_	_
+19	und	und	CCONJ	KON	_	20	cc	_	_
+20	räumst	räumsen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+21	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	Tualete	Tualete	NOUN	NN	Case=Acc|Number=Plur	20	obj	_	_
+23	ein	ein	ADV	PTKVZ	_	24	advmod	_	_
+24	mal	mal	ADV	ADV	_	20	advmod	_	_
+25	auf	auf	ADP	PTKVZ	_	20	compound:prt	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	20	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele dank.
+1	Viele	viel	PRON	PIAT	Case=Nom|PronType=Ind	2	nsubj	_	_
+2	dank	dinken	NOUN	APPR	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit freundlichen Gruße Maria Schmidt
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	Gruße	Muß|Gruße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

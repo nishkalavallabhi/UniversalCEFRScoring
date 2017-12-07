@@ -1,0 +1,233 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0103821_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Katharina Schmidt Bahnhofstr.
+1	Katharina	Katharina	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmidt	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Bahnhofstr	Bahnhofstr	PROPN	NN	_	1	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 12 12-344 Stadt X Polen Computer-Spezialist Odenwaldstraße 5 53119 Bonn Stadt Y, den 5.
+1	12	12	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	12-344	12-344	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Stadt	Stadt	NOUN	NN	_	9	dep	_	_
+4	X	X	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+5	Polen	Polen	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+6	Computer-Spezialist	Computer-Spezialist	PROPN	NN	_	5	flat	_	SpacesAfter=\n
+7	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	5	flat	_	_
+8	5	5	NUM	CARD	NumType=Card	9	nummod	_	SpacesAfter=\n
+9	53119	53119	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Bonn	Bonn	PROPN	NE	_	11	nmod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	Stadt	Stadt	PROPN	NN	_	0	root	_	_
+12	Y	Y	PROPN	NN	_	11	flat	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	11	punct	_	_
+14	den	den	VERB	VVINF	VerbForm=Inf	15	acl	_	_
+15	5	5	NUM	CARD	NumType=Card	11	appos	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 3
+# text = April 2010 Bewerbung um Praktikum Sehr geehrte Damen und Herren, ich entscheide mich für die Bewerbung bei Ihre Firma, wiel Computer-Spezialist mich Berufserfahrung und Entwicklung meine Fähigkeiten geben könnte Ich studiere im 4.
+1	April	April	PROPN	NN	_	3	nmod	_	_
+2	2010	2010	NUM	CARD	NumType=Card	1	nummod	_	SpacesAfter=\n
+3	Bewerbung	Bewerbung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	um	um	ADP	APPR	_	5	case	_	_
+5	Praktikum	Praktikum	PROPN	NE	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	SpacesAfter=\n
+6	Sehr	Sehr	PROPN	ADV	_	5	appos	_	_
+7	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	7	obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Herren	Herr	NOUN	NN	Case=Acc|Number=Plur	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	7	punct	_	SpacesAfter=\n
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+13	entscheide	entscheide	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+14	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Bewerbung	Bewerbung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+18	bei	bei	ADP	APPR	_	20	case	_	_
+19	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	Firma	Firma	NOUN	NN	_	7	obl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	7	punct	_	_
+22	wiel	wiel	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	33	ccomp	_	_
+23	Computer-Spezialist	Computer-Spezialist	NOUN	NN	Case=Nom|Number=Sing	22	nsubj	_	_
+24	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	obj	_	_
+25	Berufserfahrung	Berufserfahrung	NOUN	NN	_	22	obl	_	_
+26	und	und	CCONJ	KON	_	27	cc	_	_
+27	Entwicklung	Entwicklung	NOUN	NN	_	25	conj	_	_
+28	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	Fähigkeiten	Fähigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	30	obj	_	_
+30	geben	geben	VERB	VVINF	VerbForm=Inf	33	obj	_	_
+31	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	_	SpacesAfter=\n
+32	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+33	studiere	studi	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	parataxis	_	_
+34-35	im	_	_	_	_	_	_	_	_
+34	in	in	ADP	APPR	_	33	case	_	_
+35	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	36	det	_	_
+36	4	4	NUM	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing|NumType=Card	34	dep	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	36	punct	_	_
+
+# sent_id = 4
+# text = Jahr Informatik an der Schlesische Technische Hochschule in Gliwice.
+1	Jahr	Jahr	NOUN	NN	_	2	nmod	_	_
+2	Informatik	Informatik	NOUN	NN	_	0	root	_	_
+3	an	an	ADP	APPR	_	7	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	Schlesische	schlesisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	Technische	technisch	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	7	amod	_	_
+7	Hochschule	Hochschul	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Gliwice	Gliwice	PROPN	NN	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Besonders bin ich an elektronischer Datenverarbeitung interessiert und direkt mit meinen Interessen meine Spezialisation verbunden ist.
+1	Besonders	besonders	ADV	ADV	_	7	advmod	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	elektronischer	elektronisch	ADJ	ADJA	Degree=Cmp,Pos	6	amod	_	_
+6	Datenverarbeitung	Datenverarbeitung	NOUN	NN	_	7	nmod	_	_
+7	interessiert	interessieren	ADJ	ADJD	Degree=Pos	0	root	_	_
+8	und	und	CCONJ	KON	_	15	cc	_	_
+9	direkt	direkt	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+10	mit	mit	ADP	APPR	_	12	case	_	_
+11	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Interessen	Interesse	NOUN	NN	Case=Dat|Number=Plur	15	nmod	_	_
+13	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Spezialisation	Spezialisation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	verbunden	verbunden	ADJ	ADJD	Degree=Pos	7	conj	_	_
+16	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Meine Leistungsbereitschaft und Kommunikationsfähigkeit lassen mich um diese Stelle bewerben.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Leistungsbereitschaft	Leistungsbereitschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Kommunikationsfähigkeit	Kommunikationsfähigkeit	NOUN	NN	_	2	conj	_	_
+5	lassen	lassen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	um	um	ADP	APPR	_	9	case	_	_
+8	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+10	bewerben	bewerben	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich habe auch eine Erfahrung im Verkaufbereich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Verkaufbereich	Verkaufbereich	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Während des Studiums habe ich bei einem weltbekannten elektronischen Geschäft gearbeitet.
+1	Während	während	ADP	KOUS	_	3	case	_	_
+2	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Studiums	Studium	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+6	bei	bei	ADP	APPR	_	10	case	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+8	weltbekannten	weltbekannten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	elektronischen	elektronisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Geschäft	Geschäft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+11	gearbeitet	arbeiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 9
+# text = Mein Deutschkenntnis ist auf dem B2 Niveau, so kann ich ohne sprachliche Vorbereitung arbeiten anfangen.
+1	Mein	mein	PROPN	PPOSAT	_	15	nsubj	_	_
+2	Deutschkenntnis	Deutschkenntnis	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	B2	B2	PROPN	NN	_	15	obl	_	_
+7	Niveau	Niveau	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	6	punct	_	_
+9	so	so	ADV	ADV	_	15	advmod	_	_
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	ohne	ohne	ADP	APPR	_	14	case	_	_
+13	sprachliche	sprachlich	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Vorbereitung	Vorbereitung	NOUN	NN	_	15	obl	_	_
+15	arbeiten	arbeit	VERB	VVINF	VerbForm=Inf	0	root	_	_
+16	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 10
+# text = Ich könnte von 1. Juni 2010 beginnen und bin bereit die ganze Sommerferienzeit Ihnen zur Verfügung zu stehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	von	von	ADP	APPR	_	6	case	_	_
+4	1	1	NUM	CARD	NumType=Card	6	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+6	Juni	Juni	PROPN	NN	_	8	obl	_	_
+7	2010	2010	NUM	CARD	NumType=Card	8	obl	_	_
+8	beginnen	beginnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	bereit	bereit	ADJ	ADJD	Degree=Pos	8	conj	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	ganze	ganz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Sommerferienzeit	Sommerferienzeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+15	Ihnen	sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	20	iobj	_	_
+16-17	zur	_	_	_	_	_	_	_	_
+16	zu	zu	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+19	zu	zu	PART	PTKZU	_	20	mark	_	_
+20	stehen	stehen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Wenn es möglich ist, erwarte ich von Ihnen Wohnunterstützung.
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	möglich	möglich	ADJ	ADJD	Degree=Pos	6	advcl	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	erwarte	erwarten	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+8	von	von	ADP	APPR	_	10	case	_	_
+9	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	10	det	_	_
+10	Wohnunterstützung	Wohnunterstützung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Schreiben Sie mir bitte die Antwort bis 1. Mai 2010.
+1	Schreiben	Schreiben	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+4	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	10	obj	_	_
+5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Antwort	Antwort	NOUN	NN	_	4	nmod	_	_
+7	bis	bis	ADP	APPR	_	8	case	_	_
+8	1	1	NUM	CARD	NumType=Card	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+10	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	nmod	_	_
+11	2010	2010	NUM	CARD	NumType=Card	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Mit freundlichen Grüßen, Katharina Schmidt Anlagen: - Zeugnisse - Sprachzertifikate
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+5	Katharina	Katharina	PROPN	NE	_	3	conj	_	_
+6	Schmidt	Schmidt	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+7	Anlagen	Anlage	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\n
+9	-	-	PUNCT	$(	_	12	punct	_	_
+10	Zeugnisse	Zeugnis	NOUN	NN	_	12	compound	_	SpacesAfter=\n
+11	-	-	PUNCT	$(	_	12	punct	_	_
+12	Sprachzertifikate	Sprachzertifikat	NOUN	NN	_	7	appos	_	SpacesAfter=\n
+

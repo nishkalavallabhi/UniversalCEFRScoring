@@ -1,0 +1,305 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003053_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Der Wohnungsmarkt in Stadt X Sehr geehrte zukünftige Kolleginen und Kollege, ich möchte hiermit über den Wohnungsmarkt in meiner Stadt Stadt X zu informieren.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Wohnungsmarkt	Wohnungsmarkt	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Stadt	Stadt	PROPN	NN	_	2	nmod	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\n
+6	Sehr	Sehr	PROPN	ADV	_	4	appos	_	_
+7	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	zukünftige	zukünftig	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	Kolleginen	Kollegine	NOUN	NN	Case=Acc|Number=Plur	7	obj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Kollege	Kollege	NOUN	NN	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	25	punct	_	SpacesAfter=\n
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+14	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+15	hiermit	hiermit	PRON	PWAV	PronType=Int,Rel	25	obj	_	_
+16	über	über	ADP	APPR	_	18	case	_	_
+17	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Wohnungsmarkt	Wohnungsmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
+19	in	in	ADP	APPR	_	21	case	_	_
+20	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Stadt	Stadt	NOUN	NN	_	18	nmod	_	_
+22	Stadt	Stadt	PROPN	NN	_	21	appos	_	_
+23	X	X	PROPN	NN	_	22	appos	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
+25	informieren	informieren	VERB	VVINF	VerbForm=Inf	7	acl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Stadt X ist eine Metropolie an der Elbe.
+1	Stadt	Stadt	NOUN	NN	_	2	compound	_	_
+2	X	X	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Metropolie	Metropolie	NOUN	NN	_	0	root	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Elbe	Elbe	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mehrere Menschen ziehen jahrlich nach Stadt X um, um bessere Arbeitsplätze zu verdienen.
+1	Mehrere	mehrere	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	det	_	_
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	ziehen	ziehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	jahrlich	jahrlich	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+5	nach	nach	ADP	APPR	_	6	case	_	_
+6	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	3	obl	_	_
+7	X	X	PROPN	NN	_	6	appos	_	_
+8	um	um	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	um	um	ADP	KOUI	_	14	mark	_	_
+11	bessere	gut	ADJ	ADJA	Degree=Cmp	12	amod	_	_
+12	Arbeitsplätze	Arbeitsplatz	NOUN	NN	_	14	obl	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	verdienen	verdienen	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Stadt Xer Immobilienmarkt hat verbreiteten Spektrum.
+1	Stadt	Stadt	NOUN	NN	_	5	nsubj	_	_
+2	Xer	X	PROPN	NE	_	1	appos	_	SpacesAfter=\s\s
+3	Immobilienmarkt	Immobilienmarkt	PROPN	NN	_	2	flat	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	verbreiteten	verbreiten	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	Spektrum	Spektrum	PROPN	NN	_	5	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Gutsituierte und vermögene Familien mit Kindern können sich ohne Verzweifelung für das Hauskauf entschieden.
+1	Gutsituierte	Gutsituieren	ADJ	ADJA	Degree=Pos	4	amod	_	_
+2	und	und	CCONJ	KON	_	3	cc	_	_
+3	vermögene	vermögen	ADJ	ADJA	Degree=Pos	1	conj	_	_
+4	Familien	Familie	NOUN	NN	_	14	obl	_	_
+5	mit	mit	ADP	APPR	_	6	case	_	_
+6	Kindern	Kind	NOUN	NN	Case=Dat|Number=Plur	4	nmod	_	_
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	14	obj	_	_
+9	ohne	ohne	ADP	APPR	_	10	case	_	_
+10	Verzweifelung	Verzweifelung	NOUN	NN	_	14	obl	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Hauskauf	Hauskauf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+14	entschieden	entscheiden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 6
+# text = Die Geldanlage in den Haus oder in der Privatwohnung lohnt sich immer.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Geldanlage	Geldanlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Haus	Haus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	oder	oder	CCONJ	KON	_	9	cc	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Privatwohnung	Privatwohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+10	lohnt	lohnen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	immer	immer	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Besonderes günstig und schön sind die Häuser an den Stadtrand, zum Beispiel im Stadtteil Y, wo ich mit meine Familie wohne.
+1	Besonderes	besonder	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	günstig	günstig	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	schön	schön	ADJ	ADJD	Degree=Pos	2	conj	_	_
+5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Häuser	Haus	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Stadtrand	Stadtrand	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	7	punct	_	_
+12-13	zum	_	_	_	_	_	_	_	_
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+15-16	im	_	_	_	_	_	_	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Stadtteil	Stadtteil	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	nmod	_	_
+18	Y	Y	PROPN	NN	_	17	appos	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	17	punct	_	_
+20	wo	wo	ADV	PWAV	_	25	advmod	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+22	mit	mit	ADP	APPR	_	24	case	_	_
+23	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+25	wohne	wohne	ADP	APPR	_	17	acl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Junge Pärchen mieten am meistens die Wohnungen.
+1	Junge	Junge	ADJ	NN	Case=Acc|Number=Plur	2	amod	_	_
+2	Pärchen	Pärchen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	3	obj	_	_
+3	mieten	mieten	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	8	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+6	meistens	meistens	ADV	ADV	_	8	advmod	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Die Mietkostenspange liegt von 400-600 bis 2000 euro pro Monat.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Mietkostenspange	Mietkostenspange	PROPN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	liegt	liegen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	von	von	ADP	APPR	_	8	case	_	_
+5	400-600	400-600	NUM	CARD	NumType=Card	8	nummod	_	_
+6	bis	bis	ADP	KON	_	7	case	_	_
+7	2000	2000	NUM	CARD	NumType=Card	8	nmod	_	_
+8	euro	euro	NOUN	NN	Case=Dat|Number=Sing	3	obl	_	_
+9	pro	pro	ADP	APPR	_	10	case	_	_
+10	Monat	Monat	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Je moderne ist die Wohnung, desto teurer.
+1	Je	je	CCONJ	ADV	_	2	cc	_	_
+2	moderne	modern	ADJ	ADJA	Degree=Pos	5	conj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	desto	desto	CCONJ	KON	_	8	cc	_	_
+8	teurer	teuer	ADJ	ADJD	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Auserdem muss man beachten, dass in beliebten Stadtteilen, wie Stadtteil Z, Stadtteil A, Stadtteil B die Mieten am höchstens sind.
+1	Auserdem	Auserdem	ADV	ADV	_	4	advmod	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+4	beachten	beachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	beliebten	beliebt	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Stadtteilen	Stadtteil	NOUN	NN	_	21	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	wie	wie	ADP	KOUS	_	12	case	_	_
+12	Stadtteil	Stadtteil	NOUN	NN	_	9	nmod	_	_
+13	Z	Z	PROPN	NN	_	12	appos	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Stadtteil	Stadtteil	NOUN	NN	_	12	conj	_	_
+16	A	A	X	NN	_	15	appos	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	_
+18	Stadtteil	Stadtteil	NOUN	NN	_	12	appos	_	_
+19	B	B	X	NN	_	18	appos	_	_
+20	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	_
+21	Mieten	Miete	NOUN	NN	_	4	ccomp	_	_
+22-23	am	_	_	_	_	_	_	_	_
+22	an	an	ADP	APPR	_	25	case	_	_
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	25	det	_	_
+24	höchstens	höchstens	ADV	ADV	_	25	advmod	_	_
+25	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Die Singles bevorzugen kleine Wohnungen, die nich weit von der Firma entfernt sind.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Singles	Single	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	bevorzugen	bevorzugen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	Wohnungen	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	die	der	PRON	PRELS	Case=Nom|PronType=Rel	13	nsubj	_	_
+8	nich	nich	PART	ADJD	Polarity=Neg	13	advmod	_	_
+9	weit	weit	ADJ	ADJD	Degree=Pos	13	advmod	_	_
+10	von	von	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Firma	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+13	entfernt	entfernen	ADJ	ADJD	Degree=Pos	5	acl	_	_
+14	sind	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Ich möchte Ihnen mitteilen, das Wohnungssuche in Stadt X eine sehr ansträngende Prozess in Stadt X ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	4	iobj	_	_
+4	mitteilen	mitteilen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	das	der	PRON	ART	Case=Nom|PronType=Dem	10	nsubj	_	_
+7	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Acc|Number=Plur	10	nmod	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Stadt	Stadt	NOUN	NN	_	7	nmod	_	_
+10	X	X	ADP	ADJA	_	4	acl	_	_
+11	eine	ein	DET	ART	Definite=Ind|PronType=Art	14	det	_	_
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
+13	ansträngende	ansträngend	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	Prozess	Prozeß	NOUN	NN	Case=Nom|Number=Plur	18	nsubj	_	_
+15	in	in	ADP	APPR	_	16	case	_	_
+16	Stadt	Stadt	PROPN	NN	_	14	nmod	_	_
+17	X	X	PROPN	NN	_	16	appos	_	_
+18	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Aber wir unterstützen Ihr dabei.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	unterstützen	unterstützen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	Ihr	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	dabei	dabei	ADV	PTKVZ	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 15
+# text = Wenn Sie für unsere Firma sich entscheiden haben, dann kriegen Sie sowol Anspruchsvollen Job, als auch die Moglichkeit das Leben in Stadt X geniesen.
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Firma	Firma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	_
+7	entscheiden	entscheiden	VERB	VVINF	VerbForm=Inf	11	advcl	_	_
+8	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	dann	dann	ADV	ADV	_	11	advmod	_	_
+11	kriegen	kriegen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+12	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
+13	sowol	sowol	PROPN	ADJD	Case=Nom|Number=Sing	14	nsubj	_	_
+14	Anspruchsvollen	anspruchsvoll	NOUN	NN	Case=Nom|Number=Plur	15	nsubj	_	_
+15	Job	Job	PROPN	NE	_	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	als	als	CCONJ	KOUS	_	26	cc	_	_
+18	auch	auch	ADV	ADV	_	26	advmod	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Moglichkeit	Moglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+21	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	26	obj	_	_
+23	in	in	ADP	APPR	_	24	case	_	_
+24	Stadt	Stadt	PROPN	NN	_	26	obl	_	_
+25	X	X	PROPN	NN	_	24	appos	_	_
+26	geniesen	geniesen	VERB	VVPP	VerbForm=Part	15	conj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 16
+# text = Unseres Wohnungsmarkt und Infrastruktur sind sehr gut entwickelt, von einen kleiner Mietwohnung bis eine große Willa.
+1	Unseres	unser	PRON	PPOSAT	Case=Nom|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Wohnungsmarkt	Wohnungsmarkt	NOUN	NN	_	8	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Infrastruktur	Infrastruktur	NOUN	NN	_	2	conj	_	_
+5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+8	entwickelt	entwickeln	ADJ	VVPP	_	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	von	von	ADP	APPR	_	13	case	_	_
+11	einen	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+12	kleiner	klein	ADJ	ADJA	Degree=Cmp,Pos	13	amod	_	_
+13	Mietwohnung	Mietwohnung	NOUN	NN	_	8	nmod	_	_
+14	bis	bis	ADP	APPR	_	17	case	_	_
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Willa	Willa	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+

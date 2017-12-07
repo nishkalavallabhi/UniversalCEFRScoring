@@ -1,0 +1,98 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000239_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Maria, Ich hoffe bei Dir alles ist in Ordnung.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obl	_	_
+8	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
+9	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Ordnung	Ordnung	NOUN	NN	_	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ich muss nach Hamburg fahren weil ich habe ein Termin von 1 April bis 5 April.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Hamburg	Hamburg	PROPN	NE	Case=Dat|Number=Sing	5	obl	_	_
+5	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	weil	weil	SCONJ	KOUS	_	8	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Termin	Termin	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nsubj	_	_
+11	von	von	ADP	APPR	_	13	case	_	_
+12	1	1	NUM	CARD	NumType=Card	13	nummod	_	_
+13	April	April	PROPN	NN	_	10	nmod	_	_
+14	bis	bis	ADP	KON	_	15	case	_	_
+15	5	5	PROPN	CARD	_	10	nmod	_	_
+16	April	April	PROPN	NN	_	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ich brauche Diene Hilfe für mein Hund.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	Diene	Dien	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Hilfe	Hilfe	NOUN	NN	_	2	obl	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	mein	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Es ist ruhig und ganz liebe.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ruhig	ruhig	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	ganz	ganz	ADJ	ADJD	Degree=Pos	6	amod	_	_
+6	liebe	lieb	NOUN	NN	_	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Kannst Du mit der Hund morgens Früh zu spazieregehen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	nsubj	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	PROPN	NN	_	2	nmod	_	_
+6	morgens	morgens	PROPN	ADJA	_	5	flat	_	_
+7	Früh	früh	PROPN	NN	_	5	flat	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	spazieregehen	spazieregehen	VERB	VVINF	VerbForm=Inf	1	acl	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ich gebe Dir Geld für alles.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gebe	geben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	det:poss	_	_
+4	Geld	Geld	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Ich hoffe auf Deine bald antworht.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	Deine	Deine	NOUN	NN	_	2	obl	_	_
+5	bald	bald	ADV	ADV	_	6	advmod	_	_
+6	antworht	antworhen	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Alles Liebe Deine Julia
+1	Alles	alle	PRON	PIAT	Case=Nom|PronType=Tot	2	det	_	_
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	SpacesAfter=\n
+3	Deine	Deine	PROPN	NE	_	0	root	_	_
+4	Julia	Julia	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,346 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001161_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi ALI Strada Maggiore 27/b VIA DANTE ALIGHIERI 1234 Città X I - 42010 Reggio Emilia Paese X Italia Egregia ALI, Io sono Michele Rossi, ho studiato sull'Università Chattolica Università X a Città X sulle -unreadable- storia, storia dell'arte e pedagogia.
+1	Michele	Michele	PROPN	SP	_	31	nsubj	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	ALI	Ali	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+4	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	4	flat:name	_	_
+6	27	27	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+7	/b	/b	NOUN	S	Gender=Masc	4	nmod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s
+8	VIA	via	PROPN	SP	_	1	flat:name	_	_
+9	DANTE	Dante	PROPN	SP	_	1	flat:name	_	_
+10	ALIGHIERI	ALIGHIERI	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+11	1234	1234	NUM	N	NumType=Card	1	flat:name	_	_
+12	Città	Città	PROPN	SP	_	1	flat:name	_	_
+13	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+14	I	europeo	ADJ	NO	NumType=Ord	12	amod	_	_
+15	-	-	PUNCT	FF	_	12	punct	_	_
+16	42010	42010	NUM	N	NumType=Card	17	nummod	_	_
+17	Reggio	Reggio	PROPN	SP	_	1	nmod	_	_
+18	Emilia	Emilia	PROPN	SP	_	17	flat:name	_	SpacesAfter=\s\n
+19	Paese	paese	PROPN	SP	_	1	nmod	_	_
+20	X	X	PROPN	SP	_	19	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+21	Italia	Italia	PROPN	SP	_	19	flat:name	_	SpacesAfter=\s\n
+22	Egregia	Egregia	PROPN	SP	_	25	nmod	_	_
+23	ALI	Ali	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	22	punct	_	SpacesAfter=\n
+25	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+27	Michele	Michele	PROPN	SP	_	1	flat:name	_	_
+28	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+32-33	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+32	su	su	ADP	E	_	34	case	_	_
+33	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
+34	Università	università	PROPN	SP	_	31	obl	_	_
+35	Chattolica	Chattolica	PROPN	SP	_	34	nmod	_	_
+36	Università	università	PROPN	SP	_	35	flat:name	_	_
+37	X	X	PROPN	SP	_	35	flat:name	_	_
+38	a	a	ADP	E	_	39	case	_	_
+39	Città	Città	PROPN	SP	_	31	obl	_	_
+40	X	X	PROPN	SP	_	39	flat:name	_	_
+41-42	sulle	_	_	_	_	_	_	_	_
+41	su	su	ADP	E	_	44	case	_	_
+42	le	le	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	44	det	_	_
+43	-	-	PUNCT	FB	_	44	punct	_	SpaceAfter=No
+44	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	46	nmod	_	SpaceAfter=No
+45	-	-	PUNCT	FF	_	44	punct	_	_
+46	storia	storia	NOUN	S	Gender=Fem|Number=Sing	39	nmod	_	SpaceAfter=No
+47	,	,	PUNCT	FF	_	39	punct	_	_
+48	storia	storia	NOUN	S	Gender=Fem|Number=Sing	39	appos	_	_
+49-50	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+49	di	di	ADP	E	_	51	case	_	_
+50	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
+51	arte	arte	NOUN	S	Gender=Fem|Number=Sing	48	nmod	_	_
+52	e	e	CCONJ	CC	_	53	cc	_	_
+53	pedagogia	pedagogia	NOUN	S	Gender=Fem|Number=Sing	48	conj	_	SpaceAfter=No
+54	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Io sono il perfetto uomo per questo posto di lavoro, perché la mia personalita e la mia esperienza è ottimo per fare questo lavoro.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	perfetto	perfetto	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	uomo	uomo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	perché	perché	SCONJ	CS	_	21	mark	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	personalita	personalita	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+16	e	e	CCONJ	CC	_	19	cc	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	_
+20	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	5	advcl	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23	fare	fare	VERB	V	VerbForm=Inf	21	advcl	_	_
+24	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	25	det	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Mi piace molto fare -unreadable- con gli altri.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	-	-	PUNCT	FB	_	4	punct	_	SpaceAfter=No
+6	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	SpaceAfter=No
+7	-	-	PUNCT	FB	_	6	punct	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Mentre studiavo sull'università -unreadable- nelle due dita: nella Galleria X e nel Studio X.
+1	Mentre	mentre	SCONJ	CS	_	2	mark	_	_
+2	studiavo	studiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+3-4	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+3	su	su	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	università	università	NOUN	S	Gender=Fem	2	obl	_	_
+6	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+7	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	SpaceAfter=No
+8	-	-	PUNCT	FB	_	7	punct	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	dita	dito	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	12	punct	_	_
+14-15	nella	_	_	_	_	_	_	_	SpacesAfter=\s\s
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Galleria	galleria	PROPN	SP	_	12	nmod	_	_
+17	X	X	PROPN	SP	_	16	flat:name	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Studio	studio	PROPN	SP	_	16	conj	_	_
+22	X	X	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Nella Galleria organizzavo programmi e manifestazione, cosi communicavo moltissimamente con i clienti e anche con -unreadable- della Galleria.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Galleria	galleria	PROPN	SP	_	5	nmod	_	_
+4	organizzavo	organizzavo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	programmi	programmi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	manifestazione	manifestazione	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+10	communicavo	communicare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	acl	_	_
+11	moltissimamente	moltissimamente	ADV	B	_	10	advmod	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	clienti	cliente	NOUN	S	Number=Plur	10	obl	_	_
+15	e	e	CCONJ	CC	_	19	cc	_	_
+16	anche	anche	ADV	B	_	19	advmod	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+19	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	SpaceAfter=No
+20	-	-	PUNCT	FF	_	19	punct	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Galleria	galleria	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Il altro compito era che con il mio capo andavamo spesso sul mercato antiquariato, dove compravamo dipinti che potevamo restaurire e poi naturalmente possiamo vendere e sia nella galleria.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	altro	altro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	compito	compito	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	che	che	PRON	PR	PronType=Rel	0	root	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	capo	capo	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+10	andavamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	5	acl:relcl	_	_
+11	spesso	spesso	ADV	B	_	14	advmod	_	_
+12-13	sul	_	_	_	_	_	_	_	_
+12	su	su	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mercato	mercato	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	antiquariato	antiquariato	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	dove	dove	ADV	B	_	18	advmod	_	_
+18	compravamo	comprare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	14	acl:relcl	_	_
+19	dipinti	dipinto	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	_
+20	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+21	potevamo	potere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	restaurire	restaurire	VERB	V	VerbForm=Inf	19	acl:relcl	_	_
+23	e	e	CCONJ	CC	_	27	cc	_	_
+24	poi	poi	ADV	B	_	27	advmod	_	_
+25	naturalmente	naturalmente	ADV	B	_	27	advmod	_	_
+26	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	vendere	vendere	VERB	V	VerbForm=Inf	22	conj	_	_
+28	e	e	CCONJ	CC	_	32	cc	_	_
+29	sia	essere	CCONJ	CC	_	32	cc	_	_
+30-31	nella	_	_	_	_	_	_	_	_
+30	in	in	ADP	E	_	32	case	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	galleria	galleria	NOUN	S	Gender=Fem|Number=Sing	27	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = -unreadable- -unreadable- che le altre gallerie quali dipinti per questo -unreadable- vendere.
+1	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	5	amod	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	unreadable	unreadable	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	-	-	PUNCT	FB	_	5	punct	_	_
+7	che	che	SCONJ	CS	_	18	mark	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	altre	altro	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	_
+10	gallerie	galleria	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+11	quali	quale	ADJ	A	Number=Plur	10	amod	_	_
+12	dipinti	dipingere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	_
+15	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+16	unreadable	unreadable	ADJ	A	Number=Sing	18	amod	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	16	punct	_	_
+18	vendere	vendere	VERB	V	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Nel Studio X vendevamo vestite che ha fatto Eva seguito la moda -unreadable-.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Studio	studio	PROPN	SP	_	6	obl	_	_
+4	X	X	PROPN	SP	_	3	flat:name	_	_
+5	vendevamo	vendere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	vestite	vestire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+10	Eva	Eva	PROPN	SP	_	9	obj	_	_
+11	seguito	seguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	moda	moda	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	-	-	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+15	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Dopo l'università lavoravo nel Azienda X in call centre, dove parlavo molti con i clienti.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	università	università	NOUN	S	Gender=Fem	4	obl	_	_
+4	lavoravo	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Azienda	azienda	PROPN	SP	_	4	obl	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	call	call	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+11	centre	centre	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	dove	dove	ADV	B	_	14	advmod	_	_
+14	parlavo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	acl:relcl	_	_
+15	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	14	obj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+18	clienti	cliente	NOUN	S	Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Finalmente vorrei chiedere il -unreadable- questo posto, quando devo iniziare il lavoro, giorno per giorno quanto tempo si bisogna lavorare -unreadable- -unreadable- e dove posso abitare, un affitto circa quanta costa, per quanto devo pagare per i merci?
+1	Finalmente	finalmente	ADV	B	_	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	posto	posto	NOUN	S	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	iniziare	iniziare	VERB	V	VerbForm=Inf	23	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+18	per	per	ADP	E	_	19	case	_	_
+19	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	quanto	quanto	DET	DQ	Gender=Masc|Number=Sing|PronType=Int	21	det	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+22	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	23	expl	_	_
+23	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	advcl	_	_
+24	lavorare	lavorare	VERB	V	VerbForm=Inf	23	xcomp	_	_
+25	-	-	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+26	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	40	nsubj	_	SpaceAfter=No
+27	-	-	PUNCT	FF	_	26	punct	_	_
+28	-	-	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+29	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+30	-	-	PUNCT	FF	_	29	punct	_	_
+31	e	e	CCONJ	CC	_	34	cc	_	_
+32	dove	dove	ADV	B	_	34	advmod	_	_
+33	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+34	abitare	abitare	VERB	V	VerbForm=Inf	40	conj	_	SpaceAfter=No
+35	,	,	PUNCT	FF	_	34	punct	_	_
+36	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	affitto	affitto	NOUN	S	Gender=Masc|Number=Sing	40	nsubj	_	_
+38	circa	circa	ADV	B	_	39	advmod	_	_
+39	quanta	quanta	NUM	N	NumType=Card	40	nsubj	_	_
+40	costa	costa	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+41	,	,	PUNCT	FF	_	40	punct	_	_
+42	per	per	ADP	E	_	43	case	_	_
+43	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	40	obl	_	_
+44	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	45	aux	_	_
+45	pagare	pagare	VERB	V	VerbForm=Inf	43	acl:relcl	_	_
+46	per	per	ADP	E	_	48	case	_	_
+47	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	48	det	_	_
+48	merci	merce	NOUN	S	Gender=Masc|Number=Plur	45	obl	_	SpaceAfter=No
+49	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = -unreadable- è il stipendio?
+1	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	6	parataxis	_	SpaceAfter=No
+3	-	-	PUNCT	FB	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Sto aspettando alla vostra risposta, Distinti saluti, Michele Rossi
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aspettando	aspettare	VERB	V	VerbForm=Ger	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+8	Distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+9	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	_
+11	Michele	Michele	PROPN	SP	_	8	appos	_	_
+12	Rossi	Rossi	PROPN	SP	_	11	flat:name	_	SpacesAfter=\n
+

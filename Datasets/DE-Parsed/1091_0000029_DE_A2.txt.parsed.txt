@@ -1,0 +1,66 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000029_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 04.01.2012 Sehr geehrte Damen und Herren, ich suche eine Zweizimmerwohnung mit groß und hell Wohnzimmer und mit dem Balkon richtung nach Süd.
+1	Stadt	Stadt	NOUN	NN	_	6	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	04.01.2012	04.01.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Sehr	Sehr	PROPN	ADV	_	4	flat	_	_
+6	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	Damen	Dame	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Herren	Herr	PROPN	NN	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\n
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+12	suche	suchen	NOUN	NN	Case=Acc|Number=Plur	6	obl	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Zweizimmerwohnung	Zweizimmerwohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+15	mit	mit	ADP	APPR	_	19	case	_	_
+16	groß	groß	ADJ	ADJD	Degree=Pos	19	amod	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	hell	hell	ADJ	ADJD	Degree=Pos	16	conj	_	_
+19	Wohnzimmer	Wohnzimmer	NOUN	NN	_	14	nmod	_	_
+20	und	und	CCONJ	KON	_	23	cc	_	_
+21	mit	mit	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Definite=Def|PronType=Art	23	det	_	_
+23	Balkon	Balkon	PROPN	NE	_	19	conj	_	_
+24	richtung	richtung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	23	flat	_	_
+25	nach	nach	ADP	APPR	_	26	case	_	_
+26	Süd	Süd	NOUN	NN	Case=Dat|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ich brauche Wohnung ab 60m² mit schöner Küche und ein Bad und eine Gästetualette Ich danke Ihnen im voraus Mit freundlichen Grüßen Müller P.S: Kontakt Telefon 0345-11111111
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauche	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	ab	eben	ADP	APPR	_	5	case	_	_
+5	60m	60m	X	NE	_	2	obl	_	SpaceAfter=No
+6	²	²	NUM	ADJD	NumType=Card	5	appos	_	_
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	schöner	schön	ADJ	ADJA	Degree=Cmp,Pos	9	amod	_	_
+9	Küche	Küche	NOUN	NN	Case=Dat|Number=Sing	17	obl	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	ein	ein	DET	ART	Definite=Ind|PronType=Art	12	det	_	_
+12	Bad	Bad	NOUN	NN	_	9	conj	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	eine	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+15	Gästetualette	Gästetualette	NOUN	NN	_	9	conj	_	SpacesAfter=\n
+16	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	2	acl	_	_
+18	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	17	iobj	_	_
+19-20	im	_	_	_	_	_	_	_	_
+19	in	in	ADP	APPR	_	24	case	_	_
+20	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	24	det	_	_
+21	voraus	voraus	ADV	ADV	_	24	advmod	_	SpacesAfter=\s\n
+22	Mit	mit	ADP	APPR	_	24	case	_	_
+23	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	24	amod	_	_
+24	Grüßen	grüßen	NOUN	NN	_	17	obl	_	SpacesAfter=\n
+25	Müller	Müller	PROPN	NE	_	29	appos	_	SpacesAfter=\s\n
+26	P.S	P.	PROPN	NE	_	25	flat	_	SpaceAfter=No
+27	:	:	PUNCT	$.	_	25	punct	_	_
+28	Kontakt	Kontakt	NOUN	NN	_	29	compound	_	_
+29	Telefon	Telefon	NOUN	NN	_	24	appos	_	_
+30	0345-11111111	0345-11111111	NUM	CARD	NumType=Card	17	obl	_	SpacesAfter=\n
+

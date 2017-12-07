@@ -1,0 +1,116 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248345_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Liebe Daniela, ich möchte am Samstag um 15.00 Uhr im Schwimmbad gehen.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	Daniela	Daniela	PROPN	NE	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+10	um	um	ADP	APPR	_	12	case	_	_
+11	15.00	15.00	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	16	obl	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Schwimmbad	Schwimmbad	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+16	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = In Stadt X ist ein neue Schwimmbad und ich möchte da gehen.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	7	nmod	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+6	neue	neu	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Schwimmbad	Schwimmbad	NOUN	NN	_	0	root	_	_
+8	und	und	CCONJ	KON	_	12	cc	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+11	da	da	ADV	ADV	_	12	advmod	_	_
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = _Diese Schwimmbad ist so groß und sehr schön.
+1	_Diese	_Dies	PRON	PDS	Case=Nom|PronType=Dem	2	det:poss	_	_
+2	Schwimmbad	Schwimmbad	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	so	so	ADV	ADV	_	5	advmod	_	_
+5	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
+8	schön	schön	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Möchtest du mit mir gehen?
+1	Möchtest	Möchtest	PROPN	NN	_	5	appos	_	_
+2	du	du	PROPN	PPER	_	1	flat	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+5	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Weiß du dass ich liebe schwimmen, aber zusammen ist besser.
+1	Weiß	weiß	PROPN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
+2	du	du	PROPN	PPER	_	0	root	_	_
+3	dass	dass	SCONJ	KOUS	_	6	mark	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	liebe	lieb	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+6	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	aber	aber	CCONJ	KON	_	11	cc	_	_
+9	zusammen	zusammen	ADV	ADV	_	11	advmod	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	besser	gut	ADJ	ADJD	Degree=Cmp	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Nimm bitte ein Tüch, speciall Schuhe, ein Schampoo und etwas zu trinken.
+1	Nimm	Nimm	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	bitte	bitten	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Tüch	Tüch	NOUN	NN	_	2	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	speciall	speciall	PROPN	NN	_	4	conj	_	_
+7	Schuhe	Schuh	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Schampoo	Schampoo	NOUN	NN	_	4	conj	_	_
+11	und	und	CCONJ	KON	_	14	cc	_	_
+12	etwas	etwas	PRON	PIS	PronType=Ind	14	obj	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	trinken	trinken	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ruft mir an oder schreibt wenn möchtest du gehen mit mir.
+1	Ruft	ruft	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+2	mir	mu	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	an	an	ADP	PTKVZ	_	1	compound:prt	_	_
+4	oder	oder	CCONJ	KON	_	5	cc	_	_
+5	schreibt	schreiben	VERB	VVFIN	VerbForm=Fin	1	conj	_	_
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+7	möchtest	möchtesen	ADJ	ADJD	Degree=Sup	8	amod	_	_
+8	du	du	PROPN	PPER	_	9	nsubj	_	_
+9	gehen	gehen	VERB	VVFIN	VerbForm=Fin	5	advcl	_	_
+10	mit	mit	ADP	APPR	_	11	case	_	_
+11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Mit freundlichen Grüße Julia
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Julia	Julia	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

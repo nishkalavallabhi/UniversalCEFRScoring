@@ -1,0 +1,81 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001791_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Michelle Grazie per la tua email.
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Michelle	Michelle	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n
+3	Grazie	grazie	PROPN	SP	_	2	flat:name	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	email	email	NOUN	S	_	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Vorrei aiutarti, ma ho bisogno di qualche informazione in più.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aiutarti	aiutartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Puoi dirmi, dove lavora tu adesso et quale tipo di lavoro tu voi fare dopo?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirmi	_	_	_	_	_	_	_	SpaceAfter=No
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s
+5	dove	dove	ADV	B	_	6	advmod	_	_
+6	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	16	obj	_	_
+8	adesso	adesso	ADV	B	_	16	advmod	_	_
+9	et	e	CCONJ	CC	_	11	cc	_	_
+10	quale	quale	DET	DQ	Number=Sing|PronType=Int	11	det	_	_
+11	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	16	obj	_	_
+15	voi	voi	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	6	csubj	_	_
+17	dopo	dopo	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Et quande era per te posibile da cominca a noi Magari tu voi vare prima di vacansa.
+1	Et	et	NOUN	S	Gender=Masc	6	nsubj	_	_
+2	quande	quande	ADJ	A	Number=Sing	1	amod	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	te	te	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+6	posibile	posibile	ADJ	A	Number=Sing	0	root	_	_
+7	da	da	ADP	E	_	8	mark	_	_
+8	cominca	comincare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	8	obl	_	SpacesAfter=\n
+11	Magari	magari	PROPN	SP	_	14	nsubj	_	_
+12	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	11	flat:name	_	_
+13	voi	voi	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	vare	vare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+15	prima	prima	ADV	B	_	17	case	_	_
+16	di	di	ADP	E	_	15	fixed	_	_
+17	vacansa	vacansa	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 5
+# text = Grazie per tuo risponde Michele Rossi
+1	Grazie	grazie	NOUN	S	_	4	obl	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	tuo	tuo	PRON	PP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	1	nmod	_	_
+4	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\n
+5	Michele	Michele	PROPN	SP	_	4	nsubj	_	SpacesAfter=\s\s
+6	Rossi	Rossi	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+

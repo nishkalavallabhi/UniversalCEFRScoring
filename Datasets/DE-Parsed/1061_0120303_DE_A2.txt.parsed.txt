@@ -1,0 +1,79 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120303_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 22.02.2012 Liebe Michael vielen Dank für deine Glückwunschkarte zum neuen Jahr.
+1	Stadt	Stadt	NOUN	NN	_	7	nmod	_	_
+2	X	X	PROPN	NN	_	4	nmod	_	_
+3	22.02.2012	22.02.2012	PROPN	CARD	_	4	amod	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+5	Michael	Michael	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+6	vielen	viel	ADJ	PIAT	Degree=Pos	7	amod	_	_
+7	Dank	dank	NOUN	NN	_	0	root	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	deine	dein	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Glückwunschkarte	Glückwunschkarte	NOUN	NN	_	7	nmod	_	_
+11-12	zum	_	_	_	_	_	_	_	_
+11	zu	zu	ADP	APPR	_	14	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+13	neuen	neuen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	amod	_	_
+14	Jahr	Jahr	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich wünsche dir auch alles Gute!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	2	nsubj	_	_
+6	Gute	gut	NOUN	ADJA	_	5	appos	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Die Silviesternach haben Maria und Ich wie jedes Jahr mit Julia und Friedrich gekocht und gegessen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Silviesternach	Silviesternach	NOUN	NN	_	3	nsubj	_	_
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	und	und	CCONJ	KON	_	14	cc	_	_
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj:pass	_	_
+7	wie	wie	ADP	KOKOM	_	9	case	_	_
+8	jedes	jed	PRON	PIAT	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Tot	9	det	_	_
+9	Jahr	Jahr	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	14	obl	_	_
+10	mit	mit	ADP	APPR	_	11	case	_	_
+11	Julia	Julia	PROPN	NE	Case=Dat|Number=Sing	14	obl	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Friedrich	Friedrich	PROPN	NE	_	11	conj	_	_
+14	gekocht	gekocht	VERB	VVPP	VerbForm=Part	3	conj	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	gegessen	essen	VERB	VVPP	VerbForm=Part	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Später sind wir dann in die Stadt gegangen,im Frühjahr werde ich mit meiner Freunden Maria ein Job gefunden.
+1	Später	spät	ADJ	ADJD	Degree=Cmp,Pos	18	advmod	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+4	dann	dann	ADV	ADV	_	18	advmod	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+8	gegangen,im	gegangen,im	PROPN	NE	_	7	appos	_	_
+9	Frühjahr	Frühjahr	PROPN	NN	_	8	flat	_	_
+10	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+12	mit	mit	ADP	APPR	_	14	case	_	_
+13	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	17	nmod	_	_
+15	Maria	Maria	PROPN	NE	_	14	appos	_	_
+16	ein	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+17	Job	Job	NOUN	NN	_	18	obl	_	_
+18	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Herzliche Grüße Katharina
+1	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Katharina	Katharina	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

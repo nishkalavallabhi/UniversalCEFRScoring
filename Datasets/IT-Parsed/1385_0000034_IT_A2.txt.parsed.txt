@@ -1,0 +1,84 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0000034_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Claudio, ho parlato con qualche persona.
+1	Ciao	ciao	PROPN	SP	_	5	nsubj	_	_
+2	Claudio	Claudio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	8	det	_	_
+8	persona	persona	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ci sono diverse domande:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	diverse	diverso	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = 1) Dove lavoro adesso?
+1	1	1	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	Dove	dove	NUM	N	NumType=Card	4	nummod	_	_
+4	lavoro	lavorare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	adesso	adesso	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = 2) Che tipo di lavoro vuoi fare?
+1	2	2	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	Che	che	DET	DQ	PronType=Int	4	det	_	_
+4	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = 3) Quando vuoi cominciare al nuovo posto di lavoro?
+1	3	3	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	_
+3	Quando	quando	SCONJ	CS	_	5	mark	_	_
+4	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cominciare	cominciare	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	posto	posto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Puoi mandare queste informazioni agli indirizzi seguenti:
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	mandare	mandare	VERB	V	VerbForm=Inf	0	root	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	agli	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	indirizzi	indirizzo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	seguenti	seguente	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 7
+# text = Maria.rossi@internet.it, Michele.bianchi@internet.it Buona fortuna e tanti saluti Michele
+1	Maria.rossi@internet.it	Maria.rossi@internet.it	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Michele.bianchi@internet.it	Michele.bianchi@internet.it	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+4	Buona	buona	PROPN	SP	_	3	flat:name	_	_
+5	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	saluti	salutare	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	SpacesAfter=\s\n
+9	Michele	Michele	PROPN	SP	_	8	nmod	_	SpacesAfter=\n
+

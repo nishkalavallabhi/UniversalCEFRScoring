@@ -1,0 +1,115 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ/PHA0509007_CZ_A2.txt
+# newpar
+# sent_id = 1
+# text = Ta žena na obrázku se jmenuje Eva Svobodová.
+1	Ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	6	nsubj	_	_
+3	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	4	case	_	_
+4	obrázku	obrázek	NOUN	NNIS6-----A----	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	_
+5	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	_	_
+6	jmenuje	jmenovat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Eva	Eva	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	6	nsubj	_	_
+8	Svobodová	Svobodová	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Sur|Number=Sing|Polarity=Pos	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	6	punct	_	_
+
+# sent_id = 2
+# text = Je profesorka z Německa a učí něměčtínu na Karlové Univerzitě v Praze.
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+2	profesorka	profesorka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
+4	Německa	Německo	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	2	nmod	_	_
+5	a	a	CCONJ	J^-------------	_	6	cc	_	_
+6	učí	učit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	něměčtínu	něměčtín	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	obj	_	_
+8	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	10	case	_	_
+9	Karlové	Karlový	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	amod	_	_
+10	Univerzitě	univerzita	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	6	obl	_	_
+11	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	12	case	_	_
+12	Praze	Praha	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 3
+# text = je jí třicet - šest let.
+1	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	jí	on	PRON	PPFS3--3-------	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obl	_	_
+3	třicet	třicet	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	6	nummod:gov	_	_
+4	-	-	PUNCT	Z:-------------	_	5	punct	_	_
+5	šest	šest	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	3	compound	_	_
+6	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	1	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 4
+# text = Vystudovala v Berlině, kde taky bydlela.
+1	Vystudovala	vystudovat	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+3	Berlině	Berlina	PROPN	NNFS6-----A----	Case=Loc|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+5	kde	kde	ADV	Db-------------	PronType=Int,Rel	7	advmod	_	_
+6	taky	také	ADV	Db-------------	_	7	advmod	_	_
+7	bydlela	bydlet	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	3	acl	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 5
+# text = Teď žije v České Republice se svém manželem, ale nemají děté.
+1	Teď	teď	ADV	Db-------------	PronType=Dem	2	advmod	_	_
+2	žije	žít	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
+4	České	český	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
+5	Republice	republika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	_	_
+6	se	s	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	2	expl:pass	_	_
+7	svém	svůj	DET	P8ZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	manželem	manžel	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+10	ale	ale	CCONJ	J^-------------	_	11	cc	_	_
+11	nemají	mít	VERB	VB-P---3P-NA---	Mood=Ind|Number=Plur|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+12	děté	děta	NOUN	NNMP1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	11	nsubj	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 6
+# text = Dneska sedí už dvě hodiny v knihovně univerzity a myslí o své rodině v Německu.
+1	Dneska	dneska	ADV	Db-------------	_	2	advmod	_	_
+2	sedí	sedět	VERB	VB-P---3P-AA---	Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	už	už	ADV	Db-------------	_	5	advmod:emph	_	_
+4	dvě	dva	NUM	ClHP4----------	Case=Acc|Gender=Fem,Neut|Number=Plur|NumForm=Word|NumType=Card|NumValue=1,2,3	5	nummod	_	_
+5	hodiny	hodina	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	2	obl	_	_
+6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	7	case	_	_
+7	knihovně	knihovna	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	_	_
+8	univerzity	univerzita	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	7	nmod	_	_
+9	a	a	CCONJ	J^-------------	_	10	cc	_	_
+10	myslí	myslit	VERB	VB-P---3P-AA---	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	o	o	ADP	RR--6----------	AdpType=Prep|Case=Loc	13	case	_	_
+12	své	svůj	DET	P8FS6---------1	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	13	det	_	_
+13	rodině	rodina	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	10	obj	_	_
+14	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	15	case	_	_
+15	Německu	Německo	PROPN	NNNS6-----A----	Case=Loc|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ve volném času ráda čte romantické romány a jde na procházku po starém městě se svém psem.
+1	Ve	v	ADP	RV--6----------	AdpType=Voc|Case=Loc	2	case	_	_
+2	volném	volný	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	4	obl	_	_
+3	času	čas	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	_
+4	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	5	xcomp	_	_
+5	čte	číst	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	romantické	romantický	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	7	amod	_	_
+7	romány	román	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	5	iobj	_	_
+8	a	a	CCONJ	J^-------------	_	9	cc	_	_
+9	jde	jít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	11	case	_	_
+11	procházku	procházka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	9	obl	_	_
+12	po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	14	case	_	_
+13	starém	starý	ADJ	AANS6----1A----	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	14	amod	_	_
+14	městě	město	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	11	nmod	_	_
+15	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	17	case	_	_
+16	svém	svůj	DET	P8ZS6----------	Case=Loc|Gender=Masc,Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	17	det	_	_
+17	psem	pes	NOUN	NNMS7-----A----	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	9	obl	_	SpaceAfter=No
+18	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 8
+# text = Pes jmenuje se Rex.
+1	Pes	pes	NOUN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
+2	jmenuje	jmenovat	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	se	s	ADP	RV--7----------	AdpType=Voc|Case=Ins	4	case	_	_
+4	Rex	Rex	PROPN	NNIXX-----A----	Animacy=Inan|Gender=Masc|NameType=Com|Polarity=Pos	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\n
+

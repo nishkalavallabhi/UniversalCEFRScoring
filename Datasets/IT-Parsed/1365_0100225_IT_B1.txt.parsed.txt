@@ -1,0 +1,216 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100225_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18.06.2011
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	18.06.2011	18.06.201l	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Francesco, Grazie per la tua lettera.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Francesco	Francesco	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Grazie	grazie	NOUN	S	_	8	case	_	_
+5	per	per	ADP	E	_	8	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Auguri per l'esame.
+1	Auguri	augurio	ADV	B	_	4	advmod	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	esame	esame	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ho pensato che tu lo fai.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+5	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+6	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Io sto bene, sto lavorando in un ufficio delle Ditta X.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lavorando	lavorare	VERB	V	VerbForm=Ger	2	conj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Ditta	ditta	PROPN	SP	_	9	nmod	_	_
+13	X	X	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Mi occupo delle annunci sul treno.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	occupo	occupo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	annunci	annuncio	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	treno	treno	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Mi piace molto!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = L'anno scorso sono stato in regione X per un mezzo anno per studiare la lingua italiana.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+3	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	regione	regione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+8	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	0	root	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	studiare	studiare	VERB	V	VerbForm=Inf	8	advcl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Mi è piacuto molto!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	piacuto	piacere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	molto	molto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = La cucina italiana, il mare, la gente ...
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mare	mare	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gente	gente	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+10	...	...	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Si, ti aiuto per cercare un lavoro.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	aiuto	aere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	cercare	cercare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Se io sento qualcosa ti lo dico subito.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	expl	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	subito	subito	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Vado anche a telefonare un amico per sapere se lui sa qualcosa.
+1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	telefonare	telefonare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	amico	amico	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	sapere	sapere	VERB	V	VerbForm=Inf	4	advcl	_	_
+9	se	se	SCONJ	CS	_	11	mark	_	_
+10	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+12	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	11	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Le Ditta X a Città X cercano sempre personale.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Ditta	ditta	PROPN	SP	_	7	nsubj	_	_
+3	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	SpacesAfter=\s\s
+4	a	a	ADP	E	_	5	case	_	_
+5	Città	Città	PROPN	SP	_	2	nmod	_	_
+6	X	X	PROPN	SP	_	5	flat:name	_	_
+7	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sempre	sempre	ADV	B	_	9	advmod	_	_
+9	personale	personale	ADJ	A	Number=Sing	7	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 15
+# text = Il nummero di telefono è 0345-11111111.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	nummero	nummero	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	0345	0345	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	11111111	11111111	NUM	N	NumType=Card	6	compound	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 16
+# text = Chiama lì!
+1	Chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lì	lì	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Va bene così?
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bene	bene	ADV	B	_	0	root	_	_
+3	così	così	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Ci vediamo in settembre a Città Y per la festa di Eva Tanti saluti Michele
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	città	PROPN	SP	_	4	nmod	_	_
+7	Y	y	PROPN	SP	_	6	flat:name	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	festa	festa	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Eva	Eva	PROPN	SP	_	10	nmod	_	SpacesAfter=\s\s\s\n
+13	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpacesAfter=\s\n
+15	Michele	Michele	PROPN	SP	_	14	nmod	_	SpacesAfter=\n
+

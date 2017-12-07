@@ -1,0 +1,358 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003144_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Das Unternehmen, hier in Stadt X ist sehr begabt.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	hier	hier	ADV	ADV	_	10	advmod	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Stadt	Stadt	PROPN	NN	_	10	obl	_	_
+7	X	X	PROPN	NN	_	6	appos	_	_
+8	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
+10	begabt	begabt	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Wir haben viele Ausländische Fachkräfte, die sich bewerben möchten.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	viele	viel	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+4	Ausländische	ausländisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Fachkräfte	Fachkraft	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	die	der	PRON	PRELS	Case=Nom|PronType=Rel	9	nsubj	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
+9	bewerben	bewerben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	5	acl	_	_
+10	möchten	mögen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Unser Wohnungsmarkt wird sicherlich zu ihnen passen.
+1	Unser	unser	PROPN	PPOSAT	_	7	nsubj	_	_
+2	Wohnungsmarkt	Wohnungsmarkt	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+4	sicherlich	sicherlich	ADV	ADV	_	7	advmod	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+7	passen	passen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Es gibt viele verschiedliche Orte, in denen man Leben kann.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+4	verschiedliche	verschiedlich	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	Orte	Ort	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	denen	der	PRON	PRELS	PronType=Rel	11	obl	_	_
+9	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
+10	Leben	Leben	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	kann	können	VERB	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	acl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ob es die Innenstadt oder etwas weiter vom Centrum ist, ist egal.
+1	Ob	ob	SCONJ	KOUS	_	14	mark	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Innenstadt	Innenstadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+5	oder	oder	CCONJ	KON	_	10	cc	_	_
+6	etwas	etwas	ADV	ADV	_	7	advmod	_	_
+7	weiter	weiter	ADV	ADV	_	10	advmod	_	_
+8-9	vom	_	_	_	_	_	_	_	_
+8	von	von	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Centrum	Centrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	4	punct	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	egal	egal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 6
+# text = Wir finnden für Sie die passende Wohnung in der Sie und ihre Familie friedlich und schön Leben könnt.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	finnden	finnden	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	obl	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	passende	passende	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Sie	Sie|sie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	_
+11	und	und	CCONJ	KON	_	18	cc	_	_
+12	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Familie	Familie	NOUN	NN	_	18	obj	_	_
+14	friedlich	friedlich	ADJ	ADJD	Degree=Pos	17	amod	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	schön	schön	ADJ	ADJD	Degree=Pos	14	conj	_	_
+17	Leben	Leben	NOUN	NN	Case=Acc|Number=Sing	13	obj	_	_
+18	könnt	können	VERB	VVFIN	Person=3|VerbForm=Fin	2	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Die biligeren Wohnungen sind natürlich weit vom Centrum der Stadt entfernt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	biligeren	bilig	ADJ	ADJA	Degree=Cmp	3	amod	_	_
+3	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	12	nsubj	_	_
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+5	natürlich	natürlich	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+6	weit	weit	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+7-8	vom	_	_	_	_	_	_	_	_
+7	von	von	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Centrum	Centrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Stadt	Stadt	NOUN	NN	_	9	nmod	_	_
+12	entfernt	entfernen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 8
+# text = Die teueren sind hingegen im Centrum oder an einem besonderen Ort in der Stadt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	teueren	teuer	ADJ	ADJA	Degree=Cmp	0	root	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	hingegen	hingegen	ADV	ADV	_	7	advmod	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Centrum	Centrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+8	oder	oder	CCONJ	KON	_	12	cc	_	_
+9	an	an	ADP	APPR	_	12	case	_	_
+10	einem	ein	DET	ART	Definite=Ind|PronType=Art	12	det	_	_
+11	besonderen	besonder	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	Ort	Ort	NOUN	NN	_	7	conj	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Zusammenfassend kann man sagen, das nur einen Unterschied bei den Preißen gibt.
+1	Zusammenfassend	zusammenfassend	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	das	der	PRON	PRELS	Case=Nom|PronType=Rel	13	nsubj	_	_
+7	nur	nur	ADV	ADV	_	13	advmod	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10	bei	bei	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Preißen	Preißen	NOUN	NN	Case=Dat|Number=Plur	9	nmod	_	_
+13	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Sonst, ist die Lebensqualität gleich.
+1	Sonst	sonst	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	6	punct	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Lebensqualität	Lebensqualität	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	gleich	gleich	ADV	PTKVZ	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Die Wohnungen außerhalb des Centrums sind auch ein bisschen kleiner, aber sie haben den Vorteil weil, sie einen Garten haben, ihre ruhe, nicht ständig die Geräusche von PKW-s oder S-Bahn.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+3	außerhalb	außerhalb	ADP	APPR	_	5	case	_	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Centrums	Centrum	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	auch	auch	ADV	ADV	_	10	advmod	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+9	bisschen	bisschen	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	kleiner	klein	NOUN	NN	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	aber	aber	CCONJ	KON	_	14	cc	_	_
+13	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	_
+15	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Vorteil	Vorteil	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+17	weil	weil	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	22	punct	_	_
+19	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+20	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	Garten	Garten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	22	punct	_	_
+24	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	ruhe	ruh	NOUN	NN	Case=Nom|Number=Sing	30	nsubj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	25	punct	_	_
+27	nicht	nicht	PART	PTKNEG	Polarity=Neg	28	advmod	_	_
+28	ständig	ständig	ADJ	ADJD	Degree=Pos	30	advmod	_	_
+29	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	30	det	_	_
+30	Geräusche	Geräusch	NOUN	NN	Case=Acc|Number=Plur	22	obj	_	_
+31	von	von	ADP	APPR	_	32	case	_	_
+32	PKW-s	PKW-s	PROPN	NN	_	30	nmod	_	_
+33	oder	oder	CCONJ	KON	_	34	cc	_	_
+34	S-Bahn	S-Bahn	PROPN	NN	_	32	conj	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Dort können Sie in ruhe und frieden Leben.
+1	Dort	dort	ADV	ADV	_	8	advmod	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj:pass	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	ruhe	ruh	PROPN	NE	_	8	obl	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	frieden	freiden	ADJ	ADJD	Degree=Pos	5	conj	_	_
+8	Leben	Leben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Mann muss auch sagen das es auch Nachteile gibt, z.b. ist die nächste Bank, größere Einkaufsläden weit entfernt.
+1	Mann	Mann	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	das	d	PRON	PDS	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	9	det	_	_
+6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+7	auch	auch	ADV	ADV	_	8	advmod	_	_
+8	Nachteile	Nachteil	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
+9	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	15	punct	_	_
+11	z.b.	z.b.	X	ADV	_	15	nsubj	_	_
+12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
+14	nächste	nah	ADJ	ADJA	_	15	amod	_	_
+15	Bank	Bank	NOUN	NN	_	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	größere	groß	ADJ	ADJA	_	18	amod	_	_
+18	Einkaufsläden	Einkaufsladen	NOUN	NN	_	20	nmod	_	_
+19	weit	weit	ADJ	ADJD	Degree=Pos	20	advmod	_	_
+20	entfernt	entfernen	ADJ	VVPP	_	15	appos	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Auch zur Schule muss mann mit dem Bus fahren.
+1	Auch	auch	ADV	ADV	_	4	advmod	_	_
+2-3	zur	_	_	_	_	_	_	_	_
+2	zu	zu	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Schule	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+5	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	mann	mann	PROPN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Bus	Bus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+10	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 15
+# text = Sonst ist alles in Ordnung, was das Leben angeht.
+1	Sonst	sonst	ADV	ADV	_	3	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	0	root	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Ordnung	Ordnung	NOUN	NN	_	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	10	nsubj	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+10	angeht	angehen	VERB	VVFIN	Person=3|VerbForm=Fin	3	acl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 16
+# text = Als Einzelperson ist es besser im Centrum zu Leben, denn mann brauchts alles in der nähe.
+1	Als	als	ADP	KOKOM	_	2	case	_	_
+2	Einzelperson	Einzelperson	NOUN	NN	_	5	nmod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Centrum	Centrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+9	zu	zu	ADP	APPR	_	10	case	_	_
+10	Leben	Leben	NOUN	NN	Case=Dat|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	5	punct	_	_
+12	denn	denn	CCONJ	KON	_	14	cc	_	_
+13	mann	mann	PROPN	NE	_	14	nmod	_	_
+14	brauchts	brauchts	PRON	PIS	Number=Sing|PronType=Neg	5	conj	_	_
+15	alles	alle	PRON	PIS	PronType=Tot	14	det	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	nähe	näh	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Das mann nicht als Student zur Uni mit der S-Bahn eine Stunde fahren muss, sondern nur d.a. 10 bis 15 minuten mit der U-Bahn.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	mann	mann	PROPN	NE	Case=Nom|Number=Sing	14	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+4	als	als	ADP	KOKOM	_	5	case	_	_
+5	Student	Student	NOUN	NN	_	14	obl	_	_
+6-7	zur	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Uni	Uni	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
+9	mit	mit	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	S-Bahn	S-Bahn	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Stunde	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+15	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	23	punct	_	_
+17	sondern	sondern	CCONJ	KON	_	23	cc	_	_
+18	nur	nur	ADV	ADV	_	19	advmod	_	_
+19	d.a.	d.a.	ADV	ADV	_	23	advmod	_	_
+20	10	10	NUM	CARD	NumType=Card	23	nummod	_	_
+21	bis	bis	ADP	KON	_	22	case	_	_
+22	15	15	NUM	CARD	NumType=Card	20	nmod	_	_
+23	minuten	minu	NOUN	NN	_	14	conj	_	_
+24	mit	mit	ADP	APPR	_	26	case	_	_
+25	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	U-Bahn	U-Bahn	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 18
+# text = Mann muss auch beachten, wenn mann eine Wohnung kaufen oder mieten wiel, das die Wohnung auch den Preiß wert ist.
+1	Mann	Mann	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	beachten	beachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+7	mann	mann	PROPN	NE	Case=Nom|Number=Sing	10	nsubj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	4	advcl	_	_
+11	oder	oder	CCONJ	KON	_	13	cc	_	_
+12	mieten	mieten	ADJ	ADJA	Degree=Pos	13	advmod	_	_
+13	wiel	wiel	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	4	punct	_	_
+15	das	der	PRON	PRELS	Case=Nom|PronType=Rel	21	nsubj	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+18	auch	auch	ADV	ADV	_	20	advmod	_	_
+19	den	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
+20	Preiß	Preiß	NOUN	NN	_	21	nmod	_	_
+21	wert	weren	ADJ	ADJD	Degree=Pos	4	acl	_	_
+22	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 19
+# text = Nicht das sie das Haus kaufen und später es beräuen.
+1	Nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+2	das	der	SCONJ	PDS	_	6	mark	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+6	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	und	und	CCONJ	KON	_	10	cc	_	_
+8	später	spät	ADJ	ADJD	Degree=Cmp,Pos	10	advmod	_	_
+9	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	beräuen	beräuen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+

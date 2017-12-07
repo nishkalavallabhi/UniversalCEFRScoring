@@ -1,0 +1,220 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109392_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Tobias Meier Bahnhofsstraße 12 1234 Stadt X Au-pair-Agentur Schultz & Partner Regenstr.
+1	Tobias	Tobias	PROPN	NE	_	11	nsubj	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+5	1234	1234	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	11	nmod	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\n
+8	Au-pair-Agentur	Au-pair-Agentur	PROPN	NN	_	6	appos	_	_
+9	Schultz	Schultz	PROPN	NN	_	8	flat	_	_
+10	&	&	PUNCT	$.	_	11	punct	_	_
+11	Partner	Partner	NOUN	NN	_	0	root	_	SpacesAfter=\n
+12	Regenstr	Regenstr	PROPN	NE	_	11	appos	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = 101 90451 Nürnberg Tel.: 0911/5544223 Fax: 0911/5544224 E-Mail: au-pair-schultz@web.de Stadt X, den 24.09.11 Beschwerde über Ihre Gastfamilie Sehr geehrte Damen und Herren, als ich Ihre Anzeige in der Zeitung las, war ich sofort begeistert.
+1	101	101	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+2	90451	90451	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Nürnberg	Nürnberg	PROPN	NE	_	0	root	_	SpacesAfter=\n
+4	Tel.	Tel.	VERB	NN	_	7	cop	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	4	punct	_	_
+6	0911/5544223	0911/5544223	NUM	CARD	NumType=Card	7	nummod	_	SpacesAfter=\n
+7	Fax	Fax	NOUN	NN	_	3	conj	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	3	punct	_	_
+9	0911/5544224	0911/5544224	NUM	CARD	NumType=Card	10	nummod	_	SpacesAfter=\n
+10	E-Mail	E-Mail	NOUN	NN	_	3	appos	_	SpaceAfter=No
+11	:	:	PUNCT	$.	_	3	punct	_	_
+12	au-pair-schultz@web.de	au-pair-schultz@web.d	ADJ	ADJA	Degree=Pos	13	amod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	Stadt	Stadt	NOUN	NN	_	3	appos	_	_
+14	X	X	PROPN	NN	_	13	appos	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	13	punct	_	_
+16	den	der	PRON	PRELS	Case=Nom|PronType=Rel	18	det	_	_
+17	24.09.11	24.09.11	NUM	CARD	NumType=Card	18	nummod	_	SpacesAfter=\n
+18	Beschwerde	Beschwerde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+19	über	über	ADP	APPR	_	21	case	_	_
+20	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	nmod	_	SpacesAfter=\n
+22	Sehr	Sehr	ADV	ADV	_	23	advmod	_	_
+23	geehrte	geehrt	ADJ	ADJA	Degree=Pos	24	amod	_	_
+24	Damen	Dame	NOUN	NN	_	18	conj	_	_
+25	und	und	CCONJ	KON	_	26	cc	_	_
+26	Herren	Herr	NOUN	NN	_	18	conj	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+28	als	als	SCONJ	KOUS	_	40	mark	_	_
+29	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+30	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	40	nsubj	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Zeitung	Zeitung	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	31	nmod	_	_
+35	las	las	PROPN	VVFIN	_	34	appos	_	SpaceAfter=No
+36	,	,	PUNCT	$,	_	31	punct	_	_
+37	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	40	cop	_	_
+38	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	_
+39	sofort	sofort	ADV	ADV	_	40	advmod	_	_
+40	begeistert	begeistern	ADJ	VVPP	_	3	advcl	_	SpaceAfter=No
+41	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich interessiere mich immer für günstigen Angeboten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	interessiere	interessieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	immer	immer	ADV	ADV	_	2	advmod	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	günstigen	günstig	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	7	amod	_	_
+7	Angeboten	angeboten	NOUN	NN	Case=Dat|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Deswegen habe ich sofor bei Ihnen gebucht.
+1	Deswegen	deswegen	ADV	PAV	_	7	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	sofor	sofor	PROPN	FM	_	3	appos	_	_
+5	bei	bei	ADP	APPR	_	6	case	_	_
+6	Ihnen	Ihnen	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	7	obl	_	_
+7	gebucht	gebuchen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Aber die Situation in Ihrer Gastfamilie war ganz schlimm.
+1	Aber	aber	ADV	KON	_	9	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Situation	Situation	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	Ihrer	Ihr|ihr	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	_
+7	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+8	ganz	ganz	ADV	ADV	_	9	advmod	_	_
+9	schlimm	schlimm	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Sobald ich in Ihrer Gastfamilie angekommen bin, könnte ich nicht jemanden finden, den ich informieren kann.
+1	Sobald	sobald	SCONJ	KOUS	_	6	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	Ihrer	ihr	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+6	angekommen	ankommen	VERB	VVPP	VerbForm=Part	13	advcl	_	_
+7	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	13	punct	_	_
+9	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
+12	jemanden	jemand	PRON	PIS	Case=Dat|PronType=Ind	13	iobj	_	_
+13	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	den	der	SCONJ	PRELS	_	17	mark	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	informieren	informieren	VERB	VVINF	VerbForm=Inf	13	ccomp	_	_
+18	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 7
+# text = Meine Erwartungen waren, eigene Schlaf-zimmer, Sportplatz haben und Tansportmöglickeiten.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Erwartungen	Erwartung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	eigene	eigen	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Schlaf-zimmer	Schlaf-zimmer	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Sportplatz	Sportplatz	NOUN	NN	_	6	conj	_	_
+9	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Tansportmöglickeiten	Tansportmöglickeit	NOUN	NN	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Aber es war das Gegentei-unreadable- Ich habe zu zweit geschlafen, nicht nur das, sonder auch könnt ich nicht Sportplatz finden.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Gegentei-unreadable-	Gegentei-unreadable-	NOUN	NN	_	10	dep	_	SpacesAfter=\s\s
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	zu	zu	ADP	APPR	_	9	case	_	_
+9	zweit	zweit	NOUN	ADJD	_	10	obl	_	_
+10	geschlafen	schlafen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
+13	nur	nur	ADV	ADV	_	12	advmod	_	_
+14	das	der	PRON	PDS	Case=Acc|PronType=Dem	18	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	18	punct	_	_
+16	sonder	sonder	ADJ	ADJA	Degree=Cmp,Pos	18	advmod	_	_
+17	auch	auch	ADV	ADV	_	18	advmod	_	_
+18	könnt	können	VERB	VVFIN	Person=3|VerbForm=Fin	10	acl	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
+21	Sportplatz	Sportplatz	NOUN	NN	_	22	obl	_	_
+22	finden	finden	VERB	VVINF	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 9
+# text = Ich bin Von Stadt Y Flughaffen bis Ihrer Gastfamilie zu gegangen Im Allgemeinen bin ich mit Ihrer Gas-unreadable- unzufrieden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	Von	Von	ADP	APPR	_	4	case	_	_
+4	Stadt	Stadt	PROPN	NN	_	6	nmod	_	_
+5	Y	Y	PROPN	NN	_	4	appos	_	_
+6	Flughaffen	Flughaff	NOUN	NN	_	20	obl	_	_
+7	bis	bis	ADP	APPR	_	9	case	_	_
+8	Ihrer	ihr	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+10	zu	zu	ADP	APPR	_	11	case	_	_
+11	gegangen	gehen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	nmod	_	_
+12-13	Im	_	_	_	_	_	_	_	_
+12	In	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Allgemeinen	Allgemeine	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	nmod	_	_
+15	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+17	mit	mit	ADP	APPR	_	20	case	_	_
+18	Ihrer	Ihr|ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	Gas-unreadable-	Gas-unreadable-	PUNCT	$(	_	20	punct	_	SpacesAfter=\s\s
+20	unzufrieden	unzufrieden	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 10
+# text = Aus diesem Grund möch-unreadable- ich Sie bitten, mindestens ein Drittel v-unreadable- dem Preis, den ich bezahlt habe zurü-unreadable- zu erstatten.
+1	Aus	aus	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Grund	Grund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+4	möch-unreadable-	möch-unreadable-	PUNCT	$(	_	7	punct	_	SpacesAfter=\s\s
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
+7	bitten	bitten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	mindestens	mindestens	ADV	ADV	_	11	advmod	_	_
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Drittel	Drittel	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	obj	_	_
+12	v-unreadable-	v-unreadable-	PUNCT	$(	_	14	punct	_	SpacesAfter=\s\s
+13	dem	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+14	Preis	Preis	NOUN	NN	_	11	conj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	7	punct	_	_
+16	den	der	PRON	PRELS	Case=Acc|PronType=Rel	18	obj	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	bezahlt	bezahlen	VERB	VVPP	VerbForm=Part	7	acl	_	_
+19	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+20	zurü-unreadable-	zurü-unreadable-	PUNCT	$(	_	18	punct	_	SpacesAfter=\s\s
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
+22	erstatten	erstatten	VERB	VVINF	VerbForm=Inf	18	xcomp	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Mit freundlichen Grüßen, Tobias Meier
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Tobias	Tobias	PROPN	NE	_	3	appos	_	_
+6	Meier	Meier	PROPN	NN	_	5	flat	_	SpacesAfter=\n
+

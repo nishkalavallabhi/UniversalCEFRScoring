@@ -1,0 +1,224 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001145_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Ciao cari miei!
+1	Ciao	Ciao	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	cari	caro	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	1	nsubj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = come state?
+1	come	come	ADP	E	_	2	case	_	_
+2	state	essere	X	SW	Foreign=Yes|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io e il mio ragazzo Michele siamo in Italia a Città X.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	e	e	CCONJ	CC	_	9	cc	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	Michele	Michele	PROPN	SP	_	5	nmod	_	_
+7	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	1	conj	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Città	Città	PROPN	SP	_	1	nmod	_	_
+12	X	X	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Questa città è bella e tranquilla.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	tranquilla	tranquillo	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Abitiamo in albergo "La Stella", abbiamo una camera comoda (con bagno) per 4 persone ma abita con noi solo uno ragazza russa Maria.
+1	Abitiamo	abitiamo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+5	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Stella	Stella	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	camera	camera	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	comoda	comodo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+13	(	(	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	con	con	ADP	E	_	15	case	_	_
+15	bagno	bagno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+16	)	)	PUNCT	FB	_	15	punct	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	4	4	NUM	N	NumType=Card	19	nummod	_	_
+19	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+20	ma	ma	CCONJ	CC	_	21	cc	_	_
+21	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+22	con	con	ADP	E	_	23	case	_	_
+23	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	21	obl	_	_
+24	solo	solo	ADV	B	_	26	advmod	_	_
+25	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	21	nsubj	_	_
+27	russa	russo	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	_
+28	Maria	Maria	PROPN	SP	_	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = In Polonia abbiamo cominciato a studiare la lingua italiana perciò qui abbiamo scelto il corso di italiano.
+1	In	in	ADP	E	_	2	case	_	_
+2	Polonia	Polonia	PROPN	SP	_	4	obl	_	_
+3	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	studiare	studiare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	perciò	perciò	SCONJ	CS	_	13	mark	_	_
+11	qui	qui	ADV	B	_	13	advmod	_	_
+12	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	corso	corso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Frequentiamo il corso ogni giorno, studiamo circa 5 - 7 ore dal lunedi al venerdi.
+1	Frequentiamo	Frequentare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	studiamo	studiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	circa	circa	ADV	B	_	9	advmod	_	_
+9	5	5	NUM	N	NumType=Card	12	nummod	_	_
+10	-	-	PUNCT	FF	_	9	punct	_	_
+11	7	7	NUM	N	NumType=Card	12	nummod	_	_
+12	ore	ora	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+13-14	dal	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lunedi	lunede	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+16-17	al	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	venerdi	venerde	NOUN	S	Gender=Masc|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Penso che ogni giorno parliamo di bene in meglio.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+5	parliamo	parlare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	bene	bene	ADV	B	_	5	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	meglio	meglio	ADV	B	_	5	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Quando abbiamo del tempo libero lo passiamo in modo attivo;
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	libero	libero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+8	passiamo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	modo	modo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+11	attivo	attivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	SpaceAfter=No
+12	;	;	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 10
+# text = preferiamo visitare le chiese, i monumenti, camminare lungo le piazze, guardare le fontane, le mostre nei musei.
+1	preferiamo	preferire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	visitare	visitare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	chiese	chiese	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	monumenti	monumento	NOUN	S	Gender=Masc|Number=Plur	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	camminare	camminare	VERB	V	VerbForm=Inf	2	conj	_	_
+10	lungo	lungo	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	piazze	piazza	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	guardare	guardare	VERB	V	VerbForm=Inf	2	conj	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	fontane	fontana	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
+19	mostre	mostra	NOUN	S	Gender=Fem|Number=Plur	16	conj	_	_
+20-21	nei	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	musei	museo	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Ci piace andare a fare una passeggiata, andare in bicicletta ecc. Avete tempo libero?
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	passeggiata	passeggiata	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	bicicletta	bicicletta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	ecc	eccetera	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+14	Avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+15	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+16	libero	libero	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 12
+# text = Vorremmo incontrarci con voi!
+1	Vorremmo	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	incontrarci	_	_	_	_	_	_	_	_
+2	incontrar	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Aspetto alla vostra risposta.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Un baccione Vi abbracciamo Maria & Michele
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	baccione	baccione	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	SpacesAfter=\s\n
+3	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+4	abbracciamo	abbracciare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s\s
+5	Maria	Maria	PROPN	SP	_	4	obj	_	_
+6	&	&	SYM	SYM	_	5	flat:name	_	_
+7	Michele	Michele	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

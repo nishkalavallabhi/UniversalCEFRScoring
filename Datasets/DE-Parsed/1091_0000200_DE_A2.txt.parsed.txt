@@ -1,0 +1,225 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000200_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 123, Zentralplatz, Stadt X. Den , Stadt X 09.
+1	123	123	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Zentralplatz	Zentralplatz	NOUN	NN	_	1	conj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Stadt	Stadt	NOUN	NN	_	1	conj	_	_
+6	X.	X.	PROPN	NE	_	5	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Den	d	PROPN	ART	_	6	appos	_	_
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Stadt	Stadt	PROPN	NN	_	1	conj	_	_
+10	X	X	PROPN	NN	_	9	appos	_	_
+11	09	09	PROPN	CARD	_	9	appos	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = März.
+1	März	März	PROPN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = 2012 Sehr geehret Damen und Herren, mit Interessant ihre Wohnung die Anziege.
+1	2012	2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Sehr	Sehr	NOUN	NN	_	13	dep	_	_
+3	geehret	ehren	PROPN	ADJA	_	4	amod	_	_
+4	Damen	Dame	NOUN	NN	_	2	appos	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Herren	Herr	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	SpacesAfter=\n
+8	mit	mit	ADP	APPR	_	9	case	_	_
+9	Interessant	interessant	NOUN	NN	_	2	conj	_	_
+10	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	die	der	PRON	ART	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	nsubj	_	_
+13	Anziege	Anziege	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 4
+# text = Ich habe die Wesel Zeitung´ Ihre Wohnung gelesen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wesel	Wesel	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	Zeitung´	Zeitung´	NOUN	NN	_	4	appos	_	_
+6	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Es ist mich viele Interessant So habe ich Fragen schreiben.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+4	viele	viel	ADJ	PIAT	Degree=Pos	5	amod	_	_
+5	Interessant	interessant	NOUN	NN	_	10	appos	_	_
+6	So	so	ADV	ADV	_	10	advmod	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	Fragen	Frage	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+10	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich heiße Stefan Schmidt und bin Student.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	heiße	heiß	PROPN	ADJA	Case=Nom|Number=Sing	1	nsubj	_	_
+3	Stefan	Stefan	PROPN	NE	_	2	appos	_	_
+4	Schmidt	Schmidt	PROPN	NE	Case=Dat|Number=Sing	3	flat	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Student	Student	NOUN	NN	_	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Dieses Semester will ich an der Stadt X Universität studieren.
+1	Dieses	dies	PRON	PDS	Case=Nom|PronType=Dem	2	det	_	_
+2	Semester	Semester	NOUN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
+3	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+8	X	X	PROPN	NN	_	7	appos	_	_
+9	Universität	Universität	NOUN	NN	_	7	appos	_	_
+10	studieren	studieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 8
+# text = So suche ich eine schöne Wohnung.
+1	So	so	ADV	ADV	_	2	advmod	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	schöne	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ich bin Doktorand Student und meine Frau will beim Akademie Klausenhof arbeiten und habe Zwei Kinder.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	Doktorand	Doktorand	PROPN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+4	Student	Student	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	13	cc	_	_
+6	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+8	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9-10	beim	_	_	_	_	_	_	_	_
+9	bei	bei	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Akademie	Akademie	PROPN	NN	_	13	obl	_	_
+12	Klausenhof	Klausenhof	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	flat	_	_
+13	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	4	conj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	Zwei	zwei	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Aber Ich habe keine Information.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Information	Information	NOUN	NN	_	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = So möchte ich ihre Wohnung zum Nebenkosten und zur Lage.
+1	So	so	ADV	ADV	_	2	advmod	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Nebenkosten	Nebenkosten	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+9	und	und	CCONJ	KON	_	12	cc	_	_
+10-11	zur	_	_	_	_	_	_	_	_
+10	zu	zu	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Lage	Lage	NOUN	NN	_	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Wie viele Zimmer hat ihre Wohnung?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	viele	viel	ADJ	PIAT	Degree=Pos	3	amod	_	_
+3	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Wich hoch sind die Wohnungsmieten?
+1	Wich	wich	ADJ	VVFIN	_	2	advmod	_	_
+2	hoch	hoch	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Wohnungsmieten	Wohnungsmiet	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 14
+# text = Und ich habe einen Auto.
+1	Und	und	CCONJ	KON	_	5	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	einen	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Haben Sie einem Garage?
+1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+3	einem	ein	PRON	PIS	Case=Dat|PronType=Ind	4	iobj	_	_
+4	Garage	Garage	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Haben Sie einen Balkon?
+1	Haben	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
+3	einen	ein	NOUN	NN	Case=Acc|Number=Plur	4	obj	_	_
+4	Balkon	Balken	PROPN	NN	_	1	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Ich warte auf ihre baldige Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	baldige	baldig	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 18
+# text = Wie viele zinner hat ihre Wohnung?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	viele	viel	ADJ	PIAT	Degree=Pos	3	amod	_	_
+3	zinner	zinner	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Mit freundliche Grüßen.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	Grüßen	Grüßen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 20
+# text = Stefan Schmidt
+1	Stefan	Stefan	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmidt	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

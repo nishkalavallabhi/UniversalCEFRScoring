@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000015_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X,05.01.2012 Liebe Julia, ich will nach Paris fahren, denn ich habe eine Fahrkarte für einen Wochenendausflug gekauft.
+1	Stadt	Stadt	NOUN	NN	_	10	dep	_	_
+2	X,05.01.2012	X,05.01.2012	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+3	Liebe	Liebe	PROPN	NN	_	2	flat	_	_
+4	Julia	Julia	PROPN	NE	_	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Paris	Paris	PROPN	NE	_	10	obl	_	_
+10	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	denn	denn	SCONJ	KON	_	20	mark	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+14	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+20	gekauft	kaufen	VERB	VVPP	VerbForm=Part	10	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Leider kann ich nicht fahren, weil meine Eltern besuchen wollen.
+1	Leider	leider	ADV	ADV	_	5	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Eltern	Eltern	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	5	advcl	_	_
+11	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ich habe die Fahrkarte für 14.01.2012 gekauft.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	14.01.2012	14.01.2012	NUM	CARD	NumType=Card	7	obl	_	_
+7	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Wenn du Zeit in 14.01.2012 hast.
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	6	nsubj	_	_
+3	Zeit	Zeit	NOUN	NN	_	2	nmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	14.01.2012	14.01.2012	NUM	CARD	NumType=Card	6	nmod	_	_
+6	hast.	hast.	ADJ	NE	Degree=Pos	0	root	_	_
+
+# sent_id = 5
+# text = rufst du mich an.
+1	rufst	rufen	ADV	ADV	_	2	advmod	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Eva.
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+3	Eva	Eva	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+

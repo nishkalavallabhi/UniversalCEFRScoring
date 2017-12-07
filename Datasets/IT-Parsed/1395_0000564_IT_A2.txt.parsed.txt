@@ -1,0 +1,195 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000564_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Marco Come stai?
+1	Ciao	ciao	INTJ	I	_	4	obj	_	_
+2	Marco	Marco	PROPN	SP	_	4	nsubj	_	SpacesAfter=\n
+3	Come	come	ADV	B	_	4	advmod	_	_
+4	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Sto bene.
+1	Sto	stare	ADV	B	_	2	advmod	_	_
+2	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Prossima mese ho due settimane vacanza, che bello.
+1	Prossima	prossimo	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	2	amod	_	_
+2	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+9	bello	bello	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Io voglio andare nella tu città.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	nella	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	tu	tu	ADJ	A	_	7	amod	_	_
+7	città	città	NOUN	S	Gender=Fem	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Una volta hai detto a me tu abiti ancora a Città X.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+8	abiti	abitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Città	città	PROPN	SP	_	8	obl	_	_
+12	X	x	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Io e mio ragazzo andremo 21.4
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+5	andremo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	21.4	21.4	NUM	N	NumType=Card	5	nummod	_	_
+
+# sent_id = 7
+# text = -24.4.11 a Città X.
+1	-	-	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+2	24.4.11	24.4.11	NUM	N	NumType=Card	1	nummod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	0	root	_	_
+5	X	X	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = In aprile cosa fai?
+1	In	in	ADP	E	_	2	case	_	_
+2	aprile	aprile	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+4	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = hai tempo per noi?
+1	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Spero l'ultima vista era in 2008 è lungo.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+3	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	vista	vista	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	2008	2008	NUM	N	NumType=Card	9	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Quando possiamo ti trovare?
+1	Quando	quando	SCONJ	CS	_	4	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Scrivi un messagio a me mio nummero 0345-11111111.
+1	Scrivi	Scrivo	ADV	B	_	3	advmod	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	messagio	messagio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	nummero	nummero	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+8	0345	0345	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	11111111	11111111	NUM	N	NumType=Card	8	compound	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Come va con i tuoi genitori è meglio?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	meglio	meglio	ADV	B	_	2	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Scrivi anche il tuo indirizzo.
+1	Scrivi	Scrivo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Io pissonio la via.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	pissonio	pissoniare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	via	via	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Il viaggo è lungo fino a tua casa?
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	viaggo	viaggo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	fino	fino	ADV	B	_	8	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 17
+# text = Ancora 2 ore?
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	2	2	NUM	N	NumType=Card	3	nummod	_	_
+3	ore	ora	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Devo prendere il treno?
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	treno	treno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 19
+# text = A presto.
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 20
+# text = Tanti cari saluti Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur	3	det	_	_
+2	cari	caro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	saluti	salutare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	Maria	Maria	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000001_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Guten Tag Liebe Julia Ich habe eine Fahrkarte für einen Wochenendausflug Fur Berlin gekauft Aber leider kann ich nicht nach Berlin fahren.
+1	Guten	gut	ADJ	ADJA	Degree=Pos	14	advmod	_	_
+2	Tag	Tag	NOUN	NN	_	3	nmod	_	SpacesAfter=\n
+3	Liebe	Liebe	NOUN	NN	Case=Dat|Number=Sing	14	iobj	_	_
+4	Julia	Julia	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+12	Fur	Fur	PROPN	NE	_	11	appos	_	_
+13	Berlin	Berlin	PROPN	NE	_	12	flat	_	_
+14	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+15	Aber	aber	CCONJ	KON	_	22	cc	_	_
+16	leider	leider	ADV	ADV	_	22	advmod	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+19	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	_
+20	nach	nach	ADP	APPR	_	21	case	_	_
+21	Berlin	Berlin	PROPN	NE	Case=Dat|Number=Sing	22	obl	_	_
+22	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	14	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 2
+# text = Weil mein Mann krank ist.
+1	Weil	weil	SCONJ	KOUS	_	4	mark	_	_
+2	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	nsubj	_	_
+4	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Der FarkarTe ist fur nechste Woche am 15.02.2012.
+1	Der	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	FarkarTe	FarkarTe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fur	fur	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	_
+5	nechste	nech	ADJ	ADJA	Degree=Sup	6	amod	_	_
+6	Woche	Woche	NOUN	NN	_	4	nmod	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	3	case	_	_
+8	dem	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+9	15.02.2012	15.02.2012	NUM	CARD	NumType=Card	3	dep	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = um 10.uhr.
+1	um	um	ADP	APPR	_	2	mark	_	_
+2	10.uhr	10.ahren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ich wolte die Faren wenn du diese karte wilst.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wolte	wolen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Faren	Fare	NOUN	NN	_	2	obj	_	_
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+6	du	du	PROPN	PPER	_	8	case	_	_
+7	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	karte	karen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	_
+9	wilst	wilen	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Julia
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s
+3	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,159 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024757_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Ingo, wie geht es dir? ich habe eine neue Arbeit in Neuburg gefunden.
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Neuburg	Neuburg	PROPN	NE	_	13	nmod	_	_
+16	gefunden	finden	VERB	VVPP	VerbForm=Part	10	xcomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Das ist toll, oder?
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	toll	toll	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Aber jetzt ich brauche dein hilfe.
+1	Aber	aber	ADV	KON	_	4	advmod	_	_
+2	jetzt	jetzt	ADV	ADV	_	4	advmod	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	dein	dein	PROPN	PPOSAT	_	4	nsubj	_	_
+6	hilfe	hilfe	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ich suche eine Wohnung in Neuburg, kannst du mir bitte hilfe?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	du	du	PROPN	PPER	Case=Nom|Number=Sing	12	nsubj	_	_
+10	mir	ich	PROPN	PPER	_	9	nmod	_	_
+11	bitte	bitten	PROPN	NN	_	12	amod	_	_
+12	hilfe	hilf	PROPN	NN	_	2	appos	_	SpaceAfter=No
+13	?	?	PROPN	$.	_	12	flat	_	_
+
+# sent_id = 5
+# text = Bis 30.04 ich muss in neue Wohnung umladen, weil am 01.05 meine neue Arbeit beginn.
+1	Bis	bis	ADP	APPR	_	2	case	_	_
+2	30.04	30.04	NUM	CARD	NumType=Card	7	nummod	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	neue	neu	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Wohnung	Wohnung	NOUN	NN	_	0	root	_	_
+8	umladen	umladen	PROPN	NE	_	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	7	punct	_	_
+10	weil	weil	CCONJ	KOUS	_	13	advmod	_	_
+11-12	am	_	_	_	_	_	_	_	_
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	01.05	01.05	NUM	CARD	NumType=Card	7	conj	_	_
+14	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+17	beginn	beginn	NOUN	VVIMP	_	16	appos	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich will nicht eine große Wohnung, 60 qm ist ok.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	60	60	NUM	CARD	NumType=Card	9	nummod	_	_
+9	qm	qm	NOUN	NN	_	6	conj	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	ok	ok	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 7
+# text = Meine neue Arbeit ist als Buchhaldung bei dem Firma Telecom, hoffentlich kannst du eine Wohnung in Nähe finde.
+1	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+2	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	Buchhaldung	Buchhaldung	NOUN	NN	_	0	root	_	_
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Firma	Firma	PROPN	NN	_	6	nmod	_	_
+10	Telecom	Telecom	PROPN	NE	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	6	punct	_	_
+12	hoffentlich	hoffentlich	ADJ	ADJD	Degree=Pos	19	advmod	_	_
+13	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+14	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	19	nsubj	_	_
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+17	in	in	ADP	APPR	_	18	case	_	_
+18	Nähe	Näh	NOUN	NN	_	19	obl	_	_
+19	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Ich suche auch in internet aber vivieleicht in Zeitung sind mehr Anzeigen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	internet	internet	PROPN	NE	_	2	nmod	_	_
+6	aber	aber	ADV	ADV	_	12	advmod	_	_
+7	vivieleicht	vivieleicht	NOUN	NN	Case=Nom|Number=Sing	12	nsubj	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Zeitung	Zeitung	NOUN	NN	_	7	nmod	_	_
+10	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	mehr	mehr	ADV	ADV	_	12	advmod	_	_
+12	Anzeigen	Anzeige|Anzeigen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 9
+# text = Ich rufe dich heute an.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	rufe	rufen	NOUN	NN	Case=Acc|Number=Plur	4	obj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+4	heute	heute	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Vielen Dank für dein hilfe.
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	dein	dein	PROPN	PPOSAT	_	2	nmod	_	_
+5	hilfe	hilfe	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Vielen Gruße deine Freundin Katharina
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Gruße	Muß|Gruße	NOUN	NN	_	4	nmod	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Freundin	Freundin	NOUN	NN	_	0	root	_	_
+5	Katharina	Katharina	PROPN	NE	_	4	appos	_	SpacesAfter=\n
+

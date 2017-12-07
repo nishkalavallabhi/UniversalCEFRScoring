@@ -1,0 +1,266 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100277_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi Città X, 20 febbraio 2011 Strada Maggiore 10 12345 Città X michele.rossi@internet.it Caro Francesco Congratulazioni!
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Città	Città	PROPN	SP	_	1	flat:name	_	_
+4	X	X	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	20	20	NUM	N	NumType=Card	1	nmod	_	_
+7	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	2011	2011	NUM	N	NumType=Card	6	flat	_	SpacesAfter=\s\n
+9	Strada	strada	PROPN	SP	_	1	nmod	_	_
+10	Maggiore	Maggiore	PROPN	SP	_	9	flat:name	_	_
+11	10	10	NUM	N	NumType=Card	9	nummod	_	SpacesAfter=\n
+12	12345	12345	NUM	N	NumType=Card	11	flat	_	_
+13	Città	Città	PROPN	SP	_	11	nsubj	_	_
+14	X	X	PROPN	SP	_	13	flat:name	_	SpacesAfter=\n
+15	michele.rossi@internet.it	michele.rossi@internet.it	SYM	X	_	13	flat:name	_	SpacesAfter=\s\n
+16	Caro	Caro	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+17	Francesco	Francesco	PROPN	SP	_	13	appos	_	SpacesAfter=\n
+18	Congratulazioni	congratulazioni	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Con grande gioia ho letto la tua lettera.
+1	Con	con	ADP	E	_	3	case	_	_
+2	grande	grande	ADJ	A	Number=Sing	3	amod	_	_
+3	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Sei veramente un campionissimo!
+1	Sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	veramente	veramente	ADV	B	_	4	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	campionissimo	campionissimo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Scusa, che ti hai dovuto aspettare così lungo alla mia risposta.
+1	Scusa	scusa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+5	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	aux	_	_
+7	aspettare	aspettare	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+8	così	così	ADV	B	_	7	advmod	_	_
+9	lungo	lungo	ADP	E	_	13	case	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Nell'ultimo periodo avevo molto lavoro nella ditta e ho dovuto aiutare miei genitore da trovare una altra casa perché la loro li ha dato troppo lavoro.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	4	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	ultimo	ultimo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	lavoro	lavoro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8-9	nella	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	aux	_	_
+14	aiutare	aiutare	VERB	V	VerbForm=Inf	7	conj	_	_
+15	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	genitore	genitore	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	da	da	ADP	E	_	18	mark	_	_
+18	trovare	trovare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	altra	altro	ADJ	A	Gender=Fem|Number=Sing	21	amod	_	_
+21	casa	casa	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+22	perché	perché	SCONJ	CS	_	27	mark	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+24	loro	loro	DET	AP	Poss=Yes|PronType=Prs	27	iobj	_	_
+25	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	27	iobj	_	_
+26	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	dato	dare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+28	troppo	troppo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	29	det	_	_
+29	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	27	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Adesso, questo è in ordine e per te - mio amico - ho già alcune idee.
+1	Adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ordine	ordine	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	conj	_	_
+10	-	-	PUNCT	FF	_	6	punct	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	amico	amico	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13	-	-	PUNCT	FF	_	14	punct	_	_
+14	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis	_	_
+15	già	già	ADV	B	_	17	advmod	_	_
+16	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	idee	idea	NOUN	S	Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ho pensato, che tu potresti venire da me e stare da me per forsè due o tre mesi.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	PRON	PR	PronType=Rel	7	mark	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+6	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	2	xcomp	_	_
+8	da	da	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	stare	stare	VERB	V	VerbForm=Inf	7	conj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	forsè	forsé	NOUN	S	Gender=Masc	11	obl	_	_
+16	due	due	NUM	N	NumType=Card	15	nummod	_	_
+17	o	o	CCONJ	CC	_	19	cc	_	_
+18	tre	tre	NUM	N	NumType=Card	19	nummod	_	_
+19	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ho già parlato con il mio capo e lui ha detto che sarà molto contento di ricevere un aiuto per lavorare nella registrazione, perché questa è molto in ritardo.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	già	già	ADV	B	_	3	advmod	_	_
+3	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	capo	capo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+12	che	che	SCONJ	CS	_	15	mark	_	_
+13	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	15	cop	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	contento	contento	ADJ	A	Gender=Masc|Number=Sing	11	ccomp	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	ricevere	ricevere	VERB	V	VerbForm=Inf	15	advcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	lavorare	lavorare	VERB	V	VerbForm=Inf	17	advcl	_	_
+22-23	nella	_	_	_	_	_	_	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	registrazione	registrazione	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	21	punct	_	_
+26	perché	perché	SCONJ	CS	_	31	mark	_	_
+27	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	31	nsubj	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+29	molto	molto	ADV	B	_	31	advmod	_	_
+30	in	in	ADP	E	_	31	case	_	_
+31	ritardo	ritardo	NOUN	S	Gender=Masc|Number=Sing	21	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ti faranno un contratto speciale per ca.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+2	faranno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	contratto	contratto	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	speciale	speciale	ADJ	A	Number=Sing	4	amod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	ca	ca	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = due mesi e ti pagano 1500 -symbol- nel mese.
+1	due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	pagano	pagare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	1500	1500	NUM	N	NumType=Card	12	nummod	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	symbol	symbol	ADJ	A	_	12	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mese	mese	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Che ti pensi?
+1	Che	che	SCONJ	CS	_	3	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Potresti abitare da me e dopo lavoro ti farà idee del futuro.
+1	Potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	abitare	abitare	VERB	V	VerbForm=Inf	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	dopo	dopo	ADP	E	_	7	case	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	iobj	_	_
+9	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	conj	_	_
+10	idee	idea	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+11-12	del	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Mandami il tuo curriculum - ma subito!
+1	Mandami	Mandami	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	curriculum	curriculum	NOUN	S	Gender=Masc	1	obj	_	SpacesAfter=\s\s
+5	-	-	PUNCT	FF	_	1	punct	_	_
+6	ma	ma	CCONJ	CC	_	7	cc	_	_
+7	subito	subito	ADV	B	_	1	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Mi piacerebbe molto di vederti più e spero che tutti vada bene!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	vederti	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+7	più	più	ADV	B	_	5	advmod	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	che	che	SCONJ	CS	_	12	mark	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	12	nsubj	_	_
+12	vada	andare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Tanti saluti, Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Michele	Michele	PROPN	SP	_	2	appos	_	SpacesAfter=\n
+

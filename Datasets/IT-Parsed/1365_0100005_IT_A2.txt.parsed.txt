@@ -1,0 +1,115 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100005_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Lunedi 15 Marzo 2010 Cari amici:Maria e Michele:
+1	Lunedi	Lunedere	PROPN	SP	_	0	root	_	_
+2	15	15	NUM	N	NumType=Card	1	flat:name	_	_
+3	Marzo	marzo	PROPN	SP	_	1	flat:name	_	_
+4	2010	2010	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Cari	care	PROPN	SP	_	1	nmod	_	_
+6	amici:Maria	amici:Maria	PROPN	SP	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Michele	Michele	PROPN	SP	_	5	conj	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = vi rispondo alla vostra invitazione per il vostro matrimonio.
+1	vi	vi	ADV	B	_	2	advmod	_	_
+2	rispondo	rispondo	VERB	V	VerbForm=Ger	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Mi fà moltto piacere di andare alla vostra cerimonia, perche moltto tempo fà chi non vi vedo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	fà	fare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	aux	_	_
+3	moltto	moltto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	andare	andare	VERB	V	VerbForm=Inf	4	acl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	perche	perca	DET	DI	Number=Sing|PronType=Ind	14	det	_	_
+13	moltto	moltto	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	fà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	3	conj	_	_
+16	chi	chi	PRON	PR	Number=Sing|PronType=Rel	15	obj	_	_
+17	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+18	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	19	obj	_	_
+19	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Penso regalarvi stipendio perche sarà migliore per voi, cosi, potete comprare lo che avete bisogno.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	regalarvi	_	_	_	_	_	_	_	_
+2	regalar	regalare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	vi	vi	ADV	B	_	2	advmod	_	_
+4	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	perche	perco	ADV	BN	PronType=Neg	7	advmod	_	_
+6	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	obj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	_
+13	potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	comprare	comprare	VERB	V	VerbForm=Inf	1	conj	_	_
+15	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = vi auguro tutta la felicità del mondo.
+1	vi	vi	ADV	B	_	2	advmod	_	_
+2	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	felicità	felicità	NOUN	S	Gender=Fem	2	obj	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Aspeto impaziente il giorno del vostro matrimonio.
+1	Aspeto	Aspeto	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	impaziente	impaziente	ADV	B	_	1	advmod	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Vi ringrazio.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = A Presto Eva Rossi
+1	A	a	ADP	E	_	2	case	_	_
+2	Presto	presto	PROPN	SP	_	3	nmod	_	_
+3	Eva	Eva	PROPN	SP	_	0	root	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,189 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0108423_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Müller Michael Bahnhofsstraße 12 1234 Stadt X 2011.07.08 Au-pair Agentur Schultz &
+1	Müller	Müller	PROPN	NE	_	6	nmod	_	_
+2	Michael	Michael	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	1234	1234	NUM	CARD	NumType=Card	1	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	10	compound	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	2011.07.08	2011.07.08	PROPN	CARD	_	7	flat	_	SpacesAfter=\n
+9	Au-pair	Au-pair	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	10	amod	_	_
+10	Agentur	Agentur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+11	Schultz	Schultz	PROPN	NN	_	10	appos	_	_
+12	&	&	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Partner Regenstr.
+1	Partner	Partn	NOUN	NN	Case=Nom|Number=Sing	0	root	_	SpacesAfter=\n
+2	Regenstr	Regenstr	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = 101 90451 Nürnberg Beswerden über die Betreung.
+1	101	101	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	90451	90451	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Nürnberg	Nürnberg	PROPN	NE	_	0	root	_	SpacesAfter=\n
+4	Beswerden	Beswerde	PROPN	NN	Case=Nom|Number=Sing	3	flat	_	_
+5	über	über	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Betreung	Betreung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Sehr geehrte Damen und Herren, Als ich Ihre Anzeige über meine Gastfamilie angesehen, habe mich Sofort gefreuen die familie zu Sehen.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	Als	als	SCONJ	KOUS	_	14	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+9	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
+11	über	über	ADP	APPR	_	13	case	_	_
+12	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	angesehen	ansehen	VERB	VVPP	VerbForm=Part	23	advcl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	_
+16	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	19	obj	_	_
+18	Sofort	sofort	ADV	ADV	_	19	advmod	_	_
+19	gefreuen	freuen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur	23	nsubj	_	_
+20	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	familie	familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+22	zu	zu	ADP	APPR	_	23	case	_	_
+23	Sehen	sehen	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Aber nach meine Ankunft ist mir Schön Klar dass die familie nicht So nett, die waren nicht frohlich und es gab immer Streiht.
+1	Aber	aber	CCONJ	KON	_	8	cc	_	_
+2	nach	nach	ADP	APPR	_	4	case	_	_
+3	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Ankunft	ankunft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	Schön	schön	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+8	Klar	klar	PROPN	NN	Case=Dat|Number=Sing	0	root	_	_
+9	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	familie	familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
+13	So	so	ADV	ADV	_	14	advmod	_	_
+14	nett	nett	ADJ	ADJD	Degree=Pos	8	ccomp	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	8	punct	_	_
+16	die	der	PRON	PRELS	Case=Nom|PronType=Rel	19	nsubj	_	_
+17	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	cop	_	_
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
+19	frohlich	frohlich	ADJ	ADJD	Degree=Pos	8	acl	_	_
+20	und	und	CCONJ	KON	_	22	cc	_	_
+21	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	_
+22	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	19	conj	_	_
+23	immer	immer	ADV	ADV	_	24	advmod	_	_
+24	Streiht	Streiht	NOUN	NN	_	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 6
+# text = im hause.
+1-2	im	_	_	_	_	_	_	_	_
+1	in	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	hause	hause	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich habe die Kinder geschenke geKauf um nett zu Sein und ich habe immen und immer vesuchen freuntlich mit dem Kinder anZuschließen, es war unmöglich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	_
+5	geschenke	geschenk	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	geKauf	geKauf	ADV	PAV	_	5	advmod	_	_
+7	um	um	ADP	APPR	_	10	mark	_	_
+8	nett	nett	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+9	zu	zu	ADP	APPR	_	10	case	_	_
+10	Sein	sein	NOUN	NN	Case=Dat|Number=Sing	5	obl	_	_
+11	und	und	CCONJ	KON	_	14	cc	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	immen	immen	VERB	VVINF	VerbForm=Inf	5	conj	_	_
+15	und	und	CCONJ	KON	_	22	cc	_	_
+16	immer	immer	ADV	ADV	_	17	advmod	_	_
+17	vesuchen	vesuchen	ADJ	ADJA	Degree=Pos	18	advmod	_	_
+18	freuntlich	freuntlich	ADJ	ADJD	Degree=Pos	22	advmod	_	_
+19	mit	mit	ADP	APPR	_	21	case	_	_
+20	dem	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	22	obl	_	_
+22	anZuschließen	anzuschließen	VERB	VVIZU	_	14	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	26	punct	_	_
+24	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+25	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	cop	_	_
+26	unmöglich	unmöglich	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = alles war Enttauschung im haus war immer laut Ohne ende, es war nicht was ich Erweitet habe Aus diese Grund find ich man muss erste Überlegen bevor reist und muss ich Sagen alle meine Erwartungen: war nicht als ich vorgestelte habe, ich möchte Antworte Zuruck.
+1	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	3	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	Enttauschung	Enttauschung	NOUN	NN	_	11	nsubj	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	haus	haus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	_
+7	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+8	immer	immer	ADV	ADV	_	9	advmod	_	_
+9	laut	laut	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+10	Ohne	Ohne	ADP	APPR	_	11	case	_	_
+11	ende	end	ADJ	ADJA	Degree=Pos	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
+16	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	29	nsubj	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	Erweitet	erweitet	NOUN	NN	_	29	nsubj	_	_
+19	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+20	Aus	aus	ADP	APPR	_	22	case	_	_
+21	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	22	det	_	_
+22	Grund	Grund	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
+23	find	find	PROPN	NN	_	29	dep	_	_
+24	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+25	man	man	PRON	PIS	Case=Nom|PronType=Ind	29	nsubj	_	_
+26	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+27	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	29	advmod	_	_
+28	Überlegen	überlegen	ADJ	ADJD	Degree=Pos	29	advmod	_	_
+29	bevor	bevor	PART	PTKVZ	_	14	acl	_	_
+30	reist	reisen	VERB	VVFIN	VerbForm=Fin	29	conj	_	_
+31	und	und	CCONJ	KON	_	43	cc	_	_
+32	muss	müssen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	43	aux	_	_
+33	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+34	Sagen	sagen	NOUN	NN	Case=Acc|Number=Plur	43	obj	_	_
+35	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	37	det	_	_
+36	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	37	det:poss	_	_
+37	Erwartungen	Erwartung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	43	obj	_	SpaceAfter=No
+38	:	:	PUNCT	$.	_	37	punct	_	_
+39	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	43	aux	_	_
+40	nicht	nicht	PART	PTKNEG	Polarity=Neg	39	advmod	_	_
+41	als	als	ADP	KOKOM	_	42	case	_	_
+42	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+43	vorgestelte	vorgesteln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	30	conj	_	_
+44	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	SpaceAfter=No
+45	,	,	PUNCT	$,	_	43	punct	_	_
+46	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	48	nsubj	_	_
+47	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	48	aux	_	_
+48	Antworte	Antworte	PROPN	VVFIN	_	43	appos	_	_
+49	Zuruck	Zuruck	PROPN	NE	_	48	flat	_	SpaceAfter=No
+50	.	.	PUNCT	$.	_	48	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = mit freundlichen Grüßen Michael Müller
+1	mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Michael	Michael	PROPN	NE	_	3	appos	_	_
+5	Müller	Müller	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,164 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000398_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 29.5.10 Caro Marco.
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	29.5.10	29.5.10	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+6	Marco	Marco	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Come stai?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io sto bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Anche la mia famiglia sta bene.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = I miei genitori sono andati in vacanza per due settimane, che fortuna che hanno.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	che	che	DET	DE	PronType=Exc	13	det	_	_
+13	fortuna	fortuno	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = :) Mio fratello lavora tutto il giorno, e deve studiare tanto per l'esame, e poi va sempre in giro con la sua nuova ragazza.
+1	:	:	PUNCT	FC	_	5	punct	_	SpaceAfter=No
+2	)	)	PUNCT	FB	_	1	punct	_	SpacesAfter=\n
+3	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	8	det:predet	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	studiare	studiare	VERB	V	VerbForm=Inf	5	conj	_	_
+13	tanto	tanto	ADV	B	_	16	advmod	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	esame	esame	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	20	punct	_	_
+18	e	e	CCONJ	CC	_	20	cc	_	_
+19	poi	poi	ADV	B	_	20	advmod	_	_
+20	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj	_	_
+21	sempre	sempre	ADV	B	_	20	advmod	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	giro	giro	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+24	con	con	ADP	E	_	28	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+26	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+27	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+28	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = E come stanno i tuoi?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	tuoi	tuo	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Io lavoro ancora in Città Y come la ragazza alla pari, e mi piace tanto.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lavoro	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Città	città	PROPN	SP	_	2	obl	_	_
+6	Y	y	PROPN	SP	_	5	flat:name	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+10-11	alla	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	pari	pari	ADJ	A	_	2	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	16	punct	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	tanto	tanto	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Sono in una bellissima famiglia e Città X é troppo bello.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	in	in	ADP	E	_	5	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	amod	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Città	Città	PROPN	SP	_	5	conj	_	_
+8	X	X	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	_
+9	é	é	CCONJ	CC	_	11	cc	_	_
+10	troppo	troppo	ADV	B	_	11	advmod	_	_
+11	bello	bello	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = E tu, che cosa fai adesso?
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+6	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Fammi sentire!
+1	Fammi	Fammo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sentire	sentire	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Tanti e cari saluti.
+1	Tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	cari	caro	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+4	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Maria-image-
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	image	image	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+

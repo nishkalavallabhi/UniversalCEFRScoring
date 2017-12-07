@@ -1,0 +1,111 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000232_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 11.
+1	11	11	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = märz-2012 Lieber Maria.
+1	märz-2012	märz-2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Lieber	lieb	PROPN	NN	_	0	root	_	_
+3	Maria	Maria	PROPN	NE	_	2	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Wie geht es dir?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich hoffe es geht dir gut?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoff	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+5	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	iobj	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	4	xcomp	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Kannst du mir bitte eine gefällen tun?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	7	nsubj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+4	bitte	bitten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	gefällen	gefäll	ADJ	ADJA	Degree=Pos	7	advmod	_	_
+7	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ich fahre morgen nach Stadt X aber ich habe ein hund und meine hund kann ich nicht mitnehmen weil das nicht erlaubt ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	fahre	fahren	PROPN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	morgen	morgen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	nach	nach	ADP	APPR	_	5	case	_	_
+5	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	3	obl	_	_
+6	X	X	PROPN	NN	_	5	appos	_	_
+7	aber	aber	CCONJ	KON	_	9	cc	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	hund	hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	18	obj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	hund	hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	conj	_	_
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	_
+18	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	_
+19	weil	weil	SCONJ	KOUS	_	22	mark	_	_
+20	das	der	PRON	PDS	Case=Nom|PronType=Dem	22	nsubj	_	_
+21	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	_
+22	erlaubt	erlauben	ADJ	VVPP	_	18	advcl	_	_
+23	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Kannst du denn bitte meine hund aufpassen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	7	nsubj	_	_
+3	denn	denn	CCONJ	KON	_	4	cc	_	_
+4	bitte	bitten	PROPN	NN	_	2	conj	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	hund	hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+7	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Ich bin nur für eine woche weg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	nur	nur	ADV	ADV	_	6	advmod	_	_
+4	für	für	ADP	APPR	_	6	case	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	woche	woch	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+7	weg	weg	ADV	PTKVZ	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Ich wurde mich freuen wenn du es tun kannst.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux:pass	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+4	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	tun	tun	VERB	VVINF	VerbForm=Inf	4	advcl	_	_
+9	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Lieber Grüße Friedrich
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Grüße	Grüße	PROPN	NN	_	1	flat	_	SpacesAfter=\n
+3	Friedrich	Friedrich	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

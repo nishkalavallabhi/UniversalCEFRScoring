@@ -1,0 +1,308 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001154_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 2
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	_
+5	2	2	NUM	N	NumType=Card	1	flat:name	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Città X Paese X ALI - Agenzia Lavoro Interinale Via Dante Alighieri 40 I - 42010 Reggio Emilia Italia Città X, 03/03/12 Oggetto:
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Paese	paese	PROPN	SP	_	1	nmod	_	_
+4	X	x	PROPN	SP	_	3	flat:name	_	SpacesAfter=\s\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	ALI	Ali	PROPN	SP	_	3	flat:name	_	_
+6	-	-	PUNCT	FF	_	3	punct	_	_
+7	Agenzia	Agenzia	PROPN	SP	_	17	nmod	_	_
+8	Lavoro	Lavoro	PROPN	SP	_	7	flat:name	_	_
+9	Interinale	Interinale	PROPN	SP	_	7	flat:name	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+10	Via	via	PROPN	SP	_	7	flat:name	_	_
+11	Dante	Dante	PROPN	SP	_	7	flat:name	_	_
+12	Alighieri	Alighieri	PROPN	SP	_	7	flat:name	_	_
+13	40	40	NUM	N	NumType=Card	14	nummod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+14	I	i	X	X	_	7	flat:name	_	_
+15	-	-	PUNCT	FF	_	7	punct	_	_
+16	42010	42010	NUM	N	NumType=Card	17	nummod	_	_
+17	Reggio	Reggio	PROPN	SP	_	1	nmod	_	_
+18	Emilia	Emilia	PROPN	SP	_	17	flat:name	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+19	Italia	Italia	PROPN	SP	_	17	flat:name	_	SpacesAfter=\s\n
+20	Città	Città	PROPN	SP	_	19	flat:name	_	_
+21	X	X	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	19	punct	_	_
+23	03	03	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+24	/	/	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+25	03	03	NUM	N	NumType=Card	28	nummod	_	SpaceAfter=No
+26	/	/	PUNCT	FF	_	25	punct	_	SpaceAfter=No
+27	12	12	NUM	N	NumType=Card	28	nummod	_	SpacesAfter=\s\n
+28	Oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+29	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Risposta a Vostra inserzione Spettabile Agenzia Lavoro Interinale, vorrei sottoporre alla Vostra cortese attenzione il mio interesse ad un eventuale assunzione nella Vostra Società.
+1	Risposta	risporre	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Vostra	vostro	PROPN	SP	_	11	obl	_	_
+4	inserzione	inserzione	NOUN	S	Gender=Fem|Number=Sing	3	flat:name	_	SpacesAfter=\s\n
+5	Spettabile	Spettabile	ADJ	A	Number=Sing	6	amod	_	_
+6	Agenzia	agenzia	PROPN	SP	_	11	nsubj	_	_
+7	Lavoro	lavoro	PROPN	SP	_	6	flat:name	_	_
+8	Interinale	Interinale	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	SpacesAfter=\s\n
+10	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	sottoporre	sottoporre	VERB	V	VerbForm=Inf	0	root	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Vostra	Vostra	PROPN	SP	_	11	obl	_	_
+15	cortese	cortesa	ADJ	A	Number=Sing	14	amod	_	_
+16	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	ad	a	ADP	E	_	23	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+22	eventuale	eventuale	ADJ	A	Number=Sing	23	amod	_	_
+23	assunzione	assunzione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	Vostra	Vostra	PROPN	SP	_	23	nmod	_	_
+27	Società	società	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 4
+# text = Ho 24 anni.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	24	24	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sono laureato nell'Università Università X di Città X nel 2011 con ottimi voti.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	in	in	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	Università	università	PROPN	SP	_	2	obl	_	_
+6	Università	università	PROPN	SP	_	5	flat:name	_	_
+7	X	X	PROPN	SP	_	6	flat:name	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Città	Città	PROPN	SP	_	6	nmod	_	_
+10	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	9	amod	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	2011	2011	NUM	N	NumType=Card	6	nmod	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	ottimi	ottimo	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	_
+16	voti	voto	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Ho un particolare interesse per il mondo della moda.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	particolare	particolare	ADJ	A	Number=Sing	4	amod	_	_
+4	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8-9	della	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	moda	moda	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Come potete vedere dal Curriculum Vitae che allego, ho il diploma di Ragionerie e Perito di Commerciale.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	11	advcl	_	_
+4-5	dal	_	_	_	_	_	_	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Curriculum	Curriculum	PROPN	SP	_	3	obl:agent	_	_
+7	Vitae	Vitae	PROPN	SP	_	6	flat:name	_	_
+8	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+9	allego	allegare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	diploma	diploma	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Ragionerie	Ragionerie	PROPN	SP	_	13	nmod	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Perito	perito	PROPN	SP	_	15	conj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	Commerciale	commerciale	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Ho frequentato un corso per approfondire la mia conoscenza del pacchetto Office.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	frequentato	frequentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	approfondire	approfondire	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pacchetto	pacchetto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	Office	Office	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Parlo abbastanza bene l'inglese, il tedesco e il greco.
+1	Parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	abbastanza	abbastanza	ADV	B	_	1	advmod	_	_
+3	bene	bene	ADV	B	_	1	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	inglese	inglese	NOUN	S	Number=Sing	1	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	greco	greco	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Sono una persona amichevole, socievole, affidabile, volenterosa e desiderosa di imparare, e particolarmente interessata al profilo professionale da Vostra richiesto.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpacesAfter=\s\s
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	amichevole	amichevole	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	socievole	socievole	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	affidabile	affidabile	ADJ	A	Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	volenterosa	volenteroso	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	desiderosa	desideroso	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	imparare	imparare	VERB	V	VerbForm=Inf	3	acl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	18	punct	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	particolarmente	particolarmente	ADV	B	_	18	advmod	_	_
+18	interessata	interessato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+19-20	al	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	profilo	profilo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	_
+22	professionale	professionale	ADJ	A	Number=Sing	21	amod	_	_
+23	da	da	ADP	E	_	24	case	_	_
+24	Vostra	vostro	PROPN	SP	_	3	nmod	_	_
+25	richiesto	richiesto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ho una breve, ma significativa esperienza lavorativa.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	breve	breve	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	ma	ma	CCONJ	CC	_	7	cc	_	_
+6	significativa	significativo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+8	lavorativa	lavorativo	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Sono altresì disponibile a frequentare un eventuale corsi di formazione ed a fare trasferte anche all'estero.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	altresì	altresì	ADV	B	_	3	advmod	_	_
+3	disponibile	disponibile	ADJ	A	Number=Sing	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	frequentare	frequentare	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	eventuale	eventuale	ADJ	A	Number=Sing	8	amod	_	_
+8	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+11	ed	e	CCONJ	CC	_	13	cc	_	_
+12	a	a	ADP	E	_	13	mark	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+14	trasferte	trasferta	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+15	anche	anche	ADV	B	_	18	advmod	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	estero	estero	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Anche ho domande -unreadable- di data d'inizio dello stage, orario di lavoro e retribuzione.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\s
+7	di	di	ADP	E	_	8	case	_	_
+8	data	data	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11-12	dello	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	stage	stage	NOUN	S	Gender=Masc	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	orario	orario	NOUN	S	Gender=Masc|Number=Sing	13	appos	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	retribuzione	retribuzione	NOUN	S	Gender=Fem|Number=Sing	15	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Spero pertanto che vorrete considerare la mia candidatura.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	pertanto	pertanto	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	vorrete	vorere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	considerare	considerare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = RingraziandoVi per l'attenzione dedicatami.
+1-2	RingraziandoVi	_	_	_	_	_	_	_	_
+1	Ringraziando	Ringraziare	VERB	V	VerbForm=Ger	0	root	_	_
+2	vi	vi	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	dedicatami	dedicatame	NOUN	S	Gender=Masc|Number=Plur	5	compound	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Sono a disposizione per un colloquio informativo.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	disposizione	disposizione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	informativo	informativo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Con i migliori saluti Maria Rossi
+1	Con	con	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	4	amod	_	_
+4	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s
+5	Maria	Maria	PROPN	SP	_	0	root	_	_
+6	Rossi	Rossi	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+

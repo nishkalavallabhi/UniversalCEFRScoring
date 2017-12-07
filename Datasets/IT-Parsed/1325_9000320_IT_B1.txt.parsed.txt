@@ -1,0 +1,179 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000320_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi Strada Maggiore 113 12345 Città X 15.
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	_
+5	113	113	NUM	N	NumType=Card	1	flat:name	_	SpacesAfter=\s\n
+6	12345	12345	NUM	N	NumType=Card	1	flat:name	_	_
+7	Città	città	PROPN	SP	_	1	nmod	_	_
+8	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+9	15	15	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Marzo 2011 Lettere personali Giorgio Settimana Giovani Via Crispi 119 80127 Caserta Oggetto:
+1	Marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	2011	2011	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\s\n
+3	Lettere	Lettere	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	_
+4	personali	personale	ADJ	A	Number=Plur	3	amod	_	SpacesAfter=\n
+5	Giorgio	Giorgio	PROPN	SP	_	7	nmod	_	SpacesAfter=\n
+6	Settimana	settimana	PROPN	SP	_	5	flat:name	_	_
+7	Giovani	Giovani	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+8	Via	via	PROPN	SP	_	7	flat:name	_	_
+9	Crispi	Crispi	PROPN	SP	_	7	flat:name	_	_
+10	119	119	NUM	N	NumType=Card	12	nummod	_	SpacesAfter=\n
+11	80127	80127	NUM	N	NumType=Card	12	nummod	_	_
+12	Caserta	Caserta	PROPN	SP	_	7	nmod	_	SpacesAfter=\n
+13	Oggetto	oggetto	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = Amici virtuali
+1	Amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	virtuali	virtuale	ADJ	A	Number=Plur	1	amod	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Caro Giorgio Benche io abbia non mai avuto delle amicizie virtuali ho letto le tue righe con grande interesse.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Giorgio	Giorgio	PROPN	SP	_	5	obj	_	SpacesAfter=\s\n
+3	Benche	Benche	PROPN	SP	_	2	flat:name	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	mai	mai	ADV	B	_	8	advmod	_	_
+8	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	14	obl	_	_
+12	virtuali	virtuale	ADJ	A	Number=Plur	11	amod	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
+16	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	righe	riga	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+18	con	con	ADP	E	_	20	case	_	_
+19	grande	grande	ADJ	A	Number=Sing	20	amod	_	_
+20	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Non potrei imaginarmi di scrivere, di parlare, o anche di lottare con una persona che ho visto mai, anche se è un pensiero interessante.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	imaginarmi	arma|imaginarme	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	scrivere	scrivere	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	3	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	13	punct	_	_
+10	o	o	CCONJ	CC	_	13	cc	_	_
+11	anche	anche	ADV	B	_	13	advmod	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	lottare	lottare	VERB	V	VerbForm=Inf	3	conj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	persona	persona	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	mai	mai	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	3	punct	_	_
+22	anche	anche	ADV	B	_	23	advmod	_	_
+23	se	se	SCONJ	CS	_	26	mark	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	pensiero	pensiero	NOUN	S	Gender=Masc|Number=Sing	3	advcl	_	_
+27	interessante	interessante	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Il fatto che non si puo essere sicuri chi e ad altra parte non mi piace.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+6	puo	puo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	essere	essere	AUX	V	VerbForm=Inf	8	cop	_	_
+8	sicuri	sicurare	ADJ	A	Gender=Masc|Number=Plur	6	xcomp	_	_
+9	chi	chi	PRON	PR	Number=Sing|PronType=Rel	8	nsubj	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	ad	a	ADP	E	_	13	case	_	_
+12	altra	altro	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+13	parte	parte	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+14	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Siccome gli amici sono gli amici mandarei un messaggio a tutti spiegando le mie cause.
+1	Siccome	siccome	ADP	E	_	6	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+7	mandarei	mandare	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	9	nmod	_	_
+12	spiegando	spiegare	VERB	V	VerbForm=Ger	6	acl:relcl	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+14	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	cause	causa	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Secondo me l'internet e una fortuna e un fastidio.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	internet	internet	NOUN	S	_	2	conj	_	_
+5	e	e	CCONJ	CC	_	4	cc	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = E stato giusto che l'hai lasciato ma e importante che tu informa l'altri.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	giusto	giusto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+6	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	lasciato	lasciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+8	ma	ma	CCONJ	CC	_	13	cc	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	importante	importante	ADJ	A	Number=Sing	8	conj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+12	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
+13	informa	informare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	13	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Spero di aver aiutarti.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	4	mark	_	_
+3	aver	avere	AUX	VA	VerbForm=Inf	4	aux	_	_
+4	aiutarti	aiutartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Cari saluti Michele
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

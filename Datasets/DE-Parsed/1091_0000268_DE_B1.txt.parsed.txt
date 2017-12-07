@@ -1,0 +1,145 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000268_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Julia 24.10.2012 Wie geht´s dir?!
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Julia	Julia	PROPN	NE	_	1	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	24.10.2012	24.10.2012	PROPN	CARD	_	2	flat	_	SpacesAfter=\n
+4	Wie	wie	PROPN	KOUS	_	2	flat	_	_
+5	geht´s	geht´s	PROPN	NE	_	2	flat	_	_
+6	dir	dir	PROPN	NN	_	2	flat	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	2	flat	_	SpaceAfter=No
+8	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich habe eine Fahrkarte nach Frankreich gekauft.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	nach	nach	ADP	APPR	_	6	case	_	_
+6	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+7	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = aber heute habe ich mit meinem Chef gesprochen.
+1	aber	aber	ADV	ADV	_	8	advmod	_	_
+2	heute	heute	ADV	ADV	_	8	advmod	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Chef	Chef	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+8	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Und Ich kann nicht nach Frankreich Fahren, weil ich arbeiten soll.
+1	Und	und	CCONJ	KON	_	7	cc	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+5	nach	nach	ADP	APPR	_	6	case	_	_
+6	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+7	Fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	7	advcl	_	_
+12	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich wollte Am Freitag (1.11.2012) meinen ausflug machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+3-4	Am	_	_	_	_	_	_	_	_
+3	An	an	PROPN	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	1.11.2012	1.11.2012	NUM	CARD	NumType=Card	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	$(	_	7	punct	_	_
+9	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	ausflug	ausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+11	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Und ich wollte mit dem Zug fahren, mit "ICE" ist am schnellsten.
+1	Und	und	CCONJ	KON	_	7	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+7	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	mit	mit	ADP	APPR	_	11	case	_	_
+10	"	"	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	ICE	ICE	PROPN	NE	_	16	nmod	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	11	punct	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14-15	am	_	_	_	_	_	_	_	_
+14	an	an	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
+16	schnellsten	schnell	ADJ	ADJA	Degree=Sup	7	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = aber leider, Ich kann nicht das machen.
+1	aber	aber	ADV	ADV	_	2	advmod	_	_
+2	leider	leider	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	8	punct	_	_
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+7	das	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Und velleicht willst meine Kartfahre haben?
+1	Und	und	CCONJ	KON	_	6	cc	_	_
+2	velleicht	velleicht	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+3	willst	willsen	ADV	ADV	_	6	advmod	_	_
+4	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Kartfahre	Kartfahr	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 9
+# text = du liebst Frankreich soviel, und jezts hast du eine große chance.
+1	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+2	liebst	liebst	ADP	APPR	_	3	case	_	_
+3	Frankreich	Frankreich	PROPN	NE	_	1	nmod	_	_
+4	soviel	sovallen	VERB	PIS	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	jezts	jezts	ADV	ADV	_	8	advmod	_	_
+8	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	nsubj	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	chance	chance	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = nach Frankreich zuFahren.
+1	nach	nach	ADP	APPR	_	2	case	_	_
+2	Frankreich	Frankreich	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+3	zuFahren	zuFahren	VERB	VVFIN	VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Vielen Dank.
+1	Vielen	Vielen	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Dein Tobias
+1	Dein	dein	PROPN	PPOSAT	_	0	root	_	_
+2	Tobias	Tobias	PROPN	NN	_	1	flat	_	SpacesAfter=\n
+

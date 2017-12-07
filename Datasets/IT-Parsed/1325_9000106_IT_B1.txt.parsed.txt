@@ -1,0 +1,256 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000106_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Settimana Giovani - Via F.Crispi 119 - 80127 Caserata Caro Giorgio!
+1	Settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Giovani	Giovani	PROPN	SP	_	1	nmod	_	_
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	Via	via	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+5	F.Crispi	F.Crispi	PROPN	SP	_	2	nmod	_	_
+6	119	119	NUM	N	NumType=Card	5	flat:name	_	_
+7	-	-	PUNCT	FF	_	5	punct	_	_
+8	80127	80127	NUM	N	NumType=Card	9	nummod	_	_
+9	Caserata	Caserata	PROPN	SP	_	10	nmod	_	SpacesAfter=\n
+10	Caro	Caro	PROPN	SP	_	5	nmod	_	_
+11	Giorgio	Giorgio	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Secondo me tu hai deciso bene di fermare.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	fermare	fermare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Penso che le amicizie virtuali non siano quelli che ti servono.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	8	nsubj	_	_
+5	virtuali	virtuale	ADJ	A	Number=Plur	4	amod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	1	ccomp	_	_
+9	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+10	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	obj	_	_
+11	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Per la amicizia normale o vera si deve incontrare la gente personalmente.
+1	Per	per	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+4	normale	normale	ADJ	A	Number=Sing	3	amod	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	vera	vero	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:pass	_	_
+8	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	incontrare	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	gente	gente	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+12	personalmente	personalmente	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Si deve parlare con loro e anche guardare negli occhi.
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl:impers	_	_
+2	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	anche	anche	ADV	B	_	8	advmod	_	_
+8	guardare	guardare	VERB	V	VerbForm=Inf	3	conj	_	_
+9-10	negli	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Gli occhi parlano molto e si danno informazioni importanti per giudicare una persona.
+1	Gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	occhi	occhio	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	molto	molto	ADV	B	_	3	advmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:pass	_	_
+7	danno	dare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+9	importanti	importante	ADJ	A	Number=Plur	8	amod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	giudicare	giudicare	VERB	V	VerbForm=Inf	8	acl	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	persona	persona	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ti do un consiglio, chiamati qualcuno per incontrare personalmente!
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+2	do	do	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	chiamati	chiamare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+7	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nsubj:pass	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	incontrare	incontrare	VERB	V	VerbForm=Inf	6	advcl	_	_
+10	personalmente	personalmente	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Per esempio andatevi al bar per prendere un caffè e dopo tu puoi decidere che abbia trovato il persona giusta oppure devi cercare di più.
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	andatevi	andare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	bar	bar	NOUN	S	Gender=Masc	3	obl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	prendere	prendere	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	caffè	caffè	NOUN	S	Gender=Masc	8	obj	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	dopo	dopo	ADP	E	_	13	case	_	_
+13	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	15	obl	_	_
+14	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	decidere	decidere	VERB	V	VerbForm=Inf	8	conj	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	abbia	avere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	persona	persona	NOUN	S	Gender=Fem|Number=Sing	18	obj	_	_
+21	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22	oppure	oppure	CCONJ	CC	_	24	cc	_	_
+23	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	cercare	cercare	VERB	V	VerbForm=Inf	18	conj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	più	più	ADV	B	_	24	advmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Anchio parlo con i miei amici con Internet, ma questi sono i miei amici veri che conosco da molto tempo.
+1	Anchio	Anchio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	parlo	parlare	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Internet	Internet	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	15	punct	_	_
+10	ma	ma	CCONJ	CC	_	15	cc	_	_
+11	questi	questi	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	15	nsubj	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+14	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+16	veri	vero	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	_
+17	che	che	PRON	PR	PronType=Rel	18	nsubj	_	_
+18	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+19	da	da	ADP	E	_	21	case	_	_
+20	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	21	det	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Penso che questa strada sia giusta per tutti.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	strada	strada	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	giusta	giusto	ADJ	A	Gender=Fem|Number=Sing	1	ccomp	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Secondo me si può usare di Internet per scrivere le lettere e leggere le informazioni, anche per communicare con la sua banca, si può fare acquisti.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+4	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Internet	internet	PROPN	SP	_	5	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	scrivere	scrivere	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	leggere	leggere	VERB	V	VerbForm=Inf	9	conj	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	anche	anche	ADV	B	_	19	advmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	communicare	communicare	VERB	V	VerbForm=Inf	13	advcl	_	_
+20	con	con	ADP	E	_	23	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	banca	banca	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	5	punct	_	_
+25	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	27	expl:impers	_	_
+26	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+27	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+28	acquisti	acquisto	NOUN	S	Gender=Masc|Number=Plur	27	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Per cominciare la amicizia normale ti chiamo io!
+1	Per	per	ADP	E	_	2	mark	_	_
+2	cominciare	cominciare	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	normale	normale	ADJ	A	Number=Sing	4	amod	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+7	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 13
+# text = Incontriamo domani sera alle 8.00 in piazza Tante.
+1	Incontriamo	incontriamo	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	domani	domani	ADV	B	_	1	advmod	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	8.00	8.00	NUM	N	NumType=Card	9	nummod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	Tante	tante	PROPN	SP	_	1	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Il mio numero di telefono é 0345-11111111 A Presto!
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	numero	numero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	é	é	CCONJ	CC	_	10	cc	_	_
+7	0345	0345	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	11111111	11111111	NUM	N	NumType=Card	7	compound	_	SpacesAfter=\n
+10	A	a	PROPN	SP	_	3	conj	_	_
+11	Presto	presto	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Ci vediamo a domani Maria
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	domani	domani	ADV	B	_	2	advmod	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	SP	_	2	nsubj	_	SpacesAfter=\n
+

@@ -1,0 +1,222 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100191_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 28/05/2011.
+1	28	28	NUM	N	NumType=Card	0	root	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	05	05	NUM	N	NumType=Card	1	compound	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	2011	2011	NUM	N	NumType=Card	3	compound	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Egregio Signore, sto scrivendo per annurciarsi l'intenzione mia di frequentare uno di loro corsi relevanti, cioé il corso estivo al mare.
+1	Egregio	Egregio	PROPN	SP	_	0	root	_	_
+2	Signore	signore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\s
+4	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scrivendo	scrivere	VERB	V	VerbForm=Ger	1	parataxis	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	annurciarsi	_	_	_	_	_	_	_	_
+7	annurciar	annurciare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	intenzione	intenzione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	frequentare	frequentare	VERB	V	VerbForm=Inf	10	acl	_	_
+14	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	14	nmod	_	_
+17	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	13	xcomp	_	_
+18	relevanti	relevante	ADJ	A	Number=Plur	17	amod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	cioé	cioé	SCONJ	CS	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	corso	corso	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+23	estivo	estivo	ADJ	A	Gender=Masc|Number=Sing	22	amod	_	_
+24-25	al	_	_	_	_	_	_	_	_
+24	a	a	ADP	E	_	26	case	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	mare	mare	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sono un insegnante quindi fortunamente ho una vacanze di due mesi dal Luglio al Agosto.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	0	root	_	_
+4	quindi	quindi	ADV	B	_	3	advmod	_	_
+5	fortunamente	fortunamente	ADV	B	_	6	advmod	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	due	due	NUM	N	NumType=Card	11	nummod	_	_
+11	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12-13	dal	_	_	_	_	_	_	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Luglio	luglio	PROPN	SP	_	6	obl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Agosto	agosto	PROPN	SP	_	6	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Penso che questo corso sia il migliore per me tanto sarò libero in questi mesi e mi piace essere in un paese mediterranae d'estate.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	sia	sia	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	1	ccomp	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+10	tanto	tanto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	_
+11	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	12	cop	_	_
+12	libero	libero	ADJ	A	Gender=Masc|Number=Sing	7	advcl	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	15	det	_	_
+15	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	paese	paese	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+23	mediterranae	mediterranarre	ADJ	A	Number=Sing	22	amod	_	_
+24	d'	di	ADP	E	_	25	case	_	SpaceAfter=No
+25	estate	estate	NOUN	S	Gender=Fem|Number=Sing	22	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Vorrei iscrivermi per una vacanze-studio di -unreadable- settimane.dal 10 July al 28 July Potrebbero informarmi che in quale modo sono abbinate questi corsi?
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	iscrivermi	iscrivermo	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	studio	studio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+8	di	di	ADP	E	_	12	case	_	_
+9	-	-	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	FB	_	10	punct	_	_
+12	settimane.dal	settimane.dal	NOUN	S	Gender=Masc	7	nmod	_	_
+13	10	10	NUM	N	NumType=Card	14	nummod	_	_
+14	July	July	PROPN	SP	_	12	nmod	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	28	28	NUM	N	NumType=Card	20	obl	_	_
+18	July	July	PROPN	SP	_	20	nsubj	_	_
+19	Potrebbero	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20-21	informarmi	_	_	_	_	_	_	_	SpacesAfter=\s\s
+20	informar	informare	VERB	V	VerbForm=Inf	2	csubj	_	_
+21	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+22	che	che	SCONJ	CS	_	27	mark	_	_
+23	in	in	ADP	E	_	25	case	_	_
+24	quale	quale	DET	DQ	Number=Sing|PronType=Int	25	det	_	_
+25	modo	modo	NOUN	S	Gender=Masc|Number=Sing	27	obl	_	_
+26	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+27	abbinate	abbinare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	20	ccomp	_	_
+28	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	29	det	_	_
+29	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	27	nsubj:pass	_	SpaceAfter=No
+30	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Perché ho i progetti di prendere un alloggio a Roma nella casa di mia nonna.
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	progetti	progetto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	prendere	prendere	VERB	V	VerbForm=Inf	4	acl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Roma	Roma	PROPN	SP	_	6	obl	_	SpacesAfter=\s\s
+11-12	nella	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	nonna	nonna|nonno	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Tanto non bisognò di prenotare un alloggio.
+1	Tanto	tanto	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	SpacesAfter=\s\s
+3	bisognò	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	prenotare	prenotare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Anche posso usare la sua macchina per viaggiare.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	viaggiare	viaggiare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n\s
+
+# sent_id = 9
+# text = Avete menziato la possibilità di fare una vacanza in Cliento.
+1	Avete	avere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	menziato	menziare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	possibilità	possibilità	NOUN	S	Gender=Fem	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Cliento	Cliento	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Posso andare lì quando io stesso voglio fare un vacanze o è un periodo deciso.
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+3	lì	lì	ADV	B	_	2	advmod	_	_
+4	quando	quando	SCONJ	CS	_	8	mark	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11	o	o	CCONJ	CC	_	14	cc	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+15	deciso	deciso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = In attesa nel suo risposto Cordiali saluti, Michele Rossi
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	risposto	risposto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\s
+7	Cordiali	Cordiale	ADJ	A	Number=Plur	8	amod	_	_
+8	saluti	salutare	NOUN	S	Gender=Masc|Number=Plur	6	compound	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+10	Michele	Michele	PROPN	SP	_	0	root	_	_
+11	Rossi	Rossi	PROPN	SP	_	10	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,161 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000168_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Katharina, ich schreibe dir, weil ich ein große Problem habe.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Katharina	Katharina	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	schreibe	schreiben	VERB	VVFIN	VerbForm=Fin	1	conj	_	_
+6	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	5	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+11	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+13	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich muss für vier Tagen nach Hamburg fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	vier	vier	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Tagen	Tag	NOUN	NN	Case=Dat|Number=Plur	8	obl	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Hamburg	Hamburg	PROPN	NE	Case=Dat|Number=Sing	8	obl	_	_
+8	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Wie du schon weist, ich habe eine Katze.
+1	Wie	wie	ADP	KOUS	_	4	advmod	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	nsubj	_	_
+3	schon	schon	ADV	ADV	_	4	advmod	_	_
+4	weist	weisen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Leider, kann ich nicht mit mir mitnehmen, weil eine Geschäftreise ist und ich fahre auch mit meinem Chef.
+1	Leider	leider	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	8	punct	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+8	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+11	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Geschäftreise	Geschäftreise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	fahre	fahren	NOUN	NN	_	13	conj	_	_
+17	auch	auch	ADV	ADV	_	16	advmod	_	_
+18	mit	mit	ADP	APPR	_	20	case	_	_
+19	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	Chef	Chef	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Deshalb habe ich einen Gefallen bitten bei dir.
+1	Deshalb	deshalb	ADV	PAV	_	6	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	SpacesAfter=\s\s
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|PronType=Art	5	det	_	SpacesAfter=\s\s
+5	Gefallen	Gefalle	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+6	bitten	bitten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	bei	bei	ADP	APPR	_	8	case	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Kannst du bitte, um meine Katze kummern?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+3	bitte	bitten	PROPN	NN	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	um	um	ADP	KOUI	_	7	case	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	kummern	kummern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Ist es möglich, dass du meine Katze in deine Haus nimst?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	nsubj	_	_
+7	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	deine	dein	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Haus	Haus	NOUN	NN	_	8	nmod	_	_
+12	nimst	nimst	ADV	ADV	_	3	csubj	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Die Reise ist von 09.01.2012 bis 13.01.2012.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Reise	Reise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	09.01.2012	09.01.2012	NUM	CARD	NumType=Card	0	root	_	_
+6	bis	bis	ADP	KON	_	7	case	_	_
+7	13.01.2012	13.01.2012	NUM	CARD	NumType=Card	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Ich freue mich sehr wenn du mich schnell antworten kannst und ich hoffe dass ich nicht störe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	nsubj	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+8	schnell	schnell	ADV	ADJD	_	9	advmod	_	_
+9	antworten	antworten	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+10	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	2	conj	_	_
+14	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
+17	störe	stören	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	13	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich warte auf deine Anwort!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	0	root	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Anwort	Anwort	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Viele Grüße!
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Deine freundin Maria
+1	Deine	Dein	PROPN	NN	_	0	root	_	_
+2	freundin	Freundin	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	Maria	Maria	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+

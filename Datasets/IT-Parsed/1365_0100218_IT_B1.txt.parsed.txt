@@ -1,0 +1,160 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100218_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18 giugno 2011
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	18	18	NUM	N	NumType=Card	1	nmod	_	_
+5	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Caro Francesco, Due settimane fa, abbiamo comprato delle biciclette per andare a fare passeggiate in famiglia.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Francesco	Francesco	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	fa	fa	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10-11	delle	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	biciclette	bicicletta	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	andare	andare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16	fare	fare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	passeggiate	passeggiata	NOUN	S	Gender=Fem|Number=Plur	16	obj	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Adesso stiamo guardando per trascorrere una settimana al mare in un albergo che ospita i bambini.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	guardando	guardare	VERB	V	VerbForm=Ger	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	trascorrere	trascorrere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mare	mare	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+15	ospita	ospitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Se non ti da fastidio di venire a Città X, potrai lavorare presso la ditta di Michele.
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	expl	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	fastidio	fastidio	NOUN	S	Gender=Masc|Number=Sing	13	advcl	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	5	acl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Città	Città	PROPN	SP	_	7	obl	_	_
+10	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	potrai	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	13	aux	_	_
+13	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	_
+14	presso	presso	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Michele	Michele	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Penso che sià una buona idea per parlare e scrivere ogni giorno in tedesco.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	sià	sià	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	buona	buono	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	parlare	parlare	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	scrivere	scrivere	VERB	V	VerbForm=Inf	8	conj	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Che ne pensi?
+1	Che	che	PRON	PQ	PronType=Int	3	obj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+3	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Il mio lavoro mi piace moltissimo, ma non vedo l'ora di partire in vacanza.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	moltissimo	molto	ADV	B	Degree=Abs	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	ma	ma	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	partire	partire	VERB	V	VerbForm=Inf	12	acl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Sono molto contenta che ti sei laureato e non dubito che troverai un lavoro piacevole.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+6	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	dubito	dubitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	che	che	SCONJ	CS	_	12	mark	_	_
+12	troverai	troveere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	ccomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	piacevole	piacevole	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Spero di sentirti presto.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	sentirti	_	_	_	_	_	_	_	_
+3	sentir	sentire	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+5	presto	presto	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Un forte abbraccio Maria
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	forte	forte	ADJ	A	Number=Sing	3	amod	_	_
+3	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
+4	Maria	Maria	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000217_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 10.03.2012 Das Wohnungsamt Stadt X. Sr. Maria Klausenhof Stadt X. Suchen für eine neue wochnung Sehr Geehrte Damen und Herren, Ich möchte eine neue wohnung umziehen.
+1	10.03.2012	10.03.2012	NUM	CARD	NumType=Card	27	obl	_	SpacesAfter=\n
+2	Das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Wohnungsamt	Wohnungsamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	27	obj	_	SpacesAfter=\n
+4	Stadt	Stadt	PROPN	NN	_	3	amod	_	_
+5	X.	X.	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+6	Sr.	Sr.	PROPN	NN	_	4	flat	_	_
+7	Maria	Maria	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+8	Klausenhof	Klausenhof	PROPN	NN	_	7	flat	_	SpacesAfter=\n
+9	Stadt	Stadt	PROPN	NN	_	7	flat	_	_
+10	X.	X.	PROPN	NE	_	7	flat	_	SpacesAfter=\n
+11	Suchen	suchen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	3	nmod	_	_
+12	für	für	ADP	APPR	_	15	case	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	wochnung	wochnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\n
+16	Sehr	sehr	ADV	ADV	_	17	advmod	_	_
+17	Geehrte	Geehrte	ADJ	VVFIN	_	18	amod	_	_
+18	Damen	Dame	NOUN	NN	Case=Dat|Number=Plur	15	nmod	_	_
+19	und	und	CCONJ	KON	_	20	cc	_	_
+20	Herren	Herr	NOUN	NN	_	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+22	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+23	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	aux	_	_
+24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	obj	_	_
+27	umziehen	umziehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	27	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte wissen wie hoch die miete ist?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	wie	wie	ADV	KOKOM	_	5	advmod	_	_
+5	hoch	hoch	ADJ	ADJD	Degree=Pos	3	ccomp	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	miete	miet	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich bin verheirated und habe 3 Kinder.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	verheirated	verheirated	ADJ	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	3	3	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte 3 zimmer wohnung und Küche und eine kleine Balkon.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	3	3	NUM	CARD	NumType=Card	4	nummod	_	_
+4	zimmer	zimmer	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
+5	wohnung	wohnung	NOUN	NN	_	4	conj	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Küche	Küche	NOUN	NN	_	5	conj	_	_
+8	und	und	CCONJ	KON	_	11	cc	_	_
+9	eine	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+10	kleine	klein	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Balkon	Balkon	NOUN	NN	_	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich hoffe eine baldige Antwort Mit Freundlichen Grüßen, Sr. Maria
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	baldige	baldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpacesAfter=\n
+6	Mit	mit	ADP	APPR	_	8	case	_	_
+7	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Grüßen	grüßen	NOUN	NN	_	2	obl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	SpacesAfter=\n
+10	Sr.	Sr.	PROPN	NN	_	8	appos	_	_
+11	Maria	Maria	PROPN	NE	_	10	flat	_	SpacesAfter=\n
+

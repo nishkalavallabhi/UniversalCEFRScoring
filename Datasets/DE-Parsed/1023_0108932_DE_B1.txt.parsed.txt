@@ -1,0 +1,225 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0108932_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 12. August 2011 Meier Eva Bahnhofsstraße 123 12345 Stadt X Au-pair-Agentur Schultz & Partner Regenstrasse 101 90451 Nürnberg Sehr geehrte Damen und Herren, mit Interesse habe ich Ihre Anzeige in den Zeitung gelesen und ich habe ein Vierteljahr bei einer Gastfamilie in Stadt X verbracht.
+1	Stadt	Stadt	NOUN	NN	_	39	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	den	VERB	VVINF	VerbForm=Inf	39	dep	_	_
+5	12	12	NUM	CARD	NumType=Card	39	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	39	punct	_	_
+7	August	August	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	39	obl	_	_
+8	2011	2011	NUM	CARD	NumType=Card	7	nmod	_	SpacesAfter=\n
+9	Meier	Meier	PROPN	NN	_	8	appos	_	_
+10	Eva	Eva	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	9	flat	_	SpacesAfter=\n
+11	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	9	flat	_	_
+12	123	123	NUM	CARD	NumType=Card	9	appos	_	SpacesAfter=\n
+13	12345	12345	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Stadt	Stadt	NOUN	NN	_	23	nmod	_	_
+15	X	X	PROPN	NN	_	14	appos	_	SpacesAfter=\n
+16	Au-pair-Agentur	Au-pair-Agentur	PROPN	NN	_	14	appos	_	_
+17	Schultz	Schultz	PROPN	NE	Case=Acc|Number=Sing	16	flat	_	_
+18	&	&	PUNCT	$.	_	16	punct	_	_
+19	Partner	Partner	NOUN	NN	_	16	appos	_	SpacesAfter=\n
+20	Regenstrasse	Regenstrasse	PROPN	NN	_	19	appos	_	_
+21	101	101	NUM	CARD	NumType=Card	19	nmod	_	SpacesAfter=\n
+22	90451	90451	NUM	CARD	NumType=Card	23	nummod	_	_
+23	Nürnberg	Nürnberg	PROPN	NE	_	9	appos	_	SpacesAfter=\n
+24	Sehr	sehr	PROPN	ADV	_	26	cc	_	_
+25	geehrte	geehrt	ADJ	ADJA	Degree=Pos	26	amod	_	_
+26	Damen	Dame	NOUN	NN	_	23	conj	_	_
+27	und	und	CCONJ	KON	_	28	cc	_	_
+28	Herren	Herr	NOUN	NN	_	23	conj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	9	punct	_	SpacesAfter=\n
+30	mit	mit	ADP	APPR	_	31	case	_	_
+31	Interesse	Interesse	NOUN	NN	Case=Dat|Number=Sing	39	obl	_	_
+32	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	39	aux	_	_
+33	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	39	nsubj	_	_
+34	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	39	nsubj	_	_
+36	in	in	ADP	APPR	_	38	case	_	_
+37	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	38	det	_	_
+38	Zeitung	Zeitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	39	obl	_	_
+39	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	_
+40	und	und	CCONJ	KON	_	51	cc	_	_
+41	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	51	nsubj	_	_
+42	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	51	aux	_	_
+43	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	44	det	_	_
+44	Vierteljahr	Vierteljahr	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	51	obj	_	_
+45	bei	bei	ADP	APPR	_	47	case	_	_
+46	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
+47	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	44	nmod	_	_
+48	in	in	ADP	APPR	_	49	case	_	_
+49	Stadt	Stadt	PROPN	NN	_	47	nmod	_	_
+50	X	X	PROPN	NN	_	49	appos	_	_
+51	verbracht	verbringen	VERB	VVPP	VerbForm=Part	39	conj	_	SpaceAfter=No
+52	.	.	PUNCT	$.	_	39	punct	_	_
+
+# sent_id = 2
+# text = Ich muss Ihnen sagen, dass ich nicht zufrieden bin.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	4	iobj	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+9	zufrieden	zufrieden	ADJ	ADJD	Degree=Pos	4	ccomp	_	_
+10	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ich suchte auf einen speziale Erfährung, um deutsche Kultur kennenzulernen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suchte	suchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	speziale	spezial	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Erfährung	Erfährung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	um	um	ADP	KOUI	_	11	mark	_	_
+9	deutsche	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	kennenzulernen	kennenlernen	VERB	VVIZU	_	2	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Leider muss ich Ihnen sagen, dass was in der Anzeige stand, ist nicht dort.
+1	Leider	leider	ADV	ADV	_	5	advmod	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	5	iobj	_	_
+5	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+8	was	was	PRON	PIS	Case=Acc|PronType=Ind	12	obj	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Anzeige	Anzeige	NOUN	NN	_	12	obl	_	_
+12	stand	stehen	VERB	VVFIN	Person=3|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	5	punct	_	_
+14	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
+16	dort	dort	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Zuerst ist die Gastfamilie sehr unfreudlich.
+1	Zuerst	zuerst	ADV	ADV	_	6	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	unfreudlich	unfreudlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Sie sprechen nicht mit mir und die Kinder sind sehr anstrengend.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	sprechen	sprechen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+6	und	und	CCONJ	KON	_	11	cc	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	Kinder	Kind	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	_
+9	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
+11	anstrengend	anstrengend	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Zusätzlich haben sie keinen Computer und Fernseher.
+1	Zusätzlich	zusätzlich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	keinen	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Computer	Computer	ADJ	ADJA	Degree=Cmp,Pos	2	advmod	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Fernseher	Fernseher	NOUN	NN	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Es ist sehr unbequem und sie lernen mir nichts.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	unbequem	unbequem	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+7	lernen	lernen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	conj	_	_
+8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	nichts	nichts	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ausserdem ist die Schule nicht nähe das Hause.
+1	Ausserdem	außerdem	ADV	PAV	_	6	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Schule	Schule	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	nähe	näh	ADJ	ADJA	Degree=Pos	0	root	_	_
+7	das	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Hause	Haus	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Denn ich kann nicht mit meinen Freunden treffen sonst bin ich zu nacht zu Hause.
+1	Denn	denn	SCONJ	KOUS	_	8	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	8	obl	_	_
+8	treffen	treffen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	13	advcl	_	_
+9	sonst	sonst	ADV	ADV	_	13	advmod	_	_
+10	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	zu	zu	ADV	PTKA	_	13	advmod	_	_
+13	nacht	nachen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+14	zu	zu	ADP	APPR	_	15	case	_	_
+15	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Das sind die Grunden warum bitte ich Sie ein neue Gastfamilie zu finden, damit ich besser fühle.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Grunden	Grunden	NOUN	NN	_	0	root	_	_
+5	warum	warum	ADV	PWAV	PronType=Int	13	advmod	_	_
+6	bitte	bitten	PROPN	NN	_	11	nmod	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+10	neue	neu	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Gastfamilie	Gastfamilie	NOUN	NN	_	13	obj	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
+13	finden	finden	VERB	VVINF	VerbForm=Inf	4	acl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	damit	damit	SCONJ	KOUS	_	18	mark	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	besser	gut	ADJ	ADJD	Degree=Cmp	18	advmod	_	_
+18	fühle	fühlen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ich warte auf Ihre Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	0	root	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Antwort	Antwort	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Mit freundliche Grüssen Eva Meier
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüssen	Grüsse	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NE	_	3	appos	_	_
+5	Meier	Meier	PROPN	NN	_	4	flat	_	SpacesAfter=\n
+

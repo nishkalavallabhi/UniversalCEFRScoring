@@ -1,0 +1,103 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000193_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 10.03.2012 Akademie Klausenhof - Bahnhofsstraße 100 Stadt X Sehr Geerhte Damen und Herren Ich suche eine Wohnung.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	10.03.2012	10.03.2012	PROPN	CARD	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\n
+4	Akademie	Akademie	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+5	Klausenhof	Klausenhof	PROPN	NN	_	8	nummod	_	_
+6	-	-	PUNCT	$(	_	5	punct	_	_
+7	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	5	flat	_	SpacesAfter=\n
+8	100	100	PROPN	CARD	_	9	nummod	_	_
+9	Stadt	Stadt	PROPN	NN	_	11	nmod	_	_
+10	X	X	PROPN	NN	_	9	appos	_	SpacesAfter=\n\s\n
+11	Sehr	sehr	PROPN	ADV	_	4	nmod	_	_
+12	Geerhte	Geerhte	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Damen	Dame	NOUN	NN	_	11	conj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Herren	Herr	NOUN	NN	_	16	compound	_	SpacesAfter=\s\n
+16	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	conj	_	_
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Die muss etwas drei Zimmer und ein Balkon hat.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	muss	müssen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	etwas	etwas	ADV	ADV	_	4	advmod	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Balkon	Balken	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	9	nsubj	_	_
+9	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich bin Arzt, Ich möchte mit meiner Freunde leben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Arzt	Arzt	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Freunde	Freund	NOUN	NN	Case=Dat|Number=Sing	10	obl	_	_
+10	leben	leben	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Die wohnung Soll 70-80 m² hat.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	Soll	Soll	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	70-80	70-80	NUM	CARD	NumType=Card	5	nummod	_	_
+5	m²	m²	NOUN	ADJD	Case=Dat|Number=Sing	6	obl	_	_
+6	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Wie hoch ist die wohnung miete?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	miete	mieten	NOUN	NN	_	5	appos	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ich habe eine Katze.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = (Heißt Eva)
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Heißt	heißt	VERB	VVFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Eva	Eva	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	)	)	PUNCT	$(	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ich möchte eine Afzug in die Wohnung Mit Freundliche Grüßen Michael Friedrich Meier
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Afzug	Afzug	NOUN	NN	_	0	root	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	nmod	_	SpacesAfter=\n
+8	Mit	mit	ADP	APPR	_	10	case	_	_
+9	Freundliche	freundlich	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Grüßen	Grüßen	NOUN	NN	_	4	nmod	_	SpacesAfter=\n
+11	Michael	Michael	PROPN	NE	_	10	appos	_	_
+12	Friedrich	Friedrich	PROPN	NE	_	11	flat	_	_
+13	Meier	Meier	PROPN	NN	_	11	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,116 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100205_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 27 maggio 2011
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	27	27	NUM	N	NumType=Card	1	nmod	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Cara Beatrice, caro Stefano, auguri di cuore!
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\n
+7	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	5	parataxis	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Finalmente farete anche voi il grande passo!
+1	Finalmente	finalmente	ADV	B	_	2	advmod	_	_
+2	farete	faere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	grande	grande	ADJ	A	Number=Sing	7	amod	_	_
+7	passo	passo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Sono così contenta per voi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	così	così	ADV	B	_	3	advmod	_	_
+3	contenta	contentare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Grazie mille dell'invito; verrò volentieri.
+1	Grazie	grazie	NOUN	S	_	7	obl	_	_
+2	mille	mille	NUM	N	NumType=Card	1	nummod	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	1	punct	_	_
+7	verrò	verrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+8	volentieri	volentieri	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Cosa posso regalarvi?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	regalarvi	_	_	_	_	_	_	_	SpaceAfter=No
+3	regalar	regalare	VERB	V	VerbForm=Inf	0	root	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+5	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Avete già una certa idea o ci sarà una collezione di soldi al matrimonio?
+1	Avete	avere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	già	già	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	certa	certo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+6	o	o	CCONJ	CC	_	8	cc	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	sarà	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	conj	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	collezione	collezione	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 8
+# text = Vi auguro un allegro tempo di preparazione.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	allegro	allegro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Non vedo l'ora rivedervi!
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5-6	rivedervi	_	_	_	_	_	_	_	SpaceAfter=No
+5	riveder	rivedere	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	vi	vi	ADV	B	_	5	advmod	_	_
+7	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 10
+# text = Cordiali saluti Maria
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

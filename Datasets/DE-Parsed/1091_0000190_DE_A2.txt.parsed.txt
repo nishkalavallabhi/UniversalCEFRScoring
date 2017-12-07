@@ -1,0 +1,81 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000190_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 07.02.12 Liebe Julia, ich habe eine Fahrkarte für einen Wochenendausflug gekauft und möchte ich nach Stadt X fliegen.
+1	07.02.12	07.02.12	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+3	Julia	Julia	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+12	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+13	und	und	CCONJ	KON	_	19	cc	_	_
+14	möchte	mögen	AUX	VMFIN	Mood=Sub|Tense=Past|VerbForm=Fin	19	aux	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+16	nach	nach	ADP	APPR	_	17	case	_	_
+17	Stadt	Stadt	PROPN	NN	_	19	obl	_	_
+18	X	X	PROPN	NN	_	17	appos	_	_
+19	fliegen	fliegen	VERB	VVINF	VerbForm=Inf	12	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Aber leider am Wochenende muss ich viele Arbeiten.
+1	Aber	aber	ADV	KON	_	9	advmod	_	_
+2	leider	leider	ADV	ADV	_	9	advmod	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	_
+6	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	viele	viel	PRON	PIAT	Case=Nom|PronType=Ind	9	nsubj	_	_
+9	Arbeiten	arbeiten	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Ich brauche noch fahrkarte für nächste Wochenende aber möchte ich mit den Schiff fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauche	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	ADV	_	2	advmod	_	_
+4	fahrkarte	fahrkaren	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	nächste	nah	ADJ	ADJA	_	7	amod	_	_
+7	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+8	aber	aber	ADV	ADV	_	14	advmod	_	_
+9	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+11	mit	mit	ADP	APPR	_	13	case	_	_
+12	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+13	Schiff	Schiff	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	obl	_	_
+14	fahren	fahren	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = (22.02.2012).
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	22.02.2012	22.02.2012	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Kannst du bitte mir Antwort.
+1	Kannst	können	NOUN	NN	_	0	root	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	nsubj	_	_
+3	bitte	bitten	PROPN	NN	_	2	appos	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	Antwort	Antworen	NOUN	NN	_	1	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Dein freund Michael
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+3	Dein	dein	PROPN	PPOSAT	_	2	appos	_	_
+4	freund	freund	PROPN	NN	_	3	flat	_	_
+5	Michael	Michael	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

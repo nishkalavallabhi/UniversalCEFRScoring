@@ -1,0 +1,171 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100064_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 12.06.2010 Carissimi, grazie per la vostra lettera.
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	12.06.2010	12.06.2010	NUM	N	NumType=Card	6	nummod	_	SpacesAfter=\n
+6	Carissimi	Carissimo	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	12	punct	_	SpacesAfter=\n
+8	grazie	grazie	NOUN	S	_	12	case	_	_
+9	per	per	ADP	E	_	8	fixed	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mi piacerebbe farvi congratulazioni.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	farvi	_	_	_	_	_	_	_	_
+3	far	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	vi	vi	ADV	B	_	3	advmod	_	_
+5	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È una bella sorpresa che non mi avete dimenticato.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	dimenticato	dimenticare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Vorrei ringraziarvi per l'invito per le vostre nozze.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	ringraziarvi	_	_	_	_	_	_	_	_
+2	ringraziar	ringraziare	VERB	V	VerbForm=Inf	0	root	_	_
+3	vi	vi	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	invito	invito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	vostre	vostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Non ci siamo incontrati da tanto tempo e adesso è il migliore occasione di vedersi.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	incontrati	incontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	da	da	ADP	E	_	7	case	_	_
+6	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	adesso	adesso	ADV	B	_	13	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	13	amod	_	_
+13	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15-16	vedersi	_	_	_	_	_	_	_	SpaceAfter=No
+15	veder	vedere	VERB	V	VerbForm=Inf	13	acl	_	_
+16	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ci vengo con piacere.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Che posso darvi in regalo di nozze?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	posso	potere	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+3-4	darvi	_	_	_	_	_	_	_	_
+3	dar	dare	VERB	V	VerbForm=Inf	0	root	_	_
+4	vi	vi	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Non vi preocupate di dirmelo perchè non voglio comprarvi qualcosa inutile.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+3	preocupate	preocupare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	dirmelo	dirmelo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	perchè	perché	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9-10	comprarvi	_	_	_	_	_	_	_	_
+9	comprar	comprare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	iobj	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	_
+12	inutile	inutile	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Scrivetemi se devo darvi una mano.
+1-2	Scrivetemi	_	_	_	_	_	_	_	_
+1	Scrivete	Scrivere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	darvi	_	_	_	_	_	_	_	_
+5	dar	dare	VERB	V	VerbForm=Inf	1	advcl	_	_
+6	vi	vi	ADV	B	_	5	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	mano	mano	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Sicuramente avete tante cose da fare prima delle nozze.
+1	Sicuramente	sicuramente	ADV	B	_	2	advmod	_	_
+2	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5	da	da	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	prima	prima	ADV	B	_	10	case	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	7	fixed	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Se posso aiutarvi, lo faccio molto volentieri.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	aiutarvi	_	_	_	_	_	_	_	SpaceAfter=No
+3	aiutar	aiutare	VERB	V	VerbForm=Inf	7	advcl	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+7	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	volentieri	volentieri	ADV	B	_	7	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = Aspetto la vostra risposta.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Baci Maria
+1	Baci	Baci	PROPN	SP	_	0	root	_	SpacesAfter=\n
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

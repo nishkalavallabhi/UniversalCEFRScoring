@@ -1,0 +1,67 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000035_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 04.01.2012 Sehr geehrte Damen und Herren, Ich suchen eine neue Wohnung.
+1	Stadt	Stadt	NOUN	NN	_	5	nsubj	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	04.01.2012	04.01.2012	PROPN	CARD	_	2	flat	_	SpacesAfter=\n
+4	Sehr	Sehr	PROPN	ADV	_	1	appos	_	_
+5	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Herren	Herr	NOUN	NN	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	SpacesAfter=\n
+10	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	5	conj	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Ich möchte drei Zimmer brauchen Ich habe einen Tochter und Stiefsohn und Man Ich möchte ein Schlafzimmer ein Wohnzimmer und zwei Kinderzimmer und auch ein balkon haben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+5	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpacesAfter=\n
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Tochter	Tochter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Stiefsohn	Stiefsohn	NOUN	NN	_	9	conj	_	_
+12	und	und	CCONJ	KON	_	17	cc	_	_
+13	Man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
+14	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+16	ein	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+17	Schlafzimmer	Schlafzimmer	NOUN	NN	_	9	conj	_	_
+18	ein	ein	DET	ART	Definite=Ind|PronType=Art	19	det	_	_
+19	Wohnzimmer	Wohnzimmer	NOUN	NN	_	17	nmod	_	_
+20	und	und	CCONJ	KON	_	22	cc	_	_
+21	zwei	zwei	NUM	CARD	NumType=Card	22	nummod	_	_
+22	Kinderzimmer	Kinderzimmer	NOUN	NN	_	19	conj	_	_
+23	und	und	CCONJ	KON	_	27	cc	_	_
+24	auch	auch	ADV	ADV	_	27	advmod	_	_
+25	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	26	det	_	_
+26	balkon	balkon	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	27	nsubj	_	_
+27	haben	haben	VERB	VAINF	VerbForm=Inf	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich Kann Miete bezalen 600 - 700 € Mit frundlichen Grüßen Eva Müller
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	Miete	Miete	NOUN	NN	Case=Acc|Number=Plur	12	obj	_	_
+4	bezalen	bezal	PROPN	ADJA	_	3	appos	_	_
+5	600	600	PROPN	CARD	_	4	appos	_	_
+6	-	-	PUNCT	$(	_	4	punct	_	_
+7	700	700	PROPN	CARD	_	4	flat	_	_
+8	€	€	PROPN	ADJD	Case=Acc|Number=Sing	4	flat	_	SpacesAfter=\n
+9	Mit	mit	ADP	APPR	_	11	case	_	_
+10	frundlichen	frundlich	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Grüßen	grüßen	NOUN	NN	_	12	compound	_	SpacesAfter=\n
+12	Eva	Eva	PROPN	NE	_	0	root	_	_
+13	Müller	Müller	PROPN	NE	_	12	flat	_	SpacesAfter=\n
+

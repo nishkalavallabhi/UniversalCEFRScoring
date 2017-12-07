@@ -1,0 +1,102 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100065_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cari Stefano e Beatrice Grazie per la vostra lettera.
+1	Cari	caro	PROPN	SP	_	0	root	_	_
+2	Stefano	Stefano	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Beatrice	Beatore	PROPN	SP	_	1	conj	_	SpacesAfter=\n
+5	Grazie	grazie	PROPN	SP	_	4	flat:name	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mi sono contenta all'invito per il vostro matrimonio e ringraziarlo Miei congratulazioni.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	contenta	contentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	all'	_	_	_	_	_	_	_	SpaceAfter=No
+4	a	a	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	invito	invito	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12-13	ringraziarlo	_	_	_	_	_	_	_	SpacesAfter=\n
+12	ringraziar	ringraziare	VERB	V	VerbForm=Inf	3	conj	_	_
+13	lo	lo	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	Miei	mio	NUM	N	NumType=Card	15	nummod	_	_
+15	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Che sorpressa!
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	sorpressa	sorprettere	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Certamente vengo.
+1	Certamente	certamente	ADV	B	_	2	advmod	_	_
+2	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Vado con Michele.
+1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	Michele	Michele	PROPN	SP	_	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Che cosa potete regolarvi perchè accontentarvi?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	regolarvi	_	_	_	_	_	_	_	_
+4	regolar	regolare	VERB	V	VerbForm=Inf	0	root	_	_
+5	vi	vi	ADV	B	_	4	advmod	_	_
+6	perchè	perché	SCONJ	CS	_	7	mark	_	_
+7-8	accontentarvi	_	_	_	_	_	_	_	SpaceAfter=No
+7	accontentar	accontentare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	obj	_	_
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Dove partirete per il vostro viaggio di nozze?
+1	Dove	dove	ADV	B	_	2	advmod	_	_
+2	partirete	partiere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = In attesa della vostra risposta il più presto possibile.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	presto	presto	ADV	B	_	10	advmod	_	_
+10	possibile	possibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Vi saluto Maria
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	saluto	salvere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	cop	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

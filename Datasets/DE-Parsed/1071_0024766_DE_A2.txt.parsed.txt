@@ -1,0 +1,68 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024766_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Herzliche Glückwünsche für Ihre Baby.
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Glückwünsche	Glückwünsch	NOUN	NN	_	1	appos	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Baby	Baby	PROPN	NN	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Wie geht´s deine Frau und dein Baby?
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	geht´s	geht´s	PROPN	NE	_	0	root	_	_
+3	deine	dein	PROPN	NE	_	2	flat	_	_
+4	Frau	Frau	PROPN	NN	_	2	flat	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	dein	dein	PROPN	PPOSAT	_	2	conj	_	_
+7	Baby	Baby	PROPN	NN	_	6	flat	_	SpaceAfter=No
+8	?	?	PROPN	$.	_	6	flat	_	_
+
+# sent_id = 3
+# text = Und wie heißt Baby?
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	wie	wie	ADV	KOKOM	_	3	advmod	_	_
+3	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	Baby	Baby	PROPN	NN	_	3	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich möchte am wochenende dir kommen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	wochenende	wochenend	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obl	_	_
+7	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Ich bringe natürlich Babys Geschenk mit. :)
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	natürlich	natürlich	ADJ	ADV	Degree=Pos	4	advmod	_	_
+4	Babys	Baby	PROPN	NE	_	2	obl	_	_
+5	Geschenk	Geschenk	PROPN	NE	_	4	flat	_	_
+6	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+8	:)	:)	PUNCT	NN	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Bis wochenende!
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	wochenende	wochenend	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Herzliche Grüße Maria
+1	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

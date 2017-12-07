@@ -1,0 +1,109 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001752_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Daniele!
+1	Ciao	ciao	PROPN	SP	_	0	root	_	_
+2	Daniele	Daniele	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Come stai?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Questa settimana è orribile.
+1	Questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	orribile	orribile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = In ufficio c'è molto lavoro e giovedi pomeriggio non posso venire un appuntamento da te.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	giovedi	giovedere	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	venire	venire	VERB	V	VerbForm=Inf	4	conj	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	da	da	ADP	E	_	16	case	_	_
+16	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Perche giovedi pomeriggio il mio capo ha organizzato una riunione.
+1	Perche	Perca	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+2	giovedi	giovedio	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	capo	capo	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Mi molto dispiace.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	dispiace	dispiace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Io voreii invitare ti a cena, sabata la sera in un ristorante tailandese.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	voreii	voreii	AUX	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	invitare	invitare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	cena	cena	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	sabata	sabare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	sera	sera	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	tailandese	tailandese	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Come sei l'accordo.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	sei	sei	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Scrivi mi la risposte.
+1	Scrivi	Scrivo	ADV	B	_	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+3	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	risposte	risposta	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Per favore.
+1	Per	per	ADP	E	_	2	case	_	_
+2	favore	favore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Cordiali saluti Maria
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,158 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000153_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Katharina, am 01.02.2012 machen wir eine kleine Reise nach Stadt X, nur für drei Tage, trotzdem brauche ich deine hilfe.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+2	Katharina	Katharina	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	PRELS	PronType=Rel	6	det	_	_
+6	01.02.2012	01.02.2012	NUM	CARD	NumType=Card	1	nmod	_	_
+7	machen	machen	VERB	VVINF	VerbForm=Inf	22	aux	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Reise	Reise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+12	nach	nach	ADP	APPR	_	13	case	_	_
+13	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	22	obl	_	_
+14	X	X	PROPN	NN	_	13	appos	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	13	punct	_	_
+16	nur	nur	ADV	ADV	_	22	advmod	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	drei	drei	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Tage	Tag	NOUN	NN	Case=Acc|Number=Plur	22	obl	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	_
+21	trotzdem	trotzdem	ADV	KOUS	_	22	advmod	_	_
+22	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+23	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+24	deine	dein	ADJ	ADJA	Degree=Pos	25	advmod	_	_
+25	hilfe	hilfe	NOUN	NN	Case=Dat|Number=Sing	22	iobj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 2
+# text = Wir kann nicht mein Hund mitnehmen, weil unsere Freundin im Stadt X sehr kleine Wohnung hat.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+4	mein	mein	ADJ	ADJD	Degree=Pos	6	advmod	_	SpacesAfter=\s\s
+5	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+6	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	18	mark	_	_
+9	unsere	unser	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Freundin	Freundin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Stadt	Stadt	PROPN	NN	_	10	nmod	_	_
+14	X	X	PROPN	NN	_	13	appos	_	_
+15	sehr	sehr	ADV	ADV	_	16	advmod	_	_
+16	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+18	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Kann ich bitte Bella mit dir gelassen?
+1	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	bitte	bitten	PROPN	NN	_	2	appos	_	_
+4	Bella	Bellum	PROPN	NE	Case=Acc|Number=Sing	3	flat	_	_
+5	mit	mit	ADP	APPR	_	6	case	_	_
+6	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obl	_	_
+7	gelassen	lassen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Du weiß schon, dass sie ist very possitive und freundlich und ich bin sicher, dass sie und deine Hasso will viel Spaß zusammen haben.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	schon	schon	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	very	very	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	_
+9	possitive	possitiv	ADJ	ADJA	Degree=Pos	2	ccomp	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	freundlich	freundlich	ADJ	ADJD	Degree=Pos	9	conj	_	_
+12	und	und	CCONJ	KON	_	15	cc	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	sicher	sicher	ADJ	ADJD	Degree=Pos	9	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	9	punct	_	_
+17	dass	dass	SCONJ	KOUS	_	26	mark	_	_
+18	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+19	und	und	CCONJ	KON	_	20	cc	_	_
+20	deine	dein	PROPN	NE	_	18	conj	_	_
+21	Hasso	Hasso	PROPN	NE	_	20	flat	_	_
+22	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+23	viel	viel	ADV	ADV	_	24	advmod	_	_
+24	Spaß	Spaß	NOUN	NN	Case=Acc|Number=Sing	26	obj	_	_
+25	zusammen	zusammen	ADV	ADV	_	26	advmod	_	_
+26	haben	haben	VERB	VAINF	VerbForm=Inf	9	ccomp	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Bella brauchts drei mal per Tag Raus gehen und das Essen ich genauso mitbringen.
+1	Bella	Bella	PROPN	NE	Case=Nom|Number=Sing	8	nsubj	_	_
+2	brauchts	brauchts	PRON	PIS	Number=Sing|PronType=Neg	8	appos	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	mal	mal	ADV	ADV	_	2	advmod	_	_
+5	per	per	ADP	APPR	_	6	case	_	_
+6	Tag	Tag	NOUN	NN	_	7	nmod	_	_
+7	Raus	Raus	PROPN	NE	_	8	obl	_	_
+8	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	und	und	CCONJ	KON	_	14	cc	_	_
+10	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	genauso	genauso	ADV	ADV	_	14	advmod	_	_
+14	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Auf der Packung steht wie viel brauche sie zum essen.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Packung	Packung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	steht	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	wie	wie	ADP	KOKOM	_	6	case	_	_
+6	viel	viel	PRON	PIAT	PronType=Ind	7	obl	_	_
+7	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	acl	_	_
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+9-10	zum	_	_	_	_	_	_	_	_
+9	zu	zu	ADP	APPR	_	11	mark	_	_
+10	dem	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	essen	essen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ist das ok?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	das	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	ok	ok	ADJ	VVPP	Degree=Pos	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Kannst du bitte mir helfen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	5	nsubj	_	_
+3	bitte	bitten	PROPN	NN	_	2	appos	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Ich warte für deine positive Antwort :) Kissen Julia
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+3	für	für	ADP	APPR	_	8	case	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	8	amod	_	_
+5	positive	positiv	ADJ	ADJA	Degree=Pos	8	amod	_	_
+6	Antwort	Antwort	NOUN	NN	_	8	compound	_	_
+7	:)	:)	PUNCT	NN	_	8	punct	_	SpacesAfter=\n
+8	Kissen	Kissen	NOUN	NN	_	2	nmod	_	SpacesAfter=\n
+9	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

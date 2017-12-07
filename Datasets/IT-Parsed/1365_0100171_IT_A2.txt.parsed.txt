@@ -1,0 +1,162 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100171_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cara Beatrice, caro Stefano, tanti auguri per il vostro matrimonio.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+7	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Mi piace che sposate e sono felice che invitatemi.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	sposate	sposare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	felice	felice	ADJ	A	Number=Sing	2	conj	_	_
+8	che	che	SCONJ	CS	_	9	mark	_	_
+9-10	invitatemi	_	_	_	_	_	_	_	SpaceAfter=No
+9	invitate	invitare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Al 20 novembre ho tempo e posso andare a voi matrimonio.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	20	20	NUM	N	NumType=Card	6	nummod	_	_
+4	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andare	andare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	voi	vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ma non conosco la chiesa di santa chiara perché non sono a Napoli da otto anni.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	santa	santo	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	chiara	chiaro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+9	perché	perché	SCONJ	CS	_	11	mark	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Napoli	Napoli	PROPN	SP	_	11	obl	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	otto	otto	NUM	N	NumType=Card	16	nummod	_	_
+16	anni	anno	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = In questo momento abito a Germania perché lo studio ma nonostante vedo andare.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Germania	Germania	PROPN	SP	_	4	obl	_	_
+7	perché	perché	SCONJ	CS	_	13	mark	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	studio	studio	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	nonostante	nonostante	NOUN	S	Number=Sing	12	obj	_	_
+12	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+13	andare	andare	VERB	V	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = E posso regolare un regalato tipico tedesco a voi.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	regolare	regolare	VERB	V	VerbForm=Inf	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	regalato	regalato	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	tipico	tipico	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpacesAfter=\s\s
+8	a	a	ADP	E	_	9	case	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = C'è una bella idea, non?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	2	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Che cosa volete avere?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	avere	avere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Un tavolo, una lampada o qualcosa tipico tedesco per mangiare?
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lampada	lampada	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	o	o	CCONJ	CC	_	7	cc	_	_
+7	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	2	conj	_	_
+8	tipico	tipico	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	mangiare	mangiare	VERB	V	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Dicemi, perché vedo regalare un regalato bellissimo.
+1	Dicemi	Dicemi	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	perché	perché	SCONJ	CS	_	4	mark	_	_
+4	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+5	regalare	regalare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	regalato	regalato	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Tanti saluti e molto fortuna per il futuro!
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Maria
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,316 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000296_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Solidarietà Viva Viale Bruzzi 117 21203 Milano Io sono Maria Rossi, arrivo da Città X.
+1	Solidarietà	solidarietà	NOUN	S	Gender=Fem	0	root	_	_
+2	Viva	viva	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n
+3	Viale	viale	PROPN	SP	_	2	flat:name	_	_
+4	Bruzzi	Bruzzi	PROPN	SP	_	2	flat:name	_	_
+5	117	117	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\n
+6	21203	21203	NUM	N	NumType=Card	7	nummod	_	_
+7	Milano	Milano	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+8	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	Maria	Maria	PROPN	SP	_	2	flat:name	_	_
+11	Rossi	Rossi	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	arrivo	arrivere	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	Città	Città	PROPN	SP	_	13	nmod	_	_
+16	X	x	ADJ	NO	Number=Sing|NumType=Ord	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = La mia proffessione à banchiere.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	proffessione	proffessione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	à	e	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	banchiere	banchiere	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sono una persona molto betuata , mi piace aiutare alle persone che arrivano dai poveri paesi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	persona	persona	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	betuata	betuato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	aiutare	aiutare	VERB	V	VerbForm=Inf	8	ccomp	_	_
+10-11	alle	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	persone	persona	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	arrivano	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15-16	dai	_	_	_	_	_	_	_	_
+15	da	da	ADP	E	_	18	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	_
+17	poveri	povero	ADJ	A	Gender=Masc|Number=Plur	18	amod	_	_
+18	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = La mia conoscenza vi aiuterà per questo programma.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	aiuterà	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	programma	programma	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Sono sicura che in questi dieci giorni farete tanto per questi paesi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	sicura	sicurare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+6	dieci	dieci	NUM	N	NumType=Card	7	nummod	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+8	farete	faere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	tanto	tanto	ADV	B	_	12	advmod	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	12	det	_	_
+12	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = La mia proffessione à proprio una di quelle che sanno come comportarsi con il denaro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	proffessione	proffessione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	à	e	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	proprio	proprio	ADV	B	_	6	advmod	_	_
+6	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	quelle	quello	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	6	nmod	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	sanno	sapere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	come	come	ADP	E	_	12	mark	_	_
+12-13	comportarsi	_	_	_	_	_	_	_	_
+12	comportar	comportare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+13	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	12	expl	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	denaro	denaro	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = L'anno passato sono stata ad un campo di lavoro, è la ho conosciuto tante persone che erano molto brave è hanno riuscito di raccogliere cento milla dollari.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+3	passato	passato	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	cop	_	_
+6	ad	a	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	campo	campo	NOUN	S	Gender=Masc|Number=Sing	24	nsubj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+13	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+16	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+18	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+19	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	21	cop	_	_
+20	molto	molto	ADV	B	_	21	advmod	_	_
+21	brave	brave	ADJ	A	Gender=Fem|Number=Plur	17	acl:relcl	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+25	di	di	ADP	E	_	26	mark	_	_
+26	raccogliere	raccogliere	VERB	V	VerbForm=Inf	24	xcomp	_	_
+27	cento	cento	NUM	N	NumType=Card	29	nummod	_	_
+28	milla	millo	ADJ	A	Gender=Fem|Number=Sing	29	amod	_	_
+29	dollari	dollaro	NOUN	S	Gender=Masc|Number=Plur	26	obj	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	24	punct	_	_
+
+# sent_id = 8
+# text = In questi dieci giorni vedrò di venire all quinto giorno è resterò circa due giorni.
+1	In	in	ADP	E	_	4	case	_	_
+2	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+3	dieci	dieci	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+5	vedrò	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	venire	venire	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	all	all	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	quinto	quinto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	obj	_	_
+10	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	resterò	restare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	conj	_	_
+13	circa	circa	ADV	B	_	14	advmod	_	_
+14	due	due	NUM	N	NumType=Card	15	nummod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Sarò grada a venire a lavorare è anche a dare consingli dei problemi che ci sono in questi paesi.
+1	Sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	2	cop	_	_
+2	grada	grada	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	lavorare	lavorare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	dare	dare	VERB	V	VerbForm=Inf	2	csubj	_	_
+11	consingli	consinglio	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+15	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+16	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	17	expl	_	_
+17	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	_
+20	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Questi problemi si devono staccare dall fondo.
+1	Questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	2	det	_	_
+2	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:pass	_	_
+4	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	staccare	staccare	VERB	V	VerbForm=Inf	0	root	_	_
+6	dall	dall	ADJ	A	_	7	amod	_	_
+7	fondo	fondo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Ho già in mente tre soluzioni per fare un bum!
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	già	già	ADV	B	_	1	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	mente	mente	ADV	B	_	1	advmod	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	soluzioni	soluzione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	acl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	bum	bum	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = di economia in Asia.
+1	di	di	ADP	E	_	2	case	_	_
+2	economia	economia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Asia	Asia	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Porterà tante cose per vendere che non servono più a me.
+1	Porterà	portare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	vendere	vendere	VERB	V	VerbForm=Inf	1	advcl	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	servono	servire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	più	più	ADV	B	_	11	advmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Spero che queste cose che ho in mente sarrano le cose giuste per dare un pezzeto di forza per svilluppare i paesi.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	9	mark	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	9	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	mente	mente	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+9	sarrano	sarrare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	giuste	giusto	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	dare	dare	VERB	V	VerbForm=Inf	9	advcl	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	pezzeto	pezzeto	NOUN	S	Gender=Masc|Number=Sing	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	forza	forza	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	svilluppare	svilluppare	VERB	V	VerbForm=Inf	14	advcl	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	paesi	paese	NOUN	S	Gender=Masc|Number=Plur	20	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Solo tutti asieme potremo fare una vera giusta è lella cosa.
+1	Solo	solo	ADV	B	_	5	advmod	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	_
+3	asieme	asieme	ADV	B	_	2	advmod	_	_
+4	potremo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	10	csubj	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	vera	vera	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	giusta	giusto	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	lella	lello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+11	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Ancòra una volta le ringrazio per questo invito, sono molto felice quando si tratta di aiutare a qualcuno.
+1	Ancòra	Ancòrare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	_
+8	invito	invito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	molto	molto	ADV	B	_	12	advmod	_	_
+12	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+13	quando	quando	SCONJ	CS	_	15	mark	_	_
+14	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	15	expl	_	_
+15	tratta	trattare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	aiutare	aiutare	VERB	V	VerbForm=Inf	15	ccomp	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = A tràpoco ci vediamo all 8 luglio invia:
+1	A	a	ADP	E	_	2	case	_	_
+2	tràpoco	tràpoco	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	all	all	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+6	8	8	NUM	N	NumType=Card	7	nummod	_	_
+7	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	4	xcomp	_	SpacesAfter=\n
+8	invia	invia	ADV	B	_	4	advmod	_	SpaceAfter=No
+9	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 18
+# text = Maria Rossi Strada Maggiore 17 12345 Città X
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	17	17	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\s\n
+6	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	città	PROPN	SP	_	1	flat:name	_	_
+8	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpacesAfter=\n
+

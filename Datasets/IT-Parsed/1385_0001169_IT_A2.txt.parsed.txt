@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001169_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Francesco.
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Francesco	Francesco	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = grazie per tua email.
+1	grazie	grazie	NOUN	S	_	4	case	_	_
+2	per	per	ADP	E	_	1	fixed	_	_
+3	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	email	email	NOUN	S	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mo ho bisogno di qualche informazione in più.
+1	Mo	mo	PROPN	SP	_	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	6	det	_	_
+6	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	più	più	ADV	B	_	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Primo dove hai lavorate anni passato?
+1	Primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	0	root	_	_
+2	dove	dove	ADV	B	_	4	advmod	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	lavorate	lavorare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	acl:relcl	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	5	compound	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Secondo che tipo lavoro voule fare?
+1	Secondo	secondo	ADP	E	_	3	case	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	_
+5	voule	voule	ADJ	A	Number=Sing	6	amod	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	acl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Il terzo quando vuoi iniziare il nove lavoro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	terzo	terzo	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	iniziare	iniziare	VERB	V	VerbForm=Inf	2	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	nove	nove	NUM	N	NumType=Card	8	nummod	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Io aspetto la tio risposta.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	tio	tio	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	risposta	risposto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Saluti a tutti Michele
+1	Saluti	Saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	nmod	_	SpacesAfter=\s\s\s\s
+4	Michele	Michele	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

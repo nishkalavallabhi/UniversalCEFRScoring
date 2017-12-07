@@ -1,0 +1,58 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024849_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = GlückwünschezubabY bekommen.
+1	GlückwünschezubabY	GlückwünschezubabY	NOUN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = das Name Baby ser schun.
+1	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Name	Name	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+3	Baby	Baby	PROPN	NE	_	2	appos	_	_
+4	ser	ser	PROPN	NE	_	3	flat	_	_
+5	schun	schun	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mir gefelt die Name.
+1	Mir	ich	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	gefelt	feln	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Name	Name	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Name Meine Tuchter auch ist Eva. dies Meine ist oberal.
+1	Name	Name	NOUN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
+2	Meine	mein	PROPN	NE	_	3	nmod	_	_
+3	Tuchter	Tuchter	PROPN	NN	_	1	appos	_	_
+4	auch	auch	ADV	ADV	_	10	advmod	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+6	Eva	Eva	PROPN	NE	Case=Nom|Number=Sing	10	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+8	dies	dies	PRON	PDS	Case=Acc|PronType=Dem	10	obj	_	_
+9	Meine	Meine	PROPN	PPOSAT	_	10	nmod	_	_
+10	ist	sein	PROPN	VAFIN	_	0	root	_	_
+11	oberal	oberal	PROPN	NN	Case=Acc|Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Wi getes Eva.
+1	Wi	wi	PROPN	NE	_	0	root	_	_
+2	getes	get	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	Eva	Eva	PROPN	NE	_	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Glückwünsch zu babY. Ich Fuchomesch Baby bekommen.
+1	Glückwünsch	Glückwünsch	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+2	zu	zu	PART	PTKZU	_	7	mark	_	_
+3	babY.	babY.	X	NE	_	2	advmod	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	Fuchomesch	Fuchomesch	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
+6	Baby	Baby	PROPN	NE	_	5	appos	_	_
+7	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+

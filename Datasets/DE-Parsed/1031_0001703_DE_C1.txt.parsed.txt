@@ -1,0 +1,309 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0001703_DE_C1.txt
+# newpar
+# sent_id = 1
+# text = Die Stadt Stadt X befindet sich in der Provinz Bozen - Italien.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Stadt	Stadt	PROPN	NN	_	2	appos	_	_
+4	X	X	PROPN	NN	_	3	appos	_	_
+5	befindet	befinden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Provinz	Provinz	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+10	Bozen	Bozen	NOUN	NN	_	12	compound	_	_
+11	-	-	PUNCT	$(	_	12	punct	_	_
+12	Italien	Italien	PROPN	NE	_	9	appos	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Sie ist eine kleine Stadt, ungefähr 35.000 Einbewohner.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	kleine	klein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Stadt	Stadt	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	ungefähr	ungefähr	ADV	ADJD	_	8	advmod	_	_
+8	35.000	35.000	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Einbewohner	Einbewohner	NOUN	NN	Case=Dat|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Die Lage ist schön.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lage	Lage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Man lebt in der Natur, ohne Lärm und Verkehr.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+2	lebt	leben	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Natur	Natur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	ohne	ohne	ADP	APPR	_	8	case	_	_
+8	Lärm	Lärm	NOUN	NN	_	5	conj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Verkehr	Verkehr	NOUN	NN	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = In der Stadt kann man verschiedene Gelegenheiten haben, um eine Wohnung zu finden: ein Haus oder besser gesagt ein Einfamilienhaus, eine Wohnung in einem Kondominium, auch in Kleinen Strukturen (insgesamt fünf oder sechs Wohnungen), eine Villa.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+4	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
+6	verschiedene	verschieden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	7	amod	_	SpacesAfter=\s\s
+7	Gelegenheiten	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	um	um	ADP	KOUI	_	14	mark	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	finden	finden	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	8	punct	_	_
+16	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Haus	Haus	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	20	obj	_	_
+18	oder	oder	CCONJ	KON	_	20	cc	_	_
+19	besser	gut	ADV	ADJD	_	20	advmod	_	_
+20	gesagt	sagen	VERB	VVPP	VerbForm=Part	8	conj	_	_
+21	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Einfamilienhaus	Einfamilienhaus	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	20	obj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	22	punct	_	_
+24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+26	in	in	ADP	APPR	_	28	case	_	_
+27	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	28	det	_	_
+28	Kondominium	Kondominium	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	25	nmod	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	25	punct	_	_
+30	auch	auch	ADV	ADV	_	33	advmod	_	_
+31	in	in	ADP	APPR	_	33	case	_	_
+32	Kleinen	klein	PROPN	ADJA	_	33	amod	_	_
+33	Strukturen	Struktur	NOUN	NN	_	25	conj	_	_
+34	(	(	PUNCT	$(	_	39	punct	_	SpaceAfter=No
+35	insgesamt	insgesamt	ADV	ADV	_	36	advmod	_	_
+36	fünf	fünf	NUM	CARD	NumType=Card	39	nummod	_	_
+37	oder	oder	CCONJ	KON	_	38	cc	_	_
+38	sechs	sechs	NUM	CARD	NumType=Card	39	nummod	_	_
+39	Wohnungen	Wohnung	NOUN	NN	_	33	appos	_	SpaceAfter=No
+40	)	)	PUNCT	$(	_	39	punct	_	SpaceAfter=No
+41	,	,	PUNCT	$,	_	25	punct	_	_
+42	eine	ein	DET	ART	Definite=Ind|PronType=Art	43	det	_	_
+43	Villa	Villa	NOUN	NN	_	25	appos	_	SpaceAfter=No
+44	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Leider ist bei uns, in Südtirol sehr teuer, eine Wohnung zu kaufen.
+1	Leider	leider	ADV	ADV	_	2	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Südtirol	Südtirol	PROPN	NE	_	9	nmod	_	_
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
+9	teuer	teuer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 7
+# text = In Stadt X kostet es ungefähr € 3´5000 pro m².
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	4	obl	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	kostet	kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	ungefähr	ungefähr	ADV	ADJD	_	7	advmod	_	_
+7	€	€	X	NN	_	9	advmod	_	_
+8	3´	3´	NOUN	NN	_	9	compound	_	SpaceAfter=No
+9	5000	5000	NUM	CARD	NumType=Card	4	obl	_	_
+10	pro	pro	ADP	APPR	_	11	case	_	_
+11	m²	m²	NOUN	NN	_	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Man lebt gut, aber das Leben ist "teuer".
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+2	lebt	leben	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	10	punct	_	_
+5	aber	aber	CCONJ	KON	_	10	cc	_	_
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Leben	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+10	teuer	teuer	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
+11	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Viele Familien wählen also für eine Wohnung in Miete.
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	Familien	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	wählen	wählen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	also	also	ADV	ADV	_	3	advmod	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Miete	Miete	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Das bedeutet, dass die Miete für eine NettoFläche um 70/80 m², € 750,00/800,00 pro Monat kostet.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	2	nsubj	_	_
+2	bedeutet	bedeuten	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	NettoFläche	NettoFläche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	_
+10	um	um	ADP	APPR	_	12	case	_	_
+11	70/80	70/80	NUM	CARD	NumType=Card	12	nummod	_	_
+12	m	m	NOUN	NN	Case=Acc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	²	²	NUM	ADJD	NumType=Card	12	appos	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	9	punct	_	_
+15	€	€	PROPN	ADJD	Case=Acc|Number=Sing	19	obj	_	_
+16	750,00/800,00	750,00/800,00	NUM	ADJA	NumType=Card	15	appos	_	_
+17	pro	pro	ADP	APPR	_	18	case	_	_
+18	Monat	Monat	NOUN	NN	_	15	nmod	_	_
+19	kostet	kosten	VERB	VVPP	VerbForm=Part	2	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Es gibt kein großes Unterschied zwischen neuen oder alten Gebäude.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	kein	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+4	großes	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	Unterschied	Unterschied	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	zwischen	zwischen	ADP	APPR	_	10	case	_	_
+7	neuen	neu	ADJ	ADJA	Degree=Pos	10	amod	_	_
+8	oder	oder	CCONJ	KON	_	9	cc	_	_
+9	alten	alt	ADJ	ADJA	Degree=Pos	7	conj	_	_
+10	Gebäude	Gebäude	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Wenn mann kauft, aber Unterschied ist zwanzig oder dreisig Prozent.
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	mann	mann	PROPN	NE	Case=Nom|Number=Sing	3	nsubj:pass	_	_
+3	kauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	11	punct	_	_
+5	aber	aber	CCONJ	KON	_	11	cc	_	_
+6	Unterschied	Unterschied	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	zwanzig	zwanzig	ADJ	ADJD	Degree=Pos	11	amod	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	dreisig	dreisig	ADJ	ADJD	Degree=Pos	8	conj	_	_
+11	Prozent	Prozent	NOUN	NN	Case=Dat|Number=Sing	3	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Man sollte beobachten, wie die Struktur des Hauses oder Wohnung ist.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
+2	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	beobachten	beobachten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	wie	wie	SCONJ	KOUS	_	12	mark	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Struktur	Struktur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+10	oder	oder	CCONJ	KON	_	11	cc	_	_
+11	Wohnung	Wohnung	NOUN	NN	_	9	conj	_	_
+12	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Ein altes Haus bracht vielleicht eine Renovierung.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+2	altes	alt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc,Neut|Number=Sing	3	amod	_	_
+3	Haus	Haus	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	nsubj	_	_
+4	bracht	brachen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	vielleicht	vielleicht	ADV	ADV	_	4	advmod	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Renovierung	Renovierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Für Wohnungen mit 80 m² bezahlt man € 50.000,00 oder € 60.000,00 für innere Renovierungen (neue Fenster, Türen, Boden, etc.)
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	obl	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	80	80	NUM	CARD	NumType=Card	5	nummod	_	_
+5	m²	m²	NOUN	NN	Case=Dat|Number=Sing	2	nmod	_	_
+6	bezahlt	bezahlen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
+8	€	€	PROPN	ADJD	Case=Acc|Number=Sing	6	obj	_	_
+9	50.000,00	50.000,00	PROPN	CARD	_	8	appos	_	_
+10	oder	oder	CCONJ	KON	_	18	cc	_	_
+11	€	€	PROPN	ADJD	Case=Acc|Number=Sing	18	obj	_	_
+12	60.000,00	60.000,00	PROPN	CARD	_	11	appos	_	_
+13	für	für	ADP	APPR	_	15	case	_	_
+14	innere	inner	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	15	amod	_	_
+15	Renovierungen	Renovierung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
+16	(	(	PUNCT	$(	_	18	punct	_	SpaceAfter=No
+17	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Fenster	Fenster	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
+20	Türen	Tür	NOUN	NN	_	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	Boden	Boden	NOUN	NN	_	18	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	18	punct	_	_
+24	etc.	etc.	X	ADV	_	18	conj	_	SpaceAfter=No
+25	)	)	PUNCT	$(	_	18	punct	_	_
+
+# sent_id = 16
+# text = In Stadt X lebt man aber gut, und wenn auch die Wohnungen ein bißchen mehr als in anderen Orten kostet, ist meiner Meinung, nicht ein großes Problem.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	4	obl	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	lebt	leben	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+6	aber	aber	ADV	ADV	_	4	advmod	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	30	punct	_	_
+9	und	und	CCONJ	KON	_	30	cc	_	_
+10	wenn	wenn	SCONJ	KOUS	_	30	mark	_	_
+11	auch	auch	ADV	ADV	_	30	advmod	_	_
+12	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	30	nsubj	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	30	det	_	_
+15	bißchen	bißchen	PRON	PIAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Ind	25	nsubj	_	_
+16	mehr	mehr	ADV	ADV	_	15	advmod	_	_
+17	als	als	ADP	KOKOM	_	15	case	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	anderen	ander	ADJ	ADJA	Degree=Pos	20	amod	_	_
+20	Orten	Ort|Orten	NOUN	NN	_	17	nmod	_	_
+21	kostet	kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	21	punct	_	_
+23	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	meiner	ich	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	Meinung	Meinung	NOUN	NN	_	30	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	25	punct	_	_
+27	nicht	nicht	PART	PTKNEG	Polarity=Neg	30	advmod	_	_
+28	ein	ein	DET	ART	Definite=Ind|PronType=Art	30	det	_	_
+29	großes	groß	ADJ	ADJA	Degree=Pos	30	amod	_	_
+30	Problem	Problem	NOUN	NN	_	4	conj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Es gibt Lebensqualität!
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	Lebensqualität	Lebensqualität	NOUN	NN	_	2	appos	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+

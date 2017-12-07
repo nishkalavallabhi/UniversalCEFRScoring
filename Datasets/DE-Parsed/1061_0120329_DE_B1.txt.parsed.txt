@@ -1,0 +1,253 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120329_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Silke, habe ich dein Brief bekommen.
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Silke	Silke	NOUN	NN	_	8	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	8	punct	_	SpacesAfter=\n
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	dein	dein	PRON	PIAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Ind	7	det	_	_
+7	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Viele Dank fur Einladung, aber leider wir können nicht euch bechuchen.
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Dank	Dank	ADP	NN	_	0	root	_	_
+3	fur	fur	PROPN	NE	_	4	nmod	_	_
+4	Einladung	Einladung	NOUN	NN	_	12	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	12	punct	_	_
+6	aber	aber	CCONJ	ADV	_	12	cc	_	_
+7	leider	leider	ADV	ADV	_	12	advmod	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+9	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+11	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	12	det	_	_
+12	bechuchen	bechuchen	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	2	amod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mein Mann eden Tag muß arbeiten.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	6	nsubj	_	_
+3	eden	ed	ADJ	ADJD	Degree=Pos	4	amod	_	_
+4	Tag	Tag	NOUN	NN	_	2	appos	_	_
+5	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	6	aux	_	_
+6	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Kindern mußen in der Schule lernen.
+1	Kindern	Kind	NOUN	NN	_	6	dep	_	_
+2	mußen	mußen	ADV	ADV	_	6	advmod	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Schule	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+6	lernen	lernen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ich muss beim Hausausgabe meinen Sohn und meine Tochter helfen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3-4	beim	_	_	_	_	_	_	_	_
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Hausausgabe	Hausausgabe	NOUN	NN	Case=Dat|Number=Sing	11	obl	_	_
+6	meinen	meinen	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Sohn	Sohn	NOUN	NN	_	5	appos	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Tochter	Tochter	NOUN	NN	_	5	conj	_	_
+11	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Mein Mann kommt immer spät nach Hause, deshalb muss ich zu Hause alles sebst machen.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	3	nsubj	_	_
+3	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	immer	immer	ADV	ADV	_	5	advmod	_	_
+5	spät	spät	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	deshalb	deshalb	ADV	PAV	_	16	advmod	_	_
+10	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+12	zu	zu	ADP	APPR	_	13	case	_	_
+13	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+14	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	16	nsubj	_	_
+15	sebst	sebst	ADV	PTKVZ	_	16	advmod	_	_
+16	machen	machen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Vieleicht, wir besuchen euch am Sommer.
+1	Vieleicht	Vieleichen	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
+4	besuchen	besuchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	4	iobj	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Bald habe ich Geburstag.
+1	Bald	bald	ADV	ADV	_	4	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	Geburstag	Geburstagen	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ich lade euch 7 März zum Geburstagsparty ein.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	lade	lade	PROPN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+3	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+4	7	7	NUM	CARD	NumType=Card	5	nummod	_	_
+5	März	März	PROPN	NN	_	8	nmod	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Geburstagsparty	Geburstagsparty	NOUN	NN	_	3	nmod	_	_
+9	ein	ein	ADV	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ich freue mir, wenn sie alle kommen könnte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+6	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	8	det	_	_
+8	kommen	kommen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+9	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Meine Wünsche zum Geschenk, dass ein schones Buch.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Wünsche	Wunsch	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Geschenk	Geschenk	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	dass	dass	SCONJ	KOUS	Case=Nom|Gender=Masc,Neut|Number=Sing	10	det	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	schones	schon	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	amod	_	_
+10	Buch	Buch	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	5	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 12
+# text = Meine Tochter Eva hat von den Tieren Allergie, daswegen können wir nicht zu Hause die Katze oder Hund haben.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Tochter	Tochter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	Eva	Eva	PROPN	NE	_	2	appos	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	von	von	ADP	APPR	_	7	case	_	_
+6	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	Tieren	Tier	NOUN	NN	Case=Dat|Number=Plur	10	obl	_	_
+8	Allergie	Allergie	PROPN	NN	_	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	7	punct	_	_
+10	daswegen	daswegen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	können	können	AUX	VMINF	VerbForm=Inf	10	aux	_	_
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	_
+14	zu	zu	ADP	APPR	_	15	case	_	_
+15	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+18	oder	oder	CCONJ	KON	_	19	cc	_	_
+19	Hund	Hund	NOUN	NN	_	17	conj	_	_
+20	haben	haben	VERB	VAINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 13
+# text = Aber wir lieben Tieren und oft lesen Bucher über Tieren oder sehen Filmen.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	lieben	lieben	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+4	Tieren	Tier	ADJ	ADJA	Degree=Cmp	13	amod	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	oft	oft	ADV	ADV	_	7	advmod	_	_
+7	lesen	lesen	PROPN	NN	_	4	conj	_	_
+8	Bucher	Buch	PROPN	ADJA	_	7	flat	_	_
+9	über	über	ADP	APPR	_	10	case	_	_
+10	Tieren	Tier	NOUN	NN	_	7	nmod	_	_
+11	oder	oder	CCONJ	KON	_	12	cc	_	_
+12	sehen	sehen	VERB	VVFIN	VerbForm=Fin	4	conj	_	_
+13	Filmen	Film	NOUN	NN	_	3	appos	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 14
+# text = Wenn haben Sie Lust, können Sie uns besuchen.
+1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+4	Lust	Lust	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+8	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+9	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 15
+# text = Das würde uns jedenfalls sehr freuen.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_
+4	jedenfalls	jedenfalls	ADV	ADV	_	6	advmod	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 16
+# text = Wenn fahren Sie mit dem Zug, ich hole gern euch von dem Bahnhof ab.
+1	Wenn	wenn	SCONJ	KOUS	_	2	mark	_	_
+2	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	11	advcl	_	_
+3	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	hole	hol	PROPN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+10	gern	gern	ADV	ADV	_	11	advmod	_	_
+11	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+12	von	von	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Bahnhof	Bahnhof	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+15	ab	ab	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Hoffentlich bis bald.
+1	Hoffentlich	Hoffentlich	ADJ	ADJD	Degree=Pos	0	root	_	_
+2	bis	bis	ADP	KON	_	3	case	_	_
+3	bald	bald	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Mit freundlichen Grüßen Maria.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	Grüßen	grüßen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Stadt X 28.02.2012
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	28.02.2012	28.02.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+

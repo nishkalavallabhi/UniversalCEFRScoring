@@ -1,0 +1,138 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000036_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 04.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	den	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+5	04	04	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Januar 2012 Sehr geehrte Damen und Herren, mein name Müller.
+1	Januar	Januar	PROPN	NN	_	5	dep	_	_
+2	2012	2012	NUM	CARD	NumType=Card	1	nmod	_	SpacesAfter=\n
+3	Sehr	Sehr	ADV	ADV	_	4	advmod	_	_
+4	geehrte	geehrt	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Damen	Dame	NOUN	NN	_	10	compound	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Herren	Herr	NOUN	NN	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+9	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	name	Name	PROPN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	Müller	Müller	PROPN	NE	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte eine Wohnung suchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	eine	eine	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ich brauche drei Zimmer.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ich möchte ein Wohnzimmer groß und hell.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnzimmer	Wohnzimmer	NOUN	NN	Case=Acc|Number=Sing	5	obj	_	_
+5	groß	groß	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	hell	hell	NOUN	ADJD	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ein Kinderzimmer und ein Schlafzimme nicht groß aber sind auch hell.
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Kinderzimmer	Kinderzimmer	NOUN	NN	_	0	root	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Schlafzimme	Schlafzimme	NOUN	NN	_	2	conj	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+7	groß	groß	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+8	aber	aber	ADV	ADV	_	11	advmod	_	_
+9	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	auch	auch	ADV	ADV	_	11	advmod	_	_
+11	hell	hellen	NOUN	ADJD	_	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ich möche ein Schlafzimmer mit einen Balkon.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möche	möch	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Schlafzimmer	Schlafzimmer	NOUN	NN	_	0	root	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	einen	ein	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	7	det	_	_
+7	Balkon	Balkon	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Und ich brauche eine Wohnung auf dem Zweite geschoss.
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	auf	auf	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Zweite	zweit	PROPN	ADJA	_	9	obl	_	_
+9	geschoss	geschießen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	acl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Diese Wohnung muss nicht mehr 500€ pro monat.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	mehr	mehr	ADV	ADV	_	6	advmod	_	_
+6	500	500	NUM	CARD	NumType=Card	7	nummod	_	SpaceAfter=No
+7	€	€	X	NN	_	0	root	_	_
+8	pro	pro	ADP	APPR	_	9	case	_	_
+9	monat	moneten	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 10
+# text = Bitte Rufen Sie mir am Abend von 18 bis 22 Uhr an.
+1	Bitte	Bitte	PART	ADV	_	12	mark	_	_
+2	Rufen	rufen	NOUN	NN	Case=Nom|Number=Plur	12	obj	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+8	von	von	ADP	APPR	_	12	case	_	_
+9	18	18	NUM	CARD	NumType=Card	12	nummod	_	_
+10	bis	bis	ADP	KON	_	11	case	_	_
+11	22	22	NUM	CARD	NumType=Card	12	obl	_	_
+12	Uhr	Uhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	an	an	ADP	PTKVZ	_	12	compound:prt	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 11
+# text = Mein Telefonnummer... Mit freundlichen Grüßen E.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Telefonnummer	Telefonnummer	NOUN	NN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+3	...	...	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+4	Mit	mit	ADP	APPR	_	6	case	_	_
+5	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Grüßen	grüßen	NOUN	NN	_	2	nmod	_	SpacesAfter=\n
+7	E.	E.	PROPN	NE	_	6	appos	_	_
+
+# sent_id = 12
+# text = Müller
+1	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,87 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000378_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Sabrina come stai?
+1	Ciao	Ciao	PROPN	SP	_	0	root	_	_
+2	Sabrina	Sabrina	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	come	come	ADP	E	_	4	case	_	_
+4	stai	stare	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io sto bene!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Lavoro in una ditta a Città X e lì, mi piace molto lavoro è interessante e io vado d'accordo con i miei colleghi!
+1	Lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	città	PROPN	SP	_	4	nmod	_	_
+7	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	lì	lì	ADV	B	_	12	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+12	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	molto	molto	ADV	B	_	12	advmod	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	interessante	interessante	ADJ	A	Number=Sing	0	root	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	conj	_	_
+20	d'	di	ADP	E	_	21	case	_	SpaceAfter=No
+21	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	con	con	ADP	E	_	25	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+24	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+26	!	!	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = L'estate scorso,sono andata a Città X, per fare vacanze nel mare, era stupendo!
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	scorso,sono	esscorso,sere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	17	obl	_	_
+7	X	X	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	17	advcl	_	_
+11	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mare	mare	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	10	punct	_	_
+16	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	17	aux	_	_
+17	stupendo	stupire	VERB	V	VerbForm=Ger	4	advcl	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Spero che ci vediamo l'anno prossimo in Svizzera!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+4	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Svizzera	Svizzera	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Tanti baci Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	baci	baco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

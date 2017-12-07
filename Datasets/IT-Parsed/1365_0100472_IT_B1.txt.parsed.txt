@@ -1,0 +1,195 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100472_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 24.03.2012
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	24.03.2012	24.03.2012	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Francesco, primo, tanti auguri per il tuo successo!
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Francesco	Francesco	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	7	det	_	_
+7	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	2	appos	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	successo	successo	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Questo è veramente buono.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	veramente	veramente	ADV	B	_	4	advmod	_	_
+4	buono	bue	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Nel momento io studio ancora nella scuola, ma l'anno prossimo ho già finito la scuola.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	studio	studiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	ancora	ancora	ADV	B	_	5	advmod	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	17	punct	_	_
+11	ma	ma	CCONJ	CC	_	17	cc	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	anno	anno	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	_
+14	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	già	già	ADV	B	_	17	advmod	_	_
+17	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Poi voglio cercare un lavoro che mi piace.
+1	Poi	poi	ADV	B	_	3	advmod	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cercare	cercare	VERB	V	VerbForm=Inf	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Queste te anche suggerirei, perché quando decidi per cominciare un lavoro, è molto importante, che questo ti piace.
+1	Queste	questo	PRON	PD	Gender=Fem|Number=Plur|PronType=Dem	2	nsubj	_	_
+2	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	0	root	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	suggerirei	suggerire	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	perché	perché	SCONJ	CS	_	16	mark	_	_
+7	quando	quando	SCONJ	CS	_	8	mark	_	_
+8	decidi	decidio	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	cominciare	cominciare	VERB	V	VerbForm=Inf	8	advcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	importante	importante	ADJ	A	Number=Sing	2	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+19	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	21	nsubj	_	_
+20	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	iobj	_	_
+21	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Penso che un lavoro, che ti accompagni tutto la tua vità, ti deve piacere.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	16	mark	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
+8	accompagni	accompagno	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	vità	vità	NOUN	S	Gender=Fem	9	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	4	punct	_	_
+14	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	16	iobj	_	_
+15	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	piacere	piacere	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = E se no, questo lavoro non è giusto per te.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	no	no	ADV	BN	PronType=Neg	9	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	giusto	giusto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Naturalmente puoi anche studiare all'Università e quando trovi un posto del studie nella mia città, ti potrei mostrare alcuni alberghi, non essendo caro e che sono anche vicino all'Università.
+1	Naturalmente	naturalmente	ADV	B	_	4	advmod	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	anche	anche	ADV	B	_	4	advmod	_	_
+4	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	SpacesAfter=\s\s
+5-6	all'	_	_	_	_	_	_	_	SpaceAfter=No
+5	a	a	ADP	E	_	7	case	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
+7	Università	università	NOUN	S	Gender=Fem	4	obl	_	_
+8	e	e	CCONJ	CC	_	23	cc	_	_
+9	quando	quando	SCONJ	CS	_	10	mark	_	_
+10	trovi	trovare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	advcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	posto	posto	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	studie	studia	NOUN	S	_	12	nmod	_	_
+16-17	nella	_	_	_	_	_	_	_	_
+16	in	in	ADP	E	_	19	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	città	città	NOUN	S	Gender=Fem	10	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	10	punct	_	SpacesAfter=\s\s
+21	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	23	iobj	_	_
+22	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	mostrare	mostrare	VERB	V	VerbForm=Inf	4	conj	_	_
+24	alcuni	alcuno	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	25	det	_	_
+25	alberghi	albergo	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	25	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	essendo	essere	AUX	V	VerbForm=Ger	29	cop	_	_
+29	caro	caro	ADJ	A	Gender=Masc|Number=Sing	25	advcl	_	_
+30	e	e	CCONJ	CC	_	37	cc	_	_
+31	che	che	PRON	PR	PronType=Rel	37	nsubj	_	_
+32	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	cop	_	_
+33	anche	anche	ADV	B	_	34	advmod	_	_
+34	vicino	vicino	ADV	B	_	37	case	_	_
+35-36	all'	_	_	_	_	_	_	_	SpaceAfter=No
+35	a	a	ADP	E	_	34	fixed	_	_
+36	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
+37	Università	Università	NOUN	S	Gender=Fem	29	conj	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Sarebbe veramente bello, se veni nella mia città!
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	veramente	veramente	ADV	B	_	3	advmod	_	_
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	veni	veno	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+7-8	nella	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	città	città	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 11
+# text = Tanti saluti Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s\s
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

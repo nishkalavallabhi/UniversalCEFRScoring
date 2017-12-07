@@ -1,0 +1,284 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001096_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Egregio Centro, Via dei Mille 48 17021 Alassio Città X, 19.11.2011 Egregio Direttore, mi chiamo Maria Rossi.
+1	Egregio	Egregio	PROPN	SP	_	19	nsubj	_	_
+2	Centro	Centro	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+4	Via	via	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+5-6	dei	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	Mille	mille	PROPN	SP	_	4	nmod	_	_
+8	48	48	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\n
+9	17021	17021	NUM	N	NumType=Card	10	nummod	_	_
+10	Alassio	Alassio	PROPN	SP	_	4	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	Città	Città	PROPN	SP	_	10	flat:name	_	_
+12	X	X	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	10	punct	_	_
+14	19.11.2011	19.11.201l	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	SpacesAfter=\s\n
+15	Egregio	Egregio	PROPN	SP	_	10	appos	_	_
+16	Direttore	direttore	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obj	_	_
+19	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	Maria	Maria	PROPN	SP	_	19	xcomp	_	_
+21	Rossi	Rossi	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	_
+
+# sent_id = 2
+# text = Ho 17 anni.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	17	17	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Studio italiano al liceo da 5 anni.
+1	Studio	studio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	da	da	ADP	E	_	8	case	_	_
+7	5	5	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ho letto il Vostro depliant e mi piace molto.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Vostro	vostro	PROPN	SP	_	2	obj	_	_
+5	depliant	depliant	NOUN	S	_	4	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	molto	molto	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La mia preferita materia è la storia, perchè così posso conoscere altre culture.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	preferita	preferito	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	materia	materia	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	storia	storia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	perchè	poiperché	SCONJ	CS	_	12	mark	_	_
+10	così	così	ADV	B	_	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	conoscere	conoscere	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	altre	altro	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	_
+14	culture	cultura	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 6
+# text = Mi piace mangiare e cucinare.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	mangiare	mangiare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	cucinare	cucinare	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Purtroppo ho allergia sul pesce, per questo non posso mangiare cibi di pesce.
+1	Purtroppo	purtroppo	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	allergia	allergiare	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4-5	sul	_	_	_	_	_	_	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	mangiare	mangiare	VERB	V	VerbForm=Inf	3	conj	_	_
+13	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	pesce	pesce	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Inoltre non posso bere latte.
+1	Inoltre	inoltre	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	bere	bere	VERB	V	VerbForm=Inf	0	root	_	_
+5	latte	latte	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ma mi piace patate, pasta, vari tipi di carne ecc.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	patate	patato	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	pasta	pasto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	vari	vario	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	9	det	_	_
+9	tipi	tipo	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	carne	carne	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	ecc	eccetera	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Io abito a Città X per questo è difficile andare, così posso andare solo all'estero perchè frequento alla scuola.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	abito	abitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	2	obl	_	_
+5	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	9	obl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	difficile	difficile	ADJ	A	Number=Sing	2	xcomp	_	_
+10	andare	andare	VERB	V	VerbForm=Inf	9	csubj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	così	così	ADV	B	_	14	advmod	_	_
+13	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	andare	andare	VERB	V	VerbForm=Inf	9	conj	_	_
+15	solo	solo	ADV	B	_	18	advmod	_	_
+16-17	all'	_	_	_	_	_	_	_	SpaceAfter=No
+16	a	a	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	estero	estero	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	perchè	perché	SCONJ	CS	_	14	mark	_	_
+20	frequento	frequento	NUM	N	NumType=Card	19	nummod	_	_
+21-22	alla	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Così posso andare nel secondo ciclo, ciò nel mese di luglio.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	secondo	secondo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+7	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mese	mese	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Posso viaggiare circa da un mese.
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	viaggiare	viaggiare	VERB	V	VerbForm=Inf	0	root	_	_
+3	circa	circa	ADV	B	_	6	advmod	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Mi piace se c'è cuochi, che aiutano.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+6	cuochi	cuoco	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+9	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Sono conteo che conoscerò i piatti di un paese diverso.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	conteo	conteo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	4	nsubj	_	_
+4	conoscerò	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	diverso	diverso	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = Vorrei chiedere che questo quato costa?
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	_
+5	quato	quato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	SpacesAfter=\s\s
+6	costa	costo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Dov'è possibile dormire, C'è un alloggio?
+1	Dov'	dov'	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+4	dormire	dormire	VERB	V	VerbForm=Inf	3	csubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	alloggio	alloggio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = Vorrei chiedere sul calendario degli incontri.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	calendario	calendario	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	incontri	incontro	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s\n
+
+# sent_id = 18
+# text = Aspetto la Vostra risposta.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Vostra	Vostra	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	risposta	risposto	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = Porgo i miei distinti saluti.
+1	Porgo	Porgere	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+5	saluti	saluto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 20
+# text = Maria Rossi Strada Maggiore 13 1234 Città X
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	13	13	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	1234	1234	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	città	PROPN	SP	_	1	flat:name	_	_
+8	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpacesAfter=\n
+

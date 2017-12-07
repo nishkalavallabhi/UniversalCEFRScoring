@@ -1,0 +1,79 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000587_IT_A1.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 12.01.10 Cari Paolo e Marco, Sono a Città X;
+1	Città	Città	NOUN	S	Gender=Fem	11	nsubj	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	12.01.10	12.01.10	NUM	N	NumType=Card	1	nmod	_	SpacesAfter=\s\n
+6	Cari	caro	PROPN	SP	_	5	nmod	_	_
+7	Paolo	Paolo	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Marco	Marco	PROPN	SP	_	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+11	Sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	Città	PROPN	SP	_	11	obl	_	_
+14	X	X	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	11	punct	_	_
+
+# sent_id = 2
+# text = una settimana fa per seguire, un corso d'italiano.
+1	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	seguire	seguire	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = é credimo non é facile, di imparar italiano.
+1	é	é	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	2	obj	_	_
+2	credimo	credimo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	é	é	ADV	B	_	5	advmod	_	_
+5	facile	facile	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	imparar	imparar	VERB	V	VerbForm=Inf	2	conj	_	_
+9	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = quando non c'e lezione, faccio un giro nel centro di Città X.ci sono tante belle cose da vedere.
+1	quando	quando	SCONJ	CS	_	7	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	giro	giro	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	centro	centro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Città	città	PROPN	SP	_	12	nmod	_	_
+15	X.ci	X.ci	PROPN	SP	_	14	flat:name	_	_
+16	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	19	det	_	_
+18	belle	bello	ADJ	A	Gender=Fem|Number=Plur	19	amod	_	_
+19	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+20	da	da	ADP	E	_	21	mark	_	_
+21	vedere	vedere	VERB	V	VerbForm=Inf	19	acl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	19	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Vi abracio Maria
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	abracio	abraciare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	SP	_	2	obj	_	SpacesAfter=\n
+

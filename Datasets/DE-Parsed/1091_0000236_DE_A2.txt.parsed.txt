@@ -1,0 +1,125 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000236_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 12.02.2012 Liebe Katharina, wie geht es dir?
+1	12.02.2012	12.02.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	Katharina	Katharina	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s
+5	wie	wie	ADV	KOUS	_	6	advmod	_	_
+6	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Mir geht es gut.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte nach Indien zwei Woche Urlaub machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Indien	Indien	PROPN	NE	Case=Dat|Number=Sing	8	obl	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Woche	Woche	NOUN	NN	_	7	nmod	_	_
+7	Urlaub	Urlaub	NOUN	NE	_	8	obl	_	_
+8	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Kannst du mir helfen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ich nehme nicht meinen Hund nach Indien mit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	nehme	nehm	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+4	meinen	meinen	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Indien	Indien	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	_
+8	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Mein Hund name ist Waldi.
+1	Mein	mein	PROPN	PPOSAT	_	2	nmod	_	_
+2	Hund	Hund	PROPN	NN	_	5	nsubj	_	_
+3	name	Name	PROPN	NN	Case=Nom|Number=Sing	2	flat	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Waldi	Waldi	PROPN	NE	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Waldi brauche nur einmal Essen jeden tag.
+1	Waldi	Waldi	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	ADV	_	4	advmod	_	_
+4	einmal	einmal	ADV	ADV	_	2	advmod	_	_
+5	Essen	Essen	VERB	NN	_	2	xcomp	_	_
+6	jeden	jed	PRON	PIAT	PronType=Tot	7	det	_	_
+7	tag	tagen	NOUN	VVIMP	Case=Dat|Number=Plur	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Kannst du etwas Essen ein mal zu geben?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+3	etwas	etwas	PROPN	PIAT	_	4	nmod	_	_
+4	Essen	Essen	PROPN	NN	_	2	appos	_	_
+5	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	mal	mal	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	8	obj	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	geben	geben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Ich mochte nach Indien erste zwei wochen am April fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mochte	mochte	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Indien	Indien	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	_
+5	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	7	amod	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	wochen	woch	NOUN	NN	_	11	obl	_	_
+8-9	am	_	_	_	_	_	_	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	April	April	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+11	fahren	fahren	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Bitte hilf mir und such meinen Hund für zwei Woche.
+1	Bitte	bitten	PART	ADV	_	0	root	_	_
+2	hilf	hilf	NUM	CARD	NumType=Card	3	nummod	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	such	such	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+6	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	zwei	zwei	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Woche	Woche	NOUN	NN	_	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Vielen Dank, Dein freund Tobias
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	ADP	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	SpacesAfter=\s\n
+4	Dein	dein	PROPN	PPOSAT	_	2	appos	_	_
+5	freund	freund	PROPN	NN	_	4	flat	_	SpacesAfter=\n
+6	Tobias	Tobias	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

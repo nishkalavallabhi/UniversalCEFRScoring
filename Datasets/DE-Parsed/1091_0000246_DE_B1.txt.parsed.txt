@@ -1,0 +1,146 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000246_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Michael.
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Michael	Michael	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 2
+# text = 24.6.2012 wie geht´s dir!?
+1	24.6.2012	24.6.2012	NUM	CARD	NumType=Card	6	nummod	_	SpacesAfter=\n
+2	wie	wie	ADP	KOKOM	_	3	case	_	_
+3	geht´s	geht´s	PROPN	NE	_	1	nmod	_	_
+4	dir	dir	PROPN	NE	_	3	flat	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+6	?	?	PROPN	$.	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Am Montag Fahre ich mit meinem Vater nach Stadt X. Wir machen eine kurze Urlaub.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+4	Fahre	Fahre	PROPN	NN	Case=Nom|Number=Plur	3	flat	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Vater	Vater	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+9	nach	nach	ADP	APPR	_	10	case	_	_
+10	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	8	nmod	_	_
+11	X.	X.	PROPN	NE	_	10	appos	_	_
+12	Wir	wir	PROPN	PPER	Case=Nom|Number=Sing	11	flat	_	_
+13	machen	machen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	kurze	kurz	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Urlaub	Urlaub	NOUN	NE	_	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 4
+# text = Und mein Vater erlaubt nicht unsere Katze mitzunehmen.
+1	Und	und	CCONJ	KON	_	8	cc	_	_
+2	mein	mein	ADJ	ADJD	Degree=Pos	3	compound	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+4	erlaubt	erlauben	ADJ	VVPP	_	8	advmod	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+6	unsere	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Katze	Katze	NOUN	NN	_	8	obj	_	_
+8	mitzunehmen	mitnehmen	VERB	VVIZU	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Kannst du mir helfen?! darf ich meine Katze in deinem Haus stellen.
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	4	punct	_	_
+7	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+9	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	deinem	dein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	13	det	_	_
+13	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	obl	_	_
+14	stellen	stellen	VERB	VVINF	VerbForm=Inf	4	parataxis	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = du Kennst meine Katze sehr gut, Sie macht kein problem.
+1	du	du	PROPN	PPER	_	4	case	_	_
+2	Kennst	Kennst	PROPN	NN	_	1	flat	_	_
+3	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+9	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	4	parataxis	_	_
+10	kein	kein	PRON	PIAT	PronType=Neg	11	advmod	_	_
+11	problem	probl	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = aber du sollst jedentag nur eine stunde mit meiner Katze spielen.
+1	aber	aber	ADV	ADV	_	11	advmod	_	_
+2	du	du	PROPN	PPER	_	11	case	_	_
+3	sollst	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+4	jedentag	jedentiegen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	nur	nur	ADV	ADV	_	11	advmod	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	stunde	stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Katze	Katze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+11	spielen	spielen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 8
+# text = und bitte vergess nicht das Essen, Sie mag milch.
+1	und	und	CCONJ	KON	_	2	cc	_	_
+2	bitte	bitten	PROPN	NN	_	8	nmod	_	_
+3	vergess	vergeß	PROPN	NN	_	2	flat	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+9	mag	miegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	milch	milch	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Ich Fahre am Montag (28.6.12) bis Mittwoch (30.6.12) nur Für zwei tagen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+2	Fahre	Fahre	NOUN	NN	Case=Nom|Number=Plur	17	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	28.6.12	28.6.12	PROPN	CARD	_	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	$(	_	7	punct	_	_
+9	bis	bis	ADP	APPR	_	10	case	_	_
+10	Mittwoch	Mittwoch	PROPN	NN	_	2	nmod	_	_
+11	(	(	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	30.6.12	30.6.12	PROPN	CARD	_	10	appos	_	SpaceAfter=No
+13	)	)	PUNCT	$(	_	12	punct	_	_
+14	nur	nur	ADV	ADV	_	17	advmod	_	_
+15	Für	für	ADP	APPR	_	16	case	_	_
+16	zwei	zwei	NUM	CARD	NumType=Card	17	obl	_	_
+17	tagen	tagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Vielen Dank.
+1	Vielen	Vielen	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Dein Tobias.
+1	Dein	dein	PROPN	PPOSAT	_	0	root	_	_
+2	Tobias	Tobias	PROPN	NN	_	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+

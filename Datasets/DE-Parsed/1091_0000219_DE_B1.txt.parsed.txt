@@ -1,0 +1,133 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000219_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 12.3.12 Liebe Maria, wie geht´s dir?
+1	12.3.12	12.3.12	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	_	0	root	_	_
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s
+5	wie	wie	ADP	KOUS	_	6	case	_	_
+6	geht´s	geht´s	PROPN	NE	_	2	nmod	_	_
+7	dir	dir	PROPN	NN	_	6	flat	_	SpaceAfter=No
+8	?	?	PROPN	$.	_	6	flat	_	_
+
+# sent_id = 2
+# text = Ich denke alles ist ok.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	Rank|denke	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	obj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ok	ok	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte deine hilfe fragen. weil ich 1. April bis 5.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	hilfe	hilfe	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+5	fragen	fragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	1	1	NUM	CARD	NumType=Card	11	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+11	April	April	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	obl	_	_
+12	bis	bis	ADP	KON	_	13	case	_	_
+13	5	5	NUM	CARD	NumType=Card	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = April nicht zu Hause bleibe.
+1	April	April	PROPN	NN	_	5	dep	_	_
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+5	bleibe	bleiben	VERB	VVFIN	VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ich kann leider nicht mein Haustier mitnehmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	leider	leider	ADV	ADV	_	7	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+5	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Haustier	Haustier	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	7	nsubj	_	_
+7	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Bitte kannst du mein Hund aufpassen.
+1	Bitte	Bitte	PART	ADV	_	6	mark	_	_
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	6	nsubj	_	_
+4	mein	mein	PROPN	PPOSAT	_	5	det:poss	_	_
+5	Hund	Hund	PROPN	NN	_	3	appos	_	_
+6	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Kannst du pro tag Essen und wasser geben.
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+3	pro	pro	ADP	APPR	_	4	case	_	_
+4	tag	tiegen	PROPN	NN	_	2	nmod	_	_
+5	Essen	Essen	NOUN	NE	Case=Nom|Number=Sing	8	nsubj:pass	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	wasser	wass	NOUN	NN	_	5	conj	_	_
+8	geben	geben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ich fahre nach Köln zu meinem eltern Hause. weil sie krank sind.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	fahre	fahren	PROPN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	7	obl	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	obl	_	_
+7	eltern	elter	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	12	mark	_	_
+11	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	krank	krank	ADJ	ADJD	Degree=Pos	8	advcl	_	_
+13	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Ich glaube an dich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	an	an	ADP	APPR	_	4	case	_	_
+4	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = dass du kannst mir hilfen.
+1	dass	daß	SCONJ	KOUS	_	5	mark	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	kannst	kannsen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	hilfen	hilfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Bis bald.
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Vielen Dank.
+1	Vielen	Vielen	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Sr. Eva
+1	Sr	Sr	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+3	Eva	Eva	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+

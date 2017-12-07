@@ -1,0 +1,57 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000605_IT_unrated.txt
+# newpar
+# sent_id = 1
+# text = il Lunedi, 5 dicembre 2010
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Lunedi	Lunede	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	5	5	NUM	N	NumType=Card	2	nmod	_	_
+5	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2010	2010	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro amici, Ho sieto in Città X, Apprendo corso di italiano.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sieto	sietere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Città	Città	PROPN	SP	_	5	obl	_	_
+8	X	X	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\n
+10	Apprendo	Apprere	VERB	V	VerbForm=Ger	5	advcl	_	_
+11	corso	corso	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = l'insegnante ho molto gentil e sympatico ho visito la cittadel Città X, dopo bere al bar Presto:
+1	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	gentil	gentile	ADJ	A	Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	sympatico	sympatico	ADJ	A	Gender=Masc|Number=Sing	5	conj	_	SpacesAfter=\s\n
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	visito	visire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cittadel	cittadel	NOUN	S	Gender=Masc	9	obj	_	_
+12	Città	Città	PROPN	SP	_	11	nmod	_	_
+13	X	X	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	5	punct	_	_
+15	dopo	dopo	ADP	E	_	16	mark	_	_
+16	bere	bere	VERB	V	VerbForm=Inf	5	advcl	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	bar	bar	NOUN	S	Gender=Masc	16	obl	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+20	Presto	presto	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+21	:	:	PUNCT	FC	_	5	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 4
+# text = Michele
+1	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

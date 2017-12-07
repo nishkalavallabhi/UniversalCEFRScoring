@@ -1,0 +1,97 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024844_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Jens Ich Freue Mich Für deine gut Nachricht.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	3	amod	_	_
+2	Jens	Jens	PROPN	NE	_	3	amod	_	SpacesAfter=\n
+3	Ich	ich	PROPN	NE	_	9	nsubj	_	_
+4	Freue	freu	PROPN	NN	_	3	appos	_	_
+5	Mich	mich	PROPN	NE	_	4	nmod	_	_
+6	Für	für	PROPN	APPR	_	9	case	_	_
+7	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+8	gut	gut	ADJ	ADJD	Degree=Pos	9	amod	_	_
+9	Nachricht	Nachrechen	NOUN	NN	Case=Dat|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Du bist jets ein Vater.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+2	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	jets	jets	PROPN	NN	Case=Dat|Number=Plur	5	nmod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Vater	Vater	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Glückwünsche.
+1	Glückwünsche	Glückwünsche	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Wie gehts der Mutter und des Babys?
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	gehts	gehts	ADV	ADV	_	4	advmod	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	des	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Babys	Baby	PROPN	NN	_	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich habe gehort dein Frau jets zu Hause.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gehort	horen	PROPN	NE	_	0	root	_	_
+4	dein	dein	PROPN	PPOSAT	_	3	flat	_	_
+5	Frau	Frau	PROPN	NN	_	6	compound	_	_
+6	jets	jets	PROPN	NN	Case=Dat|Number=Plur	3	flat	_	_
+7	zu	zu	ADP	APPR	_	8	case	_	_
+8	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Sie hat zwei Tage im KrankenHaus geblieben.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Tage	Tag	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	KrankenHaus	Krankenhaus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+8	geblieben	bleiben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Ich hofe alls gut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	hofe	hof	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	alls	alls	ADV	ADV	_	4	advmod	_	_
+4	gut	gun	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Wie Heiß des Babys?
+1	Wie	wie	ADP	KOKOM	_	2	case	_	_
+2	Heiß	heiß	NOUN	NN	_	0	root	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Babys	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+5	?	?	PROPN	$.	_	4	flat	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Ich komme für besauch am Samstag Abend Viele Gruß deine Eva
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	besauch	besauch	NOUN	VVIMP	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	amod	_	_
+8	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	SpacesAfter=\n
+9	Viele	viel	PROPN	PIS	_	10	amod	_	_
+10	Gruß	Gruß	PROPN	NN	_	8	appos	_	SpacesAfter=\n
+11	deine	dein	PROPN	NE	_	10	flat	_	_
+12	Eva	Eva	PROPN	NE	_	10	flat	_	SpacesAfter=\n
+

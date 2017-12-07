@@ -1,0 +1,177 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000551_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Ciao Alfredo!
+1	Ciao	ciao	PROPN	SP	_	0	root	_	_
+2	Alfredo	Alfredo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Come stai?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io sto molto bene!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Iieri, sono ritornata di un viaggio fantastico!
+1	Iieri	Iieri	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	ritornata	ritornare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	fantastico	fantastico	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Michele ed io abbiamo fatto un viaggio in Italia.
+1	Michele	Michele	PROPN	SP	_	5	nsubj	_	_
+2	ed	e	CCONJ	CC	_	3	cc	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	1	conj	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Siamo andati in macchina e abbiamo visto molte cose bellissime.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+8	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	bellissime	bello	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Città X non mi piace però Città Y sono moltissimo buoni.
+1	Città	Città	NOUN	S	Gender=Fem	5	nsubj	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+6	però	però	ADV	B	_	5	advmod	_	_
+7	Città	Città	PROPN	SP	_	11	nsubj	_	_
+8	Y	y	PROPN	SP	_	7	flat:name	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	moltissimo	molto	ADV	B	Degree=Abs	11	advmod	_	_
+11	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Ma la settimana prossima io devo lavorare.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	prossima	proo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Mi piace lavorare in la oficina:
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lavorare	lavorare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	oficina	oficina	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 10
+# text = la gente è gentile e il lavoro non è piu dificile.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	gentile	gentile	ADJ	A	Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	11	cc	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	piu	piu	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	dificile	dificile	ADJ	A	Number=Sing	4	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Sempre lavoro della nove alle quindici.
+1	Sempre	sempre	ADV	B	_	2	advmod	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	nove	nove	NUM	N	NumType=Card	2	nummod	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	quindici	quindici	NUM	N	NumType=Card	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = E tu?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Come va il lavoro?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Quando hai un po tempo libero?
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	po	po	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+6	libero	libero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Potrei preparare la pasta con funghi..
+1	Potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	preparare	preparare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	funghi..	funghi..	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+
+# sent_id = 16
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	_
+
+# sent_id = 17
+# text = tu piatto preferito!
+1	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj:pass	_	_
+2	piatto	piatto	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Cari Saluti, Maria
+1	Cari	caro	PROPN	SP	_	0	root	_	_
+2	Saluti	Saluti	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

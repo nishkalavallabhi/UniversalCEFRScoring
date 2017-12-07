@@ -1,0 +1,131 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000252_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 25.05.2022 Liebe Julia, wie geht´s dir?
+1	25.05.2022	25.05.2022	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	_	0	root	_	_
+3	Julia	Julia	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n\s
+5	wie	wie	ADP	KOUS	_	6	case	_	_
+6	geht´s	geht´s	PROPN	NE	_	3	nmod	_	_
+7	dir	dir	PROPN	NN	_	6	flat	_	SpaceAfter=No
+8	?	?	PROPN	$.	_	6	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Was macht´s du dies Wochenende?
+1	Was	was	PROPN	NE	_	3	nmod	_	_
+2	macht´s	macht´s	PROPN	NN	_	1	flat	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	5	nsubj	_	_
+4	dies	dies	PRON	PDS	Case=Acc|PronType=Dem	5	obj	_	_
+5	Wochenende	Wochenende	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich habe eine Fahrkarte für eine Ausflug gekauft, aber ich kann nicht fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Ausflug	Ausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	14	punct	_	_
+10	aber	aber	CCONJ	KON	_	14	cc	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
+14	fahren	fahren	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Mein Großvater ist krank und liegt im Krankenhaus.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Großvater	Großvater	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	krank	krinken	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	liegt	liegen	VERB	VVFIN	VerbForm=Fin	4	conj	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Krankenhaus	Krankenhaus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Dann will ich meiner Großmutter helfen.
+1	Dann	dann	ADV	ADV	_	6	advmod	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Großmutter	Großmutter	NOUN	NN	Case=Dat|Number=Sing	6	iobj	_	_
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Möchtest du die Fahrkarte haben?
+1	Möchtest	Möchtest	PROPN	NN	_	5	nsubj	_	_
+2	du	du	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich wollte nach Stadt X fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Am Samstag und Sonnstag sind alle Museums kostenloss.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Sonnstag	Sonnstag	PROPN	NN	_	3	conj	_	_
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	alle	alle	PRON	PIAT	PronType=Tot	8	det	_	_
+8	Museums	Museum	PROPN	NN	_	0	root	_	_
+9	kostenloss	kostenloß	PROPN	NN	Case=Dat|Number=Plur	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Das finde ich einfach toll!
+1	Das	der	PRON	PDS	Case=Acc|PronType=Dem	2	obj	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	einfach	einfach	ADV	ADJD	_	5	advmod	_	_
+5	toll	toll	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ich warte auf deine Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	0	root	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Antwort	Antwort	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Bitte, schreib mir bald!
+1	Bitte	Bitte	PART	ADV	_	3	appos	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	schreib	schreib	NOUN	NN	_	0	root	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	bald	bald	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Küsse, Eva -image-
+1	Küsse	Kuß	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Eva	Eva	PROPN	NE	_	1	conj	_	_
+4	-image-	-image-	PUNCT	$(	_	1	punct	_	SpacesAfter=\n
+

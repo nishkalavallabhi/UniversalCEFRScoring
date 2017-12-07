@@ -1,0 +1,141 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000197_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 10.03.12
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	10.03.12	10.03.12	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Die Wohn Amt GmBH Müllergasse 12 1234 Stadt X Stefan Schmidt Winkelsweg 123 12345 Stadt X Ein Wohnung für Meine Familie Sehr geerhte Damen und Herren, ich habe Ihre Firma in der Sendung vom 29. Februar gelernt und interessiere mich für eine 3-Zimmer Wohnung, mit Einbauküche und Gäste-WC.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Wohn	Wohn	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	Amt	Amt	PROPN	NN	_	2	appos	_	_
+4	GmBH	GmBH	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+5	Müllergasse	Müllergasse	PROPN	NN	_	3	flat	_	_
+6	12	12	NUM	CARD	NumType=Card	7	nummod	_	SpacesAfter=\n
+7	1234	1234	NUM	CARD	NumType=Card	2	nmod	_	_
+8	Stadt	Stadt	NOUN	NN	_	2	nmod	_	_
+9	X	X	PROPN	NN	_	8	appos	_	SpacesAfter=\n\s\n
+10	Stefan	Stefan	PROPN	NE	_	8	appos	_	_
+11	Schmidt	Schmidt	PROPN	NE	_	10	flat	_	SpacesAfter=\n
+12	Winkelsweg	Winkelsweg	PROPN	NN	_	10	flat	_	_
+13	123	123	NUM	CARD	NumType=Card	2	appos	_	SpacesAfter=\n
+14	12345	12345	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Stadt	Stadt	NOUN	NN	_	2	nmod	_	_
+16	X	X	X	ADJA	_	2	appos	_	SpacesAfter=\n\s\n
+17	Ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	18	det	_	_
+18	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+19	für	für	ADP	APPR	_	21	case	_	_
+20	Meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpacesAfter=\n
+22	Sehr	Sehr	ADV	ADV	_	23	advmod	_	_
+23	geerhte	geerhen	ADJ	ADJA	Degree=Pos	24	amod	_	_
+24	Damen	Dame	NOUN	NN	_	18	appos	_	_
+25	und	und	CCONJ	KON	_	26	cc	_	_
+26	Herren	Herr	NOUN	NN	_	24	conj	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	40	nsubj	_	_
+29	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	aux	_	_
+30	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	Firma	Firma	NOUN	NN	_	40	obj	_	_
+32	in	in	ADP	APPR	_	34	case	_	_
+33	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	Sendung	Sendung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	40	obl	_	_
+35-36	vom	_	_	_	_	_	_	_	_
+35	von	von	ADP	APPR	_	39	case	_	_
+36	dem	der	DET	ART	Case=Dat|Definite=Def|PronType=Art	37	det	_	_
+37	29	29	NUM	CARD	NumType=Card	39	nummod	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	37	punct	_	_
+39	Februar	Februar	PROPN	NN	_	34	nmod	_	_
+40	gelernt	lernen	VERB	VVPP	VerbForm=Part	2	parataxis	_	_
+41	und	und	CCONJ	KON	_	42	cc	_	_
+42	interessiere	interessieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	40	conj	_	_
+43	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	42	obj	_	_
+44	für	für	ADP	APPR	_	46	case	_	_
+45	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
+46	3-Zimmer	3-Zimmer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	42	obl	_	_
+47	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	46	conj	_	SpaceAfter=No
+48	,	,	PUNCT	$,	_	47	punct	_	_
+49	mit	mit	ADP	APPR	_	50	case	_	_
+50	Einbauküche	Einbaukuch	NOUN	NN	Case=Dat|Number=Sing	47	nmod	_	_
+51	und	und	CCONJ	KON	_	52	cc	_	_
+52	Gäste-WC	Gäste-WC	NOUN	NN	_	50	conj	_	SpaceAfter=No
+53	.	.	PUNCT	$.	_	40	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte mit meiner Frau zusamen wohnen, ist eine 3-Zimmer Wonung Okay?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Frau	Frau	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+6	zusamen	zusam	ADJ	ADJA	Degree=Pos	7	advmod	_	_
+7	wohnen	wohnen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	eine	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	3-Zimmer	3-Zimmer	NOUN	NN	_	7	conj	_	_
+12	Wonung	Wonung	NOUN	NN	_	11	nmod	_	_
+13	Okay	okay	PROPN	NE	_	12	appos	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte auch wissen, wie hoch die Miete ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wie	wie	ADV	KOKOM	_	7	advmod	_	_
+7	hoch	hoch	ADJ	ADJD	Degree=Pos	4	parataxis	_	_
+8	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Kann mann die Miete pro-jahr bezahlen?
+1	Kann	können	PROPN	NE	_	6	nsubj	_	_
+2	mann	minnen	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Miete	Miete	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	pro-jahr	pro-jahr	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+6	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Hat die Wohnung einen Balkon?
+1	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	einen	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Balkon	Balkon	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich liebe gern einen Balkon mit vielen Topfpflanzen Können wir einen Besichtigungstermin vereinbaren?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+2	liebe	lieben	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+3	gern	gern	ADV	ADV	_	2	advmod	_	_
+4	einen	ein	NUM	ART	NumType=Card	5	nummod	_	_
+5	Balkon	Balkon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	vielen	viel	ADJ	PIAT	Case=Dat|Degree=Pos|Number=Plur	8	amod	_	_
+8	Topfpflanzen	Topfpflanz	NOUN	NN	Case=Dat|Number=Plur	5	nmod	_	SpacesAfter=\n
+9	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Besichtigungstermin	Besichtigungstermin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+13	vereinbaren	vereinbaren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Mit freundlichen Grüßen, UNTERSCHRIFT
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	UNTERSCHRIFT	UNTERSCHRIFT	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+

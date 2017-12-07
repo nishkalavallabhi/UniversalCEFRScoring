@@ -1,0 +1,96 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000504_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 22 novembre 2010
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	22	22	NUM	N	NumType=Card	1	nmod	_	_
+5	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2010	2010	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Cari amici Sono a Città X.
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	amici	amico	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	SpacesAfter=\n
+3	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Città	Città	PROPN	SP	_	0	root	_	_
+6	X	X	ADJ	NO	Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = C'è un luogo famoso in Sicilia.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	famoso	famoso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Sicilia	Sicilia	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Faccio un corso di italiano di due mesi.
+1	Faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Abbiamo una bella insegnante di Città Y.
+1	Abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	insegnante	insegnante	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Città	città	PROPN	SP	_	4	nmod	_	_
+7	Y.	Y.	PROPN	SP	_	6	flat:name	_	_
+
+# sent_id = 6
+# text = Siamo 15 studenti di diversa nazionalità.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	15	15	NUM	N	NumType=Card	3	nummod	_	_
+3	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	diversa	diverso	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	_
+6	nazionalità	nazionalità	NOUN	S	Gender=Fem	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Usciamo spesso insieme quando non c'è lezione.
+1	Usciamo	uscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	spesso	spesso	ADV	B	_	1	advmod	_	_
+3	insieme	insieme	ADV	B	_	7	mark	_	_
+4	quando	quando	SCONJ	CS	_	3	fixed	_	_
+5	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+8	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = La zona di Etna è molto bella per fare escursioni.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	zona	zona	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Etna	Etna	PROPN	SP	_	2	nmod	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	escursioni	escursione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = A presto Michele
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	3	advmod	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

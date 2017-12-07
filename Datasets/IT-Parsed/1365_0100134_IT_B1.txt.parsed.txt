@@ -1,0 +1,139 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100134_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 22 gennaio Cara Beatrice, caro Stefano, che bella sorpresa!
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	22	22	NUM	N	NumType=Card	5	nummod	_	_
+5	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpacesAfter=\n
+6	Cara	Cara	PROPN	SP	_	1	nmod	_	_
+7	Beatrice	Beatore	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	caro	caro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	Stefano	Stefano	PROPN	SP	_	1	appos	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	SpacesAfter=\n
+12	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+13	bella	bello	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	sorpresa	sorprendere	ADJ	A	Gender=Fem|Number=Sing	13	xcomp	_	SpaceAfter=No
+15	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tanti auguri alla vostra fidanzamente!
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vostra	vostra	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	fidanzamente	fidanzamente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Grazie tante per l'invito al vostro matrimonio.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	tante	tante	ADJ	A	Number=Sing	1	amod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi piace molto andare a Napoli in novembre.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Napoli	Napoli	PROPN	SP	_	4	obl	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = È anche un grande piacere per me di incontrare ancora i vostri genitori e tutti gli amici italiani.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+5	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	incontrare	incontrare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	ancora	ancora	ADV	B	_	9	advmod	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	17	det:predet	_	_
+16	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	amici	amico	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+18	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Naturalmente verrò alla festa!
+1	Naturalmente	naturalmente	ADV	B	_	2	advmod	_	_
+2	verrò	verrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	festa	festa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = È difficile trovare un regalo per voi.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+3	trovare	trovare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Avete un desidero?
+1	Avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	desidero	desidero	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Forse potrei portare qualche cosa speciale di Germania.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	0	root	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	speciale	speciale	ADJ	A	Number=Sing	5	amod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Germania	Germania	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Mi fate sapere che cosa volete.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	fate	fare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sapere	sapere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	volete	volere	ADJ	A	_	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Tanti saluti e a presto, Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	presto	presto	ADV	B	_	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+7	Maria	Maria	PROPN	SP	_	2	appos	_	SpacesAfter=\n
+

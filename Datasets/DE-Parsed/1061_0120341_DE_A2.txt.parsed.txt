@@ -1,0 +1,101 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120341_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X den 12.3.2012 Bahnhofsstraße 12 12345 Liebe Dana ich freue mich, dass deine E-mail ankommen.
+1	Stadt	Stadt	NOUN	NN	_	5	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	den	der	PROPN	ART	_	5	nmod	_	_
+4	12.3.2012	12.3.2012	PROPN	CARD	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	11	iobj	_	_
+6	12	12	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	12345	12345	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Liebe	Liebe	NOUN	NN	Case=Dat|Number=Sing	11	obl	_	_
+9	Dana	Dana	PROPN	NE	_	8	appos	_	SpacesAfter=\n
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+12	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	11	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+15	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	E-mail	E-mail	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+17	ankommen	ankommen	VERB	VVINF	VerbForm=Inf	11	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Ich gratuliere dein Prüfung Ich wünsche eine schöne Kette.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gratuliere	gratulieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	dein	dein	PROPN	PPOSAT	_	4	nmod	_	_
+4	Prüfung	Prüfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	schöne	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Kette	Kette	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = weil dort günstiga sind.
+1	weil	weil	SCONJ	KOUS	_	4	mark	_	_
+2	dort	dort	ADV	ADV	_	4	advmod	_	_
+3	günstiga	günstiga	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = wo lebt ihre Freundin.
+1	wo	wo	ADV	ADV	_	2	advmod	_	_
+2	lebt	leben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Freundin	Freundin	NOUN	NN	Case=Dat|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = ich möchte auch ihre Adresse haben, weil wir machen in, Sommer urlaub.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	auch	auch	ADV	ADV	_	6	advmod	_	_
+4	ihre	ihre	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Adresse	Adres	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	machen	machen	PROPN	VVFIN	_	6	advcl	_	_
+11	in	in	ADP	APPR	_	13	case	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Sommer	Sommer	PROPN	NN	_	10	nmod	_	_
+14	urlaub	urlaub	PROPN	NN	Case=Acc|Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Wie war das Wetter und hastu meine Tante besucht.
+1	Wie	wie	ADV	KOUS	_	9	advmod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Wetter	Wetter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	hastu	hastu	PROPN	NE	_	4	conj	_	_
+7	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Tante	Tante	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	besucht	besuchen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich freue mich, dich zu besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obj	_	_
+6	zu	zu	PART	PTKZU	_	7	mark	_	_
+7	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Viele Grüße Deine Maria
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Deine	Deine	PROPN	NE	_	0	root	_	_
+4	Maria	Maria	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

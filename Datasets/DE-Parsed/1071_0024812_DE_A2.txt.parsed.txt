@@ -1,0 +1,73 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024812_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo, wie geht´s?
+1	Hallo	hallo	X	ITJ	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	wie	wie	ADP	KOUS	_	4	case	_	_
+4	geht´s	geht´s	PROPN	NN	_	1	nmod	_	SpaceAfter=No
+5	?	?	PROPN	$.	_	4	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich muche am SO.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	muche	muchen	NOUN	NN	Case=Nom|Number=Plur	1	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	SO.	SO.	PROPN	NN	_	2	nmod	_	_
+
+# sent_id = 3
+# text = am 17.00 Uhr gehe zum schwimmen Du kommest mit mier oder nein?
+1-2	am	_	_	_	_	_	_	_	_
+1	an	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	17.00	17.00	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	5	obl	_	_
+5	gehe	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	schwimmen	schwimmen	NOUN	NN	_	5	obl	_	_
+9	Du	du	PROPN	NE	_	8	appos	_	_
+10	kommest	kommesen	PROPN	VVFIN	_	9	flat	_	_
+11	mit	mit	ADP	APPR	_	12	case	_	_
+12	mier	mier	PROPN	NN	Case=Dat|Number=Sing	5	obl	_	_
+13	oder	oder	CCONJ	KON	_	14	cc	_	_
+14	nein	nein	PART	PTKANT	Polarity=Neg	12	conj	_	SpaceAfter=No
+15	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Tereffen in bis markplatz bei Kaufhof am 16.00 Uhr.
+1	Tereffen	Tereff	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+2	in	in	ADP	APPR	_	10	case	_	_
+3	bis	bis	ADP	APPR	_	4	case	_	_
+4	markplatz	markplatz	NOUN	NN	_	2	nmod	_	_
+5	bei	bei	ADP	APPR	_	6	case	_	_
+6	Kaufhof	Kaufhof	NOUN	NN	_	2	nmod	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	16.00	16.00	NUM	CARD	NumType=Card	10	obl	_	_
+10	Uhr	Uhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = wir bracke ein bikini und schampoo und ... dann bis später Libe Groß Stefan Tschüss.
+1	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	_
+2	bracke	brack	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	bikini	bikini	PROPN	NE	Case=Gen|Gender=Masc,Neut|Number=Sing	1	amod	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	schampoo	schampoo	ADV	NE	_	4	conj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	...	...	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+9	dann	dann	ADV	ADV	_	8	advmod	_	_
+10	bis	bis	ADP	APPR	_	11	case	_	_
+11	später	spät	ADJ	ADJD	Degree=Cmp,Pos	12	advmod	_	SpacesAfter=\n
+12	Libe	Libe	PROPN	NE	_	4	conj	_	_
+13	Groß	groß	PROPN	NE	_	14	amod	_	_
+14	Stefan	Stefan	PROPN	NE	_	12	appos	_	SpacesAfter=\n
+15	Tschüss	Tschüss	PROPN	NN	_	14	flat	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248336_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Dani, wie geh´s dir? was machst du Morgen?
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	11	nsubj	_	_
+2	Dani	Dani	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	wie	wie	ADP	KOKOM	_	5	case	_	_
+5	geh´s	geh´s	PROPN	NN	_	1	nmod	_	_
+6	dir	du	PROPN	NN	_	5	flat	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	5	flat	_	SpacesAfter=\n
+8	was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	9	obj	_	_
+9	machst	machen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	acl	_	_
+10	du	du	PROPN	PPER	Case=Nom|Number=Sing	9	nsubj	_	_
+11	Morgen	morgen	PROPN	NN	_	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte zum Schwimmbad gehen, kommst du mit mir?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Schwimmbad	Schwimmbad	NOUN	NN	_	6	obl	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\s\n
+8	kommst	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	6	acl	_	_
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+10	mit	mit	ADP	APPR	_	11	case	_	_
+11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Wir können erste mittagessen haben bei mir.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur|NumType=Ord	4	amod	_	_
+4	mittagessen	mittagessen	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Um 13:oo uhr ist OK?
+1	Um	um	ADP	KOUI	_	5	mark	_	_
+2	13:oo	13:oo	ADV	NE	_	5	advmod	_	_
+3	uhr	uhr	PROPN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	OK	OK	ADJ	ADJD	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Bring ein Handtuch, Sonnebrille und diene kleine Bikini.
+1	Bring	Bring	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Handtuch	Handtuch	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	Sonnebrille	Sonnebrille	NOUN	NN	_	3	conj	_	_
+6	und	und	CCONJ	KON	_	3	cc	_	_
+7	diene	dienen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	kleine	klein	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	amod	_	_
+9	Bikini	Bikini	PROPN	NE	Case=Gen|Gender=Masc,Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Bis Morgen meeine Liebe Maria
+1	Bis	bis	ADP	APPR	_	2	case	_	_
+2	Morgen	Morgen	PROPN	NN	_	4	amod	_	_
+3	meeine	meein	PROPN	NE	_	2	flat	_	_
+4	Liebe	Liebe	PROPN	NN	_	0	root	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,128 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000471_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Caro Tomaso!
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Tomaso	Tomaso	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sono arrivato a Città X buono.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	2	obl	_	_
+5	X	decimo	PROPN	SP	_	4	flat:name	_	_
+6	buono	buono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sto facendo qui un corso l'italiano per 3 settimane.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	3	3	NUM	N	NumType=Card	10	nummod	_	_
+10	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = La vostra insegnante di Sizilia é una molto carina signora.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vostra	vostro	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	insegnante	insegnante	ADJ	A	Number=Sing	2	amod	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	Sizilia	Sizilia	PROPN	SP	_	2	nmod	_	_
+6	é	é	CCONJ	CC	_	10	cc	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	carina	carina	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	signora	signore	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il corso é per me un po difficile.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	é	é	CCONJ	CC	_	7	cc	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po	po	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+8	difficile	difficile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Siamo insieme 9 personi.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	insieme	insieme	ADV	B	_	3	advmod	_	_
+3	9	9	NUM	N	NumType=Card	4	nummod	_	_
+4	personi	persone	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = (3 di Svizzero, 2 di Germania, 4 di Austria) A Città X ci sono molto per vedere.
+1	(	(	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	3	3	NUM	N	NumType=Card	18	nummod	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Svizzero	svizzero	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	2	2	NUM	N	NumType=Card	2	conj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Germania	Germania	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	4	4	NUM	N	NumType=Card	2	conj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Austria	Austria	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	10	punct	_	_
+14	A	A	ADP	E	_	15	case	_	_
+15	Città	Città	PROPN	SP	_	18	obl	_	_
+16	X	x	ADJ	NO	Number=Sing|NumType=Ord	15	amod	_	_
+17	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	18	expl	_	_
+18	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	molto	molto	ADV	B	_	18	advmod	_	_
+20	per	per	ADP	E	_	21	mark	_	_
+21	vedere	vedere	VERB	V	VerbForm=Inf	18	advcl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 8
+# text = La vostra albergo é buono, si trova nel centro.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	vostra	vostro	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	2	compound	_	_
+4	é	é	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	5	obj	_	_
+5	buono	buono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	_
+8	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	centro	centro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Il tempo fa qualcosa nuvoloso, fa niente.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	nuvoloso	nuvoloso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	niente	niente	PRON	PI	Number=Sing|PronType=Ind	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ci vediamo, Saluti Michele!
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Saluti	Saluti	PROPN	SP	_	2	parataxis	_	_
+5	Michele	Michele	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

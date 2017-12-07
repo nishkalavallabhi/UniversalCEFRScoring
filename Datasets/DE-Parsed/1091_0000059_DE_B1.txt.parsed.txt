@@ -1,0 +1,79 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000059_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Maria, meine Firma schickt mich für ein paar Tage nach Stadt X für ein Lehrgang Weiß ich nicht was ich mit meinem Hund machen soll.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Firma	Firma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+6	schickt	schicken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	für	für	ADP	APPR	_	11	case	_	_
+9	ein	ein	DET	ART	Case=Dat|Definite=Ind|Number=Plur|PronType=Art	11	det	_	_
+10	paar	paar	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	11	det	_	_
+11	Tage	Tag	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
+12	nach	nach	ADP	APPR	_	13	case	_	_
+13	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	6	obl	_	_
+14	X	X	PROPN	NN	_	13	appos	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Lehrgang	Lehrgang	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+18	Weiß	wissen	PROPN	VVFIN	_	17	nmod	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
+21	was	was	VERB	PRELS	_	26	obj	_	_
+22	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+23	mit	mit	ADP	APPR	_	25	case	_	_
+24	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	26	obl	_	_
+26	machen	machen	VERB	VVINF	VerbForm=Inf	17	acl	_	_
+27	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ich habe an dich gedacht ob du meinen Hund betreuen kannst.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	an	an	ADP	APPR	_	4	case	_	_
+4	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obl	_	_
+5	gedacht	denken|gedenken	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	ob	ob	SCONJ	KOUS	_	8	mark	_	_
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+8	meinen	mein	VERB	VVFIN	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Fin	9	det	_	_
+9	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+10	betreuen	betreuen	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	kannst	können	NOUN	NN	_	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Er ist brav und ich denke dass dir keine Probleme macht Konntest du den nach Hause für diesen paar Tage nehmen?
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	brav	brav	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	3	conj	_	_
+7	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	11	iobj	_	_
+9	keine	kein	PRON	PIAT	PronType=Neg	10	advmod	_	_
+10	Probleme	Problem	NOUN	NN	Case=Acc|Number=Plur	11	obj	_	_
+11	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	6	ccomp	_	_
+12	Konntest	Konntest	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	13	amod	_	_
+13	du	du	PROPN	PPER	_	21	nsubj	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+15	nach	nach	ADP	APPR	_	16	case	_	_
+16	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	21	obl	_	_
+17	für	für	ADP	APPR	_	18	case	_	_
+18	diesen	dies	PRON	PDAT	Case=Acc|PronType=Dem	21	obl	_	_
+19	paar	paar	PRON	PIAT	Case=Acc|Number=Plur|PronType=Ind	20	det	_	_
+20	Tage	Tag	NOUN	NN	Case=Acc|Number=Plur	21	obj	_	_
+21	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+22	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Liebe Grüße.
+1	Liebe	Lieben	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+

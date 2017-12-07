@@ -1,0 +1,256 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109247_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Julia Winkelmann Müllergasse 12 12345 Stadt X Au-pair-Agentur Schultz & Partner Regenstr.
+1	Julia	Julia	PROPN	NE	_	11	nsubj	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Müllergasse	Müllergasse	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+5	12345	12345	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	11	nmod	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\n
+8	Au-pair-Agentur	Au-pair-Agentur	PROPN	NN	_	6	appos	_	_
+9	Schultz	Schultz	PROPN	NN	_	8	flat	_	SpacesAfter=\n
+10	&	&	PUNCT	$.	_	11	punct	_	_
+11	Partner	Partner	NOUN	NN	_	0	root	_	SpacesAfter=\n
+12	Regenstr	Regenstr	PROPN	NE	_	11	appos	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = 101 90451 Nürnberg 08.09.2011 Stadt X Fehler in Vertragsbedingungen Sehr geehrte Damen und Herren, vor zwei Monate habe ich als Au-pair in Deutschland durch Ihrer Agentur gearbeitet.
+1	101	101	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+2	90451	90451	NUM	CARD	NumType=Card	1	nummod	_	_
+3	Nürnberg	Nürnberg	PROPN	NE	_	11	nsubj	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	08.09.2011	08.09.2011	PROPN	CARD	_	3	flat	_	_
+5	Stadt	Stadt	PROPN	NN	_	3	flat	_	_
+6	X	X	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+7	Fehler	Fehler	PROPN	NN	_	6	flat	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	Vertragsbedingungen	Vertragsbedingung	PROPN	NE	_	10	amod	_	SpacesAfter=\n
+10	Sehr	Sehr	PROPN	ADV	_	11	obl	_	_
+11	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+12	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	11	obj	_	_
+13	und	und	CCONJ	KON	_	28	cc	_	_
+14	Herren	Herr	NOUN	NN	Case=Acc|Number=Plur	28	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	14	punct	_	SpacesAfter=\n
+16	vor	vor	ADP	APPR	_	18	case	_	_
+17	zwei	zwei	NUM	CARD	NumType=Card	18	nummod	_	_
+18	Monate	Monat	NOUN	NN	Case=Gen|Number=Plur	14	nmod	_	_
+19	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+21	als	als	ADP	KOKOM	_	22	case	_	_
+22	Au-pair	Au-pair	NOUN	NN	_	28	obl	_	_
+23	in	in	ADP	APPR	_	24	case	_	_
+24	Deutschland	Deutschland	PROPN	NE	_	22	nmod	_	_
+25	durch	durch	ADP	APPR	_	27	case	_	_
+26	Ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	Agentur	Agentur	NOUN	NN	Case=Acc|Number=Sing	28	obl	_	_
+28	gearbeitet	arbeiten	VERB	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Als ich den Anzeige gesehen habe, dachte ich das Ihrer Firma eine gute Entscheidung war.
+1	Als	als	SCONJ	KOUS	_	5	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Anzeige	Anzeige	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+5	gesehen	sehen	VERB	VVPP	VerbForm=Part	8	advcl	_	_
+6	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	dachte	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+10	das	der	PRON	ART	Case=Nom|PronType=Dem	8	nsubj	_	_
+11	Ihrer	ihr	PRON	PPOSAT	Case=Gen|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Firma	Firma	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Entscheidung	Entscheidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Aber wie war meiner Enttäuschung als ich in Deutschland ankam.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	wie	wie	ADV	KOKOM	_	5	advmod	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Enttäuschung	Enttäuschung	NOUN	NN	_	10	obl	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Deutschland	Deutschland	PROPN	NE	_	5	nmod	_	_
+10	ankam	ankommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Ich könnte das Haus von meiner Gastfamilie nicht finden weil Sie mir der Adresse falsch gegeben haben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+5	von	von	ADP	APPR	_	7	case	_	_
+6	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+9	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	weil	weil	SCONJ	KOUS	_	16	mark	_	_
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	_
+12	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Adresse	Adresse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	iobj	_	_
+15	falsch	falsch	ADJ	ADJD	Degree=Pos	16	advmod	_	_
+16	gegeben	gegeben	VERB	VVPP	VerbForm=Part	9	advcl	_	_
+17	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Deswegen musste ich in den ersten nacht in ein Hotel schlaffen, denn ich hatte auch den falschen Telefonnummer von der Gastfamilie.
+1	Deswegen	deswegen	ADV	PAV	_	7	advmod	_	_
+2	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+6	ersten	erst	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur|NumType=Ord	7	amod	_	_
+7	nacht	nachen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Hotel	Hotel	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+11	schlaffen	schlaffen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	denn	denn	CCONJ	KON	_	15	cc	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	conj	_	_
+16	auch	auch	ADV	ADV	_	15	advmod	_	_
+17	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	falschen	falsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	Telefonnummer	Telefonnummer	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	_
+20	von	von	ADP	APPR	_	22	case	_	_
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = In dem Vertrag stand das ich mit einer deutschen Familie leben würde, aber sie was aus Russland.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+4	stand	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	das	d	SCONJ	PRELS	_	11	mark	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	mit	mit	ADP	APPR	_	10	case	_	_
+8	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+11	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	ccomp	_	_
+12	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	18	punct	_	_
+14	aber	aber	CCONJ	KON	_	18	cc	_	_
+15	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+16	was	was	PRON	PIS	Case=Acc|PronType=Ind	18	obj	_	_
+17	aus	aus	ADP	APPR	_	18	case	_	_
+18	Russland	Rußland	PROPN	NE	Case=Dat|Number=Sing	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ich wollte mein Deutsch verbessern und wir könnten uns nicht gut verstehen weil ich kein Russich spreche und die könnten nicht so viel Deutsch sprechen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Deutsch	deutsch	NOUN	ADJD	Case=Acc|Gender=Masc,Neut|Number=Sing	5	obj	_	_
+5	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	und	und	CCONJ	KON	_	12	cc	_	_
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+8	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+9	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	obj	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+11	gut	gut	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+12	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	5	conj	_	_
+13	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	kein	kein	PRON	PIAT	PronType=Neg	16	advmod	_	_
+16	Russich	er|es|Russie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	17	obj	_	_
+17	spreche	sprechen	VERB	VVFIN	VerbForm=Fin	12	advcl	_	_
+18	und	und	CCONJ	KON	_	25	cc	_	_
+19	die	der	PRON	ART	Case=Nom|PronType=Dem	25	nsubj	_	_
+20	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	aux	_	_
+21	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	_
+22	so	so	ADV	ADV	_	25	advmod	_	_
+23	viel	viel	PRON	PIS	Case=Acc|PronType=Ind	25	obj	_	_
+24	Deutsch	deutsch	NOUN	ADJD	Case=Acc|Number=Sing	25	obj	_	_
+25	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	17	conj	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Ich wollte wieder in meiner Heimatland gehen aber es war nicht möglich, weil ich nicht genug Geld hatte, alles war zu teuer.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	wieder	wieder	ADV	ADV	_	7	advmod	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Heimatland	Heimatland	NOUN	NN	_	7	obl	_	_
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	aber	aber	CCONJ	KON	_	12	cc	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+10	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+12	möglich	möglich	ADJ	ADJD	Degree=Pos	7	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	7	punct	_	_
+14	weil	weil	SCONJ	KOUS	_	19	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	_
+17	genug	genug	ADV	ADV	_	16	advmod	_	_
+18	Geld	Geld	NOUN	NN	_	19	obl	_	_
+19	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	advcl	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	7	punct	_	_
+21	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	24	nsubj	_	_
+22	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	cop	_	_
+23	zu	zu	ADV	PTKA	_	24	advmod	_	_
+24	teuer	teuer	ADJ	ADJD	Degree=Pos	7	parataxis	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Aus allen diesen Grunde fordere ich von Ihnen eine Erstattung von 40% Gebuhr.
+1	Aus	aus	ADP	APPR	_	4	case	_	_
+2	allen	alle	PRON	PIAT	Case=Dat|Number=Plur|PronType=Tot	4	det	_	_
+3	diesen	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	Grunde	Grund	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+5	fordere	fordern	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+7	von	von	ADP	APPR	_	8	case	_	_
+8	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	13	obl	_	_
+9	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Erstattung	Erstattung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	von	von	ADP	APPR	_	12	case	_	_
+12	40%	40%	NOUN	NN	Case=Dat|Number=Sing	10	nmod	_	_
+13	Gebuhr	Gebuhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 11
+# text = Wenn ich das Geld innerhalb zwei Woche nicht zuruck kriege, werde ich leider meinen Anwalt einschalten.
+1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Geld	Geld	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+5	innerhalb	innerhalb	ADP	APPR	_	7	case	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Woche	Woche	NOUN	NN	_	4	nmod	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
+9	zuruck	zuruck	NOUN	NN	Case=Acc|Number=Sing	10	obj	_	_
+10	kriege	kriegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+14	leider	leider	ADV	ADV	_	17	advmod	_	_
+15	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Anwalt	Anwalt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+17	einschalten	einschalten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Mit freundlichen Grüßen Julia Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Julia	Julia	PROPN	NE	_	3	appos	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

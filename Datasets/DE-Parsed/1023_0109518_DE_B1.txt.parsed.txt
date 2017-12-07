@@ -1,0 +1,150 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109518_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Winkelmann 03.10.2011 Stadt X Müllergasse 1234 / Bahnhofstr.
+1	Maria	Maria	PROPN	NE	_	0	root	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	03.10.2011	03.10.2011	PROPN	CARD	_	1	flat	_	_
+4	Stadt	Stadt	PROPN	NN	_	1	nmod	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\n
+6	Müllergasse	Müllergasse	PROPN	NN	_	1	flat	_	SpacesAfter=\s\n
+7	1234	1234	NUM	CARD	NumType=Card	9	nummod	_	_
+8	/	/	PUNCT	$(	_	9	punct	_	SpacesAfter=\n
+9	Bahnhofstr	Bahnhofstr	NOUN	NN	_	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 101, 65185 Wiesbaden Internationale Au-Pair Vermi-unreadable- 0611/9988776 Sehr geehrte Damen und Herren, ich habe Ihre Anzeige gelesen und ich interesiere mich für weitere Information In verschidenen Staaten gibt es verschiedene Rechte und Pflichte.
+1	101	101	NUM	CARD	NumType=Card	4	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	65185	65185	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Wiesbaden	Wiesbaden	PROPN	NE	_	10	nsubj	_	_
+5	Internationale	International	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	4	flat	_	_
+6	Au-Pair	Au-Pair	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	_
+7	Vermi-unreadable-	Vermi-unreadable-	PUNCT	$(	_	8	punct	_	SpacesAfter=\n
+8	0611/9988776	0611/9988776	PROPN	CARD	_	4	appos	_	SpacesAfter=\n
+9	Sehr	Sehr	PROPN	ADV	_	8	flat	_	_
+10	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	10	obj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Herren	Herr	NOUN	NN	_	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	SpacesAfter=\n
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+16	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	19	nsubj	_	_
+19	gelesen	lesen	VERB	VVPP	VerbForm=Part	10	conj	_	_
+20	und	und	CCONJ	KON	_	22	cc	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	interesiere	interesieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
+23	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	obj	_	_
+24	für	für	ADP	APPR	_	26	case	_	_
+25	weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	26	amod	_	_
+26	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
+27	In	in	ADP	APPR	_	29	case	_	_
+28	verschidenen	verschiden	ADJ	ADJA	Degree=Pos	29	amod	_	_
+29	Staaten	Staat	NOUN	NN	_	26	nmod	_	_
+30	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	22	acl	_	_
+31	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	expl	_	_
+32	verschiedene	verschieden	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	33	amod	_	_
+33	Rechte	Recht|Rechte	NOUN	NN	Case=Nom|Number=Plur	30	nsubj	_	_
+34	und	und	CCONJ	KON	_	35	cc	_	_
+35	Pflichte	Pflichte	NOUN	NN	_	33	conj	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte sich fragen, wenn ich nach Deutschland als Au-Pair Madchen fahren würde, welche Rechte und Pflichte würde ich haben?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	_
+4	fragen	fragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Deutschland	Deutschland	PROPN	NE	Case=Dat|Number=Sing	13	obl	_	_
+10	als	als	ADP	KOKOM	_	12	case	_	_
+11	Au-Pair	Au-Pair	NOUN	NN	_	12	compound	_	_
+12	Madchen	Madch	NOUN	NN	_	13	obl	_	_
+13	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	4	advcl	_	_
+14	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	13	punct	_	_
+16	welche	welch	PRON	PRELS	Case=Nom|PronType=Rel	22	nsubj	_	_
+17	Rechte	Recht|Rechte	NOUN	NN	_	22	obj	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	Pflichte	Pflichte	NOUN	NN	_	17	conj	_	_
+20	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	aux	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	SpaceAfter=No
+23	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Und also, was für Freizeit?
+1	Und	und	CCONJ	KON	_	6	cc	_	_
+2	also	also	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	Freizeit	Freizeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ich möchte gern in Deutschland mein Deutsch zu verbessern, vielleicht ein Kurs machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	gern	gern	ADV	ADV	_	9	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Deutschland	Deutschland	PROPN	NE	_	9	obl	_	_
+6	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Deutsch	deutsch	NOUN	ADJD	Case=Acc|Gender=Masc,Neut|Number=Sing	9	obj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	vielleicht	vielleicht	ADV	ADV	_	14	advmod	_	_
+12	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Kurs	Kurs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	machen	machen	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Würde ich Zeit für die Kurs habe?
+1	Würde	werden	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	Zeit	Zeit	NOUN	NN	_	7	obj	_	_
+4	für	für	ADP	APPR	_	6	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	Kurs	Kurs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+7	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 7
+# text = Ist es B2 Niveu für Deutschkenntis genug?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	B2	B2	PROPN	NN	_	0	root	_	_
+4	Niveu	Niveu	PROPN	ADJD	_	3	flat	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	Deutschkenntis	Deutschkenntis	PROPN	NE	_	3	nmod	_	_
+7	genug	genug	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Ich würde mich sehr freuen für schnelle Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	freuen	freu	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	schnelle	schnell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Antwort	Antworen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Mit freundlichen Grüße Maria Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

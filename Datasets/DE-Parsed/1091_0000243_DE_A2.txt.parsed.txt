@@ -1,0 +1,100 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000243_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Katharina, Ich bin für ein paar Tage nicht zu Hause, weil ich in Indien fahren möchte.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+2	Katharina	Katharina	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	für	für	ADP	APPR	_	9	case	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+8	paar	paar	PRON	PIAT	PronType=Ind	9	det	_	_
+9	Tage	Tag	NOUN	NN	_	12	obl	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+11	zu	zu	ADP	APPR	_	12	case	_	_
+12	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	5	punct	_	_
+14	weil	weil	SCONJ	KOUS	_	18	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Indien	Indien	PROPN	NE	_	18	obl	_	_
+18	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	5	advcl	_	_
+19	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	aux	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Kanst du mir helfen Meine Haustier, nimmst du ein paar Tage deine Hause.
+1	Kanst	Kanst	ADV	ADV	_	4	advmod	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Haustier	Haustier	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	nimmst	nimmsen	ADV	ADV	_	9	advmod	_	_
+9	du	du	PROPN	PPER	_	4	appos	_	_
+10	ein	ein	DET	ART	Definite=Ind|PronType=Art	12	det	_	_
+11	paar	paar	PRON	PIAT	PronType=Ind	12	det	_	_
+12	Tage	Tag	NOUN	NN	_	13	nmod	_	_
+13	deine	dein	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ich muss nächte Donnerstag mitbringe meine Haustier.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	nächte	nächt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	Donnerstag	Donnerstag	PROPN	NN	_	3	obj	_	_
+5	mitbringe	mitbringen	PROPN	NN	Case=Nom|Number=Plur	4	flat	_	_
+6	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Haustier	Haustier	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Meine Eltren und bin ich in montag fahren in Indien.
+1	Meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Eltren	Eltrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+3	und	und	CCONJ	KON	_	8	cc	_	_
+4	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	montag	montag	PROPN	NN	_	8	obl	_	_
+8	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Indien	Indien	PROPN	NE	_	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = ein Hund und eine Katz nimmst du ein paar Tage deine Haus.
+1	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	obj	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Katz	katz	NOUN	NN	_	2	conj	_	_
+6	nimmst	nimmsen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	du	du	PROPN	PPER	_	12	case	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+9	paar	paar	PRON	PIAT	PronType=Ind	10	det	_	_
+10	Tage	Tag	NOUN	NN	_	11	nmod	_	_
+11	deine	dein	PROPN	NE	_	7	amod	_	_
+12	Haus	Haus	PROPN	NN	_	6	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Vielen Dank Katharina.
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	ADP	NN	_	0	root	_	_
+3	Katharina	Katharina	PROPN	NE	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Bis bald Alles Liebe deine Julia
+1	Bis	bis	ADP	KON	_	4	case	_	_
+2	bald	bald	ADV	ADV	_	4	advmod	_	SpacesAfter=\n
+3	Alles	alle	PRON	PIAT	PronType=Tot	4	det	_	_
+4	Liebe	Liebe	NOUN	NN	_	0	root	_	SpacesAfter=\n
+5	deine	dein	PROPN	NE	_	4	nmod	_	SpacesAfter=\n
+6	Julia	Julia	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+

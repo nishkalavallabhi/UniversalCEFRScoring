@@ -1,0 +1,163 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120324_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 24.02.2012 Liebe Olga, wie geht es dir und deiner Kinder, bist du Gesund?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	24.02.2012	24.02.2012	PROPN	NN	_	6	amod	_	SpacesAfter=\n
+6	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+7	Olga	Olga	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	wie	wie	ADV	KOUS	_	10	advmod	_	_
+10	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+12	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	amod	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	12	conj	_	_
+15	Kinder	Kind	NOUN	NN	_	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	_
+17	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	du	du	PROPN	PPER	_	19	case	_	_
+19	Gesund	gesund	PROPN	NN	_	10	conj	_	SpaceAfter=No
+20	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Bei uns ist alles gut.
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	obj	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Maria besucht Sprachkurs und schreibe Bewerbung von Ausbildung.
+1	Maria	Maria	PROPN	NE	_	2	nsubj	_	_
+2	besucht	besuchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	Sprachkurs	Sprachkurs	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	schreibe	schreib	VERB	VVFIN	VerbForm=Fin	6	conj	_	_
+6	Bewerbung	Bewerbung	NOUN	NN	_	2	conj	_	_
+7	von	von	ADP	APPR	_	8	case	_	_
+8	Ausbildung	Ausbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich gehe auch zum Sprachkurs.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4-5	zum	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Sprachkurs	Sprachkurs	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Wir haben keine Tiere, aber Maria willt Katze.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	keine	kein	PRON	PIAT	PronType=Neg	4	advmod	_	_
+4	Tiere	Tier	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	aber	aber	CCONJ	KON	_	7	cc	_	_
+7	Maria	Maria	PROPN	NE	_	2	conj	_	_
+8	willt	willt	ADJ	VVPP	_	9	amod	_	_
+9	Katze	Katze	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	flat	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ich will zum Geburstag eine schöne Katze schenke.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Geburstag	Geburstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	schöne	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	schenke	schenken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Du hast auch Geburstag, ich wünsche dir viele Glück und Gesundheit und viel Spaß zum deine Arbeit.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	Geburstag	Geburstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	2	conj	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obj	_	_
+9	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Sing	10	amod	_	_
+10	Glück	Glück	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Gesundheit	Gesundheit	NOUN	NN	_	10	conj	_	_
+13	und	und	CCONJ	KON	_	19	cc	_	_
+14	viel	viel	PRON	PIAT	PronType=Ind	15	det	_	_
+15	Spaß	Spaß	NOUN	NN	Case=Acc|Number=Sing	19	obj	_	_
+16-17	zum	_	_	_	_	_	_	_	_
+16	zu	zu	ADP	APPR	_	19	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	19	det	_	_
+18	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ich denke nächte Jahre möchte ich Euch besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	Rank|denke	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	nächte	nächen	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Jahre	Jahr	NOUN	NN	_	8	obl	_	_
+5	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	8	obj	_	_
+8	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ich spare bisshen Geld und fliege mit Flug.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	spare	spar	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	bisshen	bisshen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	Geld	Geld	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	fliege	fliege	NOUN	NN	_	4	conj	_	_
+7	mit	mit	ADP	APPR	_	8	case	_	_
+8	Flug	Flug	NOUN	NN	Case=Dat|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ich habe so lang euch nicht geseen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	so	so	ADV	ADV	_	4	advmod	_	_
+4	lang	lingen	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+5	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	7	det	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+7	geseen	geseen	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 11
+# text = Ich liebe dich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	liebe	lieben	ADJ	ADJA	Degree=Pos	3	advmod	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Deine Schwecter.
+1	Deine	Dein	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Schwecter	Schwecter	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Hoffentlich bis bald Eva
+1	Hoffentlich	Hoffentlich	ADJ	ADJD	Degree=Pos	4	amod	_	_
+2	bis	bis	ADP	KON	_	3	case	_	_
+3	bald	bald	ADV	ADV	_	1	advmod	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NN	_	0	root	_	SpacesAfter=\n
+

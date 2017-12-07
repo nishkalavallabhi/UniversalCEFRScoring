@@ -1,0 +1,178 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109395_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Winkelmann Müllergasse 12 1234 Stadt X Au-pair-Agentur Schulz & Partner Regenstrasse.
+1	Maria	Maria	PROPN	NE	_	11	nsubj	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Müllergasse	Müllergasse	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+5	1234	1234	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	11	nmod	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\n
+8	Au-pair-Agentur	Au-pair-Agentur	PROPN	NN	_	6	appos	_	_
+9	Schulz	Schulz	PROPN	NE	_	8	flat	_	_
+10	&	&	PUNCT	$.	_	11	punct	_	_
+11	Partner	Partner	NOUN	NN	_	0	root	_	SpacesAfter=\n
+12	Regenstrasse	Regenstrassen	PROPN	NN	_	11	appos	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = 101 90451 Nürnberg Stadt Y, den 24.
+1	101	101	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	90451	90451	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Nürnberg	Nürnberg	PROPN	NE	_	7	dep	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	3	appos	_	_
+5	Y	Y	PROPN	NN	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	den	den	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	24	24	NUM	CARD	NumType=Card	7	dep	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Sep 2011 Beshwerde Sehr geehrte Damen und Herren, Hiermit möchte ich über die Betreuung beschweren.
+1	Sep	Sep	PROPN	NN	_	6	nsubj	_	_
+2	2011	2011	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+3	Beshwerde	Beshwerde	NOUN	NN	Case=Nom|Number=Plur	1	flat	_	SpacesAfter=\n
+4	Sehr	Sehr	ADV	ADV	_	5	advmod	_	_
+5	geehrte	geehrt	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Damen	Dame	NOUN	NN	_	16	obl	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Herren	Herr	NOUN	NN	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\n
+10	Hiermit	Hiermit	NOUN	NN	_	6	appos	_	_
+11	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	über	über	ADP	APPR	_	15	case	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Betreuung	Betreuung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+16	beschweren	beschweren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 4
+# text = Nachdem ich mit grossem Interesse Ihre Anzeige gelessen hatte, habe ich bei ihnen sofort angemeldet und zwar ich glucklich am Anfang war, aber alles verändern sie sich nur nach eine woche.
+1	Nachdem	nachdem	SCONJ	KOUS	_	8	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	grossem	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Sing	5	amod	_	_
+5	Interesse	Interesse	NOUN	NN	Case=Dat|Number=Sing	8	obl	_	_
+6	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Anzeige	Anzeige	NOUN	NN	_	8	nsubj	_	_
+8	gelessen	lessen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	16	advcl	_	_
+9	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	16	punct	_	_
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	bei	bei	ADP	APPR	_	14	case	_	_
+14	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+15	sofort	sofort	ADV	ADV	_	16	advmod	_	_
+16	angemeldet	anmelden	VERB	VVPP	VerbForm=Part	0	root	_	_
+17	und	und	CCONJ	KON	_	20	cc	_	_
+18	zwar	zwar	ADV	ADV	_	20	advmod	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	glucklich	glucklich	ADJ	ADJD	Degree=Pos	16	conj	_	_
+21-22	am	_	_	_	_	_	_	_	_
+21	an	an	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	nmod	_	_
+24	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	28	punct	_	_
+26	aber	aber	CCONJ	KON	_	28	cc	_	_
+27	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	28	nsubj	_	_
+28	verändern	verändern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	20	conj	_	_
+29	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	nsubj	_	_
+30	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	28	obj	_	_
+31	nur	nur	ADV	ADV	_	28	advmod	_	_
+32	nach	nach	ADP	APPR	_	34	case	_	_
+33	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	woche	woch	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	28	obl	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Da im Ihren Anzeige, Beratung, Betreuung und super-guten Service entschprochen würde aber alle diese Entsprochungen war nicht von ort eingehalten würden.
+1	Da	da	SCONJ	ADV	_	11	mark	_	_
+2-3	im	_	_	_	_	_	_	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Ihren	ihr	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+5	Anzeige	Anzeige	NOUN	NN	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	Beratung	Beratung	NOUN	NN	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Betreuung	Betreuung	NOUN	NN	_	5	conj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	super-guten	super-gut	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	23	advcl	_	_
+12	Service	Service	NOUN	NN	Case=Acc|Number=Sing	13	obj	_	_
+13	entschprochen	entschprochen	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+14	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	_
+15	aber	aber	ADV	KON	_	23	advmod	_	_
+16	alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	18	det	_	_
+17	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	Entsprochungen	Entsprochung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	23	nsubj	_	_
+19	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	cop	_	_
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
+21	von	von	ADP	APPR	_	22	case	_	_
+22	ort	ort	NOUN	NN	Case=Nom|Number=Sing	23	obl	_	_
+23	eingehalten	einhalten	VERB	VVPP	VerbForm=Part	0	root	_	_
+24	würden	werden	AUX	VAFIN	Number=Plur|Person=3|VerbForm=Fin	23	aux	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	23	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Die Betreuung durch die Agentur hat mich verärgert weil es schlechter weiter geht letzte mal war ich dort bei Ihrer Firma und die Cheffin hat mir erklärt dass ich kann nicht den Vertrag unterbrechen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Betreuung	Betreuung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	durch	durch	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Agentur	agentur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+6	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+8	verärgert	verärgert	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	schlechter	schlecht	ADJ	ADJD	Degree=Cmp,Pos	13	xcomp	_	_
+12	weiter	weiter	ADV	PTKVZ	_	13	mark	_	_
+13	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	advcl	_	_
+14	letzte	letzt	ADJ	ADJA	Degree=Pos	15	advmod	_	_
+15	mal	mal	ADV	ADV	_	13	advmod	_	_
+16	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	parataxis	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+18	dort	dort	ADV	ADV	_	16	advmod	_	_
+19	bei	bei	ADP	APPR	_	21	case	_	_
+20	Ihrer	ihr	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Firma	Firma	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
+22	und	und	CCONJ	KON	_	24	cc	_	_
+23	die	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
+24	Cheffin	Cheffin	NOUN	NN	_	21	conj	_	_
+25	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+26	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	27	iobj	_	_
+27	erklärt	erklären	VERB	VVFIN	VerbForm=Fin	16	conj	_	_
+28	dass	dass	SCONJ	KOUS	_	34	mark	_	_
+29	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+30	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+31	nicht	nicht	PART	PTKNEG	Polarity=Neg	34	advmod	_	_
+32	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Vertrag	Vertrag	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	34	obj	_	_
+34	unterbrechen	unterbrechen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	ccomp	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Deshalb fordere ich mich 50 % des gezalten Betrages zurück.
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	_
+2	fordere	fordern	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	8	amod	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+5	50	50	NUM	CARD	NumType=Card	6	nummod	_	_
+6	%	%	NOUN	NN	_	8	dep	_	_
+7	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	gezalten	gezalt	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	Betrages	Betrages	PROPN	ADJD	_	8	appos	_	_
+10	zurück	zurück	ADV	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Mit freundlichen Grüssen Maria Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	Grüssen	Grüsse	NOUN	NN	Case=Dat|Number=Plur	0	root	_	SpacesAfter=\s\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

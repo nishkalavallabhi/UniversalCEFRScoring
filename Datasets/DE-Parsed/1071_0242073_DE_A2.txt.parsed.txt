@@ -1,0 +1,69 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0242073_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, wie geht es Dir?
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte mit schwimmen gehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	mit	mit	ADP	APPR	_	5	mark	_	_
+4	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
+5	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Hast du am Samstag Zeit?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	obl	_	_
+6	Zeit	zeit	NOUN	NN	_	1	obl	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sag mir wo und wann?
+1	Sag	Sag	PROPN	NN	_	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+3	wo	wo	ADV	PWAV	_	5	advmod	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	wann	winnen	VERB	VVFIN	VerbForm=Fin	1	acl	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ruf mich bitte an.
+1	Ruf	Ruf	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	bitte	bitte	NOUN	NN	Case=Acc|Number=Plur	1	obj	_	_
+4	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Du sollst Bikini, Stoffbanh mitbringen.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+2	sollst	sollsen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	Bikini	Bikini	PROPN	NE	_	6	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	Stoffbanh	Stoffbanh	PROPN	NN	_	3	flat	_	SpacesAfter=\s\s
+6	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Viele, liebe Gruße Deine Freundin
+1	Viele	viel	ADJ	PIAT	Degree=Pos	4	amod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	liebe	lieb	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Gruße	Muß|Gruße	PROPN	NN	_	6	nmod	_	SpacesAfter=\n
+5	Deine	Deine	PROPN	NN	_	4	flat	_	_
+6	Freundin	Freundin	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

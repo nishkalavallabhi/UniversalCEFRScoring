@@ -1,0 +1,100 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024871_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Stadt X, 03.08.2012 wie geht es dir?
+1	Lieber	lieber	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	1	appos	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	03.08.2012	03.08.2012	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+8	wie	wie	ADV	KOKOM	_	9	advmod	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ich freue mich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Du bist jetzt Vater geworden.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	bist	sein	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+4	Vater	Vater	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
+5	geworden	werden	VERB	VAPP	VerbForm=Part	2	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Wann hat des Babys geboren? und Wie heißt des Baby?
+1	Wann	wann	ADV	ADV	_	5	advmod	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Babys	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+5	geboren	gebären	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Wie	wie	NOUN	NN	_	9	conj	_	_
+9	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	parataxis	_	_
+10	des	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Baby	Baby	PROPN	NN	_	9	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Wie es der Mutter und des Babys?
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	des	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Babys	Baby	PROPN	NN	_	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ich möchte deines Babys sehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	deines	dein	PRON	PPOSAT	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	obj	_	_
+4	Babys	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	5	obl	_	_
+5	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Kannst du Bitte die Potho schicken?
+1	Kannst	kannst	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	5	nsubj	_	_
+3	Bitte	Bitte	NOUN	PTKANT	_	2	appos	_	_
+4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Potho	Potho	NOUN	NN	_	1	nmod	_	_
+6	schicken	schicken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich wünsche dir und in deiner Familie gesund und Viel Glück.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	und	und	CCONJ	KON	_	8	cc	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
+7	Familie	Familie	NOUN	NN	_	8	nmod	_	_
+8	gesund	gesund	ADJ	ADJD	Degree=Pos	3	conj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	Viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	Glück	Glück	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Bis dann deine Julia
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	dann	dann	ADV	ADV	_	3	advmod	_	SpacesAfter=\n
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,132 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100015_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Città X, 62 Strada Maggiore Città X, 05 Agosto 2010 Cari Gianni e Emma, Molti congratulazioni per il matrimonio della sua figlia Beatrice.
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Città	Città	PROPN	SP	_	1	flat:name	_	_
+4	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	62	62	NUM	N	NumType=Card	7	nummod	_	_
+7	Strada	strada	PROPN	SP	_	1	conj	_	_
+8	Maggiore	Maggiore	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	Città	Città	PROPN	SP	_	1	conj	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	05	05	NUM	N	NumType=Card	13	nummod	_	_
+13	Agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	2010	2010	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\n
+15	Cari	caro	PROPN	SP	_	9	nmod	_	_
+16	Gianni	Gianni	PROPN	SP	_	15	flat:name	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Emma	Emma	PROPN	SP	_	1	conj	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	SpacesAfter=\n
+20	Molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	1	conj	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25-26	della	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	28	case	_	_
+26	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	figlia	figlio	NOUN	S	Gender=Fem|Number=Sing	24	nmod	_	_
+29	Beatrice	Beatore	PROPN	SP	_	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sono molto contento per lei e anche per voi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Grazie mille per mi inviti dei matrimonio.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	mille	mille	NUM	N	NumType=Card	1	nummod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	inviti	invito	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi piaceberre molto a andare al matrimonio.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	piaceberre	piaceberre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = É certo po andare alla chiesa e anche al ristorante.
+1	É	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	certo	certo	ADV	B	_	3	advmod	_	_
+3	po	po	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	anche	anche	ADV	B	_	12	advmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Dittami, che cosa fa per un regalo?
+1	Dittami	Dittame	NOUN	S	Gender=Masc|Number=Plur	5	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Vorrei compare qualche cosi Beatrice e Stefano bisogna.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	compare	comparire	VERB	V	VerbForm=Inf	8	csubj	_	_
+3	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+4	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	Beatrice	Beatore	PROPN	SP	_	2	obj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	Stefano	Stefano	PROPN	SP	_	2	conj	_	_
+8	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Grazie ancora per l'invito.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tanti bacci Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	bacci	baccio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

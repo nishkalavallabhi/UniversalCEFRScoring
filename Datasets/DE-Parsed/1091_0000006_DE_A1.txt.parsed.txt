@@ -1,0 +1,71 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000006_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Julia meine Frau und Ich wollten nach Köln im ZuG in der nacht vahren wann 2.1.2011 bis 04.01.2011 Ich nehme besoche meine Tochter.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Frau	Frau	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	und	und	CCONJ	KON	_	16	cc	_	_
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+7	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	16	obl	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	ZuG	Zug	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	nacht	nacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+16	vahren	vahren	VERB	VVINF	VerbForm=Inf	22	conj	_	_
+17	wann	wann	ADV	PWAV	_	16	advmod	_	_
+18	2.1.2011	2.1.2011	NUM	CARD	NumType=Card	22	obl	_	_
+19	bis	bis	ADP	KON	_	20	case	_	_
+20	04.01.2011	04.01.2011	NUM	CARD	NumType=Card	22	obl	_	_
+21	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	nehme	nehmen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+23	besoche	besoch	ADJ	ADJA	Degree=Pos	22	advmod	_	_
+24	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	Tochter	Tochter	NOUN	NN	_	22	appos	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 2
+# text = Ich kanne nicht Fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	kanne	kannen	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	Fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Fragen Sie Ihre Julia.
+1	Fragen	Frage	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	cop	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
+3	Ihre	Ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Julia	Julia	NOUN	NE	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = meine wollten ist gut ich Besoche Kerche und centrem.
+1	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	wollten	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	Besoche	Besoche	NOUN	NN	_	0	root	_	_
+7	Kerche	Kerche	PROPN	NN	_	6	appos	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	centrem	centr	ADJ	ADJD	Degree=Pos	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = meine Hotel ist gut viel Gruße Danke
+1	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Hotel	Hotel	NOUN	NN	_	7	nmod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	5	advmod	_	SpacesAfter=\n
+5	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Gruße	Muß|Gruße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	Danke	Dank	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

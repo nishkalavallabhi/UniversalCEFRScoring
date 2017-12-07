@@ -1,0 +1,97 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024875_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 08.03.2012 Lieber Jens, wie geht es dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	08.03.2012	08.03.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Lieber	Lieber	PROPN	NN	_	4	flat	_	_
+6	Jens	Jens	PROPN	NE	_	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	wie	wie	ADV	KOUS	_	9	advmod	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Glückwünsche für dich, jetzt bist du Vater geworden.
+1	Glückwünsche	Glückwünsch	NOUN	NN	_	0	root	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	jetzt	jetzt	ADV	ADV	_	6	advmod	_	_
+6	bist	sein	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+8	Vater	Vater	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+9	geworden	werden	VERB	VAPP	VerbForm=Part	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ich hoffe dich gut machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	5	xcomp	_	_
+5	machen	machen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Wie geht es Sibylle?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	Sibylle	Sibylle	NOUN	NN	_	2	obl	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Muss sie im Kankenhaus geblieben?
+1	Muss	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Kankenhaus	Kankenhaus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+6	geblieben	bleiben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Hast du zwei Babys?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Babys	Baby	PROPN	NN	_	5	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Wie heißen ihre Babys?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	heißen	heißen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Babys	Baby	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Hast du eine Party gemacht?
+1	Hast	haben	PROPN	NN	_	3	nmod	_	_
+2	du	du	PROPN	PPER	_	1	flat	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Party	Party	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Ich warte deine Anworten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	deine	dein	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+4	Anworten	Anwort	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Viele Grüße Meier
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Meier	Meier	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

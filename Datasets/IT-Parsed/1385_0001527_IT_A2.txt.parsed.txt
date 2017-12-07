@@ -1,0 +1,73 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001527_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Daniele, come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Daniele	Daniele	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Mi dispiace non posso incontrati a giovedi perché il mio capo ha organizzato una riunione.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	incontrati	incontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	giovedi	giovede	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+8	perché	perché	SCONJ	CS	_	13	mark	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	capo	capo	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+12	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Forse possiamo incontraci a sabato sera.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	incontraci	incontrace	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Andiamo a cena in un ristorante tailandese Amo molto la cucina tailandese.
+1	Andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	cena	cena	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpacesAfter=\n\s
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	tailandese	tailandese	ADJ	A	Number=Sing	6	amod	_	_
+8	Amo	amare	PROPN	SP	_	6	nmod	_	_
+9	molto	molto	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+12	tailandese	tailandese	ADJ	A	Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Espero, ami anche il ristorante Ciao alla prossima sabato un amico
+1	Espero	Espero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ami	amare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+4	anche	anche	ADV	B	_	6	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\s\n
+7	Ciao	Ciao	PROPN	SP	_	6	nmod	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpacesAfter=\s\n
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter=\n
+

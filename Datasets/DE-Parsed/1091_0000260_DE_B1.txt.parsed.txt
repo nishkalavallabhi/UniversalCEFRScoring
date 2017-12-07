@@ -1,0 +1,135 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000260_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 13.3.12 Liebe Julia, wie geht es dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	13.3.12	13.3.12	PROPN	NN	_	6	amod	_	SpacesAfter=\n
+6	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+7	Julia	Julia	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	wie	wie	ADV	KOUS	_	10	advmod	_	_
+10	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+12	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	obj	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Mir geht es gut.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich habe eine Fahrkarte für einen Wochenendausflug nach Stadt Y gekauft.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	7	nmod	_	_
+10	Y	y	PROPN	NN	_	9	appos	_	_
+11	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Aber ich kann nicht fahren, weil ich beschäftlich nach Stadt Z fahren muss.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	beschäftlich	beschäftlich	ADJ	ADJD	Degree=Pos	13	advmod	_	_
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	13	obl	_	_
+12	Z	Z	PROPN	NN	_	11	appos	_	_
+13	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	5	advcl	_	_
+14	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ich habe die Fahrkarte für den Zug gekauft.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Zug	Zug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Die Reise ist am Samstag 18.03.12 um 8.00 Uhr.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Reise	Reise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	7	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	amod	_	_
+7	18.03.12	18.03.12	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	_
+8	um	um	ADP	APPR	_	10	case	_	_
+9	8.00	8.00	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ich möchte wissen, ob du die Fahrkarte haben möchte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	ob	ob	SCONJ	KOUS	_	9	mark	_	_
+6	du	du	PROPN	NN	Case=Nom|Number=Sing	9	nsubj	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Die ganze Reise ist kostenlos und du kann am Abend zurückkommen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	ganze	ganz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	Reise	Reise	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	12	cc	_	_
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	nsubj	_	_
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+12	zurückkommen	zurückkommen	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Schreib bitte bald order ruf mich an.
+1	Schreib	schreib	PROPN	NE	_	0	root	_	_
+2	bitte	bitten	PROPN	NN	_	1	flat	_	_
+3	bald	bald	ADV	ADV	_	4	advmod	_	_
+4	order	order	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	ruf	raffen	PROPN	NN	_	1	flat	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	_
+7	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Viele Grüße, Friedrich
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\n
+4	Friedrich	Friedrich	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

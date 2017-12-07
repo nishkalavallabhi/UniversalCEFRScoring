@@ -1,0 +1,285 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001143_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore, 22 1234 Città X Gabriella Favati Dipartimento di Linguistica Teorica e Applicata, Università degli Studi di Pavia, Corso Strada Nuova, 65 I - 27100 Pavia Città Y, 22 gennaio 2012 Oggetto:
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	22	22	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	1234	1234	NUM	N	NumType=Card	6	flat	_	_
+8	Città	Città	PROPN	SP	_	1	conj	_	_
+9	X	X	PROPN	SP	_	8	flat:name	_	SpacesAfter=\s\n
+10	Gabriella	Gabriella	PROPN	SP	_	1	conj	_	_
+11	Favati	Favare	PROPN	SP	_	10	flat:name	_	SpacesAfter=\n
+12	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	10	flat:name	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	Linguistica	Linguistica	PROPN	SP	_	10	nmod	_	_
+15	Teorica	Teorica	PROPN	SP	_	14	flat:name	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Applicata	applicare	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+19	Università	università	NOUN	S	Gender=Fem	1	appos	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	Studi	Studi	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	di	di	ADP	E	_	24	case	_	_
+24	Pavia	Pavia	PROPN	SP	_	22	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	1	punct	_	_
+26	Corso	Corso	PROPN	SP	_	1	appos	_	_
+27	Strada	Strada	PROPN	SP	_	26	flat:name	_	_
+28	Nuova	Nuova	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	26	punct	_	_
+30	65	65	NUM	N	NumType=Card	31	nummod	_	SpacesAfter=\n
+31	I	I	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+32	-	-	PUNCT	FF	_	26	punct	_	_
+33	27100	27100	NUM	N	NumType=Card	34	nummod	_	_
+34	Pavia	Pavia	PROPN	SP	_	1	conj	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+35	Città	Città	PROPN	SP	_	34	flat:name	_	_
+36	Y	y	PROPN	SP	_	34	flat:name	_	SpaceAfter=No
+37	,	,	PUNCT	FF	_	34	punct	_	_
+38	22	22	NUM	N	NumType=Card	39	nummod	_	_
+39	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	41	nmod	_	_
+40	2012	2012	NUM	N	NumType=Card	41	nummod	_	SpacesAfter=\s\n
+41	Oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+42	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = iscrizione Spettabile Signore Favati, Le scrivo per candidarmi al corso di lingua il quale è stato pubblicato nel giornale.
+1	iscrizione	iscrizione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpacesAfter=\s\n
+2	Spettabile	Spettabile	ADJ	A	Number=Sing	1	amod	_	_
+3	Signore	signore	PROPN	SP	_	1	nmod	_	_
+4	Favati	Favare	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+6	Le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	7	obj	_	_
+7	scrivo	scrivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9-10	candidarmi	_	_	_	_	_	_	_	_
+9	candidar	candidare	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	corso	corso	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	quale	quale	PRON	PR	Number=Sing|PronType=Rel	20	nsubj:pass	_	_
+18	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	aux:pass	_	_
+20	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl:relcl	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Leggendo il Suo l'avviso, sono stata tanto felice, perchè il mio sogno è sempre stato di imparare la lingua tedesca.
+1	Leggendo	Leggere	VERB	V	VerbForm=Ger	10	advcl	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Suo	suo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	cop	_	_
+9	tanto	tanto	ADV	B	_	10	advmod	_	_
+10	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	18	punct	_	_
+12	perchè	perché	SCONJ	CS	_	18	mark	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+16	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	sempre	sempre	ADV	B	_	18	advmod	_	_
+18	stato	essere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	conj	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	imparare	imparare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	_
+23	tedesca	tedesco	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Prima di tutto vorrei informare che parlo l'italiano e l'inglese ad alto livello.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	_
+4	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	informare	informare	VERB	V	VerbForm=Inf	0	root	_	_
+6	che	che	SCONJ	CS	_	7	mark	_	_
+7	parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	inglese	inglese	NOUN	S	Number=Sing	9	conj	_	_
+13	ad	a	ADP	E	_	15	case	_	_
+14	alto	alto	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	livello	livello	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Anzi l'anno scorso presso in una inglese ditta ho avuto esperienza di 30 giorni.
+1	Anzi	anzi	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	presso	prettere	ADV	B	_	3	advmod	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	inglese	inglese	ADJ	A	Number=Sing	9	amod	_	_
+9	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	30	30	NUM	N	NumType=Card	15	nummod	_	_
+15	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Inoltre, vorrei l'esame di maturità, vorrei passare la vacanza estiva a Vienna e così posso in grado di garantira la mia disponibilità immediata per iniziare il corso.
+1	Inoltre	inoltre	ADV	B	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esame	esame	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	maturità	maturità	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	estiva	estivo	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+14	a	a	ADP	E	_	15	case	_	_
+15	Vienna	Vienna	PROPN	SP	_	10	obl	_	_
+16	e	e	CCONJ	CC	_	20	cc	_	_
+17	così	così	ADV	B	_	20	advmod	_	_
+18	posso	potere	ADV	B	_	20	advmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	grado	grado	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+21	di	di	ADP	E	_	22	case	_	_
+22	garantira	garantira	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	disponibilità	disponibilità	NOUN	S	Gender=Fem	22	nmod	_	_
+26	immediata	immediato	ADJ	A	Gender=Fem|Number=Sing	25	amod	_	_
+27	per	per	ADP	E	_	28	mark	_	_
+28	iniziare	iniziare	VERB	V	VerbForm=Inf	20	acl	_	_
+29	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	corso	corso	NOUN	S	Gender=Masc|Number=Sing	28	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Poi, vorrei farle sapere le mie intenzioni, sono un'approvata di lingue, secondo me oggi giorno non soltanto per i giovani, ma anche per gli anziani è utile di parlare almeno due lingue straniere.
+1	Poi	poi	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	farle	_	_	_	_	_	_	_	_
+4	far	fare	VERB	V	VerbForm=Inf	13	csubj	_	_
+5	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	approvata	approvata	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	15	punct	_	_
+17	secondo	secondo	ADP	E	_	18	case	_	_
+18	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	nmod	_	_
+19	oggi	oggi	ADV	B	_	20	advmod	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+21	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+22	soltanto	soltanto	ADV	B	_	25	advmod	_	_
+23	per	per	ADP	E	_	25	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
+25	giovani	giovane	NOUN	S	Number=Plur	13	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	33	punct	_	_
+27	ma	ma	CCONJ	CC	_	33	cc	_	_
+28	anche	anche	ADV	B	_	31	advmod	_	_
+29	per	per	ADP	E	_	31	case	_	_
+30	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	anziani	anziano	NOUN	S	Gender=Masc|Number=Plur	33	obl	_	_
+32	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	cop	_	_
+33	utile	utile	ADJ	A	Number=Sing	25	conj	_	_
+34	di	di	ADP	E	_	35	mark	_	_
+35	parlare	parlare	VERB	V	VerbForm=Inf	33	advcl	_	_
+36	almeno	almeno	ADV	B	_	37	advmod	_	_
+37	due	due	NUM	N	NumType=Card	38	nummod	_	_
+38	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	35	obj	_	_
+39	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Alla fine, spero che la mia esperienza maturate in precedenza e le mie intenzioni possono essere adeguate di requisiti per il corso pubblicato.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	fine	fine	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	che	che	SCONJ	CS	_	19	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	19	nsubj	_	_
+10	maturate	maturare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	precedenza	precedenza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	intenzioni	intenzione	NOUN	S	Gender=Fem|Number=Plur	9	conj	_	_
+17	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	essere	essere	AUX	VA	VerbForm=Inf	19	cop	_	_
+19	adeguate	adeguare	ADJ	A	Gender=Fem|Number=Plur	5	ccomp	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	requisiti	requisito	NOUN	S	Gender=Masc|Number=Plur	19	obl	_	_
+22	per	per	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	corso	corso	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+25	pubblicato	pubblicato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	24	acl	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Sono interessata e disponibile ad un incontro diretto.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	interessata	interessato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	disponibile	disponibile	ADJ	A	Number=Sing	2	conj	_	_
+5	ad	a	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	diretto	diretto	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = In attesa di una Sua risposta
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	Sua	Sua	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	risposta	risposto	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Le porgo i miei più cordiali saluti, Maria Rossi
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	porgo	porgo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	miei	mio	PRON	PP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	2	nsubj	_	_
+5	più	più	ADV	B	_	6	advmod	_	_
+6	cordiali	cordiale	ADJ	A	Number=Plur	7	amod	_	_
+7	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	SpacesAfter=\s\n
+9	Maria	Maria	PROPN	SP	_	7	appos	_	_
+10	Rossi	Rossi	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,104 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001167_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Daniele, come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Daniele	Daniele	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Mi dispiace, è una settimana orribile.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	orribile	orribile	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Il mio capo ha organizzato una riunione giovedi pomeriggio e c'è molto lavoro.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	capo	capo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	giovedi	giovedio	NOUN	S	Gender=Masc|Number=Plur	7	compound	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Non posso venire al nostro appuntamento.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = È possibile andare a cena un altro giorno?
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	cena	cenare	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	altro	altro	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Come ti piace sabato sera?
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Non devo lavorare il fine settimana.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	fine	fine	NOUN	S	Number=Sing	3	obl	_	_
+6	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	compound	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Hai voglia di andare a cena in un ristorante tailandese?
+1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	cena	cenare	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	tailandese	tailandese	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tanti saluti, Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

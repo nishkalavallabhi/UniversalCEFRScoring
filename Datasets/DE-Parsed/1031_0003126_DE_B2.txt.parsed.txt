@@ -1,0 +1,330 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003126_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Wohnungsmarkt in Ankara Liebe Kolleginnen und Kollegen, Zunächst gratulieren wir Ihnen zu ihren neuen Stelle.
+1	Wohnungsmarkt	Wohnungsmarkt	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	in	in	ADP	APPR	_	5	case	_	_
+3	Ankara	Ankara	PROPN	NE	_	5	nmod	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Kolleginnen	Kolleginnen	NOUN	NN	_	1	nmod	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Kollegen	Kolleg	NOUN	NN	_	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	Zunächst	zunächst	ADV	ADV	_	10	advmod	_	_
+10	gratulieren	gratulieren	VERB	VVINF	VerbForm=Inf	1	acl	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+12	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	10	iobj	_	_
+13	zu	zu	ADP	APPR	_	16	case	_	_
+14	ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
+15	neuen	neu	ADJ	ADJA	Degree=Pos	16	amod	_	_
+16	Stelle	Stelle	NOUN	NN	_	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Dann möchten wir einige Informationen über den Wohnungsmarkt Ihrer neuen Stadt geben.
+1	Dann	dann	ADV	ADV	_	12	advmod	_	_
+2	möchten	mögen	AUX	VMFIN	Mood=Sub|Tense=Past|VerbForm=Fin	12	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+4	einige	einige	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+5	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+6	über	über	ADP	APPR	_	8	case	_	_
+7	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Wohnungsmarkt	Wohnungsmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+9	Ihrer	ihr	PRON	PPOSAT	Case=Gen|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	11	det:poss	_	_
+10	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Stadt	Stadt	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+12	geben	geben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ankara ist die Hauptstadt der Türkei und nach Istanbul ist die zweigrößte Stadt.
+1	Ankara	Ankara	PROPN	NE	Case=Nom|Number=Sing	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Hauptstadt	Hauptstadt	NOUN	NN	_	13	nmod	_	_
+5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Türkei	Türkei	PROPN	NE	_	4	nmod	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Istanbul	Istanbul	PROPN	NE	_	4	conj	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	die	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+12	zweigrößte	zweigroß	ADJ	ADJA	_	13	amod	_	_
+13	Stadt	Stadt	NOUN	NN	_	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 4
+# text = Sie hat fünf Millionen Einwohner, wer sich am meisten mit den amtlichen Berufen beschäftigt.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fünf	fünf	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Millionen	Million	NOUN	NN	_	5	nummod	_	_
+5	Einwohner	Einwohner	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	16	punct	_	_
+7	wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	16	nsubj	_	_
+8	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	meisten	meist	NOUN	PIAT	Case=Dat|Number=Plur	16	obl	_	_
+12	mit	mit	ADP	APPR	_	15	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+14	amtlichen	amtlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+15	Berufen	Beruf	NOUN	NN	Case=Dat|Number=Plur	11	nmod	_	_
+16	beschäftigt	beschäftigen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Trotz der Zahl des Einwohners ist es nicht zu schwer, eine wohnung zu mieten oder kaufen.
+1	Trotz	trotz	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Zahl	Zahl	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+4	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Einwohners	Einwohner	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	nmod	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
+9	zu	zu	ADV	PTKA	_	10	advmod	_	_
+10	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	mieten	mieten	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
+16	oder	oder	CCONJ	KON	_	17	cc	_	_
+17	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Jedoch sind die Preisen und die Mietkosten ein bisschen höher als andere Städten.
+1	Jedoch	jedoch	ADV	ADV	_	9	advmod	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Preisen	Preis	NOUN	NN	Case=Nom|Number=Plur	9	nsubj	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Mietkosten	Mietkosten	NOUN	NN	_	4	conj	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	bisschen	bisschen	NOUN	ADV	_	0	root	_	_
+10	höher	hoch	ADJ	ADJD	_	13	advmod	_	_
+11	als	als	ADP	KOKOM	_	13	case	_	_
+12	andere	ander	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Städten	Stadt	NOUN	NN	_	9	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bevor man eine wohnung mieten, muss man darauf beachten, wie die wohnung geheizt werden und welche öffentlische Verkehrsmitteln man benutzen kann, weil das Wetter in Ankara besonders im winter sehr kalt ist.
+1	Bevor	bevor	SCONJ	KOUS	_	5	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	mieten	mieten	VERB	VVINF	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
+9	darauf	darauf	PRON	PAV	PronType=Dem,Rel	10	advmod	_	_
+10	beachten	beachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	wie	wie	SCONJ	KOUS	_	15	mark	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj:pass	_	_
+15	geheizt	heizen	VERB	VVPP	VerbForm=Part	10	advcl	_	_
+16	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+17	und	und	CCONJ	KON	_	22	cc	_	_
+18	welche	welch	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	20	det	_	_
+19	öffentlische	öffentlisch	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	Verkehrsmitteln	Verkehrsmittel	NOUN	NN	Case=Nom|Number=Plur	22	nsubj	_	_
+21	man	man	PRON	PIS	Case=Nom|PronType=Ind	22	nsubj	_	_
+22	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	15	conj	_	_
+23	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	10	punct	_	_
+25	weil	weil	SCONJ	KOUS	_	35	mark	_	_
+26	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+27	Wetter	Wetter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	35	nsubj	_	_
+28	in	in	ADP	APPR	_	29	case	_	SpacesAfter=\s\s
+29	Ankara	Ankara	PROPN	NE	_	35	nmod	_	_
+30	besonders	besonders	ADV	ADV	_	35	advmod	_	_
+31-32	im	_	_	_	_	_	_	_	_
+31	in	in	ADP	APPR	_	35	case	_	_
+32	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	35	det	_	_
+33	winter	winter	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Gender=Masc,Neut|Number=Sing	35	nsubj	_	_
+34	sehr	sehr	ADV	ADV	_	35	advmod	_	_
+35	kalt	kalt	ADJ	ADJD	Degree=Pos	10	advcl	_	_
+36	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	35	cop	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Manchmal bleibt die Schnee ein monat am boden.
+1	Manchmal	manchmal	ADV	ADV	_	2	advmod	_	_
+2	bleibt	bleiben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Schnee	Schnee	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nsubj	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	monat	monat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	boden	bod	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Fahren mit dem PKW oder Bus ist keine kluge Sache!
+1	Fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+2	mit	mit	ADP	APPR	_	4	case	_	_
+3	dem	d	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	PKW	Pkw	PROPN	NN	_	1	obl	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	Bus	Bus	NOUN	NN	_	4	conj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	keine	kein	PRON	PIAT	PronType=Neg	9	advmod	_	_
+9	kluge	klug	NOUN	NN	_	1	nsubj	_	_
+10	Sache	Sache	NOUN	NN	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
+11	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Für Familien gibt es in der Stadt mehrere Möglichkeiten.
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	Familien	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	_
+3	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+8	mehrere	mehrere	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Sie können ein Privat Haus miten mit zwei oder drei Stock, oder in der Stadt eine Apartment wohnung mieten.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Privat	privat	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+5	Haus	Haus	PROPN	NN	_	4	appos	_	_
+6	miten	miten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	mit	mit	ADP	APPR	_	11	case	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	11	nummod	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	drei	drei	NUM	CARD	NumType=Card	8	conj	_	_
+11	Stock	Stock	NOUN	NN	_	6	obl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	_
+13	oder	oder	CCONJ	KON	_	20	cc	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	Apartment	Apartment	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	19	amod	_	_
+19	wohnung	wohnung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+20	mieten	mieten	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Es kommt auf Ihr wunsch an.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	Ihr	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	wunsch	wunsch	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+6	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 13
+# text = Es ist auch möglich auf dem Land zu wohnen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+8	zu	zu	ADP	APPR	_	9	case	_	_
+9	wohnen	wohnen	NOUN	NN	Case=Dat|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Mit der Regional bahn dauert von Land zu Stadtzentrum weniger als eine Stunde.
+1	Mit	mit	ADP	APPR	_	4	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	Regional	regional	PROPN	ADJD	Case=Dat|Gender=Fem|Number=Sing	4	amod	_	_
+4	bahn	bahn	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	dauert	dauern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	von	von	ADP	APPR	_	7	case	_	_
+7	Land	Land	NOUN	NN	Case=Dat|Number=Sing	5	nmod	_	_
+8	zu	zu	ADP	APPR	_	9	case	_	_
+9	Stadtzentrum	Stadtzentrum	NOUN	NN	_	10	nmod	_	_
+10	weniger	weniger	ADJ	ADV	Degree=Pos	5	advmod	_	_
+11	als	als	ADP	KOKOM	_	13	case	_	_
+12	eine	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Stunde	Stunde	NOUN	NN	_	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Neben diesen Angeboten haben Einzel personen auch wohngemeinschaft oder Mietraum möglichkeiten.
+1	Neben	neben	ADP	APPR	_	3	case	_	_
+2	diesen	dies	PRON	PDAT	Case=Dat|Number=Plur|PronType=Dem	3	det	_	_
+3	Angeboten	angeboten	NOUN	NN	Case=Dat|Number=Plur	11	obl	_	_
+4	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+5	Einzel	einzel	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+6	personen	personen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+7	auch	auch	ADV	ADV	_	8	advmod	_	_
+8	wohngemeinschaft	wohngemeinschaft	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	Mietraum	Mietraum	NOUN	NN	_	8	conj	_	_
+11	möglichkeiten	möglichkeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 16
+# text = Ankara ist auch ein Uni-Stadt.
+1	Ankara	Ankara	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Uni-Stadt	Uni-Stadt	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Insgesamt gibt es 11 Universitäten.
+1	Insgesamt	insgesamt	ADV	ADV	_	2	advmod	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	11	11	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Universitäten	Universität	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 18
+# text = Aus diesen Gründen werden wohngemeinschaft Möglichkeiten leichter.
+1	Aus	aus	ADP	APPR	_	3	case	_	_
+2	diesen	dies	PRON	PDAT	Case=Dat|Number=Plur|PronType=Dem	3	det	_	_
+3	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Number=Plur	7	obl	_	_
+4	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	wohngemeinschaft	wohngemeinschaft	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+6	Möglichkeiten	Möglichkeit	VERB	VVINF	VerbForm=Inf	7	cop	_	_
+7	leichter	leicht	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Wir Hoffen dass, dieser Text einen Ansicht über den wohnmarkt der Stadt macht.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	Hoffen	hoffen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3	dass	daß	SCONJ	KOUS	_	14	mark	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	Text	Text	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Ansicht	Ansicht	NOUN	NN	Case=Acc|Number=Sing	14	obj	_	_
+9	über	über	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	wohnmarkt	wohnmarkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Stadt	Stadt	NOUN	NN	_	11	nmod	_	_
+14	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Mit freundlichen Grüßen Unternehmen X
+1	Mit	mit	ADP	APPR	_	4	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	4	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	4	compound	_	SpacesAfter=\n
+4	Unternehmen	Unternehmen	NOUN	NN	_	0	root	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\n
+

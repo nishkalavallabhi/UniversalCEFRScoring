@@ -1,0 +1,92 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0242013_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, wie geht es Dir?
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = mir geht es gut.
+1	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte mir Dir schwimmen gehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+4	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obj	_	_
+5	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Hast du Lust?
+1	Hast	hast	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	Lust	Lust	NOUN	NN	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Wir fahren mit dem Auto zum Schwimmbad.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Schwimmbad	Schwimmbad	NOUN	NN	_	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Hast du am Freitag Nachmittag Zeit?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	amod	_	_
+6	Nachmittag	Nachmittag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+7	Zeit	Zeit	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Sollst du Wasser und Bikini mitbringen.
+1	Sollst	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	3	nsubj	_	_
+3	Wasser	Wasser	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Bikini	Bikini	NOUN	NN	_	3	conj	_	_
+6	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ruf mich bitte an.
+1	Ruf	Ruf	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	bitte	bitte	NOUN	NN	Case=Acc|Number=Plur	1	obj	_	_
+4	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Viele, liebe Grüße Deine Freundin Katharina Meier
+1	Viele	viel	ADJ	PIAT	Degree=Pos	6	amod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	6	punct	_	_
+3	liebe	lieb	ADJ	ADJA	Degree=Pos	6	amod	_	_
+4	Grüße	Grüße	PROPN	NN	_	6	nmod	_	SpacesAfter=\n
+5	Deine	Deine	PROPN	NN	_	4	flat	_	_
+6	Freundin	Freundin	NOUN	NN	_	0	root	_	SpacesAfter=\n
+7	Katharina	Katharina	PROPN	NE	_	6	appos	_	_
+8	Meier	Meier	PROPN	NN	_	7	flat	_	SpacesAfter=\n
+

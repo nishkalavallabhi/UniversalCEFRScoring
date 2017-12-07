@@ -1,0 +1,172 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0103832_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Michael Meier Stadt X, den 7.07.2010-unreadable-. Stadt Y 12-234 Zentralplatz 12 Computer-Spezialist Odenwaldstraße 5, 53119 Bon Bewerbungsbrief Sehr geehrte Damen und Herren Ich habe die Slesische Hochschule in Stadt X beendet.
+1	Michael	Michael	PROPN	NE	_	34	nsubj	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Stadt	Stadt	PROPN	NN	_	1	flat	_	_
+4	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	den	den	VERB	VVINF	VerbForm=Inf	34	acl	_	_
+7	7.07.2010-unreadable-	7.07.2010-unreadable-	PUNCT	$(	_	34	punct	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	34	punct	_	SpacesAfter=\n
+9	Stadt	Stadt	NOUN	NN	_	34	obl	_	_
+10	Y	Y	PROPN	NN	_	9	appos	_	_
+11	12-234	12-234	NUM	CARD	NumType=Card	12	nummod	_	SpacesAfter=\n
+12	Zentralplatz	Zentralplatz	NOUN	NN	_	14	compound	_	_
+13	12	12	NUM	CARD	NumType=Card	14	nummod	_	SpacesAfter=\n
+14	Computer-Spezialist	Computer-Spezialist	NOUN	NN	Case=Nom|Number=Sing	34	nsubj	_	SpacesAfter=\n
+15	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	14	appos	_	_
+16	5	5	NUM	CARD	NumType=Card	15	appos	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	14	punct	_	_
+18	53119	53119	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Bon	Bon	PROPN	NN	_	14	conj	_	SpacesAfter=\n
+20	Bewerbungsbrief	Bewerbungsbrief	PROPN	VVFIN	Case=Dat|Number=Sing	19	flat	_	SpacesAfter=\n
+21	Sehr	sehr	PROPN	ADV	_	23	cc	_	_
+22	geehrte	geehrt	ADJ	ADJA	Degree=Pos	23	amod	_	_
+23	Damen	Dame	NOUN	NN	_	19	conj	_	_
+24	und	und	CCONJ	KON	_	25	cc	_	_
+25	Herren	Herr	NOUN	NN	_	14	conj	_	SpacesAfter=\n
+26	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+27	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+28	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	Slesische	Slesisch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	Hochschule	Hochschule	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	34	obj	_	_
+31	in	in	ADP	APPR	_	32	case	_	_
+32	Stadt	Stadt	PROPN	NN	_	30	nmod	_	_
+33	X	X	PROPN	NN	_	32	appos	_	_
+34	beendet	beenden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	34	punct	_	_
+
+# sent_id = 2
+# text = Jetzt arbeite ich in der Stadverwaltung in Stadt Y als, Buchhalter.
+1	Jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+2	arbeite	arbeien	NOUN	ADJA	_	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Stadverwaltung	Stadverwaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	PROPN	NN	_	6	nmod	_	_
+9	Y	y	PROPN	NN	_	8	appos	_	_
+10	als	als	ADP	KOKOM	_	12	case	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Buchhalter	Buchhalter	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich spreche gut Deutsch, Rusisch und Englisch.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	spreche	sprechen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+4	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Rusisch	Rusisch	PROPN	ADJD	_	4	conj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Englisch	englisch	PROPN	NN	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Seit Ewigkeit interesire ich mich für Elektronik besonders Computer.
+1	Seit	seit	ADP	APPR	_	3	case	_	_
+2	Ewigkeit	Ewigkeit	NOUN	NN	_	3	compound	_	_
+3	interesire	interesir	PROPN	NN	Case=Dat|Number=Sing	9	nmod	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	Elektronik	Elektronik	NOUN	NN	Case=Dat|Number=Sing	9	nmod	_	_
+8	besonders	besonders	ADV	ADV	_	9	advmod	_	_
+9	Computer	Computer	NOUN	NN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich denke dass neue Erfarungen in Eure Firma sehr interessante für Mich würden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	Erfarungen	Erfarung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	Eure	eure	PROPN	NN	_	8	nmod	_	_
+8	Firma	Firma	NOUN	NN	_	5	nmod	_	_
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
+10	interessante	interessant	ADJ	ADJA	Degree=Pos	2	ccomp	_	_
+11	für	für	ADP	APPR	_	12	case	_	_
+12	Mich	mich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obl	_	_
+13	würden	werden	AUX	VAFIN	Number=Plur|Person=3|VerbForm=Fin	10	aux	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Eure Firma geben neue Entwicklungen und neue Möglichkeiten.
+1	Eure	euer	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	2	det	_	_
+2	Firma	Firma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	geben	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Plur	5	amod	_	_
+5	Entwicklungen	Entwicklung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich hoffe dass meine Sprachkentnise werden in dies Arbeit sehr nützliche Ich möchte wissen wie viel Geld verdine ich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+4	meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Sprachkentnise	Sprachkentnise	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	_
+6	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dies	dies	PRON	PDS	Case=Acc|PronType=Dem	9	det:poss	_	_
+9	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
+11	nützliche	nützlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	Ich	ich	NOUN	PPER	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+13	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	wissen	wissen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	_
+15	wie	wie	ADP	KOKOM	_	17	case	_	_
+16	viel	viel	PRON	PIAT	PronType=Ind	17	det	_	_
+17	Geld	Geld	NOUN	NN	_	18	nmod	_	_
+18	verdine	verdin	PROPN	NE	_	14	obl	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ist für mich auch sehr wichtig wie si -unreadable- Eure Erwartungen von meinem Person sind.
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+4	auch	auch	ADV	ADV	_	6	advmod	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	_
+7	wie	wie	ADP	KOKOM	_	8	case	_	_
+8	si	si	PROPN	NN	_	6	nmod	_	_
+9	-unreadable-	-unreadable-	PUNCT	$(	_	6	punct	_	SpacesAfter=\n
+10	Eure	eure	DET	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	11	det	_	_
+11	Erwartungen	Erwartung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+12	von	von	ADP	APPR	_	14	case	_	_
+13	meinem	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Person	Person	NOUN	NN	_	11	nmod	_	_
+15	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Ich hoffe dass Euer Antword für mich positiv wird.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+4	Euer	euer	PROPN	ADJA	_	8	nsubj	_	_
+5	Antword	Antword	PROPN	NN	Case=Nom|Number=Sing	4	flat	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
+8	positiv	positiv	ADJ	ADJD	Degree=Pos	2	ccomp	_	_
+9	wird	werden	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Mit Freundlichen Grüßen Michael
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Michael	Michael	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

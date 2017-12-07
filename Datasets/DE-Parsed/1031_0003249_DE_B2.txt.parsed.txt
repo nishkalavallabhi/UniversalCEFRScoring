@@ -1,0 +1,324 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003249_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Deutsch ist eine Sprache, die in drei Länder gesprochen wird: Österreich, die Schweiz und in Deutschland, natürlich.
+1	Deutsch	deutsch	PROPN	NE	Case=Nom|Number=Sing	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Sprache	Sprache	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	die	der	PRON	PRELS	Case=Nom|PronType=Rel	10	nsubj:pass	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	drei	drei	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Länder	Land	NOUN	NN	_	10	obl	_	_
+10	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	4	acl	_	_
+11	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	SpaceAfter=No
+12	:	:	PUNCT	$.	_	4	punct	_	_
+13	Österreich	Österreich	PROPN	NE	Case=Dat|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	die	der	DET	PRELS	PronType=Rel	16	det	_	_
+16	Schweiz	Schweiz	PROPN	NE	_	13	conj	_	_
+17	und	und	CCONJ	KON	_	19	cc	_	_
+18	in	in	ADP	APPR	_	19	case	_	_
+19	Deutschland	Deutschland	PROPN	NE	_	13	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	21	punct	_	_
+21	natürlich	natürlich	ADJ	ADV	Degree=Pos	13	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Mehr als Hundert Millonen Menschen sprechen diese Sprache.
+1	Mehr	mehr	ADV	ADV	_	4	advmod	_	_
+2	als	als	ADP	KOKOM	_	4	case	_	_
+3	Hundert	hundert	ADJ	VVPP	_	4	amod	_	_
+4	Millonen	Millon	NOUN	NN	_	5	nmod	_	_
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+6	sprechen	sprechen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
+8	Sprache	Sprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Außerdem, ist Deutsch die mehrgesprochene Sprache Europas.
+1	Außerdem	außerdem	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Deutsch	deutsch	PROPN	ADJD	_	6	nsubj	_	_
+5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	mehrgesprochene	mehrgesprochen	NOUN	ADJA	_	0	root	_	_
+7	Sprache	Sprache	PROPN	NN	_	6	appos	_	_
+8	Europas	Europa	PROPN	NE	_	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Wenn man in Länder wohnt, die viel mit Deutschland zusammenarbeiten, ist es sehr sinnvoll Deutsch zu lernen.
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Länder	Land	NOUN	NN	_	5	obl	_	_
+5	wohnt	wohnen	VERB	VVPP	VerbForm=Part	19	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	die	der	PRON	PRELS	Case=Nom|PronType=Rel	11	nsubj	_	_
+8	viel	viel	PRON	PIS	Case=Acc|PronType=Ind	11	obj	_	_
+9	mit	mit	ADP	APPR	_	10	case	_	_
+10	Deutschland	Deutschland	PROPN	NE	Case=Dat|Number=Sing	11	obl	_	_
+11	zusammenarbeiten	zusammenarbeiten	VERB	VVINF	VerbForm=Inf	5	acl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+14	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+15	sehr	sehr	ADV	ADV	_	16	advmod	_	_
+16	sinnvoll	sinnvoll	ADJ	ADJD	Degree=Pos	19	advmod	_	_
+17	Deutsch	deutsch	NOUN	ADJD	Case=Dat|Number=Sing	19	iobj	_	_
+18	zu	zu	PART	PTKZU	_	19	mark	_	_
+19	lernen	lernen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Deutschd, zum Beispiel, ist ein Land, wo viele wichtige Firmen sich befinden.
+1	Deutschd	Deutschd	ADJ	NE	Degree=Pos	9	amod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Land	Land	NOUN	NN	_	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	wo	wo	ADV	PWAV	_	16	advmod	_	_
+12	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Sing	14	amod	_	_
+13	wichtige	wichtig	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+14	Firmen	Firma	NOUN	NN	Case=Acc|Number=Plur	16	obj	_	_
+15	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	16	obj	_	_
+16	befinden	befinden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	9	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 6
+# text = Besonders die Automobilbranche ist hier wichtig.
+1	Besonders	besonders	ADV	ADV	_	3	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Automobilbranche	Automobilbranche	PROPN	NN	_	6	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	hier	hier	ADV	ADV	_	6	advmod	_	_
+6	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Firmen wie Audi, BMW, brauchen immer wieder Mietarbeitern und besonders für alle die Ingenierie studiert haben, ist es sehr wichtig Deutsch zu lernen, um einem guten Platz auf dem deutschen Arbeitsmarkt bekommen zu können.
+1	Firmen	Firma	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+2	wie	wie	ADP	KOKOM	_	3	case	_	_
+3	Audi	Audi	PROPN	NE	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	BMW	BMW	PROPN	NE	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+8	immer	immer	ADV	ADV	_	9	advmod	_	_
+9	wieder	wieder	ADV	ADV	_	7	advmod	_	_
+10	Mietarbeitern	Mietarbeiter	NOUN	NN	_	7	conj	_	_
+11	und	und	CCONJ	KON	_	17	cc	_	_
+12	besonders	besonders	ADV	ADV	_	14	advmod	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	17	obl	_	_
+15	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Ingenierie	Ingenierie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	studiert	studieren	VERB	VVPP	VerbForm=Part	10	conj	_	_
+18	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	17	punct	_	_
+20	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+21	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	_	_
+22	sehr	sehr	ADV	ADV	_	23	advmod	_	_
+23	wichtig	wichtig	ADJ	ADJD	Degree=Pos	7	conj	_	_
+24	Deutsch	deutsch	NOUN	ADJD	Case=Dat|Number=Sing	23	nmod	_	_
+25	zu	zu	ADP	APPR	_	26	case	_	_
+26	lernen	lernen	NOUN	VVINF	_	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	7	punct	_	_
+28	um	um	ADP	KOUI	_	31	case	_	_
+29	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	31	det	_	_
+30	guten	gut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	31	amod	_	_
+31	Platz	Platz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	36	obl	_	_
+32	auf	auf	ADP	APPR	_	35	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	35	det	_	_
+34	deutschen	deutsch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	35	amod	_	_
+35	Arbeitsmarkt	Arbeitsmarkt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	36	obl	_	_
+36	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	7	advcl	_	_
+37	zu	zu	PART	PTKZU	_	38	mark	_	_
+38	können	können	AUX	VMINF	VerbForm=Inf	36	aux	_	SpaceAfter=No
+39	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Auch wenn man Wirtschaft studiert, wäre es eine gute Idee die deutsche Sprache zu lernen.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+4	Wirtschaft	Wirtschaft	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	studiert	studieren	VERB	VVPP	VerbForm=Part	11	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	eine	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+10	gute	gut	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Idee	Idee	NOUN	NN	_	0	root	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	deutsche	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Sprache	Sprache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+15	zu	zu	PART	PTKZU	_	16	mark	_	_
+16	lernen	lernen	VERB	VVINF	VerbForm=Inf	11	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Aber nicht nur wenn man eine bessere Arbeit haben möchte oder wenn man im Ausland für eine Deutschefirma arbeitet, ist es empfehlenswert Deutsch zu lernen.
+1	Aber	aber	ADV	ADV	_	9	advmod	_	_
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	_
+3	nur	nur	ADV	ADV	_	4	advmod	_	_
+4	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	bessere	gut	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	8	amod	_	_
+8	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+11	oder	oder	CCONJ	KON	_	27	cc	_	_
+12	wenn	wenn	SCONJ	KOUS	_	20	mark	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	20	nsubj	_	_
+14-15	im	_	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	obl	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Deutschefirma	Deutschefirma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+20	arbeitet	arbeiten	VERB	VVFIN	Person=3|VerbForm=Fin	27	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	27	punct	_	_
+22	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+23	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+24	empfehlenswert	empfehlenswert	ADJ	ADJD	Degree=Pos	27	advmod	_	_
+25	Deutsch	deutsch	NOUN	ADJD	Case=Dat|Number=Sing	27	iobj	_	_
+26	zu	zu	PART	PTKZU	_	27	mark	_	_
+27	lernen	lernen	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Auch wenn man eine sehr fazienierende Kultur kennenlernen möchte, halte ich es für sinnvoll.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	fazienierende	fazienierend	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	kennenlernen	kennenlernen	VERB	VVINF	VerbForm=Inf	11	advcl	_	_
+9	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	halte	halten	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+13	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+14	für	für	ADP	APPR	_	15	case	_	_
+15	sinnvoll	sinnvoll	ADJ	ADJD	Degree=Pos	11	amod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Deutsch (auch wenn für manche Personen komisch klingelt) ist eine wunderschöne Sprache.
+1	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	9	obj	_	_
+2	(	(	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	wenn	wenn	SCONJ	KOUS	_	9	advmod	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	manche	manch	PRON	PIAT	Case=Acc|Number=Plur|PronType=Ind	7	det	_	_
+7	Personen	Person	NOUN	NN	Case=Acc|Number=Plur	9	obl	_	_
+8	komisch	komisch	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	klingelt	klingelt	VERB	VVPP	VerbForm=Part	11	acl	_	SpaceAfter=No
+10	)	)	PUNCT	$(	_	9	punct	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	eine	ein	DET	ART	Definite=Ind|PronType=Art	14	det	_	_
+13	wunderschöne	wunderschön	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Sprache	Sprache	NOUN	NN	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 12
+# text = Es ist für mich immer noch ein Wunder, wie genau sie ist.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
+5	immer	immer	ADV	ADV	_	6	advmod	_	_
+6	noch	noch	ADV	ADV	_	8	advmod	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Wunder	Wunder	NOUN	NN	_	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	wie	wie	ADV	KOKOM	_	11	advmod	_	_
+11	genau	genau	ADJ	ADJD	Degree=Pos	8	acl	_	_
+12	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = In meinen Fall, ist es sehr wichtig, dass ich Deutsch sprechen kann, weil ich in Deutschland wohne und arbeite.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
+8	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	13	obj	_	_
+13	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	8	ccomp	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	13	punct	_	_
+16	weil	weil	SCONJ	KOUS	_	20	mark	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	Deutschland	Deutschland	PROPN	NE	_	20	nmod	_	_
+20	wohne	wohne	PROPN	APPR	_	13	advcl	_	_
+21	und	und	CCONJ	KON	_	22	cc	_	_
+22	arbeite	arbeite	NOUN	ADJA	_	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Je besser ich Deutsch spreche, desto einfacher wird das Leben für mich.
+1	Je	je	CCONJ	ADV	_	5	cc	_	_
+2	besser	gut	ADJ	ADJD	Degree=Cmp	5	advmod	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	Deutsch	deutsch	NOUN	ADJD	Case=Acc|Number=Sing	5	obj	_	_
+5	spreche	sprechen	VERB	VVFIN	VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	desto	desto	CCONJ	KON	_	9	conj	_	_
+8	einfacher	einfach	ADJ	ADJA	Degree=Cmp,Pos	9	advmod	_	_
+9	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Leben	Leben	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	für	für	ADP	APPR	_	13	case	_	_
+13	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Für alle, die Deutsch lernen möchte, kann ich nur sagen: Mach es!
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	alle	alle	PRON	PIS	Case=Acc|PronType=Tot	12	obl	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	die	der	DET	PRELS	PronType=Rel	6	det	_	_
+5	Deutsch	deutsch	NOUN	ADJD	Case=Dat|Number=Sing	6	iobj	_	_
+6	lernen	lernen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
+7	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	nur	nur	ADV	ADV	_	12	advmod	_	_
+12	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	12	punct	_	_
+14	Mach	Mach	PROPN	NE	Case=Nom|Number=Sing	12	nsubj	_	_
+15	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	SpaceAfter=No
+16	!	!	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 16
+# text = Du wirst es nie bereuhen!
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+2	wirst	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	nie	nie	ADV	ADV	Polarity=Neg	5	advmod	_	_
+5	bereuhen	bereuhen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+

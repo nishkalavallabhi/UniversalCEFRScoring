@@ -1,0 +1,145 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001022_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Stefano!
+1	Ciao	ciao	PROPN	SP	_	0	root	_	_
+2	Stefano	Stefano	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Ti voglio andare a trovare nella prossima vacanza d'estate.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	trovare	trovare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	estate	estate	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Può prendere l'aereo.
+1	Può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	aereo	aereo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Forse la sera possiamo andare al cinema oppure al teatro.
+1	Forse	forse	ADV	B	_	5	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	cinema	cinema	NOUN	S	Gender=Masc	5	obl	_	_
+9	oppure	oppure	CCONJ	CC	_	12	cc	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Che pensi?
+1	Che	che	SCONJ	CS	_	2	obj	_	_
+2	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ci divertiamo molto e può stare per due settimane.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	divertiamo	divertire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	stare	stare	VERB	V	VerbForm=Inf	2	conj	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Città X è una città molto vicino al mare.
+1	Città	Città	PROPN	SP	_	5	nsubj	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	città	città	NOUN	S	Gender=Fem	0	root	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	vicino	vicino	ADV	B	_	5	advmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mare	mare	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Forse lo andiamo?
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = La mia zia abito vicino a Città X.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	zia	zia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	vicino	vicino	ADV	B	_	7	case	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	Città	città	PROPN	SP	_	4	obl	_	_
+8	X	x	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = È la tua città che si chiama Città Y lontano da Città X?
+1	È	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	città	città	NOUN	S	Gender=Fem	1	nsubj	_	_
+5	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	_
+7	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	Città	Città	PROPN	SP	_	7	nsubj	_	_
+9	Y	y	PROPN	SP	_	8	flat:name	_	_
+10	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+11	da	da	ADP	E	_	12	case	_	_
+12	Città	città	PROPN	SP	_	8	nmod	_	_
+13	X	X	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Voglio venire a trovare la mia zia perché non la vedo spesso.
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	zia	zia	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+12	spesso	spesso	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Tanti saluti e ti amo Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	conj	_	_
+5	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n\s
+6	Maria	Maria	PROPN	SP	_	5	nsubj	_	SpacesAfter=\n
+

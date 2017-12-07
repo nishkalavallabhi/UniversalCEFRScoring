@@ -1,0 +1,278 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001040_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Dipartimento di Linguistica Teorica e Applicata Università degli Studi di Pavia, Corso Strada Nuova.
+1	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Linguistica	Linguistica	PROPN	SP	_	1	nmod	_	_
+4	Teorica	Teorica	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	Applicata	applicare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	Università	università	NOUN	S	Gender=Fem	3	conj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Studi	Studi	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Pavia	Pavia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	Corso	Corso	PROPN	SP	_	1	conj	_	_
+15	Strada	Strada	PROPN	SP	_	14	flat:name	_	_
+16	Nuova	Nuova	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = 65, 27100 Pavia, Italia
+1	65	65	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+3	27100	27100	NUM	N	NumType=Card	4	nummod	_	_
+4	Pavia	Pavia	PROPN	SP	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Italia	Italia	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Cara Gabriella Favati, il 2 ottobre 2011 mi rivolga a Lei con refiremento al Suo avviso in cui scrive che ha bisogno di aiuto e vorrei aitarLa.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Gabriella	Gabriella	PROPN	SP	_	10	nsubj	_	_
+3	Favati	Favato	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2	2	NUM	N	NumType=Card	2	nmod	_	_
+7	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	2011	2011	NUM	N	NumType=Card	6	flat	_	SpacesAfter=\n
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	rivolga	rivogliere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Lei	lei	PROPN	SP	_	10	obl	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	refiremento	refiremento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15-16	al	_	_	_	_	_	_	_	_
+15	a	a	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+19	in	in	ADP	E	_	20	case	_	_
+20	cui	cui	PRON	PR	PronType=Rel	21	obl	_	_
+21	scrive	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	che	che	SCONJ	CS	_	23	mark	_	_
+23	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+24	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	_
+27	e	e	CCONJ	CC	_	29	cc	_	_
+28	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29-30	aitarLa	_	_	_	_	_	_	_	SpaceAfter=No
+29	aitar	aitare	VERB	V	VerbForm=Inf	21	conj	_	_
+30	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Studio tre lingue straniere: inglese, italiano e spagnolo.
+1	Studio	studio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+6	inglese	inglese	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Mi piace molto studiare lingue, questo è un hobby per me, ma nello stesso tempo posso guadagnare un po' grazie a studiare lingue straniere.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	_
+4	studiare	studiare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	10	nsubj	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	hobby	hobby	NOUN	S	_	2	parataxis	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	20	punct	_	_
+14	ma	ma	CCONJ	CC	_	20	cc	_	_
+15-16	nello	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+18	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+19	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	guadagnare	guadagnare	VERB	V	VerbForm=Inf	2	conj	_	_
+21	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	po'	poco	ADV	B	_	20	advmod	_	_
+23	grazie	grazie	NOUN	S	_	25	mark	_	_
+24	a	a	ADP	E	_	23	fixed	_	_
+25	studiare	studiare	VERB	V	VerbForm=Inf	20	advcl	_	_
+26	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	_
+27	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Studio inglese da otto anni e sono riuscita a superare l'esame di lingua in livello superiore in inglese.
+1	Studio	studio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	inglese	inglese	ADJ	A	Number=Sing	1	amod	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	otto	otto	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+9	a	a	ADP	E	_	10	mark	_	_
+10	superare	superare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	esame	esame	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	livello	livello	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+17	superiore	superiore	ADJ	A	Degree=Cmp|Number=Sing	16	amod	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	inglese	inglese	NOUN	S	Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Così posso insegnare l'inglese per esempio ai miei amici.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	insegnare	insegnare	VERB	V	VerbForm=Inf	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	inglese	inglese	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	ai	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Studio lo spagnolo da due anni e studiarlo sembra che sia utile, perchè molte persone parlano lo spagnolo.
+1	Studio	studio	PROPN	SP	_	3	nsubj	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	spagnolo	spagnolare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8-9	studiarlo	_	_	_	_	_	_	_	_
+8	studiar	studiare	VERB	V	VerbForm=Inf	3	conj	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+11	che	che	SCONJ	CS	_	13	mark	_	_
+12	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	utile	utile	ADJ	A	Number=Sing	10	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	13	punct	_	_
+15	perchè	perché	SCONJ	CS	_	18	mark	_	_
+16	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	17	det	_	_
+17	persone	persona	NOUN	S	Gender=Fem|Number=Plur	18	nsubj	_	_
+18	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	csubj	_	_
+19	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	obj	_	_
+20	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	18	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Spero che possa superare anche l'esame di lingua in spagnolo.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	superare	superare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	esame	esame	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ho cominciato studiare l'italiano tre anni fa, perchè non c'era la possibilita di studiare lo spagnolo a scuola, però adesso amo l'italiano.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	studiare	studiare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+8	fa	fa	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	perchè	perché	SCONJ	CS	_	13	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	expl	_	SpaceAfter=No
+13	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	possibilita	possibilita	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+16	di	di	ADP	E	_	17	mark	_	_
+17	studiare	studiare	VERB	V	VerbForm=Inf	15	acl	_	_
+18	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	17	xcomp	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	17	punct	_	_
+23	però	però	ADV	B	_	25	advmod	_	_
+24	adesso	adesso	ADV	B	_	25	advmod	_	_
+25	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+26	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	27	det	_	SpaceAfter=No
+27	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Studiando l'italiano sono andata in Italia per lavorare in estate.
+1	Studiando	Studiare	VERB	V	VerbForm=Ger	5	advcl	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Italia	Italia	PROPN	SP	_	5	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	lavorare	lavorare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	estate	estate	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Tutto sommato, sono felice di studiare lingue straniere e me le aiutano molto.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+2	sommato	sommato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	studiare	studiare	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+9	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	obj	_	_
+13	aiutano	aiutare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	_
+14	molto	molto	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Spero che io avessi potuto aiutarLa.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	avessi	avere	AUX	VA	Mood=Sub|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+5	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	aux	_	_
+6-7	aiutarLa	_	_	_	_	_	_	_	SpaceAfter=No
+6	aiutar	aiutare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+7	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Cordiali saluti, Sua Maria Rossi
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+4	Sua	Sua	PROPN	SP	_	2	nmod	_	_
+5	Maria	Maria	PROPN	SP	_	4	flat:name	_	_
+6	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

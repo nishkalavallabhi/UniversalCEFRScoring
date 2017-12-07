@@ -1,0 +1,221 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0107682_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Friedrich Winkelmann 16/0111/2011 Winkelsweg 12 1234 Stadt X, Schweiz AUPAIRSGLOBAL BAHNHOFSTR.101 65185 WIESBADEN 0611/9988776 Objekt: Weitere informationen / Internationale Au-Pair SEHR GEEHRTER, SEHR GEEHRTE;
+1	Friedrich	Friedrich	PROPN	NE	_	4	compound	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	16/0111/2011	16/0111/2011	NUM	CARD	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	Winkelsweg	Winkelsweg	NOUN	NN	Case=Acc|Number=Sing	0	root	_	_
+5	12	12	NUM	CARD	NumType=Card	6	nummod	_	SpacesAfter=\n
+6	1234	1234	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Stadt	Stadt	NOUN	NN	_	4	appos	_	_
+8	X	X	PROPN	NN	_	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	7	punct	_	_
+10	Schweiz	Schweiz	PROPN	NE	_	7	appos	_	SpacesAfter=\n\s\n
+11	AUPAIRSGLOBAL	AUPAIRSGLOBAL	PROPN	NE	_	10	amod	_	SpacesAfter=\n
+12	BAHNHOFSTR.101	BAHNHOFSTR.101	PROPN	NN	_	11	flat	_	SpacesAfter=\n
+13	65185	65185	NUM	CARD	NumType=Card	14	nummod	_	_
+14	WIESBADEN	Wiesbaden	PROPN	NN	_	7	appos	_	SpacesAfter=\n
+15	0611/9988776	0611/9988776	PROPN	CARD	_	14	flat	_	SpacesAfter=\n\s\n
+16	Objekt	Objekt	PROPN	NN	_	14	appos	_	SpaceAfter=No
+17	:	:	PUNCT	$.	_	4	punct	_	_
+18	Weitere	weit	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Plur	19	amod	_	_
+19	informationen	information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	27	obj	_	_
+20	/	/	PUNCT	$(	_	21	punct	_	_
+21	Internationale	International	PROPN	NN	_	19	conj	_	_
+22	Au-Pair	Au-Pair	PROPN	NE	_	21	flat	_	SpacesAfter=\n
+23	SEHR	sehr	PROPN	ADV	_	24	cc	_	_
+24	GEEHRTER	GEEHRTER	PROPN	NE	_	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	26	punct	_	_
+26	SEHR	sehr	PROPN	NN	_	19	conj	_	_
+27	GEEHRTE;	GEEHRTE;	X	ADJA	_	4	dep	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = ICH HABE SEINE ANZEIGE IM ZEITUNG GELESEN, UND ICH BIN SEHR INTERESSIERT AUF EIN AU-PAIR IN DEUTSCHLAND ZU WERDEN: ICH SPRECHE SCHON EIN WENIG DEUTSCH;
+1	ICH	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	HABE	Habe	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	SEINE	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	ANZEIGE	Anzeige	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+5-6	IM	_	_	_	_	_	_	_	_
+5	IN	in	PROPN	NE	_	4	appos	_	_
+6	DEM	d	PROPN	ART	_	5	flat	_	_
+7	ZEITUNG	Zeitung	PROPN	NN	_	5	flat	_	_
+8	GELESEN	lesen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	UND	und	PROPN	NE	_	11	cc	_	_
+11	ICH	ich	PROPN	NE	_	8	conj	_	_
+12	BIN	Bin	PROPN	NN	_	13	nummod	_	_
+13	SEHR	sehr	PROPN	ADV	_	14	advmod	_	_
+14	INTERESSIERT	interessieren	ADJ	VVPP	_	21	amod	_	_
+15	AUF	auf	NOUN	NN	Case=Nom|Number=Sing	21	nsubj	_	_
+16	EIN	ein	PROPN	NE	_	17	nmod	_	_
+17	AU-PAIR	AU-PAIR	PROPN	NE	_	15	appos	_	_
+18	IN	in	PROPN	APPR	Case=Nom|Number=Sing	21	nsubj	_	_
+19	DEUTSCHLAND	Deutschland	PROPN	NN	_	21	nmod	_	_
+20	ZU	zu	PROPN	APPR	_	21	amod	_	_
+21	WERDEN	werden	PROPN	VAFIN	_	11	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	$.	_	21	punct	_	_
+23	ICH	ich	PROPN	NE	_	28	case	_	_
+24	SPRECHE	SPRECHE	PROPN	NE	_	23	amod	_	_
+25	SCHON	schon	PROPN	NE	_	24	flat	_	_
+26	EIN	ein	PROPN	NE	_	27	advmod	_	_
+27	WENIG	wenig	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	28	amod	_	_
+28	DEUTSCH	deutsch	PROPN	ADJD	Case=Dat|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+29	;	;	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 3
+# text = SPANISCH;
+1	SPANISCH	spanisch	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+2	;	;	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = ENGLISCH UND FRANZÖSISCH;
+1	ENGLISCH	englisch	PROPN	NN	Case=Acc|Number=Sing	2	obj	_	_
+2	UND	Und	PROPN	KON	_	0	root	_	_
+3	FRANZÖSISCH	Französisch	PROPN	NN	_	2	flat	_	SpaceAfter=No
+4	;	;	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = UND ICH GLAUBE DAS EIN AU-PAIR ERFAHRUNG WURDE MEIN DEUTSCHKENNTNISSE VERBESSEREN.
+1	UND	Und	PROPN	NE	_	11	nsubj	_	_
+2	ICH	ich	PROPN	NE	_	1	flat	_	_
+3	GLAUBE	Glaube	PROPN	NN	_	1	flat	_	_
+4	DAS	d	PROPN	ART	_	7	nmod	_	_
+5	EIN	ein	PROPN	NN	_	7	nmod	_	_
+6	AU-PAIR	AU-PAIR	PROPN	ADJD	_	7	amod	_	_
+7	ERFAHRUNG	Erfahrung	PROPN	NN	_	1	appos	_	_
+8	WURDE	Wurde	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+9	MEIN	mein	PROPN	PPOSAT	_	8	nmod	_	_
+10	DEUTSCHKENNTNISSE	DEUTSCHKENNTNISSE	PROPN	ADJA	_	9	flat	_	_
+11	VERBESSEREN	Verbesseren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = DESWEGEN BRAUCHE ICH MEHR INFORMATIONEN.
+1	DESWEGEN	deswegen	ADV	PAV	_	2	advmod	_	_
+2	BRAUCHE	brauche	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ICH	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	MEHR	Mehr	PRON	PIAT	Case=Dat|PronType=Ind	5	iobj	_	_
+5	INFORMATIONEN	Informationen	NOUN	NN	Case=Dat|Number=Plur	2	iobj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = WURDE ICH ALS AU-PAIR IN DEUTSCHSLAND NUR DEUTSCH REDE?
+1	WURDE	Wurde	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ICH	ich	PROPN	NE	_	1	appos	_	_
+3	ALS	als	PROPN	NE	_	10	advmod	_	_
+4	AU-PAIR	AU-PAIR	PROPN	NE	_	3	flat	_	_
+5	IN	in	PROPN	APPR	Case=Nom|Number=Sing	10	nsubj	_	_
+6	DEUTSCHSLAND	DEUTSCHSLAND	PROPN	NE	_	10	nmod	_	_
+7	NUR	nur	PROPN	NN	_	8	advmod	_	_
+8	DEUTSCH	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	9	amod	_	_
+9	REDE	Rede	PROPN	NN	Case=Acc|Number=Plur	6	obj	_	SpaceAfter=No
+10	?	?	PROPN	$.	_	2	flat	_	_
+
+# sent_id = 8
+# text = WELCHES ANDEREN AKTIVITÄTS WURDE ICH ALS EIN AU-PAIR HABEN?
+1	WELCHES	welch	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+2	ANDEREN	andere	NOUN	ADJA	Case=Dat|Number=Plur	9	obl	_	_
+3	AKTIVITÄTS	Aktivität	PROPN	NN	_	5	amod	_	_
+4	WURDE	Wurde	NOUN	NN	_	5	compound	_	_
+5	ICH	ich	PROPN	NE	_	2	appos	_	_
+6	ALS	als	PROPN	NE	_	5	appos	_	_
+7	EIN	ein	PROPN	NE	_	6	nmod	_	_
+8	AU-PAIR	AU-PAIR	PROPN	NE	_	6	flat	_	_
+9	HABEN	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 9
+# text = WURDE ICH FREIZEIT HABE?
+1	WURDE	Wurde	VERB	VAFIN	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+2	ICH	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	FREIZEIT	Freizeit	ADV	ADV	_	4	advmod	_	_
+4	HABE	Habe	NOUN	NN	_	1	dep	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = ICH WURDE GERNE AUCH WISSEN, WELCHE WURDE MEINE RECHTE UND MEINE PFLICHTEN;
+1	ICH	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	WURDE	Wurde	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	GERNE	Gerne	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+4	AUCH	auch	PROPN	NN	_	3	nmod	_	_
+5	WISSEN	wissen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	WELCHE	welch	PRON	PRELS	Case=Nom|PronType=Rel	11	nsubj	_	_
+8	WURDE	Wurde	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+9	MEINE	mein	PROPN	PPOSAT	_	11	nmod	_	_
+10	RECHTE	Recht|Rechte	PROPN	NN	_	9	flat	_	_
+11	UND	Und	PROPN	KON	_	5	appos	_	_
+12	MEINE	mein	PROPN	PPOSAT	_	13	nmod	_	_
+13	PFLICHTEN	Pflicht	NOUN	NN	Case=Acc|Number=Plur	11	obj	_	SpaceAfter=No
+14	;	;	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 11
+# text = ALS EIN AU-PAIR SEIN.
+1	ALS	als	ADP	KOKOM	_	3	case	_	_
+2	EIN	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	AU-PAIR	AU-PAIR	NOUN	NN	_	4	obl	_	_
+4	SEIN	sein	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 12
+# text = KUMMERT SIE SICH AUF ALLE DIESE FORMALITÄTEN, BEI ALLE AU-PAIRS?
+1	KUMMERT	KUMMERT	PROPN	NE	Case=Nom|Number=Sing	2	amod	_	_
+2	SIE	Sie|sie	PROPN	NE	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+3	SICH	er|es|sie	PROPN	PRF	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+4	AUF	auf	ADP	APPR	_	5	case	_	_
+5	ALLE	alle	PROPN	NN	_	6	amod	_	_
+6	DIESE	dies	PROPN	PDAT	_	7	nmod	_	_
+7	FORMALITÄTEN	FORMALITÄTEN	PROPN	NE	_	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	BEI	bei	PROPN	NE	_	10	case	_	_
+10	ALLE	alle	PROPN	NN	_	7	nmod	_	_
+11	AU-PAIRS	AU-PAIRS	PROPN	NN	_	10	flat	_	SpaceAfter=No
+12	?	?	PROPN	$.	_	10	flat	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = ICH HOFFE DASS ICH KONNTE EINE ANTWORT, SOBALD WIE MÖGLICH BEKOMMEN.
+1	ICH	ich	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+2	HOFFE	hoffe	NOUN	NN	Case=Nom|Number=Sing	12	nsubj	_	_
+3	DASS	dass	PROPN	NE	_	2	appos	_	_
+4	ICH	ich	PROPN	NE	_	3	flat	_	_
+5	KONNTE	konnte	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+6	EINE	ein	PROPN	ART	_	7	nmod	_	_
+7	ANTWORT	Antwort	PROPN	NN	_	3	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	SOBALD	sobald	PROPN	NE	_	3	appos	_	_
+10	WIE	wie	PROPN	NE	_	9	flat	_	_
+11	MÖGLICH	möglich	PROPN	NE	_	9	flat	_	_
+12	BEKOMMEN	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 14
+# text = DIE ANZEIGE INTERESSIERT MIR SEHR, ABER DIESE INFORMATIONEN SIND FÜR MICH WICHTIG.
+1	DIE	d	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	ANZEIGE	Anzeige	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	INTERESSIERT	interessieren	ADJ	VVPP	_	4	amod	_	_
+4	MIR	ich	PROPN	NE	_	2	appos	_	_
+5	SEHR	sehr	PROPN	ADV	_	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	ABER	Aber	PROPN	NN	_	4	conj	_	_
+8	DIESE	Diese	PROPN	PDAT	_	13	cc	_	_
+9	INFORMATIONEN	Information	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+10	SIND	sein	PROPN	NN	_	13	cop	_	_
+11	FÜR	für	PROPN	APPR	_	12	amod	_	_
+12	MICH	mich	PROPN	NE	_	13	nmod	_	_
+13	WICHTIG	wichtig	PROPN	ADJD	_	7	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 15
+# text = DANKE MIT FREUNDLICHEN GRUSSEN;
+1	DANKE	Dank	PROPN	NE	_	4	nsubj	_	SpacesAfter=\n
+2	MIT	mit	PROPN	NN	_	1	flat	_	_
+3	FREUNDLICHEN	freundlich	NOUN	NN	_	1	flat	_	_
+4	GRUSSEN	GRUSSEN	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	;	;	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Friedrich.
+1	Friedrich	Friedrich	NOUN	NE	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+

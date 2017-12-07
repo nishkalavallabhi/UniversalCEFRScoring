@@ -1,0 +1,77 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000152_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Katharina Schmidt Winkelgasse 12 St. X Stadt X 19.01.12 An das Wohnungsamt Sehr geerte Damen und Herren, Ich suche 2 1/2 Zimmer wohnung, mit Balkon und Garage.
+1	Katharina	Katharina	PROPN	NE	_	19	appos	_	_
+2	Schmidt	Schmidt	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Winkelgasse	Winkelgasse	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	5	amod	_	_
+4	12	12	PROPN	CARD	Case=Dat|Gender=Fem|Number=Sing	5	amod	_	SpacesAfter=\n
+5	St.	St.	PROPN	NE	_	6	flat	_	_
+6	X	X	PROPN	NN	_	7	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Stadt	Stadt	PROPN	NN	_	1	nmod	_	_
+8	X	X	PROPN	NN	_	1	appos	_	_
+9	19.01.12	19.01.12	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+10	An	an	PROPN	APPR	_	9	flat	_	_
+11	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Wohnungsamt	Wohnungsamt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	SpacesAfter=\n
+13	Sehr	Sehr	ADV	ADV	_	14	advmod	_	_
+14	geerte	geert	ADJ	ADJA	Degree=Pos	15	amod	_	SpacesAfter=\s\s
+15	Damen	Dame	NOUN	NN	_	1	conj	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Herren	Herr	NOUN	NN	_	1	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+19	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+20	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	19	nsubj	_	_
+21	2	2	NUM	CARD	NumType=Card	23	nummod	_	_
+22	1/2	1/2	NUM	CARD	NumType=Card	23	nummod	_	_
+23	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	20	nsubj	_	_
+24	wohnung	wohnung	NOUN	NN	_	23	appos	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	23	punct	_	_
+26	mit	mit	ADP	APPR	_	27	case	_	_
+27	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	20	nmod	_	_
+28	und	und	CCONJ	KON	_	29	cc	_	_
+29	Garage	Garage	NOUN	NN	_	27	conj	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 2
+# text = Meine wohnung ist sehr teuer.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	teuer	teuer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Meine Altere Tauchter ist umgesogen.
+1	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+2	Altere	Alt	ADJ	ADJA	Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing	3	amod	_	_
+3	Tauchter	Tauchter	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	umgesogen	umgesogen	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte eine kleine whonung ab 500 € bis 650 € warmmiete.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	whonung	whonung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+6	ab	ab	ADP	APPR	_	8	case	_	_
+7	500	500	NUM	CARD	NumType=Card	8	nummod	_	_
+8	€	€	NOUN	NN	Case=Dat|Number=Sing	12	obl	_	_
+9	bis	bis	ADP	APPR	_	10	case	_	_
+10	650	650	NUM	CARD	NumType=Card	12	obl	_	_
+11	€	€	PROPN	NN	Case=Dat|Number=Sing	12	iobj	_	SpacesAfter= 
+12	warmmiete	warmmien	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mit freundlichen Grüß Katharina Schmidt
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüß	Grüß	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Katharina	Katharina	PROPN	NE	_	3	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

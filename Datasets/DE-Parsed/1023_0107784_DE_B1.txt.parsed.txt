@@ -1,0 +1,151 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0107784_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Meier Müllergasse 22 Sonntag, 24.04.2011 12345 Stadt X An.
+1	Maria	Maria	PROPN	NE	_	11	nsubj	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Müllergasse	Müllergasse	PROPN	NN	_	1	flat	_	_
+4	22	22	PROPN	CARD	_	5	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Sonntag	Sonntag	PROPN	NN	_	1	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	24.04.2011	24.04.2011	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+8	12345	12345	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Stadt	Stadt	NOUN	NN	_	11	obj	_	_
+10	X	X	PROPN	NN	_	9	appos	_	SpacesAfter=\n
+11	An	an	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Aupairsglobal.
+1	Aupairsglobal	Aupairsglobal	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Bahnhofstr.
+1	Bahnhofstr	Bahnhofstr	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = 101. 65185 Wiesbaden.
+1	101	101	NUM	CARD	NumType=Card	4	nummod	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+3	65185	65185	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Wiesbaden	Wiesbaden	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Betreff: „Aupairsglobal."
+1	Betreff	Betreff	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	_
+3	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+4	Aupairsglobal	Aupairsglobal	NOUN	NN	_	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+6	"	"	PUNCT	$(	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Sehr geehrte Damen und Herren, ich habe Ihre Anzeige gerade gelessen.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	12	nsubj	_	_
+11	gerade	gerade	ADV	ADV	_	12	advmod	_	_
+12	gelessen	lessen	VERB	VVINF	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ich freue mich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Meine Frage, dass wie alle Information bekommen kann?
+1	Meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	wie	wie	ADP	KOKOM	_	7	case	_	_
+6	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_
+7	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+9	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = oder wie kann aufenthaltsformalitäten?
+1	oder	oder	CCONJ	KON	_	2	cc	_	_
+2	wie	wie	CCONJ	KOKOM	_	3	cc	_	_
+3	kann	können	VERB	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aufenthaltsformalitäten	aufenthaltsformalitäen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ich möchte nach Deutschland fahren, obwol ich keine richtige information habe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Deutschland	Deutschland	PROPN	NE	Case=Dat|Number=Sing	5	obl	_	_
+5	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	12	punct	_	_
+7	obwol	obwol	PROPN	ADJD	Case=Nom|Number=Sing	12	nsubj	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	keine	kein	PRON	PIAT	PronType=Neg	11	advmod	_	_
+10	richtige	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	information	information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 11
+# text = Können Sie mir helfen?
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Schreiben Sie mir was mache ich.
+1	Schreiben	Schreiben	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	was	was	PRON	PIAT	Case=Acc|PronType=Ind	5	obj	_	_
+5	mache	mach	ADJ	ADJA	Degree=Pos	0	root	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 13
+# text = Ich hoffe, dass Ihnen mir helfen konnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	Ihnen	sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	8	iobj	_	_
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	8	xcomp	_	_
+8	konnen	konnen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Ich warte für Ihnen antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	4	nsubj	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	Ihnen	Sie|sie	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	antwort	antwort	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Mit freundlichen Grußen Maria.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grußen	Gruße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+

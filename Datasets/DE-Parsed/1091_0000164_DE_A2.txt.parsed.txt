@@ -1,0 +1,77 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000164_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Freundin, meinem Hund ist zu Hause aleine.
+1	Liebe	lieb	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Freundin	Freundin	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\n
+4	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	iobj	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	zu	zu	ADP	APPR	_	8	case	_	_
+8	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	nmod	_	_
+9	aleine	alein	PROPN	NE	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Du Sollst Meinem Hund auf Passen.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+2	Sollst	sollst	NOUN	NN	_	1	nmod	_	_
+3	Meinem	meinem	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	iobj	_	_
+5	auf	auf	ADP	APPR	_	6	case	_	_
+6	Passen	passen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Weil, Meine Mutter auch in Urlaub ist.
+1	Weil	weil	PROPN	VVIMP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	Meine	mein	PROPN	NE	_	4	nmod	_	_
+4	Mutter	Mutter	NOUN	NN	_	1	conj	_	_
+5	auch	auch	ADV	ADV	_	1	advmod	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Urlaub	Urlaub	NOUN	NN	_	1	nmod	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ich Fahre nach Estadt X mit Meiner Freunde.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	Fahre	Fahre	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Estadt	Estadt	PROPN	NN	Case=Dat|Number=Sing	2	nmod	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\s\s
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	Meiner	Meiner	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Freunde	Freund	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Wir Sind hier zwei Tage bleiben.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+2	Sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	SpacesAfter=\s\s
+3	hier	hier	ADV	ADV	_	6	advmod	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Tage	Tag	NOUN	NN	_	6	obl	_	_
+6	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Kommen wir Mittwoch um 19:00 Uhr wieder.
+1	Kommen	kommen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
+3	Mittwoch	Mittwoch	ADV	ADV	_	1	advmod	_	_
+4	um	um	ADP	APPR	_	6	case	_	_
+5	19:00	19:00	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	1	obl	_	_
+7	wieder	wieder	ADV	ADV	_	1	mark	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = MtiFreundlichen Grußen Michael Tobias
+1	MtiFreundlichen	MtiFreundlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grußen	Gruße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	2	appos	_	_
+4	Tobias	Tobias	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

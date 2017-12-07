@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024768_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Meine Lieber Ingo: Ich brauche eine neue Wohnung in Neuburg.
+1	Meine	mein	PROPN	PPOSAT	_	3	nmod	_	_
+2	Lieber	Lieber	PROPN	NN	_	1	flat	_	_
+3	Ingo	Ingo	PROPN	NE	_	6	appos	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Neuburg	Neuburg	PROPN	NE	_	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ich habe eine Arbeit in Neuburg gefunden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	_
+7	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Konntest du bei der größe Wohnungs suchen.
+1	Konntest	Konntest	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	nsubj	_	_
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	größe	größe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+6	Wohnungs	Wohnung	NOUN	NN	Case=Acc|Number=Sing	7	obj	_	_
+7	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Ich wohne in Neuburg mit Familie.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wohne	wohne	ADP	APPR	_	0	root	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Neuburg	Neuburg	PROPN	NE	_	2	nmod	_	_
+5	mit	mit	ADP	APPR	_	6	case	_	_
+6	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ich habe in neue Schule finden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	neue	neu	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Schule	Schule	NOUN	NN	_	6	obl	_	_
+6	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Meine Tochter ist in Gymmasium.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Tochter	Tochter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Gymmasium	Gymmasium	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Lieber Ingo, konntest du E-Mail Atworten.
+1	Lieber	lieb	PROPN	NN	_	7	dep	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	konntest	konntest	PROPN	NN	_	6	nmod	_	_
+5	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	flat	_	_
+6	E-Mail	E-Mail	PROPN	NE	_	1	appos	_	_
+7	Atworten	Atworen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Viel Gruße Maria
+1	Viel	viel	PRON	PIAT	PronType=Ind	2	det	_	_
+2	Gruße	Gruße	NOUN	NN	_	0	root	_	SpacesAfter=\s\n
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

@@ -1,0 +1,178 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101701_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stefan Meier Zentralplatz 12 12345, Stadt X.
+1	Stefan	Stefan	PROPN	NE	_	5	advmod	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Zentralplatz	Zentralplatz	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	12345	12345	NUM	CARD	NumType=Card	7	nummod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+8	X.	X.	PROPN	NE	_	7	appos	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Computer-Spezialist odenwaldstraße 5, 53119 Bonn.
+1	Computer-Spezialist	Computer-Spezialist	NOUN	NN	Case=Nom|Number=Sing	0	root	_	SpacesAfter=\n
+2	odenwaldstraße	odenwaldstraß	PROPN	NN	_	1	appos	_	_
+3	5	5	NUM	CARD	NumType=Card	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+5	53119	53119	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Bonn	Bonn	NOUN	NN	_	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 3
+# text = Stadt X den, 12,03.2010.
+1	Stadt	Stadt	NOUN	NN	_	3	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	den	den	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	12,03.2010	12,03.2010	NUM	CARD	NumType=Card	3	dep	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Betreffzeile: Bewerbung um eine Ausbildung als IT-Systemkaufmann.
+1	Betreffzeile	Betreffzeil	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	1	punct	_	_
+3	Bewerbung	Bewerbung	NOUN	NN	_	1	appos	_	_
+4	um	um	ADP	APPR	_	6	case	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	_
+7	als	als	ADP	KOKOM	_	8	case	_	_
+8	IT-Systemkaufmann	IT-Systemkaufminnen	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Sehr geehrte Damen und Herren, hier bewerbe ich mich um eine spätere Ausbildung zum IT-Systemkaufmann.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	hier	hier	ADV	ADV	_	8	advmod	_	_
+8	bewerbe	bewerben	NOUN	NN	_	3	conj	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+10	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+11	um	um	ADP	APPR	_	14	case	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	spätere	spät	ADJ	ADJA	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing	14	amod	_	_
+14	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	_
+15-16	zum	_	_	_	_	_	_	_	_
+15	zu	zu	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	IT-Systemkaufmann	IT-Systemkaufmann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Zur Zeit bereite ich Bachelor-Exam in Informatik in Fachhochschule Stadt Y vor.
+1-2	Zur	_	_	_	_	_	_	_	_
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+4	bereite	bereien	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	Bachelor-Exam	Bachelor-Exam	PROPN	NE	_	5	appos	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Informatik	Informatik	NOUN	NN	_	4	nmod	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	Fachhochschule	Fachhochschule	PROPN	NN	_	11	nmod	_	_
+11	Stadt	Stadt	NOUN	NN	_	8	nmod	_	_
+12	Y	Y	PROPN	NE	_	11	appos	_	_
+13	vor	vor	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Übrigens erfahrung, habe ich schon bei SIEMENS in Stadt X ein praktikum von ein monat gemacht, deshalb, hatte ich möglichkeit für meine Kenntnisse zu beherschen: Leistungsbereitschaft und Kommunikationsfähigkeit.
+1	Übrigens	übrigens	ADV	ADV	_	2	advmod	_	_
+2	erfahrung	Erfahrung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+6	schon	schon	ADV	ADV	_	8	advmod	_	_
+7	bei	bei	ADP	APPR	_	8	case	_	_
+8	SIEMENS	Siemens	PROPN	NE	Case=Dat|Number=Sing	17	obl	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Stadt	Stadt	PROPN	NN	_	8	nmod	_	_
+11	X	X	PROPN	NN	_	10	appos	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	praktikum	praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	17	obj	_	_
+14	von	von	ADP	APPR	_	16	case	_	_
+15	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	monat	monat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	13	nmod	_	_
+17	gemacht	machen	VERB	VVPP	VerbForm=Part	19	cop	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	17	punct	_	_
+19	deshalb	deshalb	ADV	PAV	_	20	advmod	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	21	punct	_	_
+21	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+22	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+23	möglichkeit	möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+24	für	für	ADP	APPR	_	26	case	_	_
+25	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	Kenntnisse	Kenntnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	nmod	_	_
+27	zu	zu	ADP	APPR	_	30	case	_	_
+28	beherschen	behersch	ADJ	ADJA	Degree=Pos	30	amod	_	SpaceAfter=No
+29	:	:	PUNCT	$.	_	28	punct	_	_
+30	Leistungsbereitschaft	Leistungsbereitschaft	NOUN	NN	_	21	nmod	_	_
+31	und	und	CCONJ	KON	_	32	cc	_	_
+32	Kommunikationsfähigkeit	Kommunikationsfähigkeit	NOUN	NN	_	30	conj	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	30	punct	_	_
+
+# sent_id = 8
+# text = Mein ziel ist Kundenkontakt zu beherschen.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_
+2	ziel	ziel	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Kundenkontakt	Kundenkontakt	NOUN	NN	_	0	root	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	beherschen	behersch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	4	amod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ab september 2010, kann ich bei Ihnen anfange.
+1	Ab	ab	ADP	APPR	_	2	case	_	_
+2	september	september	PROPN	NN	_	8	obl	_	_
+3	2010	2010	NUM	CARD	NumType=Card	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	bei	bei	ADP	APPR	_	8	case	_	_
+8	Ihnen	Ihnen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9	anfange	anfange	ADV	ADJA	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 10
+# text = (Vollzeit).
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Vollzeit	Vollzeit	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	)	)	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Für eine Vorstellungsgespräach, würde ich seh erfreut.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	eine	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Vorstellungsgespräach	Vorstellungsgespräach	NOUN	NN	_	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	seh	seh	NOUN	VVIMP	_	8	obj	_	_
+8	erfreut	erfreuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Mit freundlichen Grüssen Meier Stefan Unterlagen: - Lebenslauf mit Foto. - Bescheinigum
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	Grüssen	Grüsse	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	SpacesAfter=\n
+4	Meier	Meier	PROPN	NN	_	3	appos	_	_
+5	Stefan	Stefan	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+6	Unterlagen	Unterlagen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+8	-	-	PUNCT	$(	_	9	punct	_	_
+9	Lebenslauf	Lebenslauf	NOUN	NN	_	6	appos	_	_
+10	mit	mit	ADP	APPR	_	13	case	_	_
+11	Foto.	Foto.	NOUN	NE	_	13	compound	_	SpacesAfter=\n
+12	-	-	PUNCT	$(	_	13	punct	_	_
+13	Bescheinigum	Bescheinigum	NOUN	NN	_	9	nmod	_	SpacesAfter=\n
+

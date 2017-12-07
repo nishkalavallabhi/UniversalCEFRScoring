@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024683_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Liber Michael.
+1	Liber	Liber	PROPN	NN	_	0	root	_	_
+2	Michael	Michael	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = wie gut es dir.
+1	wie	wie	ADP	KOKOM	_	4	case	_	_
+2	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ich brache deine hilfe meine gut Freund.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	brache	brach	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+3	deine	dein	PROPN	NE	_	2	appos	_	_
+4	hilfe	hilf	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	3	flat	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	7	amod	_	_
+7	Freund	Freund	NOUN	NE	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = weil Ich eine neue arbeit gefunden in Neuburg habe und ich brache anie neun Wohnug.
+1	weil	weil	SCONJ	KOUS	_	6	mark	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	arbeit	arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	gefunden	finden	VERB	VVPP	VerbForm=Part	9	advcl	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Neuburg	Neuburg	PROPN	NE	_	9	obl	_	_
+9	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	und	und	CCONJ	KON	_	13	cc	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	brache	brache	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	anie	anie	NOUN	NN	_	9	conj	_	_
+14	neun	neun	NUM	CARD	NumType=Card	13	nmod	_	_
+15	Wohnug	Wohnug	NOUN	NN	Case=Acc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Könnst du bitte mir ein größe Wohnug besche.
+1	Könnst	Könnst	PROPN	NN	_	4	case	_	_
+2	du	du	PROPN	PPER	_	3	case	_	_
+3	bitte	bitten	PROPN	NN	_	1	nmod	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	größe	größe	NOUN	NN	_	0	root	_	_
+7	Wohnug	Wohnug	ADV	ADV	_	8	advmod	_	_
+8	besche	besch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = am 2.
+1-2	am	_	_	_	_	_	_	_	_
+1	an	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	2	2	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Juni.
+1	Juni	Juni	PROPN	NN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ich worte Für Ihr antwörte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	worte	woren	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+3	Für	für	ADP	APPR	_	4	case	_	_
+4	Ihr	ihr	PRON	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	obl	_	_
+5	antwörte	antwören	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Veil Größ
+1	Veil	Veil	PROPN	NE	_	0	root	_	_
+2	Größ	Größ	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+

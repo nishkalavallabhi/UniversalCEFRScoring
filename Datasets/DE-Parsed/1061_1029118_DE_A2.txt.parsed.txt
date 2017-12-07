@@ -1,0 +1,119 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1029118_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = stadt X 2012, 02,27 Liebe Silke, Vielen Dank Vor deinen E-mail.
+1	stadt	staden	PROPN	NE	_	10	appos	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	2012	2012	NUM	CARD	NumType=Card	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	6	punct	_	_
+5	02,27	02,27	NUM	CARD	NumType=Card	6	nummod	_	SpacesAfter=\n
+6	Liebe	Liebe	NOUN	NN	_	1	conj	_	_
+7	Silke	Silke	PROPN	VVFIN	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	SpacesAfter=\n
+9	Vielen	viel	ADJ	PIAT	Degree=Pos	10	amod	_	_
+10	Dank	dank	NOUN	NN	_	0	root	_	_
+11	Vor	vor	ADP	APPR	_	13	case	_	_
+12	deinen	dein	ADJ	PPOSAT	Degree=Pos	13	amod	_	_
+13	E-mail	E-mail	NOUN	NE	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Vielleicht können wir treffen am Morgen um 12,00 Uhr in der Bahnhof, weil wir einen Urlaub für ein paar tagen haben.
+1	Vielleicht	vielleicht	ADV	ADV	_	4	advmod	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	treffen	treffen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Morgen	Morgen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+8	um	um	ADP	APPR	_	10	case	_	_
+9	12,00	12,00	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	4	obl	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Bahnhof	Bahnhof	NOUN	NN	_	4	obl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	4	punct	_	_
+15	weil	weil	SCONJ	KOUS	_	23	mark	_	_
+16	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Urlaub	Urlaub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+19	für	für	ADP	APPR	_	22	case	_	_
+20	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+21	paar	paar	PRON	PIAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Ind	22	det	_	_
+22	tagen	tagen	NOUN	NN	Case=Acc|Number=Plur	23	obl	_	_
+23	haben	haben	VERB	VAINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Wir haben eine schöne katz house und sie ist sehr freudlisch und hoffe ich das sie gefalt dir.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	schöne	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+5	katz	katz	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	amod	_	SpacesAfter=\s\s
+6	house	house	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obj	_	_
+7	und	und	CCONJ	KON	_	11	cc	_	_
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
+11	freudlisch	freudlisch	ADJ	ADJD	Degree=Pos	6	conj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	hoffe	hoff	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
+16	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+17	gefalt	falen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+18	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	13	obj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich habe am bald Gebutstag und freu ich mich auf eine kleine Vase.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	bald	bald	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	nmod	_	_
+6	Gebutstag	Gebutstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	flat	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	freu	freu	ADJ	ADJD	Degree=Pos	5	conj	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+10	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	_
+11	auf	auf	ADP	APPR	_	14	case	_	_
+12	eine	ein	DET	ART	Definite=Ind|PronType=Art	14	det	_	_
+13	kleine	klein	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Vase	Vase	NOUN	NN	_	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 5
+# text = Da fällt mir ein: Wie geht es dir und deine familie?
+1	Da	da	ADV	ADV	_	2	advmod	_	_
+2	fällt	fallen|fällen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	ein	ein	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	2	punct	_	_
+6	Wie	wie	ADV	KOUS	_	7	advmod	_	_
+7	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+9	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obj	_	_
+10	und	und	CCONJ	KON	_	12	cc	_	_
+11	deine	dein	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	familie	famili	NOUN	NN	_	9	conj	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Uns geht es gaz gut.
+1	Uns	wir	PRON	PRF	Case=Dat|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	gaz	gaz	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Liebe Größe Julia
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Größe	Größe	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Julia	Julia	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

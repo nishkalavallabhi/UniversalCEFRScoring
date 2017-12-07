@@ -1,0 +1,215 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001129_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi 1234 Strada Maggiore 17, Città X via Crispi, 119 80127 Caserta, 22 genaio 2012 -image- Caro Giorgio!
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	1234	1234	NUM	N	NumType=Card	1	flat:name	_	SpacesAfter=\s\s\n
+4	Strada	strada	PROPN	SP	_	1	nmod	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	4	flat:name	_	_
+6	17	17	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	Città	Città	PROPN	SP	_	1	conj	_	_
+9	X	X	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+10	via	via	NOUN	S	Gender=Fem|Number=Sing	18	nmod	_	_
+11	Crispi	Crispi	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	119	119	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+14	80127	80127	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+15	Caserta	Caserta	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	10	punct	_	_
+17	22	22	NUM	N	NumType=Card	10	nummod	_	_
+18	genaio	genaio	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	_
+19	2012	2012	NUM	N	NumType=Card	21	nummod	_	SpacesAfter=\s\n
+20	-	-	PUNCT	FF	_	19	punct	_	SpaceAfter=No
+21	image	image	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+22	-	-	PUNCT	FF	_	23	punct	_	SpacesAfter=\s\n
+23	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+24	Giorgio	Giorgio	PROPN	SP	_	23	nmod	_	SpaceAfter=No
+25	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Mentre leggere la tua lettere ero penseto che questo problema è un grand problema nella nostra socetà!
+1	Mentre	mentre	SCONJ	CS	_	2	mark	_	_
+2	leggere	leggere	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	lettere	lettera	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	aux	_	_
+7	penseto	pensetere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	_
+8	che	che	SCONJ	CS	_	13	mark	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	problema	problema	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	grand	grand	NOUN	S	Gender=Masc|Number=Sing	7	ccomp	_	_
+14	problema	problemo	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+15-16	nella	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	socetà	socetà	NOUN	S	Gender=Fem	14	obl	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = I giovani usano l'internet per tutto anche per far amicizia ma questa cosa dovrebbe essere personale che non possa succedera all'intenet.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giovani	giovane	NOUN	S	Number=Plur	3	nsubj	_	_
+3	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	internet	internet	NOUN	S	_	3	obj	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	far	fare	VERB	V	VerbForm=Inf	3	advcl	_	_
+11	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	ma	ma	CCONJ	CC	_	17	cc	_	_
+13	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	17	nsubj	_	_
+15	dovrebbe	dovere	AUX	VM	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	essere	essere	AUX	V	VerbForm=Inf	17	cop	_	_
+17	personale	personale	ADJ	A	Number=Sing	3	conj	_	_
+18	che	che	SCONJ	CS	_	21	mark	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+21	succedera	succederare	ADJ	A	Gender=Fem|Number=Sing	17	advcl	_	_
+22-23	all'	_	_	_	_	_	_	_	SpaceAfter=No
+22	a	a	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	intenet	intenet	NOUN	S	Gender=Masc	21	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = È buono che conosi le persone anche internet però apri la porta, vai fuori, vai a divertirsi e hai amici nella vita reale.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	buono	bue	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	conosi	conoso	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	internet	interne	CCONJ	CC	_	9	cc	_	_
+9	però	però	ADV	B	_	10	advmod	_	_
+10	apri	aprire	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	porta	porta	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+15	fuori	fuori	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	conj	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19-20	divertirsi	_	_	_	_	_	_	_	_
+19	divertir	divertire	VERB	V	VerbForm=Inf	17	xcomp	_	_
+20	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	19	obj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	conj	_	_
+23	amici	amico	NOUN	S	Gender=Masc|Number=Plur	22	obj	_	_
+24-25	nella	_	_	_	_	_	_	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	vita	vita	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+27	reale	reale	ADJ	A	Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il mio opinione è che tu faceva bene, è buono che tu cancelli le persone con cui "chattevi" dal tuo cellulare, non è basta.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	opinione	opinione	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	che	che	SCONJ	CS	_	7	mark	_	_
+6	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+7	faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	ccomp	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	buono	buire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+12	che	che	SCONJ	CS	_	13	mark	_	_
+13	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	11	nsubj	_	_
+14	cancelli	cancelle	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	persone	persona	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	con	con	ADP	E	_	18	case	_	_
+18	cui	cui	PRON	PR	PronType=Rel	29	obl	_	_
+19	"	"	PUNCT	FB	_	20	punct	_	SpaceAfter=No
+20	chattevi	chattevo	ADJ	A	Number=Plur	29	amod	_	SpaceAfter=No
+21	"	"	PUNCT	FB	_	20	punct	_	_
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	25	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+24	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	25	det:poss	_	_
+25	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	20	obl:agent	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	20	punct	_	_
+27	non	non	ADV	BN	PronType=Neg	29	advmod	_	_
+28	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29	basta	bastare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	16	acl:relcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Devo dirti che tu non vuole questo rapporto e vorresti che parlate più.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirti	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	vuole	volere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	rapporto	rapporto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	vorresti	vorresto	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	_
+12	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+13	parlate	parlare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	acl:relcl	_	_
+14	più	più	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Secondo me lo capiranno e forse pensano anche loro che qualcosa non è -unreadable- e anche loro cominciano la loro vita.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	capiranno	capire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	forse	forse	ADV	B	_	7	advmod	_	_
+7	pensano	pensare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+10	che	che	SCONJ	CS	_	15	mark	_	_
+11	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	15	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+15	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	7	ccomp	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	15	punct	_	_
+17	e	e	CCONJ	CC	_	20	cc	_	_
+18	anche	anche	ADV	B	_	19	advmod	_	_
+19	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	cominciano	cominciare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	loro	loro	DET	AP	Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	vita	vita	NOUN	S	Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Credo che ti risolva problema e tutto sarà apposto.
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	risolva	risolvare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	ccomp	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj:pass	_	_
+8	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	9	aux:pass	_	_
+9	apposto	apporre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 9
+# text = Tuo amico, Michele
+1	Tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

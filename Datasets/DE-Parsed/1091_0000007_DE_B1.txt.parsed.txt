@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000007_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Julia, Stadt X, den 1 Jan.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Julia	Julia	PROPN	NE	_	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	2	flat	_	_
+5	X	X	PROPN	NN	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	den	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+8	1	1	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Jan	Jan	NOUN	NN	_	1	appos	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = ´12 ich habe für die nächste Woche eine Wochenendausflugfahrkarte gekauft, aber leider kann ich nicht fahren, weil meine Mutter Geburtstag hat.
+1	´12	´12	NUM	CARD	NumType=Card	10	obl	_	SpacesAfter=\n
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	für	für	ADP	APPR	_	7	case	_	_
+5	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+6	nächste	nah	ADJ	ADJA	_	7	amod	_	_
+7	Woche	Woche	NOUN	NN	_	10	obl	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Wochenendausflugfahrkarte	Wochenendausflugfahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	aber	aber	CCONJ	KON	_	17	cc	_	_
+13	leider	leider	ADV	ADV	_	17	advmod	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
+17	fahren	fahren	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	17	punct	_	_
+19	weil	weil	SCONJ	KOUS	_	23	mark	_	_
+20	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+22	Geburtstag	Geburtstag	NOUN	NN	_	23	obl	_	_
+23	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	advcl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 3
+# text = Möchtest du die Fahrkarte haben?
+1	Möchtest	Möchtest	PROPN	NN	_	5	nsubj	_	_
+2	du	du	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Das Verkehrsmittel ist den Zug und das Rheinufer wunderschön.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Verkehrsmittel	Verkehrsmittel	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Zug	Zug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	das	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Rheinufer	Rheinufer	PROPN	NN	_	5	conj	_	_
+9	wunderschön	wunderschön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Wenn du die haben möchtest, ruf mich bitte an.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+3	die	der	PRON	ART	Case=Nom|Number=Plur|PronType=Dem	4	det	_	_
+4	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	möchtest	möchtesen	ADJ	ADJD	Degree=Sup	9	amod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	ruf	raffen	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	bitte	bitten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+10	an	an	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße, Michael
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Michael	Michael	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

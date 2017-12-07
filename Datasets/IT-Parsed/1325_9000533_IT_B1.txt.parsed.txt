@@ -1,0 +1,236 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000533_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Città X, 17.12.2010 Strada Maggiore 6 12345 Città X Dipartimento di Linguistica Teorica e Applicata a Pavia Signiora Gabriella Favati, mi chiamo Maria Rossi, sono di Città X.
+1	Maria	Maria	PROPN	SP	_	32	nsubj	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Città	Città	PROPN	SP	_	1	flat:name	_	_
+4	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	17.12.2010	17.12.2010	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\n
+7	Strada	strada	PROPN	SP	_	1	nmod	_	_
+8	Maggiore	Maggiore	PROPN	SP	_	7	flat:name	_	_
+9	6	6	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n
+10	12345	12345	NUM	N	NumType=Card	11	nummod	_	_
+11	Città	Città	PROPN	SP	_	1	conj	_	_
+12	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Linguistica	Linguistica	PROPN	SP	_	13	nmod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+16	Teorica	Teorica	PROPN	SP	_	15	flat:name	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	Applicata	applicare	PROPN	SP	_	13	conj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Pavia	Pavia	PROPN	SP	_	11	nmod	_	SpacesAfter=\s\n
+21	Signiora	Signiora	PROPN	SP	_	20	flat:name	_	_
+22	Gabriella	Gabriella	PROPN	SP	_	1	conj	_	_
+23	Favati	Favare	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	26	punct	_	SpacesAfter=\n
+25	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	_
+26	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+27	Maria	Maria	PROPN	SP	_	26	obj	_	_
+28	Rossi	Rossi	PROPN	SP	_	27	flat:name	_	SpaceAfter=No
+29	,	,	PUNCT	FF	_	1	punct	_	_
+30	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+31	di	di	ADP	E	_	32	case	_	_
+32	Città	città	PROPN	SP	_	0	root	_	_
+33	X	X	ADJ	NO	Number=Sing|NumType=Ord	32	amod	_	SpaceAfter=No
+34	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 2
+# text = Studio la lingua italiana da anni, perchè ho la famiglia in Italia, e da bambina ero sempre legata all'italiano.
+1	Studio	studio	PROPN	SP	_	3	nmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	perchè	poiperché	SCONJ	CS	_	9	mark	_	_
+9	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Italia	Italia	PROPN	SP	_	9	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	9	punct	_	_
+15	e	e	CCONJ	CC	_	20	cc	_	_
+16	da	da	ADP	E	_	17	case	_	_
+17	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+18	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	20	aux	_	_
+19	sempre	sempre	ADV	B	_	20	advmod	_	_
+20	legata	legare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Andavo spesso per trovare i famigliari, e così avevo occasione di approfondire la mia conoscenza della lingua.
+1	Andavo	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	spesso	spesso	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	1	advcl	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	famigliari	famigliario	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	così	così	ADV	B	_	10	advmod	_	_
+10	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	conj	_	_
+11	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	approfondire	approfondire	VERB	V	VerbForm=Inf	11	acl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ma lo faccio anché ascoltando la musica italiana e leggere giornali italiani.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	anché	anché	ADV	B	_	3	advmod	_	_
+5	ascoltando	ascoltare	VERB	V	VerbForm=Ger	3	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	musica	musica	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	leggere	leggere	VERB	V	VerbForm=Inf	5	conj	_	_
+11	giornali	giornale	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+12	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Attualmente non la uso tanto, perchè di solito sono in Paese X e studio.
+1	Attualmente	attualmente	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	uso	uso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	tanto	tanto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	perchè	poiperché	SCONJ	CS	_	12	mark	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	solito	solito	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	advcl	_	_
+13	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	studio	studio	NOUN	S	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ma in futuro vorrei usare italiano per esempio nel lavoro.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	usare	usare	VERB	V	VerbForm=Inf	0	root	_	_
+6	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	nel	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Per istruirsi, frequento un corso d'italiano al livello avanzato.
+1	Per	per	ADP	E	_	2	mark	_	_
+2-3	istruirsi	_	_	_	_	_	_	_	SpaceAfter=No
+2	istruir	istruire	VERB	V	VerbForm=Inf	0	root	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	frequento	frequento	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	livello	livello	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+13	avanzato	avanzato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = In questo modo anché se non viaggio in Italia ho contatto con lingua.
+1	In	in	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	modo	modo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	anché	anché	ADV	B	_	7	advmod	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	viaggio	viaggiare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	7	nmod	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+12	con	con	ADP	E	_	13	case	_	_
+13	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Ai questi tempi se uno vuole avere un lavoro buono, deve conoscere bene almeno una lingua straniera.
+1-2	Ai	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	4	det	_	_
+4	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+5	se	se	SCONJ	CS	_	8	mark	_	_
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+7	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	avere	avere	VERB	V	VerbForm=Inf	4	acl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	buono	buono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	conoscere	conoscere	VERB	V	VerbForm=Inf	11	conj	_	SpacesAfter=\s\s
+15	bene	bene	ADV	B	_	14	advmod	_	_
+16	almeno	almeno	ADV	B	_	18	advmod	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+19	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Per questo ho scelto l'italiano.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Penso che le mie esperienze saranno necessarie per Lei.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	7	nsubj	_	_
+6	saranno	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+7	necessarie	necessario	ADJ	A	Gender=Fem|Number=Plur	1	ccomp	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Distinti saluti.
+1	Distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Maria Rossi
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

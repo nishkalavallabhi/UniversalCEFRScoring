@@ -1,0 +1,249 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109946_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Schmidt Katharina Bahnhofsstraße 12345 Stadt X 28.10.2011 Bahnhofstr.
+1	Schmidt	Schmidt	PROPN	NE	_	5	nsubj	_	_
+2	Katharina	Katharina	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	1	flat	_	SpacesAfter=\s\n
+4	12345	12345	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+6	X	X	PROPN	NN	_	5	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	28.10.2011	28.10.2011	PROPN	CARD	_	5	appos	_	SpacesAfter=\n
+8	Bahnhofstr	Bahnhofstr	PROPN	NN	_	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = 101 65185 Wiesbaden Betreff: Informationen über Au-Pair Vermittlung.
+1	101	101	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+2	65185	65185	NUM	CARD	NumType=Card	1	nummod	_	SpacesAfter=\n
+3	Wiesbaden	Wiesbaden	PROPN	NE	_	6	nmod	_	SpacesAfter=\n
+4	Betreff	Betreff	PROPN	NN	_	3	flat	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	3	punct	_	_
+6	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	0	root	_	_
+7	über	über	ADP	APPR	_	9	case	_	_
+8	Au-Pair	Au-Pair	PROPN	NN	_	9	amod	_	_
+9	Vermittlung	Vermittlung	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Sehr Geehrte Damen und Herren, Als ich eure Anzeige geleasen haben, hat es Mir Sehr interessiert.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	Geehrte	Geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dame	NOUN	NN	_	14	obl	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	Als	als	SCONJ	KOUS	_	11	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	eure	euer	ADJ	ADJA	Case=Acc|Number=Plur	10	amod	_	_
+10	Anzeige	Anzeige	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+11	geleasen	leasen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	14	advcl	_	_
+12	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	expl	_	_
+16	Mir	Mir	NOUN	PPER	Case=Dat|Gender=Masc|Number=Plur	18	iobj	_	_
+17	Sehr	sehr	ADV	ADV	_	18	advmod	_	_
+18	interessiert	interessieren	ADJ	ADJD	Degree=Pos	14	ccomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 4
+# text = Ich habe Meine Realschule fertig gemacht, und Möchte ich mich ein Jarh Zeit lassen bevore ich mit einen Ausbildung anfangen kann.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	Meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Realschule	Realschule	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	fertig	fertig	ADJ	ADJD	Degree=Pos	6	xcomp	_	_
+6	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	15	punct	_	_
+8	und	und	CCONJ	KON	_	15	cc	_	_
+9	Möchte	möcht	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	obj	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+13	Jarh	Jarh	ADJ	ADJD	Degree=Pos	14	amod	_	_
+14	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+15	lassen	lassen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	conj	_	_
+16	bevore	bevorn	PROPN	NN	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+18	mit	mit	ADP	APPR	_	20	case	_	_
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+21	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	15	xcomp	_	_
+22	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Dass Ihr International Au-pair vermittelt habe ich Mir Sehr drauf gefreut Weil ich habe Mich entschiden ein Jahr nach Deautschland zu reisen als Au-pair Mädchen.
+1	Dass	daß	SCONJ	KOUS	_	5	mark	_	_
+2	Ihr	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	International	International	PROPN	NE	_	4	amod	_	_
+4	Au-pair	Au-pair	PROPN	NN	_	5	flat	_	_
+5	vermittelt	vermitteln	VERB	VVPP	VerbForm=Part	11	advcl	_	_
+6	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	Mir	ich	PROPN	PPER	_	11	obj	_	_
+9	Sehr	sehr	PROPN	ADV	_	8	flat	_	_
+10	drauf	drauf	ADV	PAV	_	11	advmod	_	_
+11	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	_
+12	Weil	weil	SCONJ	KOUS	_	16	mark	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	Mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	obj	_	_
+16	entschiden	entschiden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	11	advcl	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	22	obj	_	_
+19	nach	nach	ADP	APPR	_	20	case	_	_
+20	Deautschland	Deautschland	PROPN	NE	Case=Dat|Number=Sing	22	obl	_	_
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
+22	reisen	reisen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	_
+23	als	als	ADP	KOKOM	_	25	case	_	_
+24	Au-pair	Au-pair	NOUN	NN	_	25	compound	_	_
+25	Mädchen	Mädchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	22	obl	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Ich habe Kleine Geschwezter die ich sehr gut umgehen kann, und es Wäre Keine problem um die Kleine Kinder zu Kümmern.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	Kleine	klein	PROPN	NN	_	0	root	_	_
+4	Geschwezter	Geschwezte	NOUN	NN	_	3	flat	_	_
+5	die	der	PRON	ART	Case=Nom|PronType=Dem	9	nsubj	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
+8	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	umgehen	umgehen	VERB	VVINF	VerbForm=Inf	3	acl	_	_
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	22	punct	_	_
+12	und	und	CCONJ	KON	_	22	cc	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+14	Wäre	Wäre	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+15	Keine	kein	DET	PIAT	PronType=Neg	16	det	_	_
+16	problem	probl	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	22	obj	_	_
+17	um	um	ADP	APPR	_	22	mark	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+19	Kleine	klein	NOUN	NN	Case=Acc|Number=Plur	22	obj	_	_
+20	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	22	obj	_	_
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
+22	Kümmern	kümmern	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Die Deutsche Sprache würde in Meine Schule als Zweitesprache gesprochen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
+3	Sprache	Sprache	PROPN	NN	_	10	nsubj:pass	_	_
+4	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	Meine	mein	PROPN	NE	_	7	nmod	_	_
+7	Schule	Schule	NOUN	NN	_	10	obl	_	_
+8	als	als	ADP	KOKOM	_	9	case	_	_
+9	Zweitesprache	Zweitesprache	NOUN	NN	_	10	obl	_	_
+10	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 8
+# text = Meine Hobbies Sind Kochen, Swimmen, Verschidene Spielen mit Kinder und Musik.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Hobbies	Hobbies	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	Sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Kochen	Kochen	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Swimmen	Swimmen	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Verschidene	Verschidene	NOUN	NN	_	9	conj	_	_
+9	Spielen	spielen	VERB	NN	_	4	conj	_	_
+10	mit	mit	ADP	APPR	_	11	case	_	_
+11	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	4	nmod	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Musik	Musik	NOUN	NN	_	11	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Über die Aufenthaltsinformation fehlt mir einige, Bitte schicken Sie mir die Information wie ich für Mein Visum mich vorbereiten Kann.
+1	Über	über	ADP	APPR	_	3	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Aufenthaltsinformation	Aufenthaltsinformation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	fehlt	fehlen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	einige	einige	PRON	PIAT	PronType=Ind	8	det	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Bitte	bitte	NOUN	PTKANT	_	4	obl	_	_
+9	schicken	schicken	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	8	acl	_	_
+10	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+14	wie	wie	ADP	KOKOM	_	15	case	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	obl	_	_
+16	für	für	ADP	APPR	_	18	case	_	_
+17	Mein	mein	PROPN	PPOSAT	_	18	nmod	_	_
+18	Visum	Visum	PROPN	NN	_	20	obl	_	_
+19	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	20	obj	_	_
+20	vorbereiten	vorbereiten	VERB	VVINF	VerbForm=Inf	9	xcomp	_	_
+21	Kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich würde Mich Sehr freuen ein Termin zu bekommen mich beraten lassen welche Pflichten, und Rechte ich habe als Au-pair Mädchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	Sehr	Sehr	ADV	ADV	_	5	advmod	_	_
+5	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Termin	Termin	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	5	nsubj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+10	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	_
+11	beraten	beraten	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+12	lassen	lassen	VERB	VVINF	VerbForm=Inf	5	obl	_	_
+13	welche	welch	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	14	det	_	_
+14	Pflichten	Pflicht	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Rechte	Recht|Rechte	NOUN	NN	_	18	conj	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	parataxis	_	_
+20	als	als	ADP	KOKOM	_	22	case	_	_
+21	Au-pair	Au-pair	NOUN	NN	_	22	compound	_	_
+22	Mädchen	Mädchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 11
+# text = Mein Ausweise ist bereit und bin zu vermitllen ab 1. Januar 2012.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Ausweise	Ausweise	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bereit	bereien	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	8	cc	_	_
+6	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	vermitllen	vermitllen	VERB	VVINF	VerbForm=Inf	4	conj	_	_
+9	ab	ab	ADP	APPR	_	12	case	_	_
+10	1	1	NUM	CARD	NumType=Card	12	amod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+12	Januar	Januar	PROPN	NN	_	8	obl	_	_
+13	2012	2012	NUM	CARD	NumType=Card	12	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Für eine baldige Antwort würde mich sehr freuen.
+1	Für	für	ADP	APPR	_	4	case	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	baldige	baldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+5	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
+8	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Mit freundlichen Grussen Schmidt Katharina
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	Grussen	Grusse	NOUN	NN	Case=Dat|Number=Plur	0	root	_	SpacesAfter=\n
+4	Schmidt	Schmidt	PROPN	NE	_	3	nmod	_	_
+5	Katharina	Katharina	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

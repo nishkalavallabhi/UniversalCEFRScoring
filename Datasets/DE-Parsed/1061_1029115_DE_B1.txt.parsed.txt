@@ -1,0 +1,110 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1029115_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 28.02.2012 Liebe Dana, vielen Dank für deine Brief.
+1	Stadt	Stadt	NOUN	NN	_	12	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	28.02.2012	28.02.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Liebe	Liebe	NOUN	NN	_	1	appos	_	_
+6	Dana	Dana	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	vielen	viel	ADJ	PIAT	Degree=Pos	9	amod	_	_
+9	Dank	Dank	NOUN	NN	_	1	appos	_	_
+10	für	für	ADP	APPR	_	11	case	_	_
+11	deine	dein	NOUN	NN	Case=Acc|Number=Plur	9	nmod	_	_
+12	Brief	Braufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Ich gratuliere dir für deine bestandenen Prüfung, Ich bin sehr glücklich für dich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gratuliere	gratuli	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	dir	dir	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	für	für	ADP	APPR	_	7	case	_	_
+5	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	bestandenen	bestandenen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	12	punct	_	_
+9	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
+12	glücklich	glücklich	ADJ	ADJD	Degree=Pos	2	conj	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Wen du nach Haus kommt, kannst du mich telefonieren und ich fahre von dir sofor.
+1	Wen	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+5	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	10	punct	_	_
+7	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	_
+9	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+10	telefonieren	telefonieren	VERB	VVINF	VerbForm=Inf	5	conj	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	fahre	fahren	NOUN	NN	Case=Acc|Number=Plur	10	conj	_	_
+14	von	von	ADP	APPR	_	16	case	_	_
+15	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	16	det	_	_
+16	sofor	sofor	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Istanbul ist eine schöne Stadt, dort liegt viele schönen Teppich, ich wünsche immer für einen Türckeich Teppich.
+1	Istanbul	Istanbul	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	schöne	schön	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Stadt	Stadt	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	dort	dort	ADV	ADV	_	8	advmod	_	_
+8	liegt	liegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	conj	_	_
+9	viele	viel	ADJ	PIS	Case=Nom|Degree=Pos	11	amod	_	_
+10	schönen	schön	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	amod	_	_
+11	Teppich	Teppich	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	5	punct	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	5	parataxis	_	_
+15	immer	immer	ADV	ADV	_	14	advmod	_	_
+16	für	für	ADP	APPR	_	18	case	_	_
+17	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	Türckeich	Türckeich	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+19	Teppich	Teppich	PROPN	NE	_	18	appos	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Trozdem ich mache keine Reise nach Istanbul und ich habe keine Familie dort, denn meine Verwandten leben alles in Marokko.
+1	Trozdem	Trozdem	SCONJ	KOUS	_	18	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	mache	mach	NOUN	NN	Case=Nom|Number=Sing	18	nsubj	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Reise	Reise	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Istanbul	Istanbul	PROPN	NE	Case=Dat|Number=Sing	5	nmod	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	keine	kein	PRON	PIAT	PronType=Neg	12	advmod	_	_
+12	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	dort	dort	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	3	punct	_	_
+15	denn	dennen	SCONJ	KON	_	18	mark	_	_
+16	meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	18	nsubj	_	_
+18	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+19	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	18	obj	_	_
+20	in	in	ADP	APPR	_	21	case	_	_
+21	Marokko	Marokko	PROPN	NE	_	18	obl	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Eva
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Eva	Eva	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

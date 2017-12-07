@@ -1,0 +1,113 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000196_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 10.03.2012 Akademie Klausenhof Straße 100 Winkel 12345 Stadt X Stadt X Const.
+1	Stadt	Stadt	NOUN	NN	_	8	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	10.03.2012	10.03.2012	PROPN	CARD	_	6	amod	_	SpacesAfter=\n
+4	Akademie	Akademie	PROPN	NN	_	3	flat	_	_
+5	Klausenhof	Klausenhof	PROPN	NN	_	3	flat	_	SpacesAfter=\n
+6	Straße	Straße	PROPN	NN	_	1	appos	_	_
+7	100	100	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Winkel	Winkel	NOUN	NN	_	0	root	_	SpacesAfter=\n
+9	12345	12345	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Stadt	Stadt	NOUN	NN	_	8	appos	_	_
+11	X	X	PROPN	NN	_	10	appos	_	SpacesAfter=\n\s\n
+12	Stadt	Stadt	PROPN	NN	_	10	appos	_	_
+13	X	X	PROPN	NN	_	12	appos	_	SpacesAfter=\s\s
+14	Const	Consen	PROPN	NN	_	12	appos	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = 54321 Stadt Y. Suche eine Wohnung.
+1	54321	54321	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+3	Y.	Y.	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+4	Suche	Suche	PROPN	NN	Case=Nom|Number=Sing	3	flat	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Sehr Geehrte Damen und Herren, ich Suche eine wohnung und Schön gelesen ihre Anzige und interessere für die wohnung.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	Geehrte	Geehrt	ADJ	VVFIN	_	3	amod	_	_
+3	Damen	Dame	NOUN	NN	Case=Dat|Number=Plur	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+8	Suche	Suche	PROPN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Schön	schön	NOUN	NN	_	10	conj	_	_
+13	gelesen	lesen	VERB	VVPP	VerbForm=Part	3	acl	_	_
+14	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Anzige	Anzige	NOUN	NN	_	13	conj	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	interessere	interesser	PRON	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	conj	_	_
+18	für	für	ADP	APPR	_	20	case	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte gerne wissen, wie Viele Zimmer die wohnung hat?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	gerne	gerne	ADV	ADV	_	4	advmod	_	_
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wie	wie	SCONJ	KOUS	_	11	mark	_	_
+7	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Hat die Wohnung ein Balkon?
+1	Hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Balkon	Balkon	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Wie hochdie Miete?
+1	Wie	wie	CCONJ	KON	_	3	cc	_	_
+2	hochdie	hochder	PRON	PRELS	Case=Acc|PronType=Rel	3	nsubj	_	_
+3	Miete	Miete	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Können wir ein besichtigung termin Vereinbaren?
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	besichtigung	besichtigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	termin	termin	PROPN	NE	_	4	appos	_	_
+6	Vereinbaren	vereinbaren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich hoffe auf eine baldige Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	baldige	baldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Mit Freundlichen Grüßen Stefan Schmidt
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\s\n
+4	Stefan	Stefan	PROPN	NE	_	3	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

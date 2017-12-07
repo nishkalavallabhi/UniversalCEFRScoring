@@ -1,0 +1,175 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101683_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Maria Schmidt 06.03.2010.
+1	Maria	Maria	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmiden	PROPN	NE	_	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	06.03.2010	06.03.2010	PROPN	CARD	Case=Acc|Number=Sing	1	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Bahnhofsstraße 12 Stadt X. 12345 Stadt Y Computer-Spezialist Odenwaldstraße 5.
+1	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	4	dep	_	_
+2	12	12	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Stadt	Stadt	NOUN	NN	_	1	nmod	_	_
+4	X.	X.	X	NE	_	6	dep	_	SpacesAfter=\n
+5	12345	12345	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+7	Y	y	PROPN	NN	_	6	appos	_	SpacesAfter=\n
+8	Computer-Spezialist	Computer-Spezialist	PROPN	NN	_	7	flat	_	SpacesAfter=\n
+9	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	7	flat	_	_
+10	5	5	PROPN	CARD	_	7	appos	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = 55119 Bonn.
+1	55119	55119	NUM	CARD	NumType=Card	2	nummod	_	_
+2	Bonn	Bonn	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Bewerbung um ein Praktikum Sehr geehrte Damen und Herren, hiermit möchte ich mich als praktikantin in Ihrer Einrichtung bewerben.
+1	Bewerbung	Bewerbung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	um	um	ADP	APPR	_	7	case	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Praktikum	Praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	obj	_	SpacesAfter=\n
+5	Sehr	Sehr	ADV	ADV	_	6	advmod	_	_
+6	geehrte	geehrt	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Damen	Dame	NOUN	NN	_	1	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Herren	Herr	NOUN	NN	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+11	hiermit	hiermit	PRON	PWAV	PronType=Int,Rel	20	obj	_	_
+12	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+14	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	20	obj	_	_
+15	als	als	ADP	KOKOM	_	16	case	_	_
+16	praktikantin	praktikantin	NOUN	NN	_	20	obl	_	_
+17	in	in	ADP	APPR	_	19	case	_	_
+18	Ihrer	ihr	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	Einrichtung	Einrichtung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+20	bewerben	bewerben	VERB	VVINF	VerbForm=Inf	1	acl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ich lebe seit 7 Jahren in Deutschland und wohne seit 4 Jahren in Stadt Y. Im Sommer besuchte ich Ihre Einrichtung bei einem Exkurs der Volkshochschule.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lebe	leben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	seit	seit	ADP	APPR	_	5	case	_	_
+4	7	7	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Jahren	Jahr	NOUN	NN	_	2	obl	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Deutschland	Deutschland	PROPN	NE	_	2	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	wohne	wohne	ADP	APPR	_	19	conj	_	_
+10	seit	seit	ADP	APPR	_	12	case	_	_
+11	4	4	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Jahren	Jahr	NOUN	NN	_	9	nmod	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Stadt	Stadt	PROPN	NN	_	16	amod	_	_
+15	Y.	Y.	PROPN	NE	_	14	flat	_	SpacesAfter=\n
+16-17	Im	_	_	_	_	_	_	_	_
+16	In	in	PROPN	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+19	besuchte	besuchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+21	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	Einrichtung	Einrichtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+23	bei	bei	ADP	APPR	_	25	case	_	_
+24	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	25	det	_	_
+25	Exkurs	Exkurs	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	19	obl	_	_
+26	der	der	DET	ART	Definite=Def|PronType=Art	27	det	_	_
+27	Volkshochschule	Volkshochschule	NOUN	NN	_	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Dies hat mein Interess geweckt als Praktikantin bei Ihnen zu arbeit.
+1	Dies	dies	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Interess	Interess	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+5	geweckt	wecken	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	Praktikantin	Praktikantin	NOUN	NN	_	5	obl	_	_
+8	bei	bei	ADP	APPR	_	9	case	_	_
+9	Ihnen	Ihnen	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	5	obl	_	_
+10	zu	zu	ADP	APPR	_	11	case	_	_
+11	arbeit	arbeit	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Dies macht mir große freude.
+1	Dies	dies	PRON	PDS	Case=Nom|PronType=Dem	2	nsubj	_	_
+2	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	freude	freud	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich bin verheiratet und habe eine Tochter die in den Kindergarten geht.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	verheiratet	verheiratet	ADJ	VVPP	_	0	root	_	_
+4	und	und	CCONJ	KON	_	7	cc	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Tochter	Tochter	NOUN	NN	_	3	conj	_	_
+8	die	der	PRON	ART	Case=Nom|PronType=Dem	12	nsubj	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Kindergarten	Kindergarten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+12	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ich bin Motiviert an arbeite gern im Team.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Motiviert	motiviert	NOUN	NN	_	0	root	_	_
+4	an	an	ADP	APPR	_	5	case	_	_
+5	arbeite	arbeite	NOUN	NN	_	3	nmod	_	_
+6	gern	gern	ADV	ADV	_	9	advmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Team	Team	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Meine persönlichen Stärken sind Freundlichkeit und Zuverlässigkeit.
+1	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+2	persönlichen	persönlich	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	3	amod	_	_
+3	Stärken	Stärke|Stärken	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Freundlichkeit	Freundlichkeit	NOUN	NN	_	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Zuverlässigkeit	Zuverlässigkeit	NOUN	NN	_	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Über eine Einladung zu einem persönlichen Gespräch, würde ich mich sehr freuen.
+1	Über	über	ADP	APPR	_	3	case	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Einladung	Einladung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+4	zu	zu	ADP	APPR	_	7	case	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	persönlichen	persönlich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	amod	_	_
+7	Gespräch	Gespräch	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
+13	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Mit freundlichen Grüßen Maria Schmidt
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

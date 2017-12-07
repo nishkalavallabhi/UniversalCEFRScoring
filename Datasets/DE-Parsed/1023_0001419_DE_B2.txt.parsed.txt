@@ -1,0 +1,228 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0001419_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Michael Meier 1 Zentralplatz 1234.
+1	Michael	Michael	PROPN	NE	_	4	nsubj	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	1	1	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zentralplatz	Zentralplatz	NOUN	NN	_	0	root	_	SpacesAfter=\n
+5	1234	1234	NUM	CARD	NumType=Card	4	appos	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Stadt X Aupairsglobal Bahnhofstr.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpacesAfter=\n
+3	Aupairsglobal	Aupairsglobal	PROPN	NE	_	2	flat	_	SpacesAfter=\n
+4	Bahnhofstr	Bahnhofstr	PROPN	NN	_	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = 101 65185 Wiesbaden Tel: 0611/9988776 14-5-2011 Sehr geehrte Damen und Herren, mit großem Interesse habe ich in XY Zeitung Ihre Anzeige.
+1	101	101	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	65185	65185	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Wiesbaden	Wiesbaden	PROPN	NE	_	23	dep	_	SpacesAfter=\n
+4	Tel	Tel	PROPN	NE	_	3	flat	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	3	punct	_	_
+6	0611/9988776	0611/9988776	PROPN	ADJA	Case=Nom|Number=Sing	10	nsubj	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	14-5-2011	14-5-2011	NUM	CARD	NumType=Card	6	appos	_	SpacesAfter=\n
+8	Sehr	Sehr	ADV	ADV	_	9	advmod	_	_
+9	geehrte	geehrt	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Damen	Dame	NOUN	NN	_	3	appos	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Herren	Herr	NOUN	NN	_	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+14	mit	mit	ADP	APPR	_	16	case	_	_
+15	großem	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Sing	16	amod	_	_
+16	Interesse	Interesse	NOUN	NN	Case=Dat|Number=Sing	23	obl	_	_
+17	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+19	in	in	ADP	APPR	_	20	case	_	_
+20	XY	XY	PROPN	NE	_	23	obl	_	_
+21	Zeitung	Zeitung	NOUN	NN	_	20	flat	_	_
+22	Ihre	Ihr|ihr	PRON	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	23	nsubj	_	_
+23	Anzeige	Anzeige	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	23	punct	_	_
+
+# sent_id = 4
+# text = Ich begeistere für diese Angebot Chance um mein Deutsch zu verbesser und andere Leute kennenzulernen, die unterschietliche und verschiedenen Ländern kommen, und ganz unterschiedliche Kulturen haben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+2	begeistere	begeist	ADJ	ADJA	Case=Nom|Degree=Cmp|Number=Plur	22	amod	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	diese	dies	PRON	PDAT	Case=Acc|Number=Plur|PronType=Dem	5	det	_	SpacesAfter=\s\s
+5	Angebot	Angebot	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	15	obl	_	_
+6	Chance	Chance	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+7	um	um	ADP	APPR	_	15	mark	_	_
+8	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Deutsch	deutsch	NOUN	ADJD	Case=Acc|Gender=Masc,Neut|Number=Sing	15	obj	_	_
+10	zu	zu	ADP	APPR	_	11	case	_	_
+11	verbesser	verbesser	NOUN	NN	Case=Dat|Number=Sing	15	obl	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	andere	ander	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Leute	Leute	NOUN	NN	_	11	conj	_	_
+15	kennenzulernen	kennenlernen	VERB	VVIZU	_	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	die	der	DET	ART	Definite=Def|PronType=Art	21	det	_	SpacesAfter=\s\s
+18	unterschietliche	unterschietlich	ADJ	ADJA	Degree=Pos	21	amod	_	_
+19	und	und	CCONJ	KON	_	20	cc	_	_
+20	verschiedenen	verschieden	ADJ	ADJA	Degree=Pos	18	conj	_	_
+21	Ländern	Land	NOUN	NN	_	2	conj	_	_
+22	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	28	punct	_	_
+24	und	und	CCONJ	KON	_	28	cc	_	_
+25	ganz	ganz	ADV	ADV	_	26	advmod	_	_
+26	unterschiedliche	unterschiedlich	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	27	amod	_	_
+27	Kulturen	Kultur	NOUN	NN	Case=Acc|Number=Plur	28	obj	_	_
+28	haben	haben	VERB	VAINF	VerbForm=Inf	22	conj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 5
+# text = Ich möch-unreadable- mich über die Unterlagen informieren, die ich brauche, um eine Aufenthaltserlaubnis in Deutschland zu erhalten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möch-unreadable-	möch-unreadable-	PUNCT	$(	_	7	punct	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+4	über	über	ADP	APPR	_	6	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	Unterlagen	Unterlage	NOUN	NN	Case=Acc|Number=Plur	7	obl	_	_
+7	informieren	informieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	die	der	PRON	PRELS	Case=Acc|PronType=Rel	11	obj	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	7	acl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	um	um	ADP	KOUI	_	19	mark	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Aufenthaltserlaubnis	Aufenthaltserlaubnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Deutschland	Deutschland	PROPN	NE	_	15	nmod	_	_
+18	zu	zu	PART	PTKZU	_	19	mark	_	_
+19	erhalten	erhalten	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ich -unreadable- nicht, das ich eine Deutschprüfung bestehen muss.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	-unreadable-	-unreadable-	PUNCT	$(	_	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	das	der	SCONJ	PRELS	_	9	mark	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Deutschprüfung	Deutschprüfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	bestehen	bestehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	_
+10	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Wichtig ist, meine Rechte und Pflichten zu weißen.
+1	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Rechte	Recht|Rechte	NOUN	NN	Case=Acc|Number=Plur	9	obj	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Pflichten	Pflicht	NOUN	NN	_	5	conj	_	_
+8	zu	zu	ADP	APPR	_	9	advmod	_	_
+9	weißen	weißen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Plur	1	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Welche Tätigkeiten muss ich (obligatorisch) unbedingt erledigen und was kann ich auch freiwillig machen?
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	Tätigkeiten	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	obligatorisch	obligatorisch	ADJ	ADJD	Degree=Pos	9	advmod	_	SpaceAfter=No
+7	)	)	PUNCT	$(	_	6	punct	_	_
+8	unbedingt	unbedingt	ADJ	ADJD	Degree=Pos	9	advmod	_	SpacesAfter=\s\s
+9	erledigen	erledigen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+10	und	und	CCONJ	KON	_	16	cc	_	_
+11	was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	16	obj	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	auch	auch	ADV	ADV	_	16	advmod	_	_
+15	freiwillig	freiwillig	ADJ	ADJD	Degree=Pos	16	xcomp	_	_
+16	machen	machen	VERB	VVINF	VerbForm=Inf	9	conj	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Können Sie mir doch mitteilen, ob ich eine Krankenversicherung in diesem Zentrum haben will, und ob ich am Wochende frei haben will?
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	_
+4	doch	doch	ADV	ADV	_	5	advmod	_	_
+5	mitteilen	mitteilen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	ob	ob	SCONJ	KOUS	_	14	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Krankenversicherung	Krankenversicherung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	13	det	_	_
+13	Zentrum	Zentrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	nmod	_	_
+14	haben	haben	VERB	VAINF	VerbForm=Inf	5	ccomp	_	_
+15	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	5	punct	_	_
+17	und	und	CCONJ	KON	_	24	cc	_	_
+18	ob	ob	SCONJ	KOUS	_	24	mark	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+20-21	am	_	_	_	_	_	_	_	_
+20	an	an	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Definite=Def|PronType=Art	22	det	_	_
+22	Wochende	Wochende	NOUN	NN	_	24	obl	_	_
+23	frei	frei	ADJ	ADJD	Degree=Pos	24	advmod	_	_
+24	haben	haben	VERB	VAINF	VerbForm=Inf	5	conj	_	_
+25	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Wie kann ich die Freizeiten verbringen?
+1	Wie	wie	ADV	KOUS	_	6	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Freizeiten	Freizeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+6	verbringen	verbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Habe Sie ein Programm dafür oder können wir das selbst organisieren?
+1	Habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	11	nsubj	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Programm	Programm	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	11	obj	_	_
+5	dafür	dafür	ADV	PAV	_	11	advmod	_	_
+6	oder	oder	CCONJ	KON	_	11	cc	_	_
+7	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+9	das	der	PRON	PDS	Case=Acc|PronType=Dem	11	obj	_	_
+10	selbst	selbst	ADV	ADV	_	11	advmod	_	_
+11	organisieren	organisieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ich wurd wäre Ihnen sehr dankbar, wenn Sie mich meine Fragen benantworten würden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	wurd	wurd	PROPN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+3	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	6	iobj	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	dankbar	dankbar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
+9	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	_
+10	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+11	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Fragen	Frage	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+13	benantworten	benantworen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	advcl	_	SpacesAfter=\s\s
+14	würden	werden	AUX	VAFIN	Number=Plur|Person=3|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Mit freundlichen Grüßen Meier
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\s\n
+4	Meier	Meier	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+

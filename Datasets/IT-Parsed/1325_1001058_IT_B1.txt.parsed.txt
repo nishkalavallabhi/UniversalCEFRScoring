@@ -1,0 +1,294 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001058_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Dipartimento di Lingua Teorica e Applicata Università degli Studi di Padova, Corso Str.
+1	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Lingua	lingua	PROPN	SP	_	4	nmod	_	_
+4	Teorica	Teorico	PROPN	SP	_	1	nmod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	Applicata	applicata	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n
+7	Università	Università	NOUN	S	Gender=Fem	1	conj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Studi	studio	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Padova	Padova	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	Corso	Corso	PROPN	SP	_	7	nmod	_	_
+15	Str	Str	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Nuovo 65 271000 Pavia, Italia Città X, 01 il ottobre 2011 Eg.Gabriella, io sono Maria Rossi in Ungheria, vivo a Città X.
+1	Nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	65	65	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+3	271000	271000	NUM	N	NumType=Card	2	flat	_	_
+4	Pavia	Pavia	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	Italia	Italia	PROPN	SP	_	4	appos	_	SpacesAfter=\n
+7	Città	Città	PROPN	SP	_	6	flat:name	_	_
+8	X	X	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	01	01	NUM	N	NumType=Card	12	nummod	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+13	2011	2011	NUM	N	NumType=Card	12	flat	_	SpacesAfter=\n
+14	Eg.Gabriella	Eg.Gabriella	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+16	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	Maria	Maria	PROPN	SP	_	0	root	_	_
+19	Rossi	Rossi	PROPN	SP	_	18	flat:name	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	Ungheria	Ungheria	PROPN	SP	_	18	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+24	a	a	ADP	E	_	25	case	_	_
+25	Città	città	PROPN	SP	_	23	obl	_	_
+26	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	25	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	18	punct	_	_
+
+# sent_id = 3
+# text = Vorrei raccontarle a Sua lettera, come si imparo le lingue.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	raccontarle	_	_	_	_	_	_	_	_
+2	raccontar	raccontare	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	le	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	come	come	SCONJ	CS	_	10	mark	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:pass	_	_
+10	imparo	imparare	VERB	V	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	2	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	10	nsubj:pass	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = (Ho trovato questa lettera della mia scuola.)
+1	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	3	punct	_	_
+
+# sent_id = 5
+# text = Fra cinque anni ho conosciuto una ragazza italiana.
+1	Fra	fra	ADP	E	_	3	case	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ancora non ho parlato solo in inglese, ma mi piacuto abbastanza a sua lingue - italiana.
+1	Ancora	ancora	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	solo	solo	ADV	B	_	7	advmod	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	inglese	inglese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+11	piacuto	piacere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	abbastanza	abbastanza	ADV	B	_	15	advmod	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+16	-	-	PUNCT	FF	_	15	punct	_	_
+17	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Qui ho comincato la mia strori per lingua italiana, perché ho deciso:
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comincato	comincare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	strori	strore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+9	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	3	punct	_	_
+11	perché	perché	SCONJ	CS	_	13	mark	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	SpaceAfter=No
+14	:	:	PUNCT	FC	_	13	punct	_	_
+
+# sent_id = 8
+# text = vorrei parlare e capiscare bene questa lingua bellissima.
+1	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	capiscare	capiscare	VERB	V	VerbForm=Inf	2	conj	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+8	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ho comprato un libro di grammatica italiana e ho provato imparare la lingua.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	libro	libro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	provato	provare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+11	imparare	imparare	VERB	V	VerbForm=Inf	10	ccomp	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ho potuto parlare con mia amica, così potevo studiare.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	6	case	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amica	amico	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	così	così	ADV	B	_	10	advmod	_	_
+9	potevo	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	studiare	studiare	VERB	V	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Mentre stuavo, ho deciso:
+1	Mentre	mentre	SCONJ	CS	_	2	mark	_	_
+2	stuavo	stuavo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 12
+# text = vorrei fare l'esame e dopo vorrei lavorare, dove è possibilità usare la lingua italiana.
+1	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	esame	esame	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	dopo	dopo	ADV	B	_	8	advmod	_	_
+7	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	lavorare	lavorare	VERB	V	VerbForm=Inf	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	dove	dove	ADV	B	_	13	advmod	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	possibilità	possibilità	ADV	B	_	13	advmod	_	_
+13	usare	usare	VERB	V	VerbForm=Inf	8	acl:relcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Io son fortunato, perchè ho trovato una corso, dove ho studiato e acconto a corso ho lavorato in negozio di italiano.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	son	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fortunato	fortunare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perchè	perché	SCONJ	CS	_	7	mark	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	corso	corso	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	dove	dove	ADV	B	_	13	advmod	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	acconto	accontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	conj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	corso	corso	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	obj	_	_
+20	in	in	ADP	E	_	21	case	_	_
+21	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+22	di	di	ADP	E	_	23	case	_	_
+23	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Quando ho comincare imparare questa lingua, non sapevo - il mottivo sarà grande a me:
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comincare	comincare	VERB	V	VerbForm=Inf	9	advcl	_	_
+4	imparare	imparare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+5	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+10	-	-	PUNCT	FB	_	9	punct	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	mottivo	mottivo	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+13	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	14	cop	_	_
+14	grande	grande	ADJ	A	Number=Sing	9	advcl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	obl	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	9	punct	_	_
+
+# sent_id = 15
+# text = imparò il lingua a mia lavoroposto.
+1	imparò	imparare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lavoroposto	lavoroposto	NOUN	S	Gender=Fem	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Adesso vorrei imparare una lingua straniera (inglese) - io credo riuscirò di moda uguale.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	imparare	imparare	VERB	V	VerbForm=Inf	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	inglese	inglese	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	-	-	PUNCT	FF	_	12	punct	_	_
+11	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	riuscirò	riuscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	12	advcl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	moda	moda	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	uguale	uguale	ADJ	A	Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Vi progo i mei saluti cordiali Maria Rossi
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	progo	progere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	mei	meo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	saluti	saluto	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	cordiali	cordiale	ADJ	A	Number=Plur	4	amod	_	SpacesAfter=\n
+7	Maria	Maria	PROPN	SP	_	4	nmod	_	_
+8	Rossi	Rossi	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+

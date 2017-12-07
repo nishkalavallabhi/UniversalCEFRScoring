@@ -1,0 +1,129 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100198_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 27 Maggio, 2011 Gentili Signori, tanti auguri per Voi aver potuto anunciare questo matrimonio di Beatrice a Stefano.
+1	Città	Città	NOUN	S	Gender=Fem	17	nsubj	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	27	27	NUM	N	NumType=Card	5	nummod	_	_
+5	Maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	2011	2011	NUM	N	NumType=Card	8	nummod	_	_
+8	Gentili	Gentile	PROPN	SP	_	1	nmod	_	_
+9	Signori	signore	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=\s\n
+11	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	12	det	_	_
+12	auguri	augurare	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	12	nmod	_	_
+15	aver	avere	AUX	VA	VerbForm=Inf	17	aux	_	_
+16	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	aux	_	_
+17	anunciare	anunciare	VERB	V	VerbForm=Inf	0	root	_	_
+18	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	19	det	_	_
+19	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Beatrice	Beatore	PROPN	SP	_	17	obl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	Stefano	Stefano	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 2
+# text = Vorrei ringraziarVi per questa invita e vorrei farVi sapere che mi godo di potere participare a questa festa.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	ringraziarVi	_	_	_	_	_	_	_	_
+2	ringraziar	ringraziare	VERB	V	VerbForm=Inf	0	root	_	_
+3	vi	vi	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	6	obl	_	_
+6	invita	invita	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9-10	farVi	_	_	_	_	_	_	_	_
+9	far	fare	VERB	V	VerbForm=Inf	6	conj	_	_
+10	vi	vi	ADV	B	_	9	advmod	_	_
+11	sapere	sapere	VERB	V	VerbForm=Inf	9	ccomp	_	_
+12	che	che	SCONJ	CS	_	14	mark	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	expl	_	_
+14	godo	godo	VERB	V	VerbForm=Ger	11	ccomp	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	potere	potere	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	participare	participare	ADJ	A	Number=Sing	14	amod	_	_
+18	a	a	ADP	E	_	20	case	_	_
+19	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	20	det	_	_
+20	festa	festa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ci vediamo in Chiesa di Santa Chiara e dopo al ristorante "Da Ciro".
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Santa	Santa	PROPN	SP	_	4	nmod	_	_
+7	Chiara	Chiara	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	12	cc	_	_
+9	dopo	dopo	ADV	B	_	12	case	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	9	fixed	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	Da	da	ADP	E	_	15	case	_	_
+15	Ciro	Ciro	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Ho solo una domanda.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Potete aiutarmi facendomi sapere che regalo potrei portare?
+1	Potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	aiutarmi	_	_	_	_	_	_	_	_
+2	aiutar	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4-5	facendomi	_	_	_	_	_	_	_	_
+4	facendo	fare	VERB	V	VerbForm=Ger	2	advcl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	che	che	DET	DQ	PronType=Int	8	det	_	_
+8	regalo	regalare	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+9	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	portare	portare	VERB	V	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = In attesa di una risposta (anche su telefonino: 0345-11111111) Vi ringrazio anticipamente.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	su	su	ADP	E	_	9	case	_	_
+9	telefonino	telefonino	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	9	punct	_	_
+11	0345	0345	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	11111111	11111111	NUM	N	NumType=Card	11	compound	_	SpaceAfter=No
+14	)	)	PUNCT	FB	_	9	punct	_	_
+15	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	16	obj	_	_
+16	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	anticipamente	anticipamente	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Distinti saluti, Maria Rossi
+1	Distinti	distinto	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s
+4	Maria	Maria	PROPN	SP	_	2	appos	_	_
+5	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

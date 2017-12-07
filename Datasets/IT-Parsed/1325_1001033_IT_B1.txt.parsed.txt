@@ -1,0 +1,217 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001033_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Agenzia Lavoro Interinale Via Dante Alighieri 40 I - 42010 Reggio Emilia Spettabile Signore / Signora, mi chiamo Michele Rossi, ho 35 anni, sono di Venezia e cercando il lavoro su Internet ho trovato la Vostra proposta che era allettante.
+1	Agenzia	Agenzia	PROPN	SP	_	27	nsubj	_	_
+2	Lavoro	lavoro	PROPN	SP	_	1	flat:name	_	_
+3	Interinale	Interinale	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\n
+4	Via	via	PROPN	SP	_	1	flat:name	_	_
+5	Dante	Dante	PROPN	SP	_	1	flat:name	_	_
+6	Alighieri	Alighieri	PROPN	SP	_	1	flat:name	_	_
+7	40	40	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	I	i	X	X	_	1	flat:name	_	_
+9	-	-	PUNCT	FF	_	1	punct	_	_
+10	42010	42010	NUM	N	NumType=Card	11	nummod	_	_
+11	Reggio	Reggio	PROPN	SP	_	1	nmod	_	_
+12	Emilia	Emilia	PROPN	SP	_	11	flat:name	_	SpacesAfter=\s\n\s\n
+13	Spettabile	Spettabile	PROPN	SP	_	11	nmod	_	_
+14	Signore	signore	PROPN	SP	_	13	flat:name	_	_
+15	/	/	PUNCT	FF	_	13	punct	_	_
+16	Signora	signore	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+20	Michele	Michele	PROPN	SP	_	19	obj	_	_
+21	Rossi	Rossi	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	_
+23	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	parataxis	_	_
+24	35	35	NUM	N	NumType=Card	25	nummod	_	_
+25	anni	anno	NOUN	S	Gender=Masc|Number=Plur	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	_
+27	sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	di	di	ADP	E	_	29	case	_	_
+29	Venezia	Venezia	PROPN	SP	_	27	obl	_	SpacesAfter=\s\s
+30	e	e	CCONJ	CC	_	37	cc	_	_
+31	cercando	cercare	VERB	V	VerbForm=Ger	37	advcl	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	31	obj	_	_
+34	su	su	ADP	E	_	35	case	_	_
+35	Internet	Internet	PROPN	SP	_	31	obl	_	_
+36	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	37	aux	_	_
+37	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	conj	_	_
+38	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
+39	Vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	40	det:poss	_	_
+40	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	37	obj	_	_
+41	che	che	PRON	PR	PronType=Rel	43	nsubj	_	_
+42	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	_
+43	allettante	allettare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	40	acl:relcl	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 2
+# text = Quando ho finito l'Università di Informatica a Venezia mi aspettavano le domande grande della vita, per esempio, dove cercare un lavoro.
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	Università	università	NOUN	S	Gender=Fem	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Informatica	informatica	PROPN	SP	_	5	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Venezia	Venezia	PROPN	SP	_	11	obl	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	aspettavano	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	grande	grande	ADJ	A	Number=Sing	13	amod	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	11	punct	_	_
+19	per	per	ADP	E	_	20	case	_	_
+20	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	dove	dove	ADV	B	_	23	advmod	_	_
+23	cercare	cercare	VERB	V	VerbForm=Inf	20	acl:relcl	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	obj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 3
+# text = Ecc.
+1	Ecc	eccetera	ADV	B	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = A dire la verità mo sono sentito insicuro.
+1	A	a	ADP	E	_	2	mark	_	_
+2	dire	dire	VERB	V	VerbForm=Inf	7	advcl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	verità	verità	NOUN	S	Gender=Fem	2	obj	_	_
+5	mo	mo	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	insicuro	insicuro	ADJ	A	Gender=Masc|Number=Sing	7	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Ma finalmente un'azienda leader che stava cercando le persone nel settore delle attività amministrative mi ha chiesto di lavorare per loro.
+1	Ma	ma	CCONJ	CC	_	20	cc	_	_
+2	finalmente	finalmente	ADV	B	_	4	advmod	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+5	leader	leader	NOUN	S	_	4	compound	_	_
+6	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+7	stava	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	cercando	cercare	VERB	V	VerbForm=Ger	4	acl:relcl	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	settore	settore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14-15	delle	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	attività	attività	NOUN	S	Gender=Fem	13	nmod	_	_
+17	amministrative	amministrativo	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+19	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	chiesto	chiedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	lavorare	lavorare	VERB	V	VerbForm=Inf	20	xcomp	_	_
+23	per	per	ADP	E	_	24	case	_	_
+24	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	22	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	20	punct	_	_
+
+# sent_id = 6
+# text = Quando ho capito che avevo preso una decisione sbagliata.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	capito	capire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	ccomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	sbagliata	sbagliato	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Non sono riuscito ad abituarmi alle condizione di lavoro e non ero soddisfatto del mio stipendio e mi sono dimesso.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	riuscito	riuscire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	ad	a	ADP	E	_	5	case	_	_
+5	abituarmi	arma|abituarme	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+6-7	alle	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	condizione	condizione	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	e	e	CCONJ	CC	_	14	cc	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	14	aux	_	_
+14	soddisfatto	soddisfare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	22	expl	_	_
+21	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	dimesso	dimettere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sono reso conto che la distanza tra Venezia e il posto di lavoro è lunga ma vorrei chiedere un appuntamento per un colloquio di lavoro.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux:pass	_	_
+2	reso	rendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	conto	conto	NOUN	S	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	che	che	SCONJ	CS	_	15	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	distanza	distanza	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+7	tra	tra	ADP	E	_	8	case	_	_
+8	Venezia	Venezia	PROPN	SP	_	6	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	posto	posto	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	lunga	lungo	ADJ	A	Gender=Fem|Number=Sing	2	ccomp	_	_
+16	ma	ma	CCONJ	CC	_	18	cc	_	_
+17	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	chiedere	chiedere	VERB	V	VerbForm=Inf	15	conj	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Mi piacerebbe lavorare per una società che prende in considerazione la persona che parla le lingue diverse e
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lavorare	lavorare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	società	società	NOUN	S	Gender=Fem	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	prende	prendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	considerazione	considerazione	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	persona	persona	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+13	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+14	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	acl:relcl	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+18	e	e	CCONJ	CC	_	2	cc	_	SpacesAfter=\n
+

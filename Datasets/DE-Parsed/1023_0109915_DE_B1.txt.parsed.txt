@@ -1,0 +1,121 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109915_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Müllergasse 12, 12345 A 29.11.2011 Bahnhofstr.
+1	Müllergasse	Müllergasse	PROPN	NN	_	0	root	_	_
+2	12	12	NUM	CARD	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	SpacesAfter=\n
+4	12345	12345	NUM	CARD	NumType=Card	1	appos	_	_
+5	A	um	PROPN	NN	_	4	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	29.11.2011	29.11.2011	PROPN	CARD	_	5	appos	_	SpacesAfter=\n
+7	Bahnhofstr	Bahnhofstr	PROPN	NN	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 101, 65195 Wiesbaden 0611/9988776 Sehr geehrte Damen und Herren, Ich habe Ihr Anzeige Au-pair Bewerber in Internet gesehen.
+1	101	101	NUM	CARD	NumType=Card	7	obl	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+3	65195	65195	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Wiesbaden	Wiesbaden	PROPN	NE	_	7	nsubj	_	SpacesAfter=\n
+5	0611/9988776	0611/9988776	PROPN	ADJA	Case=Nom|Number=Sing	4	flat	_	SpacesAfter=\n
+6	Sehr	Sehr	PROPN	ADV	_	4	appos	_	_
+7	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	7	obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Herren	Herr	NOUN	NN	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	20	punct	_	SpacesAfter=\n
+12	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+13	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+14	Ihr	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	20	nsubj	_	_
+16	Au-pair	Au-pair	PROPN	NE	_	15	appos	_	_
+17	Bewerber	Bewerber	PROPN	NN	_	16	flat	_	_
+18	in	in	ADP	APPR	_	19	case	_	_
+19	Internet	Internet	PROPN	NN	_	20	obl	_	_
+20	gesehen	sehen	VERB	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Interesire mich viele weil ich Ausbildung als Au-pair Studire habe.
+1	Interesire	Interesire	PROPN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+2	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+3	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	0	root	_	_
+4	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+6	Ausbildung	Ausbildung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7	als	als	ADP	KOKOM	_	9	case	_	_
+8	Au-pair	Au-pair	NOUN	NN	_	9	nmod	_	_
+9	Studire	Studire	NOUN	NN	_	6	nmod	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Es wäre schön wenn ich in Deutschland Arbeiten könnte, auch mein Deutsche verbessern.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	wenn	wennen	SCONJ	KOUS	_	14	mark	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	Deutschland	Deutschland	PROPN	NE	_	8	nmod	_	_
+8	Arbeiten	Arbeit|Arbeiten	PROPN	NN	_	14	obl	_	_
+9	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	8	punct	_	_
+11	auch	auch	ADV	ADV	_	13	advmod	_	_
+12	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Deutsche	Deutsche	NOUN	ADJA	_	14	obl	_	_
+14	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich habe diese Berufsriechtung gewält weil ich kontakt mit Leute und Kinder Liebe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Berufsriechtung	Berufsriechtung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	gewält	wälen	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	weil	weil	SCONJ	KOUS	_	9	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	kontakt	kontakt	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	mit	mit	ADP	APPR	_	5	advcl	_	_
+10	Leute	Leute	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Kinder	Kind	NOUN	NN	_	10	conj	_	_
+13	Liebe	Liebe	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ich kann die stelle Hilfe im Haushalt und bei der Kinderbetreuung könnte sein.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	stelle	stell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Hilfe	Hilfe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Haushalt	Haushalt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+9	und	und	CCONJ	KON	_	12	cc	_	_
+10	bei	bei	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Kinderbetreuung	Kinderbetreuung	NOUN	NN	_	8	conj	_	_
+13	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	_
+14	sein	sein	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Es freuch mich viele über eine Positiv Antworte Mit freundliche Grüße Maria Winkelmann
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	freuch	freuch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	viele	viel	PRON	PIAT	Case=Acc|Number=Plur|PronType=Ind	11	det	_	_
+5	über	über	ADP	APPR	_	7	case	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Positiv	positiv	PROPN	NN	_	4	nmod	_	_
+8	Antworte	Antwort	PROPN	VVFIN	_	7	flat	_	SpacesAfter=\n
+9	Mit	mit	ADP	APPR	_	11	case	_	_
+10	freundliche	freundlich	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Grüße	Grüße	NOUN	NN	_	12	nmod	_	SpacesAfter=\n
+12	Maria	Maria	PROPN	NE	_	2	appos	_	_
+13	Winkelmann	Winkelmann	PROPN	NE	_	12	flat	_	SpacesAfter=\n
+

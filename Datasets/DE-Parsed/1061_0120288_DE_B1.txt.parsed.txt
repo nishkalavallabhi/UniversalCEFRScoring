@@ -1,0 +1,117 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120288_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 27.02.2012 Lieber Silke, ich habe dein Brief bekommet und habe ich schon gelesen.
+1	Stadt	Stadt	NOUN	NN	_	13	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	27.02.2012	27.02.2012	PROPN	NN	_	6	amod	_	SpacesAfter=\n
+6	Lieber	lieb	PROPN	NN	_	1	appos	_	_
+7	Silke	Silke	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+10	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	dein	dein	PROPN	PPOSAT	_	13	advmod	_	_
+12	Brief	Brief	PROPN	NN	_	11	flat	_	_
+13	bekommet	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	_
+14	und	und	CCONJ	KON	_	18	cc	_	_
+15	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	schon	schon	ADV	ADV	_	18	advmod	_	_
+18	gelesen	lesen	VERB	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 2
+# text = Ich bin gut und mein Mann unde meine Kinder auch gut sind.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	mein	mein	ADJ	ADJD	Degree=Pos	6	compound	_	_
+6	Mann	Mann	NOUN	NN	_	3	conj	_	_
+7	unde	und	NOUN	NN	Case=Dat|Number=Sing	0	root	_	_
+8	meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Kinder	Kind	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	_
+10	auch	auch	ADV	ADV	_	11	advmod	_	_
+11	gut	gut	ADJ	ADJD	Degree=Pos	7	acl	_	_
+12	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ich komme bei dir unbedingt, weil du ja auch bald Geburtstag hast.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	_
+5	unbedingt	unbedingt	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	13	nsubj	_	_
+9	ja	ja	ADV	ADV	_	13	advmod	_	_
+10	auch	auch	ADV	ADV	_	13	advmod	_	_
+11	bald	bald	ADV	ADV	_	13	advmod	_	_
+12	Geburtstag	Geburtstag	NOUN	VVIMP	Case=Dat|Number=Plur	13	iobj	_	_
+13	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Was wünschst du zum Geburtstag.
+1	Was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	2	obj	_	_
+2	wünschst	wünschen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	2	nsubj	_	_
+4-5	zum	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Gibst du mir bitte ein Tipp.
+1	Gibst	Gibst	ADV	ADV	_	4	advmod	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	nsubj	_	_
+3	mir	ich	PROPN	PPER	_	2	nmod	_	_
+4	bitte	bitten	PROPN	NN	_	6	nmod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Tipp	Tip	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Telefonisch.
+1	Telefonisch	telefonisch	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ich wollte bei dir paar Tage besuch bleiben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	obl	_	_
+5	paar	paar	PRON	PIAT	PronType=Ind	6	det	_	_
+6	Tage	Tag	NOUN	NN	_	7	nmod	_	_
+7	besuch	besuch	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+8	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ich bringe mein Katze mit, weil mein Sohn Katze mag.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	mein	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Katze	Katze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_
+5	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+8	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	Sohn	Sohn	NOUN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
+10	Katze	Katze	NOUN	NN	_	2	advcl	_	_
+11	mag	mag	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Hoffentlich bis bald Katharina
+1	Hoffentlich	Hoffentlich	ADJ	ADJD	Degree=Pos	4	amod	_	_
+2	bis	bis	ADP	KON	_	3	case	_	_
+3	bald	bald	ADV	ADV	_	1	advmod	_	SpacesAfter=\n
+4	Katharina	Katharina	PROPN	NE	Case=Acc|Number=Sing	0	root	_	SpacesAfter=\n
+

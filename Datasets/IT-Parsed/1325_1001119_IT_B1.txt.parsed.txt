@@ -1,0 +1,260 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001119_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi, Strada Maggiore 14, 1234 Città X Spettabile Residence del lago via lungo lago 33 6000 - Caslano 5.
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Strada	strada	PROPN	SP	_	1	nmod	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	4	flat:name	_	_
+6	14	14	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	_
+8	1234	1234	NUM	N	NumType=Card	9	nummod	_	_
+9	Città	Città	PROPN	SP	_	1	conj	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n
+11	Spettabile	Spettabile	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\n
+12	Residence	Residence	PROPN	SP	_	1	flat:name	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lago	lago	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
+16	via	via	ADV	B	_	17	advmod	_	_
+17	lungo	lungo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+18	lago	lago	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+19	33	33	NUM	N	NumType=Card	22	nummod	_	SpacesAfter=\n
+20	6000	6000	NUM	N	NumType=Card	22	nummod	_	_
+21	-	-	PUNCT	FF	_	20	punct	_	_
+22	Caslano	Caslano	PROPN	SP	_	18	nmod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+23	5	5	NUM	N	NumType=Card	18	nummod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Gennaio 2012 Ogg.:
+1	Gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+2	2012	2012	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n
+3	Ogg.	Ogg.	PROPN	SP	_	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 3
+# text = vacanze trascorse al suo Residence Egregi Signori ho trascorso le mie vacanze dal 1.
+1	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+2	trascorse	trascorrere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Residence	Residence	PROPN	SP	_	10	obl	_	SpacesAfter=\s\n
+7	Egregi	Egregi	PROPN	SP	_	6	flat:name	_	_
+8	Signori	Signori	PROPN	SP	_	6	flat:name	_	SpacesAfter=\s\n
+9	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+12	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+14-15	dal	_	_	_	_	_	_	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	1	1	NUM	N	NumType=Card	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = settembre fino al 15.
+1	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	fino	fino	ADV	B	_	5	case	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	15	15	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = settembre 2011, presso il suo Residence al lago di Caslano.
+1	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	2011	2011	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	presso	presso	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Residence	Residence	PROPN	SP	_	1	nmod	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lago	lago	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Caslano	Caslano	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Avevo preonotato le mie vacanze dopo avere letto il suo annuncio nell corriere del Ticino.
+1	Avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	preonotato	preonotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	dopo	dopo	ADP	E	_	8	mark	_	_
+7	avere	avere	AUX	VA	VerbForm=Inf	8	aux	_	_
+8	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12	nell	nell	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	corriere	corriere	VERB	V	VerbForm=Inf	11	acl	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Ticino	Ticino	PROPN	SP	_	13	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = I giorni trascorsi al suo Residence, non avevano niente in commune, con il suo annuncio nell corriere.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	trascorsi	trascorrere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	acl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Residence	Residence	PROPN	SP	_	3	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+11	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	10	obj	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	commune	commune	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	18	punct	_	_
+15	con	con	ADP	E	_	18	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+17	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	10	conj	_	_
+19	nell	nell	ADJ	A	Gender=Masc|Number=Sing	18	amod	_	_
+20	corriere	corriere	VERB	V	VerbForm=Inf	18	acl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Nell suo annuncio c'era scritto che si poteva fare dello sport.
+1	Nell	Nell	PROPN	SP	_	6	obl	_	_
+2	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	6	nsubj:pass	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+5	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	aux:pass	_	_
+6	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+9	poteva	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+11-12	dello	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sport	sport	NOUN	S	Gender=Masc	10	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 9
+# text = Ma i campi da tennis e da palla a volo erano sempre occupati.
+1	Ma	ma	CCONJ	CC	_	13	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	campi	campo	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	palla	palla	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	volo	volo	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+11	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+12	sempre	sempre	ADV	B	_	13	advmod	_	_
+13	occupati	occupato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 10
+# text = La piscina era chiusa per lavori e così non ho avuto la possibiità di fare il corso di nuoto che avevo prenotato.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piscina	piscina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj:pass	_	_
+3	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux:pass	_	_
+4	chiusa	chiudere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	così	così	ADV	B	_	11	advmod	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	possibiità	possibiità	NOUN	S	Gender=Fem	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	corso	corso	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	nuoto	nuoto	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+20	che	che	PRON	PR	PronType=Rel	22	obj	_	_
+21	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	aux	_	_
+22	prenotato	prenotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	17	acl:relcl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Sono molto delusa del soggiorno passato presso il Residence, non era così come annuciato.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	delusa	deluso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	presso	presso	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Residence	Residence	PROPN	SP	_	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	cop	_	_
+14	così	così	ADV	B	_	3	advmod	_	_
+15	come	come	ADP	E	_	16	mark	_	_
+16	annuciato	annuciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = A questo punto la richiedo di un parziale rimborso del soggiorno trascorso.
+1	A	a	ADP	E	_	3	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	_
+3	punto	punto	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+5	richiedo	richiedo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	parziale	parziale	ADJ	A	Number=Sing	9	amod	_	_
+9	rimborso	rimborso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+13	trascorso	trascorrere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Ringraziandovi anticipatamente della vostra risposta, colgo l'occasione di porgervi i miei distinti saluti.
+1-2	Ringraziandovi	_	_	_	_	_	_	_	_
+1	Ringraziando	Ringraziare	VERB	V	VerbForm=Ger	0	root	_	_
+2	vi	vi	ADV	B	_	1	advmod	_	_
+3	anticipatamente	anticipatamente	ADV	B	_	1	advmod	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	colgo	cogliere	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	occasione	occasione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	porgervi	porgervo	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+15	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	_
+17	saluti	saluto	ADJ	A	Gender=Masc|Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s
+
+# sent_id = 14
+# text = Maria Rossi
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

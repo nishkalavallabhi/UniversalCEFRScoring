@@ -1,0 +1,208 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100017_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore, 12345 Città X France Città X, 15 Marzo 2010 Cari Beatrice e Stefano, Vi scrivo perché ho ricevuto il vostro invito per i vostro matrimonio.
+1	Maria	Maria	PROPN	SP	_	22	nsubj	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+6	12345	12345	NUM	N	NumType=Card	7	nummod	_	_
+7	Città	Città	PROPN	SP	_	1	conj	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	France	France	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+10	Città	Città	PROPN	SP	_	1	conj	_	_
+11	X	X	ADJ	NO	Number=Sing|NumType=Ord	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	15	15	NUM	N	NumType=Card	14	nummod	_	_
+14	Marzo	marzo	PROPN	SP	_	10	nmod	_	_
+15	2010	2010	NUM	N	NumType=Card	14	flat	_	SpacesAfter=\n
+16	Cari	caro	PROPN	SP	_	10	flat:name	_	_
+17	Beatrice	Beatore	PROPN	SP	_	10	flat:name	_	_
+18	e	e	CCONJ	CC	_	19	cc	_	_
+19	Stefano	Stefano	PROPN	SP	_	1	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+21	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	22	iobj	_	_
+22	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	perché	perché	SCONJ	CS	_	25	mark	_	_
+24	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	advcl	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+27	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	invito	invito	NOUN	S	Gender=Masc|Number=Sing	25	obj	_	_
+29	per	per	ADP	E	_	32	case	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
+31	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	28	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	22	punct	_	_
+
+# sent_id = 2
+# text = Voglio congratularvi per i vostro matrimonio.
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	congratularvi	_	_	_	_	_	_	_	_
+2	congratular	congratulare	VERB	V	VerbForm=Inf	0	root	_	_
+3	vi	vi	ADV	B	_	2	advmod	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Vorrei anche prima di tutto ringraziarvi per avermi invitato, sono molto contenta di potere participare nel vostro matrimonio, anche se sono stata un pò sorpresa non credeva che vi vedeva sposarsi cosi presto.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3	prima	prima	ADV	B	_	6	advmod	_	_
+4	di	di	ADP	E	_	3	fixed	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+6-7	ringraziarvi	_	_	_	_	_	_	_	_
+6	ringraziar	ringraziare	VERB	V	VerbForm=Inf	14	advcl	_	_
+7	vi	vi	ADV	B	_	6	advmod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	avermi	avermo	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+10	invitato	invitare	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	6	punct	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	31	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	potere	potere	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+17	participare	participare	ADJ	A	Number=Sing	16	amod	_	_
+18-19	nel	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	14	punct	_	_
+23	anche	anche	ADV	B	_	24	advmod	_	_
+24	se	se	SCONJ	CS	_	28	mark	_	_
+25	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+26	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	28	cop	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	pò	pare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	advcl	_	_
+29	sorpresa	sorpresa	ADJ	A	Gender=Fem|Number=Sing	28	amod	_	_
+30	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+31	credeva	credere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+32	che	che	SCONJ	CS	_	34	mark	_	_
+33	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	34	expl	_	_
+34	vedeva	vedere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	ccomp	_	_
+35-36	sposarsi	_	_	_	_	_	_	_	_
+35	sposar	sposare	VERB	V	VerbForm=Inf	34	xcomp	_	_
+36	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	35	expl	_	_
+37	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	35	xcomp	_	_
+38	presto	presto	ADV	B	_	37	advmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	31	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Fortunatamente in questa data sono libera come le sapete, così posso venire al vostro matrimonio senza problema.
+1	Fortunatamente	fortunatamente	ADV	B	_	4	advmod	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	data	data	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	libera	libero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+7	come	come	ADP	E	_	9	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	sapete	sapere	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	così	così	ADV	B	_	13	advmod	_	_
+12	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	venire	venire	VERB	V	VerbForm=Inf	6	conj	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	senza	senza	ADP	E	_	19	case	_	_
+19	problema	problema	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Anche io ho una notizia a darvi, sono fidanzata di un ragazzo gentili e mi piacerebbe molto andare al vostro matrimonio con lui così potresti conoscerlo.
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7-8	darvi	_	_	_	_	_	_	_	SpaceAfter=No
+7	dar	dare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	fidanzata	fidanzare	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ragazzo	ragazzo	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	gentili	gentile	ADJ	A	Number=Plur	14	amod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	andare	andare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21-22	al	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obl	_	_
+27	così	così	ADV	B	_	29	advmod	_	_
+28	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	aux	_	_
+29-30	conoscerlo	_	_	_	_	_	_	_	SpaceAfter=No
+29	conoscer	conoscere	VERB	V	VerbForm=Inf	18	advcl	_	_
+30	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+31	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Un'altra cosa vorrei sapere che cosa volete come regalo, non ho nessuna idea.
+1	Un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+6	che	che	DET	DQ	PronType=Int	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+8	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	5	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+14	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	idea	idea	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Me dite che cosa vi fareste piacere.
+1	Me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dite	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+5	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	iobj	_	_
+6	fareste	faredere	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+7	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Aspetto una risposta vostra, ci vediamo presto.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	vostra	vostro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	obj	_	_
+7	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+8	presto	presto	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tanti auguri e un bacio Maria Rossi
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\n
+6	Maria	Maria	PROPN	SP	_	5	nmod	_	_
+7	Rossi	Rossi	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n
+

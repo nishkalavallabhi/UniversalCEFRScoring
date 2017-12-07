@@ -1,0 +1,302 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000210_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi Città X, 03.06.2010 Strada Maggiore 80 12345 Città X Giornale "Vacanze" 28870 Roma Via Cavour 13
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Città	Città	PROPN	SP	_	1	flat:name	_	_
+4	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	03.06.2010	03.06.2010	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\n
+7	Strada	strada	PROPN	SP	_	1	nmod	_	_
+8	Maggiore	Maggiore	PROPN	SP	_	7	flat:name	_	_
+9	80	80	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\s\n
+10	12345	12345	NUM	N	NumType=Card	11	nummod	_	_
+11	Città	Città	PROPN	SP	_	1	nmod	_	_
+12	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	Giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+15	Vacanze	vacanze	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	18	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+17	28870	28870	NUM	N	NumType=Card	18	nummod	_	_
+18	Roma	Roma	PROPN	SP	_	13	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+19	Via	via	PROPN	SP	_	18	nmod	_	_
+20	Cavour	Cavour	PROPN	SP	_	19	flat:name	_	_
+21	13	13	NUM	N	NumType=Card	19	nummod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 2
+# text = Caro residense, Ho fatto un soggiorno nell'albergo "Residence del Lago".
+1	Caro	caro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+2	residense	residenso	ADJ	A	Number=Sing	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+4	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	soggiorno	soggiorno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	nell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	in	in	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Residence	Residence	PROPN	SP	_	10	nmod	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Purtroppo non sono contento di questo tempo.
+1	Purtroppo	purtroppo	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	contento	contento	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sul giornale ho letto tante, belle e interessanti notizie del vostro hotel.
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	belle	bello	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	interessanti	interessante	ADJ	A	Number=Plur	8	conj	_	_
+11	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	hotel	hotel	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Sul giornale ho visto delle belle foto, buone opinoni, ma io ho sua negativa opinione!!!
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	belle	bello	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	foto	foto	NOUN	S	Gender=Fem	5	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	buone	buono	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+12	opinoni	opinone	NOUN	S	_	5	obj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	12	punct	_	_
+14	ma	ma	CCONJ	CC	_	16	cc	_	_
+15	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+17	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+18	negativa	negativo	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	_
+19	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+20	!!	!!	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+21	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Sul questo albergo non si può fare lo sport!!!
+1-2	Sul	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	8	expl:impers	_	_
+7	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+9	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+10	sport!!!	sport!!!	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = Campi da tennis - quasi non esistono perché sono così devastati!!!
+1	Campi	campo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	-	-	PUNCT	FB	_	5	punct	_	_
+5	quasi	quasi	ADV	B	_	7	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	esistono	esistere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	perché	perché	SCONJ	CS	_	11	mark	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	così	così	ADV	B	_	11	advmod	_	_
+11	devastati	devastare	ADJ	A	Gender=Masc|Number=Plur	7	advcl	_	SpaceAfter=No
+12	!!!	!!!	PUNCT	FF	_	7	punct	_	_
+
+# sent_id = 8
+# text = Le piscine sono sporche!!!
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	piscine	piscina	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	_
+3	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sporche!!	sporche!!	PUNCT	FS	_	3	punct	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = La gente non si bagna perché non è possibile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	bagna	bagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	perché	perché	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	possibile	possibile	ADJ	A	Number=Sing	5	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = I corsi di nuoto, vela e surf ci sono ogni due settimane!!!
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	10	nsubj	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	nuoto	nuoto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	vela	vela	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	surf	surf	NOUN	S	Gender=Masc	2	conj	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+10	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	13	det	_	_
+12	due	due	NUM	N	NumType=Card	13	nummod	_	_
+13	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	!!!	!!!	PUNCT	FF	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Scusa ...
+1	Scusa	scusa	PROPN	SP	_	0	root	_	_
+2	...	...	PUNCT	FF	_	1	punct	_	_
+
+# sent_id = 12
+# text = Questo non à possibile caro residence!!!
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	à	e	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	3	amod	_	_
+5	caro	caro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+6	residence!!!	residence!!!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Non era grande torneo di tennis e pallavolo!!!
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+3	grande	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	torneo	torneo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	pallavolo	pallavolo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+9	!!	!!	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = Mi piace molto giocare a questi sport e per questo motivo ho scelto questo albergo!!!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	giocare	giocare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	questi	questo	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	sport	sport	NOUN	S	Gender=Masc	4	obl	_	_
+8	e	e	CCONJ	CC	_	13	cc	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+14	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+15	albergo!!	albergo!!	PUNCT	FS	_	13	punct	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = La piscina era sempre sovraffollata!!!
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	piscina	piscina	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	sovraffollata	sovraffollare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	!!!	!!!	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Le differenze tra la realtà e l'annuncio nell giornale "Vacanze" sono troppe!!!
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	tra	tra	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	realtà	realtà	NOUN	S	Gender=Fem	2	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+9	nell	nell	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	8	compound	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Vacanze	vacanze	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+15	troppe!!!	troppe!!!	PUNCT	FS	_	14	punct	_	_
+
+# sent_id = 17
+# text = Purtroppo le informazioni non sono vere!!
+1	Purtroppo	purtroppo	ADV	B	_	3	advmod	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+3	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vere	vere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	!!	!!	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+
+# sent_id = 18
+# text = !Tutto questo è una bugia!!!
+1	!Tutto	!Tutto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	0	root	_	_
+5	bugia!!!	bugia!!!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Per il futuro signore deve cambiare perché altri turisti non arriveranno più nell vostro albergo!!!
+1	Per	per	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	futuro	futuro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	signore	signore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cambiare	cambiare	VERB	V	VerbForm=Inf	0	root	_	_
+7	perché	perché	SCONJ	CS	_	11	mark	_	_
+8	altri	altro	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	turisti	turista	NOUN	S	Gender=Masc|Number=Plur	11	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	arriveranno	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	advcl	_	_
+12	più	più	ADV	B	_	13	advmod	_	_
+13	nell	nell	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpacesAfter=\s\s
+14	vostro	vostro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+15	albergo!!	albergo!!	PUNCT	FS	_	11	punct	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 20
+# text = Io sono molto nervoso!!!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	nervoso!!	nervoso!!	PUNCT	FS	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# newpar
+# sent_id = 21
+# text = Vorrei salutare con onore Michele Rossi
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	salutare	salutare	VERB	V	VerbForm=Inf	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	onore	onore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Michele	Michele	PROPN	SP	_	2	nsubj	_	_
+6	Rossi	Rossi	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+

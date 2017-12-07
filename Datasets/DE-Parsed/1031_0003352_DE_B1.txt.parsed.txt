@@ -1,0 +1,292 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003352_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe zuküntige Kollege, ich möchte Ihnen in meinem Stad willkommen.
+1	Liebe	lieb	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	zuküntige	zuküntig	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Kollege	Kollege	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+7	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	11	iobj	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Stad	stad	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+11	willkommen	willkommen	VERB	VVPP	VerbForm=Part	1	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Seit vier Jahren wohne ich in Stadt X. Stadt X ist der Haupt Stad.
+1	Seit	seit	ADP	APPR	_	3	case	_	_
+2	vier	vier	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Jahren	Jahr	NOUN	NN	_	13	nmod	_	_
+4	wohne	wohne	ADP	APPR	_	5	case	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	_	9	amod	_	_
+8	X.	X.	PROPN	NE	_	7	flat	_	_
+9	Stadt	Stadt	PROPN	NN	_	3	nmod	_	_
+10	X	X	PROPN	NN	_	9	appos	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Haupt	Haupt	NOUN	NE	_	0	root	_	_
+14	Stad	stad	NOUN	NN	_	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Hier gibt zu viele Wohnungen für kaufen und mieten.
+1	Hier	hier	ADV	ADV	_	2	advmod	_	_
+2	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	5	det	_	_
+5	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	7	obl	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	2	acl	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	mieten	mieten	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte mit Ihnen meine persönliche Erfahrung tielen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	8	obl	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	persönliche	persönlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+8	tielen	tielen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Hier ist nicht einfach eine Wohnung zu mieten, weil die Leute von den Auslandren Angst haben.
+1	Hier	hier	ADV	ADV	_	8	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+4	einfach	einfach	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	mieten	mieten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Leute	Leute	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+13	von	von	ADP	APPR	_	15	case	_	_
+14	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	Auslandren	Auslandren	NOUN	NN	Case=Dat|Number=Plur	16	nmod	_	_
+16	Angst	Angst	NOUN	NN	_	17	obj	_	_
+17	haben	haben	VERB	VAINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Aber es ist nicht unmöglich.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	unmöglich	unmöglich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Sie mussen eine Miete Vertrag unterschreiben.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	mussen	mussen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Miete	Miete	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	Vertrag	Vertrag	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+6	unterschreiben	unterschreiben	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Einerseite haben Sie viele vortiele mit dem Vertrag.
+1	Einerseite	Einerseite	NOUN	NN	_	2	obl	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	vortiele	vortiel	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Vertrag	Vertrag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Anderseites haben Sie keine Freiheit für die Musik oder nacht Geburtag Feiren.
+1	Anderseites	Anderseites	ADJ	ADJA	Degree=Pos|NumType=Ord	10	advmod	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Freiheit	Freiheit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Musik	Musik	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	nacht	nacht	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	Geburtag	Geburtag	PROPN	NN	_	10	nsubj	_	_
+12	Feiren	Feiren	PROPN	NE	Case=Nom|Number=Sing	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 10
+# text = Es gibt teure und billige Wohnungen in Stadt X. In der Stad gibt true Wohnungen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	teure	teuer	ADJ	ADJA	Case=Acc|Number=Plur	6	amod	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	billige	billig	ADJ	ADJA	Degree=Pos	3	conj	_	_
+6	Wohnungen	Wohnung	NOUN	NN	_	15	nmod	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	PROPN	NN	_	6	nmod	_	_
+9	X.	X.	PROPN	NE	_	13	nsubj	_	_
+10	In	in	PROPN	APPR	Case=Nom|Number=Sing	9	flat	_	_
+11	der	der	PROPN	ART	_	12	nmod	_	_
+12	Stad	stad	PROPN	NN	_	9	nmod	_	_
+13	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	15	cop	_	_
+14	true	tru	ADJ	ADJA	Degree=Pos	15	amod	_	_
+15	Wohnungen	Wohnung	NOUN	NN	_	2	obj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Es kostet ungefär 1500 bis 3000 SF.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kostet	kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ungefär	ungefär	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	1500	1500	NUM	CARD	NumType=Card	7	nummod	_	_
+5	bis	bis	ADP	KON	_	6	case	_	_
+6	3000	3000	NUM	CARD	NumType=Card	4	nmod	_	_
+7	SF.	SF.	NOUN	NN	_	2	obl	_	_
+
+# sent_id = 12
+# text = Wenn Sie in Stadt X Wohnen, haben Sie keine problem für die öffentliche Verkar.
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Stadt	Stadt	PROPN	NN	_	6	obl	_	_
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	Wohnen	wohn	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	_
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	_
+10	keine	kein	PRON	PIAT	PronType=Neg	11	advmod	_	_
+11	problem	probl	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+12	für	für	ADP	APPR	_	15	case	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	öffentliche	öffentlich	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Verkar	Verkar	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Sie brauchen keinen Auto.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	keinen	kein	PRON	PIAT	PronType=Neg	4	advmod	_	_
+4	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Es ist sehr wichtig, dass Sie nicht nur Wohungsmarkt fach Leute sprachen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+7	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	13	nsubj	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+9	nur	nur	ADV	ADV	_	10	advmod	_	_
+10	Wohungsmarkt	Wohungsmarkt	NOUN	NN	_	12	nummod	_	_
+11	fach	fach	ADJ	ADJD	Degree=Pos	12	amod	_	_
+12	Leute	Leute	NOUN	NN	_	13	obl	_	_
+13	sprachen	sprechen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Sonder Sie mussen Freunden auch für die Wohnungen möglichkeiten sprachen, weil fachleute sehr teur sind.
+1	Sonder	Sonder	NOUN	NN	_	2	nmod	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+3	mussen	mussen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	3	iobj	_	_
+5	auch	auch	ADV	ADV	_	3	advmod	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+9	möglichkeiten	möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+10	sprachen	sprechen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	weil	weil	SCONJ	KOUS	_	16	mark	_	_
+13	fachleute	fachleute	NOUN	NN	Case=Nom|Number=Sing	15	nsubj	_	_
+14	sehr	sehr	ADV	ADV	_	15	advmod	_	_
+15	teur	teur	NOUN	NN	Case=Nom|Number=Sing	16	nsubj	_	_
+16	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Sie mussen unbedigt beachten für die Heizung Kosten, weil in den Winter man für die Heizung bezahlen mussen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	mussen	mussen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	unbedigt	unbedigen	ADJ	VVPP	_	2	advmod	_	_
+4	beachten	beachen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	conj	_	_
+5	für	für	ADP	APPR	_	8	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	Heizung	heizung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	Kosten	Kosten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	19	mark	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Winter	Winter	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obl	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Heizung	heizung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+18	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	_
+19	mussen	mussen	VERB	VVINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 17
+# text = Es wäre Parktisch, wenn Sie einen Schweiz Bürger mit haben.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	Parktisch	Parktisch	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+6	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	Schweiz	Schweiz	PROPN	NE	_	9	amod	_	_
+9	Bürger	Bürger	NOUN	NN	_	3	nmod	_	_
+10	mit	mit	ADP	APPR	_	9	case	_	_
+11	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Es fruet mich Ihnen kennen zu lernen, und ich bin da für Sie.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	fruet	fruen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	Ihnen	Sie|sie	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	_
+5	kennen	kennen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	_
+6	zu	zu	PART	PTKZU	_	7	mark	_	_
+7	lernen	lernen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	da	da	ADV	ADV	_	14	advmod	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	11	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Wenn Sie hilf brauchen.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+3	hilf	hilf	NUM	CARD	NumType=Card	4	obl	_	_
+4	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Mit freundlichen Grüßen X.Y.Zddd
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	X.Y.Zddd	X.Y.Zddd	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

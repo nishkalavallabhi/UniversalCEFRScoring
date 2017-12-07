@@ -1,0 +1,75 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248338_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Daniela!
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wir geht´s dir?
+1	Wir	wir	PROPN	PPER	Case=Nom|Number=Sing	2	nsubj	_	_
+2	geht´s	geht´s	PROPN	NE	_	0	root	_	_
+3	dir	dir	PROPN	NN	_	2	flat	_	SpaceAfter=No
+4	?	?	PROPN	$.	_	2	flat	_	_
+
+# sent_id = 3
+# text = Ich habe heute frei und ich möchte mit dir in Schwimmbad gehe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpacesAfter=\s\s
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	heute	heute	ADV	ADV	_	4	advmod	_	_
+4	frei	frei	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	12	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+7	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+8	mit	mit	ADP	APPR	_	9	case	_	_
+9	dir	dir	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	obl	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Schwimmbad	Schwimmbad	PROPN	NE	_	12	obl	_	_
+12	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	4	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Hast du Zeit?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3	Zeit	Zeit	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Wann du möchtest, wie treffen uns am 14 00 Uhr in den Bushaltestele.
+1	Wann	wann	ADV	ADV	_	3	advmod	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	3	nsubj	_	_
+3	möchtest	möchtesen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	wie	wie	ADV	KOUS	_	3	advmod	_	_
+6	treffen	treffen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	iobj	_	_
+8-9	am	_	_	_	_	_	_	_	_
+8	an	an	ADP	APPR	_	12	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+10	14	14	NUM	CARD	NumType=Card	11	nummod	_	_
+11	00	00	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	6	obl	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	den	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	Bushaltestele	Bushaltestele	NOUN	NN	Case=Acc|Number=Plur	6	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Muss du nur eine Deke dabei haben.
+1	Muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	nsubj	_	SpacesAfter=\s\s
+3	nur	nur	ADV	ADV	_	5	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Deke	Deke	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	dabei	dabei	ADV	PAV	_	7	advmod	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bis bald Julia
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	3	advmod	_	_
+3	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

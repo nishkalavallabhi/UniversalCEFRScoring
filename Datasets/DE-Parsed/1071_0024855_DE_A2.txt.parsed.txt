@@ -1,0 +1,110 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024855_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Jens!
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wie geht´s?
+1	Wie	wie	PROPN	KOUS	_	0	root	_	_
+2	geht´s	geht´s	PROPN	NN	_	1	flat	_	SpaceAfter=No
+3	?	?	PROPN	$.	_	1	flat	_	_
+
+# sent_id = 3
+# text = Ich Glückwünsche!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	Glückwünsche	Glückwünsche	NOUN	NN	_	1	appos	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Du bist Vater.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+2	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Vater	Vater	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Wie geht deine Frau?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Frau	Frau	NOUN	NN	_	2	appos	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sie ist gesuntcheit?
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	gesuntcheit	suntcheien	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Und wie Baby?
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	wie	wie	ADP	KOKOM	_	3	case	_	_
+3	Baby	Baby	PROPN	NN	_	0	root	_	SpaceAfter=No
+4	?	?	PROPN	$.	_	3	flat	_	_
+
+# sent_id = 8
+# text = Wie heißt Baby?
+1	Wie	wie	CCONJ	KON	_	3	cc	_	_
+2	heißt	heißen	VERB	VVFIN	VerbForm=Fin	3	cop	_	_
+3	Baby	Baby	PROPN	NN	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Das ist mannlich oder weiblich?
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	mannlich	mannlich	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	oder	oder	CCONJ	KON	_	5	cc	_	_
+5	weiblich	weiblich	ADJ	ADJD	Degree=Pos	3	conj	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Wie hat viel cm und kg? Oh, ich bin so glücklich.
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	viel	viel	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	4	det	_	_
+4	cm	cm	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	kg	kg	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	_	_
+8	Oh	Oh	NOUN	NN	_	2	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	13	punct	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	so	so	ADV	ADV	_	13	advmod	_	_
+13	glücklich	glücklich	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 11
+# text = Das ist heute sehr gut information.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	6	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	heute	heute	ADV	ADV	_	6	advmod	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	amod	_	_
+6	information	information	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Ich mache Party für Baby - bin ich Tante.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	mache	mach	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Party	Party	NOUN	NN	_	7	compound	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	Baby	Baby	PROPN	NN	_	3	nmod	_	_
+6	-	-	PUNCT	$(	_	7	punct	_	_
+7	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	Tante	Tante	NOUN	NN	_	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Tschuss Maria
+1	Tschuss	Tschuß	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+

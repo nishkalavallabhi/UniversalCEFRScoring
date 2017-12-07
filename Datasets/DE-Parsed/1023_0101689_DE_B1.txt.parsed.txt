@@ -1,0 +1,148 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101689_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Julia Müller Stadt X, den 11,3,2010 Bahnhof str.
+1	Julia	Julia	PROPN	NE	_	0	root	_	_
+2	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Stadt	Stadt	PROPN	NN	_	1	nmod	_	_
+4	X	X	PROPN	NN	_	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	den	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+7	11,3,2010	11,3,2010	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Bahnhof	Bahnhof	NOUN	NN	_	1	dep	_	_
+9	str.	str.	X	NN	_	1	punct	_	_
+
+# sent_id = 2
+# text = 12 12345 Stadt X VertriebPraktikant w./m Bahnhofstr. 5, 53119 Bonn Seher geeharter Dammen und Herren!
+1	12	12	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	12345	12345	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+4	X	X	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+5	VertriebPraktikant	VertriebPraktikant	PROPN	VVFIN	_	4	flat	_	_
+6	w./m	w./m	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+7	Bahnhofstr.	Bahnhofstr.	PROPN	NN	_	6	flat	_	_
+8	5	5	NUM	CARD	NumType=Card	3	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\s\n
+10	53119	53119	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Bonn	Bonn	NOUN	NN	_	12	nmod	_	SpacesAfter=\n
+12	Seher	Seher	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+13	geeharter	geeharter	ADJ	ADJA	Degree=Cmp,Pos	14	amod	_	_
+14	Dammen	Dammen	NOUN	NN	_	12	nmod	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	Herren	Herr	NOUN	NN	_	14	conj	_	SpaceAfter=No
+17	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = In der Zeitung habe ich gelesen für Kaufmännischen Beruf und VertrebPraktik ant w/m.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Zeitung	Zeitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	Kaufmännischen	Kaufmännisch	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	9	amod	_	_
+9	Beruf	Beruf	NOUN	NN	Case=Dat|Number=Sing	6	obl	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	VertrebPraktik	VertrebPraktik	NOUN	NN	_	12	conj	_	_
+12	ant	ant	PROPN	VVFIN	_	9	appos	_	_
+13	w/m	w/m	PROPN	NE	_	12	flat	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte gern Teinehmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	gern	gern	ADV	ADV	_	4	advmod	_	_
+4	Teinehmen	Teinehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Weil habe ich intersieren mich für diesen fach und möchte gern Teil nehmen.
+1	Weil	weil	SCONJ	KOUS	_	4	mark	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	intersieren	intersieren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	diesen	dies	PRON	PDAT	Case=Acc|PronType=Dem	4	obl	_	_
+8	fach	fach	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+9	und	und	CCONJ	KON	_	13	cc	_	_
+10	möchte	mögen	AUX	VMFIN	Mood=Sub|Tense=Past|VerbForm=Fin	13	aux	_	_
+11	gern	gern	ADV	ADV	_	12	advmod	_	_
+12	Teil	Teil	NOUN	NN	_	13	obl	_	_
+13	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Invormieren Sie mir für diesen fach.
+1	Invormieren	Invormi	NOUN	NN	_	0	root	_	_
+2	Sie	Sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	iobj	_	_
+4	für	für	ADP	APPR	_	6	case	_	_
+5	diesen	dies	VERB	VVPP	VerbForm=Part	6	cop	_	_
+6	fach	fechen	ADJ	ADJD	Degree=Pos	1	amod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Bitte schreiben Sie mich wann anfängen und wie viel-unreadable- geburien habe, für Teilnehmen? und Teilen Sie mir.
+1	Bitte	Bitte	PART	ADV	_	6	mark	_	_
+2	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	6	aux	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+5	wann	wann	ADV	PWAV	_	6	advmod	_	_
+6	anfängen	anfängen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	und	und	CCONJ	KON	_	11	cc	_	_
+8	wie	wie	ADP	KOKOM	_	11	case	_	_
+9	viel-unreadable-	viel-unreadable-	PUNCT	$(	_	11	punct	_	_
+10	geburien	geburien	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+11	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	Teilnehmen	teilnehmen	NOUN	NN	_	11	obl	_	SpaceAfter=No
+15	?	?	PUNCT	$.	_	17	punct	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Teilen	Teil	NOUN	NN	_	14	conj	_	_
+18	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	14	nsubj	_	_
+19	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = oder rufen Sie mir mit desen Telefon nberen 012/34567 oder das Papier für Teil nehme in meine Adresse schreiben.
+1	oder	oder	CCONJ	KON	_	2	cc	_	_
+2	rufen	rufen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	15	conj	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+5	mit	mit	ADP	APPR	_	9	case	_	_
+6	desen	desen	PROPN	NN	_	8	nmod	_	_
+7	Telefon	Telefon	PROPN	NE	_	6	flat	_	_
+8	nberen	nb	ADJ	ADJA	Degree=Cmp	9	amod	_	_
+9	012/34567	012/34567	NUM	CARD	NumType=Card	2	obl	_	_
+10	oder	oder	CCONJ	KON	_	12	cc	_	_
+11	das	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Papier	Papier	NOUN	NN	_	2	conj	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	Teil	Teil	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	_
+15	nehme	nehm	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Adresse	Adresse	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+19	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	15	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 9
+# text = Ich biedake mich für diesen invohrmieren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	biedake	biedaken	PROPN	NN	Case=Acc|Number=Sing	3	obj	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	diesen	dies	PRON	PDAT	Case=Acc|PronType=Dem	6	obl	_	_
+6	invohrmieren	invohrmieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = mit frundlichen Grüßen
+1	mit	mit	ADP	APPR	_	3	case	_	_
+2	frundlichen	frundlichen	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	Grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

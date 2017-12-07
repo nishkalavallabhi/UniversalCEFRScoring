@@ -1,0 +1,210 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109945_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Maria Meier Bahnhofsstraße 44 22111 Stadt X An: „Aupairsglobal Bahnhofstr.
+1	Maria	Maria	PROPN	NE	_	6	nsubj	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	1	flat	_	_
+4	44	44	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+5	22111	22111	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	8	obj	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\n
+8	An	an	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	11	punct	_	_
+10	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+11	Aupairsglobal	Aupairsglobal	PROPN	NE	_	8	appos	_	SpacesAfter=\n
+12	Bahnhofstr	Bahnhofstr	PROPN	NE	_	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = 101 65185 Wiesbaden 28.10.11, Stadt Y Betreff: Anfrage Sehr geehrte Damen und Herren, ich habe vor einiger Zeit Ihre Anzeige gelesen und interesiere mich für eine Stelle als Au-Pair in Deutschland.
+1	101	101	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+2	65185	65185	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Wiesbaden	Wiesbaden	PROPN	NE	_	12	obl	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	28.10.11	28.10.11	PROPN	CARD	Case=Dat|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Stadt	Stadt	NOUN	NN	_	3	conj	_	_
+7	Y	y	PROPN	NE	_	6	appos	_	SpacesAfter=\s\n
+8	Betreff	Betreff	PROPN	NE	_	7	flat	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	6	punct	_	_
+10	Anfrage	Anfrage	PROPN	VVFIN	_	11	amod	_	SpacesAfter=\n
+11	Sehr	Sehr	PROPN	ADV	_	6	appos	_	_
+12	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	12	obj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Herren	Herr	NOUN	NN	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	24	punct	_	SpacesAfter=\n
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+18	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+19	vor	vor	ADP	APPR	_	21	case	_	_
+20	einiger	einige	PRON	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	obl	_	_
+22	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	Anzeige	Anzeige	NOUN	NN	_	24	obj	_	_
+24	gelesen	lesen	VERB	VVPP	VerbForm=Part	12	conj	_	_
+25	und	und	CCONJ	KON	_	26	cc	_	_
+26	interesiere	interesieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	12	conj	_	_
+27	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	26	obj	_	_
+28	für	für	ADP	APPR	_	30	case	_	_
+29	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	_
+31	als	als	ADP	KOKOM	_	32	case	_	_
+32	Au-Pair	Au-Pair	NOUN	NN	_	26	obl	_	_
+33	in	in	ADP	APPR	_	34	case	_	_
+34	Deutschland	Deutschland	PROPN	NE	_	26	obl	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Welche Dokumente muss man vorlegen um vermittelt zu werden?
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	Dokumente	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+5	vorlegen	vorlegen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	um	um	ADP	APPR	_	7	mark	_	_
+7	vermittelt	vermitteln	VERB	VVPP	VerbForm=Part	5	advcl	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	werden	werden	AUX	VAINF	VerbForm=Inf	7	aux:pass	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Muss man sich selbst um den Visa kümmern oder übernimmt dies Ihre Agentur?
+1	Muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+4	selbst	selbst	ADV	ADV	_	8	advmod	_	_
+5	um	um	ADP	APPR	_	8	mark	_	_
+6	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
+7	Visa	Visa	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	8	iobj	_	_
+8	kümmern	kümmern	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	übernimmt	übernehmen	VERB	VVFIN	VerbForm=Fin	8	conj	_	_
+11	dies	dies	PRON	PDS	Case=Acc|PronType=Dem	10	obj	_	_
+12	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Agentur	Agentur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	iobj	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Wo wird man untergebracht?
+1	Wo	wo	ADV	PWAV	_	4	advmod	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj:pass	_	_
+4	untergebracht	unterbringen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Direkt bei den Familien oder bekommt man eine eigene Unterkunft?
+1	Direkt	direkt	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+2	bei	bei	ADP	APPR	_	4	case	_	_
+3	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Familien	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	6	obl	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	bekommt	bekommen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	Unterkunft	Unterkunft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Welche Möglichkeiten gibt es um Deutsche Sprache zu verbessern?
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	2	det	_	_
+2	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+5	um	um	ADP	APPR	_	9	mark	_	_
+6	Deutsche	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	7	amod	_	_
+7	Sprache	Sprache	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 8
+# text = Darf man nach Absprache mit der Familie eine Sprachschule besuchen?
+1	Darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Absprache	Absprache	NOUN	NN	Case=Dat|Number=Sing	10	obl	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Sprachschule	Sprachschule	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 9
+# text = Wer würde die Kosten tragen?
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Kosten	Kosten	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	tragen	tragen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Bitte, klären Sie mich auch über meine Rechte und Pflichten auf.
+1	Bitte	Bitte	PART	ADV	_	11	mark	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	klären	klären	ADJ	ADJA	Degree=Pos	11	conj	_	_
+4	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+6	auch	auch	ADV	ADV	_	3	advmod	_	_
+7	über	über	ADP	APPR	_	9	case	_	_
+8	meine	mein	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Rechte	Recht|Rechte	NOUN	NN	_	11	obl	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Pflichten	Pflicht	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+12	auf	auf	ADP	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 11
+# text = Wieviele Stunden täglich muss man der Familie zur Verfügung stehen?
+1	Wieviele	Wieviel	PROPN	NN	Case=Nom|Number=Plur	2	amod	_	_
+2	Stunden	Stunde|Stunden	PROPN	NN	_	3	nmod	_	_
+3	täglich	täglich	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
+6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Familie	Familie	NOUN	NN	_	5	nmod	_	_
+8-9	zur	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+11	stehen	stehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 12
+# text = Was würde zu meinen Aufgaben gehören, außer auf die Kinder aufzupassen?
+1	Was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	6	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Aufgaben	Aufgabe	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
+6	gehören	gehören	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	außer	außer	ADP	APPR	_	12	case	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	11	det	_	_
+11	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	12	obl	_	_
+12	aufzupassen	aufzupassen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	conj	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 13
+# text = Über eine Antwort von Ihnen freue ich mich und verbleibe Mit freundlichen Grüßen Maria Meier
+1	Über	über	ADP	APPR	_	3	case	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	Ihnen	Ihnen	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	3	nmod	_	_
+6	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	verbleibe	verbleiben	VERB	VVFIN	VerbForm=Fin	6	conj	_	SpacesAfter=\s\n
+11	Mit	mit	ADP	APPR	_	13	case	_	_
+12	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Grüßen	grüßen	NOUN	NN	_	10	obl	_	SpacesAfter=\n
+14	Maria	Maria	PROPN	NE	_	13	appos	_	_
+15	Meier	Meier	PROPN	NN	_	14	flat	_	SpacesAfter=\n
+

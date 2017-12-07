@@ -1,0 +1,36 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024838_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Liber Jens Herzliche Glückwünsche zum Babys geburt.
+1	Liber	Liber	PROPN	NN	_	4	nmod	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Glückwünsche	Glückwünsch	NOUN	NN	_	0	root	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Babys	Baby	PROPN	NE	_	4	nmod	_	_
+8	geburt	burn	PROPN	NE	_	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ich wünschen fil Gluk und fill, will Gisundheit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünschen	wünschen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	fil	fil	PROPN	NE	_	2	nsubj	_	_
+4	Gluk	Gluk	PROPN	NE	Case=Nom|Number=Sing	3	flat	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	fill	fill	PROPN	NE	_	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	will	will	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	Gisundheit	Gisundheit	NOUN	NN	_	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Söine Gruße daine froindin.
+1	Söine	Söin	PROPN	NE	_	4	nsubj	_	_
+2	Gruße	Muß|Gruße	PROPN	NN	_	1	flat	_	_
+3	daine	dain	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	1	flat	_	_
+4	froindin	Froindin	VERB	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+

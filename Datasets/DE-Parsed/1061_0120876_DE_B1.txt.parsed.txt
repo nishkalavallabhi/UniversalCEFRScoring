@@ -1,0 +1,173 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120876_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 9.03.2012 Liebe Dana, ich freue mich, dass du die Prüfung bestanden hast.
+1	Stadt	Stadt	NOUN	NN	_	9	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	9.03.2012	9.03.2012	PROPN	CARD	_	6	appos	_	SpacesAfter=\n
+5	Liebe	Liebe	PROPN	NN	_	4	flat	_	_
+6	Dana	Dana	PROPN	NE	_	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+10	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	9	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+13	du	du	PROPN	NN	Case=Nom|Number=Sing	16	nsubj	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Prüfung	Prüfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	bestanden	bestehen	VERB	VVPP	VerbForm=Part	9	ccomp	_	_
+17	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Wie geht es dir in Istanbul?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Istanbul	Istanbul	PROPN	NE	_	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Wohnen deine Verwandte schon im neuem Haus?
+1	Wohnen	wohnen	NOUN	NN	_	3	dep	_	_
+2	deine	dein	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Verwandte	Verwandte|Verwandter	NOUN	NN	_	0	root	_	_
+4	schon	schon	ADV	ADV	_	8	advmod	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	neuem	neu	ADJ	ADJD	Degree=Pos	8	amod	_	_
+8	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte am nachsten Monat auch meine Tante besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	nachsten	nach	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+6	Monat	Monat	NOUN	NN	_	5	nmod	_	_
+7	auch	auch	ADV	ADV	_	9	advmod	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Tante	Tante	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Sie ist seit drei Jahren nach Italien umgezogen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj:pass	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+3	seit	seit	ADP	APPR	_	5	case	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Jahren	Jahr	NOUN	NN	_	8	obl	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Italien	Italien	PROPN	NE	Case=Dat|Number=Sing	8	obl	_	_
+8	umgezogen	umgezogen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Ich habe gehört, dass das Wetter sehr schon da wird.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gehört	gehören	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Wetter	Wetter	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
+9	schon	schon	ADV	ADV	_	10	advmod	_	_
+10	da	da	ADV	ADV	_	11	advmod	_	_
+11	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = So kann ich mich an der Mehr entspannen.
+1	So	so	ADV	ADV	_	8	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Mehr	Mehr	NOUN	ADV	Case=Dat|Number=Sing	8	obl	_	_
+8	entspannen	entspannen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich wünsche aus Istanbul eine Süßigkeiten haben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	APPR	_	4	case	_	_
+4	Istanbul	Istanbul	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Süßigkeiten	Süßigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+7	haben	haben	VERB	VAINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Und was soll ich für dich aus Roma mitbringen?
+1	Und	und	CCONJ	KON	_	9	cc	_	_
+2	was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	9	obj	_	_
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obl	_	_
+7	aus	aus	ADP	APPR	_	8	case	_	_
+8	Roma	Roma	PROPN	NE	Case=Dat|Number=Sing	9	obl	_	_
+9	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 10
+# text = Schreib mir bitte ein sms.
+1	Schreib	schreib	NOUN	NN	_	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	1	obj	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	sms	sms	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Wenn ich zurück komme, besuche ich dich auf Jeden Fall!
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	zurück	zurück	ADV	ADV	_	4	advmod	_	_
+4	komme	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	8	punct	_	_
+6	besuche	besuchen	NOUN	NN	Case=Acc|Number=Plur	8	obj	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	Jeden	jed	PRON	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	11	det	_	_
+11	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	!	!	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 12
+# text = Ich rufe dich Bescheid an!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	rufe	rufen	NOUN	NN	Case=Nom|Number=Plur	1	nsubj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	det	_	_
+4	Bescheid	Bescheid	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+5	an	an	ADP	APPR	_	1	compound:prt	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Bis dann!
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	dann	dinnen	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Viele Grüße.
+1	Viele	viele	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Maria
+1	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

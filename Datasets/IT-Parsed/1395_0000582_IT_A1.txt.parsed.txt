@@ -1,0 +1,101 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000582_IT_A1.txt
+# newpar
+# sent_id = 1
+# text = Caro Marco, come vai?
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Marco	Marco	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	vai	andare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Espero che bene.
+1	Espero	Esperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	fixed	_	_
+3	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Io bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Io sono in sicile per seguito un corso di italiani.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	sicile	sicile	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = el mio insegnante si ciamo daniella e molto simpatica.
+1	el	i	NOUN	S	Gender=Masc	0	root	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	1	appos	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	ciamo	care	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	acl	_	_
+6	daniella	daniella	NOUN	S	Gender=Fem|Number=Sing	5	xcomp	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = quando non c'é la lezioni io vado all' ristorante per mangiare la pasta.
+1	quando	quando	SCONJ	CS	_	8	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+4	é	é	SCONJ	CS	_	8	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	all'	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	mangiare	mangiare	VERB	V	VerbForm=Inf	8	advcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 7
+# text = mi piace molto la pasta italiani.
+1	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pasta	pasta	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	italiani	italiano	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Io penso riturnare in Città X da una settimana.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	riturnare	riturnare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Città	Città	PROPN	SP	_	3	obl	_	_
+6	X	X	PROPN	SP	_	5	flat:name	_	_
+7	da	da	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = ciao mille baci Maria
+1	ciao	ciao	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+2	mille	mille	NUM	N	NumType=Card	3	nummod	_	_
+3	baci	baco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\s\s\s\s
+4	Maria	Maria	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+

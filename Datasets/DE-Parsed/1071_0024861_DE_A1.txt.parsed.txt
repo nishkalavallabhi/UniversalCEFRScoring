@@ -1,0 +1,69 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024861_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Jens, Stadt X, 2012.03.19 Du bist jetz Vater, es ist super!
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	11	nsubj	_	_
+2	Jens	Jens	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	1	appos	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	2012.03.19	2012.03.19	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Du	du	NOUN	NN	_	11	nmod	_	_
+9	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	jetz	jetz	PROPN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	Vater	Vater	NOUN	NN	_	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	super	super	ADJ	ADJD	Degree=Pos	11	parataxis	_	SpaceAfter=No
+16	!	!	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wie heißt sein Sonn?
+1	Wie	wie	CCONJ	KON	_	2	dep	_	_
+2	heißt	heißen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Sonn	sonn	NOUN	NN	Case=Dat|Number=Sing	2	iobj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Wir ist seine Frau geht?
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Frau	Frau	NOUN	NN	_	0	root	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich mochte bis seine Haus gehen, kann ich am Freitag gehen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mochte	mochte	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	bis	bis	ADP	APPR	_	5	case	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	13	punct	_	_
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+13	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Viele Glückwünsche!
+1	Viele	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Glückwünsche	Glückwünsche	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Freundliche Grüße, Tobias
+1	Freundliche	freundlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Tobias	Tobias	PROPN	NN	_	2	appos	_	SpacesAfter=\n
+

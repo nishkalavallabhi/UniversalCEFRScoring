@@ -1,0 +1,142 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000598_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Firenze, 12/01/10 Care Helena e Carla Come state?
+1	Firenze	Firenze	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	12	12	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	01	01	NUM	N	NumType=Card	3	compound	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	10	10	NUM	N	NumType=Card	5	fixed	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Care	care	PROPN	SP	_	1	flat:name	_	_
+9	Helena	Helena	PROPN	SP	_	1	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Carla	Carla	PROPN	SP	_	1	conj	_	SpacesAfter=\s\n\s\n
+12	Come	come	X	SW	Foreign=Yes	0	root	_	_
+13	state	essere	X	SW	Foreign=Yes|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Sono a Firenze per seguire un corso d'italiano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Firenze	Firenze	PROPN	SP	_	0	root	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	seguire	seguire	VERB	V	VerbForm=Inf	3	acl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Apprendo la lingue perché mi piace molto.
+1	Apprendo	Apprere	VERB	V	VerbForm=Ger	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	perché	perché	SCONJ	CS	_	6	mark	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = La professoressa e molto gentile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	professoressa	professore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	gentile	gentile	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Apprendo molte cose, in classa ci chiamiamo di tutto, é un corso molto interessante.
+1	Apprendo	Apprere	VERB	V	VerbForm=Ger	8	advcl	_	_
+2	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	3	det	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	classa	classa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+8	chiamiamo	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	14	punct	_	_
+12	é	é	CCONJ	CC	_	14	cc	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	corso	corso	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	interessante	interessante	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Quando non c'è lezione, esco con i miei amici, mangiamo fuori, andiamo al cinema, a dei concerti depende.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	esco	uscire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	con	con	ADP	E	_	11	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+10	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	mangiamo	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+14	fuori	fuori	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	conj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	cinema	cinema	NOUN	S	Gender=Masc	25	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	24	punct	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22-23	dei	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	concerti	concerto	NOUN	S	Gender=Masc|Number=Plur	25	obl	_	_
+25	depende	dependere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	ccomp	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Portroppo devo ritornare a casa mia per lavorare.
+1	Portroppo	Portroppo	ADV	B	_	3	advmod	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ritornare	ritornare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	lavorare	lavorare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sono rimasta a Firenze un mese fa.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	rimasta	rimanere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Firenze	Firenze	PROPN	SP	_	2	obl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	fa	fa	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 9
+# text = Abbracci affetuosi.
+1	Abbracci	Abbraccio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	affetuosi	affetuoso	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = A presto.
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 11
+# text = Maria
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

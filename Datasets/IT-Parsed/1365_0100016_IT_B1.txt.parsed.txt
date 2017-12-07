@@ -1,0 +1,150 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100016_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 2 Maggio 2010 Cari Amici, Ho avuto la gioia di imparare che avete deciso di sposarvi.
+1	Città	Città	NOUN	S	Gender=Fem	11	nsubj	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	2	2	NUM	N	NumType=Card	1	nmod	_	_
+5	Maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2010	2010	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n
+7	Cari	caro	PROPN	SP	_	1	nmod	_	_
+8	Amici	Amici	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+10	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	imparare	imparare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	ccomp	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20-21	sposarvi	_	_	_	_	_	_	_	SpaceAfter=No
+20	sposar	sposare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	20	expl	_	_
+22	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Certo, accepto di venire con molto piacere.
+1	Certo	certo	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	accepto	accepre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	venire	venire	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Avevo un appuntamento, ma niente è più importante per me di vedervi contenti.
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	9	punct	_	_
+5	ma	ma	CCONJ	CC	_	9	cc	_	_
+6	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	9	nsubj	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	importante	importante	ADJ	A	Number=Sing	1	conj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13-14	vedervi	_	_	_	_	_	_	_	_
+13	veder	vedere	VERB	V	VerbForm=Inf	9	advcl	_	_
+14	vi	vi	ADV	B	_	13	advmod	_	_
+15	contenti	contento	ADJ	A	Number=Plur	13	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Vorrei anche dirvi che la vostra lettra è la migliore cosa che ho ricevuto dell'anno.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	anche	anche	ADV	B	_	3	advmod	_	_
+3-4	dirvi	_	_	_	_	_	_	_	_
+3	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	vi	vi	ADV	B	_	3	advmod	_	_
+5	che	che	SCONJ	CS	_	12	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	vostra	vostro	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+8	lettra	lettra	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	12	amod	_	_
+12	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	15	obj	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	acl:relcl	_	_
+16-17	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+16	di	di	ADP	E	_	18	case	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	anno	anno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Trovo che la cena in questo ristorante è una buona idea perché è molto conosciuto e reputato.
+1	Trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	11	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cena	cena	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	buona	buono	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	_
+12	perché	perché	SCONJ	CS	_	15	mark	_	_
+13	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	conosciuto	conosciuto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	reputato	reputato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Inoltre, un piacerebbe conoscere la lista che avete preparato a proposito degli regali.
+1	Inoltre	inoltre	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	conoscere	conoscere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	lista	lista	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	preparato	preparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	proposito	proposito	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+13-14	degli	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	regali	regalo	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Infine, RINgraziandovi in anticipo della vostra invitazione, vi abbraccio molto affettuosamente.
+1	Infine	infine	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	RINgraziandovi	_	_	_	_	_	_	_	_
+3	RINgraziando	RINgraziare	VERB	V	VerbForm=Ger	13	advcl	_	_
+4	vi	vi	ADV	B	_	3	advmod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	obj	_	_
+13	abbraccio	abbrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	affettuosamente	affettuosamente	ADV	B	_	13	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Maria
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

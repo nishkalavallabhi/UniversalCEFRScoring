@@ -1,0 +1,352 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0108993_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 19. August 2011 Julia Müller Zentralplatz 12 1234 Stadt X/AB Schweiz 0041 123334455 Au-pair-Agentur Schulz &
+1	Stadt	Stadt	NOUN	NN	_	4	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	den	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	19	19	NUM	CARD	NumType=Card	7	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	August	August	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+8	2011	2011	NUM	CARD	NumType=Card	17	nmod	_	SpacesAfter=\n
+9	Julia	Julia	PROPN	NE	_	17	nsubj	_	_
+10	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	9	flat	_	SpacesAfter=\n
+11	Zentralplatz	Zentralplatz	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	flat	_	_
+12	12	12	NUM	CARD	NumType=Card	13	nummod	_	SpacesAfter=\n
+13	1234	1234	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Stadt	Stadt	NOUN	NN	_	17	nmod	_	_
+15	X/AB	X/AB	PROPN	NE	_	16	amod	_	SpacesAfter=\n
+16	Schweiz	Schweiz	PROPN	NE	_	14	appos	_	SpacesAfter=\n
+17	0041	0041	NUM	CARD	NumType=Card	7	nummod	_	_
+18	123334455	123334455	NUM	CARD	NumType=Card	19	nummod	_	SpacesAfter=\n
+19	Au-pair-Agentur	Au-pair-Agentur	NOUN	NN	Case=Acc|Number=Sing	17	obj	_	_
+20	Schulz	Schulz	PROPN	NE	_	19	appos	_	_
+21	&	&	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Partner Regenstrasse 101 90451 Nürnberg Betreff: Beschwerde über die Gastfamilie und Ihre Leistungen Sehr geehrte Damen und Herren, Ich bin eine 23-jährige Schweizerin und habe als Au-Pair in einer Gastfamilie in Deutschland gearbeitet.
+1	Partner	Partn	NOUN	NN	Case=Nom|Number=Sing	22	nsubj	_	SpacesAfter=\n
+2	Regenstrasse	Regenstrasse	PROPN	NN	_	1	appos	_	_
+3	101	101	NUM	CARD	NumType=Card	1	nummod	_	SpacesAfter=\n
+4	90451	90451	NUM	CARD	NumType=Card	3	nummod	_	_
+5	Nürnberg	Nürnberg	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+6	Betreff	Betreff	PROPN	NN	_	5	flat	_	SpaceAfter=No
+7	:	:	PUNCT	$.	_	1	punct	_	_
+8	Beschwerde	Beschwerde	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux	_	_
+9	über	über	ADP	APPR	_	11	case	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Gastfamilie	Gastfamilie	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
+12	und	und	CCONJ	KON	_	17	cc	_	_
+13	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Leistungen	Leistung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpacesAfter=\n
+15	Sehr	Sehr	ADV	ADV	_	16	advmod	_	_
+16	geehrte	geehrt	ADJ	VVFIN	_	17	amod	_	_
+17	Damen	Dame	NOUN	NN	Case=Dat|Number=Plur	11	conj	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	Herren	Herr	NOUN	NN	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	SpacesAfter=\n
+21	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	23-jährige	23-jährig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	Schweizerin	Schweizerin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+26	und	und	CCONJ	KON	_	35	cc	_	_
+27	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	35	aux	_	_
+28	als	als	ADP	KOKOM	_	29	case	_	_
+29	Au-Pair	Au-Pair	NOUN	NN	_	35	obl	_	_
+30	in	in	ADP	APPR	_	32	case	_	_
+31	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	35	obl	_	_
+33	in	in	ADP	APPR	_	34	case	_	_
+34	Deutschland	Deutschland	PROPN	NE	_	32	nmod	_	_
+35	gearbeitet	arbeiten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	22	conj	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 3
+# text = Ich hatte Ihre Zeitungsanzeige mit grossem Interesse gelesen und deshalb bin ich durch Ihre Agentur nach Deutschland gefahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Zeitungsanzeige	Zeitungsanzeige	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	grossem	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Sing	7	amod	_	_
+7	Interesse	Interesse	NOUN	NN	Case=Dat|Number=Sing	8	obl	_	_
+8	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	und	und	CCONJ	KON	_	18	cc	_	_
+10	deshalb	deshalb	ADV	PAV	_	18	advmod	_	_
+11	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+13	durch	durch	ADP	APPR	_	15	case	_	_
+14	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Agentur	Agentur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+16	nach	nach	ADP	APPR	_	17	case	_	_
+17	Deutschland	Deutschland	PROPN	NE	Case=Dat|Number=Sing	15	nmod	_	_
+18	gefahren	fahren	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Ich muss mich leider darüber beschweren, dass es nicht so schön war wie es in Ihrer Anzeige geschrieben ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+4	leider	leider	ADV	ADV	_	6	advmod	_	_
+5	darüber	darüber	PRON	PAV	PronType=Dem,Rel	6	dep	_	_
+6	beschweren	beschweren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	19	mark	_	_
+9	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	expl	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+11	so	so	ADV	ADV	_	12	advmod	_	_
+12	schön	schön	ADJ	ADJD	Degree=Pos	19	advmod	_	_
+13	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+14	wie	wie	ADP	KOKOM	_	15	case	_	_
+15	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	obl	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	Ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Anzeige	Anzeige	NOUN	NN	_	19	obl	_	_
+19	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	6	ccomp	_	_
+20	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich fande diese Au-Pair-Möglichkeit wunderbar und hatte mich darüber sehr gefreut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	fande	fande	PROPN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Au-Pair-Möglichkeit	Au-Pair-Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+5	wunderbar	wunderbar	ADV	ADJD	_	11	advmod	_	_
+6	und	und	CCONJ	KON	_	11	cc	_	_
+7	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	_
+9	darüber	darüber	ADV	PAV	_	11	advmod	_	_
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
+11	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Aber leider war es eine schrekliche Erfahrung für mich.
+1	Aber	aber	CCONJ	KON	_	7	cc	_	_
+2	leider	leider	ADV	ADV	_	7	advmod	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+6	schrekliche	schreklich	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Erfahrung	Erfahrung	NOUN	NN	_	0	root	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Die Gastfamilie war unnett.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	unnett	unnett	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Man hatte mir gesagt, dass es 2 Kinder in der Familie gab.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+2	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+7	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+8	2	2	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Kinder	Kind	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+13	gab	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Aber in der Wirklichkeit hat die Gastfamilie 5 Kinder.
+1	Aber	aber	CCONJ	ADV	_	5	cc	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wirklichkeit	Wirklichkeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+5	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+8	5	5	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Ich konnte nicht für alle diese Kinder sorgen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	alle	alle	PRON	PIS	Case=Acc|PronType=Tot	8	obl	_	_
+6	diese	dies	PRON	PDAT	Case=Acc|Number=Plur|PronType=Dem	7	det	_	_
+7	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	8	obj	_	_
+8	sorgen	sorgen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Das war zu schwierig für mich!
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	zu	zu	ADV	PTKA	_	4	advmod	_	_
+4	schwierig	schwierig	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = In Ihrer Anzeige schreiben Sie, dass wir alle Infos und jede Hilfe die wir brauchen finden können.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	Ihrer	Ihr|ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Anzeige	Anzeige	NOUN	NN	_	4	obl	_	_
+4	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+8	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+9	alle	alle	PRON	PIAT	PronType=Tot	10	det	_	_
+10	Infos	Infos	NOUN	NN	_	4	ccomp	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	jede	jed	PRON	PIAT	PronType=Tot	13	det	_	_
+13	Hilfe	Hilfe	NOUN	NN	_	10	conj	_	_
+14	die	der	PRON	ART	Case=Nom|PronType=Dem	17	nsubj	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+16	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	17	acl	_	_
+17	finden	finden	VERB	VVINF	VerbForm=Inf	10	acl	_	_
+18	können	können	AUX	VMINF	VerbForm=Inf	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Wie kann das sein, dass, wenn ich angerufen habe, keiner Ihrer Angestellten mir helfen konnte.
+1	Wie	wie	ADV	KOUS	_	4	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+4	sein	sein	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	17	mark	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	angerufen	anrufen	VERB	VVPP	VerbForm=Part	17	advcl	_	_
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	10	punct	_	_
+13	keiner	kein	PRON	PIAT	PronType=Neg	17	advmod	_	_
+14	Ihrer	ihr	PRON	PPOSAT	Case=Gen|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Angestellten	Angestellte	NOUN	NN	Case=Acc|Number=Plur	17	obj	_	_
+16	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	17	iobj	_	_
+17	helfen	helfen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
+18	konnte	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Das ist eine Zumutung!
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Zumutung	Zumutung	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Ich erwarte von Ihnen eine Erklärung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	erwarte	erwarten	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	von	von	ADP	APPR	_	4	case	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	2	obl	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Erklärung	Erklärung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Es ist nicht im Sinne Ihrer Betrieb, dass solche Erlebnis stattfinden.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Sinne	Sinn	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	0	root	_	_
+7	Ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Betrieb	Betrieb	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+11	solche	solch	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+12	Erlebnis	Erlebnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+13	stattfinden	stattfinden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	8	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 17
+# text = Ausserdem wäre es wünschenswert, dass Sie in der Zukunft über die Gastfamilie besser informiert werden.
+1	Ausserdem	außerdem	ADV	PAV	_	4	advmod	_	_
+2	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	wünschenswert	wünschensweren	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+7	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	15	nsubj:pass	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Zukunft	Zukunft	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+11	über	über	ADP	APPR	_	13	case	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Gastfamilie	Gastfamilie	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+14	besser	gut	ADJ	ADJD	Degree=Cmp	15	advmod	_	_
+15	informiert	informieren	VERB	VVPP	VerbForm=Part	4	ccomp	_	_
+16	werden	werden	AUX	VAINF	VerbForm=Inf	15	aux:pass	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Eine Lösung möchte sein, dass die Gastfamilie eine Anmeldungsformular schreiben müssen.
+1	Eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Lösung	Lösung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	möchte	mögen	VERB	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	sein	sein	AUX	VAINF	VerbForm=Inf	3	aux	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+7	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Anmeldungsformular	Anmeldungsformular	PROPN	NN	Case=Acc|Number=Sing	11	obj	_	_
+11	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+12	müssen	müssen	AUX	VMINF	VerbForm=Inf	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Ich hoffe, dass Sie meinen Standpunkt verstehen werden und stehe Ihnen zur Verfügung, wenn Sie andere Informationen über meine Erfahrungen wollten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	_
+6	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Standpunkt	Standpunkt	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+8	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	_
+9	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	stehe	stehen	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
+12	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	11	iobj	_	_
+13-14	zur	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Verfügung	Verfügung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	11	punct	_	_
+17	wenn	wenn	SCONJ	KOUS	_	24	mark	_	_
+18	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	24	nsubj	_	_
+19	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	20	amod	_	_
+20	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+21	über	über	ADP	APPR	_	23	case	_	_
+22	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	24	obl	_	_
+24	wollten	wollen	VERB	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Mit freundlichen Grüßen Julia Müller
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Julia	Julia	PROPN	NE	_	3	appos	_	_
+5	Müller	Müller	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

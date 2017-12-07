@@ -1,0 +1,48 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024864_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Jens wie geht es Ihrene?
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+3	wie	wie	ADV	KOKOM	_	4	advmod	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+6	Ihrene	Ihrene	NOUN	NN	_	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = mir gut. glückwünsche zu deine baby.
+1	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	gut	guen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+4	glückwünsche	glückwünsch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	7	amod	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	deine	dein	NOUN	NN	Case=Acc|Number=Plur	7	nmod	_	_
+7	baby	baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Was Ich bringe zu der muttur und der Baby?
+1	Was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	muttur	muttur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Baby	Baby	PROPN	NN	_	6	conj	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Wie heißen Ihre Baby? freundlich Grüsse Ihre Julia
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	heißen	heißen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Baby	Baby	PROPN	NN	_	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	freundlich	freundlich	ADJ	ADJD	Degree=Pos	7	advmod	_	SpacesAfter= 
+7	Grüsse	Gruß	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Julia	Julia	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

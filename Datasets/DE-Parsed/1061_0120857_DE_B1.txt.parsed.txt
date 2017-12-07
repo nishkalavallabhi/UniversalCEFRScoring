@@ -1,0 +1,145 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120857_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 12.03.12 Liebe Silke, Ich freue mich deinen Brief zu bekommen.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	12.03.12	12.03.12	PROPN	NN	_	6	amod	_	SpacesAfter=\n
+6	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+7	Silke	Silke	PROPN	NE	_	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	freue	freue	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	1	acl	_	_
+11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	deinen	deinen	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Es geht mir gut und auch meiner Familie geht es ganz gut.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	_
+5	und	und	CCONJ	KON	_	9	cc	_	_
+6	auch	auch	ADV	ADV	_	9	advmod	_	_
+7	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	conj	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	ganz	ganz	ADV	ADV	_	12	advmod	_	_
+12	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Es is toll dass, deinem Sohn eine gute geschenk bekommen hat.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	is	is	VERB	ADJA	_	3	cop	_	_
+3	toll	toll	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	dass	daß	SCONJ	KOUS	_	11	mark	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	deinem	dein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	7	det	_	_
+7	Sohn	Sohn	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	iobj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	gute	gut	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	geschenk	geschenk	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+11	bekommen	bekommen	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+12	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich liebe auch Katze, aber ich habe noch nicht eine kleine Katze gefunden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	liebe	lieben	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	Katze	Katze	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	14	punct	_	_
+6	aber	aber	CCONJ	ADV	_	14	cc	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	noch	noch	ADV	ADV	_	10	advmod	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
+11	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	kleine	klein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+14	gefunden	finden	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Velleicht du kannst mir zum Geburtstag eine Katze schenken :)
+1	Velleicht	Velleicht	NOUN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	10	nsubj	_	_
+3	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	schenken	schenken	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	:)	:)	PUNCT	NN	_	10	punct	_	_
+
+# sent_id = 6
+# text = Das würde mich sehr freuen.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Am Wochenende habe ich eine klein Geburtstag Party.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	eine	ein	DET	ART	Case=Nom|Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+7	klein	klein	ADJ	ADJD	Degree=Pos	8	amod	_	_
+8	Geburtstag	Geburtstag	PROPN	NN	_	0	root	_	_
+9	Party	Party	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ich lade dir und deiner Familie zur Party.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lade	lade	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	amod	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	3	conj	_	_
+6	Familie	Familie	NOUN	NN	_	2	nmod	_	_
+7-8	zur	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Party	Party	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Nach dem Geburtstag Party besuche ich dir wieder.
+1	Nach	nach	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	0	root	_	_
+4	Party	Party	NOUN	NN	_	5	compound	_	_
+5	besuche	besuchen	NOUN	NN	Case=Acc|Number=Plur	7	obj	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	obj	_	_
+8	wieder	wieder	ADV	ADV	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Bis bald.
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Maria
+1	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

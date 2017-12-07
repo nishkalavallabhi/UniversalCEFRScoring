@@ -1,0 +1,241 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100182_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 14 maggio 2011
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	14	14	NUM	N	NumType=Card	1	nmod	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Cara Beatrice, caro Stefano, ieri ho ricevuto la Vostra invitazione per la Vostra cerimonia di matrimonio e Vi vorrei ringraziare moltissimo.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+7	ieri	ieri	ADV	B	_	9	advmod	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	Vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	per	per	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Vostra	vostro	PROPN	SP	_	9	obl	_	_
+16	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	22	obj	_	_
+21	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	ringraziare	ringraziare	VERB	V	VerbForm=Inf	9	conj	_	_
+23	moltissimo	molto	ADV	B	Degree=Abs	22	advmod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 3
+# text = Quando ho letto quest'invitazione ho telefonato direttamente Paola e Marco e gli ho raccontato la novità!
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+4	quest'	questo	DET	DD	Number=Sing|PronType=Dem	5	det	_	SpaceAfter=No
+5	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	telefonato	telefonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	direttamente	direttamente	ADV	B	_	7	advmod	_	_
+9	Paola	Paola	PROPN	SP	_	7	xcomp	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Marco	Marco	PROPN	SP	_	9	conj	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	gli	gli	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	iobj	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	novità	novità	NOUN	S	Gender=Fem	15	obj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Congratulazione!
+1	Congratulazione	Congratulazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Finalmente avete deciso che volete vivere insieme come moglie e marito.
+1	Finalmente	finalmente	ADV	B	_	3	advmod	_	_
+2	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	vivere	vivere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	insieme	insieme	ADV	B	_	6	advmod	_	_
+8	come	come	ADP	E	_	9	case	_	_
+9	moglie	moglie	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	marito	marito	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Siete un po' curiosi?
+1	Siete	essere	AUX	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	4	advmod	_	_
+4	curiosi	curioso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Credo che e il nervocismo e la curiosità e i dubbi siano normali prima della ceremonia.
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	1	obj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	nervocismo	nervocismo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	curiosità	curiosità	NOUN	S	Gender=Fem	2	conj	_	_
+9	e	e	CCONJ	CC	_	13	cc	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	dubbi	dubbio	NOUN	S	Gender=Masc|Number=Plur	13	nsubj	_	_
+12	siano	essere	AUX	V	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	normali	normale	ADJ	A	Number=Plur	2	conj	_	_
+14	prima	prima	ADV	B	_	17	case	_	_
+15-16	della	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	ceremonia	ceremonia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = In seguito vorrei riferendomi a quello che mi avete scritto:
+1	In	in	ADP	E	_	2	case	_	_
+2	seguito	seguito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4-5	riferendomi	_	_	_	_	_	_	_	_
+4	riferendo	riferire	VERB	V	VerbForm=Ger	0	root	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	11	obj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl:relcl	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 9
+# text = L'invitazione mi dà l'informazione che vi sposerete a Napoli in Chiesa Di Santa Chiara.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	dà	dare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	che	che	PRON	PR	PronType=Rel	9	obj	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	sposerete	sposeere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Napoli	Napoli	PROPN	SP	_	9	obl	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Chiesa	Chiesa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	Di	Di	ADP	E	_	15	case	_	_
+15	Santa	Santa	PROPN	SP	_	13	nmod	_	_
+16	Chiara	Chiara	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Dopo vorreste festeggiare al ristorante che si chiama "Da Ciro".
+1	Dopo	dopo	ADP	E	_	3	mark	_	_
+2	vorreste	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	festeggiare	festeggiare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	9	nsubj	_	_
+8	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl	_	_
+9	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+10	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+11	Da	da	ADP	E	_	12	case	_	_
+12	Ciro	Ciro	PROPN	SP	_	9	xcomp	_	SpaceAfter=No
+13	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Mi dispiace, ma lavorò il 20 Novembre coneguentemente parteciperò solitamente alla festa.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	dispiace	dispiacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	lavorò	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	_	SpacesAfter=\s\s
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	20	20	NUM	N	NumType=Card	10	obl	_	_
+8	Novembre	novembre	PROPN	SP	_	7	flat	_	_
+9	coneguentemente	coneguentemente	ADV	B	_	10	advmod	_	_
+10	parteciperò	parteciperò	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	advcl	_	_
+11	solitamente	solito	ADV	B	_	10	advmod	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	festa	festa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Che cosa Vi posso regalare?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+3	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	regalare	regalare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Penso che volete viaggiare dopo la ceremonia dunque Vi farrò una sorpresa addatta.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	viaggiare	viaggiare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+5	dopo	dopo	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	ceremonia	ceremonia	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+8	dunque	dunque	ADV	B	_	10	advmod	_	_
+9	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	10	iobj	_	_
+10	farrò	farrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	addatta	addatto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Forse troverò una cosa utile ...
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	troverò	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	utile	utile	ADJ	A	Number=Sing	4	amod	_	_
+6	...	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = -symbol- Spero di ricevere presto una vostra lettera o una Vostra telefonata.
+1	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	symbol	symbol	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	_
+4	Spero	Spero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	ricevere	ricevere	VERB	V	VerbForm=Inf	4	ccomp	_	_
+7	presto	presto	ADV	B	_	6	advmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+11	o	o	CCONJ	CC	_	14	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	Vostra	vostro	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+14	telefonata	telefonata	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = Molto affettuosamente Maria
+1	Molto	molto	ADV	B	_	2	advmod	_	_
+2	affettuosamente	affettuosamente	ADV	B	_	3	advmod	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

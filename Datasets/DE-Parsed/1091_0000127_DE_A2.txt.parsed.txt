@@ -1,0 +1,92 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000127_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 19.01.2012 Sehr geehrte Damen und Herren, ich suche eine Wohnung.
+1	19.01.2012	19.01.2012	NUM	CARD	NumType=Card	4	nmod	_	SpacesAfter=\n
+2	Sehr	Sehr	ADV	ADV	_	3	advmod	_	_
+3	geehrte	geehrt	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Damen	Dame	NOUN	NN	_	8	compound	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Herren	Herr	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	4	punct	_	SpacesAfter=\n
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ich bin verheiratet und habe drei Kinder.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	verheiratet	verheiratet	ADJ	VVPP	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	drei	drei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Meine Wohnung ist Klein und möchte ich umzehen.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Klein	klein	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	umzehen	umzehen	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Können Sie mir helfen ich möchte 4 Zimmer Mit Balkon und Garage.
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+7	4	4	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+9	Mit	mit	ADP	APPR	_	10	case	_	_
+10	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	8	nmod	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Garage	Garage	NOUN	NN	_	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Aber die Miete nicht viel hoch.
+1	Aber	aber	ADV	KON	_	6	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	viel	viel	VERB	PIS	_	6	advmod	_	_
+6	hoch	hoch	ADJ	PTKVZ	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Weil ich nicht arbetet Kann ich nich über 700 € besahlen Ich freu mich Wenn Sie mir finden Mit freundliche Grüße Eva Winkelmann
+1	Weil	weil	SCONJ	KOUS	_	4	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	arbetet	arbeten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	advcl	_	_
+5	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	nich	nich	PART	ADJD	Polarity=Neg	11	advmod	_	_
+8	über	über	ADP	APPR	_	10	case	_	_
+9	700	700	NUM	CARD	NumType=Card	10	nummod	_	_
+10	€	€	X	NN	_	11	obl	_	_
+11	besahlen	besahlen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+12	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+13	freu	freu	ADJ	ADJD	Degree=Pos	18	advmod	_	_
+14	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	18	obj	_	_
+15	Wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
+16	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	18	nsubj	_	_
+17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	18	iobj	_	_
+18	finden	finden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	11	parataxis	_	SpacesAfter=\n
+19	Mit	mit	ADP	APPR	_	21	case	_	_
+20	freundliche	freundlich	ADJ	ADJA	Degree=Pos	21	amod	_	_
+21	Grüße	Grüße	NOUN	NN	_	18	obl	_	SpacesAfter=\s\n
+22	Eva	Eva	PROPN	NE	_	21	appos	_	_
+23	Winkelmann	Winkelmann	PROPN	NE	_	22	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,177 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100299_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 5 Gennaio 2012 Caro Mauro, Te ringrazio per la tua lettera.
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	5	5	NUM	N	NumType=Card	5	nummod	_	_
+5	Gennaio	gennaio	PROPN	SP	_	7	nmod	_	_
+6	2012	2012	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\s\n
+7	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+8	Mauro	Mauro	PROPN	SP	_	1	appos	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+10	Te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	11	obj	_	_
+11	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = Sono felice di aver ricevuto un segno di vite!
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	mark	_	_
+4	aver	avere	AUX	VA	VerbForm=Inf	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	segno	segno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	vite	vita	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Que buona idea di imparare a cucinare.
+1	Que	Quire	ADV	B	_	2	advmod	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	imparare	imparare	VERB	V	VerbForm=Inf	3	acl	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	cucinare	cucinare	VERB	V	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Sapere cucinare è sempre utile ...
+1	Sapere	sapere	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	cucinare	cucinare	ADJ	A	Number=Sing	1	amod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	utile	utile	ADJ	A	Number=Sing	0	root	_	_
+6	...	.	PUNCT	FF	_	5	punct	_	_
+
+# sent_id = 5
+# text = Quante volte avranno luogo queste serate?
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	volte	volta	NOUN	S	Gender=Fem|Number=Plur	3	obl	_	_
+3	avranno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+4	luogo	luogo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	6	det	_	_
+6	serate	serata	NOUN	S	Gender=Fem|Number=Plur	3	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ci sono molte persone interessante?
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	interessante	interessante	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Da quali paese sono i piatti?
+1	Da	da	ADP	E	_	3	case	_	_
+2	quali	quale	DET	DQ	PronType=Int	3	det	_	_
+3	paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = A me mi piace d'appertutto la cucina tailandese perchè è molto semplice da fare ed è una cucina sana.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	appertutto	appertutto	ADV	B	_	4	advmod	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+9	tailandese	tailandese	ADJ	A	Number=Sing	8	amod	_	_
+10	perchè	perché	SCONJ	CS	_	13	mark	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	semplice	semplice	ADJ	A	Number=Sing	4	advcl	_	_
+14	da	da	ADP	E	_	15	mark	_	_
+15	fare	fare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16	ed	e	CCONJ	CC	_	19	cc	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+20	sana	sano	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Hai mai fatto un curry verde con gamberoni?
+1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	mai	mai	ADV	B	_	3	advmod	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	curry	curry	NOUN	S	Number=Sing	3	obj	_	_
+6	verde	verde	ADJ	A	Number=Sing	5	amod	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	gamberoni	gamberone	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Te lo suggero da fare.
+1	Te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+2	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	suggero	suggero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Il mio piatto preferito del mio paese è il "Zürcher Geschnetzeltes", ti manderò un elenco degli ingredienti necessari.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	piatto	piatto	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	_
+4	preferito	preferire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	paese	paese	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Zürcher	Zürcher	PROPN	SP	_	0	root	_	_
+13	Geschnetzeltes	Geschnetzeltes	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	12	punct	_	_
+16	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	iobj	_	_
+17	manderò	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	parataxis	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	elenco	elenco	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20-21	degli	_	_	_	_	_	_	_	_
+20	di	di	ADP	E	_	22	case	_	_
+21	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+22	ingredienti	ingrediento	NOUN	S	Gender=Masc|Number=Plur	19	nmod	_	_
+23	necessari	necessario	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Spero di vederti presto così possiamo cucinare insieme!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	vederti	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+5	presto	presto	ADV	B	_	3	advmod	_	_
+6	così	così	ADV	B	_	1	advmod	_	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	cucinare	cucinare	VERB	V	VerbForm=Inf	1	advcl	_	_
+9	insieme	insieme	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Cordiali saluti Maria
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

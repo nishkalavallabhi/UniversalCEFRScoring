@@ -1,0 +1,158 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000409_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Ciao Franca, Luca e Remo Come state?
+1	Ciao	ciao	INTJ	I	_	7	discourse	_	_
+2	Franca	Franca	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Luca	Luca	PROPN	SP	_	1	appos	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Remo	ere	PROPN	SP	_	4	conj	_	SpacesAfter=\n
+7	Come	come	X	SW	Foreign=Yes	0	root	_	_
+8	state	essere	X	SW	Foreign=Yes|Number=Sing	7	nsubj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Due settimane fa ho cominciato il corso d'italiano a Città X.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+9	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Città	città	PROPN	SP	_	5	obl	_	_
+12	X	x	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Il livello non è alto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	livello	livello	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	alto	alto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ma i participanti e anche l'insegnante sono bellissimi persone.
+1	Ma	ma	CCONJ	CC	_	9	cc	_	_
+2	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	participanti	participante	NOUN	S	Number=Plur	9	nsubj	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	insegnante	insegnante	NOUN	S	Number=Sing	3	conj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	bellissimi	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	10	amod	_	_
+10	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 5
+# text = È molto divertente.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	divertente	divertente	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Nel tempo libero visitiamo la bella città.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	visitiamo	visitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	bella	bello	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	città	città	NOUN	S	Gender=Fem	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Mi piaciono i palazzi vecchii e i piccoli e grandi ponti.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piaciono	piacrire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	palazzi	palazzo	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	vecchii	vecchii	ADJ	A	Gender=Masc|Number=Plur	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	piccoli	piccolo	ADJ	A	Gender=Masc|Number=Plur	4	conj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	grandi	grande	ADJ	A	Number=Plur	11	amod	_	_
+11	ponti	ponte	NOUN	S	Gender=Fem|Number=Plur	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = L' insegnante ci ha consigliato dove possiamo mangiare bene.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
+2	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	consigliato	consigliare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	dove	dove	ADV	B	_	8	advmod	_	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	mangiare	mangiare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Rimango a Città X fino al 24.
+1	Rimango	Rimanire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	1	obl	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	fino	fino	ADV	B	_	8	case	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	5	fixed	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	24	24	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = agosto.
+1	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Spero di vedervi in questo periodo.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	vedervi	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Abito in un apartamento e cosi ho posto per voi.
+1	Abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	apartamento	apartamento	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	cosi	coso	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	posto	porre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Venite a trovarmi.
+1	Venite	Venire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	trovarmi	arma|trovarme	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Tanti saluti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

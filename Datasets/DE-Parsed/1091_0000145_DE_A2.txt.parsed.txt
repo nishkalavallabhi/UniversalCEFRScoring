@@ -1,0 +1,54 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000145_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X. 19.01.2011 Maria Müller Zentralplatz 12 12345 Stadt X An Wohnungsamt Sehr geerte Herren Ich suche 3 Zimmer Wonung mit Balkon und Garage.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X.	X.	PROPN	NE	_	1	appos	_	_
+3	19.01.2011	19.01.2011	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	flat	_	_
+5	Müller	Müller	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+6	Zentralplatz	Zentralplatz	PROPN	NN	_	3	flat	_	_
+7	12	12	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	12345	12345	NUM	CARD	NumType=Card	1	nummod	_	_
+9	Stadt	Stadt	NOUN	NN	_	1	appos	_	_
+10	X	X	PROPN	NN	_	9	appos	_	SpacesAfter=\n
+11	An	an	PROPN	APPR	_	16	nmod	_	_
+12	Wohnungsamt	Wohnungsamt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	16	amod	_	SpacesAfter=\n
+13	Sehr	sehr	PROPN	ADV	_	15	advmod	_	_
+14	geerte	geert	ADJ	ADJA	Degree=Pos	15	amod	_	_
+15	Herren	Herr	NOUN	NN	_	16	nmod	_	SpacesAfter=\n
+16	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+17	suche	such	NOUN	NN	Case=Acc|Number=Plur	16	obj	_	_
+18	3	3	NUM	CARD	NumType=Card	19	nummod	_	_
+19	Zimmer	zimmer	NOUN	NN	Case=Nom|Number=Sing	17	nsubj	_	_
+20	Wonung	Wonung	NOUN	NN	_	19	appos	_	_
+21	mit	mit	ADP	APPR	_	22	case	_	_
+22	Balkon	Balken	NOUN	NN	Case=Dat|Number=Sing	19	nmod	_	_
+23	und	und	CCONJ	KON	_	24	cc	_	_
+24	Garage	Garagen	NOUN	NN	_	22	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Weil meine Wohnung ist zu klein.
+1	Weil	weil	SCONJ	KOUS	_	6	mark	_	_
+2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	zu	zu	ADV	PTKA	_	6	advmod	_	_
+6	klein	klein	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Ich suche bis 500 Euro Warm Mit freundlinchen Grußen Julia Winkelmann
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	1	nsubj	_	_
+3	bis	bis	ADP	APPR	_	4	case	_	_
+4	500	500	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Euro	Euro	PROPN	NN	_	2	nmod	_	_
+6	Warm	warm	PROPN	NN	_	2	appos	_	SpacesAfter=\n
+7	Mit	mit	ADP	APPR	_	9	case	_	_
+8	freundlinchen	freundlinch	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Grußen	Gruße	NOUN	NN	_	1	nmod	_	SpacesAfter=\n
+10	Julia	Julia	PROPN	NE	_	9	flat	_	_
+11	Winkelmann	Winkelmann	PROPN	NE	_	9	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,45 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000014_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Julia, Ich haben eine Fahrkarte Für einen Wochenendausflug.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	5	nsubj	_	_
+2	Julia	Julia	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	Für	für	ADP	APPR	_	10	case	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Leider können Sie aber nicht Fahren Wichtig ich muss am Wochenende arbeiten.
+1	Leider	leider	ADV	ADV	_	6	advmod	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	_
+4	aber	aber	ADV	ADV	_	6	advmod	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	Fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+7	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	6	xcomp	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	muss	müssen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	SpacesAfter=\s\n
+13	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Wann du Dank und herzliche Grüße M. Meier
+1	Wann	wann	ADV	ADV	_	3	advmod	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	det:poss	_	SpacesAfter=\n
+3	Dank	Dank	NOUN	NN	Case=Acc|Number=Sing	0	root	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	herzliche	herzlich	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Grüße	Grüße	NOUN	NN	_	3	conj	_	SpacesAfter=\n
+7	M.	M.	PROPN	NE	_	3	appos	_	_
+8	Meier	Meier	PROPN	NN	_	7	flat	_	SpacesAfter=\n
+

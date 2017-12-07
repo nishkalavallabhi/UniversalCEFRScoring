@@ -1,0 +1,82 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000527_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 26 Novembre 2010 Caro Bruno, Come va?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	26	26	NUM	N	NumType=Card	1	nmod	_	_
+5	Novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2010	2010	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n
+7	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	11	parataxis	_	_
+8	Bruno	Bruno	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	SpacesAfter=\n
+10	Come	come	SCONJ	CS	_	11	mark	_	_
+11	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io sto bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Lavoro a Città X nelle Aziende X.
+1	Lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	1	nmod	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	Aziende	aziende	PROPN	SP	_	3	nmod	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi occupo delle informazioni dei clienti.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	occupo	occupo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	clienti	cliente	NOUN	S	Number=Plur	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Un mese adesso, sono andato a Londra per una settimana.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mese	mese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	adesso	adesso	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Londra	Londra	PROPN	SP	_	6	obl	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Voglio ti incontrare il 27 Dicembre.
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+3	incontrare	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	27	27	NUM	N	NumType=Card	3	obl	_	_
+6	Dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Cari saluti Michele
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

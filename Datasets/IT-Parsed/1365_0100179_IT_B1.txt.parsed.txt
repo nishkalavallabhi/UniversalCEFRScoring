@@ -1,0 +1,153 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100179_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18 Agosto Cara Beatrice, caro Stefano, mi piace la novità che festeggierete il vostro matrimonio nella Chiesa di Santa Chiara.
+1	Città	Città	PROPN	SP	_	13	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	18	18	NUM	N	NumType=Card	5	nummod	_	_
+5	Agosto	agosto	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n
+6	Cara	Cara	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	Beatrice	Beatore	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	caro	caro	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+10	Stefano	Stefano	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	novità	novità	NOUN	S	Gender=Fem	13	obj	_	_
+16	che	che	PRON	PR	PronType=Rel	17	nsubj	_	_
+17	festeggierete	festeggieere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+19	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+21-22	nella	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+24	di	di	ADP	E	_	25	case	_	_
+25	Santa	Santa	PROPN	SP	_	23	nmod	_	_
+26	Chiara	Chiara	PROPN	SP	_	25	flat:name	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Quindi vorrei fare la mia congratulazione e vi ringrazio per questa carta.
+1	Quindi	quindi	ADV	B	_	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	congratulazione	congratulazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	9	iobj	_	_
+9	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	carta	carta	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ma a causa del compleanno di mio filgio non posso andare alla cerimonia.
+1	Ma	ma	CCONJ	CC	_	12	cc	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	causa	causa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	compleanno	compleanno	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	SpacesAfter=\s\s
+9	filgio	filgio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+13-14	alla	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 4
+# text = Spero che Beatrice non sia triste.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	Beatrice	Beatore	PROPN	SP	_	6	nsubj	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	triste	triste	ADJ	A	Number=Sing	1	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ma permetto che festeggi con voi alla ristorante e vi presenterò Marco che mi accompagnerà.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	permetto	permettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	festeggi	festeggiare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	vi	vi	ADV	B	_	12	advmod	_	_
+12	presenterò	presentare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	_	_
+13	Marco	Marco	PROPN	SP	_	12	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	accompagnerà	accompagnare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Siccomè so che vi piaci il vino dell'Italia, vi vogliamo regalare sei bottiglie di vino che molti abitanti dell'Italia amano.
+1	Siccomè	Siccomè	CCONJ	CC	_	2	cc	_	_
+2	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	vi	vi	ADV	B	_	5	advmod	_	_
+5	piaci	piaco	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	vino	vino	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Italia	Italia	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	14	iobj	_	_
+13	vogliamo	volere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	regalare	regalare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+15	sei	sei	NUM	N	NumType=Card	16	nummod	_	_
+16	bottiglie	bottiglia	NOUN	S	Gender=Fem|Number=Plur	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	vino	vino	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+19	che	che	SCONJ	CS	_	25	mark	_	_
+20	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	21	det	_	_
+21	abitanti	abitante	NOUN	S	Number=Plur	25	nsubj	_	_
+22-23	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+22	di	di	ADP	E	_	24	case	_	_
+23	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
+24	Italia	Italia	PROPN	SP	_	21	nmod	_	_
+25	amano	amare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Spero che la ceremonia erà bellissima.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	ceremonia	ceremonia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	erà	are	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+6	bellissima	bello	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Tanti saluti!
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Maria Rossi
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

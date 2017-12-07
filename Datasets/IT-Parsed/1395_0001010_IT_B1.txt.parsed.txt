@@ -1,0 +1,129 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001010_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 28.05.2011
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	28.05.2011	28.05.201l	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Cari amici, Come state?
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	amici	amico	NOUN	S	Gender=Masc|Number=Plur	4	vocative	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Come	come	X	SW	Foreign=Yes	0	root	_	_
+5	state	essere	X	SW	Foreign=Yes|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Sono a Città X per tre settimane.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	0	root	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Sto facendo un corso di italiano per imparare la lingua.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	imparare	imparare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Mia insegnante si chiama Gea.
+1	Mia	mio	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+2	insegnante	insegnante	NOUN	S	Number=Sing	1	compound	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Gea	Gea	PROPN	SP	_	4	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Lei è molto brava e fa il corso molto strutturato.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	brava	bravo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	strutturato	strutturato	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = In lo stesso gruppo c'è anche una amicha Anna di Svizzera, la consco già della scuola.
+1	In	in	ADP	E	_	4	case	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+4	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+6	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	amicha	amicha	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+10	Anna	Anna	PROPN	SP	_	9	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Svizzera	Svizzera	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+15	consco	consco	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+16	già	già	ADV	B	_	19	advmod	_	_
+17-18	della	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = In mio tempo libero sto facendo un corso di tennis, che mi piace molto.
+1	In	in	ADP	E	_	3	case	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	che	che	PRON	PR	PronType=Rel	14	nsubj	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+15	molto	molto	ADV	B	_	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Vi mando tanti saluti con un affettoso abbraccio.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	mando	mare	VERB	V	VerbForm=Ger	0	root	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	con	con	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	affettoso	affettoso	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = A presto in Svizzera Maria
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	4	advmod	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Svizzera	Svizzera	PROPN	SP	_	0	root	_	SpacesAfter=\s\s\s
+5	Maria	Maria	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

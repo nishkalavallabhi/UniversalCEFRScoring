@@ -1,0 +1,113 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000198_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Sehr geehrte Damen und Herren, mit Ihrer Anzeige wir am „Stadt X-Wohnungsamt" vom 1.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	Ihrer	ihr	PRON	PPOSAT	Case=Gen|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+11-12	am	_	_	_	_	_	_	_	_
+11	an	an	ADP	APPR	_	15	case	_	_
+12	dem	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
+13	„	„	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+14	Stadt	Stadt	NOUN	NN	_	15	nmod	_	_
+15	X-Wohnungsamt	X-Wohnungsamt	NOUN	NN	_	9	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	$(	_	15	punct	_	_
+17-18	vom	_	_	_	_	_	_	_	_
+17	von	von	ADP	APPR	_	16	case	_	_
+18	dem	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
+19	1	1	NUM	CARD	NumType=Card	17	dep	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 2
+# text = April gelesen.
+1	April	April	PROPN	NN	_	2	dep	_	_
+2	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich bin Arzt von Beruf, wir haben ein Kind, meine Frau arbeitet kauffrau bei XY-Büro, wir müssen größere Wohnung umziehen, weil unser Kind ein zimmer haben muss.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Arzt	Arzt	NOUN	NN	_	0	root	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	Beruf	Beruf	NOUN	NN	Case=Dat|Number=Sing	3	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+8	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Kind	Kind	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	14	obj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	arbeitet	arbeiten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
+15	kauffrau	kauffrau	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+16	bei	bei	ADP	APPR	_	17	case	_	_
+17	XY-Büro	XY-Büro	PROPN	NE	_	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	23	punct	_	_
+19	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	nsubj	_	_
+20	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	größere	groß	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Sing	22	amod	_	_
+22	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+23	umziehen	umziehen	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	14	punct	_	_
+25	weil	weil	SCONJ	KOUS	_	30	mark	_	_
+26	unser	unser	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	Kind	Kind	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	30	obj	_	_
+28	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	29	det	_	_
+29	zimmer	zimmer	NOUN	NN	Case=Acc|Number=Sing	30	obj	_	_
+30	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+31	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich habe Fragen über Ihre wohnung, wie hoch sind Miete, Nebenkosten und Umlagen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	Fragen	Frage	NOUN	NN	Case=Nom|Number=Plur	9	nsubj	_	_
+4	über	über	ADP	APPR	_	6	case	_	_
+5	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	3	punct	_	_
+8	wie	wie	ADV	KOKOM	_	9	advmod	_	_
+9	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	_
+10	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+11	Miete	Miete	NOUN	NN	_	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Nebenkosten	Nebenkosten	NOUN	NN	_	11	conj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Umlagen	Umlagen	NOUN	NN	_	11	conj	_	SpaceAfter=No
+16	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Haben Sie Balkon oder die Garage?
+1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+3	Balkon	Balken	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	oder	oder	CCONJ	KON	_	6	cc	_	_
+5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Garage	Garage	NOUN	NN	_	3	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Wir hoffen auf Ihre Baldige Antwort mit freundlichen Grüßen Michael und Maria Meier
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffen	hoffen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	Ihre	Ihr|ihr	NOUN	NN	_	5	nmod	_	_
+5	Baldige	Baldig	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	_	2	obl	_	_
+7	mit	mit	ADP	APPR	_	9	case	_	SpacesAfter=\s\n
+8	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Grüßen	grüßen	NOUN	NN	_	2	obl	_	SpacesAfter=\n
+10	Michael	Michael	PROPN	NE	_	9	appos	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Maria	Maria	PROPN	NE	_	10	conj	_	_
+13	Meier	Meier	PROPN	NN	_	12	flat	_	SpacesAfter=\n
+

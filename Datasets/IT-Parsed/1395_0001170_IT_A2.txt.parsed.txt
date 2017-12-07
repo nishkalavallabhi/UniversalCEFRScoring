@@ -1,0 +1,144 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001170_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 26 Novembre '11 Caro Gianni, cara Angela,
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	26	26	NUM	N	NumType=Card	1	nmod	_	_
+5	Novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	'11	'11	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+7	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+8	Gianni	Gianni	PROPN	SP	_	7	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	cara	cara	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	Angela	Angela	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\s\n\n
+
+# newpar
+# sent_id = 2
+# text = Come state?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	state	essere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = - Io qui mi trovo benissima!
+1	-	-	PUNCT	FF	_	5	punct	_	_
+2	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	qui	qui	ADV	B	_	5	advmod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	benissima	bene	ADJ	A	Degree=Abs|Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Sto a Città X e mi sono riuscita finalmente a seguire il corso di italiano que avevo desiderato fare per tanto tempo!
+1	Sto	stare	PROPN	SP	_	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	1	nmod	_	_
+4	X	X	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	expl	_	_
+7	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	riuscita	riuscire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	_
+9	finalmente	finalmente	ADV	B	_	8	advmod	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	seguire	seguire	VERB	V	VerbForm=Inf	8	xcomp	_	SpacesAfter=\s\s\s\s\s
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	corso	corso	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+16	que	que	PRON	PR	Number=Sing|PronType=Rel	18	obj	_	_
+17	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	18	aux	_	_
+18	desiderato	desiderare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+20	per	per	ADP	E	_	22	case	_	_
+21	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	22	det	_	_
+22	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	SpaceAfter=No
+23	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Fa tempo sereno e caldo, posso nuotare o passegiare il pomeriggio libero e la sera c'é nel centro una discoteca meravigliosa, dove posso ballare anche del tango con qualche nuovi amici italiani!
+1	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+3	sereno	sereno	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	nuotare	nuotare	VERB	V	VerbForm=Inf	1	conj	_	_
+9	o	o	CCONJ	CC	_	10	cc	_	_
+10	passegiare	passegiare	VERB	V	VerbForm=Inf	1	conj	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+13	libero	libero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	e	e	CCONJ	CC	_	23	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sera	sera	NOUN	S	Gender=Fem|Number=Sing	23	nmod	_	_
+17	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	23	expl	_	SpaceAfter=No
+18	é	é	ADV	B	_	23	advmod	_	_
+19-20	nel	_	_	_	_	_	_	_	_
+19	in	in	ADP	E	_	21	case	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	centro	centro	NOUN	S	Gender=Masc|Number=Sing	23	nmod	_	_
+22	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	discoteca	discoteca	NOUN	S	Gender=Fem|Number=Sing	12	conj	_	_
+24	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	dove	dove	ADV	B	_	28	advmod	_	_
+27	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	ballare	ballare	VERB	V	VerbForm=Inf	23	acl:relcl	_	_
+29	anche	anche	ADV	B	_	32	advmod	_	_
+30-31	del	_	_	_	_	_	_	_	_
+30	di	di	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	tango	tanire	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+33	con	con	ADP	E	_	36	case	_	_
+34	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	36	det	_	_
+35	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	_
+36	amici	amico	NOUN	S	Gender=Masc|Number=Plur	32	nmod	_	_
+37	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	36	amod	_	SpaceAfter=No
+38	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Insomma, spero che voi a Città Y vi divertite come bene come io a Città X!
+1	Insomma	insomma	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	ccomp	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Città	Città	PROPN	SP	_	5	nmod	_	_
+8	Y	y	PROPN	SP	_	7	flat:name	_	_
+9	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	10	advmod	_	_
+10	divertite	divertire	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	bene	bene	ADV	B	_	10	advmod	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Città	città	PROPN	SP	_	10	obl	_	_
+17	X	X	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Un forte abbraccio Maria P.S.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	forte	forte	ADJ	A	Number=Sing	3	amod	_	_
+3	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s
+4	Maria	Maria	PROPN	SP	_	3	nmod	_	SpacesAfter=\s\n
+5	P.S	P.S	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Anche il mio Italiano fa buoni progressi!
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	progressi	progresso	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+

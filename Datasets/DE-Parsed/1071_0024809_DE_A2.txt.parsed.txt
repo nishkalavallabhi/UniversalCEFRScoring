@@ -1,0 +1,54 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024809_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liber Ingo 16.3.2012 Wie geht´s dir, mir geht gut und meine famile auch.aber Ich haber eine Arbeit in Neuburg Mier brauch eine Wohnung.
+1	Liber	Liber	PROPN	NN	_	6	nmod	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	16.3.2012	16.3.2012	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	1	flat	_	SpacesAfter=\n
+4	Wie	Wi	PROPN	ADJA	Case=Dat|Gender=Masc,Neut|Number=Sing	1	flat	_	_
+5	geht´s	geht´s	PROPN	NE	_	1	appos	_	_
+6	dir	dir	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	gut	gut	ADJ	ADJD	Degree=Pos	18	amod	_	_
+11	und	und	CCONJ	KON	_	18	cc	_	_
+12	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
+13	famile	famile	ADJ	ADJA	Degree=Pos	18	amod	_	_
+14	auch.aber	auch.aber	SCONJ	KON	_	18	mark	_	_
+15	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	haber	haber	SCONJ	KON	_	18	mark	_	_
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+19	in	in	ADP	APPR	_	20	case	_	_
+20	Neuburg	Neuburg	PROPN	NE	_	18	nmod	_	_
+21	Mier	Mier	PROPN	NN	Case=Dat|Number=Sing	20	flat	_	_
+22	brauch	brauch	NOUN	VVIMP	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	_
+23	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Der Wohnung findet ich mit 75 m².
+1	Der	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	findet	finden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	75	75	NUM	CARD	NumType=Card	7	nummod	_	_
+7	m²	m²	NOUN	NN	Case=Dat|Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Größe Bitte hilfstu mir suhen eine Wohnung Libern Julia Winkelmann
+1	Größe	Größe	NOUN	NN	_	5	dep	_	_
+2	Bitte	Bitte	NOUN	PTKANT	_	3	compound	_	_
+3	hilfstu	hilfstu	PROPN	ADJA	_	1	appos	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	suhen	suhen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpacesAfter=\n
+8	Libern	Liber	PROPN	NN	_	7	appos	_	SpacesAfter=\n
+9	Julia	Julia	PROPN	NE	_	8	flat	_	_
+10	Winkelmann	Winkelmann	PROPN	NE	_	8	flat	_	SpacesAfter=\n
+

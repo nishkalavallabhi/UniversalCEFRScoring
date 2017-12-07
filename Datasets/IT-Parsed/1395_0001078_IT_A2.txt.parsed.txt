@@ -1,0 +1,126 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001078_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Mario 25/6/2011 sono in Città X per imparare la lingua italiana.
+1	Ciao	ciao	PROPN	SP	_	10	nsubj	_	_
+2	Mario	Mario	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	25	25	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	6	6	NUM	N	NumType=Card	3	compound	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	2011	2011	NUM	N	NumType=Card	5	compound	_	SpacesAfter=\s\n
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Città	Città	PROPN	SP	_	0	root	_	_
+11	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	10	amod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	imparare	imparare	VERB	V	VerbForm=Inf	10	advcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Faccio un corso di italiano per parlare.
+1	Faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	1	advcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = La mia insegnante è Maria Rossi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Maria	Maria	PROPN	SP	_	0	root	_	_
+6	Rossi	Rossi	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Lei ha 28 anni e fa un bel lavoro con la nostra classa.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	28	28	NUM	N	NumType=Card	4	nummod	_	_
+4	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	bel	bello	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	con	con	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	classa	classa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Nel mio corso siamo solo tre studenti.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = Barbara, lei ha 22 anni e viene da germania.
+1	Barbara	Barbara	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	22	22	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	germania	germania	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Peter, lui ha 23 anni e viene da svizzera e io.
+1	Peter	Peter	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	23	23	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	da	da	ADP	E	_	10	case	_	_
+10	svizzera	svizzero	ADJ	A	Gender=Fem|Number=Sing	8	obl	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ho imparato gia un po' di parlare l'italiano.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	gia	gia	ADV	B	_	2	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	di	di	ADP	E	_	7	mark	_	_
+7	parlare	parlare	VERB	V	VerbForm=Inf	5	acl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 9
+# text = Tanti saluti di Città X Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Città	città	PROPN	SP	_	2	nmod	_	_
+5	X	X	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+6	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

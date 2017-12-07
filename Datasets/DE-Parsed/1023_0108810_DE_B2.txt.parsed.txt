@@ -1,0 +1,341 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0108810_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Michael Schmidt Stadt X, 29. Juli 11 Bahnhofsstraße, 12 12345-100 Stadt X, SP-BR Au-pair-Agentur Schultz & Partner Regenstr.
+1	Michael	Michael	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmidt	PROPN	NE	_	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Stadt	Stadt	PROPN	NN	_	1	flat	_	_
+4	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	29	29	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
+8	Juli	Juli	PROPN	NN	_	1	flat	_	_
+9	11	11	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+10	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	9	flat	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	12	12	NUM	CARD	NumType=Card	13	nummod	_	SpacesAfter=\n
+13	12345-100	12345-100	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Stadt	Stadt	NOUN	NN	_	1	conj	_	_
+15	X	X	PROPN	NN	_	14	appos	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	SP-BR	SP-BR	PROPN	NN	_	1	conj	_	SpacesAfter=\n
+18	Au-pair-Agentur	Au-pair-Agentur	PROPN	NN	_	17	flat	_	_
+19	Schultz	Schultz	PROPN	NN	_	17	flat	_	_
+20	&	&	PUNCT	$.	_	21	punct	_	_
+21	Partner	Partner	NOUN	NN	_	1	conj	_	SpacesAfter=\n
+22	Regenstr	Regenstr	PROPN	NE	_	21	appos	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 101 90451 Nürnberg Sehr geehrte Au-pair-Agentur Schultz & Partner, ich habe schön ein Vierteljahr in dieser Gastfamilie verbracht aber ich bin sehr unzufrieden.
+1	101	101	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\s\n
+2	90451	90451	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Nürnberg	Nürnberg	PROPN	NE	_	5	dep	_	SpacesAfter=\n
+4	Sehr	sehr	PROPN	ADV	_	5	cc	_	_
+5	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	Au-pair-Agentur	Au-pair-Agentur	PROPN	NN	_	9	nsubj	_	_
+7	Schultz	Schultz	PROPN	NE	Case=Nom|Number=Sing	6	flat	_	_
+8	&	&	PUNCT	$.	_	6	punct	_	_
+9	Partner	Partner	NOUN	NN	_	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	19	punct	_	SpacesAfter=\n
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+12	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+13	schön	schön	ADJ	ADJD	Degree=Pos	19	advmod	_	_
+14	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Vierteljahr	Vierteljahr	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	19	obj	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+19	verbracht	verbringen	VERB	VVPP	VerbForm=Part	5	conj	_	_
+20	aber	aber	CCONJ	KON	_	24	cc	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+22	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	sehr	sehr	ADV	ADV	_	24	advmod	_	_
+24	unzufrieden	unzufrieden	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte meine Situation in der Gastfamilie erklären und über eine Losung discutieren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Situation	Situation	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	erklären	erklären	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	und	und	CCONJ	KON	_	13	cc	_	_
+10	über	über	ADP	APPR	_	12	case	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Losung	Losung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+13	discutieren	discutieren	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Ich komme aus Brasilien und ich spreche schön perfekt zwei Sprachen: Englisch und Portugiesisch.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	APPR	_	4	case	_	_
+4	Brasilien	Brasilien	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	spreche	sprechen	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
+8	schön	schön	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+9	perfekt	perfeken	ADV	ADJD	_	7	advmod	_	_
+10	zwei	zwei	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Sprachen	Sprache	NOUN	NN	_	7	appos	_	SpaceAfter=No
+12	:	:	PUNCT	$.	_	11	punct	_	_
+13	Englisch	Englisch	NOUN	NN	Case=Acc|Number=Sing	11	obj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Portugiesisch	portugiesisch	NOUN	ADJD	_	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Die erste Problem mit die Gastfamilie ist: Sie sprechen nur Englisch mit mir.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	Problem	Problem	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	nsubj	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nmod	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	SpaceAfter=No
+8	:	:	PUNCT	$.	_	10	punct	_	_
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	_
+10	sprechen	sprechen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+11	nur	nur	ADV	ADV	_	12	advmod	_	_
+12	Englisch	Englisch	NOUN	NN	Case=Acc|Number=Sing	10	obj	_	_
+13	mit	mit	ADP	APPR	_	14	case	_	_
+14	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Ich bin nach Deutschland gegangen, weil ich meine Sprachkenntnisse komplettieren möchte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	nach	nach	ADV	APPR	_	5	advmod	_	_
+4	Deutschland	Deutschland	PROPN	NE	Case=Dat|Number=Sing	5	obl	_	_
+5	gegangen	gehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Sprachkenntnisse	Sprachkenntnis	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	komplettieren	komplettieren	VERB	VVINF	VerbForm=Inf	5	advcl	_	_
+12	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich muss mein Deutsch verbessern.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Deutsch	deutsch	NOUN	ADJD	Case=Acc|Gender=Masc,Neut|Number=Sing	5	obj	_	_
+5	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Die zweite Problem ist das Essen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	zweite	zweit	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	Problem	Problem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 9
+# text = Sie essen nur Fast-Food.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	essen	essen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	ADV	_	4	advmod	_	_
+4	Fast-Food	Fast-Food	ADJ	NE	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Das ist nicht Gesund und ich esse keine Fast-Food.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	Gesund	gesund	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	9	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	esse	essen	NOUN	NN	Case=Acc|Number=Plur	9	obj	_	_
+8	keine	kein	PRON	PIAT	PronType=Neg	9	advmod	_	_
+9	Fast-Food	Fast-Food	NOUN	NN	_	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ich wunsche eine Familie, die Gesund ist, weil zu Hause ich nur Gesundessen esse.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	wunsche	wunsch	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	die	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Gesund	gesund	NOUN	NN	_	0	root	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	7	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	15	mark	_	_
+11	zu	zu	ADP	APPR	_	12	case	_	_
+12	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	nmod	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	nur	nur	ADV	ADV	_	15	advmod	_	_
+15	Gesundessen	Gesundesse	NOUN	NN	_	7	nmod	_	_
+16	esse	eß	PROPN	NN	_	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Der dritte und am schlechsten Problem ist die Sauberkeit des Hauses.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+2	dritte	dritt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	7	amod	_	_
+3	und	und	CCONJ	KON	_	7	cc	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	7	case	_	_
+5	dem	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+6	schlechsten	schlech	ADJ	ADJA	Degree=Sup	7	amod	_	_
+7	Problem	Problem	NOUN	NN	_	0	root	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Sauberkeit	Sauberkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 13
+# text = Ich habe schön viele Insekten unter mein Bett und in die Küche.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	schön	schön	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+4	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	Insekten	Insekt	NOUN	NN	Case=Acc|Number=Plur	8	obj	_	_
+6	unter	unter	ADP	APPR	_	8	case	_	_
+7	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Bett	Bett	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	0	root	_	_
+9	und	und	CCONJ	KON	_	12	cc	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	die	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Küche	Küche	NOUN	NN	_	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Das ist nicht normal für mich.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	normal	normal	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Ein andern Aspekt der Sauberkeit ist, dass nur drei mal pro Woche die Familie duschen.
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	andern	ander	NOUN	NN	_	0	root	_	_
+3	Aspekt	Aspekt	NOUN	NN	_	2	nmod	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Sauberkeit	Sauberkeit	NOUN	NN	_	3	nmod	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	16	mark	_	_
+9	nur	nur	ADV	ADV	_	11	advmod	_	_
+10	drei	drei	NUM	CARD	NumType=Card	11	nummod	_	_
+11	mal	mal	ADV	ADV	_	15	advmod	_	_
+12	pro	pro	ADP	APPR	_	13	case	_	_
+13	Woche	Woche	NOUN	NN	_	15	nmod	_	_
+14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
+15	Familie	Familie	NOUN	NN	_	16	compound	_	_
+16	duschen	dusch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	2	amod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 16
+# text = Ich dusche mich mindestens zwei mal pro Tag.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	dusche	dusch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	3	amod	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	_
+4	mindestens	mindestens	ADV	ADV	_	5	advmod	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	mal	mal	ADV	ADV	_	8	advmod	_	_
+7	pro	pro	ADP	APPR	_	8	case	_	_
+8	Tag	Tiegen	NOUN	NN	_	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 17
+# text = Das ist meine Situation in der Gastfamilie.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Situation	Situation	NOUN	NN	_	0	root	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Miene Situation in der Schule ist fast gleich.
+1	Miene	Mien	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Situation	Situation	NOUN	NN	_	8	nmod	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Schule	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	fast	fast	ADV	ADV	_	8	advmod	_	_
+8	gleich	gleich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 19
+# text = Ich habe schön viele Freunden aber sie sprechen nur Englisch mit mir.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	schön	schön	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	viele	viel	ADJ	PIAT	Degree=Pos	5	amod	_	_
+5	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	8	obl	_	_
+6	aber	aber	CCONJ	ADV	_	8	cc	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	sprechen	sprechen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9	nur	nur	ADV	ADV	_	10	advmod	_	_
+10	Englisch	Englisch	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+11	mit	mit	ADP	APPR	_	12	case	_	_
+12	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Wenn es möglich ist, wüsste ich gern einigen Losungsvorschlagen für diese Problem, wie die Gastfamilie tauschen, oder mit Sie sprechen.
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	möglich	möglich	ADJ	ADJD	Degree=Pos	6	advcl	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	wüsste	wüssen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+8	gern	gern	ADV	ADV	_	6	advmod	_	_
+9	einigen	einige	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	10	det	_	_
+10	Losungsvorschlagen	Losungsvorschlagen	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	diese	dies	PRON	PDAT	Case=Acc|Number=Plur|PronType=Dem	13	det	_	_
+13	Problem	Problem	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	6	obl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	6	punct	_	_
+15	wie	wie	SCONJ	KOUS	_	18	mark	_	_
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	tauschen	tauschen	VERB	VVINF	VerbForm=Inf	6	ccomp	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	23	punct	_	_
+20	oder	oder	CCONJ	KON	_	23	cc	_	_
+21	mit	mit	ADP	APPR	_	22	case	_	_
+22	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	23	obl	_	_
+23	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 21
+# text = Ich warte auf die Antwort meine Freundlichen Grüßen, Michael Schmidt
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\n
+6	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Grüßen	Grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	SpacesAfter=\n
+10	Michael	Michael	PROPN	NE	_	8	appos	_	_
+11	Schmidt	Schmidt	PROPN	NE	_	10	flat	_	SpacesAfter=\n
+

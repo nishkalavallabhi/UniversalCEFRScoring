@@ -1,0 +1,149 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000213_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 28/6/2010 Maria Rossi, Strada Maggiore 31, 12345 Città X VALTOUR, via F.
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	28	28	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	6	6	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	2010	2010	NUM	N	NumType=Card	4	compound	_	SpacesAfter=\s\n
+9	Maria	Maria	PROPN	SP	_	4	nsubj	_	_
+10	Rossi	Rossi	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	Strada	strada	PROPN	SP	_	9	nmod	_	_
+13	Maggiore	Maggiore	PROPN	SP	_	12	flat:name	_	_
+14	31	31	NUM	N	NumType=Card	12	nummod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	9	punct	_	_
+16	12345	12345	NUM	N	NumType=Card	17	nummod	_	_
+17	Città	Città	PROPN	SP	_	9	conj	_	_
+18	X	X	PROPN	SP	_	17	flat:name	_	SpacesAfter=\n
+19	VALTOUR	VALTOUR	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	9	punct	_	_
+21	via	via	NOUN	S	Gender=Fem|Number=Sing	9	appos	_	_
+22	F.	F.	PROPN	SP	_	21	nmod	_	_
+
+# sent_id = 2
+# text = Redi 3, Sinalunga Gentili signore, egregi Signori, Ie mando la mia candidatura per uno stage che mi piacerebbe fare presso la vostra agenzia di viaggi e vacanze.
+1	Redi	Rede	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	3	3	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	Sinalunga	Sinalunga	PROPN	SP	_	1	conj	_	SpacesAfter=\s\n
+5	Gentili	Gentile	PROPN	SP	_	4	flat:name	_	_
+6	signore	signore	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	egregi	egregio	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+9	Signori	Signori	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	SpacesAfter=\s\n
+11	Ie	ie	PROPN	SP	_	1	conj	_	_
+12	mando	mare	VERB	V	VerbForm=Ger	1	advcl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	stage	stage	NOUN	S	Gender=Masc	12	obl	_	_
+19	che	che	PRON	PR	PronType=Rel	21	nsubj	_	_
+20	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	21	iobj	_	_
+21	piacerebbe	piaceere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+22	fare	fare	VERB	V	VerbForm=Inf	21	ccomp	_	_
+23	presso	presso	ADP	E	_	26	case	_	SpacesAfter=\s\s
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	22	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	viaggi	viaggio	NOUN	S	Gender=Masc|Number=Plur	26	nmod	_	_
+29	e	e	CCONJ	CC	_	30	cc	_	_
+30	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Mi chiamo Maria Rossi e sto per fare la maturità in un liceo di Città X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Maria	Maria	PROPN	SP	_	2	obj	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	6	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	maturità	maturità	NOUN	S	Gender=Fem	8	obj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Città	città	PROPN	SP	_	13	nmod	_	_
+16	X	X	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Comincerà a studiare la geografia presso l'Università di Città Y in ottobre.
+1	Comincerà	comincerà	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	mark	_	_
+3	studiare	studiare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	geografia	geografia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	presso	presso	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	Università	università	NOUN	S	Gender=Fem	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Città	città	PROPN	SP	_	8	nmod	_	_
+11	Y	y	PROPN	SP	_	10	flat:name	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Vorrei passare l'estate prima dello studio lavorando nella sua agenzia che mi piace molto per fare esperienze nel mondo lavorativo e per conoscere meglio l'Italia.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	estate	estate	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	prima	prima	ADV	B	_	8	case	_	_
+6-7	dello	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	5	fixed	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	studio	studio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+9	lavorando	lavorare	VERB	V	VerbForm=Ger	2	advcl	_	_
+10-11	nella	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	molto	molto	ADV	B	_	16	advmod	_	_
+18	per	per	ADP	E	_	19	mark	_	_
+19	fare	fare	VERB	V	VerbForm=Inf	16	advcl	_	_
+20	esperienze	esperienza	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+21-22	nel	_	_	_	_	_	_	_	_
+21	in	in	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+24	lavorativo	lavorativo	ADJ	A	Gender=Masc|Number=Sing	23	amod	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	per	per	ADP	E	_	27	mark	_	_
+27	conoscere	conoscere	VERB	V	VerbForm=Inf	19	conj	_	_
+28	meglio	meglio	ADV	B	_	27	advmod	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	SpaceAfter=No
+30	Italia	Italia	PROPN	SP	_	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\n\s\n
+
+# newpar
+# sent_id = 6
+# text = Aspettando una sua risposta positiva, cordialmente, Maria Rossi
+1	Aspettando	aspettare	VERB	V	VerbForm=Ger	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\s\n
+7	cordialmente	cordialmente	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\s\n
+9	Maria	Maria	PROPN	SP	_	4	nmod	_	_
+10	Rossi	Rossi	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n
+

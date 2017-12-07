@@ -1,0 +1,115 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000033_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 04.01.2012 Sehr geehrte Damen und Herren, Ich suche eine neue Wohnung.
+1	Stadt	Stadt	NOUN	NN	_	13	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	PRON	PRELS	Case=Nom|PronType=Rel	8	nsubj	_	_
+5	04.01.2012	04.01.2012	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n
+6	Sehr	Sehr	ADV	ADV	_	7	advmod	_	_
+7	geehrte	geehrt	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Damen	Dame	NOUN	NN	_	13	appos	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Herren	Herr	NOUN	NN	_	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	8	punct	_	SpacesAfter=\n
+12	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 2
+# text = Ich bin verheiratet und habe Ich drei Kinder.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	verheiratet	verheiratet	ADJ	VVPP	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	drei	drei	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte meine Wohnung mit drei SchlafenZimmer und Groß Wohnzimmer.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	drei	drei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	SchlafenZimmer	SchlafenZimmer	NOUN	NN	Case=Acc|Number=Sing	9	obl	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Groß	groß	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	Wohnzimmer	Wohnzimmer	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = auch davon große Küsche und Zwei Bad.
+1	auch	auch	ADV	ADV	_	4	advmod	_	_
+2	davon	davon	ADV	PAV	_	4	advmod	_	_
+3	große	groß	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Küsche	Küsche	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	Zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Bad	Bad	NOUN	NN	_	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Am mindesten möchte Ich ein Balkon an die Wohnung.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	mindesten	mindesten	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+4	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Balkon	Balken	NOUN	NN	_	0	root	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Können Sie bitte mir sagen, wie viel Kostet am monat und wie viel Nebenkosten.
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_
+3	bitte	bitten	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	wie	wie	ADP	KOUS	_	9	case	_	_
+8	viel	viel	ADV	ADV	_	9	advmod	_	_
+9	Kostet	kostet	ADJ	ADJD	Degree=Pos	5	ccomp	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	monat	monat	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
+13	und	und	CCONJ	KON	_	16	cc	_	_
+14	wie	wie	ADP	KOKOM	_	16	case	_	_
+15	viel	viel	PRON	PIAT	PronType=Ind	16	det	_	_
+16	Nebenkosten	Nebenkosten	NOUN	NN	_	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich mochte Warm miete.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	mochte	mocht	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Warm	warm	NOUN	NN	_	1	appos	_	_
+4	miete	mieten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Vielen dank for Ihre Mühe Mit freundlich Grüßen Eva
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	dank	dank	ADP	APPR	_	9	case	_	_
+3	for	for	PROPN	FM	_	5	case	_	_
+4	Ihre	Ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Mühe	Mühe	NOUN	NN	Case=Dat|Number=Sing	2	nmod	_	SpacesAfter=\n
+6	Mit	mit	ADP	APPR	_	8	case	_	_
+7	freundlich	freundlich	ADJ	ADJD	Degree=Pos	8	amod	_	_
+8	Grüßen	grüßen	NOUN	NN	_	9	nmod	_	SpacesAfter=\n
+9	Eva	Eva	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

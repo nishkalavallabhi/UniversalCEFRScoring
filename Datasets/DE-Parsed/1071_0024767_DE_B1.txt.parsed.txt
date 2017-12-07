@@ -1,0 +1,94 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024767_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Ingo, wie gehts Dir?
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADP	KOKOM	_	5	case	_	_
+5	gehts	gehts	PROPN	NN	_	1	nmod	_	_
+6	Dir	du	PROPN	NN	_	5	flat	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	5	flat	_	_
+
+# sent_id = 2
+# text = Ich hoffe gut!.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ingo, ich habe eine Arbeit in Neuburg gefunden, und am 31.07. möchte ich dort umziehen.
+1	Ingo	Ingo	NOUN	NE	_	4	appos	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Neuburg	Neuburg	PROPN	NE	_	6	nmod	_	_
+9	gefunden	finden	VERB	VVPP	VerbForm=Part	4	xcomp	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12-13	am	_	_	_	_	_	_	_	_
+12	an	an	ADP	APPR	_	14	conj	_	_
+13	dem	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+14	31.07	31.07	NUM	CARD	NumType=Card	19	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+16	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	dort	dort	ADV	ADV	_	19	advmod	_	_
+19	umziehen	umziehen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Köntest du bitte, mir Hilfen bei der Wohnungssuche?
+1	Köntest	Köntest	PROPN	NN	_	0	root	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	flat	_	_
+3	bitte	bitte	PROPN	NN	_	1	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	nmod	_	_
+6	Hilfen	Hilfe	NOUN	NN	_	1	appos	_	_
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich möchte gerne zwei Zimmer Wochnung haben, am besten ins Zentrum.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	gerne	gerne	ADV	ADV	_	7	advmod	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+6	Wochnung	Wochnung	NOUN	NN	_	5	appos	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	besten	gut	ADJ	ADJA	Degree=Sup	7	conj	_	_
+12-13	ins	_	_	_	_	_	_	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Zentrum	Zentrum	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich bedanke mich für.raus und bis bald.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bedanke	bedanken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	für.raus	für.raus	ADV	ADV	_	2	advmod	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	bis	bis	ADP	APPR	_	7	case	_	_
+7	bald	bald	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Viele Grüße Julia
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

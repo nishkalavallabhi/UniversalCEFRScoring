@@ -1,0 +1,216 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001028_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = 71 Strada Maggiore 12345, Città X 13 Agosto, 2011 Città X Gentili Signori, Vi scrivo di lamentare a causa dei vostri servizi brutti che abbiamo ricevuto in vostro villaggio due settimane fa.
+1	71	71	NUM	N	NumType=Card	2	nummod	_	_
+2	Strada	strada	PROPN	SP	_	18	nsubj	_	_
+3	Maggiore	Maggiore	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+4	12345	12345	NUM	N	NumType=Card	2	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	_
+6	Città	Città	PROPN	SP	_	2	appos	_	_
+7	X	decimo	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n
+8	13	13	NUM	N	NumType=Card	9	nummod	_	_
+9	Agosto	agosto	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	2011	2011	NUM	N	NumType=Card	12	nummod	_	SpacesAfter=\n\s
+12	Città	Città	PROPN	SP	_	6	appos	_	_
+13	X	decimo	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n
+14	Gentili	Gentile	PROPN	SP	_	12	flat:name	_	_
+15	Signori	signore	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+17	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	18	iobj	_	_
+18	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+19	di	di	ADP	E	_	20	mark	_	_
+20	lamentare	lamentare	VERB	V	VerbForm=Inf	18	xcomp	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	causa	causa	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+23-24	dei	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	26	case	_	_
+24	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	_
+25	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	22	nmod	_	_
+27	brutti	brutto	ADJ	A	Gender=Masc|Number=Plur	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	30	obj	_	_
+29	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	acl:relcl	_	_
+31	in	in	ADP	E	_	33	case	_	_
+32	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	30	obl	_	_
+34	due	due	NUM	N	NumType=Card	35	nummod	_	_
+35	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	30	obl	_	_
+36	fa	fa	ADV	B	_	35	advmod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Prima di tutto, vorrei dire che non sono soddisfatta con i servizi da una parte perché abbiate anniunciato altre cose che abbiamo ricevuto d'altra parte perché nonostante questo la vacanza non valeva la pena.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	dire	dire	VERB	V	VerbForm=Inf	0	root	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	soddisfatta	soddisfare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	servizi	servizio	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+14	da	da	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	parte	parte	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	perché	perché	SCONJ	CS	_	19	mark	_	_
+18	abbiate	avere	AUX	VA	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	anniunciato	anniunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+20	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	21	det	_	_
+21	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	19	obj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	34	acl:relcl	_	_
+25	d'	di	ADP	E	_	27	case	_	SpaceAfter=No
+26	altra	altro	ADJ	A	Gender=Fem|Number=Sing	27	amod	_	_
+27	parte	parte	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	_
+28	perché	perché	ADV	B	_	32	advmod	_	_
+29	nonostante	nonostante	ADP	E	_	30	case	_	_
+30	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	28	obl	_	_
+31	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	34	nsubj	_	_
+33	non	non	ADV	BN	PronType=Neg	34	advmod	_	_
+34	valeva	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	acl:relcl	_	_
+35	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	pena	pena	NOUN	S	Gender=Fem|Number=Sing	34	obj	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = C'erano molte differenze, per esempio abbiate anniunciato che il residence era di recente costruzione, inoltre, che c'era aria condizionata, il lago era vicino, e c'era opportunità di fare gli sport, come tennis e pallavolo.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	erano	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+8	abbiate	avere	AUX	VA	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	anniunciato	anniunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl	_	_
+10	che	che	SCONJ	CS	_	16	mark	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	residence	residence	ADJ	A	Number=Sing	16	nsubj	_	_
+13	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	cop	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	recente	recente	ADJ	A	Number=Sing	16	amod	_	_
+16	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	inoltre	inoltre	ADV	B	_	22	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	18	punct	_	_
+20	che	che	PRON	PR	PronType=Rel	22	nsubj	_	_
+21	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	22	expl	_	SpaceAfter=No
+22	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	16	acl:relcl	_	_
+23	aria	aria	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+24	condizionata	condizionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	23	acl	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	23	punct	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	lago	lago	NOUN	S	Gender=Masc|Number=Sing	29	nsubj	_	_
+28	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	29	cop	_	_
+29	vicino	vicino	ADJ	A	Gender=Masc|Number=Sing	23	advcl	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	33	punct	_	_
+31	e	e	CCONJ	CC	_	33	cc	_	_
+32	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	33	expl	_	SpaceAfter=No
+33	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj	_	_
+34	opportunità	opportunità	NOUN	S	Gender=Fem	33	nsubj	_	_
+35	di	di	ADP	E	_	36	mark	_	_
+36	fare	fare	VERB	V	VerbForm=Inf	34	acl	_	_
+37	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	38	det	_	_
+38	sport	sport	NOUN	S	Gender=Masc	36	obj	_	SpaceAfter=No
+39	,	,	PUNCT	FF	_	41	punct	_	_
+40	come	come	ADP	E	_	41	case	_	_
+41	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	38	nmod	_	_
+42	e	e	CCONJ	CC	_	43	cc	_	_
+43	pallavolo	pallavolo	NOUN	S	Gender=Masc|Number=Sing	41	conj	_	SpaceAfter=No
+44	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Invece il residenza era vecchia, l'aria condizionata non funzionava, il lago era lontanto dall'appartamento, e non abbiamo potuto fare gli sport, perché i campi da tennis era in riparazione.
+1	Invece	invece	ADV	B	_	5	advmod	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	residenza	residenza	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	_
+5	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	aria	aria	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	condizionata	condizionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	funzionava	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	19	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lago	lago	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+15	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+16	lontanto	lontanto	ADV	B	_	19	advmod	_	_
+17-18	dall'	_	_	_	_	_	_	_	SpaceAfter=No
+17	da	da	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	25	punct	_	_
+21	e	e	CCONJ	CC	_	25	cc	_	_
+22	non	non	ADV	BN	PronType=Neg	25	advmod	_	_
+23	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	potuto	potere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	25	aux	_	_
+25	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+26	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	27	det	_	_
+27	sport	sport	NOUN	S	Gender=Masc	25	obj	_	SpaceAfter=No
+28	,	,	PUNCT	FF	_	25	punct	_	_
+29	perché	perché	SCONJ	CS	_	36	mark	_	_
+30	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+31	campi	campo	NOUN	S	Gender=Masc|Number=Plur	36	nsubj	_	_
+32	da	da	ADP	E	_	33	case	_	_
+33	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	_
+34	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	36	cop	_	_
+35	in	in	ADP	E	_	36	case	_	_
+36	riparazione	riparazione	NOUN	S	Gender=Fem|Number=Sing	25	advcl	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Appunto per queste differenze richiedo parziale rimborso se voi non mi vorreste di andare all'ufficio di viaggio!
+1	Appunto	appunto	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	4	det	_	_
+4	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+5	richiedo	richiedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	parziale	parziale	ADJ	A	Number=Sing	7	amod	_	_
+7	rimborso	rimborrere	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	se	se	SCONJ	CS	_	12	mark	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	12	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	12	expl	_	_
+12	vorreste	vorredere	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	5	advcl	_	_
+13	di	di	ADP	E	_	14	mark	_	_
+14	andare	andare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15-16	all'	_	_	_	_	_	_	_	SpaceAfter=No
+15	a	a	ADP	E	_	17	case	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
+17	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Non vedo l'ora di sentire il vostro risponde.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	sentire	sentire	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	vostro	vostro	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	risponde	rispondere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Cordiali saluti, Maria Rossi
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Maria	Maria	PROPN	SP	_	0	root	_	_
+5	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

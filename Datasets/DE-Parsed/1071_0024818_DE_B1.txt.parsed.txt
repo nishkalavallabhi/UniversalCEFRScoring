@@ -1,0 +1,57 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024818_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Daniela!
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mochtest du mit mir Schwimmen gehen?
+1	Mochtest	Mochtest	PROPN	NN	_	6	appos	_	_
+2	du	du	PROPN	PPER	_	1	flat	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	det:poss	_	_
+5	Schwimmen	Schwimme	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Vielliecht gehen wir ins Schwimmbad Stadt X, heute abend um sieben uhr?
+1	Vielliecht	Vielliecht	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	gehen	gehen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4-5	ins	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Schwimmbad	Schwimmbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+7	Stadt	Stadt	PROPN	NN	_	6	appos	_	_
+8	X	X	PROPN	NN	_	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	heute	heute	ADV	ADV	_	11	advmod	_	_
+11	abend	abend	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+12	um	um	ADP	APPR	_	14	case	_	_
+13	sieben	sieben	NUM	CARD	NumType=Card	14	nummod	_	_
+14	uhr	ahren	PROPN	NN	_	2	obl	_	SpaceAfter=No
+15	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Du brauchst nur schwimmkleidung.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	brauchst	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	ADV	_	4	advmod	_	_
+4	schwimmkleidung	schwimmkleidung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Bis später!
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	später	spät	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = LG, Michael
+1	LG	LG	PROPN	NE	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+

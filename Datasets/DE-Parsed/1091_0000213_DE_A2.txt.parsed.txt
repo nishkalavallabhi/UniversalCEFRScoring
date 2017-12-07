@@ -1,0 +1,153 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000213_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Sr. Maria Katharina St. Eva Bahnhofsstraße 12 A 12345 Stadt X Ihre Anziege wohnung miete Stadt Y Stadt X den 10 märz 2010 Sehr geehrte Damen und Herren, Ich möchte eine wohnung miete.
+1	Sr.	Sr.	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	_
+3	Katharina	Katharina	PROPN	NE	_	2	flat	_	SpacesAfter=\n
+4	St.	St.	PROPN	NE	_	2	flat	_	_
+5	Eva	Eva	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	2	flat	_	SpacesAfter=\n
+6	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	flat	_	_
+7	12	12	NUM	CARD	NumType=Card	8	nummod	_	_
+8	A	a	X	NN	_	2	punct	_	SpacesAfter=\n
+9	12345	12345	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Stadt	Stadt	NOUN	NN	_	1	nmod	_	_
+11	X	X	ADP	ADJA	_	13	case	_	SpacesAfter=\s\s\n\s\n
+12	Ihre	Ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Anziege	Anziege	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+14	wohnung	wohnung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	miete	miet	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	acl	_	SpacesAfter=\n
+16	Stadt	Stadt	NOUN	NN	_	15	nsubj	_	_
+17	Y	y	PROPN	NN	_	18	amod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+18	Stadt	Stadt	PROPN	NN	_	16	appos	_	_
+19	X	X	PROPN	NN	_	18	appos	_	_
+20	den	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+21	10	10	NUM	CARD	NumType=Card	23	nummod	_	_
+22	märz	märz	ADJ	ADJD	Degree=Pos	23	advmod	_	_
+23	2010	2010	NUM	CARD	NumType=Card	25	nmod	_	SpacesAfter=\n
+24	Sehr	Sehr	ADV	ADV	_	25	advmod	_	_
+25	geehrte	geehrt	ADJ	ADJA	Degree=Pos	26	amod	_	_
+26	Damen	Dame	NOUN	NN	_	15	obj	_	_
+27	und	und	CCONJ	KON	_	28	cc	_	_
+28	Herren	Herr	NOUN	NN	_	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	15	punct	_	SpacesAfter=\n
+30	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+31	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	aux	_	_
+32	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+34	miete	mieten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	15	parataxis	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte drei Zimmer, Küche und Balkon.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Küche	Küche	NOUN	NN	_	4	conj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	Balkon	Balkon	NOUN	NN	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Wie kostet eine Wohnung.
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	kostet	kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich bin Krankenschwster von Beruf.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Krankenschwster	Krankenschwster	NOUN	NN	_	0	root	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	Beruf	Beruf	NOUN	NN	Case=Dat|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ich möchte dort mit meine familie einziehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	dort	dort	ADV	ADV	_	7	advmod	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	familie	famili	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+7	einziehen	einziehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ich möchte 250 € Miete geben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	250	250	NUM	CARD	NumType=Card	5	nummod	_	_
+4	€	€	X	NN	_	5	compound	_	_
+5	Miete	Miete	NOUN	NN	_	6	obl	_	_
+6	geben	geben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Wie hoch sind die umlage und Nebenkoste?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	umlage	umlage	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Nebenkoste	Nebenkoste	NOUN	NN	_	5	conj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ab wann ist die wohnung frei Ich kann erst am 24 märz einziehen.
+1	Ab	ab	ADP	APPR	_	2	case	_	_
+2	wann	wann	ADV	PWAV	_	6	advmod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	frei	frei	ADJ	ADJD	Degree=Pos	0	root	_	_
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+9	erst	erst	ADV	ADV	_	14	advmod	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	14	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+12	24	24	NUM	CARD	NumType=Card	13	nmod	_	_
+13	märz	märz	ADJ	ADJD	Degree=Pos	14	amod	_	_
+14	einziehen	einziehen	NOUN	NN	Case=Acc|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 9
+# text = Ich möchte besuchen die wohnung, wann haben sie Zeit?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	besuchen	besuchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	wann	wann	ADV	PWAV	_	8	advmod	_	_
+8	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+9	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Gibt es die wohnung? wir hoffen auf eine baldige Antwort Mit Freundlichen Grüßen Sr. Maria
+1	Gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	1	punct	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	hoffen	hoffen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	1	parataxis	_	_
+8	auf	auf	ADP	APPR	_	11	case	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	baldige	baldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=\n
+12	Mit	mit	ADP	APPR	_	14	case	_	_
+13	Freundlichen	freundlichen	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Grüßen	Grüßen	NOUN	NN	_	7	obl	_	SpacesAfter=\n
+15	Sr.	Sr.	PROPN	NN	_	14	appos	_	_
+16	Maria	Maria	PROPN	NE	_	15	flat	_	SpacesAfter=\n
+

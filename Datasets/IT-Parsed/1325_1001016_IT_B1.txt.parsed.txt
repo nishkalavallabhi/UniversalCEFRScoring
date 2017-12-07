@@ -1,0 +1,274 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001016_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 60 1234 Città X 13.
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	60	60	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+6	1234	1234	NUM	N	NumType=Card	4	nummod	_	_
+7	Città	città	PROPN	SP	_	1	nmod	_	_
+8	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	SpacesAfter=\n
+9	13	13	NUM	N	NumType=Card	7	nummod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = agosto 2011 Solidarietà Viva Viale Bruzzi 117 21023 Milano Spettabile Signora o Signore, sto scrivendo per reagire e un annuncio che ho letto in un giornale il giorno precedente.
+1	agosto	agondere	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+2	2011	2011	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n
+3	Solidarietà	solidarietà	NOUN	S	Gender=Fem	0	root	_	_
+4	Viva	viva	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+5	Viale	viale	PROPN	SP	_	4	flat:name	_	_
+6	Bruzzi	Bruzzi	PROPN	SP	_	5	flat:name	_	_
+7	117	117	NUM	N	NumType=Card	5	flat:name	_	SpacesAfter=\n
+8	21023	21023	NUM	N	NumType=Card	9	nummod	_	_
+9	Milano	Milano	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+10	Spettabile	Spettabile	PROPN	SP	_	5	nmod	_	_
+11	Signora	signore	PROPN	SP	_	10	flat:name	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	Signore	signore	PROPN	SP	_	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+15	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	scrivendo	scrivere	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+17	per	per	ADP	E	_	18	mark	_	_
+18	reagire	reagire	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	e	e	CCONJ	CC	_	21	cc	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+22	che	che	PRON	PR	PronType=Rel	24	obj	_	_
+23	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+24	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	acl:relcl	_	_
+25	in	in	ADP	E	_	27	case	_	_
+26	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+28	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	24	obl	_	_
+30	precedente	precedente	ADJ	A	Number=Sing	29	amod	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Mi chiamo Maria Rossi da Città X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Maria	Maria	PROPN	SP	_	2	obj	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	3	nmod	_	_
+7	X	x	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ho 24 anni.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	24	24	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sono neolaureata.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	neolaureata	neolaureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ho frequentato l'Università di Città X per 4 anni.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	frequentato	frequentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	Università	università	NOUN	S	Gender=Fem	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Città	città	PROPN	SP	_	4	nmod	_	_
+7	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	4	4	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Sono laureata in Sociologia.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	laureata	laureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Sociologia	sociologia	PROPN	SP	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Sono un volontario ogni anno presso una piccola ditta che aiuta la gente che non ha casa.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	volontario	volontario	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	anno	anno	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+6	presso	presso	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+10	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+11	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	gente	gente	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Allora posso servirle una lettera di raccommandazione, se c'è bisogno.
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	servirle	_	_	_	_	_	_	_	_
+3	servir	servire	VERB	V	VerbForm=Inf	0	root	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	raccommandazione	raccommandazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	3	punct	_	_
+10	se	se	SCONJ	CS	_	12	mark	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	12	expl	_	SpaceAfter=No
+12	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Aiuto tutti sempre con contenta, lo comprende il mio curriculum vitae che è allegato con questa lettera.
+1	Aiuto	aere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	_
+3	sempre	sempre	ADV	B	_	1	advmod	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	comprende	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	curriculum	curriculum	NOUN	S	Gender=Masc	8	nsubj	_	_
+12	vitae	vitarre	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	allegato	allegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Adesso lavoro presso una ditta e nel mio ex-università, ma sono in vacanza dal 15 agosto al 31 agosto, allora in questo periodo posso aiutarvi.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	presso	presso	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mio	mio	NOUN	S	Gender=Masc|Number=Sing	5	conj	_	_
+10	ex	ex	ADJ	A	_	12	amod	_	SpaceAfter=No
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	università	università	NOUN	S	Gender=Fem	9	compound	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	17	punct	_	_
+14	ma	ma	CCONJ	CC	_	17	cc	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	_
+18-19	dal	_	_	_	_	_	_	_	_
+18	da	da	ADP	E	_	20	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	15	15	NUM	N	NumType=Card	17	nmod	_	_
+21	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	20	flat	_	_
+22-23	al	_	_	_	_	_	_	_	_
+22	a	a	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	31	31	NUM	N	NumType=Card	2	nmod	_	_
+25	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	24	flat	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	2	punct	_	_
+27	allora	allora	ADV	B	_	32	advmod	_	_
+28	in	in	ADP	E	_	30	case	_	_
+29	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
+30	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	32	obl	_	_
+31	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32-33	aiutarvi	_	_	_	_	_	_	_	SpaceAfter=No
+32	aiutar	aiutare	VERB	V	VerbForm=Inf	2	advcl	_	_
+33	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	32	obj	_	_
+34	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Da me un poco che ho una figlia che 2 anni, anche già oggigiorno la studio scrivere, leggere e contare.
+1	Da	da	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	poco	poco	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	11	case	_	_
+10	2	2	NUM	N	NumType=Card	11	nummod	_	_
+11	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	_
+13	anche	anche	ADV	B	_	14	advmod	_	_
+14	già	già	ADV	B	_	11	advmod	_	_
+15	oggigiorno	oggigiorno	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	studio	studio	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	_
+18	scrivere	scrivere	VERB	V	VerbForm=Inf	17	acl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	leggere	leggere	VERB	V	VerbForm=Inf	18	conj	_	_
+21	e	e	CCONJ	CC	_	22	cc	_	_
+22	contare	contare	VERB	V	VerbForm=Inf	18	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Voi -unreadable- su anche lei poi, nel futuro.
+1	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	0	root	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	1	amod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+8	poi	poi	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Mi scriva, per favore, se è possibile prestissimo.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	scriva	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	favore	favore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	se	se	SCONJ	CS	_	9	mark	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	possibile	possibile	ADJ	A	Number=Sing	2	advcl	_	_
+10	prestissimo	presto	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	9	csubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Sto aspettando la Sua risposta impazientemente.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aspettando	aspettare	VERB	V	VerbForm=Ger	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	impazientemente	impazientemente	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Con tutti gli onori, Maria Rossi
+1	Con	con	ADP	E	_	4	case	_	_
+2	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	4	det:predet	_	_
+3	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	onori	onore	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\s\n
+6	Maria	Maria	PROPN	SP	_	0	root	_	_
+7	Rossi	Rossi	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n
+

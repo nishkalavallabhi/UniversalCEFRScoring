@@ -1,0 +1,72 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0243622_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Lieber Jens, Herzliche Glückwünsche das Babys!
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Lieber	lieber	PROPN	NN	_	1	appos	_	_
+3	Jens	Jens	PROPN	NE	_	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+5	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Glückwünsche	Glückwünsch	NOUN	NN	_	8	nmod	_	_
+7	das	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Babys	Baby	PROPN	NN	_	1	conj	_	SpaceAfter=No
+9	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ist es ein Mätchen oder einen Junge?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Mätchen	Mätchen	NOUN	NN	_	0	root	_	_
+5	oder	oder	CCONJ	KON	_	7	cc	_	_
+6	einen	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Junge	jung	NOUN	NN	_	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Wie geht es das Baby?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Wie heißt es?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Wie geht es die Mutter?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Mutter	Mutter	NOUN	NN	_	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ist beide gesund?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	beide	beide	PRON	PIAT	Case=Nom|Number=Plur|NumType=Card|PronType=Tot	3	nsubj	_	_
+3	gesund	gesund	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ruf mir an.
+1	Ruf	Ruf	PROPN	NN	Case=Dat|Number=Sing	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Viele Grüße Deine Cousine Maria
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+3	Deine	Deine	PROPN	NN	_	2	appos	_	_
+4	Cousine	Cousin	PROPN	NN	_	3	flat	_	_
+5	Maria	Maria	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

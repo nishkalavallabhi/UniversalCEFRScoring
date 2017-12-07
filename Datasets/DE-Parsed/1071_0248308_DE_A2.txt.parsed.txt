@@ -1,0 +1,60 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248308_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Sehr Liebe Daniela, ich möchte heute Abend ins Schwimmbad gehen.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	Liebe	Liebe	PROPN	NN	Case=Nom|Number=Sing	12	nsubj	_	_
+3	Daniela	Daniela	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+7	heute	heute	ADV	ADV	_	12	advmod	_	_
+8	Abend	Abend	NOUN	ADV	_	12	obl	_	_
+9-10	ins	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Schwimmbad	Schwimmbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Willst du zusammen gehen?
+1	Willst	Willen	ADV	ADV	_	4	advmod	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+3	zusammen	zusammen	ADV	ADV	_	4	advmod	_	_
+4	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Wir treffen um 18 00 Uhr in der Stadt.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	treffen	treffen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	um	um	ADP	APPR	_	6	case	_	_
+4	18	18	NUM	CARD	NumType=Card	5	nummod	_	_
+5	00	00	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	2	obl	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Bitte nehm Wasser Brotchen, Wurst und Obst mit.
+1	Bitte	Bitte	ADV	VVIMP	_	2	advmod	_	_
+2	nehm	nehm	ADJ	ADJD	Degree=Pos	3	amod	_	_
+3	Wasser	Wasser	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+4	Brotchen	Brotchen	NOUN	NN	_	3	conj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Wurst	Wurst	NOUN	NN	_	4	conj	_	_
+7	und	und	CCONJ	KON	_	4	cc	_	_
+8	Obst	Obst	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	mit	mit	ADP	PTKVZ	_	8	compound:prt	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Viele Grüße, Stefan
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	Stefan	Stefan	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

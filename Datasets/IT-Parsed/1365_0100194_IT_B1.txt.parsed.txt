@@ -1,0 +1,177 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100194_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Il Centro di Lingua e Cultura Piazza Italia Via Bixio, 99 00185 Roma Città X, 28 maggio 2011.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Centro	centro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	Lingua	lingua	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	Cultura	Cultura	PROPN	SP	_	4	conj	_	_
+7	Piazza	Piazza	PROPN	SP	_	2	nmod	_	_
+8	Italia	Italia	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	Via	via	PROPN	SP	_	7	nmod	_	_
+10	Bixio	Bixio	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	99	99	NUM	N	NumType=Card	9	nummod	_	SpacesAfter=\n
+13	00185	00185	NUM	N	NumType=Card	9	nummod	_	_
+14	Roma	Roma	PROPN	SP	_	7	appos	_	SpacesAfter=\n
+15	Città	Città	PROPN	SP	_	14	flat:name	_	_
+16	X	X	ADJ	NO	Number=Sing|NumType=Ord	14	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	14	punct	_	_
+18	28	28	NUM	N	NumType=Card	14	nmod	_	_
+19	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	18	flat	_	_
+20	2011	2011	NUM	N	NumType=Card	18	flat	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Gentili Signori, Vi scrivo in risposta al Vostro annuncio apparso su un giornale che era tanto interessante per me.
+1	Gentili	Gentile	PROPN	SP	_	5	nsubj	_	_
+2	Signori	signore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+4	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	obj	_	_
+5	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	Vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+12	apparso	apparire	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	su	su	ADP	E	_	15	case	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	che	che	PRON	PR	PronType=Rel	19	nsubj	_	_
+17	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	19	cop	_	_
+18	tanto	tanto	ADV	B	_	19	advmod	_	_
+19	interessante	interessante	ADJ	A	Number=Sing	15	acl:relcl	_	_
+20	per	per	ADP	E	_	21	case	_	_
+21	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Quest'estate mi piacerebbe frequentare uno dei Vostri corsi d'italiano.
+1	Quest'	questo	DET	DD	Number=Sing|PronType=Dem	2	det	_	SpaceAfter=No
+2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	frequentare	frequentare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+6	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obj	_	_
+7-8	dei	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	Vostri	vostro	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	corsi	corso	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sceglierei un corso che dura 2 settimane.
+1	Sceglierei	Sceglieere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	dura	durare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	2	2	NUM	N	NumType=Card	7	nummod	_	_
+7	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Comincerei lo studio il 3 luglio se aveste ancora posti liberi per questo periodo.
+1	Comincerei	Comincere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	studio	studio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	3	3	NUM	N	NumType=Card	1	obl	_	_
+6	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	aveste	avedere	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	1	advcl	_	_
+9	ancora	ancora	ADV	B	_	8	advmod	_	_
+10	posti	posto	NOUN	S	Gender=Masc|Number=Plur	8	obj	_	_
+11	liberi	libero	ADJ	A	Gender=Masc|Number=Plur	10	amod	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
+14	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Per quanto riguarda l'allogio, preferirei abitare in una casa privata, dunque potrei esercitare la lingua più.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	8	obl	_	_
+3	riguarda	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	allogio	allogio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	preferirei	preferiere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	abitare	abitare	VERB	V	VerbForm=Inf	0	root	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	privata	privato	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	8	punct	_	_
+14	dunque	dunque	ADV	B	_	16	advmod	_	_
+15	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	esercitare	esercitare	VERB	V	VerbForm=Inf	8	advcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	16	obj	_	_
+19	più	più	ADV	B	_	18	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Sarei grato se poteste mandarmi una lista che comprende i Vostri prezzi e anche la tassa dell'allogio.
+1	Sarei	essere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	grato	grato	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	poteste	potesta	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5-6	mandarmi	_	_	_	_	_	_	_	_
+5	mandar	mandarre	NOUN	S	Gender=Fem	2	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	nmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lista	lista	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	comprende	comprendere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	Vostri	vostri	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	prezzi	prezzo	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	_
+14	e	e	CCONJ	CC	_	17	cc	_	_
+15	anche	anche	ADV	B	_	17	advmod	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	tassa	tassa	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+18-19	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+18	di	di	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	allogio	allogio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = In attesa di una Vostra cordiale risposta.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Vostra	Vostra	PROPN	SP	_	2	nmod	_	_
+6	cordiale	cordiale	ADJ	A	Number=Sing	5	amod	_	_
+7	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Distinti saluti.
+1	Distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Michele Rossi Strada Maggiore, 3 1031 Città X Ungheria
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	3	3	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n
+7	1031	1031	NUM	N	NumType=Card	6	flat	_	_
+8	Città	Città	PROPN	SP	_	1	flat:name	_	_
+9	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+10	Ungheria	Ungheria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

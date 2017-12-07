@@ -1,0 +1,70 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248325_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Ingo, ich setze zwei zimmer eine Wohnung.
+1	Hallo	Hallo	X	ITJ	_	2	dep	_	_
+2	Ingo	Ingo	NOUN	NE	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+5	setze	setzen	PROPN	NN	_	4	appos	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	zimmer	zimmer	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich brauche nächster monat eine große der Wohnung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauche	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	nächster	nächste	ADJ	ADJA	_	4	amod	_	_
+4	monat	moneten	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+6	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte drei Zimmer, Küche, Bad und ein Balkon eine Wohnung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	13	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	Küche	Küche	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Bad	Bad	NOUN	NN	_	4	conj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	Balkon	Balkon	NOUN	NN	_	4	conj	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Bitte können Sie mir bitte helfen eine wohnungssuche?
+1	Bitte	Bitte	PART	ADV	_	6	mark	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	_
+4	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	iobj	_	_
+5	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+6	helfen	helfen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	wohnungssuche	wohnungssuch	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Bitte antworten sreiben Sie?
+1	Bitte	Bitte	PART	ADV	_	3	mark	_	_
+2	antworten	antwort	VERB	VVINF	VerbForm=Inf	3	xcomp	_	_
+3	sreiben	sreiben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Eva
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Eva	Eva	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

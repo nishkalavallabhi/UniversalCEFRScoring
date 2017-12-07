@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000602_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Martedì 12 Gennaio 2010 Cari Marco e Chiara, Vi scrivo da Città X dove imparo italiano per il mio lavoro.
+1	Martedì	martedì	NOUN	S	Gender=Masc	11	obl	_	_
+2	12	12	NUM	N	NumType=Card	1	nmod	_	_
+3	Gennaio	gennaio	PROPN	SP	_	2	flat	_	_
+4	2010	2010	NUM	N	NumType=Card	2	flat	_	SpacesAfter=\s\n
+5	Cari	caro	PROPN	SP	_	1	nmod	_	_
+6	Marco	Marco	PROPN	SP	_	5	flat:name	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Chiara	Chiara	PROPN	SP	_	5	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+10	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	11	obj	_	_
+11	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Città	Città	PROPN	SP	_	11	obl	_	_
+14	X	X	PROPN	SP	_	13	flat:name	_	_
+15	dove	dove	ADV	B	_	16	advmod	_	_
+16	imparo	imparare	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+18	per	per	ADP	E	_	21	case	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Quando ho tempo libero visito la città, el Monumento X, il Monumento Y, la Monumento Z et faccio shopping.
+1	Quando	quando	SCONJ	CS	_	5	mark	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	visito	visire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	città	città	NOUN	S	Gender=Fem	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	el	i	PROPN	SP	_	5	appos	_	_
+10	Monumento	monumento	PROPN	SP	_	9	flat:name	_	_
+11	X	decimo	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	9	appos	_	_
+15	Y	y	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Monumento	monumento	PROPN	SP	_	0	root	_	_
+19	Z	Z	PROPN	SP	_	18	flat:name	_	_
+20	et	e	CCONJ	CC	_	21	cc	_	_
+21	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_
+22	shopping	shopping	NOUN	S	_	21	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Il mia insegnante si chiama Carola, una italiana nata in Francia vicino de Città Y. È molta simpatica.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Carola	Carola	PROPN	SP	_	5	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	italiana	italiano	NOUN	S	Gender=Fem|Number=Sing	6	appos	_	_
+10	nata	nascere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Francia	Francia	PROPN	SP	_	18	obl	_	_
+13	vicino	vicino	ADP	E	_	15	case	_	_
+14	de	de	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Città	città	PROPN	SP	_	18	obl	_	_
+16	Y.	Y.	PROPN	SP	_	15	flat:name	_	_
+17	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+18	molta	molto	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	acl	_	_
+19	simpatica	simpatica	ADJ	A	Gender=Fem|Number=Sing	18	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Cari saluti e a presto Maria
+1	Cari	caro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	presto	presto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s
+6	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

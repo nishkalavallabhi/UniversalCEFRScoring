@@ -1,0 +1,77 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000048_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 04.01.2012 Sehr geehrte Damen Und Herren,d im zwei monaten suche ich Wonhaung mit 67 m Schlafe zimmer, ein Kinder zimmer, Balkon mit Keller.
+1	Stadt	Stadt	NOUN	NN	_	14	dep	_	_
+2	X	X	X	ADJA	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	04.01.2012	04.01.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Sehr	sehr	NOUN	NN	_	6	nmod	_	_
+6	geehrte	geehrt	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Damen	Dame	NOUN	NN	_	1	conj	_	_
+8	Und	Und	CCONJ	KON	_	9	cc	_	_
+9	Herren,d	Herren,d	NOUN	NN	_	1	conj	_	SpacesAfter=\n
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	13	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+12	zwei	zwei	NUM	CARD	NumType=Card	13	nummod	_	_
+13	monaten	Monat	NOUN	NN	_	9	nmod	_	_
+14	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	Wonhaung	Wonhaung	NOUN	NN	_	14	nmod	_	_
+17	mit	mit	ADP	APPR	_	19	case	_	_
+18	67	67	NUM	CARD	NumType=Card	19	nummod	_	_
+19	m	m	NOUN	NN	Case=Dat|Number=Sing	16	nmod	_	_
+20	Schlafe	schlaf	PROPN	NN	_	19	appos	_	_
+21	zimmer	zimmer	PROPN	NN	_	20	flat	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	16	punct	_	_
+23	ein	ein	DET	ART	Definite=Ind|PronType=Art	24	det	_	_
+24	Kinder	Kind	NOUN	NN	_	14	appos	_	_
+25	zimmer	zimmer	PROPN	NN	_	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	27	punct	_	_
+27	Balkon	Balkon	PROPN	NN	_	25	conj	_	_
+28	mit	mit	ADP	APPR	_	29	case	_	_
+29	Keller	Keller	PROPN	NN	_	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = ich mochte für auch ein extra speilt plaze für Kinder.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mochte	mocht	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	für	für	ADP	APPR	_	8	case	_	_
+4	auch	auch	ADV	ADV	_	8	advmod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+6	extra	extra	ADV	ADJD	_	7	advmod	_	_
+7	speilt	speilen	ADJ	VVPP	_	8	amod	_	_
+8	plaze	plaz	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obl	_	_
+9	für	für	ADP	APPR	_	10	case	_	_
+10	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = mochte ich zwei hundert Euro im Monate.
+1	mochte	mochte	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	5	nummod	_	_
+4	hundert	hundert	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\s\s
+5	Euro	Euro	PROPN	NN	_	1	obl	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Monate	Monat	NOUN	NN	_	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Warte ich Für Ihre awort.
+1	Warte	Waren	NOUN	NN	_	0	root	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	Für	für	ADP	APPR	_	5	case	_	_
+4	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	awort	awort	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Viele Grüße
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+

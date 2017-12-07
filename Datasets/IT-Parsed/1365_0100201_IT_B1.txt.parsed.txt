@@ -1,0 +1,170 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100201_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 27 maggio 2011
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	27	27	NUM	N	NumType=Card	1	nmod	_	_
+5	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Caro Stefan, cara Beatrice, vi auguro del cuore per il vostro matrimonio il novembre.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Stefan	Stefan	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	cara	cara	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	Beatrice	Beatore	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\s\n
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	obj	_	_
+8	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	per	per	ADP	E	_	15	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Di sentirlo mi fa molto contenta.
+1	Di	di	ADP	E	_	2	mark	_	_
+2-3	sentirlo	_	_	_	_	_	_	_	_
+2	sentir	sentire	VERB	V	VerbForm=Inf	0	root	_	_
+3	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	xcomp	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	5	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma sopratutto vi vorrei ringraziare per l'invito.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	sopratutto	sopratutto	ADV	B	_	5	advmod	_	_
+3	vi	vi	ADV	B	_	5	advmod	_	_
+4	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ringraziare	ringraziare	VERB	V	VerbForm=Inf	0	root	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	invito	invito	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Volentieri vengo da voi a festeggiare, con voi, quel giorno magico.
+1	Volentieri	volentieri	ADV	B	_	2	advmod	_	_
+2	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	2	obl	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	festeggiare	festeggiare	VERB	V	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	con	con	ADP	E	_	9	case	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+13	magico	magico	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Avrei ancora una piccola domanda; che cosa posso regalarvi?
+1	Avrei	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	1	punct	_	_
+7	che	che	SCONJ	CS	_	10	mark	_	_
+8	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	10	nsubj	_	SpacesAfter=\s\s
+9	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10-11	regalarvi	_	_	_	_	_	_	_	SpaceAfter=No
+10	regalar	regalare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+11	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	10	obj	_	_
+12	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = C'è in giro una lista, che ci sono scritto le cose che vi potreste bisognare?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	giro	giro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lista	lista	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	11	expl	_	_
+10	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+14	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+15	vi	vi	ADV	B	_	16	advmod	_	_
+16	potreste	potredere	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	17	acl:relcl	_	_
+17	bisognare	bisognare	VERB	V	VerbForm=Inf	13	acl	_	SpaceAfter=No
+18	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = O vorreste un po' di soldi per la prossima vacanza?
+1	O	o	CCONJ	CC	_	4	cc	_	_
+2	vorreste	volere	AUX	VM	Mood=Cnd|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	po'	poco	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 9
+# text = Allora vi ringrazio di nuovo e vi auguro solo il migliore per la preparazione del giorno VOSTRO.
+1	Allora	allora	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+3	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	3	obl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+8	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	solo	solo	ADV	B	_	11	advmod	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	8	obj	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	preparazione	preparazione	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+18	VOSTRO	vostro	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Carissimi saluti vostra Maria sotto la busta scriverei il mio indirizzo:
+1	Carissimi	Caro	ADJ	A	Degree=Abs|Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	3	nsubj	_	_
+3	vostra	vostro	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	Maria	Maria	PROPN	SP	_	3	obj	_	SpacesAfter=\n
+5	sotto	sotto	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	busta	busta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	scriverei	scrivere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+12	:	:	PUNCT	FC	_	3	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 11
+# text = -image-
+1	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+2	image	image	NOUN	S	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

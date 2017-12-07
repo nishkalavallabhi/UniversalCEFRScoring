@@ -1,0 +1,166 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100023_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Rossi Maria -hidden- Strada Maggiore 1234 Città X Lunedi 15 Marzo 2010 Cari amici.
+1	Rossi	Rossi	PROPN	SP	_	6	nmod	_	_
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	hidden	hidden	INTJ	I	_	6	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+6	Strada	strada	PROPN	SP	_	0	root	_	_
+7	Maggiore	Maggiore	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n
+8	1234	1234	NUM	N	NumType=Card	6	flat:name	_	_
+9	Città	Città	PROPN	SP	_	6	flat:name	_	_
+10	X	decimo	PROPN	SP	_	6	flat:name	_	SpacesAfter=\n
+11	Lunedi	Lunedio	PROPN	SP	_	6	flat:name	_	_
+12	15	15	NUM	N	NumType=Card	6	flat:name	_	SpacesAfter=\s\s
+13	Marzo	marzo	PROPN	SP	_	6	flat:name	_	_
+14	2010	2010	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\n
+15	Cari	caro	PROPN	SP	_	6	flat:name	_	_
+16	amici	amico	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Vi scrivo perche, ho riscuto votra invitazione per vostro matrimonio.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+2	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perche	perca	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	riscuto	riscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+7	votra	votrare	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	11	case	_	_
+10	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Prima vi dico tanti aguri e sono molto contenta per voi, e poi grazie mile di invitarmi.
+1	Prima	prima	ADV	B	_	3	advmod	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	iobj	_	_
+3	dico	dire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	aguri	agurio	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	3	conj	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	e	e	CCONJ	CC	_	16	cc	_	_
+14	poi	poi	ADV	B	_	16	advmod	_	_
+15	grazie	grazie	NOUN	S	_	16	case	_	_
+16	mile	mile	ADJ	A	Number=Sing	3	conj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	invitarmi	_	_	_	_	_	_	_	SpaceAfter=No
+18	invitar	invitare	VERB	V	VerbForm=Inf	16	advcl	_	_
+19	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	18	obj	_	_
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Potró venire, ma vorrei sapere si é possibile che mia sorella viene con me?
+1	Potró	Potró	PROPN	SP	_	6	nsubj	_	_
+2	venire	venire	AUX	VA	VerbForm=Inf	6	aux	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	6	punct	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	_
+8	é	é	ADV	B	_	6	advmod	_	_
+9	possibile	possibile	ADJ	A	Number=Sing	6	xcomp	_	_
+10	che	che	SCONJ	CS	_	13	mark	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	13	nsubj	_	_
+13	viene	venire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	obl	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Si c'é nessun problemi?
+1	Si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	2	expl	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	0	root	_	SpaceAfter=No
+3	é	é	CCONJ	CC	_	5	cc	_	_
+4	nessun	nessun	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = che desiderate, per vostro regalo?
+1	che	che	SCONJ	CS	_	2	mark	_	_
+2	desiderate	desiderare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	per	per	ADP	E	_	6	case	_	SpacesAfter=\s\s
+5	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Preferite un viaggio alle Réunion o al Marocco o una borsa con soldi, o altri cose.
+1	Preferite	preferire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Réunion	Réunion	PROPN	SP	_	3	nmod	_	_
+7	o	o	CCONJ	CC	_	10	cc	_	_
+8-9	al	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Marocco	Marocco	PROPN	SP	_	3	conj	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	10	conj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	19	punct	_	_
+17	o	o	CCONJ	CC	_	19	cc	_	_
+18	altri	altro	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Per me po importa, e la stessa cosa Perche é und giorno molto belissimo per voi.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	X	SW	Foreign=Yes	3	nmod	_	_
+3	po	po	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+4	importa	importo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	11	punct	_	_
+6	e	e	CCONJ	CC	_	11	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	Perche	Perche	PROPN	SP	_	11	nmod	_	_
+11	é	é	NOUN	S	Gender=Masc	4	conj	_	_
+12	und	und	CCONJ	CC	_	13	cc	_	_
+13	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	belissimo	belissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	13	amod	_	_
+16	per	per	ADP	E	_	17	case	_	_
+17	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = In attesa di una risposta, vi abbraciati a vi due e ancora "tanti auguri" Maria
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	obj	_	_
+8	abbraciati	abbraciare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	acl	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	vi	vi	ADV	B	_	11	advmod	_	_
+11	due	due	NUM	N	NumType=Card	16	nummod	_	_
+12	e	e	CCONJ	CC	_	13	cc	_	_
+13	ancora	ancora	ADV	B	_	16	advmod	_	_
+14	"	"	PUNCT	FB	_	16	punct	_	SpaceAfter=No
+15	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	16	det	_	_
+16	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	16	punct	_	SpacesAfter=\n
+18	Maria	Maria	PROPN	SP	_	16	nmod	_	SpacesAfter=\n
+

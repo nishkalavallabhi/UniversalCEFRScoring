@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024806_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Ingo 16.03.2012 Wie geht´s dir?
+1	Lieber	lieber	PROPN	NN	_	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	16.03.2012	16.03.2012	PROPN	CARD	_	1	flat	_	SpacesAfter=\n
+4	Wie	Wi	PROPN	KOUS	_	1	flat	_	_
+5	geht´s	geht´s	PROPN	NE	_	1	flat	_	_
+6	dir	dir	PROPN	NN	_	1	flat	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	1	flat	_	_
+
+# sent_id = 2
+# text = Ich möchte ein neun Wohnung, haben Sie zeit am Freitag um 10°° Uhr.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+4	neun	neun	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+9	zeit	zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
+13	um	um	ADP	APPR	_	14	case	_	_
+14	10°°	10°°	NOUN	XY	Case=Acc|Number=Sing	9	nmod	_	_
+15	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Bitte hilfen Sie mir für bei der Wohnungssuchen.
+1	Bitte	Bitte	PART	ADV	_	2	mark	_	_
+2	hilfen	hilfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+5	für	für	ADP	APPR	_	2	case	_	_
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Wohnungssuchen	Wohnungssuchen	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich suche ein größe Wohnung mit 92 m².
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	größe	größe	NOUN	NN	_	5	nmod	_	_
+5	Wohnung	Wohnung	NOUN	NN	_	2	nmod	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	92	92	NUM	CARD	NumType=Card	8	nummod	_	_
+8	m²	m²	NOUN	NN	Case=Dat|Number=Sing	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Bitte schreiben mir zurück.
+1	Bitte	Bitte	PART	ADV	_	2	mark	_	_
+2	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	zurück	zurück	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Kammst du mir helfen.
+1	Kammst	Kammst	ADV	ADV	_	4	advmod	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Tschüß bis Freitag Deine Freundin Mit Freundlihe Grüße M. Meier
+1	Tschüß	Tschüß	NOUN	ADJD	Case=Nom|Number=Sing	0	root	_	_
+2	bis	bis	ADP	KON	_	5	case	_	_
+3	Freitag	Freitag	PROPN	NN	_	5	nmod	_	SpacesAfter=\n
+4	Deine	Deine	PROPN	NN	_	3	flat	_	_
+5	Freundin	Freundin	NOUN	NN	_	1	nmod	_	SpacesAfter=\n
+6	Mit	mit	ADP	APPR	_	7	case	_	_
+7	Freundlihe	Freundlihe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+8	Grüße	Grüße	PROPN	NN	_	7	appos	_	SpacesAfter=\n
+9	M.	M.	PROPN	NE	_	8	flat	_	_
+10	Meier	Meier	PROPN	NN	_	8	flat	_	SpacesAfter=\n
+

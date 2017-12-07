@@ -1,0 +1,113 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120386_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Dana, ich Besuche auch, nach Istanbul fahren.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Dana	Dana	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	Besuche	Besuch	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+6	auch	auch	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	5	punct	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Istanbul	Istanbul	PROPN	NN	Case=Dat|Number=Sing	5	nmod	_	_
+10	fahren	fahren	VERB	VVINF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Die Stadt so interessant für mich auch und viele Spaß, schönes Wetter.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	so	so	ADV	ADV	_	4	advmod	_	_
+4	interessant	interessant	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+7	auch	auch	ADV	ADV	_	10	advmod	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Sing	10	amod	_	_
+10	Spaß	Spaß	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	schönes	schön	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Wetter	Wetter	NOUN	NN	_	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Glückwunsch zur bestanden du hast Prüfung gut gemacht, wunderbar.
+1	Glückwunsch	Glückwunsch	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+2-3	zur	_	_	_	_	_	_	_	_
+2	zu	zu	ADP	APPR	_	7	case	_	_
+3	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+4	bestanden	bestanden	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+5	du	du	PROPN	PPER	Case=Dat|Number=Sing	6	iobj	_	_
+6	hast	haben	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	7	amod	_	_
+7	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+8	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	gemacht	machen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	wunderbar	wunderbar	ADV	ADJD	_	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = ich wünsche etwas aus istanbul, eine schöne Jacke und ein frische Brot.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	etwas	etwas	ADV	ADV	_	2	advmod	_	_
+4	aus	aus	ADP	APPR	_	5	case	_	_
+5	istanbul	istanbul	PROPN	ADJD	Case=Dat|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+8	schöne	schön	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Jacke	Jacke	NOUN	NN	_	2	appos	_	_
+10	und	und	CCONJ	KON	_	13	cc	_	_
+11	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+12	frische	frisch	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Brot	Brot	NOUN	NN	_	9	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ihre Verwandten die schon seit 10 jahren in istanbul leben.
+1	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	SpacesAfter=\s\s
+3	die	der	PRON	ART	Case=Nom|PronType=Dem	10	nsubj	_	_
+4	schon	schon	ADV	ADV	_	7	advmod	_	_
+5	seit	seit	ADP	APPR	_	7	case	_	_
+6	10	10	NUM	CARD	NumType=Card	7	nummod	_	_
+7	jahren	jahre	NOUN	NN	_	10	obl	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	istanbul	istanbul	PROPN	NE	_	10	obl	_	_
+10	leben	leben	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	0	root	_	_
+
+# sent_id = 6
+# text = Es ist schön, wenn man verwandte im Ausland hat, die man ab und zu besuchen kann ... Bis bald....
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+7	verwandte	verwandt	VERB	ADJA	_	11	advcl	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	3	punct	_	_
+13	die	der	PRON	PRELS	Case=Nom|PronType=Rel	18	nsubj	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
+15	ab	ab	ADP	PTKVZ	_	13	conj	_	_
+16	und	und	CCONJ	KON	_	15	cc	_	_
+17	zu	zu	PART	PTKZU	_	18	mark	_	_
+18	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	3	acl	_	_
+19	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+20	...	...	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n
+21	Bis	bis	ADP	KON	_	22	case	_	_
+22	bald	bald	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+23	....	....	PUNCT	NN	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Viele Grüße Maria
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

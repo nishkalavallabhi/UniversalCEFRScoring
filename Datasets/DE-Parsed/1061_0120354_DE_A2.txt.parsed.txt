@@ -1,0 +1,116 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120354_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X. 28.02.2012.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X.	X.	PROPN	NE	_	1	appos	_	_
+3	28.02.2012	28.02.2012	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Liebe SilRe.
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	SilRe	Silrn	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = wir habe deiner brief bekommen.
+1	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	4	amod	_	_
+4	brief	braufen	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	5	nsubj	_	_
+5	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Das würde uns sehr froen.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	iobj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	froen	froen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Uns geht auf alles gut.
+1	Uns	wir	PRON	PRF	Case=Dat|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	alles	alle	PRON	PIS	PronType=Tot	2	obl	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ich will gerne besuhen beim uns mit meinem Mann, und mit Kindern, ich worlesen deiner brif für meine Kinder, sie wolte auf gerne eine Katze haben, vielleicht nekste jahre ich kaufe auch, eine Katze, oder eine merschweichen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	gerne	gerne	ADV	ADV	_	4	advmod	_	_
+4	besuhen	besuhen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5-6	beim	_	_	_	_	_	_	_	_
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	mit	mit	ADP	APPR	_	14	case	_	_
+14	Kindern	Kind	NOUN	NN	_	4	conj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	19	punct	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	worlesen	worlesen	NOUN	NN	Case=Nom|Number=Plur	19	nsubj	_	_
+18	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	19	advmod	_	_
+19	brif	brif	ADJ	ADJD	Degree=Pos	4	conj	_	_
+20	für	für	ADP	APPR	_	22	case	_	_
+21	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	19	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	4	punct	_	_
+24	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	wolte	wolen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	conj	_	_
+26	auf	auf	ADP	APPR	_	27	case	_	_
+27	gerne	gerne	ADV	ADV	_	25	advmod	_	_
+28	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+30	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	xcomp	_	SpaceAfter=No
+31	,	,	PUNCT	$,	_	36	punct	_	_
+32	vielleicht	vielleicht	ADV	ADV	_	33	advmod	_	_
+33	nekste	neksen	ADJ	ADJA	Degree=Sup	36	amod	_	_
+34	jahre	jahr|ihr	NOUN	NN	Case=Gen|Number=Plur	36	obl	_	_
+35	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+36	kaufe	kaufen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	25	conj	_	_
+37	auch	auch	ADV	ADV	_	36	advmod	_	SpaceAfter=No
+38	,	,	PUNCT	$,	_	36	punct	_	_
+39	eine	ein	DET	ART	Definite=Ind|PronType=Art	40	det	_	_
+40	Katze	Katze	NOUN	NN	_	36	conj	_	SpaceAfter=No
+41	,	,	PUNCT	$,	_	44	punct	_	_
+42	oder	oder	CCONJ	KON	_	44	cc	_	_
+43	eine	ein	DET	ART	Definite=Ind|PronType=Art	44	det	_	_
+44	merschweichen	merschweich	NOUN	NN	_	36	conj	_	SpaceAfter=No
+45	.	.	PUNCT	$.	_	36	punct	_	_
+
+# sent_id = 7
+# text = Also für Geburtstag ich wüsche mich eine CD, welche CD ich azelen schpeter.
+1	Also	also	ADV	ADV	_	13	advmod	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	Geburtstag	Geburtstag	NOUN	NN	_	13	obl	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+5	wüsche	wüsch	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	CD	CD	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	welche	welch	PRON	PRELS	Case=Acc|Number=Plur|PronType=Rel	11	det	_	_
+11	CD	CD	NOUN	NN	_	13	obj	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	azelen	azelen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+14	schpeter	schpet	ADJ	ADJA	Degree=Cmp,Pos	13	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Liebe grüße Eva M.
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	grüße	grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Eva	Eva	PROPN	NE	_	2	appos	_	_
+4	M.	M.	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

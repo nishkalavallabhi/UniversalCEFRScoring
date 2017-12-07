@@ -1,0 +1,120 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000392_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 29.5.10 Ciao Francesco Come stai?
+1	Città	Città	PROPN	SP	_	8	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	29.5.10	29.5.10	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Ciao	Ciao	PROPN	SP	_	1	conj	_	_
+6	Francesco	Francesco	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+7	Come	come	SCONJ	CS	_	8	mark	_	_
+8	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 2
+# text = Quando ci siamo visti l'ultima volta?
+1	Quando	quando	SCONJ	CS	_	4	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+6	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	7	amod	_	_
+7	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Io adesso sto studiando.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	adesso	adesso	ADV	B	_	4	advmod	_	_
+3	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	studiando	studiare	VERB	V	VerbForm=Ger	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Se tutto va bene andrò dopo al ospedale a lavorare Ma mi piace molto anche studiare.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	_
+5	andrò	andere	ADV	B	_	6	advmod	_	_
+6	dopo	dopo	ADV	B	_	3	advmod	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ospedale	ospedale	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	a	a	ADP	E	_	11	mark	_	_
+11	lavorare	lavorare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+12	Ma	ma	CCONJ	CC	_	14	cc	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+14	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	molto	molto	ADV	B	_	14	advmod	_	_
+16	anche	anche	ADV	B	_	17	advmod	_	_
+17	studiare	studiare	VERB	V	VerbForm=Inf	14	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Al momento sono in vacanza a Città X.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	città	PROPN	SP	_	6	nmod	_	_
+9	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = È molto bello.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Il tempo è ottimo è la gente molto simpatice.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	ottimo	ottimo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	simpatice	simpatice	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Spero incontrarti presto.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	incontrarti	_	_	_	_	_	_	_	_
+2	incontrar	incontrare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+4	presto	presto	ADV	B	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Ti faccio sapere quando ritorno così ci vediamo subito.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sapere	sapere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	quando	quando	SCONJ	CS	_	8	mark	_	_
+5	ritorno	ritorno	NOUN	S	Gender=Masc|Number=Sing	8	nsubj	_	_
+6	così	così	ADV	B	_	5	advmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	obj	_	_
+8	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	subito	subito	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Cari saluti e a presto Maria
+1	Cari	caro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	presto	presto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\n
+6	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

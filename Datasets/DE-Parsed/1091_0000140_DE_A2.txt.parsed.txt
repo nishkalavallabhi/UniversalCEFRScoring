@@ -1,0 +1,38 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000140_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 20.01-2012 Hallo mein liebe kannst du bitte meine katzen aufpassen wegen.
+1	20.01-2012	20.01-2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Hallo	Hallo	NOUN	NN	Case=Acc|Number=Sing	10	obj	_	_
+3	mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	liebe	lieben	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+5	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	du	du	PROPN	PPER	Case=Nom|Number=Sing	10	nsubj	_	_
+7	bitte	bitten	PROPN	NN	_	6	appos	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	obj	_	_
+9	katzen	katzen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	_
+10	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	wegen	wegen	ADP	APPO	_	10	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ich fährt morgen um 10 Uhr nach Stadt X. Ich komme morgen 12 Uhr zürük Danke meine liebe
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fährt	fahren	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	morgen	morgen	ADV	ADV	_	2	advmod	_	_
+4	um	um	ADP	APPR	_	6	case	_	_
+5	10	10	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	2	obl	_	_
+7	nach	nach	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	2	obl	_	_
+9	X.	X.	PROPN	NE	_	8	appos	_	SpacesAfter=\n
+10	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	2	parataxis	_	_
+12	morgen	morgen	ADV	ADV	_	11	advmod	_	_
+13	12	12	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	18	obj	_	_
+15	zürük	zürük	NOUN	NN	Case=Acc|Number=Sing	18	obj	_	SpacesAfter=\n
+16	Danke	Dank	NOUN	NN	_	15	appos	_	_
+17	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	liebe	lieben	ADJ	ADJA	Degree=Pos	11	xcomp	_	SpacesAfter=\n
+

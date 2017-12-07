@@ -1,0 +1,332 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000503_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 9/4 12345 Città X tel. 0345-11111111 e-mail:
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	6	nmod	_	_
+5	9	9	NUM	N	NumType=Card	4	flat:name	_	SpaceAfter=No
+6	/4	/4	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n
+7	12345	12345	NUM	N	NumType=Card	8	nummod	_	_
+8	Città	Città	PROPN	SP	_	6	nmod	_	_
+9	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	10	amod	_	SpacesAfter=\n
+10	tel.	tel.	NOUN	S	_	8	nmod	_	_
+11	0345	0345	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+13	11111111	11111111	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n
+14	e	e	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+16	mail	mail	NOUN	S	Gender=Masc	1	conj	_	SpaceAfter=No
+17	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = maria.rossi@internet.it UniCredit Banca Piazza Cordusio 20123 Milano Alla cortese attenzione dell'Ufficio del Personale Egregio/a Signore/a, Vorrei sottoporre alla Vostra gentile atttenzione la mia candidatura per fare un'esperienza professionale di stage presso la Vostra spettabile Banca.
+1	maria.rossi@internet.it	maria.rossi@internet.it	NOUN	S	Gender=Masc	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	UniCredit	UniCredit	PROPN	SP	_	1	nmod	_	_
+3	Banca	banca	PROPN	SP	_	2	flat:name	_	SpacesAfter=\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Piazza	Piazza	PROPN	SP	_	2	nmod	_	_
+5	Cordusio	Cordusio	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	20123	20123	NUM	N	NumType=Card	7	nummod	_	_
+7	Milano	Milano	PROPN	SP	_	4	nmod	_	SpacesAfter=\s\n
+8-9	Alla	_	_	_	_	_	_	_	_
+8	A	a	ADP	E	_	11	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	cortese	cortesa	ADJ	A	Number=Sing	11	amod	_	_
+11	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+12-13	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+12	di	di	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	Ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15-16	del	_	_	_	_	_	_	_	_
+15	di	di	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Personale	personale	PROPN	SP	_	14	nmod	_	SpacesAfter=\s\n
+18	Egregio	Egregio	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	/	/	PUNCT	FF	_	17	punct	_	SpaceAfter=No
+20	a	a	ADP	E	_	21	case	_	_
+21	Signore	signore	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+22	/	/	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+23	a	a	ADP	E	_	25	case	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	SpacesAfter=\n
+25	Vorrei	volere	PROPN	SP	_	26	obl	_	_
+26	sottoporre	sottoporre	VERB	V	VerbForm=Inf	11	acl	_	_
+27-28	alla	_	_	_	_	_	_	_	_
+27	a	a	ADP	E	_	29	case	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Vostra	Vostra	PROPN	SP	_	26	obl	_	_
+30	gentile	gentile	ADJ	A	Number=Sing	29	amod	_	_
+31	atttenzione	atttenzione	NOUN	S	Gender=Fem|Number=Sing	26	obj	_	_
+32	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+33	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	34	det:poss	_	_
+34	candidatura	candidatura	NOUN	S	Gender=Fem|Number=Sing	31	nsubj	_	_
+35	per	per	ADP	E	_	36	mark	_	_
+36	fare	fare	VERB	V	VerbForm=Inf	34	acl	_	_
+37	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	38	det	_	SpaceAfter=No
+38	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	36	obj	_	_
+39	professionale	professionale	ADJ	A	Number=Sing	38	amod	_	_
+40	di	di	ADP	E	_	41	case	_	_
+41	stage	stage	NOUN	S	Gender=Masc	38	nmod	_	_
+42	presso	presso	ADP	E	_	44	case	_	_
+43	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	44	det	_	_
+44	Vostra	Vostra	PROPN	SP	_	36	obl	_	_
+45	spettabile	spettabile	ADJ	A	Number=Sing	44	amod	_	_
+46	Banca	banca	PROPN	SP	_	44	flat:name	_	SpaceAfter=No
+47	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = L'anno scorso mi sono laureata in Economia e Commercio presso l'Universitá di Scienze Economiche a Città Y.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	laureata	laureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	Economia	economia	PROPN	SP	_	6	obl	_	_
+9	e	e	CCONJ	CC	_	10	cc	_	_
+10	Commercio	commercio	PROPN	SP	_	8	conj	_	_
+11	presso	presso	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	Universitá	Universitá	PROPN	SP	_	6	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Scienze	Scienze	PROPN	SP	_	13	nmod	_	_
+16	Economiche	economiche	PROPN	SP	_	15	flat:name	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Città	Città	PROPN	SP	_	13	nmod	_	_
+19	Y.	Y.	PROPN	SP	_	18	flat:name	_	_
+
+# sent_id = 4
+# text = Adesso sto per assumere il lavoro presso Unicredit Banca con la sede in Paese X, a Città Y, cominciando dal mese di settembre.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	assumere	assumere	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	presso	presso	ADP	E	_	8	case	_	_
+8	Unicredit	Unicredit	PROPN	SP	_	4	obl	_	_
+9	Banca	banca	PROPN	SP	_	8	flat:name	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	sede	sede	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Paese	paese	PROPN	SP	_	12	nmod	_	_
+15	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Città	Città	PROPN	SP	_	12	conj	_	_
+19	Y	y	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	18	punct	_	_
+21	cominciando	cominciare	VERB	V	VerbForm=Ger	18	acl	_	_
+22-23	dal	_	_	_	_	_	_	_	_
+22	da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	mese	mese	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	di	di	ADP	E	_	26	case	_	_
+26	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Mi piacerebbe, dunque di poter fare uno stage di due o tre mesi durante il periodo estivo presso la Vostra sede centrale.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	dunque	dunque	ADV	B	_	2	advmod	_	_
+5	di	di	ADP	E	_	7	mark	_	_
+6	poter	potere	AUX	VM	VerbForm=Inf	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+8	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	stage	stage	NOUN	S	Gender=Masc	7	obj	_	_
+10	di	di	ADP	E	_	14	case	_	_
+11	due	due	NUM	N	NumType=Card	14	nummod	_	_
+12	o	o	CCONJ	CC	_	13	cc	_	_
+13	tre	tre	NUM	N	NumType=Card	11	conj	_	_
+14	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+15	durante	durante	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+18	estivo	estivo	ADJ	A	Gender=Masc|Number=Sing	17	amod	_	_
+19	presso	presso	ADP	E	_	21	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Vostra	vostro	PROPN	SP	_	17	nmod	_	_
+22	sede	sede	NOUN	S	Gender=Fem|Number=Sing	21	flat:name	_	_
+23	centrale	centrale	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sono convinta che una tale esperienza mi aiuti molto nel lavoro che assumeró in autunno in Paese X.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	convinta	convincere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tale	tale	ADJ	A	Number=Sing	6	amod	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	obj	_	_
+8	aiuti	aere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+9	molto	molto	ADV	B	_	12	advmod	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+13	che	che	PRON	PR	PronType=Rel	12	nsubj	_	_
+14	assumeró	assumeró	PROPN	SP	_	13	appos	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	autunno	autunno	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Paese	paese	PROPN	SP	_	14	nmod	_	_
+19	X	X	PROPN	SP	_	14	flat:name	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Ritengo di essere una persona comunicativa, aperta, capace di svolgere il lavoro sia individuale che in gruppo.
+1	Ritengo	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	5	mark	_	_
+3	essere	essere	AUX	V	VerbForm=Inf	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	persona	persona	NOUN	S	Gender=Fem|Number=Sing	1	xcomp	_	_
+6	comunicativa	comunicativo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	capace	capace	ADJ	A	Number=Sing	6	conj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	svolgere	svolgere	VERB	V	VerbForm=Inf	10	advcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	individuale	individuale	ADJ	A	Number=Sing	12	advcl	_	_
+17	che	che	CCONJ	CC	_	19	cc	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	16	conj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Oltre il lingua X, che la mia lingua materna, conosco bene l'italiano, l'inglese e discretamente il tedesco.
+1	Oltre	oltre	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	che	che	SCONJ	CS	_	12	mark	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+10	materna	materno	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	_
+12	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	18	punct	_	_
+17	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	SpaceAfter=No
+18	inglese	inglese	NOUN	S	Number=Sing	15	conj	_	_
+19	e	e	CCONJ	CC	_	22	cc	_	_
+20	discretamente	discreto	ADV	B	_	22	advmod	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	12	conj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Spero anche che la mia esperienza acquisita durante il periodo dei miei studi possa essere gradita a Voi ed ai Vostri clienti.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	17	advmod	_	_
+3	che	che	SCONJ	CS	_	17	mark	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	17	nsubj:pass	_	_
+7	acquisita	acquisire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	durante	durante	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	14	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+13	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	studi	studio	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	_
+15	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	essere	essere	AUX	VA	VerbForm=Inf	17	aux:pass	_	_
+17	gradita	gradire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	17	obl	_	_
+20	ed	e	CCONJ	CC	_	24	cc	_	_
+21-22	ai	_	_	_	_	_	_	_	_
+21	a	a	ADP	E	_	24	case	_	_
+22	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+23	Vostri	vostri	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	clienti	cliente	NOUN	S	Number=Plur	17	conj	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Alla presente allego il mio Curriculum Vitae dal quale risulta il mio percorso formativo, i corsi linguistici fatti ed altri interessi professionali.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	presente	presente	ADJ	A	Number=Sing	4	amod	_	_
+4	allego	allego	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Curriculum	Curriculum	PROPN	SP	_	0	root	_	_
+8	Vitae	Vitae	PROPN	SP	_	7	flat:name	_	_
+9-10	dal	_	_	_	_	_	_	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	quale	quale	PRON	PR	Number=Sing|PronType=Rel	12	obl	_	_
+12	risulta	risultare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	percorso	percorso	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	formativo	formativo	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	15	conj	_	_
+20	linguistici	linguistico	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+21	fatti	fare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	19	acl	_	_
+22	ed	e	CCONJ	CC	_	24	cc	_	_
+23	altri	altro	ADJ	A	Gender=Masc|Number=Plur	24	amod	_	_
+24	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	21	conj	_	_
+25	professionali	professionale	ADJ	A	Number=Plur	24	amod	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Grazie per l'attenzione riservatami.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	riservatami	riservatame	NOUN	S	Gender=Masc|Number=Plur	4	compound	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Nell'attesa di una Vostra risposta ed un riscontro, porgo i cordiali saluti.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	Vostra	Vostra	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	risposta	risposto	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+8	ed	e	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	riscontro	riscontro	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	porgo	porgere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	cordiali	cordiale	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+15	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Città X, 17/04/2010 Maria Rossi
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	17	17	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	04	04	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	2010	2010	NUM	N	NumType=Card	4	compound	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+9	Maria	Maria	PROPN	SP	_	1	nmod	_	_
+10	Rossi	Rossi	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n
+

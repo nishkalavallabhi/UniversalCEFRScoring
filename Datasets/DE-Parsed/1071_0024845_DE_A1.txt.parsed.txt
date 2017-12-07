@@ -1,0 +1,69 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024845_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, wie geh´s dir?
+1	Lieber	lieber	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADP	KOUS	_	5	case	_	_
+5	geh´s	geh´s	PROPN	NE	_	1	nmod	_	_
+6	dir	dir	PROPN	NN	_	5	flat	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	5	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wie geh es die Mutter, das Baby geht?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geh	gehen	VERB	VVIMP	_	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich bin glück das du Vater geworden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	glück	glück	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+4	das	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	du	du	PROPN	PPER	_	6	nmod	_	_
+6	Vater	Vater	NOUN	NN	_	0	root	_	_
+7	geworden	werden	VERB	VAPP	VerbForm=Part	6	cop	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Und, wie ist Ihr name?
+1	Und	und	CCONJ	KON	_	2	cc	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	wie	wie	ADV	KOUS	_	4	advmod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	Ihr	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	name	namen	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich möchte dein Baby sehen!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	dein	dein	PROPN	PPOSAT	_	5	nsubj	_	_
+4	Baby	Baby	PROPN	NN	_	3	flat	_	_
+5	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich wünsche euch alles gut!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+4	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	obj	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Viele Gruß
+1	Viele	viel	PRON	PIAT	PronType=Ind	2	det	_	_
+2	Gruß	Gruß	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

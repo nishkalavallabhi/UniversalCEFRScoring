@@ -1,0 +1,41 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248317_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, den 31-05-12 Stadt X ich Glückwünsche des Baby und ganze Familie.
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	31-05-12	31-05-12	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Stadt	Stadt	NOUN	NN	_	9	nmod	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\n
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	Glückwünsche	Glückwünsche	NOUN	NN	_	1	appos	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Baby	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	ganze	ganzen	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Familie	Familie	NOUN	NN	_	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sagen Sie bitte name des Babyi ? Vigehet ire Frau?
+1	Sagen	sagen	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+3	bitte	bitte	PROPN	NN	_	8	nmod	_	_
+4	name	Name	PROPN	NN	Case=Nom|Number=Sing	3	flat	_	_
+5	des	d	PROPN	ART	_	6	nmod	_	_
+6	Babyi	Babyi	PROPN	NN	_	3	nmod	_	_
+7	?	?	PROPN	$.	_	3	flat	_	_
+8	Vigehet	Vigehet	PROPN	NN	Case=Nom|Number=Sing	9	amod	_	_
+9	ire	ire	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+10	Frau	Frau	PROPN	NN	_	1	appos	_	SpaceAfter=No
+11	?	?	PROPN	$.	_	10	flat	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Mit freundliche Gruße Friedrich
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Gruße	Muß|Gruße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Friedrich	Friedrich	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

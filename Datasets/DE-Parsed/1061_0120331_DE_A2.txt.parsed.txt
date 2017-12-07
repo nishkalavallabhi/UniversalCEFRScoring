@@ -1,0 +1,101 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120331_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Silke.
+1	Liebe	Lieben	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Silke	Silke	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 2
+# text = Stadt X den 13-2-2012 Geht mir gut und meine Famili auch gut.
+1	Stadt	Stadt	NOUN	NN	_	5	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	den	der	PROPN	ART	_	4	nmod	_	_
+4	13-2-2012	13-2-2012	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+5	Geht	geht	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Famili	Familo	NOUN	NN	_	7	conj	_	_
+11	auch	auch	ADV	ADV	_	5	advmod	_	_
+12	gut	gun	ADJ	ADJD	Degree=Pos	5	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Wan hast du Zeit.
+1	Wan	Wan	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	du	du	PROPN	PPER	_	2	xcomp	_	_
+4	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich möschte bei dir Trefen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	möschte	möschen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	det	_	_
+5	Trefen	Trefe	NOUN	NN	_	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich wünsche zum Geburtstag eine gute Geschenk mit bringen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+7	gute	gut	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Geschenk	Geschenk	NOUN	NN	_	10	obl	_	_
+9	mit	mit	ADP	APPR	_	10	mark	_	_
+10	bringen	bringen	VERB	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Tut mir leid.
+1	Tut	tut	NOUN	NN	_	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	leid	leid	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich habe kein Zeit Für ein paar Tag besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	kein	kein	PRON	PIAT	PronType=Neg	4	advmod	_	_
+4	Zeit	Zeit	NOUN	NN	_	9	obj	_	_
+5	Für	für	PROPN	APPR	_	9	advmod	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+7	paar	paar	PRON	PIAT	PronType=Ind	8	det	_	_
+8	Tag	Tag	NOUN	NN	_	9	obl	_	_
+9	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 8
+# text = dane Für Tiere. wenn ich zeit habe.
+1	dane	danen	PROPN	NN	Case=Dat|Number=Sing	3	iobj	_	_
+2	Für	für	PROPN	APPR	_	1	appos	_	_
+3	Tiere	Tier	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+5	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	zeit	zeit	NOUN	APPR	_	8	obj	_	_
+8	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = sage ich beschid.
+1	sage	sagen	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	beschid	beschid	NOUN	NN	_	1	dep	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Viele Gürße Julia
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Gürße	Gürße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

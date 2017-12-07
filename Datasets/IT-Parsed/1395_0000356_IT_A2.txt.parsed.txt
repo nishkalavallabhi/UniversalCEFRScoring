@@ -1,0 +1,86 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000356_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 16/04/2010 Ciao Franco, come stai?
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	16	16	NUM	N	NumType=Card	9	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	04	04	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	2010	2010	NUM	N	NumType=Card	4	compound	_	SpacesAfter=\n
+9	Ciao	Ciao	PROPN	SP	_	1	conj	_	_
+10	Franco	Franco	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+12	come	come	SCONJ	CS	_	13	mark	_	_
+13	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io sto bene ed adesso sono a Città X.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	_
+4	ed	e	CCONJ	CC	_	6	cc	_	_
+5	adesso	adesso	ADV	B	_	6	advmod	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	Città	PROPN	SP	_	6	obl	_	_
+9	X	x	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Studio nella scuola di lingua italiana.
+1	Studio	studio	PROPN	SP	_	0	root	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sono qui con la mia amica Maria.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	qui	qui	ADV	B	_	6	advmod	_	_
+3	con	con	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	amica	amico	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	Maria	Maria	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Quando non c'è lezione visitano insieme i musei fiorentini.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+6	visitano	visitare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	insieme	insieme	ADV	B	_	6	advmod	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	musei	museo	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+10	fiorentini	fiorentino	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ci vediamo a Città X!
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	2	obl	_	_
+5	X	X	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Un abbraccio forte, Eva
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	forte	forte	ADJ	A	Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+5	Eva	Eva	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

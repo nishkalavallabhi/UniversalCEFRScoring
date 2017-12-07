@@ -1,0 +1,70 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0242042_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Viele Glückwünsche du ist Vater.
+1	Lieber	lieb	PROPN	NN	_	8	nsubj	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+4	Viele	viel	PROPN	PIS	_	5	amod	_	_
+5	Glückwünsche	Glückwünsch	PROPN	ADJA	_	1	conj	_	_
+6	du	du	PROPN	PPER	_	5	flat	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	Vater	Vater	NOUN	NN	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Tool... Wie heißen das Babys?
+1	Tool	Tool	NOUN	NE	_	0	root	_	SpaceAfter=No
+2	...	...	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+3	Wie	Wie	ADV	KOKOM	_	4	advmod	_	_
+4	heißen	heißen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	1	parataxis	_	_
+5	das	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	Babys	Baby	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Seine Frau und das Babys gut?
+1	Seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	das	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Babys	Baby	PROPN	NN	_	2	conj	_	_
+6	gut	gun	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Wann gehts deine Frau und Babys zum Haus?
+1	Wann	wann	ADV	ADV	_	2	advmod	_	_
+2	gehts	gehts	ADV	NN	_	3	advmod	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Frau	Frau	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Babys	Babys	NOUN	NN	_	4	conj	_	_
+7-8	zum	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich möchte besuchen deine familien, bitte ruf in der Nacht an.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	familien	famileinen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	bitte	bitten	PROPN	NN	_	5	appos	_	_
+8	ruf	ruf	PROPN	NN	_	7	flat	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Nacht	Nacht	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+12	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Katharina
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Katharina	Katharina	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

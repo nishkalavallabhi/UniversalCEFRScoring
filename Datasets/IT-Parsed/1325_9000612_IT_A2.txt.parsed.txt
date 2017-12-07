@@ -1,0 +1,238 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000612_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 1 12345 Città X Paese X CANTON TICINO 15 Via de la liberta Lugano ITALIA Città X, 15 Aprile 2011 Oggetto:
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	1	1	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\n
+6	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	Città	PROPN	SP	_	1	conj	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	Paese	paese	PROPN	SP	_	7	flat:name	_	_
+10	X	X	PROPN	SP	_	14	obj	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	CANTON	CANTON	PROPN	SP	_	10	flat:name	_	_
+12	TICINO	TICINO	PROPN	SP	_	10	flat:name	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	15	15	NUM	N	NumType=Card	14	nummod	_	_
+14	Via	via	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+15	de	di	ADP	E	_	18	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	liberta	liberto	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	18	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+18	Lugano	Lugano	PROPN	SP	_	24	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+19	ITALIA	Italia	PROPN	SP	_	18	flat:name	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+20	Città	Città	PROPN	SP	_	18	flat:name	_	_
+21	X	X	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	18	punct	_	_
+23	15	15	NUM	N	NumType=Card	24	nummod	_	_
+24	Aprile	aprile	PROPN	SP	_	26	nmod	_	_
+25	2011	2011	NUM	N	NumType=Card	24	flat	_	SpacesAfter=\s\n
+26	Oggetto	oggetto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+27	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = Lettera di protesta su mio Affitamento a Lugano Egregio Spettabile Ditta, Per le mie vacanze d'estate ho affito per due settimane in una residence di Lugano un appartimento.
+1	Lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	protesta	protesta	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+4	su	su	ADP	E	_	6	case	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Affitamento	Affitamento	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Lugano	Lugano	PROPN	SP	_	20	obl	_	SpacesAfter=\s\n
+9	Egregio	Egregio	PROPN	SP	_	8	flat:name	_	_
+10	Spettabile	Spettabile	PROPN	SP	_	8	flat:name	_	_
+11	Ditta	ditto	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=\s\n
+13	Per	per	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+17	d'	di	ADP	E	_	18	case	_	SpaceAfter=No
+18	estate	estate	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	affito	affire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	due	due	NUM	N	NumType=Card	23	nummod	_	_
+23	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	20	obl	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+26	residence	residence	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	Lugano	Lugano	PROPN	SP	_	26	nmod	_	_
+29	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+30	appartimento	appartimento	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Il vostro annuncio pubblicato nell giornale "Vacanze per tutti" Fa referenze a molte informazione che erano inesatte ho completamente fasse.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	pubblicato	pubblicare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	nell	nell	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpacesAfter=\s\s
+6	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	Vacanze	vacanze	PROPN	SP	_	6	nmod	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nmod	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	12	punct	_	_
+12	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	referenze	referenza	NOUN	S	Gender=Fem|Number=Plur	12	obj	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	16	det	_	_
+16	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	_
+17	che	che	PRON	PR	PronType=Rel	19	obj	_	_
+18	erano	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	19	aux	_	_
+19	inesatte	inesarre	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	16	acl:relcl	_	_
+20	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	completamente	completamente	ADV	B	_	22	advmod	_	_
+22	fasse	fare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	parataxis	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Inansitutto, la residece de de Lago non era una residence di costruzione recente.
+1	Inansitutto	Inansitutto	ADV	B	_	11	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	residece	residece	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+5	de	de	ADP	E	_	7	case	_	_
+6	de	de	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\s\s
+8	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	residence	residence	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	costruzione	costruzione	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+14	recente	recente	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Mo ho trovatto un appartimento con multo stanze caduta.
+1	Mo	mo	PROPN	SP	_	3	nsubj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trovatto	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter=\s\s
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	appartimento	appartimento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	multo	multo	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	stanze	stanza	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+9	caduta	cadere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Prima l'aria condizionata non funziona bene.
+1	Prima	prima	ADV	B	_	6	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aria	aria	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	condizionata	condizionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	funziona	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Vi ricordo che in questo periodo dell anno in questa regione il tempo era caldissimo!
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	expl:impers	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	15	mark	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+7	dell	dell	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	11	det	_	_
+11	regione	regione	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+14	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	15	cop	_	_
+15	caldissimo	caldo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+16	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Secondo me il campi di tennis era in riparazione e ho dovuto trovare altre cose a fare per miei bambini.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	campi	campo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	riparazione	riparazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	dovuto	dovere	AUX	VM	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	aux	_	_
+13	trovare	trovare	VERB	V	VerbForm=Inf	9	conj	_	_
+14	altre	altro	ADJ	A	Gender=Fem|Number=Plur	15	amod	_	_
+15	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	_
+16	a	a	ADP	E	_	17	mark	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	9	acl	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Vi ricordo che ho pagatto due mille euro per le due setimane.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	ricordo	ricordare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	pagatto	pagare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+6	due	due	NUM	N	NumType=Card	8	nummod	_	_
+7	mille	mille	NUM	N	NumType=Card	8	nummod	_	_
+8	euro	euro	NOUN	S	Gender=Masc	5	obj	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	setimane	setimana	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Prima d' utlizare la via legale espero di vostra parte una compensazione.
+1	Prima	prima	ADV	B	_	3	mark	_	_
+2	d'	di	ADP	E	_	1	fixed	_	_
+3	utlizare	utlizare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	via	via	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+6	legale	legale	ADJ	A	Number=Sing	5	amod	_	_
+7	espero	espero	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	parte	parte	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	compensazione	compensazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = In attesa di una risposta, in una resonsabila tempo
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	resonsabila	resonsabila	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+
+# sent_id = 12
+# text = Vi porgo.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	obj	_	_
+2	porgo	porgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = I miei più distinti saluti Maria Rossi
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+2	miei	mieo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	distinti	distinto	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+5	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n
+6	Maria	Maria	PROPN	SP	_	5	nmod	_	_
+7	Rossi	Rossi	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,117 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000470_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao ragazzi!
+1	Ciao	ciao	INTJ	I	_	2	discourse	_	_
+2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ecco Michele.
+1	Ecco	ecco	ADV	B	_	2	advmod	_	_
+2	Michele	Michele	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sono a Città X per fare un corso di italiano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	0	root	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ho imparato tante cose.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = La mia insegnante é Maria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mia	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnare	NOUN	S	Number=Sing	0	root	_	_
+4	é	é	NOUN	S	Gender=Masc	3	compound	_	_
+5	Maria	Maria	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Mi piace perche C'é sempre molto gentile.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	perche	perco	ADV	B	_	8	advmod	_	_
+4	C'	c'	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+5	é	é	ADV	B	_	8	advmod	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	gentile	gentile	ADJ	A	Number=Sing	2	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Nel corso con me altre ragazzi di Città Y.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+6	altre	altro	PRON	PI	Gender=Fem|Number=Plur|PronType=Ind	7	nsubj	_	_
+7	ragazzi	ragazzo	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Città	città	PROPN	SP	_	7	obl	_	_
+10	Y.	Y.	PROPN	SP	_	7	obj	_	_
+
+# sent_id = 8
+# text = Dopo scuola facciamo sempre qualcosa insieme.
+1	Dopo	dopo	ADP	E	_	2	case	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	sempre	sempre	ADV	B	_	3	advmod	_	_
+5	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+6	insieme	insieme	ADV	B	_	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Per esempio, andiamo in ristorante, in cinema, al bar etc.
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	cinema	cinema	NOUN	S	Gender=Masc	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	4	punct	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bar	bar	NOUN	S	Gender=Masc	4	obl	_	_
+14	etc.	eccetera	ADV	B	_	13	advmod	_	_
+
+# sent_id = 10
+# text = ... .
+1	...	...	PUNCT	FF	_	0	root	_	_
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Allora, alla prossima settimana Tanti saluti Michele
+1	Allora	allora	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\n
+7	Tanti	tanto	PROPN	SP	_	0	root	_	_
+8	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+9	Michele	Michele	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+

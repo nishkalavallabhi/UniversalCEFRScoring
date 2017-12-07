@@ -1,0 +1,98 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000529_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 26/11/2011 Ciao Luigi, come va?
+1	26	26	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	11	11	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	2011	2011	NUM	N	NumType=Card	3	compound	_	SpacesAfter=\n
+6	Ciao	Ciao	PROPN	SP	_	10	nsubj	_	_
+7	Luigi	Luigi	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	SpacesAfter=\n
+9	come	come	ADV	B	_	10	advmod	_	_
+10	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Sto molto bene e anche la mia famiglia.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	bene	bene	ADV	B	_	0	root	_	_
+4	e	e	CCONJ	CC	_	8	cc	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Perchè?
+1	Perchè	perché	ADV	B	_	0	root	_	SpaceAfter=No
+2	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Siamo andati per due settimane in vacanza in Sardegna.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Sardegna	Sardegna	PROPN	SP	_	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Il tempo fa molto bello e l'appartamento era vicino al mare con una spiaggia splendida.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	bello	bello	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+6	e	e	CCONJ	CC	_	13	cc	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	appartamento	appartamento	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+9	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	13	cop	_	_
+10	vicino	vicino	ADV	B	_	13	case	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	10	fixed	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	mare	mare	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+17	splendida	splendido	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = E il mio lavoro mi piace molto!
+1	E	e	CCONJ	CC	_	6	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	molto	molto	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = In fine, hai tempo la prossima fine settimana?
+1	In	in	ADP	E	_	2	case	_	_
+2	fine	fine	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	fine	fine	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+9	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Tanti saluti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

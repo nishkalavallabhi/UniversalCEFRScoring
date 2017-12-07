@@ -1,0 +1,127 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000210_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Meier 10.03.2012 Zentralplatz 12 A Stadt X XY Haus An das Wohnungsamt.
+1	Maria	Maria	PROPN	NE	_	0	root	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	10.03.2012	10.03.2012	NUM	CARD	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	Zentralplatz	Zentralplatz	NOUN	NN	_	1	nmod	_	_
+5	12	12	NUM	CARD	NumType=Card	6	nummod	_	_
+6	A	A	PROPN	FM	_	7	nmod	_	SpacesAfter=\n
+7	Stadt	Stadt	PROPN	NN	_	4	appos	_	_
+8	X	X	PROPN	NN	_	7	appos	_	SpacesAfter=\n
+9	XY	XY	PROPN	NE	_	10	amod	_	_
+10	Haus	Haus	PROPN	NN	_	7	appos	_	SpacesAfter=\n\s\n
+11	An	an	PROPN	APPR	_	10	flat	_	_
+12	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Wohnungsamt	Wohnungsamen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 2
+# text = Sehr Geehrte Damen und Herren, Ich suche eine eigene wohnung.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	Geehrte	Geehrt	ADJ	VVFIN	_	3	amod	_	_
+3	Damen	Dame	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	conj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte drei Zimmer in meine wohnung sein.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	sein	sein	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Die wohnung kann eine Bade Zimmer ein Schlaf Zimmer eine Küche.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	Bade	Bad	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+8	Schlaf	Schlaf	NOUN	NN	_	11	nmod	_	_
+9	Zimmer	Zimmer	NOUN	NN	_	11	cop	_	_
+10	eine	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	Küche	Küche	NOUN	NN	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 5
+# text = Und mit dem Balkon sein.
+1	Und	und	CCONJ	KON	_	4	cc	_	_
+2	mit	mit	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Balkon	Balken	NOUN	NN	_	0	root	_	_
+5	sein	sein	VERB	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ich habe ein Auto und ich möchte mein Auto in den Garage sein.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	13	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	conj	_	_
+7	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+8	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	13	obj	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Garage	Garage	NOUN	NN	_	13	obl	_	_
+13	sein	sein	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 7
+# text = Ich bekomme eine arbeit mehr Geld verdienen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bekomme	bekommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	arbeit	arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	mehr	mehr	ADV	ADV	_	7	advmod	_	_
+6	Geld	Geld	NOUN	NN	Case=Acc|Number=Sing	7	obj	_	_
+7	verdienen	verdienen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = wir sind drei Personnen.Ich bin und meine Eletern.
+1	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	drei	drei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Personnen.Ich	Personnen.Ich	NOUN	NN	_	0	root	_	_
+5	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Eletern	Eleter	NOUN	NN	_	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Bitte antworten sie schnell Ich warte auf Ihre Antwort Mit freundlichen Grüßen UNTERSCHRIFT
+1	Bitte	Bitte	PART	ADV	_	2	mark	_	_
+2	antworten	antworn	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+4	schnell	schnell	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+6	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+7	auf	auf	ADP	APPR	_	9	case	_	_
+8	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Antwort	Antwort	NOUN	NN	_	6	nmod	_	SpacesAfter=\s\n
+10	Mit	mit	ADP	APPR	_	12	case	_	_
+11	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	Grüßen	grüßen	NOUN	NN	_	2	obl	_	SpacesAfter=\n
+13	UNTERSCHRIFT	UNTERSCHRIFT	PROPN	NE	_	12	appos	_	SpacesAfter=\n
+

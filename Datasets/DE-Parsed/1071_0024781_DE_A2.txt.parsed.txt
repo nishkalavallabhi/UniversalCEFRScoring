@@ -1,0 +1,100 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024781_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 26.04.12 Hallo Liebe Maria wie geht es dir? was machst du? wie lange seit nicht sehen.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	26.04.12	26.04.12	PROPN	NE	_	6	appos	_	SpacesAfter=\n
+5	Hallo	Hallo	PROPN	NE	_	4	flat	_	_
+6	Liebe	Liebe	PROPN	NN	_	7	appos	_	_
+7	Maria	Maria	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+8	wie	wie	ADV	KOKOM	_	9	advmod	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+10	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	9	punct	_	_
+13	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	20	nsubj	_	_
+14	machst	machen	ADV	ADV	_	15	advmod	_	_
+15	du?	du?	X	ADJD	_	20	advmod	_	_
+16	wie	wie	ADV	KOKOM	_	17	advmod	_	_
+17	lange	lange	ADV	ADV	_	15	advmod	_	_
+18	seit	seit	ADP	APPR	_	20	case	_	_
+19	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	_
+20	sehen	sehen	VERB	VVINF	VerbForm=Inf	9	acl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Bist du glüclich.
+1	Bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	glüclich	glüclich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = wann ist deine Kinder sein.
+1	wann	winnen	ADV	PWAV	_	4	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Kinder	Kind	NOUN	NN	_	0	root	_	_
+5	sein	sein	VERB	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ist deine Kinder sohn oder Tochter.
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	deine	deine	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Kinder	Kind	NOUN	NN	_	0	root	_	_
+4	sohn	sohnen	NOUN	NN	Case=Dat|Number=Sing	3	nmod	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	Tochter	Tochter	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Was ist dein Kinder Name.
+1	Was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	dein	dein	PROPN	PPOSAT	_	4	nmod	_	_
+4	Kinder	Kind	NOUN	NN	_	0	root	_	_
+5	Name	Name	PROPN	NN	Case=Nom|Number=Sing	4	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Wie geht es dein Mutter und deine Kinder.
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	dein	dein	PROPN	PPOSAT	_	5	nmod	_	_
+5	Mutter	Mutter	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	deine	dein	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Kinder	Kind	NOUN	NN	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Wo ist deine Kinder geburst.
+1	Wo	wo	ADV	PWAV	_	4	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Kinder	Kind	NOUN	NN	_	0	root	_	_
+5	geburst	geburst	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Küsst du für mich deine Kinder.
+1	Küsst	küsst	AUX	VMFIN	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+5	deine	dein	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Kinder	Kind	NOUN	NN	_	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tschüs Liebe Grüße Friedrich Meier
+1	Tschüs	Tschüs	PROPN	NN	_	0	root	_	SpacesAfter=\n
+2	Liebe	Liebe	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	Grüße	Grüße	PROPN	NN	_	1	appos	_	SpacesAfter=\n
+4	Friedrich	Friedrich	PROPN	NE	_	3	flat	_	_
+5	Meier	Meier	PROPN	NN	_	3	flat	_	SpacesAfter=\n
+

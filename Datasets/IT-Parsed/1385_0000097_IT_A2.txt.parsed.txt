@@ -1,0 +1,71 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0000097_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Daniele come stai?
+1	Ciao	Ciao	PROPN	SP	_	0	root	_	_
+2	Daniele	Daniele	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	come	come	ADP	E	_	4	case	_	_
+4	stai	stare	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Per me è una settimana orribile.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+6	orribile	orribile	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = In ufficio c'è molto lavoro e giovedì pomeriggio non posso incontrarti perché il mio capo ha organizzato una riunione.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	giovedì	giovedì	NOUN	S	Gender=Masc	12	obl	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12-13	incontrarti	_	_	_	_	_	_	_	_
+12	incontrar	incontrare	VERB	V	VerbForm=Inf	6	conj	_	_
+13	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	obj	_	_
+14	perché	perché	SCONJ	CS	_	19	mark	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	capo	capo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Hai voglia di andare a cena a una ristorante tailandese sabato sera con me?
+1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	cena	cena	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	tailandese	tailandese	ADJ	A	Number=Sing	9	amod	_	_
+11	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	sera	sera	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nmod	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ti bacio Maria Rossi
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	0	root	_	_
+2	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

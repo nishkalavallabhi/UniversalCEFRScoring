@@ -1,0 +1,295 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100480_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 24.3.2012
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	24.3.2012	24.3.2012	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Francesco, ho ricevuto la tua lettera appena e sono anche molto felice che hai preso la maturità linguistica.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Francesco	Francesco	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+9	appena	appena	ADV	B	_	14	advmod	_	_
+10	e	e	CCONJ	CC	_	14	cc	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+12	anche	anche	ADV	B	_	13	advmod	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	felice	felice	ADJ	A	Number=Sing	5	conj	_	_
+15	che	che	SCONJ	CS	_	17	mark	_	_
+16	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	preso	prendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	csubj	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	maturità	maturità	NOUN	S	Gender=Fem	17	obj	_	_
+20	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Tanti auguri a te!
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Sono nel 12 classe a ha pure un anno fino a fare la mia maturità.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	12	12	NUM	N	NumType=Card	5	nummod	_	_
+5	classe	classe	NOUN	S	_	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+8	pure	pure	ADV	B	_	10	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	anno	anno	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	fino	fino	ADV	B	_	13	mark	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	7	advcl	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	maturità	maturità	NOUN	S	Gender=Fem	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Così ho bisogno di pensare al futuro.
+1	Così	così	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	pensare	pensare	VERB	V	VerbForm=Inf	3	acl	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ma, come tu, non ho ancora un idea che cosa voglio fare.
+1	Ma	ma	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	4	punct	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ancora	ancora	ADV	B	_	7	advmod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	idea	idea	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+11	che	che	DET	DQ	PronType=Int	12	det	_	_
+12	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	14	obj	_	SpacesAfter=\s\s
+13	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	10	acl:relcl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Hai raccontato che cerchi un lavoro; penso che abbia una proposta:
+1	Hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	cerchi	cercare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	2	punct	_	_
+8	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	abbia	avere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	8	punct	_	_
+
+# sent_id = 8
+# text = a Città X si trova un albergo che si chiama "Hotel X".
+1	a	a	ADP	E	_	2	case	_	_
+2	Città	Città	PROPN	SP	_	5	obl	_	_
+3	X	x	PROPN	SP	_	2	flat:name	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+10	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+12	Hotel	Hotel	PROPN	SP	_	10	xcomp	_	_
+13	X	x	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	12	punct	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Conosco che lì si cerca personale.
+1	Conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	lì	lì	ADV	B	_	5	advmod	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl:impers	_	_
+5	cerca	cercare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpacesAfter=\s\s
+6	personale	personale	ADJ	A	Number=Sing	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = L'indirizzo è:
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 11
+# text = Strada Maggiore 1, 12345 Città X.
+1	Strada	strada	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+3	1	1	NUM	N	NumType=Card	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	12345	12345	NUM	N	NumType=Card	6	nummod	_	_
+6	Città	città	PROPN	SP	_	1	appos	_	_
+7	X	X	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Ci puoi mandare il suo curriculum.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	mandare	mandare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	curriculum	curriculum	NOUN	S	Gender=Masc	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Adesso cambiamo il temà:
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	cambiamo	cambiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	temà	temà	NOUN	S	Gender=Masc	2	obj	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 14
+# text = Magari puoi aiutarmi a trovare una soluzione per il mio futuro.
+1	Magari	magari	ADV	B	_	3	advmod	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	aiutarmi	_	_	_	_	_	_	_	_
+3	aiutar	aiutare	VERB	V	VerbForm=Inf	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	trovare	trovare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	soluzione	soluzione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Non sono sicura se andare all'università o se fare un lavoro.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	SpacesAfter=\s\s
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	3	csubj	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	università	università	NOUN	S	Gender=Fem	5	obl	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	se	se	SCONJ	CS	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	5	conj	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = Che pensi tu?
+1	Che	che	SCONJ	CS	_	2	advmod	_	_
+2	pensi	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Dove ti hai informato sulle possibilità che cosa fare quando la scuola è finita?
+1	Dove	dove	ADV	B	_	4	advmod	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+3	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	informato	informare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	sulle	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	possibilità	possibilità	NOUN	S	Gender=Fem	4	obl	_	_
+8	che	che	DET	DQ	PronType=Int	9	det	_	_
+9	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+11	quando	quando	SCONJ	CS	_	15	mark	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	15	nsubj	_	_
+14	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	finita	finire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 18
+# text = Sarei grazie a te se puoi mandarmi informazioni.
+1	Sarei	essere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	grazie	grazie	NOUN	S	_	4	case	_	_
+3	a	a	ADP	E	_	2	fixed	_	_
+4	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	1	obl	_	_
+5	se	se	SCONJ	CS	_	1	mark	_	SpacesAfter=\s\s
+6	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7-8	mandarmi	_	_	_	_	_	_	_	_
+7	mandar	mandarre	VERB	V	VerbForm=Inf	0	root	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+9	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 19
+# text = Allora, devo finire la lettera perché devo imparare per il compito in classe domani.
+1	Allora	allora	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finire	finire	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	imparare	imparare	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	compito	compito	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	classe	classe	NOUN	S	Gender=Fem|Number=Sing	12	nmod	_	_
+15	domani	domani	ADV	B	_	9	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = Buona fortuna per il tuo lavoro a Città X!
+1	Buona	buono	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	città	PROPN	SP	_	1	obl	_	_
+9	X	X	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = Spero mi rispondi presto.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+3	rispondi	rispondo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	presto	presto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = Tanti saluti Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

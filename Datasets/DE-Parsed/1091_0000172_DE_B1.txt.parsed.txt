@@ -1,0 +1,93 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000172_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Libe Maria, Ich habe eine paar Tag ParTy, und Ich müssTe nichT zu Hause faien.
+1	Libe	Libe	PROPN	NE	_	0	root	_	_
+2	Maria	Maria	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	paar	paar	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	Tag	Tag	NOUN	NN	_	9	nmod	_	_
+9	ParTy	Party	PROPN	NN	_	1	appos	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	17	punct	_	_
+11	und	und	CCONJ	KON	_	17	cc	_	_
+12	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+13	müssTe	müssen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	_
+14	nichT	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
+15	zu	zu	ADP	APPR	_	16	case	_	_
+16	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	17	nmod	_	_
+17	faien	faeinen	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	9	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = BiTTe Konnen Sie mir hilfe weil habe Ich eine Tier zu Hause.
+1	BiTTe	Bitte	ADV	VVIMP	_	2	advmod	_	_
+2	Konnen	Konnen	NOUN	NN	_	7	appos	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+5	hilfe	hilf	NOUN	NN	Case=Dat|Number=Sing	7	iobj	_	_
+6	weil	weil	ADV	ADV	_	7	advmod	_	_
+7	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	eine	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Tier	Tier	NOUN	NN	_	7	obl	_	_
+11	zu	zu	ADP	APPR	_	12	case	_	_
+12	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ledier Ich Kann nichT menem und miTnehmen.
+1	Ledier	Ledier	PROPN	ADJA	_	5	dep	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	Kann	Kann	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	nichT	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	SpacesAfter=\s\s
+5	menem	men	PRON	PDAT	PronType=Dem	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	miTnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Habe ich einen Hund und Am 20Ten Jonna gehen wir nach Stadt X. Sehen Sie BiTTe meinem Hund für zwei Tagen.
+1	Habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+5	und	und	CCONJ	KON	_	8	cc	_	SpacesAfter=\s\s
+6-7	Am	_	_	_	_	_	_	_	_
+6	An	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	20Ten	20Ten	PROPN	ADJA	_	4	conj	_	_
+9	Jonna	Jonna	PROPN	NN	_	8	flat	_	_
+10	gehen	gehen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+12	nach	nach	ADP	APPR	_	13	case	_	_
+13	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	15	nmod	_	_
+14	X.	X.	PROPN	NE	_	13	appos	_	_
+15	Sehen	sehen	NOUN	NN	_	10	obl	_	_
+16	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	15	obj	_	_
+17	BiTTe	Bitte	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	16	obj	_	_
+18	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	17	nmod	_	_
+20	für	für	ADP	APPR	_	22	case	_	_
+21	zwei	zwei	NUM	CARD	NumType=Card	22	nummod	_	_
+22	Tagen	Tag	NOUN	NN	Case=Dat|Number=Plur	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Wir Kommen am 22Ten Jonua zurich.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	Kommen	kommen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	22Ten	22Ten	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	6	amod	_	_
+6	Jonua	Jonua	PROPN	NE	_	2	obl	_	SpacesAfter=\s\s
+7	zurich	zurich	PROPN	NE	Case=Dat|Gender=Masc,Neut|Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Danke
+1	Danke	Danken	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

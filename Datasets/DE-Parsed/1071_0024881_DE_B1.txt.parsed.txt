@@ -1,0 +1,110 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024881_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, ich frohe mich für euch.
+1	Lieber	lieb	PROPN	NN	_	5	appos	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	frohe	frohen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Es ist wunderschön.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	wunderschön	wunderschön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich gratuliere und wünsche viel Glük, Gesund und alles Gute.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gratuliere	gratuli	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	und	und	CCONJ	KON	_	6	cc	_	_
+4	wünsche	wünschen	ADJ	ADJA	Degree=Pos	6	advmod	_	_
+5	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	Glük	Glük	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Gesund	gesund	NOUN	NN	_	6	conj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	11	nsubj	_	_
+11	Gute	gut	NOUN	ADJA	_	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Wie heißt dein Baby?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	dein	dein	PROPN	PPOSAT	_	2	nsubj	_	_
+4	Baby	Baby	PROPN	NN	_	3	flat	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ist es alles gut?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
+3	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	4	nsubj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Wie fühlt sich deine Frau?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	fühlt	fühlen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Frau	Frau	NOUN	NN	_	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Wann ist deine Frau mit Baby nach Hause zurückkommen?
+1	Wann	wann	ADV	PWAV	_	4	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Frau	Frau	NOUN	NN	_	9	obl	_	_
+5	mit	mit	ADP	APPR	_	6	case	_	_
+6	Baby	Baby	PROPN	NE	Case=Dat|Number=Sing	4	nmod	_	_
+7	nach	nach	ADP	APPR	_	8	case	_	_
+8	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+9	zurückkommen	zurückkommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 8
+# text = Ich möchte ein Geschenk für dein Baby bringen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Geschenk	Geschenk	NOUN	NN	_	8	obl	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	dein	dein	PROPN	PPOSAT	_	4	nmod	_	_
+7	Baby	Baby	PROPN	NN	_	6	flat	_	_
+8	bringen	bringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Wann kann ich zu ihnen kommen?
+1	Wann	wann	ADV	ADV	_	6	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	zu	zu	ADP	APPR	_	5	case	_	_
+5	ihnen	sie	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+6	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Gruß für deine Frau.
+1	Gruß	Gruß	NOUN	NN	_	0	root	_	_
+2	für	für	ADP	APPR	_	4	case	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Frau	Frau	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Liebe Grüße Maria
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

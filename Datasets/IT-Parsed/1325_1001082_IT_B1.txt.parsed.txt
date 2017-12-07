@@ -1,0 +1,219 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001082_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Strada Maggiore 17
+1	Strada	strada	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	Maggiore	maggiore	PROPN	SP	_	1	nmod	_	_
+3	17	17	NUM	N	NumType=Card	2	nummod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Via dei Mille 48 1234
+1	Via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Mille	mille	PROPN	SP	_	1	nmod	_	_
+5	48	48	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	1234	1234	NUM	N	NumType=Card	1	nummod	_	_
+
+# sent_id = 3
+# text = Città X 17021 Alassio 19.11.2011 Aggiungi un posto a tavola
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	17021	17021	NUM	N	NumType=Card	4	nummod	_	_
+4	Alassio	Alassio	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	19.11.2011	19.11.2011	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\n
+6	Aggiungi	Aggiungi	PROPN	SP	_	4	flat:name	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 4
+# text = Gentile Centro culturale internazionale Ho letto il loro annuncio su un giornale e secondo me questa cosa è molto buono ed è molto interessante che cuciniamo insieme e conosciamo -unreadable- diversi piatti al mondo.
+1	Gentile	gentile	PROPN	SP	_	6	nsubj	_	_
+2	Centro	centro	PROPN	SP	_	1	flat:name	_	_
+3	culturale	culturale	ADJ	A	Number=Sing	1	amod	_	_
+4	internazionale	internazionale	ADJ	A	Number=Sing	1	amod	_	SpacesAfter=\n
+5	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	loro	loro	DET	AP	Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+10	su	su	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	20	obl	_	_
+13	e	e	CCONJ	CC	_	20	cc	_	_
+14	secondo	secondo	ADP	E	_	15	case	_	_
+15	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	20	obl	_	_
+16	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	_
+17	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	molto	molto	ADV	B	_	20	advmod	_	_
+20	buono	buire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+21	ed	e	CCONJ	CC	_	24	cc	_	_
+22	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	molto	molto	ADV	B	_	24	advmod	_	_
+24	interessante	interessante	ADJ	A	Number=Sing	6	conj	_	_
+25	che	che	SCONJ	CS	_	26	mark	_	_
+26	cuciniamo	cucinare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+27	insieme	insieme	ADV	B	_	26	advmod	_	_
+28	e	e	CCONJ	CC	_	29	cc	_	_
+29	conosciamo	conoscere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	conj	_	_
+30	-	-	PUNCT	FB	_	29	punct	_	SpaceAfter=No
+31	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	34	amod	_	SpaceAfter=No
+32	-	-	PUNCT	FF	_	31	punct	_	SpacesAfter=\s\s
+33	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	34	det	_	_
+34	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	29	obj	_	_
+35-36	al	_	_	_	_	_	_	_	_
+35	a	a	ADP	E	_	37	case	_	_
+36	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	37	det	_	_
+37	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	34	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	FS	_	34	punct	_	_
+
+# sent_id = 5
+# text = Mi sembre che sia divertento.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	sembre	sembre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	divertento	divertento	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Prima di tutto voglio chiedere quando sarà esattamente il primo ciclo di serate perchè il maggio dovrò lavorare tanto ma se conosco la data in tempo sicuro che ci possa andare.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	_
+4	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+6	quando	quando	SCONJ	CS	_	11	mark	_	_
+7	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	11	cop	_	_
+8	esattamente	esatto	ADV	B	_	11	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	11	amod	_	_
+11	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	serate	serata	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+14	perchè	perché	SCONJ	CS	_	18	mark	_	SpacesAfter=\s\s
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	18	nsubj	_	_
+17	dovrò	dovere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	18	aux	_	_
+18	lavorare	lavorare	VERB	V	VerbForm=Inf	11	advcl	_	_
+19	tanto	tanto	ADV	B	_	18	advmod	_	_
+20	ma	ma	CCONJ	CC	_	22	cc	_	_
+21	se	se	SCONJ	CS	_	22	mark	_	_
+22	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	conj	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	data	data	NOUN	S	Gender=Fem|Number=Sing	22	obj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	22	obl	_	_
+27	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	26	amod	_	_
+28	che	che	PRON	PR	PronType=Rel	31	nsubj	_	_
+29	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	31	obj	_	_
+30	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	andare	andare	VERB	V	VerbForm=Inf	26	acl:relcl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = L'altra cosa che è molto importante è il costo.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	altra	altro	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	importante	importante	ADJ	A	Number=Sing	3	acl:relcl	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	costo	costo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 8
+# text = Voglio informare quanto costa il tutto e quando dovrei pagare o posso fare quello che pago la metà quando comincia il ciclo e pagerò l'altro quando lo finirà.
+1	Voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	informare	informare	VERB	V	VerbForm=Inf	0	root	_	_
+3	quanto	quanto	PRON	PR	Gender=Masc|Number=Sing|PronType=Rel	2	obj	_	_
+4	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	quando	quando	SCONJ	CS	_	10	mark	_	_
+9	dovrei	dovere	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	pagare	pagare	VERB	V	VerbForm=Inf	2	conj	_	_
+11	o	o	CCONJ	CC	_	13	cc	_	_
+12	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	fare	fare	VERB	V	VerbForm=Inf	10	conj	_	_
+14	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	obj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	obj	_	_
+16	pago	pagare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	metà	metà	NOUN	S	Gender=Fem	16	obj	_	_
+19	quando	quando	SCONJ	CS	_	20	mark	_	_
+20	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	ciclo	ciclo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	e	e	CCONJ	CC	_	24	cc	_	_
+24	pagerò	pagare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+25	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	26	det	_	SpaceAfter=No
+26	altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	24	obj	_	_
+27	quando	quando	SCONJ	CS	_	29	mark	_	_
+28	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	obj	_	_
+29	finirà	finire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	24	advcl	_	SpaceAfter=No
+30	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = L'ultima cosa che voglio sapere, se ho qualche allergia loro possono auitare a me e fare dei cibi quelli che posso mangiare o per questo non posso andare alle sere?
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	3	amod	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	3	punct	_	_
+8	se	se	SCONJ	CS	_	9	mark	_	_
+9	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+10	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	11	det	_	_
+11	allergia	allergia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+13	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	auitare	auitare	VERB	V	VerbForm=Inf	0	root	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	obl	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	fare	fare	VERB	V	VerbForm=Inf	14	conj	_	_
+19-20	dei	_	_	_	_	_	_	_	_
+19	di	di	ADP	E	_	21	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+21	cibi	cibo	NOUN	S	Gender=Masc|Number=Plur	18	obl	_	_
+22	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	18	obj	_	_
+23	che	che	PRON	PR	PronType=Rel	25	obj	_	_
+24	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	mangiare	mangiare	VERB	V	VerbForm=Inf	22	acl:relcl	_	_
+26	o	o	CCONJ	CC	_	31	cc	_	_
+27	per	per	ADP	E	_	28	case	_	_
+28	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	31	obl	_	_
+29	non	non	ADV	BN	PronType=Neg	31	advmod	_	_
+30	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	andare	andare	VERB	V	VerbForm=Inf	22	conj	_	_
+32-33	alle	_	_	_	_	_	_	_	_
+32	a	a	ADP	E	_	34	case	_	_
+33	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
+34	sere	sere	NOUN	S	Gender=Fem|Number=Plur	31	obl	_	SpaceAfter=No
+35	?	?	PUNCT	FS	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Grazie tutto e aspetto la loro risposta con ossequi Michele Rossi
+1	Grazie	grazie	NOUN	S	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obl	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	con	con	ADP	E	_	9	case	_	_
+9	ossequi	ossequi	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s
+10	Michele	Michele	PROPN	SP	_	9	nmod	_	_
+11	Rossi	Rossi	PROPN	SP	_	10	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,106 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000173_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Eva am Freitag habe ich eine Reise nach Stadt X und kann ich nehmen meine tiere mit.
+1	Liebe	Liebe	PROPN	NN	Case=Nom|Number=Sing	18	nsubj	_	_
+2	Eva	Eva	PROPN	NE	Case=Nom|Number=Sing	1	nsubj	_	SpacesAfter=\n
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	nmod	_	_
+6	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Reise	Reise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	9	nmod	_	_
+12	X	X	PROPN	NN	_	11	appos	_	_
+13	und	und	CCONJ	KON	_	16	cc	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	nehmen	nehm	VERB	VVINF	VerbForm=Inf	18	xcomp	_	_
+17	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	nsubj	_	_
+18	tiere	tieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+19	mit	mit	ADP	PTKVZ	_	18	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Bitte kanst du hilf mir mit meine zwei hunde (Waldi und Bella) Sie brauchen kroketen und wasser jedes Morgens und Abends un bitte nicht bergessen hunde brauchen pipi und popo machen jeden tag.
+1	Bitte	Bitte	ADV	VVIMP	_	29	advmod	_	_
+2	kanst	könen	ADV	ADV	_	29	advmod	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	29	nsubj	_	_
+4	hilf	hilf	NUM	CARD	NumType=Card	29	obl	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+6	mit	mit	ADP	APPR	_	9	case	_	_
+7	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	9	nummod	_	_
+9	hunde	hunde	NOUN	NN	Case=Dat|Number=Sing	16	obl	_	_
+10	(	(	PUNCT	$(	_	11	punct	_	SpaceAfter=No
+11	Waldi	Waldi	PROPN	NE	_	9	appos	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Bella	Bella	PROPN	NE	_	11	conj	_	SpaceAfter=No
+14	)	)	PUNCT	$(	_	11	punct	_	_
+15	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	16	nsubj	_	_
+16	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	29	ccomp	_	_
+17	kroketen	kroken	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	28	amod	_	_
+18	und	und	CCONJ	KON	_	27	cc	_	_
+19	wasser	wass	NOUN	NN	Case=Acc|Number=Sing	27	obj	_	_
+20	jedes	jed	PRON	PIAT	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Tot	21	det	_	_
+21	Morgens	morgens	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	19	nmod	_	_
+22	und	und	CCONJ	KON	_	23	cc	_	_
+23	Abends	abends	NOUN	NN	_	21	conj	_	_
+24	un	un	PROPN	VVFIN	_	23	nmod	_	_
+25	bitte	bitten	PROPN	NN	_	24	flat	_	_
+26	nicht	nicht	PART	PTKNEG	Polarity=Neg	27	advmod	_	_
+27	bergessen	bergessen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	17	conj	_	_
+28	hunde	hunde	NOUN	NN	Case=Nom|Number=Plur	29	nsubj	_	_
+29	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+30	pipi	pipi	PROPN	NE	Case=Nom|Number=Sing	33	nsubj	_	_
+31	und	und	CCONJ	KON	_	32	cc	_	_
+32	popo	popo	PROPN	NE	_	30	conj	_	_
+33	machen	machen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	29	acl	_	_
+34	jeden	jed	PRON	PIAT	PronType=Tot	35	det	_	_
+35	tag	tiegen	NOUN	VVIMP	Case=Dat|Number=Plur	33	obl	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	29	punct	_	_
+
+# sent_id = 3
+# text = zwei mal auch Morgens und Abends nur für das wochende.
+1	zwei	zwei	NUM	CARD	NumType=Card	2	nummod	_	_
+2	mal	mal	ADV	ADV	_	4	advmod	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	Morgens	morgens	PROPN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Abends	Abend	PROPN	NN	_	4	conj	_	_
+7	nur	nur	ADV	ADV	_	10	advmod	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+10	wochende	wochend	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = ich hofe du kannst nicht große probleme mit meine tiere.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	hofe	hof	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	10	nsubj	_	_
+4	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
+6	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	probleme	probleme	NOUN	NN	Case=Acc|Number=Plur	10	obj	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	tiere	tieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Vielen dank. für Alles.
+1	Vielen	viel	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	dank	dinken	ADP	APPR	_	5	case	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	Alles	alle	PRON	PIS	Case=Acc|PronType=Tot	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Katharina
+1	Katharina	Katharina	PROPN	NE	Case=Nom|Number=Sing	0	root	_	SpacesAfter=\n
+

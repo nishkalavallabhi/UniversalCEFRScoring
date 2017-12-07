@@ -1,0 +1,317 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001081_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = ALI - Agenzia Lavoro Interinale Via Dante Alighieri 40 I - 42010 Reggio Emilia ITALIA -symbol- Novembre 19.
+1	ALI	Ali	PROPN	SP	_	3	nmod	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	_
+3	Agenzia	Agenzia	PROPN	SP	_	0	root	_	_
+4	Lavoro	Lavoro	PROPN	SP	_	3	flat:name	_	_
+5	Interinale	Interinale	PROPN	SP	_	3	flat:name	_	SpacesAfter=\s\n
+6	Via	via	PROPN	SP	_	3	flat:name	_	_
+7	Dante	Dante	PROPN	SP	_	3	flat:name	_	_
+8	Alighieri	Alighieri	PROPN	SP	_	3	flat:name	_	_
+9	40	40	NUM	N	NumType=Card	10	nummod	_	SpacesAfter=\s\n
+10	I	i	X	X	_	3	flat:name	_	_
+11	-	-	PUNCT	FF	_	3	punct	_	_
+12	42010	42010	NUM	N	NumType=Card	13	nummod	_	_
+13	Reggio	Reggio	PROPN	SP	_	3	nmod	_	_
+14	Emilia	Emilia	PROPN	SP	_	13	flat:name	_	SpacesAfter=\s\n
+15	ITALIA	Italia	PROPN	SP	_	13	flat:name	_	SpacesAfter=\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+16	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+17	symbol	symbol	ADJ	A	_	19	amod	_	SpaceAfter=No
+18	-	-	PUNCT	FF	_	17	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+19	Novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+20	19	19	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 2
+# text = Roma Spettabile Signora, Signore, ho trovato il Vostro annuncio sull'internet sul cercolavoro.
+1	Roma	Roma	PROPN	SP	_	8	nsubj	_	SpacesAfter=\s\n
+2	Spettabile	Spettabile	PROPN	SP	_	1	flat:name	_	_
+3	Signora	signore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Signore	signore	PROPN	SP	_	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	Vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	annuncio	annunciare	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+12-13	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+12	su	su	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
+14	internet	internet	NOUN	S	_	8	obl	_	_
+15-16	sul	_	_	_	_	_	_	_	_
+15	su	su	ADP	E	_	17	case	_	_
+16	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	cercolavoro	cercolavoro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Invio della vostra cortese attenzione il mio CV.
+1	Invio	invio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	6	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+5	cortese	cortesa	ADJ	A	Number=Sing	6	amod	_	_
+6	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	CV	CV	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Mi sono laureata nel 2009 a pieni voti all'Università Economia di Città X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	laureata	laureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	2009	2009	NUM	N	NumType=Card	3	obl	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	pieni	pieno	ADJ	A	Gender=Masc|Number=Plur	9	amod	_	_
+9	voti	voto	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+10-11	all'	_	_	_	_	_	_	_	SpaceAfter=No
+10	a	a	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	Università	università	PROPN	SP	_	9	nmod	_	_
+13	Economia	economia	PROPN	SP	_	12	flat:name	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Città	Città	PROPN	SP	_	12	nmod	_	_
+16	X	X	ADJ	NO	Number=Sing|NumType=Ord	15	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Precedemente ho ottenuto una borsa di studia all'Università di Brighton -symbol- sempre di economia.
+1	Precedemente	Precedemente	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ottenuto	ottenere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	studia	studia	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	all'	_	_	_	_	_	_	_	SpaceAfter=No
+8	a	a	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	Università	università	NOUN	S	Gender=Fem	3	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Brighton	Brighton	PROPN	SP	_	10	nmod	_	_
+13	-	-	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+14	symbol	symbol	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	SpaceAfter=No
+15	-	-	PUNCT	FB	_	18	punct	_	_
+16	sempre	sempre	ADV	B	_	18	advmod	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	economia	economia	NOUN	S	Gender=Fem|Number=Sing	3	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Questo è stato buono per perfezzionare il mio conosenza di inglese.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj:pass	_	_
+2	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	aux:pass	_	_
+4	buono	bue	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	perfezzionare	perfezzionare	VERB	V	VerbForm=Inf	4	advcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	conosenza	conosenza	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	inglese	inglese	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Fino ad oggi ho avuto uno esame di lingue in questa lingua.
+1	Fino	fino	ADV	B	_	3	case	_	_
+2	ad	a	ADP	E	_	1	fixed	_	_
+3	oggi	oggi	ADV	B	_	5	advmod	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	esame	esame	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	12	det	_	_
+12	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Mi piace lavorere in gruppo, con altri o con i clienti.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lavorere	lavorere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	altri	altro	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	3	obl	_	_
+9	o	o	CCONJ	CC	_	12	cc	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	clienti	cliente	NOUN	S	Number=Plur	8	conj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = No ho è vero grande esperienza lavorativa.
+1	No	no	INTJ	I	Polarity=Neg	4	discourse	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	vero	vero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	lavorativa	lavorativo	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Ho lavorato primo in un azienda come capouffico, ma questa solo un azienda locale, non è piu grande della vostra.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	2	amod	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	capouffico	capouffico	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	20	punct	_	_
+10	ma	ma	CCONJ	CC	_	20	cc	_	_
+11	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	20	nsubj	_	_
+12	solo	solo	ADV	B	_	14	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	20	nsubj	_	_
+15	locale	locale	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	14	punct	_	_
+17	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+18	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	piu	piu	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	grande	grande	ADJ	A	Number=Sing	2	conj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	vostra	vostra	NOUN	S	Gender=Fem|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Io uso sempre il mio computer e ho un eseme ECDL.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	uso	udere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	sempre	sempre	ADV	B	_	2	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	computer	computer	NOUN	S	Gender=Masc	2	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	eseme	eseme	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	ECDL	ECDL	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Ho qualche domanda in connessione di lavoro.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	3	det	_	_
+3	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	connessione	connessione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 13
+# text = Mio primo domanda è:
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+2	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	4	punct	_	_
+
+# sent_id = 14
+# text = quando possiamo incontrarci, e se ricevo il lavoro quando devo comincare.
+1	quando	quando	SCONJ	CS	_	3	mark	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	incontrarci	_	_	_	_	_	_	_	SpaceAfter=No
+3	incontrar	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	ricevo	ricevere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	quando	quando	SCONJ	CS	_	13	mark	_	_
+12	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	comincare	comincare	VERB	V	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Quante ore devo lavorare in un giorno.
+1	Quante	quanto	DET	DQ	Gender=Fem|Number=Plur|PronType=Int	2	det	_	_
+2	ore	ora	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+3	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Per me sarebbe meglio se lavoro circa otto ore in un giorno.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	sarebbe	essere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	meglio	meglio	ADV	B	_	3	advmod	_	_
+5	se	se	SCONJ	CS	_	6	mark	_	_
+6	lavoro	lavorare	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	circa	circa	ADV	B	_	8	advmod	_	_
+8	otto	otto	NUM	N	NumType=Card	9	nummod	_	_
+9	ore	ora	NOUN	S	Gender=Fem|Number=Plur	6	nmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 17
+# text = E quanto è la somma il mio stipendio?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	0	root	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	somma	somma	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	stipendio	stipendio	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = Spero che la nostra collaborazione sarà fruttuosa!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	sarà	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	7	cop	_	_
+7	fruttuosa	fruttuoso	ADJ	A	Gender=Fem|Number=Sing	1	ccomp	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 19
+# text = In attesa della vostra cortese risposta, porgo, cordiali saluti Giulia Kiss -symbol-
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	7	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+5	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	cortese	cortesa	ADJ	A	Number=Sing	7	amod	_	_
+7	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	porgo	porgo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	cordiali	cordiale	ADJ	A	Number=Plur	12	amod	_	_
+12	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	7	conj	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	Giulia	Giulia	PROPN	SP	_	12	nmod	_	_
+14	Kiss	Kiss	PROPN	SP	_	13	flat:name	_	SpacesAfter=\s\n\s
+15	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+16	symbol	symbol	ADJ	A	_	2	amod	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,102 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000227_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 12-03-12 Liebe Eva, Ich muss für ein paar Tage nach Nigeria fliegen.
+1	Stadt	Stadt	NOUN	NN	_	16	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	12-03-12	12-03-12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Liebe	Liebe	NOUN	NN	_	1	appos	_	_
+6	Eva	Eva	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+9	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+10	für	für	ADP	APPR	_	13	case	_	_
+11	ein	ein	DET	ART	Case=Dat|Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
+12	paar	paar	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	13	det	_	_
+13	Tage	Tag	NOUN	NN	Case=Dat|Number=Plur	16	obl	_	_
+14	nach	nach	ADP	APPR	_	15	case	_	_
+15	Nigeria	Nigeria	PROPN	NN	Case=Dat|Number=Sing	16	obl	_	_
+16	fliegen	fliegen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 2
+# text = Ich habe ein Haustier, eine Katze, und kann ich nicht mit die katze nehmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Haustier	Haustier	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	16	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Katze	Katze	NOUN	NN	_	4	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	und	und	CCONJ	KON	_	16	cc	_	_
+10	kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+13	mit	mit	ADP	APPR	_	15	case	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	katze	katz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+16	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 3
+# text = Deshalb, brauche ich deine Helfe.
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	deine	dein	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Helfe	Helfe	NOUN	NN	_	3	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Von 15. bis 20.
+1	Von	von	ADP	APPR	_	2	case	_	_
+2	15	15	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+4	bis	bis	ADP	APPR	_	5	case	_	_
+5	20	20	NUM	CARD	NumType=Card	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = März bin ich nicht zu Hause.
+1	März	März	PROPN	NN	_	2	obl	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Bitte, passt du meine Katze auf.
+1	Bitte	Bitte	PART	ADV	_	3	appos	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	passt	passen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	du	du	PROPN	PPER	_	3	nsubj	_	_
+5	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	obj	_	_
+7	auf	auf	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Vielen Dank für deine Helfe!
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Helfe	Helfe	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Bis bald!
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Dein Stefan
+1	Dein	dein	PROPN	PPOSAT	_	0	root	_	_
+2	Stefan	Stefan	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

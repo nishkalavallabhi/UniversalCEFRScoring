@@ -1,0 +1,138 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000338_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Giovedi 4 Marzo Caro Paulo, Fa molto tempo che non ho di tue noticies.
+1	Giovedi	Giovedere	PROPN	SP	_	7	nsubj	_	_
+2	4	4	PROPN	SP	_	1	flat:name	_	_
+3	Marzo	marzo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+4	Caro	Caro	PROPN	SP	_	1	appos	_	_
+5	Paulo	Paulo	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+7	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	che	che	PRON	PR	PronType=Rel	12	obj	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	15	det	_	_
+15	noticies	noticy	NOUN	S	Number=Plur	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 2
+# text = Come state tu e tua familia?
+1	Come	come	SCONJ	CS	_	2	mark	_	_
+2	state	essere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	familia	familia	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Adesso, vado bene anche i miei genitori e mia sorella.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	_
+5	anche	anche	ADV	B	_	8	advmod	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	sorella	sorella	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Purtroppo, oggi sono disoccupata dopo avere lavorare nelle negozio a Città X.
+1	Purtroppo	purtroppo	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	oggi	oggi	ADV	B	_	5	advmod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	disoccupata	disoccupare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	dopo	dopo	ADP	E	_	7	mark	_	_
+7	avere	avere	VERB	V	VerbForm=Inf	5	advcl	_	_
+8	lavorare	lavorare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+9-10	nelle	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	città	PROPN	SP	_	8	obl	_	_
+14	X	x	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ma adesso ho tempo libero e con Sergio siamo partiti in vacanza al Portugalo.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+5	libero	libero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Sergio	Sergio	PROPN	SP	_	10	obl	_	_
+9	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	conj	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13-14	al	_	_	_	_	_	_	_	_
+13	a	a	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Portugalo	Portugalo	PROPN	SP	_	10	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Fa bel tempo ma troppo caldo!
+1	Fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bel	bello	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	ma	ma	CCONJ	CC	_	6	cc	_	_
+5	troppo	troppo	ADV	B	_	6	advmod	_	_
+6	caldo	caldo	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Era buene anzi fantastiche!
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	cop	_	_
+2	buene	buena	ADJ	A	Gender=Fem|Number=Plur	4	amod	_	_
+3	anzi	anzi	ADV	B	_	4	advmod	_	_
+4	fantastiche	fantastico	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Quando se incontrati?
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	incontrati	incontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Vieni al compleano di Patrizia?
+1	Vieni	vieni	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	compleano	compleano	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Patrizia	Patrizia	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Espero ti vedere al compleano!
+1	Espero	Espero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	1	obj	_	_
+3	vedere	vedere	VERB	V	VerbForm=Inf	1	advcl	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	compleano	compleano	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = A presto Eva
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	3	advmod	_	_
+3	Eva	Eva	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,82 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000604_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 8 Gennaio Cari amici, Vi scrivo da Città X, dove faccio un corso di italiano.
+1	Città	Città	PROPN	SP	_	11	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	8	8	NUM	N	NumType=Card	6	nummod	_	_
+6	Gennaio	gennaio	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n
+7	Cari	caro	PROPN	SP	_	1	nmod	_	_
+8	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	compound	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+10	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	11	obj	_	_
+11	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	Città	Città	PROPN	SP	_	11	obl	_	_
+14	X	X	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	dove	dove	ADV	B	_	17	advmod	_	_
+17	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+18	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	corso	corso	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = La mia insegnante è Mme filipini, e siamo dieci in la clase.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Mme	Mme	PROPN	SP	_	0	root	_	_
+6	filipini	filipino	NOUN	S	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	dieci	dieco	NUM	N	NumType=Card	5	conj	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	clase	clase	NOUN	S	Gender=Fem|Number=Sing	10	orphan	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Quando non c'è lezione vado alla piazza Monumento X con i studenti per berre caffè.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+6	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	piazza	piazza	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	Monumento	monumento	PROPN	SP	_	9	nmod	_	_
+11	X	X	ADJ	NO	Number=Sing|NumType=Ord	10	amod	_	_
+12	con	con	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	studenti	studente	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	berre	berre	VERB	V	VerbForm=Inf	14	acl	_	_
+17	caffè	caffè	NOUN	S	Gender=Masc	16	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Spero di vedervi presto.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	vedervi	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	3	expl	_	_
+5	presto	presto	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 5
+# text = Michele Grande Bacio
+1	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	Grande	Grande	PROPN	SP	_	1	flat:name	_	_
+3	Bacio	Bacio	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

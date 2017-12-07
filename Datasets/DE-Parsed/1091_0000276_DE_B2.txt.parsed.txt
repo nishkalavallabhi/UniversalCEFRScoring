@@ -1,0 +1,96 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000276_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Julia, Ich wolte nexte Woche nach Stadt X hinfahre für besuche „Heimtextil 2012" TREND-Bereich.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	2	amod	_	_
+2	Julia	Julia	PROPN	NE	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	wolte	wolen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+6	nexte	nexen	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Woche	Woche	NOUN	NN	_	5	obl	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	5	obl	_	_
+10	X	X	PROPN	NN	_	9	appos	_	_
+11	hinfahre	hinfahren	PROPN	NN	Case=Nom|Number=Plur	15	nsubj	_	_
+12	für	für	ADP	APPR	_	13	case	_	_
+13	besuche	besuche	NOUN	NN	Case=Acc|Number=Plur	11	nmod	_	_
+14	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+15	Heimtextil	Heimtextil	NOUN	NN	_	5	nmod	_	_
+16	2012	2012	NUM	CARD	NumType=Card	15	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	$(	_	5	punct	_	_
+18	TREND-Bereich	TREND-Bereich	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	flat	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Diese Messe dauert (zuletzt) von 12.01.2012 bis 15.01.2012.
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Messe	Messe	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	dauert	dauern	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	(	(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	zuletzt	zuletzt	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+6	)	)	PUNCT	$(	_	5	punct	_	_
+7	von	von	ADP	APPR	_	8	case	_	_
+8	12.01.2012	12.01.2012	NUM	CARD	NumType=Card	3	obl	_	_
+9	bis	bis	ADP	KON	_	10	case	_	_
+10	15.01.2012	15.01.2012	NUM	CARD	NumType=Card	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich habe eine Fahrkarte für nexte Woche gekauft aber ich kann nicht fahren wiel mein Sohn Stefan, kommt mich besuchen, Er kommt Freitag morgen und fahrt zurück Samstagabend.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	nexte	next	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Woche	Woche	NOUN	NN	_	4	nmod	_	_
+8	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	aber	aber	CCONJ	KON	_	14	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
+13	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	14	acl	_	_
+14	wiel	wiel	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	conj	_	_
+15	mein	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Sohn	Sohn	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
+17	Stefan	Stefan	PROPN	NE	_	16	appos	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	kommt	kommen	VERB	VVFIN	Person=3|VerbForm=Fin	8	conj	_	_
+20	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	21	obj	_	_
+21	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	19	punct	_	_
+23	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	8	parataxis	_	_
+25	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	26	nmod	_	_
+26	morgen	morgen	NOUN	ADV	Case=Dat|Gender=Masc,Neut|Number=Sing	24	iobj	_	_
+27	und	und	CCONJ	KON	_	28	cc	_	_
+28	fahrt	fahren	NOUN	NN	_	26	conj	_	_
+29	zurück	zurück	ADV	PTKVZ	_	24	advmod	_	_
+30	Samstagabend	Samstagabend	NOUN	NN	Case=Acc|Number=Sing	24	obj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 4
+# text = Ich denke du wilst diese Fahrkarte haben für fahren und besuche diese Messe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	Rank|denke	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	nsubj	_	_
+4	wilst	wilsen	ADV	ADV	_	9	advmod	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	2	ccomp	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	besuche	besuchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+12	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	Messe	Messe	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = 05.01.2012 Süße Grüße Katharina
+1	05.01.2012	05.01.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	Süße	süß	NOUN	NN	_	0	root	_	_
+3	Grüße	Grüße	PROPN	NN	_	2	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Katharina	Katharina	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

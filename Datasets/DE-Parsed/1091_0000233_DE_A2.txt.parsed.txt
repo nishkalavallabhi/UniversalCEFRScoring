@@ -1,0 +1,121 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000233_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 12.02.12 Liber Michael herzliche Grüße!
+1	12.02.12	12.02.12	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\s\n
+2	Liber	Liber	NOUN	NN	_	5	compound	_	_
+3	Michael	Michael	PROPN	NE	_	2	appos	_	SpacesAfter=\n\s\s\s\s\s\s
+4	herzliche	herzlich	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte zu meinen Eltern fahren am Morgen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Eltern	Eltern	NOUN	NN	Case=Dat|Number=Sing	6	obl	_	_
+6	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Morgen	Morgen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Deshalb Ich zu Haus werde nicht blieben bis Frietag.
+1	Deshalb	deshalb	ADV	PAV	_	7	advmod	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	Haus	Haus	PROPN	NN	_	7	obl	_	_
+5	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+7	blieben	bleiben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+8	bis	bis	ADP	APPR	_	9	case	_	_
+9	Frietag	Frietag	PROPN	NN	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Kannst du mir hilfen über mein Hund?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	hilfen	hilfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	über	über	ADP	APPR	_	7	case	_	_
+6	mein	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ich brauche dass du mein Hund Essen geben, und spazieren mit es machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+4	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+5	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	iobj	_	_
+7	Essen	Essen	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+8	geben	geben	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	spazieren	spazieren	VERB	VVFIN	VerbForm=Fin	2	conj	_	_
+12	mit	mit	ADP	APPR	_	13	case	_	_
+13	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obl	_	_
+14	machen	machen	VERB	VVINF	VerbForm=Inf	11	xcomp	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\s\s\s\s
+
+# sent_id = 6
+# text = Hast du Zeit?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3	Zeit	Zeit	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Wenn das ist moglisch für dir ruft du mir an.
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	das	der	PRON	PDS	Case=Nom|PronType=Dem	7	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	moglisch	moglisch	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obl	_	_
+7	ruft	rufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	du	du	PROPN	PPER	_	9	case	_	_
+9	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
+10	an	an	ADP	PTKVZ	_	7	compound:prt	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Ich werde sehr glücklisch sein.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	glücklisch	glücklisch	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	sein	sein	VERB	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Es wird gefält mir sehr gut.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gefält	fälen	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich warte deine Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Antwort	Antwort	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Bis bald Tobias
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	3	advmod	_	SpacesAfter=\n
+3	Tobias	Tobias	PROPN	NN	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,291 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0001422_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Abs.
+1	Abs	Abs	X	VVFIN	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Frau EVA SCHMIDT BAHNHOFSTR, 8-12, 1234 STADT X LITAUEN AUPAIRSGLOBAL BAHNHOFSTR: 101, 65185 WIESBADEN 0611/9988776 STADT X, 14.05.2011 SEHR GEEHRTE DAMEN UND HERREN ICH HABE IHRE ANZEIGE GELESEN;
+1	Frau	Frau	NOUN	NN	Case=Nom|Number=Sing	33	nsubj	_	_
+2	EVA	Eva	PROPN	NE	_	1	appos	_	_
+3	SCHMIDT	Schmidt	PROPN	NE	_	2	flat	_	SpacesAfter=\n
+4	BAHNHOFSTR	BAHNHOFSTR	PROPN	NE	_	2	flat	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	8-12	8-12	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	1234	1234	NUM	CARD	NumType=Card	9	nummod	_	_
+9	STADT	Stadt	PROPN	NN	_	13	advmod	_	_
+10	X	X	PROPN	NN	_	9	appos	_	SpacesAfter=\n
+11	LITAUEN	Litauen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	9	flat	_	SpacesAfter=\n
+12	AUPAIRSGLOBAL	AUPAIRSGLOBAL	PROPN	NE	_	13	amod	_	SpacesAfter=\n
+13	BAHNHOFSTR	BAHNHOFSTR	PROPN	NE	_	1	appos	_	SpaceAfter=No
+14	:	:	PUNCT	$.	_	1	punct	_	_
+15	101	101	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+17	65185	65185	NUM	CARD	NumType=Card	18	nummod	_	_
+18	WIESBADEN	Wiesbaden	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+19	0611/9988776	0611/9988776	PROPN	ADJA	Case=Nom|Number=Sing	18	flat	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+20	STADT	Stadt	PROPN	NN	_	18	appos	_	_
+21	X	X	PROPN	NN	_	20	appos	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	14.05.2011	14.05.2011	PROPN	CARD	_	18	appos	_	SpacesAfter=\n
+24	SEHR	sehr	PROPN	ADV	_	25	cc	_	_
+25	GEEHRTE	GEEHRTE	PROPN	NN	_	23	conj	_	_
+26	DAMEN	Dame	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	_
+27	UND	Und	PROPN	NE	_	29	cc	_	_
+28	HERREN	Herr	PROPN	NN	_	29	amod	_	SpacesAfter=\n
+29	ICH	ich	PROPN	NE	_	26	conj	_	_
+30	HABE	Habe	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+31	IHRE	Ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	ANZEIGE	Anzeige	NOUN	NN	Case=Nom|Number=Sing	33	nsubj	_	_
+33	GELESEN	lesen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+34	;	;	PUNCT	$.	_	33	punct	_	_
+
+# sent_id = 3
+# text = UND WOLTE NOCH EIN PAAR FRAGEN STELEN.
+1	UND	Und	PROPN	NE	_	6	nsubj	_	_
+2	WOLTE	WOLTE	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	_
+3	NOCH	noch	PROPN	NE	_	4	amod	_	_
+4	EIN	ein	PROPN	NE	_	5	nmod	_	_
+5	PAAR	Paar	PROPN	NN	_	1	appos	_	_
+6	FRAGEN	Frage	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	STELEN	Stelen	AUX	VVFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = ICH HABE LITAUISCHE STAATSANGEHORISCHKEIT: WIE IST MIT AUFENTHALTSFORMALITÄTEN? (LITAUEN IST IN den EU): BRAUCHE ICH "EINE ABITUR DIPLOME und ec: DOKUMENTE ZU UBERSETZEN?
+1	ICH	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+2	HABE	Habe	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+3	LITAUISCHE	Litauische	PROPN	ADJA	_	12	appos	_	_
+4	STAATSANGEHORISCHKEIT	STAATSANGEHORISCHKEIT	PROPN	NN	_	3	flat	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	3	punct	_	_
+6	WIE	wie	PROPN	NN	_	9	cc	_	_
+7	IST	sein	PROPN	NE	_	6	flat	_	_
+8	MIT	mit	PROPN	NN	_	6	flat	_	_
+9	AUFENTHALTSFORMALITÄTEN	AUFENTHALTSFORMALITÄTEN	PROPN	NN	_	3	appos	_	SpaceAfter=No
+10	?	?	PROPN	$.	_	9	flat	_	_
+11	(	(	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+12	LITAUEN	Litauen	PROPN	NE	Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+13	IST	sein	PROPN	NN	_	12	flat	_	_
+14	IN	in	PROPN	APPR	_	16	case	_	_
+15	den	der	PROPN	ART	_	16	nmod	_	_
+16	EU	EU	PROPN	NE	_	12	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	$(	_	12	punct	_	SpaceAfter=No
+18	:	:	PUNCT	$.	_	12	punct	_	_
+19	BRAUCHE	brauche	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+20	ICH	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+21	"	"	PUNCT	$(	_	23	punct	_	SpaceAfter=No
+22	EINE	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	ABITUR	Abitur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+24	DIPLOME	Diplom	PROPN	NN	_	23	appos	_	_
+25	und	und	CCONJ	KON	_	26	cc	_	_
+26	ec	ec	NOUN	NE	_	23	conj	_	SpaceAfter=No
+27	:	:	PUNCT	$.	_	19	punct	_	_
+28	DOKUMENTE	Dokument	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	30	nsubj	_	_
+29	ZU	zu	PROPN	NE	_	30	advmod	_	_
+30	UBERSETZEN	UBERSETZEN	PROPN	NE	_	19	appos	_	SpaceAfter=No
+31	?	?	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 5
+# text = WIE LANG DAUERT die GANZE POWEREITUNG mit -unreadable- WO ICH SOLLTE MICH MELDEN WEGEN ARBEITSGENEHMIGUNG (in mein Heimatsland oder in Deutschland)
+1	WIE	wie	ADP	KOKOM	_	2	case	_	_
+2	LANG	lang	PROPN	NN	_	3	obl	_	_
+3	DAUERT	dauert	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	GANZE	ganz	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	POWEREITUNG	POWEREITUNG	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+7	mit	mit	ADP	APPR	_	12	case	_	_
+8	-unreadable-	-unreadable-	PUNCT	$(	_	9	punct	_	_
+9	WO	Wo	PROPN	ADV	_	11	nmod	_	_
+10	ICH	Ich	PROPN	NE	_	9	flat	_	_
+11	SOLLTE	Sollt	NOUN	NN	Case=Nom|Number=Sing	12	amod	_	_
+12	MICH	mich	PROPN	NE	_	6	nmod	_	_
+13	MELDEN	melden	PROPN	NN	_	6	appos	_	_
+14	WEGEN	wegen	ADP	APPR	_	15	case	_	_
+15	ARBEITSGENEHMIGUNG	ARBEITSGENEHMIGUNG	PROPN	NE	_	13	nmod	_	_
+16	(	(	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+17	in	in	ADP	APPR	_	19	case	_	_
+18	mein	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	Heimatsland	Heimatsland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	nmod	_	_
+20	oder	oder	CCONJ	KON	_	22	cc	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	Deutschland	Deutschland	PROPN	NE	_	19	conj	_	SpaceAfter=No
+23	)	)	PUNCT	$(	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich wolte wisen, welche Sprache wird in der Familie geschprochen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	wolte	wolen	ADJ	ADJA	Degree=Pos	3	advmod	_	_
+3	wisen	wisen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	welche	welch	PRON	PRELS	Case=Nom|PronType=Rel	11	nsubj	_	_
+6	Sprache	Sprache	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+7	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+11	geschprochen	schprochen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	3	acl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ich möchte gern in Deutsche Familie arbeiten - um meine Deutsch sprache zu verbesern.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	gern	gern	ADV	ADV	_	7	advmod	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	Deutsche	deutsch	PROPN	NN	_	6	amod	_	_
+6	Familie	Familie	NOUN	NN	_	7	obl	_	_
+7	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	-	-	PUNCT	$(	_	7	punct	_	_
+9	um	um	ADP	APPR	_	12	case	_	_
+10	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	12	amod	_	_
+12	sprache	sprach	NOUN	NN	Case=Acc|Number=Sing	7	obl	_	_
+13	zu	zu	ADP	APPR	_	14	case	_	SpacesAfter=\s\s
+14	verbesern	verbesern	NOUN	NN	Case=Dat|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 8
+# text = (Englisch spreche ich nicht) Noch ein paar Fragen: - Wie viele Stunde am Tag würde ich Arbeiten?
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Englisch	englisch	PROPN	NN	_	3	dep	_	_
+3	spreche	sprechen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No
+6	)	)	PUNCT	$(	_	3	punct	_	_
+7	Noch	Noch	ADV	ADV	_	10	advmod	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+9	paar	paar	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	10	det	_	_
+10	Fragen	Frage	NOUN	NN	Case=Dat|Number=Plur	3	obl	_	SpaceAfter=No
+11	:	:	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n
+12	-	-	PUNCT	$(	_	3	punct	_	_
+13	Wie	wie	ADV	KOUS	_	3	advmod	_	_
+14	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	15	amod	_	_
+15	Stunde	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+16-17	am	_	_	_	_	_	_	_	_
+16	an	an	ADP	APPR	_	18	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	_
+19	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+21	Arbeiten	Arbeit|Arbeiten	NOUN	NN	_	3	obl	_	SpaceAfter=No
+22	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = -wan Kinder sind in die Schuhle, oder in der KITA, darf ich meine Zeit selbst organizieren (Einkaufen, Putzen, Ordnung machen - oder gibs eine feste Zeitplan) -Dürfte ich eine Deutschsprache Kurse besuschen?
+1	-wan	-wan	PROPN	NE	_	2	nmod	_	_
+2	Kinder	Kind	NOUN	NN	Case=Nom|Number=Plur	18	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	Schuhle	Schuhle	NOUN	NN	Case=Acc|Number=Plur	18	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	11	punct	_	_
+8	oder	oder	CCONJ	KON	_	11	cc	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	KITA	Kita	NOUN	NE	_	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	6	punct	_	_
+13	darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+15	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+17	selbst	selbst	ADV	ADV	_	18	advmod	_	_
+18	organizieren	organizi	ADJ	ADJA	Degree=Cmp	0	root	_	_
+19	(	(	PUNCT	$(	_	20	punct	_	SpaceAfter=No
+20	Einkaufen	einkauf	NOUN	NN	_	18	appos	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	Putzen	Putzen	NOUN	NN	_	20	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	Ordnung	Ordnung	NOUN	NN	_	25	conj	_	_
+25	machen	machen	PROPN	VVFIN	_	20	conj	_	_
+26	-	-	PUNCT	$(	_	25	punct	_	_
+27	oder	oder	CCONJ	KON	_	28	cc	_	_
+28	gibs	gibs	NOUN	NN	_	20	conj	_	_
+29	eine	ein	DET	ART	Definite=Ind|PronType=Art	31	det	_	_
+30	feste	fest	ADJ	ADJA	Degree=Pos	31	amod	_	_
+31	Zeitplan	Zeitplan	NOUN	NN	_	20	conj	_	SpaceAfter=No
+32	)	)	PUNCT	$(	_	20	punct	_	SpacesAfter=\n
+33	-Dürfte	-Dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	_
+34	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+35	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Deutschsprache	Deutschsprach	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
+37	Kurse	Kurs	NOUN	NN	_	36	nmod	_	_
+38	besuschen	besusch	ADJ	ADJA	Degree=Pos	18	conj	_	SpaceAfter=No
+39	?	?	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 10
+# text = Gibs in Eurere Statd solche Kurse???
+1	Gibs	Gibs	NOUN	NN	_	0	root	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	Eurere	Eurere	NOUN	NN	_	4	nmod	_	_
+4	Statd	Statd	NOUN	NN	_	6	nmod	_	_
+5	solche	solch	PRON	PIAT	PronType=Ind	6	det	_	_
+6	Kurse	Kurs	NOUN	NN	_	1	conj	_	SpaceAfter=No
+7	??	??	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+8	?	?	PROPN	$.	_	1	flat	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = -Muss ich 24 St am Tag mit Familie verbringen?
+1	-Muss	-Muß	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+3	24	24	PROPN	CARD	_	2	appos	_	_
+4	St	St	PROPN	NE	_	3	flat	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Tag	Tag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	obl	_	_
+8	mit	mit	ADP	APPR	_	9	case	_	_
+9	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	_
+10	verbringen	verbringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ich gerne schwimmen (das tut gut für Stresausbau), dürfte ich das auch in Deutschland machen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	gerne	gerne	ADV	ADV	_	3	advmod	_	_
+3	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+5	das	der	PRON	ART	Case=Nom|PronType=Dem	6	nsubj	_	_
+6	tut	tun	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	acl	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	Stresausbau	Stresausbau	NOUN	NN	Case=Acc|Number=Sing	6	obl	_	SpaceAfter=No
+10	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	18	punct	_	_
+12	dürfte	dürfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+14	das	der	PRON	PDS	Case=Nom|PronType=Dem	18	nsubj	_	_
+15	auch	auch	ADV	ADV	_	18	advmod	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	Deutschland	Deutschland	PROPN	NE	_	18	nmod	_	_
+18	machen	machen	PROPN	VVFIN	_	3	conj	_	SpaceAfter=No
+19	?	?	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Ich warte auf ihre Antwort, und bin bereit ab mitte Mai nach Deutschland abreiten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Antwort	Antwort	NOUN	NN	_	15	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	15	punct	_	_
+7	und	und	CCONJ	KON	_	15	cc	_	_
+8	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	15	cop	_	_
+9	bereit	bereit	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+10	ab	ab	ADP	APPR	_	12	case	_	_
+11	mitte	mitten	PROPN	NN	_	12	amod	_	_
+12	Mai	Mai	PROPN	NN	_	15	obl	_	_
+13	nach	nach	ADP	APPR	_	14	case	_	_
+14	Deutschland	Deutschland	PROPN	NE	Case=Dat|Number=Sing	15	obl	_	_
+15	abreiten	abreit	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Schöne Gruße Frau Eva Schmidt
+1	Schöne	schön	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Gruße	Gruße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Frau	Frau	NOUN	NN	_	4	compound	_	_
+4	Eva	Eva	PROPN	NE	_	2	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

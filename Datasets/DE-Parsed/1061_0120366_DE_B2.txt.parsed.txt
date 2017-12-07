@@ -1,0 +1,164 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120366_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 27.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	den	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+5	27	27	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Februar 2012 Liebe Silke, ich habe mich auf deinen Brief sehr gefreut.
+1	Februar	Februar	PROPN	NN	_	3	nmod	_	_
+2	2012	2012	NUM	CARD	NumType=Card	3	nmod	_	SpacesAfter=\n
+3	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+4	Silke	Silke	NOUN	NN	_	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+9	auf	auf	ADP	APPR	_	11	case	_	_
+10	deinen	dein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	13	obl	_	_
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
+13	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Uns geht es auch ganz gut.
+1	Uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	auch	auch	ADV	ADV	_	2	advmod	_	_
+5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Es ist sehr schön dass Max eine Katze bekommen hat, leider reagiere ich auf Katze allergisch deswegen kann ich dich nicht besuchen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+6	Max	Max	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	13	acl	_	_
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	9	punct	_	_
+12	leider	leider	ADV	ADV	_	13	advmod	_	_
+13	reagiere	reagieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	csubj	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+15	auf	auf	ADP	APPR	_	16	case	_	_
+16	Katze	Katze	NOUN	NN	_	13	obl	_	_
+17	allergisch	allergisch	ADJ	ADJD	Degree=Pos	18	advmod	_	_
+18	deswegen	deswegen	ADV	PAV	_	13	advmod	_	_
+19	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+21	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	23	obj	_	_
+22	nicht	nicht	PART	PTKNEG	Polarity=Neg	23	advmod	_	_
+23	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 5
+# text = Aber ich wurde mich sehr freue wenn du und deiner Familien uns besuchen könnten, das ist das Beste Geschenk dass du mir machen könntest.
+1	Aber	aber	CCONJ	KON	_	6	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	wurde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	freue	freu	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+7	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
+8	du	du	PROPN	PPER	_	13	nsubj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	11	amod	_	_
+11	Familien	Familie	NOUN	NN	_	8	conj	_	_
+12	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+13	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	6	advcl	_	_
+14	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	6	punct	_	_
+16	das	der	PRON	PDS	Case=Nom|PronType=Dem	19	nsubj	_	_
+17	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+18	das	der	DET	ART	Definite=Def|PronType=Art	19	det	_	_
+19	Beste	gut	NOUN	ADJA	_	6	appos	_	_
+20	Geschenk	Geschenk	NOUN	NN	_	19	nmod	_	_
+21	dass	dass	SCONJ	KOUS	_	25	mark	_	_
+22	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	25	nsubj	_	_
+23	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	24	iobj	_	_
+24	machen	machen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	könntest	könntest	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Es wird bald Frühling- Wir könnten schöne Ausflüge machen, mit unseren Kinden im Wald spazieren gehen oder mit dem Fahrrad fahren.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	bald	bald	ADV	ADV	_	9	advmod	_	_
+4	Frühling-	Frühling-	PUNCT	$(	_	9	punct	_	_
+5	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+6	könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+7	schöne	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	Ausflüge	Ausflug	NOUN	NN	Case=Acc|Number=Plur	9	obj	_	_
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	mit	mit	ADP	APPR	_	13	case	_	_
+12	unseren	unser	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Kinden	Kind	NOUN	NN	_	17	obl	_	_
+14-15	im	_	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Wald	Wald	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	nmod	_	_
+17	spazieren	spazieren	VERB	VVINF	VerbForm=Inf	18	xcomp	_	_
+18	gehen	gehen	VERB	VVINF	VerbForm=Inf	9	conj	_	_
+19	oder	oder	CCONJ	KON	_	23	cc	_	_
+20	mit	mit	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Fahrrad	Fahrrad	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	23	obl	_	_
+23	fahren	fahren	VERB	VVINF	VerbForm=Inf	18	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 7
+# text = Sag mir bitte Bescheid ob du und deiner Familie kommen können damit ich in meiner Arbeit paar Tage frei bestelle.
+1	Sag	Sagen	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	2	amod	_	_
+2	mir	ich	PROPN	PPER	Case=Dat|Gender=Masc|Number=Plur	4	nmod	_	_
+3	bitte	bitten	PROPN	NN	_	2	flat	_	_
+4	Bescheid	Bescheid	PROPN	NN	Case=Nom|Number=Sing	10	nsubj	_	_
+5	ob	ieben	PROPN	APPR	_	6	advmod	_	_
+6	du	du	PROPN	PPER	_	4	conj	_	_
+7	und	und	CCONJ	KON	_	6	cc	_	_
+8	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	9	amod	_	_
+9	Familie	Familie	NOUN	NN	_	6	nmod	_	_
+10	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	können	können	AUX	VMINF	VerbForm=Inf	10	aux	_	_
+12	damit	damit	ADV	PAV	_	20	advmod	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	_
+17	paar	paar	PRON	PIAT	PronType=Ind	18	det	_	_
+18	Tage	Tag	NOUN	NN	_	16	nmod	_	_
+19	frei	frei	ADV	ADJD	_	20	advmod	_	_
+20	bestelle	bestell	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Liebe Grüße an dein Mann und viele Küsse für Anna und Max Deine Freundin Katharina
+1	Liebe	lieb	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	14	nmod	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dein	dein	PROPN	PPOSAT	_	5	nmod	_	_
+5	Mann	Mann	NOUN	NN	_	2	nmod	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	viele	viel	ADJ	PIAT	Degree=Pos	8	amod	_	_
+8	Küsse	Kuß	NOUN	NN	_	5	conj	_	_
+9	für	für	ADP	APPR	_	10	case	_	_
+10	Anna	Anna	PROPN	NE	Case=Dat|Number=Sing	8	nmod	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Max	Max	PROPN	NE	_	10	conj	_	SpacesAfter=\n
+13	Deine	Deine	PROPN	NN	_	12	flat	_	_
+14	Freundin	Freundin	NOUN	NN	_	0	root	_	_
+15	Katharina	Katharina	PROPN	NE	_	14	appos	_	SpacesAfter=\n
+

@@ -1,0 +1,97 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024862_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 19. Mars.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	19	19	PROPN	CARD	_	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	_
+6	Mars	Mars	PROPN	NN	_	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 2013 Liebe Jens, Ich gratuliere dich zum Entbindung, es freut mich zu hören, das du ein Babys gebären.
+1	2013	2013	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	Jens	Jens	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	gratuliere	gratulieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	acl	_	_
+7	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obj	_	_
+8-9	zum	_	_	_	_	_	_	_	_
+8	zu	zu	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+10	Entbindung	Entbindung	NOUN	NN	_	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	6	punct	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	freut	freuen	VERB	VVFIN	Person=3|VerbForm=Fin	6	ccomp	_	_
+14	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	13	obj	_	_
+15	zu	zu	PART	PTKZU	_	16	mark	_	_
+16	hören	hören	VERB	VVINF	VerbForm=Inf	13	xcomp	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	6	punct	_	_
+18	das	der	PRON	PRELS	Case=Nom|PronType=Rel	21	nsubj	_	_
+19	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	21	nsubj	_	_
+20	ein	ein	DET	ART	Definite=Ind|PronType=Art	21	det	_	_
+21	Babys	Baby	NOUN	NN	_	6	acl	_	_
+22	gebären	gebären	VERB	VVINF	VerbForm=Inf	21	cop	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Wie es der Mutter des Babys geht?
+1	Wie	wie	ADP	KOUS	_	4	case	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	7	obl	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Babys	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+7	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich hoffe ist sehr gut Was ist die Name von sein Baby?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffe	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	SpacesAfter=\n
+6	Was	was	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Name	Name	NOUN	NN	_	2	obl	_	_
+10	von	von	ADP	APPR	_	12	case	_	_
+11	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Baby	Baby	PROPN	NN	_	9	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Bitte Antworte mir bald oder Ruf mich an.
+1	Bitte	Bitte	PART	ADV	_	0	root	_	_
+2	Antworte	Antwort	NOUN	NN	Case=Nom|Number=Plur	1	nsubj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+4	bald	bald	ADV	ADV	_	7	advmod	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	Ruf	Ruf	NOUN	NN	_	4	conj	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+8	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Bitte Gruß die Ganze famillie von mir.
+1	Bitte	Bitte	PART	ADV	_	0	root	_	_
+2	Gruß	Gruß	NOUN	NN	_	1	dep	_	_
+3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Ganze	ganz	PROPN	NN	_	6	amod	_	_
+5	famillie	famillie	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	4	flat	_	_
+6	von	von	ADP	APPR	_	7	case	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Mit Freundlichen Grußen Schmidt Maria
+1	Mit	mit	ADP	APPR	_	2	case	_	_
+2	Freundlichen	freundlich	NOUN	NN	_	0	root	_	_
+3	Grußen	Gruße	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+4	Schmidt	Schmidt	PROPN	NE	_	3	flat	_	_
+5	Maria	Maria	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

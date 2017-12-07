@@ -1,0 +1,123 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000275_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 13.03.2012 Liebe Julia, wie gehts dir?
+1	13.03.2012	13.03.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	_	0	root	_	_
+3	Julia	Julia	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	wie	wie	ADP	KOUS	_	7	case	_	_
+6	gehts	gehts	ADV	NN	_	7	advmod	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Mir gehts gut.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	gehts	gehts	ADV	NN	_	3	advmod	_	_
+3	gut	gut	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte am wochnende nach Stadt X fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	9	case	_	_
+4	dem	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+5	wochnende	wochnend	ADJ	ADJA	Degree=Pos	9	advmod	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	9	obl	_	_
+8	X	X	PROPN	NN	_	7	appos	_	_
+9	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Aber ich kann nicht fahren weil meine Mutter krank ist.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	weil	weil	SCONJ	KOUS	_	9	mark	_	_
+7	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Mutter	Mutter	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	krank	krank	ADJ	ADJD	Degree=Pos	5	advcl	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Möchtest du eine Fahrkarte mit dem Bhan nach Stadt X haben.
+1	Möchtest	Möchtest	PROPN	NN	_	11	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	flat	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Bhan	Bhan	NOUN	NE	Case=Dat|Number=Sing	4	nmod	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	7	nmod	_	_
+10	X	X	PROPN	NN	_	9	appos	_	_
+11	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Der Bahn fahrte am 17.03 Samstag um vier Uhr ab.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Bahn	Bahn	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	fahrte	fahren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	7	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	17.03	17.03	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Samstag	samstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	_
+8	um	um	ADP	APPR	_	10	case	_	_
+9	vier	vier	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	3	obl	_	_
+11	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Hast du zeit am Samstag.
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3	zeit	zeit	NOUN	APPR	_	2	nmod	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Magst du nicht fahren, bitte sagst du zu mir Dann kann ich die Fahrkart andere personen geben.
+1	Magst	Magst	ADV	ADV	_	4	advmod	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	bitte	bitten	PROPN	NN	_	4	appos	_	_
+7	sagst	sagen	ADV	ADV	_	4	advmod	_	_
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	18	nsubj	_	_
+9	zu	zu	ADP	APPR	_	10	case	_	_
+10	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
+11	Dann	dann	ADV	ADV	_	18	advmod	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Fahrkart	Fahrkart	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+16	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	17	amod	_	_
+17	personen	Person	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	18	obj	_	_
+18	geben	geben	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Ich hoffe deine antwort Viele Grüße deine Eva
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoff	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	antwort	antworn	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	SpacesAfter=\n
+5	Viele	viel	PROPN	PIS	_	6	amod	_	_
+6	Grüße	Grüße	PROPN	NN	_	4	appos	_	SpacesAfter=\s\n
+7	deine	dein	PROPN	NE	_	6	flat	_	_
+8	Eva	Eva	PROPN	NE	_	2	obl	_	SpacesAfter=\n
+

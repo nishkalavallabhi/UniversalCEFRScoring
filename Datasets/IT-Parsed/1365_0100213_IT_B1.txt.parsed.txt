@@ -1,0 +1,125 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100213_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18/06/2011
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	18	18	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	06	06	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	2011	2011	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Cara Beatrice, Caro Stefano, Che sorpresa!
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=\s\n\s\n
+7	Che	che	DET	DQ	PronType=Int	8	det	_	_
+8	sorpresa	sorprendere	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi fa piacere che voi festeggiate il vostro matrimonio.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+5	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	6	nsubj	_	_
+6	festeggiate	festeggiare	VERB	V	Mood=Sub|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Vi auguro di tutto il mio cuore buona fortuna e per il futuro vi auguro una vita insieme piena di gioia.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	7	case	_	_
+4	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	7	det:predet	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	cuore	cuore	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	buona	buono	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+9	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+14	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	15	iobj	_	_
+15	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	vita	vita	NOUN	S	Gender=Fem|Number=Sing	15	obj	_	_
+18	insieme	insieme	ADV	B	_	19	advmod	_	_
+19	piena	pieno	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	gioia	gioia	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Vi ringrazio dell'invito.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Vengo volentieri.
+1	Vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	volentieri	volentieri	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Fatemi sapere che posso regalarvi, per favore.
+1-2	Fatemi	_	_	_	_	_	_	_	_
+1	Fate	fare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	sapere	sapere	VERB	V	VerbForm=Inf	1	csubj	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6-7	regalarvi	_	_	_	_	_	_	_	SpaceAfter=No
+6	regalar	regalare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	expl	_	_
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	favore	favore	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Magari qualcosa per le vacanze o per la casa?
+1	Magari	magari	ADV	B	_	2	advmod	_	_
+2	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	nmod	_	_
+6	o	o	CCONJ	CC	_	9	cc	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Non vedo l'ora di vedervi.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	ora	ora	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6-7	vedervi	_	_	_	_	_	_	_	SpaceAfter=No
+6	veder	vedere	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 10
+# text = Baci Maria
+1	Baci	Baci	PROPN	SP	_	0	root	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

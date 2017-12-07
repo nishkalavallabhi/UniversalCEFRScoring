@@ -1,0 +1,99 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0241831_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Ingo, wie geht es Dir?
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Kannst Du mir bitte hilfen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	iobj	_	_
+4	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	_
+5	hilfen	hilfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ich finde eine Arbeitstele in Neuburg und ich suche eine nue Wohnung c.q.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Arbeitstele	Arbeitstele	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	_
+7	und	und	CCONJ	KON	_	13	cc	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+9	suche	suchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+10	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	nue	nu	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	c.q.	c.q.	ADV	ADV	_	4	conj	_	_
+
+# sent_id = 4
+# text = 60 m² Größe und mit Balkon.
+1	60	60	NUM	CARD	NumType=Card	2	nummod	_	_
+2	m²	m²	NOUN	NN	_	0	root	_	_
+3	Größe	Größe	NOUN	NN	_	2	appos	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	mit	mit	ADP	APPR	_	6	case	_	_
+6	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Kannst Du mir eine Liste schinken?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+3	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	iobj	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Liste	Liste	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	schinken	schinken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ich muss zum 01. März anziehen, weil die Arbeit am 10. März anfangen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	8	mark	_	_
+4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	01	01	NUM	CARD	NumType=Card	8	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	März	März	PROPN	NN	_	8	obl	_	_
+8	anziehen	anziehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	18	mark	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	12	case	_	_
+14	dem	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
+15	10	10	NUM	CARD	NumType=Card	17	nummod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+17	März	März	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+18	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	8	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bis bald, meiner Küssen für ihre Kinder, liebe Grüße, Friedrich Meier-Müller
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Küssen	Kuß	NOUN	NN	_	0	root	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	SpacesAfter=\n
+10	liebe	lieb	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Grüße	Grüße	NOUN	NN	_	5	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	SpacesAfter=\n
+13	Friedrich	Friedrich	PROPN	NE	_	5	conj	_	_
+14	Meier-Müller	Meier-Müller	PROPN	NE	_	13	flat	_	SpacesAfter=\n
+

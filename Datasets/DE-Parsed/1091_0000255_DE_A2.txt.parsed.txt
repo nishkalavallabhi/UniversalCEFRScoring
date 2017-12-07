@@ -1,0 +1,97 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000255_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 13.3.2012 Liebe Julia, ich hatte einen Fahrkarte nach Stadt Y gekauft aber ich Kann aber nicht Fahren.
+1	Stadt	Stadt	NOUN	NN	_	9	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	13.3.2012	13.3.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Liebe	Liebe	NOUN	NN	_	1	conj	_	_
+6	Julia	Julia	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n\s\s\s
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+12	nach	nach	ADP	APPR	_	13	case	_	_
+13	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	11	nmod	_	_
+14	Y	y	PROPN	NN	_	13	appos	_	_
+15	gekauft	kaufen	VERB	VVFIN	Person=3|VerbForm=Fin	21	parataxis	_	_
+16	aber	aber	ADV	ADV	_	15	advmod	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+18	Kann	Kann	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+19	aber	aber	ADV	ADV	_	21	advmod	_	_
+20	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
+21	Fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ich habe einen anderen termin mit meinem arzt.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	anderen	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	termin	termin	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	obl	_	_
+8	arzt	arzen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte in dem Zug nach Stadt Y am wochende Fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	5	nmod	_	_
+8	Y	y	PROPN	NN	_	7	appos	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	12	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+11	wochende	wochende	ADJ	ADJA	Degree=Pos	12	advmod	_	_
+12	Fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Meinen arzt gesagt mir ich im bed blieben möchten.
+1	Meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	arzt	arzen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+3	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	bed	bed	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	_
+9	blieben	bleiben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	3	ccomp	_	_
+10	möchten	mögen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = So ich Kann nicht Fahren so wollte dir die Fahr Karte haben möchte.
+1	So	so	ADV	ADV	_	12	advmod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+3	Kann	Kann	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	Fahren	fahren	NOUN	NN	Case=Dat|Number=Plur	12	obl	_	_
+6	so	so	ADV	ADV	_	12	advmod	_	_
+7	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	obj	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	Fahr	Fahr	NOUN	NE	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+11	Karte	Karte	PROPN	NE	_	10	appos	_	_
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 6
+# text = Schreibe bald zuruk Vielen Dank UNTERSCHRIFT
+1	Schreibe	Schreibe	NOUN	NN	_	3	compound	_	_
+2	bald	bald	ADV	ADV	_	1	advmod	_	_
+3	zuruk	zuruk	PROPN	NE	Case=Nom|Number=Sing	4	nsubj	_	SpacesAfter=\n
+4	Vielen	viel	ADJ	NN	_	5	amod	_	_
+5	Dank	dank	NOUN	NN	Case=Acc|Number=Sing	0	root	_	SpacesAfter=\n
+6	UNTERSCHRIFT	UNTERSCHRIFT	PROPN	NE	_	5	appos	_	SpacesAfter=\n
+

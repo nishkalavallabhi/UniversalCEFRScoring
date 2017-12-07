@@ -1,0 +1,293 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100219_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18 giugno 2011
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	18	18	NUM	N	NumType=Card	1	nmod	_	_
+5	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Francesco, grazie mille per la tua lettera.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Francesco	Francesco	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	grazie	grazie	NOUN	S	_	5	case	_	_
+5	mille	millo	ADJ	A	Gender=Fem|Number=Plur	2	amod	_	_
+6	per	per	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sono molto lieto che ce l'hai fatta questo esame orale.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	lieto	lieto	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+5	ce	ce	PRON	PC	Clitic=Yes|PronType=Prs	8	iobj	_	_
+6	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	SpaceAfter=No
+7	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatta	fare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+9	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	_
+10	esame	esame	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	orale	orale	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Bravissimo.
+1	Bravissimo	Bravissimo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Attualmente abbiamo molto da fare al ufficio del ambiente prima le vacanze prossime.
+1	Attualmente	attualmente	ADV	B	_	2	advmod	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	da	da	ADP	E	_	5	mark	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9-10	del	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	prima	prima	ADV	B	_	11	advmod	_	_
+13	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+14	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+15	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Al ufficio siamo confrontati a trattare molte domande di dissodamento presentate dai cantoni per diversi projetti d'interesse publico.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	confrontati	confrontato	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	trattare	trattare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	_
+9	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	dissodamento	dissodamento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	presentate	presentare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	9	acl	_	_
+13-14	dai	_	_	_	_	_	_	_	_
+13	da	da	ADP	E	_	15	case	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	cantoni	cantoni	NOUN	S	Gender=Masc|Number=Plur	12	obl:agent	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	projetti	projetto	NOUN	S	Gender=Masc|Number=Plur	12	obl	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	interesse	interesse	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	_
+21	publico	publico	ADJ	A	Gender=Masc|Number=Sing	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Molti incarti sono bene presentati e non fanno difficoltà.
+1	Molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	incarti	incarto	NOUN	S	Gender=Masc|Number=Plur	5	nsubj:pass	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+4	bene	bene	ADV	B	_	5	advmod	_	_
+5	presentati	presentare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	fanno	fare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	difficoltà	difficoltà	NOUN	S	Gender=Fem	8	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Per quelli incarti semplice il nostro ufficio cerca una persona per darci una mano per tre mese.
+1	Per	per	ADP	E	_	2	case	_	_
+2	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	3	obl	_	_
+3	incarti	incartire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	semplice	semplice	ADJ	A	Number=Sing	3	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+8	cerca	cercare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	acl	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12-13	darci	_	_	_	_	_	_	_	_
+12	dar	dare	VERB	V	VerbForm=Inf	8	advcl	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	mano	mano	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	tre	tre	NUM	N	NumType=Card	18	nummod	_	_
+18	mese	mese	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Nel ufficio potresti occuparti delle risquieste venando di tutta la Svizzera.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	occuparti	occupartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	delle	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	risquieste	risquiesta	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+9	venando	venare	VERB	V	VerbForm=Ger	8	acl	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	13	det:predet	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Svizzera	Svizzera	PROPN	SP	_	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Le tue conoscenze linguistiche verrano bene accettate per tradurre per esempio le domande del Ticino.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	tue	tuo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	conoscenze	conoscenza	NOUN	S	Gender=Fem|Number=Plur	7	nsubj:pass	_	_
+4	linguistiche	linguistico	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+5	verrano	verrare	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	aux:pass	_	_
+6	bene	bene	ADV	B	_	7	advmod	_	_
+7	accettate	accettare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	tradurre	tradurre	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+14-15	del	_	_	_	_	_	_	_	_
+14	di	di	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	Ticino	Ticino	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Sono impiegato al ufficio del ambiente come giurista.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	impiegato	impiegare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6-7	del	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	come	come	ADP	E	_	10	case	_	_
+10	giurista	giurista	NOUN	S	Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Benché nascito a Città Y, ho fatto tutte le scuole a Città Z dove ho studiato giurisprudenzia all'Università.
+1	Benché	benché	SCONJ	CS	_	2	mark	_	_
+2	nascito	nascire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	8	obl	_	_
+5	Y	y	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	11	det:predet	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	scuole	scuola	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	città	PROPN	SP	_	8	obl	_	_
+14	Z	Z	PROPN	SP	_	13	flat:name	_	_
+15	dove	dove	ADV	B	_	17	advmod	_	_
+16	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	giurisprudenzia	giurisprudenzia	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+19-20	all'	_	_	_	_	_	_	_	SpaceAfter=No
+19	a	a	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	Università	Università	NOUN	S	Gender=Fem	17	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 13
+# text = Dopo un lavoro da un avocato a Città A ho traslocato a Città X dove lavoro attualmente nella divisione giuridica del ufficio del ambiente.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	avocato	avocato	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	Città	PROPN	SP	_	6	nmod	_	_
+9	A	A	PROPN	SP	_	8	flat:name	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	traslocato	traslocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	Città	PROPN	SP	_	11	obl	_	_
+14	X	X	PROPN	SP	_	13	flat:name	_	_
+15	dove	dove	ADV	B	_	16	advmod	_	_
+16	lavoro	lavorare	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	attualmente	attualmente	ADV	B	_	20	advmod	_	_
+18-19	nella	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	divisione	divisione	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+21	giuridica	giuridico	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+22-23	del	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	_
+25-26	del	_	_	_	_	_	_	_	_
+25	di	di	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	24	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Ancora bravo per l'esame superato.
+1	Ancora	ancora	ADV	B	_	2	advmod	_	_
+2	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esame	esame	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	superato	superato	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = È importante oggi conoscere molte lingue in un mondo sempre più diverse.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+3	oggi	oggi	ADV	B	_	2	advmod	_	_
+4	conoscere	conoscere	VERB	V	VerbForm=Inf	2	csubj	_	_
+5	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+6	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	sempre	sempre	ADV	B	_	11	advmod	_	_
+11	più	più	ADV	B	_	12	advmod	_	_
+12	diverse	diverso	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Manda il tuo curriculum vitae con una breva lettera al ufficio.
+1	Manda	mandare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	curriculum	curriculum	NOUN	S	Gender=Masc	1	nsubj	_	_
+5	vitae	vitarre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	breva	brere	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Tanti saluti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

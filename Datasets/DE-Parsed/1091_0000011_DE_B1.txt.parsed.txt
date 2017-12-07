@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000011_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 05.01.012 Liebe Julia Ich Wollte in Köln gehen, Leider Konnte Ich nicht fahren weil mein Sohn Krank ist und Ich habe eine Bus fahrKarte.
+1	Stadt	Stadt	NOUN	NN	_	10	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	05.01.012	05.01.012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Julia	Julia	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	Wollte	wollt	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Köln	Köln	PROPN	NE	_	10	obl	_	_
+10	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	SpacesAfter=\n
+12	Leider	leider	PRON	PIAT	NumType=Card|PronType=Tot	16	obl	_	_
+13	Konnte	konnte	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	aux	_	_
+14	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+16	fahren	fahren	VERB	VVINF	VerbForm=Inf	10	conj	_	_
+17	weil	weil	SCONJ	KOUS	_	21	mark	_	_
+18	mein	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	Sohn	Sohn	NOUN	NN	Case=Nom|Number=Sing	21	nsubj	_	_
+20	Krank	krank	PROPN	NE	_	19	appos	_	_
+21	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	advcl	_	_
+22	und	und	CCONJ	KON	_	26	cc	_	_
+23	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	_
+24	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	eine	ein	DET	ART	Definite=Ind|PronType=Art	26	det	_	_
+26	Bus	Bus	NOUN	NN	_	21	conj	_	_
+27	fahrKarte	fahrKarte	PROPN	NE	_	26	appos	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ich wollte dich fragen, Weil Ich habe gehöret das du gehest in Köln, Dann kann du meine fahrKarte haben, FahrKarte ist von 5.1.12 bis 7.1.12. Wenn du brauch die fahrKarte rufe mich an Veile Grüße Maria
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+4	fragen	fragen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	Weil	weil	SCONJ	KOUS	_	21	mark	_	_
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+9	gehöret	hören	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	du	du	PROPN	PPER	_	12	case	_	_
+12	gehest	hesen	PROPN	VVFIN	_	9	nmod	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Köln	Köln	PROPN	NE	_	9	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	9	punct	_	_
+16	Dann	dann	PROPN	NE	_	9	appos	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	21	nsubj	_	_
+19	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	fahrKarte	fahrKarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+21	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	advcl	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	23	punct	_	_
+23	FahrKarte	FahrKarte	NOUN	NN	_	34	nmod	_	SpacesAfter=\s\s
+24	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	_
+25	von	von	ADP	APPR	_	26	case	_	_
+26	5.1.12	5.1.12	NUM	CARD	NumType=Card	30	nummod	_	_
+27	bis	bis	ADP	KON	_	28	case	_	_
+28	7.1.12	7.1.12	NUM	CARD	NumType=Card	26	nummod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	28	punct	_	_
+30	Wenn	wenn	PROPN	NE	_	34	nmod	_	_
+31	du	du	PROPN	PPER	_	32	case	_	_
+32	brauch	brauch	PROPN	NN	_	30	nmod	_	_
+33	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
+34	fahrKarte	fahrKarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+35	rufe	rufen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	39	obj	_	_
+36	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	35	obj	_	_
+37	an	an	ADP	APPR	_	38	case	_	SpacesAfter=\n
+38	Veile	Veil	NOUN	NN	_	39	nmod	_	_
+39	Grüße	Grüße	PROPN	NN	_	40	nmod	_	SpacesAfter=\n
+40	Maria	Maria	PROPN	NE	_	34	appos	_	SpacesAfter=\n
+

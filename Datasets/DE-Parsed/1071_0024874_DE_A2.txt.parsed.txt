@@ -1,0 +1,73 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024874_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, 08.03.2012 Tut mir leid.
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	08.03.2012	08.03.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Tut	tut	NOUN	NN	_	1	conj	_	_
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	leid	leid	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich war krank, ich sehe deine e-mail jetzt.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	krank	krank	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	sehe	sehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	3	conj	_	_
+7	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	e-mail	e-mail	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+9	jetzt	jetzt	ADV	ADV	_	6	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Viel Glück zu deine Baby.
+1	Viel	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Sing	2	amod	_	_
+2	Glück	Glück	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	deine	dein	PROPN	NE	_	0	root	_	_
+5	Baby	Baby	PROPN	NN	Case=Dat|Number=Sing	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Wie viele kg ist geboren?
+1	Wie	wie	ADP	KOUS	_	3	case	_	_
+2	viele	viel	ADJ	PIAT	Degree=Pos	3	amod	_	_
+3	kg	kg	NOUN	NN	_	5	obl	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	_
+5	geboren	gebären	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Was ist des Babys Name?
+1	Was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	des	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Babys	Baby	PROPN	NE	_	0	root	_	_
+5	Name	Name	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Wie geht es der Mutter und dem Babby?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Mutter	Mutter	NOUN	NN	_	2	obl	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Babby	Babby	PROPN	NN	_	5	conj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ich warte daine antwort Friedrich
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	warte	warte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	daine	dain	PROPN	NE	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+4	antwort	antworn	PROPN	NN	_	2	appos	_	SpacesAfter=\s\n
+5	Friedrich	Friedrich	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

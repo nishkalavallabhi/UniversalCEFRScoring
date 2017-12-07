@@ -1,0 +1,133 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000194_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = FRAU MARIA MEIER 10. MÄRZ 2012 BAHNHOF STRASSE 12345 Stadt X STADT XER WOHNUNGSAMT ZENTRALPLATZ 12, 12345 Stadt Y
+1	FRAU	Frau	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
+2	MARIA	Maria	PROPN	NE	_	1	appos	_	_
+3	MEIER	Meier	PROPN	NN	_	2	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	10	10	PROPN	CARD	_	2	flat	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	_
+6	MÄRZ	März	PROPN	NN	_	1	appos	_	_
+7	2012	2012	NUM	CARD	NumType=Card	6	nmod	_	SpacesAfter=\n
+8	BAHNHOF	Bahnhof	PROPN	NN	_	6	flat	_	_
+9	STRASSE	Straße	PROPN	NN	_	6	flat	_	SpacesAfter=\n
+10	12345	12345	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Stadt	Stadt	NOUN	NN	_	13	nmod	_	_
+12	X	X	PROPN	NN	_	11	appos	_	SpacesAfter=\n\s\n
+13	STADT	Stadt	PROPN	NN	_	0	root	_	_
+14	XER	X	PROPN	NE	_	13	amod	_	_
+15	WOHNUNGSAMT	WOHNUNGSAMT	PROPN	ADJA	_	14	flat	_	SpacesAfter=\n
+16	ZENTRALPLATZ	ZENTRALPLATZ	PROPN	NN	_	14	flat	_	_
+17	12	12	NUM	CARD	NumType=Card	13	appos	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	13	punct	_	SpacesAfter=\n
+19	12345	12345	NUM	CARD	NumType=Card	13	appos	_	_
+20	Stadt	Stadt	NOUN	NN	_	13	appos	_	_
+21	Y	y	PROPN	NN	_	20	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Sehr geehrte Damen und Herren, ich schreibe an Sie weil ich eine neue Wohnung suche.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	schreibe	schreiben	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
+9	an	an	ADP	APPR	_	10	case	_	_
+10	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	obl	_	_
+11	weil	weil	SCONJ	KOUS	_	16	mark	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	suche	suchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Zur Zeit lebe ich in Stadt Z und ich muss aus beruflichen Gründen nach Stadt Y ziehn.
+1-2	Zur	_	_	_	_	_	_	_	_
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	lebe	leben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	_	4	obl	_	_
+8	Z	Z	PROPN	NN	_	7	appos	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	conj	_	_
+11	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	aus	aus	ADP	APPR	_	14	case	_	_
+13	beruflichen	beruflich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	Gründen	Grund|Gründen	NOUN	NN	Case=Dat|Number=Plur	11	obl	_	_
+15	nach	nach	ADP	APPR	_	16	case	_	_
+16	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	14	nmod	_	_
+17	Y	y	PROPN	NN	_	16	appos	_	_
+18	ziehn	ziehn	PROPN	CARD	_	17	flat	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ich bin ledig, deshalb brauche ich eine zweizimmer wohnung, höfflich mit einer Garage.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	ledig	ledig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	deshalb	deshalb	ADV	PAV	_	6	advmod	_	_
+6	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	zweizimmer	zweizimm	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+10	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	höfflich	höfflich	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+13	mit	mit	ADP	APPR	_	15	case	_	_
+14	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Garage	Garage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Wie hoch ist die Miete?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	hoch	hoch	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	die	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Miete	Miete	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ich brauche etwas billig, 200 oder 300 Euro im Monat.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	etwas	etwas	ADV	ADV	_	4	advmod	_	_
+4	billig	billig	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	200	200	NUM	CARD	NumType=Card	9	nummod	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	300	300	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Euro	Euro	PROPN	NN	_	2	appos	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Monat	Monat	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ich warte auf eine baldige Antwort und verbleibe, mit freundlichen Grüßen, Maria Meier
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	baldige	baldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	verbleibe	verbleib	VERB	VVFIN	VerbForm=Fin	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	6	punct	_	_
+10	mit	mit	ADP	APPR	_	12	case	_	_
+11	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	12	amod	_	_
+12	Grüßen	grüßen	NOUN	NN	_	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\n
+14	Maria	Maria	PROPN	NE	_	6	appos	_	_
+15	Meier	Meier	PROPN	NN	_	14	flat	_	SpacesAfter=\n
+

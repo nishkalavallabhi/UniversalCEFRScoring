@@ -1,0 +1,65 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000591_IT_A1.txt
+# newpar
+# sent_id = 1
+# text = Care Julia e Caroline 12 Jennaio io sono in Città X per apprendere l'Italiano.
+1	Care	care	PROPN	SP	_	0	root	_	_
+2	Julia	Julia	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Caroline	Caroline	PROPN	SP	_	1	conj	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	12	12	NUM	N	NumType=Card	6	nummod	_	_
+6	Jennaio	Jennaio	PROPN	SP	_	4	flat:name	_	SpacesAfter=\s\n
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Città	Città	PROPN	SP	_	8	obl	_	_
+11	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	10	amod	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	apprendere	apprendere	VERB	V	VerbForm=Inf	1	acl	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	SpaceAfter=No
+15	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Da citta é grande e bella mi piacerebbe abitare qui.
+1	Da	da	ADP	E	_	2	case	_	_
+2	citta	citta	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	é	é	ADV	B	_	4	advmod	_	_
+4	grande	grande	ADJ	A	Number=Sing	2	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	abitare	abitare	VERB	V	VerbForm=Inf	8	csubj	_	_
+10	qui	qui	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = L'insegnante é gentile Il tempo libero vado visitare un muséo, dove al cinema.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	insegnante	insegnante	NOUN	S	Number=Sing	8	nsubj	_	_
+3	é	é	ADV	B	_	4	advmod	_	_
+4	gentile	gentile	ADJ	A	Number=Sing	2	amod	_	SpacesAfter=\s\n
+5	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	libero	libero	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+8	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	visitare	visitare	VERB	V	VerbForm=Inf	8	xcomp	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	muséo	muséo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	11	punct	_	SpacesAfter=\s\n
+13	dove	dove	ADV	B	_	16	advmod	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	cinema	cinema	NOUN	S	Gender=Masc	11	nmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\n\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# newpar
+# sent_id = 4
+# text = Saluti A presto baci Maria
+1	Saluti	Saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	A	a	ADP	E	_	4	case	_	_
+3	presto	presto	ADV	B	_	4	advmod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	baci	bace	ADJ	A	Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

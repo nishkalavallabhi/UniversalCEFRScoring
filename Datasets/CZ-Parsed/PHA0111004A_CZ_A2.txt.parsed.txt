@@ -1,0 +1,73 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ/PHA0111004A_CZ_A2.txt
+# newpar
+# sent_id = 1
+# text = Ahoj Evo!
+1	Ahoj	ahoj	PART	TT-------------	_	2	nmod	_	_
+2	Evo	Evo	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Oth|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Děkuju za pozvání, ráda přijdu.
+1	Děkuju	děkuja	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
+3	pozvání	pozvání	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	1	obl	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+5	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	6	xcomp	_	_
+6	přijdu	přijít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Přeju tě hodňe šťestí, lasky a všechno nejlepší.
+1	Přeju	Přeja	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+2	tě	ty	PRON	PH-S4--2-------	Case=Acc|Number=Sing|Person=2|PronType=Prs|Variant=Short	1	nmod	_	_
+3	hodňe	hodňe	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	dep	_	_
+4	šťestí	šťestí	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+6	lasky	laska	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	3	conj	_	_
+7	a	a	CCONJ	J^-------------	_	8	cc	_	_
+8	všechno	všechen	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot	3	conj	_	_
+9	nejlepší	dobrý	ADJ	AAMP1----3A----	Animacy=Anim|Case=Nom|Degree=Sup|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Kde a v kolik hodin začiná party?
+1	Kde	kde	ADV	Db-------------	PronType=Int,Rel	0	root	_	_
+2	a	a	CCONJ	J^-------------	_	5	cc	_	_
+3	v	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+4	kolik	kolik	DET	C?--4----------	Case=Acc|NumType=Card|PronType=Int,Rel	5	det:numgov	_	_
+5	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	1	conj	_	_
+6	začiná	začinat	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	_
+7	party	parta	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	1	dep	_	SpaceAfter=No
+8	?	?	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 5
+# text = Oslava bude jen pro kamarády a nebo tam bude i irodína?
+1	Oslava	oslava	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	_	_
+2	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	jen	jen	PART	TT-------------	_	5	advmod:emph	_	_
+4	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+5	kamarády	kamarád	NOUN	NNMP4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	0	root	_	_
+6	a	a	CCONJ	J^-------------	_	9	cc	_	_
+7	nebo	nebo	CCONJ	J^-------------	_	9	cc	_	_
+8	tam	tam	ADV	Db-------------	PronType=Dem	9	advmod	_	_
+9	bude	být	VERB	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	i	i	CCONJ	J^-------------	_	11	advmod:emph	_	_
+11	irodína	irodína	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	9	nsubj	_	SpaceAfter=No
+12	?	?	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 6
+# text = Tvůj spolužak David přijde?
+1	Tvůj	tvůj	DET	PSYS1-S2-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs	4	nsubj	_	_
+2	spolužak	spolužak	CCONJ	J^-------------	_	3	cc	_	_
+3	David	David	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	1	conj	_	_
+4	přijde	přijít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	Z:-------------	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Měj se hezky, Marie
+1	Měj	Mět	VERB	Vi-S---2--A----	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbForm=Fin	0	root	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	_
+3	hezky	hezek	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	1	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+5	Marie	Marie	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	1	conj	_	SpacesAfter=\n
+

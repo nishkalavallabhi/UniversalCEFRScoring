@@ -1,0 +1,110 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001064_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18.6.2011
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	18.6.2011	18.6.201l	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n\s
+
+# sent_id = 2
+# text = Caro Luca, Mi sento bene.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Luca	Luca	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+5	sento	sentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Anche la famiglia sì senta bene.
+1	Anche	anche	ADV	B	_	3	advmod	_	SpacesAfter=\s\s
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+4	sì	sì	ADV	B	_	3	advmod	_	_
+5	senta	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = I figli hanno finito le loro formazione.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	4	nsubj	_	_
+3	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+6	loro	loro	DET	AP	Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Due anni fa abbiamo traslocato.
+1	Due	due	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	_
+4	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	traslocato	traslocare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Vivamo ancora a Città X.
+1	Vivamo	Vire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	città	PROPN	SP	_	1	obl	_	_
+5	X	x	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Abbiamo comprato la casa dove erano primo le insegnante di Città X .
+1	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	comprato	comprare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	7	cop	_	_
+7	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	4	acl:relcl	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+9	insegnante	insegnante	NOUN	S	Number=Sing	7	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Città	città	PROPN	SP	_	9	nmod	_	_
+12	X	X	PROPN	SP	_	11	flat:name	_	_
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = e una bella vista sulle alpe.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	bella	bello	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	vista	vista	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	sulle	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	alpe	alpe	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Spero di incontrarti in qualche tempo nel nostro nuovo loco.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	incontrarti	_	_	_	_	_	_	_	_
+3	incontrar	incontrare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	7	det	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8-9	nel	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	12	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	loco	loco	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Cari saluti Maria
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

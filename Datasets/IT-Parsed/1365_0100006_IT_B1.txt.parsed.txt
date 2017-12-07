@@ -1,0 +1,166 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100006_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Rossi Maria 11 Strada Maggiore 12345 Città X 0345-11111111 Città X, 15 MARZO 2010 Russo Beatrice Via Friuli, 72 Napoli Cara amica, INNAZI TUTTO, CONGRATULAZIONI!
+1	Rossi	Rossi	PROPN	SP	_	4	nmod	_	_
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	11	11	NUM	N	NumType=Card	1	flat:name	_	_
+4	Strada	strada	PROPN	SP	_	0	root	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+6	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	Città	PROPN	SP	_	4	nmod	_	_
+8	X	decimo	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	0345	0345	NUM	N	NumType=Card	7	flat:name	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+11	11111111	11111111	NUM	N	NumType=Card	12	nummod	_	SpacesAfter=\n
+12	Città	Città	PROPN	SP	_	4	nmod	_	_
+13	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	15	15	NUM	N	NumType=Card	16	nummod	_	_
+16	MARZO	marzo	PROPN	SP	_	18	nmod	_	_
+17	2010	2010	NUM	N	NumType=Card	16	flat	_	SpacesAfter=\n\s
+18	Russo	russo	PROPN	SP	_	12	conj	_	_
+19	Beatrice	Beatore	PROPN	SP	_	18	flat:name	_	SpacesAfter=\n
+20	Via	via	PROPN	SP	_	18	flat:name	_	_
+21	Friuli	Friuli	PROPN	SP	_	18	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	72	72	NUM	N	NumType=Card	24	nummod	_	SpacesAfter=\s\n
+24	Napoli	Napoli	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n
+25	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	_
+26	amica	amico	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	SpacesAfter=\n
+28	INNAZI	INNAZI	PROPN	SP	_	12	conj	_	_
+29	TUTTO	tutto	PROPN	SP	_	28	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	31	punct	_	_
+31	CONGRATULAZIONI	congratulazioni	PROPN	SP	_	12	conj	_	SpaceAfter=No
+32	!	!	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = I Tuoi genitori devono essere molto felici per il tuo matrimonio, sei stata sempre una bambina meravigliosa e fortunata.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	Tuoi	tuo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	genitori	genitore	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+4	devono	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	essere	essere	AUX	V	VerbForm=Inf	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	felici	felice	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	7	punct	_	_
+13	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	cop	_	_
+15	sempre	sempre	ADV	B	_	17	advmod	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+18	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	_
+19	e	e	CCONJ	CC	_	20	cc	_	_
+20	fortunata	fortunato	ADJ	A	Gender=Fem|Number=Sing	18	conj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Sono molto contenta di sapere che hai trovato l'amore.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5	sapere	sapere	VERB	V	VerbForm=Inf	3	advcl	_	_
+6	che	che	SCONJ	CS	_	8	mark	_	_
+7	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	SpaceAfter=No
+10	amore	amore	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Inoltre, Ti ringrazio tanto dell'invito, di non avermi dimenticato.
+1	Inoltre	inoltre	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tanto	tanto	ADV	B	_	8	advmod	_	_
+6-7	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+6	di	di	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	invito	invito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	di	di	ADP	E	_	12	mark	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	avermi	avermo	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	dimenticato	dimenticato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Sarò all'appuntamento, sono già nervosa e in fretta di essere a questo giorno importante della Tua vita.
+1	Sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	cop	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	già	già	ADV	B	_	8	advmod	_	_
+8	nervosa	nervoso	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	fretta	fretta	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	_
+12	di	di	ADP	E	_	16	case	_	_
+13	essere	essere	AUX	V	VerbForm=Inf	16	cop	_	_
+14	a	a	ADP	E	_	16	case	_	_
+15	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	_
+16	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+17	importante	importante	ADJ	A	Number=Sing	16	amod	_	_
+18-19	della	_	_	_	_	_	_	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Tua	tuo	PROPN	SP	_	16	nmod	_	_
+21	vita	vita	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Tuttavia, non so ancora cosa regalarti, mi piacerebbe di fare un buon scelto e perciò ho bisogno communque di sapere che cosa faresti piacere.
+1	Tuttavia	tuttavia	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ancora	ancora	ADV	B	_	6	advmod	_	_
+6	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	7	obj	_	_
+7	regalarti	regalartire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	di	di	ADP	E	_	12	mark	_	_
+12	fare	fare	VERB	V	VerbForm=Inf	10	xcomp	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	buon	buono	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	scelto	scelto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	xcomp	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	perciò	perciò	SCONJ	CS	_	18	mark	_	_
+18	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+19	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+20	communque	communque	ADV	B	_	22	mark	_	_
+21	di	di	ADP	E	_	20	fixed	_	_
+22	sapere	sapere	VERB	V	VerbForm=Inf	18	advcl	_	_
+23	che	che	DET	DQ	PronType=Int	24	det	_	_
+24	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	22	nsubj	_	_
+25	faresti	fare	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	26	det	_	_
+26	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	22	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Aspetto la tua risposta!
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = TANTI BACCI-unreadable-
+1	TANTI	tanto	PROPN	SP	_	4	nmod	_	_
+2	BACCI	BACCI	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	unreadable	unreadable	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	-	-	PUNCT	FB	_	4	punct	_	SpacesAfter=\n
+

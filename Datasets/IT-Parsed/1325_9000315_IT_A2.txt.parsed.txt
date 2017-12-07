@@ -1,0 +1,196 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000315_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 11 VI 2011 Spett.le Ufficio del Personale "Valtour" Via F. Redi 3 Sinalunga (SI) Italia Gentile Signora, Mi chiamo Maria Rossi.
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	11	11	NUM	N	NumType=Card	1	nmod	_	_
+6	VI	VI	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	_
+7	2011	2011	NUM	N	NumType=Card	5	flat	_	SpacesAfter=\n
+8	Spett.le	Spett.le	PROPN	SP	_	5	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s
+9	Ufficio	ufficio	PROPN	SP	_	8	flat:name	_	_
+10-11	del	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Personale	personale	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Valtour	Valtour	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	"	"	PUNCT	FB	_	16	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s
+16	Via	via	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	_
+17	F.	F.	PROPN	SP	_	16	nmod	_	_
+18	Redi	Redere	PROPN	SP	_	17	flat:name	_	_
+19	3	3	NUM	N	NumType=Card	17	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s
+20	Sinalunga	Sinalunga	PROPN	SP	_	17	flat:name	_	_
+21	(	(	PUNCT	FB	_	22	punct	_	SpaceAfter=No
+22	SI	Si	PROPN	SP	_	16	nmod	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	22	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s
+24	Italia	Italia	PROPN	SP	_	22	appos	_	SpacesAfter=\s\n\s\s\s
+25	Gentile	gentile	PROPN	SP	_	24	flat:name	_	_
+26	Signora	signore	PROPN	SP	_	24	flat:name	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	SpacesAfter=\s\n\s\s\s
+28	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	29	obj	_	_
+29	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	parataxis	_	_
+30	Maria	Maria	PROPN	SP	_	29	nsubj	_	_
+31	Rossi	Rossi	PROPN	SP	_	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Sono aggettivo di nazionalità X.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	aggettivo	aggettivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	nazionalità	nazionalità	NOUN	S	Gender=Fem	2	obl	_	_
+5	X	X	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Abito a Città X.
+1	Abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	1	obl	_	_
+4	X	x	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi sono laureato la turistica all'Università X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	turistica	turistica	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6-7	all'	_	_	_	_	_	_	_	SpaceAfter=No
+6	a	a	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
+8	Università	Università	PROPN	SP	_	5	nmod	_	_
+9	X	X	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ho anche la licencia la guida della città.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	licencia	licencia	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	guida	guida	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7-8	della	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s
+
+# sent_id = 6
+# text = I miei interessi sono i libri, la musica, i film, la turistica.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	interessi	interesse	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	libri	libro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	musica	musica	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	film	film	NOUN	S	Gender=Masc	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	15	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	turistica	turistica	NOUN	S	Gender=Fem|Number=Sing	6	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n\s\s\s
+
+# sent_id = 7
+# text = Vorrei lavorare della Vostra ditta.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Vostra	Vostra	PROPN	SP	_	2	obl	_	_
+6	ditta	ditto	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Lavoro all'agenzia turistica a Città Y. Grazie a Vostra lavorato conocserei le altre culture, le gentile persone, paese.
+1	Lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	all'	_	_	_	_	_	_	_	SpaceAfter=No
+2	a	a	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	agenzia	agenzia	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+5	turistica	turistico	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Città	Città	PROPN	SP	_	1	nmod	_	_
+8	Y.	Y.	PROPN	SP	_	7	flat:name	_	_
+9	Grazie	grazie	PROPN	SP	_	7	flat:name	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	Vostra	Vostra	PROPN	SP	_	7	nmod	_	_
+12	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+13	conocserei	conocsere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	altre	altro	ADJ	A	Gender=Fem|Number=Plur	16	amod	_	_
+16	culture	cultura	NOUN	S	Gender=Fem|Number=Plur	13	obj	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	16	punct	_	_
+18	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+19	gentile	gentile	ADJ	A	Number=Sing	20	amod	_	_
+20	persone	persona	NOUN	S	Gender=Fem|Number=Plur	16	nsubj	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	20	punct	_	_
+22	paese	paese	NOUN	S	Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Nella Vostra ditta l'atmosfera tra i coleghi è simpatica.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Vostra	Vostra	PROPN	SP	_	4	obl	_	_
+4	ditta	divere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+9	coleghi	colega	NOUN	S	Gender=Masc|Number=Plur	6	nmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Lavorando nella Vostra ditta, farrei ciò che amo.
+1	Lavorando	lavorare	VERB	V	VerbForm=Ger	7	advcl	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Vostra	Vostra	PROPN	SP	_	1	obl	_	_
+5	ditta	ditto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	farrei	farre	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	ciò	ciò	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	7	obj	_	_
+9	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+10	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 11
+# text = Il mio indirizzo mail è maria.rossi@internet.it. In atesta della Vostra risposta.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+4	mail	maile	NOUN	S	Gender=Masc	3	compound	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	maria.rossi@internet.it	maria.rossi@internet.it	NOUN	S	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n\s\s
+8	In	in	ADP	E	_	9	case	_	_
+9	atesta	atesta	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Vostra	Vostra	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+13	risposta	risposto	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 12
+# text = Distinti Saluti Maria Rossi
+1	Distinti	distinguere	PROPN	SP	_	0	root	_	_
+2	Saluti	Saluto	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	SP	_	1	flat:name	_	_
+4	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

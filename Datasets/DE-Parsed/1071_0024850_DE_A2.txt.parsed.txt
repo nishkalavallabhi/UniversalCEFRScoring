@@ -1,0 +1,89 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024850_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Jens, Diene Glückwünsche schon fertig.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
+2	Jens	Jens	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Diene	Diene	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Glückwünsche	Glückwünsch	NOUN	NN	_	7	nmod	_	_
+6	schon	schon	ADV	ADV	_	7	advmod	_	_
+7	fertig	fertig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Du hast shon ein Fater.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	shon	shon	PROPN	NN	Case=Acc|Number=Sing	2	obj	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Fater	Fater	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Ich gratulieren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gratulieren	gratulieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Grüße dir.
+1	Grüße	Grüße	NOUN	NN	_	2	dep	_	_
+2	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Wer hat geboren der Junge oder das Mätchan Wie Name deine Kind?
+1	Wer	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	3	nsubj	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	geboren	gebären	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Junge	jung	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	oder	oder	CCONJ	KON	_	11	cc	_	_
+7	das	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+8	Mätchan	Mätchan	PROPN	NN	_	10	nmod	_	_
+9	Wie	wie	PROPN	NE	_	8	flat	_	_
+10	Name	Name	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	deine	dein	PROPN	NE	_	5	conj	_	_
+12	Kind	Kind	PROPN	NN	_	11	appos	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 6
+# text = Wie es der Mutter und des Baby geht?
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	des	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Baby	Baby	PROPN	NN	_	4	conj	_	_
+8	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	cop	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ich wünsche viele Gesund ihre Familie.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	4	amod	_	_
+4	Gesund	gesund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Familie	Familie	NOUN	NN	_	4	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ich treffen denke uns durf einen Woche.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	treffen	treffen	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	denke	denken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	3	iobj	_	_
+5	durf	durf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Woche	Woche	NOUN	NN	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = mit freindlichen GrüßeMaria
+1	mit	mit	ADP	APPR	_	3	case	_	SpacesAfter= 
+2	freindlichen	freindlichen	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	SpacesAfter=\n
+3	GrüßeMaria	GrüßeMaria	PROPN	NE	Case=Dat|Number=Sing	0	root	_	SpacesAfter=\n
+

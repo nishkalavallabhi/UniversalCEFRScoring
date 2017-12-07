@@ -1,0 +1,136 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000123_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 19.01.2012 Sehr geehrte Damen und Herren, ich suche eine neue Wohnung in Stadt X. Für mich ist wichtig die Wohnung an Zentrum, weil ich an der Staat arbeite.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	X	ADJA	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	19.01.2012	19.01.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Sehr	Sehr	NOUN	NN	_	7	cop	_	_
+6	geehrte	geehrt	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Damen	Dame	NOUN	NN	_	1	conj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Herren	Herr	NOUN	NN	_	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	22	punct	_	SpacesAfter=\n
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+12	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Stadt	Stadt	PROPN	NN	_	15	nmod	_	_
+18	X.	X.	PROPN	NE	_	17	flat	_	_
+19	Für	für	PROPN	APPR	_	17	appos	_	_
+20	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	obj	_	_
+21	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	_
+22	wichtig	wichtig	ADJ	ADJD	Degree=Pos	1	conj	_	_
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	an	an	ADP	APPR	_	26	case	_	_
+26	Zentrum	Zentrum	NOUN	NN	_	24	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	$,	_	1	punct	_	_
+28	weil	weil	SCONJ	KOUS	_	32	mark	_	_
+29	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	_
+30	an	an	ADP	APPR	_	32	case	_	_
+31	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Staat	Staat	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	nmod	_	_
+33	arbeite	arbeite	PROPN	ADJA	_	32	appos	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich möchte eine Große Wohnung mit 4 Zimmer.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	Große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	4	4	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Die Wohnung muss neue Küche haben.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	Küche	Küche	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+6	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n\s
+
+# sent_id = 4
+# text = Ein groß Balkon suche ich für meine Wohnung auch, .weil ich Pflanzen habe.
+1	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+2	groß	groß	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	Balkon	Balken	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	0	root	_	_
+4	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+9	auch	auch	ADV	ADV	_	14	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	.weil	.weil	SCONJ	KOUS	_	14	mark	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	Pflanzen	Pflanze|Pflanzen	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	_
+14	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Wie viel kostet ist die Miete?
+1	Wie	wie	ADP	KOUS	_	3	case	_	_
+2	viel	viel	ADV	ADV	_	3	advmod	_	_
+3	kostet	kosten	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	die	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Miete	Miete	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ist die Miete Kalt oder Warm?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	Kalt	kalt	NOUN	NN	_	0	root	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	Warm	warm	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Wir viel Kostet ist der Abstand und NebenKosten?.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	viel	viel	PRON	PIAT	Case=Nom|Number=Sing|PronType=Ind	3	det	_	_
+3	Kostet	kostet	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Abstand	Abstehen	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	NebenKosten	NebenKosten	NOUN	NN	_	6	conj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Können Sie Bitte mir anrufen, wenn Sie eine Wohnung für mich finden.
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	_
+3	Bitte	Bitte	ADV	VVIMP	_	5	advmod	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	anrufen	anrufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
+8	Sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+11	für	für	ADP	APPR	_	12	case	_	_
+12	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	nmod	_	_
+13	finden	finden	VERB	VVINF	VerbForm=Inf	5	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Mit freundlichen Grüßen Stefan
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Stefan	Stefan	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

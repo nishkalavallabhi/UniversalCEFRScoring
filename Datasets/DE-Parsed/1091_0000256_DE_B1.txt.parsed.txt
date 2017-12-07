@@ -1,0 +1,97 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000256_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 13.03-12 Liebe Julia, Wie geht´s es dir?
+1	Stadt	Stadt	NOUN	NN	_	11	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	13.03-12	13.03-12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Liebe	Liebe	NOUN	NN	_	1	conj	_	_
+6	Julia	Julia	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	Wie	Wi	PROPN	NE	_	1	appos	_	_
+9	geht´s	geht´s	PROPN	NE	_	8	flat	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Ich habe früher Plan für einen Wochenendausflug nach Stadt Y zu machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	früher	früh	ADJ	ADV	Degree=Pos	12	advmod	_	_
+4	Plan	Plan	NOUN	NN	Case=Nom|Number=Sing	12	nsubj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Stadt	Stadt	PROPN	NN	_	7	nmod	_	_
+10	Y	y	PROPN	NE	Case=Dat|Number=Sing	9	flat	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
+12	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Leider kann ich nicht fahren.
+1	Leider	leider	ADV	ADV	_	5	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ich bin KranK. Ich müss einen Paar Tagen ins Bett bleiben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	KranK.	KranK.	ADV	NN	_	12	advmod	_	_
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+5	müss	müss	NOUN	NN	Case=Acc|Number=Plur	12	obj	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	Paar	Paar	NOUN	NN	_	8	compound	_	_
+8	Tagen	Tag	NOUN	NN	Case=Dat|Number=Plur	12	iobj	_	_
+9-10	ins	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Bett	Bett	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+12	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n\s\s\s
+
+# sent_id = 5
+# text = Ich habe schon einen U-Bahn Fahrkarte gekauft Möchtest du die Fahrkarte haben?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	schon	schon	ADV	ADV	_	7	advmod	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	U-Bahn	U-Bahn	PROPN	NN	_	7	obj	_	_
+6	Fahrkarte	Fahrkarte	PROPN	NN	_	5	flat	_	_
+7	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+8	Möchtest	Möchtest	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	9	amod	_	_
+9	du	du	PROPN	PPER	_	12	nsubj	_	_
+10	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+12	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	xcomp	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Es gibt viele Sehenwundigkeit in Stadt Y. Ich liebe Dich!
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	viele	viel	DET	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	4	det	_	_
+4	Sehenwundigkeit	Sehenwundigkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Stadt	Stadt	PROPN	NN	_	4	nmod	_	_
+7	Y.	Y.	PROPN	NE	_	6	appos	_	_
+8	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+9	liebe	lieb	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Dich	dich	NOUN	NN	_	8	appos	_	SpaceAfter=No
+11	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bis bald! dein Tobias
+1	Bis	bis	ADP	KON	_	4	case	_	_
+2	bald	bald	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+4	dein	dein	PROPN	PPOSAT	_	0	root	_	_
+5	Tobias	Tobias	PROPN	NN	_	4	flat	_	SpacesAfter=\n
+

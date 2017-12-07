@@ -1,0 +1,103 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000609_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 12 gennaio 2010, Cari Amici, Sono a Città X in Italia.
+1	Città	Città	NOUN	S	Gender=Fem	12	nsubj	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	12	12	NUM	N	NumType=Card	1	nmod	_	_
+6	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	2010	2010	NUM	N	NumType=Card	5	flat	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s
+9	Cari	caro	PROPN	SP	_	1	appos	_	_
+10	Amici	Amici	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+12	Sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Città	città	PROPN	SP	_	12	obl	_	_
+15	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	14	amod	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	Italia	Italia	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Sono arrivata per Seguire un corso di Italiano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivata	arrivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	Seguire	seguire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corso	corso	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = I Miei insegnante se chiamanno Valeria e Nathalia, sono Molto gentile.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	Miei	mieo	PROPN	SP	_	12	nsubj	_	_
+3	insegnante	insegnare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	_
+4	se	se	SCONJ	CS	_	5	mark	_	_
+5	chiamanno	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	advcl	_	_
+6	Valeria	Valeria	PROPN	SP	_	5	obj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	Nathalia	Nathalia	PROPN	SP	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	Molto	molto	ADV	B	_	12	advmod	_	_
+12	gentile	gentile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Sono con un group di Francese Molto simpatico.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	group	group	NOUN	S	Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Francese	francese	PROPN	SP	_	4	nmod	_	_
+7	Molto	molto	PROPN	SP	_	6	flat:name	_	_
+8	simpatico	simpatico	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Dopo il corso, visitiamo la grande città di Roma, i musei, le chiese.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	visitiamo	visitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	grande	grande	ADJ	A	Number=Sing	8	amod	_	_
+8	città	città	NOUN	S	Gender=Fem	5	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Roma	Roma	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	5	punct	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	musei	museo	NOUN	S	Gender=Masc|Number=Plur	5	appos	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+16	chiese	chiese	NOUN	S	Gender=Fem|Number=Plur	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = La Sera mangiamo al Tipico Ristorante.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Sera	sera	PROPN	SP	_	3	nsubj	_	_
+3	mangiamo	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Tipico	tipico	PROPN	SP	_	3	obl	_	_
+7	Ristorante	ristorante	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 7
+# text = Penso a Voi Bacio Maria
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	Voi	Vo	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Bacio	Bacio	PROPN	SP	_	1	obl	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Maria	Maria	PROPN	SP	_	1	nsubj	_	SpacesAfter=\n
+

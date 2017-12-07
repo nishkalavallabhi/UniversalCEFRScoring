@@ -1,0 +1,81 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024825_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe, Daniela.
+1	Liebe	Lieben	PROPN	NN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wie geht´s?
+1	Wie	wie	PROPN	KOUS	_	0	root	_	_
+2	geht´s	geht´s	PROPN	NN	_	1	flat	_	SpaceAfter=No
+3	?	?	PROPN	$.	_	1	flat	_	_
+
+# sent_id = 3
+# text = Ich bin gut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Möchts du schwimmen geganen?
+1	Möchts	Möchts	PRON	PIS	Number=Sing|PronType=Neg	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	4	acl	_	_
+4	geganen	geganen	PROPN	ADJA	_	1	appos	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich suche ein Freudin für schiwmmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Freudin	Freudin	NOUN	NN	_	1	appos	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	schiwmmen	schiwmmen	VERB	VVPP	VerbForm=Part	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	0	root	_	_
+
+# sent_id = 6
+# text = Gehen wir am Donnerstag im 17:30 schwimmbad in Bahnhofs straße 123?
+1	Gehen	gehen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	obl	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	9	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	17:30	17:30	NUM	CARD	NumType=Card	9	nummod	_	_
+9	schwimmbad	schwimmbad	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	1	obl	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Bahnhofs	Bahnhof	PROPN	NN	_	9	nmod	_	_
+12	straße	straß	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	11	flat	_	_
+13	123	123	NUM	CARD	NumType=Card	1	obl	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bitte, bringen dein bikini!
+1	Bitte	Bitte	PART	ADV	_	3	mark	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	bringen	bringen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	dein	dein	PROPN	PPOSAT	_	3	appos	_	_
+5	bikini	bikini	PROPN	VVFIN	_	4	flat	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Tschuss Katharina Kannst du antworter mir, heute Abend?
+1	Tschuss	Tschuß	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+2	Katharina	Katharina	PROPN	NE	_	8	appos	_	SpacesAfter=\n
+3	Kannst	kannst	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+4	du	du	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+5	antworter	antworter	ADJ	ADJA	Degree=Pos	8	advmod	_	_
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	heute	heute	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	Abend	Abend	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+

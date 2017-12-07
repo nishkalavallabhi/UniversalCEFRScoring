@@ -1,0 +1,77 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0243623_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, wie geht es Dir?
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte am Samstag gehen schwimmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	_
+7	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Villst Du mit mir schwimmen?
+1	Villst	Villen	ADV	ADV	_	5	advmod	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+5	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Habst Du Zeit?
+1	Habst	Habst	ADV	ADV	_	3	advmod	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	Zeit	Zeit	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ruf mir an.
+1	Ruf	Ruf	PROPN	NN	Case=Dat|Number=Sing	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 6
+# text = Du musst bringst einen Badeanzug, ein Badetuch und Wasser.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	musst	mußt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	bringst	bringen	ADV	ADV	_	2	advmod	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Badeanzug	Badeanzug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Badetuch	Badetuch	NOUN	NN	_	5	appos	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Wasser	Wasser	NOUN	NN	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Das ist alles.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Viele Grüße Deine Freundin Katharina
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpacesAfter=\n
+3	Deine	Deine	PROPN	NN	_	4	nmod	_	_
+4	Freundin	Freundin	NOUN	NN	_	0	root	_	_
+5	Katharina	Katharina	PROPN	NE	_	4	appos	_	SpacesAfter=\n
+

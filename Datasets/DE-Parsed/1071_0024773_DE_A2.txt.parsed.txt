@@ -1,0 +1,75 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024773_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 26.04.12 Lieber Freund Jens, es freu mich sehr gut dass du, Vater bist.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	26.04.12	26.04.12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Lieber	lieb	NOUN	NN	_	1	appos	_	_
+6	Freund	Freund	NOUN	NE	_	5	appos	_	_
+7	Jens	Jens	PROPN	NE	_	6	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+10	freu	freu	ADJ	ADJD	Degree=Pos	11	amod	_	_
+11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	_
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
+13	gut	gut	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+14	dass	daß	PROPN	KOUS	_	1	appos	_	_
+15	du	du	PROPN	PPER	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	Vater	Vater	NOUN	NN	_	14	conj	_	_
+18	bist	sein	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	17	cop	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Und wie heisst das Kind.
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	wie	wie	ADV	KOKOM	_	3	advmod	_	_
+3	heisst	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Kind	Kind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = wie geht´s es? wie geht deine Frau?
+1	wie	wie	ADP	KOKOM	_	2	case	_	_
+2	geht´s	geht´s	PROPN	NN	_	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	2	punct	_	_
+5	wie	wie	ADV	KOKOM	_	6	advmod	_	_
+6	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+7	deine	dein	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Frau	Frau	NOUN	NN	_	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich offe alles ist gut!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	offe	off	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	obj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich wünsche Euch ein gut, und viel glück Liebe Grüße.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	2	iobj	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	12	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	und	und	CCONJ	KON	_	11	cc	_	_
+8	viel	viel	PRON	PIAT	PronType=Ind	11	det	_	_
+9	glück	glück	PROPN	NN	_	11	nsubj	_	SpacesAfter=\n
+10	Liebe	Liebe	PROPN	NN	Case=Nom|Number=Sing	9	flat	_	_
+11	Grüße	Grüße	PROPN	NN	_	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Dein - Michael
+1	Dein	dein	PROPN	PPOSAT	_	0	root	_	_
+2	-	-	PUNCT	$(	_	1	punct	_	_
+3	Michael	Michael	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

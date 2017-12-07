@@ -1,0 +1,107 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000203_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Wohnungsamt Stadt X 10.03.2012 Müller Meier Maria Bahnhofsstraße 123 Stadt Y Neue Wohnung Sehr geehrte Dames und Herren, Ich habe in Wohnung samt gelesen und Interessiere mich für Wohnung.
+1	Wohnungsamt	Wohnungsamt	ADP	APPR	_	2	case	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	Stadt	Stadt	NOUN	NN	_	15	obl	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	10.03.2012	10.03.2012	PROPN	CARD	_	2	appos	_	SpacesAfter=\n
+5	Müller	Müller	PROPN	NE	_	15	appos	_	_
+6	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	5	flat	_	_
+7	Maria	Maria	PROPN	NE	_	5	appos	_	SpacesAfter=\n
+8	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	7	flat	_	_
+9	123	123	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+10	Stadt	Stadt	PROPN	NN	_	15	nmod	_	_
+11	Y	y	PROPN	NN	_	10	flat	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+12	Neue	neu	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
+13	Wohnung	Wohnung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s
+14	Sehr	Sehr	PROPN	ADV	_	15	appos	_	_
+15	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+16	Dames	Dames	PROPN	VVFIN	_	15	obl	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	Herren	Herr	NOUN	NN	_	16	conj	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	15	punct	_	SpacesAfter=\n
+20	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+21	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+22	in	in	ADP	APPR	_	23	case	_	_
+23	Wohnung	Wohnung	NOUN	NN	_	25	obl	_	_
+24	samt	samt	ADV	ADV	_	25	advmod	_	_
+25	gelesen	lesen	VERB	VVPP	VerbForm=Part	15	parataxis	_	_
+26	und	und	CCONJ	KON	_	27	cc	_	_
+27	Interessiere	Interessier	NOUN	NN	_	25	conj	_	_
+28	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	27	obj	_	_
+29	für	für	ADP	APPR	_	30	case	_	_
+30	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte gerne wissen, wir hoch nebenkosten sind.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	gerne	gerne	ADV	ADV	_	4	advmod	_	_
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	hoch	hoch	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+8	nebenkosten	nebenko	ADJ	ADJA	Degree=Sup	4	xcomp	_	_
+9	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte gerne mit meine Familia zusamen wohnen, ist die Wohnung mit viele Zimmer?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	gerne	gerne	ADV	ADV	_	8	advmod	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Familia	Familia	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
+7	zusamen	zusam	ADJ	ADJA	Degree=Pos	8	advmod	_	_
+8	wohnen	wohnen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+13	mit	mit	ADP	APPR	_	15	case	_	_
+14	viele	viel	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	Zimmer	Zimmer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+16	?	?	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 4
+# text = Hat die Wohnung Balkon und Garage?
+1	Hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	Balkon	Balkon	PROPN	NE	_	3	appos	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Garage	Garage	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ich wohne jetzt in Stadt X aber nächten Monat möchte ich nach Stadt Z. Können wir Besichtgungstermin verneinbaren?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+2	wohne	wohne	ADP	APPR	_	9	case	_	_
+3	jetzt	jetzt	ADV	ADV	_	9	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Stadt	Stadt	PROPN	NN	_	9	nmod	_	_
+6	X	X	PROPN	NN	_	5	appos	_	_
+7	aber	aber	ADV	ADV	_	9	advmod	_	_
+8	nächten	nächt	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Monat	Monat	NOUN	NN	_	1	nmod	_	_
+10	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+12	nach	nach	ADP	APPR	_	13	case	_	_
+13	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	18	obl	_	_
+14	Z.	z.	PROPN	NE	_	13	flat	_	_
+15	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+17	Besichtgungstermin	Besichtgungstermin	NOUN	NN	_	18	obj	_	_
+18	verneinbaren	verneinbaren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+19	?	?	PUNCT	$.	_	18	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Mit Freundlichen Grüß UNTERSCHRIFT
+1	Mit	mit	ADP	APPR	_	2	case	_	_
+2	Freundlichen	freundlich	NOUN	NN	_	0	root	_	_
+3	Grüß	Grüß	PROPN	NN	_	2	appos	_	SpacesAfter=\n
+4	UNTERSCHRIFT	UNTERSCHRIFT	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

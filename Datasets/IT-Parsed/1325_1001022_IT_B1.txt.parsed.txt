@@ -1,0 +1,228 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001022_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Signore Marco Rossi Direttore Rana 11402 Villa del Lago ITALYA Maria Bianchi Strada Maggiore 2
+1	Signore	signore	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	Marco	Marco	PROPN	SP	_	1	flat:name	_	_
+3	Rossi	Rossi	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+4	Direttore	direttore	PROPN	SP	_	3	flat:name	_	_
+5	Rana	rana	PROPN	SP	_	3	flat:name	_	_
+6	11402	11402	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n
+7	Villa	Villa	PROPN	SP	_	3	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\n
+11	ITALYA	ITALYA	PROPN	SP	_	10	nmod	_	SpacesAfter=\n
+12	Maria	Maria	PROPN	SP	_	11	flat:name	_	_
+13	Bianchi	Bianchi	PROPN	SP	_	11	flat:name	_	SpacesAfter=\n
+14	Strada	strada	PROPN	SP	_	10	nmod	_	_
+15	Maggiore	Maggiore	PROPN	SP	_	14	flat:name	_	_
+16	2	2	NUM	N	NumType=Card	14	nummod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Città X 1234 HUNGARY Egregio Dottore Rossi, Abbiamo visto il Suo annuncio sul internet.
+1	Città	Città	PROPN	SP	_	10	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	_
+3	1234	1234	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	HUNGARY	Hungary	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+5	Egregio	Egregio	PROPN	SP	_	4	flat:name	_	_
+6	Dottore	dottore	PROPN	SP	_	4	flat:name	_	_
+7	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+9	Abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	internet	internet	NOUN	S	_	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 3
+# text = Perchè abbiamo deciso scegliere il Residence del Lago.
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	scegliere	scegliere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Residence	Residence	PROPN	SP	_	4	obj	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Vi abbiano sembrato una possibilita meravigliosa con un prezzo accettabile.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+2	abbiano	avere	AUX	VA	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sembrato	sembrare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	possibilita	possibilita	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	accettabile	accettabile	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ma adesso qui e dobbiamo lammentare per le seguenti cose.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	qui	qui	ADV	B	_	0	root	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lammentare	lammentare	VERB	V	VerbForm=Inf	3	conj	_	_
+7	per	per	ADP	E	_	10	case	_	_
+8	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+9	seguenti	seguente	ADJ	A	Number=Plur	10	amod	_	_
+10	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Io e il mio marito sequono una vita abbastanza sportiva -unreadable-.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\s\s
+6	sequono	sequire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+9	abbastanza	abbastanza	ADV	B	_	10	advmod	_	_
+10	sportiva	sportivo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+11	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+12	unreadable	unreadable	ADJ	A	Number=Sing	10	conj	_	SpaceAfter=No
+13	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Sta mattina siamo partiti a nuotare ma il piscina era sovrafollata.
+1	Sta	stare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mattina	mattina	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	nuotare	nuotare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	piscina	piscina	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+10	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	11	aux	_	_
+11	sovrafollata	sovrafollare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Dopo siamo voluti trovare i campi da tennis ma sfortunatamente quelli sono in riparazione.
+1	Dopo	dopo	ADP	E	_	3	mark	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	voluti	volere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	campi	campo	NOUN	S	Gender=Masc|Number=Plur	4	obj	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+9	ma	ma	CCONJ	CC	_	14	cc	_	_
+10	sfortunatamente	sfortunatamente	ADV	B	_	11	advmod	_	_
+11	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	14	nsubj	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	riparazione	riparazione	NOUN	S	Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Dopo abbiamo deciso fare una passegiata all' lago ma quello e tanto lontano dalla residence che siamo andati finalmente indietro.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	passegiata	passegiata	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7-8	all'	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	lago	lago	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	ma	ma	CCONJ	CC	_	11	cc	_	_
+11	quello	quello	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	conj	_	_
+12	e	e	CCONJ	CC	_	17	cc	_	_
+13	tanto	tanto	ADV	B	_	17	advmod	_	_
+14	lontano	lontano	ADV	B	_	17	case	_	_
+15-16	dalla	_	_	_	_	_	_	_	SpacesAfter=\s\s
+15	da	da	ADP	E	_	14	fixed	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	residence	residence	NOUN	S	Gender=Fem	3	conj	_	_
+18	che	che	PRON	PR	PronType=Rel	20	obj	_	_
+19	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+20	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	17	acl:relcl	_	_
+21	finalmente	finalmente	ADV	B	_	20	advmod	_	_
+22	indietro	indietro	ADV	B	_	20	advmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Animazione che sia stato annunciato solo una sera la settimana.
+1	Animazione	animazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	sia	essere	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	aux:pass	_	_
+5	annunciato	annunciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	acl	_	_
+6	solo	solo	ADV	B	_	8	advmod	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	nsubj:pass	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Non siamo soddisfatto per niente.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	soddisfatto	soddisfare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = Per le tutte queste cose questa lettera o un richiesta vorremmo di un parziale rimboso.
+1	Per	per	ADP	E	_	5	case	_	_
+2	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	5	det:predet	_	_
+4	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	5	det	_	_
+5	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+8	o	o	CCONJ	CC	_	10	cc	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	richiesta	richiesta	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+11	vorremmo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	parziale	parziale	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	rimboso	rimboso	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 13
+# text = Spero Le comprenda le differenze tra le realtà e l'annuncio pubblicitario.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	Le	il	PRON	PC	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	3	iobj	_	_
+3	comprenda	comprenda	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	differenze	differenza	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+6	tra	tra	ADP	E	_	8	case	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	realtà	realtà	NOUN	S	Gender=Fem	5	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	8	conj	_	_
+12	pubblicitario	pubblicitario	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Distinti Saluti Maria Rossi
+1	Distinti	distinguere	PROPN	SP	_	0	root	_	_
+2	Saluti	Saluto	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	1	flat:name	_	_
+4	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

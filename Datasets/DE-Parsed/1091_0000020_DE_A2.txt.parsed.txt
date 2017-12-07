@@ -1,0 +1,110 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000020_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = stadt X 05,01'2012 Liebe Julia, ich habe eine fahrkarte fur einen Wochenendausflug.
+1	stadt	staden	PROPN	NE	_	8	appos	_	_
+2	X	X	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	_
+3	05,01'2012	05,01'2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Julia	Julia	PROPN	NE	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	fahrkarte	fahrkart	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	fur	fur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Ich will nach Stadt X fahren, Weil ich mit freunden zum Zenturm spazern gehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\s\s
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\s\s
+8	Weil	weil	SCONJ	KOUS	_	16	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+10	mit	mit	ADP	APPR	_	15	case	_	_
+11	freunden	freund	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	15	amod	_	_
+12-13	zum	_	_	_	_	_	_	_	_
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Zenturm	Zenturm	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	nmod	_	_
+15	spazern	spazer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+16	gehen	gehen	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Leider Kann ich nicht fahren, weil mein Vater am Wochenende besuchen will.
+1	Leider	leider	ADV	ADV	_	5	advmod	_	_
+2	Kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+8	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Vater	Vater	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+13	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	5	advcl	_	_
+14	will	wollen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Mein Bus will am 07,01,2012 fahren.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	Bus	Bus	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+3	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	07,01,2012	07,01,2012	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+7	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Es will am 7:00 Uhr fahren.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	7:00	7:00	NUM	ADJA	NumType=Card	6	nummod	_	_
+6	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	7	obl	_	_
+7	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = ich möchte diese karte verkaufen, Wen du diese karte möchtest, rauf mir an bitte.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	karte	karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	verkaufen	verkaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	Wen	wer	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	5	conj	_	_
+8	du	du	PROPN	PPER	_	10	case	_	_
+9	diese	dies	PROPN	PDAT	_	10	nmod	_	_
+10	karte	kart	PROPN	NN	_	7	nmod	_	_
+11	möchtest	möchtest	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	7	punct	_	_
+13	rauf	rauf	ADV	PWAV	_	16	advmod	_	_
+14	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	nmod	_	_
+15	an	an	ADP	APPR	_	14	case	_	_
+16	bitte	bitten	NOUN	NN	_	7	appos	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit freundlichen grüßen Eva
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	grüßen	grüßen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	SpacesAfter=\n
+

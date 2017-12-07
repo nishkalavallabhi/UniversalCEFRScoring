@@ -1,0 +1,264 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001128_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Giorgio, Settimana Giovani, via Crispi, 119, 80127 Caserta Maria Rossi, Strada Maggiore, 20 1234 Città X Paese X Città X, 22 01 2012
+1	Giorgio	Giorgio	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+3	Settimana	settimana	PROPN	SP	_	1	conj	_	_
+4	Giovani	Giovani	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	SpacesAfter=\n
+6	via	via	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+7	Crispi	Crispi	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	119	119	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	12	punct	_	SpacesAfter=\n
+11	80127	80127	NUM	N	NumType=Card	12	nummod	_	_
+12	Caserta	Caserta	PROPN	SP	_	1	conj	_	SpacesAfter=\n\s\n
+13	Maria	Maria	PROPN	SP	_	12	flat:name	_	_
+14	Rossi	Rossi	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	SpacesAfter=\n
+16	Strada	strada	PROPN	SP	_	1	conj	_	_
+17	Maggiore	Maggiore	PROPN	SP	_	16	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	1	punct	_	_
+19	20	20	NUM	N	NumType=Card	21	nummod	_	SpacesAfter=\n
+20	1234	1234	NUM	N	NumType=Card	19	flat	_	_
+21	Città	Città	PROPN	SP	_	1	nmod	_	_
+22	X	X	PROPN	SP	_	21	flat:name	_	SpacesAfter=\n
+23	Paese	paese	PROPN	SP	_	21	flat:name	_	_
+24	X	X	PROPN	SP	_	21	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+25	Città	Città	PROPN	SP	_	24	flat:name	_	_
+26	X	X	ADJ	NO	Number=Sing|NumType=Ord	24	amod	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	24	punct	_	_
+28	22	22	NUM	N	NumType=Card	24	nummod	_	_
+29	01	01	NUM	N	NumType=Card	28	flat	_	_
+30	2012	2012	NUM	N	NumType=Card	21	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Giorgio, in riferimento alla tua lettera apparso sul giornale Settimana Giovani vorrei aiutarti a risolvere il tuo problema.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Giorgio	Giorgio	PROPN	SP	_	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	in	in	ADP	E	_	5	case	_	_
+5	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+10	apparso	apparire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+11-12	sul	_	_	_	_	_	_	_	_
+11	su	su	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+14	Settimana	settimana	PROPN	SP	_	13	nmod	_	_
+15	Giovani	Giovani	PROPN	SP	_	14	flat:name	_	_
+16	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	aiutarti	aiutartire	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	0	root	_	_
+18	a	a	ADP	E	_	19	mark	_	_
+19	risolvere	risolvere	VERB	V	VerbForm=Inf	17	advcl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+21	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	problema	problema	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	17	punct	_	_
+
+# sent_id = 3
+# text = La storia che hai raccontato sul giornale mi interessa perché avevo avuto il stesso problema.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	storia	storia	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+3	che	che	PRON	PR	PronType=Rel	5	obj	_	_
+4	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	raccontato	raccontare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	_
+6-7	sul	_	_	_	_	_	_	_	_
+6	su	su	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
+10	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	perché	perché	SCONJ	CS	_	13	mark	_	_
+12	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	13	aux	_	_
+13	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	stesso	stesso	ADJ	A	Gender=Masc|Number=Sing	16	amod	_	_
+16	problema	problema	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Nell'anno scorso ho passato molto tempo sul' internet e ho chattato con persone di cui non conoscevo nella realtà.
+1-2	Nell'	_	_	_	_	_	_	_	SpaceAfter=No
+1	In	in	ADP	E	_	3	case	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	8	det	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+9	sul'	sulo	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	internet	internet	NOUN	S	_	6	obj	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	chattato	chattare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	persone	persona	NOUN	S	Gender=Fem|Number=Plur	13	obl	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	cui	cui	PRON	PR	PronType=Rel	19	obl	_	_
+18	non	non	ADV	BN	PronType=Neg	19	advmod	_	_
+19	conoscevo	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+20-21	nella	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	realtà	realtà	NOUN	S	Gender=Fem	19	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ero felice perchè i miei nuovi amici erano gentili, interessanti, ...
+1	Ero	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+3	perchè	perché	SCONJ	CS	_	9	mark	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+5	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	nuovi	nuovo	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	_
+7	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+8	erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+9	gentili	gentile	ADJ	A	Number=Plur	2	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	interessanti	interessante	ADJ	A	Number=Plur	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	9	punct	_	_
+13	...	.	PUNCT	FF	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ma un giorno ho realizato che queste amicizie virtuali e non -symbol- veri.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	realizato	realizare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	che	che	SCONJ	CS	_	8	fixed	_	_
+7	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	_
+8	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+9	virtuali	virtuale	ADJ	A	Number=Plur	8	amod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	-	-	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+13	symbol	symbol	ADJ	A	_	8	conj	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	8	punct	_	_
+15	veri	vero	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Secondo me il più importante nella vita sono la famiglia e i amici.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	più	più	ADV	B	_	5	advmod	_	_
+5	importante	importante	ADJ	A	Number=Sing	2	amod	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	vita	vita	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	amici	amico	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Così ho deciso che basta (come tu) e ho cancellato tutti i fili con queste persone.
+1	Così	così	ADV	B	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	basta	bastare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+6	(	(	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	come	come	ADP	E	_	8	case	_	_
+8	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	8	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	cancellato	cancellare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	conj	_	_
+13	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	15	det:predet	_	_
+14	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	fili	file	NOUN	S	Gender=Masc|Number=Plur	12	obj	_	_
+16	con	con	ADP	E	_	18	case	_	_
+17	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	18	det	_	_
+18	persone	persona	NOUN	S	Gender=Fem|Number=Plur	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = (---------) Non ho saputo cosa devo fare, perche ho ricevuto tantissimi messaggi, ma 4 settimane dopo questo è stato finito.
+1	(	(	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	2	punct	_	_
+12	Non	non	ADV	BN	PronType=Neg	14	advmod	_	_
+13	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+15	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	17	obj	_	_
+16	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	fare	fare	VERB	V	VerbForm=Inf	14	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	perche	perca	NOUN	S	Gender=Fem|Number=Plur	14	conj	_	_
+20	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	acl	_	_
+22	tantissimi	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	23	det	_	_
+23	messaggi	messaggio	NOUN	S	Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	32	punct	_	_
+25	ma	ma	CCONJ	CC	_	32	cc	_	_
+26	4	4	NUM	N	NumType=Card	27	nummod	_	_
+27	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	32	nsubj:pass	_	_
+28	dopo	dopo	ADP	E	_	29	case	_	_
+29	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	32	obl	_	_
+30	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	_
+31	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	32	aux:pass	_	_
+32	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	SpaceAfter=No
+33	.	.	PUNCT	FS	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Adesso sono felice che ho fatto che ho fatto.
+1	Adesso	adesso	ADV	B	_	3	advmod	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	csubj	_	_
+7	che	che	SCONJ	CS	_	9	mark	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Secondo me potresti fare la stessa cosa.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Spero che ti sarei bene!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	expl	_	_
+4	sarei	sare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Tanti auguri, Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	auguri	augurio	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n\s
+4	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

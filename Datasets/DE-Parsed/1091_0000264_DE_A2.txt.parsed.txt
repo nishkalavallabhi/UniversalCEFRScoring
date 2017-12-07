@@ -1,0 +1,95 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000264_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 13-3-2012 Liebe Julia, Wie ghet´s dir.
+1	Stadt	Stadt	NOUN	NN	_	9	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	13-3-2012	13-3-2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Julia	Julia	PROPN	NE	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s
+7	Wie	wie	PROPN	NE	_	1	appos	_	_
+8	ghet´s	ghet´s	PROPN	NE	_	7	flat	_	_
+9	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ich habe eine Fahrkate für einen Wochenendausflug gekauft.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkate	Fahrkat	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Aber kann Ich nicht fahre.
+1	Aber	aber	ADV	KON	_	5	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahre	fahren	NOUN	NN	Case=Gen|Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Wiel meine mutter Krank ist.
+1	Wiel	Wiel	PROPN	NE	_	4	nmod	_	_
+2	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	mutter	mutt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	Krank	krank	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ich wollte nach Rom fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Rom	Rom	PROPN	NE	Case=Dat|Number=Sing	5	obl	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Das Datum ist von siebzehnten märz bis neuenzehnten märz.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Datum	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	von	von	ADP	APPR	_	9	case	_	_
+5	siebzehnten	siebzehnen	ADJ	ADJA	Degree=Pos	8	advmod	_	_
+6	märz	märz	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+7	bis	bis	ADP	KON	_	8	case	_	_
+8	neuenzehnten	neuenzehnt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	märz.	märz.	ADJ	ADJA	_	0	root	_	_
+
+# sent_id = 7
+# text = Näturlich wollte ich mit dem Zug fahren.
+1	Näturlich	Näturlich	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+7	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 8
+# text = Ich möchte auf ein baldige Antworte danke!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+5	baldige	baldig	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Antworte	Antwort	NOUN	NN	_	7	obl	_	_
+7	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	!	!	PUNCT	$.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = bis bald deine Eva-Maria
+1	bis	bis	ADP	APPR	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	3	advmod	_	SpacesAfter=\n
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Eva-Maria	Eva-Maria	PROPN	NN	_	0	root	_	SpacesAfter=\n
+

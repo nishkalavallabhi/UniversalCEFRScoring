@@ -1,0 +1,196 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0107075_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = -unreadable- 14.3.2011 Müllergasse 12 Stadt X 12345 Aupairsglobal Bahnhofstr.
+1	-unreadable-	-unreadable-	PUNCT	$(	_	3	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	14.3.2011	14.3.2011	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+3	Müllergasse	Müllergasse	NOUN	NN	_	0	root	_	_
+4	12	12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Stadt	Stadt	NOUN	NN	_	3	appos	_	_
+6	X	X	PROPN	NN	_	5	appos	_	_
+7	12345	12345	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n\s\n
+8	Aupairsglobal	Aupairsglobal	PROPN	NN	_	5	appos	_	SpacesAfter=\n
+9	Bahnhofstr	Bahnhofstr	PROPN	NN	_	8	appos	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 2
+# text = 101 Wiesbaden 65185 Weitere Fragen nach einer Au-pair-Stelle Sehr geehrte Damen und Herren, ich interessiere mich für eine Arbeit in Deutschland, und besunderes will ich mit Kinder arbeiten.
+1	101	101	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Wiesbaden	Wiesbaden	NOUN	NN	Case=Nom|Number=Plur	11	nsubj	_	_
+3	65185	65185	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n\s\n
+4	Weitere	weit	ADJ	ADJA	Degree=Cmp	5	amod	_	_
+5	Fragen	Frage	NOUN	NN	Case=Dat|Number=Plur	2	nmod	_	_
+6	nach	nach	ADP	APPR	_	8	case	_	_
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Au-pair-Stelle	Au-pair-Stelle	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpacesAfter=\n
+9	Sehr	Sehr	ADV	ADV	_	10	advmod	_	_
+10	geehrte	geehrt	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Damen	Dame	NOUN	NN	_	30	appos	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Herren	Herr	NOUN	NN	_	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	SpacesAfter=\n
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	interessiere	interessieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	conj	_	_
+17	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	obj	_	_
+18	für	für	ADP	APPR	_	20	case	_	_
+19	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	Deutschland	Deutschland	PROPN	NE	_	20	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	25	punct	_	_
+24	und	und	CCONJ	KON	_	25	cc	_	_
+25	besunderes	besunder	ADJ	ADJA	Degree=Pos	11	conj	_	_
+26	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+27	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+28	mit	mit	ADP	APPR	_	29	case	_	_
+29	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	30	obl	_	_
+30	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	30	punct	_	_
+
+# sent_id = 3
+# text = Daswegen finde ich ihre Firma interesant.
+1	Daswegen	Daswegen	NOUN	NN	_	2	dep	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Firma	Firma	NOUN	NN	_	6	compound	_	_
+6	interesant	interesanen	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich habe schon ihres Homepage besucht und zwar habe ich noch ein paar Fragen: - Weil die Arbeit in Deutschland stattfinden, muss ich ein bestimtes Deutscherkentnis haben?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	schon	schon	ADV	ADV	_	5	advmod	_	_
+4	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Homepage	Homepage	NOUN	NN	_	6	obl	_	_
+6	besucht	besuchen	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	und	und	CCONJ	KON	_	22	cc	_	_
+8	zwar	zwar	ADV	ADV	_	22	advmod	_	_
+9	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+11	noch	noch	ADV	ADV	_	14	advmod	_	_
+12	ein	ein	DET	ART	Case=Dat|Definite=Ind|Number=Plur|PronType=Art	14	det	_	_
+13	paar	paar	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	14	det	_	_
+14	Fragen	Frage	NOUN	NN	Case=Dat|Number=Plur	22	iobj	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+16	-	-	PUNCT	$(	_	17	punct	_	_
+17	Weil	weil	SCONJ	KOUS	_	22	mark	_	_
+18	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+20	in	in	ADP	APPR	_	21	case	_	_
+21	Deutschland	Deutschland	PROPN	NE	_	19	nmod	_	_
+22	stattfinden	stattfinden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	29	punct	_	_
+24	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+25	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+26	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	28	det	_	_
+27	bestimtes	bestimt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	28	amod	_	_
+28	Deutscherkentnis	Deutscherkentnis	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	29	obj	_	_
+29	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	SpaceAfter=No
+30	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Muss ich auch ein Nachweis für mein Deutscherkentnis habe oder ist ein Gesprech genug? - Denn ich bin kein Deutsch burger, wie bezahle ich die Steuer?
+1	Muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Nachweis	Nachweis	NOUN	NN	_	0	root	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	mein	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Deutscherkentnis	Deutscherkentnis	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+9	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+10	oder	oder	CCONJ	KON	_	13	cc	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Gesprech	Gesprech	NOUN	NN	_	5	conj	_	_
+14	genug	genug	ADV	ADV	_	13	advmod	_	SpaceAfter=No
+15	?	?	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+16	-	-	PUNCT	$(	_	13	punct	_	_
+17	Denn	denn	CCONJ	KON	_	19	cc	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+20	kein	kein	PRON	PIAT	PronType=Neg	19	advmod	_	_
+21	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	22	obj	_	_
+22	burger	burger	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	5	punct	_	_
+24	wie	wie	ADP	KOUS	_	25	case	_	_
+25	bezahle	bezahlen	PROPN	ADJA	Case=Nom|Gender=Masc|Number=Sing	5	nmod	_	_
+26	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+28	Steuer	Steuer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+29	?	?	PUNCT	$.	_	25	punct	_	_
+
+# sent_id = 6
+# text = Muss ich ein Konto in einem USA Bank offnen? - Konnen Sie bitte mir erkleren, vielleicht mit einer Beispiel, was für Rechte und Pflichten einen normalen Au-pair habt?
+1	Muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Konto	Konto	NOUN	NN	_	9	appos	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	USA	USA	PROPN	NE	_	4	nmod	_	_
+8	Bank	Bank	PROPN	NN	_	7	flat	_	_
+9	offnen	offnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+11	-	-	PUNCT	$(	_	12	punct	_	_
+12	Konnen	Konnen	NOUN	NN	_	13	conj	_	_
+13	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+14	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	16	obj	_	_
+15	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	erkleren	erkleren	VERB	VVINF	VerbForm=Inf	13	acl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	vielleicht	vielleicht	ADV	ADV	_	16	advmod	_	_
+19	mit	mit	ADP	APPR	_	21	case	_	_
+20	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Beispiel	Beispiel	NOUN	NN	Case=Dat|Number=Sing	16	obl	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	9	punct	_	_
+23	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	31	nsubj	_	_
+24	für	für	ADP	APPR	_	25	case	_	_
+25	Rechte	Recht|Rechte	NOUN	NN	Case=Acc|Number=Plur	31	obl	_	_
+26	und	und	CCONJ	KON	_	27	cc	_	_
+27	Pflichten	Pflicht	NOUN	NN	_	25	conj	_	_
+28	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
+29	normalen	normal	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	Au-pair	Au-pair	NOUN	NN	_	25	conj	_	_
+31	habt	haben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	9	acl	_	SpaceAfter=No
+32	?	?	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ob es moglich ist, bitte ich mit einem ehemalichen Au-pair zu sprechen, und so könnte ich meine Frage in einer Gesprech stellen.
+1	Ob	ob	SCONJ	KOUS	_	3	mark	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	moglich	moglich	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	bitte	bitten	PROPN	NN	_	13	obj	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	flat	_	_
+8	mit	mit	ADP	APPR	_	11	case	_	_
+9	einem	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+10	ehemalichen	ehemalich	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Au-pair	Au-pair	NOUN	NN	_	13	obl	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
+13	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	24	punct	_	_
+15	und	und	CCONJ	KON	_	24	cc	_	_
+16	so	so	ADV	ADV	_	24	advmod	_	_
+17	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+19	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Gesprech	Gesprech	NOUN	NN	_	24	obl	_	_
+24	stellen	stellen	VERB	VVINF	VerbForm=Inf	3	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Mit freundlichen Grüßen, Friedrich Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Friedrich	Friedrich	PROPN	NE	_	3	appos	_	_
+6	Winkelmann	Winkelmann	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+

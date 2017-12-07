@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001134_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Daniele, Come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Daniele	Daniele	PROPN	SP	_	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Scusi, ma il è una settimana orribile.
+1	Scusi	Scuso	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	7	punct	_	_
+3	ma	ma	CCONJ	CC	_	7	cc	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+8	orribile	orribile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = In ufficio c'è molto lavoro e giovedì pomeriggio non posso incontrarvi con te.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	giovedì	giovedì	NOUN	S	Gender=Masc	12	obl	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12-13	incontrarvi	_	_	_	_	_	_	_	_
+12	incontrar	incontrare	VERB	V	VerbForm=Inf	6	conj	_	_
+13	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	12	obj	_	_
+14	con	con	ADP	E	_	15	case	_	SpacesAfter=\s\s
+15	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ma vorrei andiamo a sabato ser in un ristorante tailandese.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	ser	sere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	tailandese	tailandese	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Tu andi in centro a cena e noi mangiamo.
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	_
+2	andi	ande	ADV	B	_	4	advmod	_	SpacesAfter=\s\s
+3	in	in	ADP	E	_	4	case	_	_
+4	centro	centro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	cena	cena	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	mangiamo	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Bono Giornata Michele
+1	Bono	bere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	Giornata	Giornato	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nsubj	_	SpacesAfter=\n
+

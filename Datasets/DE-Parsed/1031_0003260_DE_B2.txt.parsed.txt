@@ -1,0 +1,310 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003260_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 10. Mai 2011.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	den	VERB	VVINF	VerbForm=Inf	1	acl	_	_
+5	10	10	NUM	CARD	NumType=Card	7	nummod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obj	_	_
+8	2011	2011	NUM	CARD	NumType=Card	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sehr geehrte Damen und Herren, ich habe ihre Aussage im Internetforum gelesen und möchte meine Meinung dazu erläutern.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Aussage	Aussage	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Internetforum	Internetforum	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	obl	_	_
+14	gelesen	lesen	VERB	VVPP	VerbForm=Part	3	parataxis	_	_
+15	und	und	CCONJ	KON	_	20	cc	_	_
+16	möchte	mögen	AUX	VMFIN	Mood=Sub|Tense=Past|VerbForm=Fin	20	aux	_	_
+17	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+19	dazu	dazu	ADV	PAV	_	20	advmod	_	_
+20	erläutern	erläutern	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Alle Länder haben verschiedenen Kulturen und Tradizionen und ich finde, wenn mann in Ausland lebt, oder sich da als Tourist aufhält, dann meiner Meinung nach, ist es gar nicht sinnvoll die Traditionen seines Heimatslandes vortzusetzen.
+1	Alle	alle	PRON	PIAT	Case=Nom|Number=Plur|PronType=Tot	2	det	_	_
+2	Länder	Land	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	verschiedenen	verschieden	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	5	amod	_	_
+5	Kulturen	Kultur	NOUN	NN	Case=Dat|Number=Plur	3	iobj	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Tradizionen	Tradizion	NOUN	NN	_	5	conj	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	3	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
+13	mann	mann	PROPN	NN	Case=Nom|Number=Sing	16	nsubj	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Ausland	Ausland	PROPN	NE	_	16	obl	_	_
+16	lebt	leben	VERB	VVFIN	Person=3|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	oder	oder	CCONJ	KON	_	23	cc	_	_
+19	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
+20	da	da	ADV	ADV	_	23	advmod	_	_
+21	als	als	ADP	KOKOM	_	22	case	_	_
+22	Tourist	Tourist	NOUN	NN	_	23	obl	_	_
+23	aufhält	aufhalten	VERB	VVFIN	VerbForm=Fin	16	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	16	punct	_	_
+25	dann	dann	ADV	ADV	_	27	advmod	_	_
+26	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	Meinung	Meinung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	conj	_	_
+28	nach	nach	ADP	PTKVZ	_	27	compound:prt	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	39	punct	_	_
+30	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+31	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	nsubj	_	_
+32	gar	gar	ADV	ADV	_	33	advmod	_	_
+33	nicht	nicht	PART	PTKNEG	Polarity=Neg	39	advmod	_	_
+34	sinnvoll	sinnvoll	ADJ	ADJD	Degree=Pos	39	advmod	_	_
+35	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
+36	Traditionen	Tradition	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	39	obj	_	_
+37	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	38	det:poss	_	_
+38	Heimatslandes	Heimatsland	NOUN	NN	_	36	nmod	_	_
+39	vortzusetzen	vortzusetzen	VERB	VVINF	VerbForm=Inf	16	conj	_	SpaceAfter=No
+40	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich finde, mann sollte sich an der Kultur des Landes orientieren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	mann	minnen	PROPN	NE	Case=Nom|Number=Sing	12	nsubj	_	_
+5	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+6	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Landes	Land	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
+12	orientieren	orientieren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Im Sommer bin ich mit meiner Mutter und mit meiner kleineren Schweßter 3 Wochen in Deutschland gewäsen.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	18	obl	_	_
+4	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Mutter	Mutter	NOUN	NN	Case=Dat|Number=Plur	18	obl	_	_
+9	und	und	CCONJ	KON	_	13	cc	_	_
+10	mit	mit	ADP	APPR	_	13	case	_	_
+11	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+12	kleineren	klein	ADJ	ADJA	Case=Dat|Degree=Cmp|Number=Plur	13	amod	_	_
+13	Schweßter	Schweßter	NOUN	NN	_	8	conj	_	_
+14	3	3	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Wochen	Woche	NOUN	NN	_	17	nmod	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Deutschland	Deutschland	PROPN	NE	_	18	obl	_	_
+18	gewäsen	wäsen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 6
+# text = Es war unglaublich schön und ich habe auch sehr positive Erfahrungen gesammelt, was das Thema deutsches Kultur angeht.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	unglaublich	unglaublich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	12	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+8	auch	auch	ADV	ADV	_	12	advmod	_	_
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
+10	positive	positiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+12	gesammelt	sammeln	VERB	VVFIN	Person=3|VerbForm=Fin	4	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	19	nsubj	_	_
+15	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+17	deutsches	deutsch	ADJ	ADJA	Degree=Pos	18	amod	_	_
+18	Kultur	Kultur	NOUN	NN	_	16	nmod	_	_
+19	angeht	angehen	VERB	VVFIN	Person=3|VerbForm=Fin	12	acl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ich und meine Familie haben uns an der Kultur des Gastlandes orientiert.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	und	und	CCONJ	KON	_	4	cc	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+5	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+6	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	12	iobj	_	_
+7	an	an	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+10	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gastlandes	Gastland	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	9	nmod	_	_
+12	orientiert	orientieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 8
+# text = Ich fand die Deutsche Küche am besten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fand	finden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	Küche	Küche	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	besten	gut	ADJ	ADJA	Degree=Sup	2	amod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Wie dass Sie, denke ich schon wissen, essen die Deutsche sehr viel Wurst und trinken bier, Kaffe und zum frühstück essen sie immer frische Brötchen, Vollkornbrot, oder manchmal auch bauernfrühstück Deshalb habe ich auch diese Tradition ausprobiert.
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	dass	daß	SCONJ	KOUS	_	5	mark	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	5	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+7	schon	schon	ADV	ADV	_	8	advmod	_	_
+8	wissen	wissen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	essen	essen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	5	conj	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Deutsche	deutsch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	sehr	sehr	ADV	ADV	_	14	advmod	_	_
+14	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Wurst	Wurst	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	trinken	trinken	PROPN	NE	_	15	conj	_	_
+18	bier	bier	PROPN	NE	_	17	flat	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	20	punct	_	_
+20	Kaffe	kaffe	NOUN	NN	_	5	conj	_	_
+21	und	und	CCONJ	KON	_	25	cc	_	_
+22-23	zum	_	_	_	_	_	_	_	_
+22	zu	zu	ADP	APPR	_	24	case	_	_
+23	dem	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
+24	frühstück	frühstücken	NOUN	VVIMP	Case=Nom|Number=Plur	25	nsubj	_	_
+25	essen	essen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	5	conj	_	_
+26	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+27	immer	immer	ADV	ADV	_	28	advmod	_	_
+28	frische	frisch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	29	amod	_	_
+29	Brötchen	Brötchen	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	SpaceAfter=No
+30	,	,	PUNCT	$,	_	31	punct	_	_
+31	Vollkornbrot	Vollkornbrot	NOUN	NN	_	29	conj	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	43	punct	_	_
+33	oder	oder	CCONJ	KON	_	43	cc	_	_
+34	manchmal	manchmal	ADV	ADV	_	36	advmod	_	_
+35	auch	auch	ADV	ADV	_	36	advmod	_	_
+36	bauernfrühstück	bauernfrühstück	NOUN	VVIMP	Case=Nom|Number=Plur	43	nsubj:pass	_	_
+37	Deshalb	deshalb	ADV	PAV	_	43	advmod	_	_
+38	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	43	aux	_	_
+39	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	43	nsubj	_	_
+40	auch	auch	ADV	ADV	_	43	advmod	_	_
+41	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	42	det	_	_
+42	Tradition	Tradition	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	43	obj	_	_
+43	ausprobiert	ausprobieren	VERB	VVPP	VerbForm=Part	29	conj	_	SpaceAfter=No
+44	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Und was die Deutsche Menschen betrifft, habe ich auch nur positive Erfahrungen gesammelt.
+1	Und	und	CCONJ	KON	_	6	cc	_	_
+2	was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	6	nsubj	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+4	Deutsche	deutsch	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+6	betrifft	betreffen	VERB	VVPP	VerbForm=Part	14	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	14	punct	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+10	auch	auch	ADV	ADV	_	14	advmod	_	_
+11	nur	nur	ADV	ADV	_	14	advmod	_	_
+12	positive	positiv	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Erfahrungen	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	14	obj	_	_
+14	gesammelt	sammeln	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 11
+# text = Sie sind unglaublich nett, fleißig und natürlich auch hilfsbereit.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	unglaublich	unglaublich	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	nett	nett	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	fleißig	fleißig	ADJ	ADJD	Degree=Pos	4	conj	_	_
+7	und	und	CCONJ	KON	_	10	cc	_	_
+8	natürlich	natürlich	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+9	auch	auch	ADV	ADV	_	10	advmod	_	_
+10	hilfsbereit	hilfsbereit	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 12
+# text = Viele Menschen haben Vorurteile über die Deutschen, dass sie eingebildet sind und die Nase zu hoch tragen.
+1	Viele	viel	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	det	_	_
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+3	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	Vorurteile	Vorurteil	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	_
+5	über	über	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	Deutschen	deutsch	NOUN	ADJA	Case=Acc|Number=Plur	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+10	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	eingebildet	eingebilden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	ccomp	_	_
+12	sind	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	und	und	CCONJ	KON	_	17	cc	_	_
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Nase	Nase	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	zu	zu	ADV	PTKA	_	17	advmod	_	_
+17	hoch	hoch	ADJ	ADJD	Degree=Pos	11	conj	_	_
+18	tragen	tragen	VERB	VVINF	VerbForm=Inf	17	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Aber dass stimmt gar nicht, sie sind sehr Nette Leute.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	dass	dass	SCONJ	KOUS	_	3	mark	_	_
+3	stimmt	stimmen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	11	advcl	_	_
+4	gar	gar	ADV	ADV	_	5	advmod	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+8	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
+10	Nette	nett	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Leute	Leute	NOUN	NN	_	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 14
+# text = Es war sehr toll da gewäsen zu sein.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	toll	toll	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+5	da	da	ADV	ADV	_	6	advmod	_	_
+6	gewäsen	wäsen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	sein	sein	VERB	VAINF	VerbForm=Inf	6	cop	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Mit freundlichen Grüßen Maria Müller
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	Müller	Müller	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

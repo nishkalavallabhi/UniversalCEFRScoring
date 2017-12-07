@@ -1,0 +1,94 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100010_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 12345
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+5	12345	12345	NUM	N	NumType=Card	1	flat:name	_	_
+
+# sent_id = 2
+# text = Città X 15 03 2010 Cari Stefano, Beatrice.
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	15	15	NUM	N	NumType=Card	1	nmod	_	_
+4	03	03	NUM	N	NumType=Card	3	flat	_	_
+5	2010	2010	NUM	N	NumType=Card	3	flat	_	SpacesAfter=\n
+6	Cari	caro	PROPN	SP	_	1	nmod	_	_
+7	Stefano	Stefano	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	9	punct	_	_
+9	Beatrice	Beatore	PROPN	SP	_	1	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ho avuto vostra invitazione per vostro matrimonio, sono contente per voi.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	_
+3	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	2	punct	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	contente	contento	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Porrei venire con mio marito.
+1	Porrei	porrei	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+3	con	con	ADP	E	_	5	case	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	marito	marito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Avete pensato portare come regalo un servicio de Bighière et piatti.
+1	Avete	avere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	portare	portare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	come	come	ADP	E	_	5	case	_	_
+5	regalo	regalare	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	servicio	servicio	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+8	de	de	ADP	E	_	9	case	_	_
+9	Bighière	Bighière	PROPN	SP	_	7	nmod	_	_
+10	et	e	CCONJ	CC	_	11	cc	_	_
+11	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ho preferisco recevuto una borsa con soldi per fare un viaggio de nozze.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	preferisco	preferire	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	recevuto	recevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	borsa	borsa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	de	di	ADP	E	_	13	case	_	_
+13	nozze	nozza	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Encore tutti miei felicitazione In attesa, bacci -unreadable-
+1	Encore	Encore	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	nsubj	_	_
+3	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	felicitazione	felicitazione	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpacesAfter=\n
+5	In	in	ADP	E	_	6	case	_	_
+6	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	bacci	baccio	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpacesAfter=\s\n
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	SpaceAfter=No
+11	-	-	PUNCT	FB	_	1	punct	_	SpacesAfter=\n
+

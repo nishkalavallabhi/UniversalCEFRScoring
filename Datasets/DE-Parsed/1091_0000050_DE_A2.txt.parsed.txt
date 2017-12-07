@@ -1,0 +1,65 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000050_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Sehr geehrt Damen und Herren Ich suche eine Wohnung, im am Zentralplatz zwei zimmer 73 kw Kalt mitte 350€.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrt	ehren	ADJ	ADJD	Degree=Pos	7	amod	_	_
+3	Damen	Dama	NOUN	NN	_	6	compound	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpacesAfter=\n
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	7	punct	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	dem	der	PRON	PRELS	PronType=Rel	7	nmod	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Zentralplatz	Zentralplatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+16	zwei	zwei	NUM	CARD	NumType=Card	17	nummod	_	_
+17	zimmer	zimmer	NOUN	NN	Case=Acc|Number=Sing	23	obj	_	_
+18	73	73	NUM	CARD	NumType=Card	20	nummod	_	_
+19	kw	kw	PROPN	ADJA	_	20	nmod	_	SpacesAfter=\s\s
+20	Kalt	kalt	NOUN	NN	Case=Nom|Number=Sing	17	nsubj	_	_
+21	mitte	mitten	PROPN	NN	_	20	appos	_	_
+22	350	350	PROPN	CARD	_	21	flat	_	SpaceAfter=No
+23	€	€	PROPN	ADJD	Case=Acc|Number=Sing	15	obj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Eine Wohnzimer, eine Schlafzimmer und eine Kuche, Badewanne und Toilette und eine Keler, mit große Terasse, aber kleine Garten.
+1	Eine	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	Wohnzimer	Wohnzimer	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Schlafzimmer	Schlafzimmer	NOUN	NN	_	2	conj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Kuche	kuche	NOUN	NN	_	2	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Badewanne	Badewanne	NOUN	NN	_	2	conj	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Toilette	Toilette	NOUN	NN	_	2	conj	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	eine	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+15	Keler	Keler	NOUN	NN	_	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+17	mit	mit	ADP	APPR	_	19	case	_	_
+18	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	19	amod	_	_
+19	Terasse	Teraße	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	23	punct	_	_
+21	aber	aber	CCONJ	KON	_	23	cc	_	_
+22	kleine	klein	ADJ	ADJA	Degree=Pos	23	advmod	_	_
+23	Garten	Garen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Viele Grüße Eva Schmidt
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	Eva	Eva	PROPN	NE	_	2	appos	_	_
+4	Schmidt	Schmidt	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,140 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000639_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, giovedì, 4 marzo 2010 Caro Roberto, Come stai?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	giovedì	giovedì	NOUN	S	Gender=Masc	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	4	4	NUM	N	NumType=Card	1	nmod	_	_
+7	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	2010	2010	NUM	N	NumType=Card	6	flat	_	SpacesAfter=\s\n
+9	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	13	parataxis	_	_
+10	Roberto	Roberto	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	9	punct	_	SpacesAfter=\s\n
+12	Come	come	SCONJ	CS	_	13	mark	_	_
+13	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Non ci vediamo da molto tempo allora ti scrivo per darti alcune notizie.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	6	det	_	_
+6	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+7	allora	allora	ADV	B	_	9	advmod	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	expl	_	_
+9	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	advcl	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	darti	dartire	NOUN	S	Gender=Masc|Number=Plur	13	nmod	_	_
+12	alcune	alcuno	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	13	det	_	_
+13	notizie	notizia	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Qui non va bene:
+1	Qui	qui	ADV	B	_	3	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = fa bruto tempo da tre setimane e piove ogni giorni.
+1	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bruto	bruto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	tre	tre	NUM	N	NumType=Card	6	nummod	_	_
+6	setimane	setimana	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	piove	piove	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	10	det	_	_
+10	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sono un po' stanco e non mi piace il mio nuovo lavoro.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	po'	poco	ADV	B	_	4	advmod	_	_
+4	stanco	stanco	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	8	cc	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+10	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+11	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = È molto difficile.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	difficile	difficile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Ma sono andato in vacanza in Spagna a Città X.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Spagna	Spagna	PROPN	SP	_	3	obl	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Città	Città	PROPN	SP	_	3	obl	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Mi piace molto il sole, mangiare la "paëlla" e anche fare la festa tutta la notte!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	sole	sole	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	mangiare	mangiare	VERB	V	VerbForm=Inf	10	conj	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	"	"	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	paëlla	paëlla	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	10	punct	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	anche	anche	ADV	B	_	14	advmod	_	_
+14	fare	fare	VERB	V	VerbForm=Inf	10	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	festa	festa	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	tutta	tutto	DET	T	Gender=Fem|Number=Sing|PronType=Tot	19	det:predet	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	notte	notte	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+20	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Spero a presto!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	presto	presto	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Ti mando tanti baci!
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	0	root	_	_
+2	mando	mare	VERB	V	VerbForm=Ger	1	advcl	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	baci	baco	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 11
+# text = Il tuo amico Michele
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amico	amico	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Michele	Michele	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+

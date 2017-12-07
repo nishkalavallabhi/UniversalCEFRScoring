@@ -1,0 +1,151 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100031_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = 7, Strada Maggiore 1234
+1	7	7	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Strada	strada	PROPN	SP	_	0	root	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+5	1234	1234	NUM	N	NumType=Card	3	nummod	_	_
+
+# sent_id = 2
+# text = Città X FRANCIA 15 MARZO, 2010 Città X VIA FRIULI, 72 80123 NAPOLI ITALIA GENTILI SiGNORI, VI RINGRAZIO PER IL VOSTRO INViTO E TUTTI
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	FRANCIA	Francia	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+4	15	15	NUM	N	NumType=Card	5	nummod	_	_
+5	MARZO	marzo	PROPN	SP	_	21	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	2010	2010	NUM	N	NumType=Card	8	nummod	_	_
+8	Città	Città	PROPN	SP	_	5	conj	_	_
+9	X	X	PROPN	SP	_	8	flat:name	_	SpacesAfter=\n
+10	VIA	via	PROPN	SP	_	8	flat:name	_	_
+11	FRIULI	Friuli	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	72	72	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\n
+14	80123	80123	NUM	N	NumType=Card	15	nummod	_	_
+15	NAPOLI	Napoli	PROPN	SP	_	8	nmod	_	SpacesAfter=\n
+16	ITALIA	Italia	PROPN	SP	_	8	flat:name	_	SpacesAfter=\n
+17	GENTILI	GENTILI	PROPN	SP	_	8	flat:name	_	_
+18	SiGNORI	Signori	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+20	VI	sesto	ADJ	NO	Number=Sing|NumType=Ord	21	amod	_	_
+21	RINGRAZIO	Ringrazio	PROPN	SP	_	1	nmod	_	_
+22	PER	per	PROPN	SP	_	21	flat:name	_	_
+23	IL	il	PROPN	SP	_	21	flat:name	_	_
+24	VOSTRO	vostro	PROPN	SP	_	21	flat:name	_	_
+25	INViTO	invito	PROPN	SP	_	21	flat:name	_	_
+26	E	e	CCONJ	CC	_	27	cc	_	_
+27	TUTTI	tutti	PROPN	SP	_	1	conj	_	_
+
+# sent_id = 3
+# text = I MIEI AUGURI PER IL VOSTRO MATRIMONIO.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	2	det	_	_
+2	MIEI	mieo	PROPN	SP	_	0	root	_	_
+3	AUGURI	auguri	PROPN	SP	_	2	flat:name	_	_
+4	PER	per	PROPN	SP	_	2	flat:name	_	_
+5	IL	il	PROPN	SP	_	2	flat:name	_	_
+6	VOSTRO	vostro	PROPN	SP	_	2	nmod	_	_
+7	MATRIMONIO	matrimonio	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = INSOMMA.
+1	INSOMMA	insomma	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = CONGRATULAZIONI!
+1	CONGRATULAZIONI	congratulazioni	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = PURTROPPO, NON POTRÒ VENIRE, STO FACENDO UN CORSO D'ITALIANO E AVRÒ
+1	PURTROPPO	purtroppo	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	NON	Non	PROPN	SP	_	1	nsubj	_	_
+4	POTRÒ	POTRÒ	PROPN	SP	_	3	flat:name	_	_
+5	VENIRE	venire	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	STO	stare	PROPN	SP	_	3	appos	_	_
+8	FACENDO	fare	PROPN	SP	_	7	flat:name	_	_
+9	UN	uno	PROPN	SP	_	7	flat:name	_	_
+10	CORSO	Corso	PROPN	SP	_	9	flat:name	_	_
+11	D'	D'	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+12	ITALIANO	italiano	PROPN	SP	_	7	flat:name	_	_
+13	E	e	CCONJ	CC	_	14	cc	_	_
+14	AVRÒ	avere	PROPN	SP	_	7	conj	_	_
+
+# sent_id = 7
+# text = L'ESAME
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	ESAME	esame	PROPN	SP	_	0	root	_	_
+
+# sent_id = 8
+# text = IL 20 NOVEMBRE!
+1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	20	20	NUM	N	NumType=Card	0	root	_	_
+3	NOVEMBRE	novembre	PROPN	SP	_	2	flat	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Mi DISPIACE!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	DISPIACE	dispiace	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = COSA POTREI COMPRARE COME REGALO?
+1	COSA	cosa	PROPN	SP	_	0	root	_	_
+2	POTREI	potere	PROPN	SP	_	1	flat:name	_	_
+3	COMPRARE	comprare	PROPN	SP	_	1	flat:name	_	_
+4	COME	come	PROPN	SP	_	1	flat:name	_	_
+5	REGALO	regalo	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = PENSAVO A COMPRARVI UNA MACCHiNA NUOVA' O UNA VACANZA, MAGARI?
+1	PENSAVO	pensare	PROPN	SP	_	0	root	_	_
+2	A	a	PROPN	SP	_	1	flat:name	_	_
+3-4	COMPRARVI	_	_	_	_	_	_	_	_
+3	COMPRAR	comprar	PROPN	SP	_	1	flat:name	_	_
+4	VI	sesto	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	_
+5	UNA	Una	PROPN	SP	_	1	flat:name	_	_
+6	MACCHiNA	macchina	PROPN	SP	_	1	flat:name	_	_
+7	NUOVA'	NUOVA'	PROPN	SP	_	1	flat:name	_	_
+8	O	o	PROPN	SP	_	1	flat:name	_	_
+9	UNA	Una	PROPN	SP	_	1	flat:name	_	_
+10	VACANZA	vacanza	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	_
+12	MAGARI	magari	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = SONO GENTILE E HO MOLTI SOLDI!
+1	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	GENTILE	gentile	PROPN	SP	_	0	root	_	_
+3	E	e	PROPN	SP	_	2	flat:name	_	_
+4	HO	avere	PROPN	SP	_	2	flat:name	_	_
+5	MOLTI	molto	PROPN	SP	_	2	flat:name	_	_
+6	SOLDI	soldi	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = IN ATTESA DI UNA VOSTRA RISPOSTA.
+1	IN	in	ADP	E	_	2	case	_	_
+2	ATTESA	attesa	PROPN	SP	_	0	root	_	_
+3	DI	di	ADP	E	_	4	case	_	_
+4	UNA	uno	PROPN	SP	_	2	nmod	_	_
+5	VOSTRA	Vostra	PROPN	SP	_	4	flat:name	_	_
+6	RISPOSTA	risposto	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = CORDIALI SALUTI, -unreadable-
+1	CORDIALI	Cordiale	PROPN	SP	_	5	nmod	_	_
+2	SALUTI	Saluto	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+5	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+6	-	-	PUNCT	FB	_	5	punct	_	SpacesAfter=\n
+

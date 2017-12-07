@@ -1,0 +1,75 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0242022_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Wie geht es Dir?
+1	Lieber	lieb	PROPN	NN	_	5	appos	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Wie	Wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Mir geht es gut.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Dir ist Vater geworden.
+1	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+2	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	Vater	Vater	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+4	geworden	werden	VERB	VAPP	VerbForm=Part	5	cop	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Dein Babys ist Name?
+1	Dein	dein	PROPN	PPOSAT	_	4	nsubj	_	_
+2	Babys	Baby	PROPN	NN	_	1	flat	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Name	Name	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Wie geht die Frau und Babys?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Babys	Babys	NOUN	NN	_	4	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich Wünsche Deiner Famili Gesundheit, Glückwünsch und Viel Spaß.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	Wünsche	Wünsch	NOUN	NN	Case=Nom|Number=Plur	9	nsubj	_	_
+3	Deiner	Deiner	PROPN	NE	_	2	appos	_	_
+4	Famili	Famili	PROPN	NE	_	3	flat	_	_
+5	Gesundheit	Gesundheit	PROPN	NN	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	Glückwünsch	Glückwünsch	PROPN	NN	_	3	appos	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Viel	viel	VERB	PIS	_	0	root	_	_
+10	Spaß	Spessen	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Herzliche Grüße - Deine Freundin.
+1	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	4	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	4	compound	_	_
+3	-	-	PUNCT	$(	_	4	punct	_	_
+4	Deine	Deine	NOUN	NN	_	5	dep	_	_
+5	Freundin	Freundin	VERB	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Tschüss Maria
+1	Tschüss	Tschüss	PROPN	NN	_	0	root	_	SpacesAfter=\n
+2	Maria	Maria	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

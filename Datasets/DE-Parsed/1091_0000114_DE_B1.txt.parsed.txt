@@ -1,0 +1,98 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000114_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Julia, Ich habe eine Fahrkarte für einen Busausflug nach Stadt X gekauft, aber kann nicht leider fahren.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	_
+2	Julia	Julia	PROPN	NE	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	Busausflug	Busausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+11	nach	nach	ADP	APPR	_	12	case	_	_
+12	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	14	obl	_	_
+13	X	X	PROPN	NN	_	12	appos	_	_
+14	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	20	punct	_	_
+16	aber	aber	CCONJ	KON	_	20	cc	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	20	advmod	_	_
+19	leider	leider	ADV	ADV	_	20	advmod	_	_
+20	fahren	fahren	VERB	VVINF	VerbForm=Inf	14	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 2
+# text = Meine Schwester hat der Datum ihres Hochzeits für die nächste Woche gewechselt und ich muss dort sein.
+1	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Schwester	Schwester	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+3	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Datum	Datum	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+6	ihres	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Hochzeits	Hochzeit	NOUN	NN	_	5	nmod	_	_
+8	für	für	ADP	APPR	_	11	case	_	_
+9	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+10	nächste	nah	ADJ	ADJA	_	11	amod	_	_
+11	Woche	Woche	NOUN	NN	_	3	obl	_	_
+12	gewechselt	wechseln	ADJ	VVPP	_	3	advmod	_	_
+13	und	und	CCONJ	KON	_	17	cc	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	dort	dort	ADV	ADV	_	17	advmod	_	_
+17	sein	sein	PRON	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	3	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 3
+# text = Möchtest du fahren?
+1	Möchtest	Möchtest	PROPN	NN	_	3	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	flat	_	_
+3	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Es gibt das Möglichkeit dass du mit deinem Mann fährst.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Möglichkeit	Möglichkeit	PROPN	NN	_	10	nsubj	_	_
+5	dass	dass	PROPN	KOUS	_	4	appos	_	_
+6	du	du	PROPN	PPER	_	5	flat	_	_
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	deinem	dein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det	_	_
+9	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+10	fährst	fährsen	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Die Fahrkarte ist für der letzte Woche des Dezembers, so antwort mir bitte schnell, ob du fahren möchtest.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Fahrkarte	Fahrkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	für	für	ADP	APPR	_	7	case	_	_
+5	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+6	letzte	letzt	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Woche	Woche	NOUN	NN	_	0	root	_	_
+8	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Dezembers	Dezember	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	7	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	7	punct	_	_
+11	so	so	ADV	ADV	_	12	advmod	_	_
+12	antwort	antworn	NOUN	NN	_	7	appos	_	_
+13	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	15	obj	_	_
+15	schnell	schnell	ADJ	ADJD	Degree=Pos	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	ob	ob	SCONJ	KOUS	_	19	mark	_	_
+18	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	19	nsubj	_	_
+19	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	15	ccomp	_	_
+20	möchtest	möchtest	ADJ	ADJD	Degree=Sup	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Stefan
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Stefan	Stefan	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

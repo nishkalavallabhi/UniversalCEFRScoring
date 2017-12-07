@@ -1,0 +1,115 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000245_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieb Mari, Viele Grüße von Tobias!
+1	Lieb	lieb	PROPN	NE	_	0	root	_	_
+2	Mari	Mari	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Viele	viel	PRON	PIAT	PronType=Ind	5	det	_	_
+5	Grüße	Grüße	NOUN	NN	_	1	appos	_	_
+6	von	von	ADP	APPR	_	7	case	_	_
+7	Tobias	Tobias	NOUN	NN	Case=Dat|Number=Plur	1	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wie geht´s dir?
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	geht´s	geht´s	PROPN	NE	_	0	root	_	_
+3	dir	dir	PROPN	NN	_	2	flat	_	SpaceAfter=No
+4	?	?	PROPN	$.	_	2	flat	_	_
+
+# sent_id = 3
+# text = Es geht´s mir gut.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	geht´s	geht´s	PROPN	NE	_	4	obj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	gut	gun	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte am 25 märz nach Indien fliegen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	25	25	PROPN	CARD	_	9	obl	_	_
+6	märz	märz	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	flat	_	_
+7	nach	nach	ADP	APPR	_	8	case	_	_
+8	Indien	Indien	PROPN	NE	Case=Dat|Number=Sing	9	obl	_	_
+9	fliegen	fliegen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Ich habe einen Hund, er heißt Waldi.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	Waldi	Waldi	PROPN	NN	Case=Acc|Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ich Kann nicht Waldi fliegen mit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	Kann	Kann	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	Waldi	Waldi	PROPN	NE	_	5	obl	_	_
+5	fliegen	fliegen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	mit	mit	ADP	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Deshalb würde ich den Hund mit dir bleiben.
+1	Deshalb	deshalb	ADV	PAV	_	8	advmod	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	obl	_	_
+8	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ich fliege am Ende März zuruck.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	fliege	fliegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Ende	Ende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+6	März	März	PROPN	NN	_	5	appos	_	_
+7	zuruck	zuruck	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ich denke es Kein Problem für dir.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	Kein	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Problem	Problem	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich warte auf dein Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	0	root	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	dein	dein	PROPN	PPOSAT	_	2	nmod	_	_
+5	Antwort	Antwort	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Vielen Dank dein Tobias
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	ADP	NN	_	0	root	_	SpacesAfter=\n
+3	dein	dein	PROPN	PPOSAT	_	2	appos	_	_
+4	Tobias	Tobias	PROPN	NN	_	3	flat	_	SpacesAfter=\n
+

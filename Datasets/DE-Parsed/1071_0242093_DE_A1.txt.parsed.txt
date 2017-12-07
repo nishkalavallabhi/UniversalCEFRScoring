@@ -1,0 +1,50 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0242093_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Freundin- Ich will mitt meine Freundin Schwimmen gehen.
+1	Liebe	lieb	NOUN	NN	_	0	root	_	_
+2	Freundin-	Freundin-	PUNCT	$(	_	1	punct	_	SpacesAfter=\n
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	mitt	mitt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+6	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Freundin	Freundin	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	SpacesAfter=\s\n
+8	Schwimmen	schwimmen	NOUN	NN	_	9	obl	_	_
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Daniela hast do Sate.
+1	Daniela	Daniela	PROPN	NE	_	0	root	_	_
+2	hast	haben	PROPN	NE	_	1	flat	_	_
+3	do	do	PROPN	VVFIN	_	4	case	_	_
+4	Sate	Sate	PROPN	NE	_	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ruf mir an wir gan sasamen.
+1	Ruf	Ruf	NOUN	NN	_	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	wir	wir	PROPN	PPER	Case=Nom|Number=Sing	5	nsubj	_	_
+5	gan	gan	PROPN	NE	_	1	nmod	_	_
+6	sasamen	sasam	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	5	flat	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Daniela bringt Falibs und Wassa mit.
+1	Daniela	Daniela	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	bringt	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	Falibs	Falibs	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Wassa	Wassa	NOUN	NN	_	3	conj	_	_
+6	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = viel Gurse und Liebe-
+1	viel	viel	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	2	det	_	_
+2	Gurse	Gurs	NOUN	NN	Case=Acc|Number=Plur	0	root	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Liebe-	Liebe-	NOUN	NN	_	2	conj	_	SpacesAfter=\n
+

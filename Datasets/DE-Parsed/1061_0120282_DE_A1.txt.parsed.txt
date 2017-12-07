@@ -1,0 +1,50 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120282_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Dana Stadt X 22.02.2012 im Sommer ich besucht ihn.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Dana	Dana	PROPN	NE	_	3	amod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Stadt	Stadt	PROPN	NN	_	1	nmod	_	_
+4	X	X	PROPN	NN	_	3	appos	_	_
+5	22.02.2012	22.02.2012	PROPN	CARD	_	3	appos	_	SpacesAfter=\n
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Sommer	Sommer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	besucht	besuchen	VERB	VVPP	VerbForm=Part	1	acl	_	_
+11	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Du hast einen sehr gut Prüfung geschrib.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	amod	_	_
+6	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obj	_	_
+7	geschrib	geschrib	PROPN	NE	_	6	appos	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = in istanbul sie besucht seinen Onkel und seine tante, die schon seit 10 Jahren hier Leben.
+1	in	in	ADP	APPR	_	2	case	_	_
+2	istanbul	istanbul	PROPN	NE	_	4	obl	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	besucht	besuchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Onkel	Onkel	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	tante	tante	NOUN	NN	_	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	die	der	PRON	PRELS	Case=Nom|PronType=Rel	15	nsubj	_	_
+12	schon	schon	ADV	ADV	_	15	advmod	_	_
+13	seit	seit	ADP	APPR	_	15	case	_	_
+14	10	10	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Jahren	Jahr	NOUN	NN	_	4	nmod	_	_
+16	hier	hier	ADV	ADV	_	17	advmod	_	_
+17	Leben	Leben	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+

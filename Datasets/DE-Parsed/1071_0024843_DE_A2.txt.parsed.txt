@@ -1,0 +1,67 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024843_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 14.03.2012 Lieber Jens, wie geht du und die neue Mutter? wie heißt das Baby?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	14.03.2012	14.03.2012	PROPN	CARD	_	5	amod	_	SpacesAfter=\n
+5	Lieber	Lieber	PROPN	NN	_	1	appos	_	_
+6	Jens	Jens	PROPN	NE	_	5	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	wie	wie	ADV	KOUS	_	9	advmod	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+10	du	du	PROPN	PPER	_	9	nsubj	_	_
+11	und	und	CCONJ	KON	_	14	cc	_	_
+12	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+13	neue	neu	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Mutter	Mutter	NOUN	NN	_	10	conj	_	SpaceAfter=No
+15	?	?	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+16	wie	wie	CCONJ	KOKOM	_	17	cc	_	_
+17	heißt	heißen	VERB	VVFIN	VerbForm=Fin	9	conj	_	_
+18	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpaceAfter=No
+20	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich gratulieren uns.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gratulieren	gratulieren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Ich bin glüklinck.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	glüklinck	glüklinck	PROPN	NE	Case=Dat|Number=Sing	2	iobj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte gern das Baby sehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	gern	gern	ADV	ADV	_	6	advmod	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+6	sehen	sehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Darfe ich am Samtag deine Hause gehen?
+1	Darfe	Darfen	AUX	VMFIN	Mood=Sub|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Samtag	Samtag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+6	deine	dein	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+8	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Gruße Maria
+1	Gruße	Gruße	PROPN	NN	_	0	root	_	SpacesAfter=\n
+2	Maria	Maria	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

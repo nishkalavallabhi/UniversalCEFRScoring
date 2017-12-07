@@ -1,0 +1,104 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000226_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 12.03.12 Leiber Michael, wie gehts dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	12.03.12	12.03.12	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Leiber	Leiber	PROPN	NN	_	4	flat	_	_
+6	Michael	Michael	PROPN	NE	_	1	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	wie	wie	ADP	KOUS	_	10	case	_	_
+9	gehts	gehts	ADV	NN	_	10	advmod	_	_
+10	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich hoffe gut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich bin auch gut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Am Samstag ich mit meine Famalie nach Köln fahren, aber ich kann nicht nehme meinen hunt mit.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Famalie	Famalie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	10	obl	_	_
+10	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	16	punct	_	_
+12	aber	aber	CCONJ	KON	_	16	cc	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+16	nehme	nehm	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
+17	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	nsubj	_	_
+18	hunt	hunt	ADJ	ADJD	Degree=Pos	16	advmod	_	_
+19	mit	mit	ADP	PTKVZ	_	16	compound:prt	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Kannst du mir helfen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Bitte Verwahrung meinen Hund.
+1	Bitte	Bitte	ADV	VVIMP	_	2	advmod	_	_
+2	Verwahrung	Verwahrung	NOUN	NN	_	0	root	_	_
+3	meinen	meinen	VERB	VVFIN	Case=Acc|Gender=Masc|Number=Sing|VerbForm=Fin	4	det:poss	_	_
+4	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Geben es essen und nehme es Spaziergang mit. bitte Vergessen nicht.
+1	Geben	geben	NOUN	VVFIN	_	0	root	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	essen	essen	VERB	VVINF	VerbForm=Inf	1	xcomp	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	nehme	nehmen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	conj	_	_
+6	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	Spaziergang	Spaziergang	NOUN	NN	Case=Acc|Number=Sing	5	obj	_	_
+8	mit	mit	ADP	PTKVZ	_	10	case	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	10	punct	_	_
+10	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	5	obl	_	_
+11	Vergessen	verges	NOUN	NN	Case=Acc|Number=Plur	10	obj	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ich bin Zuruck in Zwei Woche.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Zuruck	Zuruck	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	Zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Woche	Woche	NOUN	NN	_	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Vielen Dank Tobias Stefan
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Tobias	Tobias	PROPN	NE	_	2	appos	_	_
+4	Stefan	Stefan	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

@@ -1,0 +1,112 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001737_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Michele!
+1	Ciao	ciao	PROPN	SP	_	0	root	_	_
+2	Michele	Michele	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Grazie per la tua email.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	email	email	NOUN	S	_	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Vorrei aiutarti, ma ho bisogno di qualche informazione in più.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aiutarti	aiutartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Puoi scrivere dove lavori adesso?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scrivere	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+3	dove	dove	ADV	B	_	4	advmod	_	_
+4	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+5	adesso	adesso	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Puoi dirmi, che tipo di lavoro vuoi fare?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirmi	_	_	_	_	_	_	_	SpaceAfter=No
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+6	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+9	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	2	acl:relcl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Quando voresti iniziare il tuo nuovo lavoro?
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	voresti	voredere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Vorrei sapere anche che cosa ti piace fare?
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	che	che	DET	DQ	PronType=Int	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
+7	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Mi scrivi dove voresti lavorare; in città o in campagna?
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	scrivi	scrivare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dove	dove	ADV	B	_	5	advmod	_	_
+4	voresti	voresto	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	lavorare	lavorare	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+6	;	;	PUNCT	FC	_	8	punct	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	città	città	NOUN	S	Gender=Fem	5	obl	_	_
+9	o	o	CCONJ	CC	_	11	cc	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	campagna	campagna	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Ti piace lavoro movimento o tranquillo?
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+4	movimento	movimento	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	o	o	CCONJ	CC	_	6	cc	_	_
+6	tranquillo	tranquillo	ADJ	A	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Aspetto la tua risposta Maria
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s
+5	Maria	Maria	PROPN	SP	_	4	nmod	_	SpacesAfter=\n
+

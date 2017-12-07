@@ -1,0 +1,209 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001076_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Roberto!
+1	Ciao	ciao	PROPN	SP	_	0	root	_	_
+2	Roberto	Roberto	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Come stai?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Oggi scriverti per il mio viaggio di te.
+1	Oggi	oggi	ADV	B	_	2	advmod	_	_
+2-3	scriverti	_	_	_	_	_	_	_	_
+2	scriver	scrivere	VERB	V	VerbForm=Inf	0	root	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi ho pensato prenderei il treno da Città Y per arrivare a Città X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	prenderei	prendere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	treno	treno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	da	da	ADP	E	_	8	case	_	SpacesAfter=\s\s
+8	Città	città	PROPN	SP	_	4	obl:agent	_	_
+9	Y	y	PROPN	SP	_	8	flat:name	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	arrivare	arrivare	VERB	V	VerbForm=Inf	4	advcl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	Città	PROPN	SP	_	11	obl	_	_
+14	X	X	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Cosa tu penso?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+3	penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = C'é una possibilità mi prendi del binario?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	SpaceAfter=No
+2	é	é	ADV	B	_	1	advmod	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	possibilità	possibilità	NOUN	S	Gender=Fem	6	nsubj	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
+6	prendi	prendere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+7-8	del	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	binario	binario	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Perché con la tua macchina é molto comodo arriviamo a casa tua.
+1	Perché	perché	ADV	B	_	9	mark	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+6	é	é	CCONJ	CC	_	8	cc	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	comodo	comodo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+9	arriviamo	arrivare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 8
+# text = E come state la tua famiglia?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	come	come	ADV	B	_	3	advmod	_	_
+3	state	essere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Tutto a posto?
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	posto	posto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Mi piace che verderci tutti insieme.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4-5	verderci	_	_	_	_	_	_	_	_
+4	verder	verdere	VERB	V	VerbForm=Inf	2	ccomp	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	_
+6	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	4	obl	_	_
+7	insieme	insieme	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Ho trovato non molti informazioni di Città X.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	5	det	_	_
+5	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Città	città	PROPN	SP	_	5	nmod	_	_
+8	X	decimo	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Tu non scritto com'é la tua cittá!
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	com'	come	SCONJ	CS	_	5	mark	_	SpaceAfter=No
+5	é	é	SCONJ	CS	_	3	advcl	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	cittá	cittá	PROPN	SP	_	5	nsubj	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ma nel un' articolo ho visto stato scritto c'é un bello teatro a Città X.
+1	Ma	ma	CCONJ	CC	_	8	cc	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	6	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+5	'	'	PUNCT	FB	_	6	punct	_	_
+6	articolo	articolo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	stato	essere	AUX	VA	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	aux:pass	_	_
+10	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	xcomp	_	_
+11	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+12	é	é	ADV	B	_	15	advmod	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+14	bello	bello	ADJ	A	Gender=Masc|Number=Sing	15	amod	_	_
+15	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	10	nsubj:pass	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Città	città	PROPN	SP	_	15	nmod	_	_
+18	X	X	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 14
+# text = A me piace di vederlo insieme.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	vederlo	_	_	_	_	_	_	_	_
+5	veder	vedere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	insieme	insieme	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Anche la seconda te?
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	seconda	secondo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	4	amod	_	_
+4	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Se abbiamo nessuna altra cosa ci andiamo li?
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+3	nessuna	nessuna	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	5	det	_	_
+4	altra	altro	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+7	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 17
+# text = Ma per oggi devo chiusare.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	per	per	ADP	E	_	3	case	_	_
+3	oggi	oggi	ADV	B	_	5	advmod	_	_
+4	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	chiusare	chiusare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = Ti abbraccio e un bacio Maria
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	abbraccio	abbrare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\s\n\s
+6	Maria	Maria	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+

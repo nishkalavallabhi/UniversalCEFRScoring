@@ -1,0 +1,75 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000195_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 10.03.2012 Katharina Winkelmann Zentralplatz 12 12345 Stadt X Wohnungsamt.
+1	Stadt	Stadt	NOUN	NN	_	9	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	10.03.2012	10.03.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+4	Katharina	Katharina	PROPN	NE	_	3	flat	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+6	Zentralplatz	Zentralplatz	PROPN	NN	_	3	flat	_	_
+7	12	12	NUM	CARD	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	12345	12345	NUM	CARD	NumType=Card	1	dep	_	_
+9	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+10	X	X	PROPN	NN	_	9	appos	_	SpacesAfter=\n\s\n
+11	Wohnungsamt	Wohnungsamen	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	10	flat	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sehr geehrter Herre Ich suche ein wohnung mit ein Zimmer und mit band, und mit Balkon. vilechte 70 miete mit Garage.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrter	geehrter	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Herre	Herr	NOUN	NN	_	5	nmod	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpacesAfter=\s\s
+5	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Zimmer	Zimmer	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	mit	mit	ADP	APPR	_	10	conj	_	_
+13	band	band	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	19	punct	_	_
+15	und	und	CCONJ	KON	_	19	cc	_	_
+16	mit	mit	ADP	APPR	_	17	case	_	_
+17	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	19	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
+19	vilechte	vilechen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	conj	_	_
+20	70	70	NUM	CARD	NumType=Card	21	nummod	_	_
+21	miete	mieten	NOUN	NN	Case=Acc|Number=Plur	19	obj	_	_
+22	mit	mit	ADP	APPR	_	23	case	_	_
+23	Garage	Garage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Aber ich bin estudiere und ich keine viele Geld.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	bin	bin	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	estudiere	estudieren	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	conj	_	_
+7	keine	kein	PRON	PIAT	PronType=Neg	9	advmod	_	_
+8	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Sing	9	amod	_	_
+9	Geld	Geld	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich Möchte Wisse Wie Viele kostete?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	Möchte	möcht	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	Wisse	Wis	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+4	Wie	wie	ADP	KOKOM	_	5	case	_	_
+5	Viele	viel	NOUN	NN	_	6	obl	_	_
+6	kostete	kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mit freundliche Grüße K. Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	K.	K.	PROPN	NE	_	3	appos	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

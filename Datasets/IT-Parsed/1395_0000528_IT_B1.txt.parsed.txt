@@ -1,0 +1,105 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000528_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 26 novembre 2010
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	26	26	NUM	N	NumType=Card	1	nmod	_	_
+5	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2010	2010	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Caro Umberto la mia famiglia ed io stiamo bene.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Umberto	Umberto	PROPN	SP	_	8	obl	_	SpacesAfter=\n
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	ed	e	CCONJ	CC	_	7	cc	_	_
+7	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	stiamo	stare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Il lavoro è sempre lo stesso ma mi piace andarci perchè ci sono i colleghi amabili.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	sempre	sempre	ADV	B	_	6	advmod	_	_
+5	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	stesso	stesso	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	_
+7	ma	ma	CCONJ	CC	_	9	cc	_	_
+8	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	_
+10-11	andarci	_	_	_	_	_	_	_	_
+10	andar	andare	VERB	V	VerbForm=Inf	9	csubj	_	_
+11	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+12	perchè	perché	SCONJ	CS	_	14	mark	_	_
+13	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	14	expl	_	_
+14	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	14	nsubj	_	_
+17	amabili	amabile	ADJ	A	Number=Plur	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Negli ultimi tempi faccio molto sport, voglio partecipare alla maratona di Città Y.
+1-2	Negli	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+3	ultimi	ultimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	4	amod	_	_
+4	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+5	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	sport	sport	NOUN	S	Gender=Masc	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	partecipare	partecipare	VERB	V	VerbForm=Inf	5	conj	_	_
+11-12	alla	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	maratona	maratona	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Città	città	PROPN	SP	_	13	nmod	_	_
+16	Y.	Y.	PROPN	SP	_	15	flat:name	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Que cosa fai dopo Natale?
+1	Que	Que	ADV	B	_	3	advmod	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	dopo	dopo	ADV	B	_	5	advmod	_	_
+5	Natale	Natale	PROPN	SP	_	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ho voglia di vederti.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4-5	vederti	_	_	_	_	_	_	_	SpaceAfter=No
+4	veder	vedere	VERB	V	VerbForm=Inf	2	acl	_	_
+5	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Andiamo in montagna insieme?
+1	Andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Scrivimi!
+1	Scrivimi	Scrivimo	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tanti saluti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,245 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0108811_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = 2.
+1	2	2	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Thema Beschwerdebrief Sehr geehrte Au-pair-Agentur, dieses ltztes Vierteljahr habe ich bei einer Gastfamilie in Deutschland verbracht.
+1	Thema	Thema	PROPN	NE	_	4	nsubj	_	_
+2	Beschwerdebrief	Beschwerdebrief	PROPN	VVFIN	Case=Dat|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Sehr	Sehr	PROPN	ADV	_	1	appos	_	_
+4	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	Au-pair-Agentur	Au-pair-Agentur	NOUN	NN	Case=Acc|Number=Sing	17	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+7	dieses	dies	PRON	PDAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	det	_	_
+8	ltztes	ltzt	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	9	amod	_	_
+9	Vierteljahr	Vierteljahr	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	17	obj	_	_
+10	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+12	bei	bei	ADP	APPR	_	14	case	_	_
+13	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Gastfamilie	Gastfamilie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	obl	_	_
+15	in	in	ADP	APPR	_	16	case	_	_
+16	Deutschland	Deutschland	PROPN	NE	_	14	nmod	_	_
+17	verbracht	verbringen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = und ich wollt einige bemerkungen daruber machen.
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	wollt	wollen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	einige	einige	PRON	PIS	Case=Acc|PronType=Ind	7	obj	_	_
+5	bemerkungen	bemerkungen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	_
+6	daruber	daruber	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+7	machen	machen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Als ich vor ein Vierteljahr in Deutschland angekommen bin, ich fühlte mich sehr glücklich, weil ich meine "neue" Familie sehen wollte.
+1	Als	als	SCONJ	KOUS	_	8	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	vor	vor	ADP	APPR	_	5	case	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Vierteljahr	Vierteljahr	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Deutschland	Deutschland	PROPN	NE	_	5	nmod	_	_
+8	angekommen	ankommen	VERB	VVPP	VerbForm=Part	12	advcl	_	_
+9	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	fühlte	fühlen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	12	obj	_	_
+14	sehr	sehr	ADV	ADV	_	15	advmod	_	_
+15	glücklich	glücklich	ADJ	ADJD	Degree=Pos	12	advmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	12	punct	_	_
+17	weil	weil	SCONJ	KOUS	_	24	mark	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+19	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
+20	"	"	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+21	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+22	"	"	PUNCT	$(	_	21	punct	_	_
+23	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+24	sehen	sehen	VERB	VVINF	VerbForm=Inf	12	advcl	_	_
+25	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Aber am Flughafen war nimanden der auf mich wartete, darum habe ich ein Taxi genommen und ich bin nach meine "neue" Haus gefahren.
+1	Aber	aber	ADV	KON	_	10	advmod	_	_
+2-3	am	_	_	_	_	_	_	_	_
+2	an	an	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Flughafen	Flughafen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+6	nimanden	nimanden	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+7	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+8	auf	auf	ADP	APPR	_	9	case	_	_
+9	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obl	_	_
+10	wartete	warten	VERB	VVFIN	VerbForm=Fin	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	darum	darum	ADV	PAV	_	17	advmod	_	_
+13	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	ein	ein	DET	ART	Definite=Ind|PronType=Art	16	det	_	_
+16	Taxi	Taxi	NOUN	NN	_	17	obl	_	_
+17	genommen	nehmen	VERB	VVPP	VerbForm=Part	10	conj	_	_
+18	und	und	CCONJ	KON	_	27	cc	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+20	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	cop	_	_
+21	nach	nach	ADP	APPR	_	26	case	_	_
+22	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	26	det:poss	_	_
+23	"	"	PUNCT	$(	_	24	punct	_	SpaceAfter=No
+24	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Plur	26	amod	_	SpaceAfter=No
+25	"	"	PUNCT	$(	_	24	punct	_	_
+26	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	27	obl	_	_
+27	gefahren	fahren	VERB	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 6
+# text = Dort war nemanden weil die Familie war am spatzieren und ich habe fast eine Stunde gewartet, aber dann sind sie wieder von der Spatziergang gekommen und ich habe unendlich mein Haus gesehen.
+1	Dort	dort	ADV	ADV	_	10	advmod	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	cop	_	_
+3	nemanden	nemanden	ADJ	ADJA	Degree=Pos	10	advmod	_	_
+4	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+7	war	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux:pass	_	_
+8-9	am	_	_	_	_	_	_	_	_
+8	an	an	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	spatzieren	spatzi	ADJ	ADJA	Case=Dat|Degree=Cmp|Gender=Masc,Neut|Number=Sing	0	root	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	_
+14	fast	fast	ADV	ADV	_	17	advmod	_	_
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Stunde	Stunde	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	gewartet	warten	VERB	VVPP	VerbForm=Part	13	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	27	punct	_	_
+19	aber	aber	CCONJ	KON	_	27	cc	_	_
+20	dann	dann	ADV	ADV	_	27	advmod	_	_
+21	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux:pass	_	_
+22	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	27	nsubj:pass	_	_
+23	wieder	wieder	ADV	ADV	_	27	advmod	_	_
+24	von	von	ADP	APPR	_	27	case	_	_
+25	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	Spatziergang	Spatziergang	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	gekommen	kommen	VERB	VVPP	VerbForm=Part	13	conj	_	_
+28	und	und	CCONJ	KON	_	34	cc	_	_
+29	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+30	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	34	aux	_	_
+31	unendlich	unendlich	ADJ	ADJD	Degree=Pos	34	advmod	_	_
+32	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	Haus	Haus	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	34	nsubj:pass	_	_
+34	gesehen	sehen	VERB	VVPP	VerbForm=Part	10	conj	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Ein wunderschönes, riesiges Haus.
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+2	wunderschönes	wunderschön	ADJ	ADJA	Degree=Pos	5	amod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	riesiges	riesig	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Haus	Haus	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Nach das Haustaur habe ich meine Zimmer gesehen, wie war ganz schmutzig und klein (meine Erwartungen waren -unreadable- viel besser als dort das war)
+1	Nach	nach	ADP	APPR	_	3	case	_	_
+2	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Haustaur	Haustaur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Zimmer	Zimmer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	gesehen	sehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	wie	wie	ADV	KOUS	_	13	advmod	_	_
+11	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	ganz	ganz	ADJ	ADV	Degree=Pos	13	advmod	_	_
+13	schmutzig	schmutzig	ADJ	ADJD	Degree=Pos	8	parataxis	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	klein	klein	ADJ	ADJD	Degree=Pos	13	conj	_	_
+16	(	(	PUNCT	$(	_	22	punct	_	SpaceAfter=No
+17	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Erwartungen	Erwartung	NOUN	NN	_	22	nmod	_	_
+19	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+20	-unreadable-	-unreadable-	PUNCT	$(	_	22	punct	_	_
+21	viel	viel	PRON	PIAT	PronType=Ind	22	det	_	_
+22	besser	gut	ADJ	ADJD	Degree=Cmp	13	parataxis	_	_
+23	als	als	ADP	KOKOM	_	24	case	_	_
+24	dort	dort	ADV	ADV	_	22	advmod	_	_
+25	das	der	PRON	PDS	Case=Nom|PronType=Dem	26	nsubj	_	_
+26	war	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	SpaceAfter=No
+27	)	)	PUNCT	$(	_	22	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Die Familie bei dem ich gegangen bin ist wirklich unsympatisch, in ein Vierteljahr wir haben nie miteinander gegessen und wir haben auch uns nicht kennen gelernt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+3	bei	bei	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	gegangen	gehen	VERB	VVPP	VerbForm=Part	10	nmod	_	_
+7	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	wirklich	wirklich	ADV	ADJD	_	10	advmod	_	_
+10	unsympatisch	unsympatisch	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	19	punct	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	ein	ein	DET	ART	Definite=Ind|PronType=Art	14	det	_	_
+14	Vierteljahr	Vierteljahr	NOUN	NN	_	19	obl	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+16	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+17	nie	nie	ADV	ADV	Polarity=Neg	19	advmod	_	_
+18	miteinander	miteinander	ADV	ADV	_	19	advmod	_	_
+19	gegessen	essen	VERB	VVPP	VerbForm=Part	10	conj	_	_
+20	und	und	CCONJ	KON	_	22	cc	_	_
+21	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	27	xcomp	_	_
+23	auch	auch	ADV	ADV	_	22	advmod	_	_
+24	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	22	iobj	_	_
+25	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	_
+26	kennen	kennen	VERB	VVINF	VerbForm=Inf	27	xcomp	_	_
+27	gelernt	lernen	VERB	VVPP	VerbForm=Part	19	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Meiner Meinung nach ihr sollter diese Familie vom Liste der Gastfamilie streichen, weil sonst ein anderes Junge wie ich könnte sich ärgern.
+1	Meiner	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	13	obl	_	_
+5	sollter	sollt	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
+6	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+8-9	vom	_	_	_	_	_	_	_	_
+8	von	von	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	Liste	Liste	NOUN	NN	Case=Dat|Number=Sing	13	obl	_	_
+11	der	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Gastfamilie	Gastfamilie	NOUN	NN	_	10	nmod	_	_
+13	streichen	streichen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	weil	weil	SCONJ	KOUS	_	24	mark	_	_
+16	sonst	sonst	ADV	ADV	_	24	advmod	_	_
+17	ein	ein	DET	ART	Definite=Ind|PronType=Art	19	det	_	_
+18	anderes	ander	ADJ	ADJA	Degree=Pos	19	amod	_	_
+19	Junge	jung	NOUN	NN	_	24	nsubj	_	_
+20	wie	wie	ADP	KOKOM	_	21	case	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nmod	_	_
+22	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
+24	ärgern	ärgern	VERB	VVINF	VerbForm=Inf	13	advcl	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Viele Grüsse Friedrich Müller
+1	Viele	viel	PRON	PIAT	Case=Nom|Number=Plur|PronType=Ind	2	det	_	_
+2	Grüsse	Gruß	NOUN	NN	Case=Nom|Number=Plur	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Friedrich	Friedrich	PROPN	NE	_	2	appos	_	_
+4	Müller	Müller	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

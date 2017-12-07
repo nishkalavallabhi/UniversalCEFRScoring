@@ -1,0 +1,94 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000044_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Sehr geerte Damen und Herren, ich heiße Frau Winkelmann, ich suche andere Wohnung für mich, weil meine Wohnung zu groß ist.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geerte	geert	ADJ	ADJA	Degree=Pos	0	root	_	_
+3	Damen	Dama	NOUN	NN	_	12	compound	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+8	heiße	heiß	PROPN	ADJA	_	3	appos	_	_
+9	Frau	Frau	PROPN	NN	_	8	flat	_	_
+10	Winkelmann	Winkelmann	PROPN	NE	_	8	flat	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	3	punct	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+13	suche	suchen	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	_
+14	andere	ander	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	15	det	_	_
+15	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	für	für	ADP	APPR	_	17	case	_	_
+17	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	2	punct	_	_
+19	weil	weil	SCONJ	KOUS	_	23	mark	_	_
+20	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+22	zu	zu	PART	PTKZU	_	23	mark	_	_
+23	groß	groß	ADJ	ADJD	Degree=Pos	2	advcl	_	_
+24	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich suche 2 Zimmer Wohnung, ungefähr 55 ca., mit Balkon oder Terrasse und Garage.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	2	2	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	5	obj	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	ungefähr	ungefähr	ADV	ADJD	_	8	advmod	_	_
+8	55	55	NUM	CARD	NumType=Card	2	appos	_	_
+9	ca.	ca.	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	2	punct	_	_
+11	mit	mit	ADP	APPR	_	12	case	_	_
+12	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	2	nmod	_	_
+13	oder	oder	CCONJ	KON	_	14	cc	_	_
+14	Terrasse	Terrasse	NOUN	NN	_	12	conj	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	Garage	Garage	NOUN	NN	_	14	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Die Miete muss nicht höhe.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	höhe	höhen	PROPN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = als 450 Euro warm sein.
+1	als	als	ADP	KOKOM	_	3	case	_	_
+2	450	450	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Euro	Euro	PROPN	NN	_	4	nmod	_	_
+4	warm	warm	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	sein	sein	VERB	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = und in fern von Stadtzentrum z.B. in Stadtteil X oder am Stadtgraben.
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	in	in	ADP	APPR	_	3	case	_	_
+3	fern	fern	NOUN	NN	_	0	root	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	Stadtzentrum	Stadtzentrum	NOUN	NN	_	3	nmod	_	_
+6	z.B.	z.B.	X	ADV	_	8	advmod	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadtteil	Stadtteil	NOUN	NN	_	5	nmod	_	_
+9	X	X	PROPN	NN	_	8	appos	_	_
+10	oder	oder	CCONJ	KON	_	13	cc	_	_
+11-12	am	_	_	_	_	_	_	_	_
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Stadtgraben	Stadtgraben	NOUN	NN	_	8	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Mit freundlichen Grüßen Maria Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	appos	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000067_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Maria, Ich fahre am Freitag nach Köln, Kanst du bitte mein Kleine und süsse Hund kümmern.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+5	fahre	fahren	PROPN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	obl	_	_
+9	nach	nach	ADP	APPR	_	10	case	_	_
+10	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	20	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	12	punct	_	_
+12	Kanst	Kanst	PROPN	NN	_	10	conj	_	_
+13	du	du	PROPN	PPER	_	14	case	_	_
+14	bitte	bitten	PROPN	NN	_	12	nmod	_	_
+15	mein	mein	PROPN	PPOSAT	_	14	appos	_	_
+16	Kleine	klein	PROPN	NN	_	15	flat	_	_
+17	und	und	CCONJ	KON	_	20	cc	_	_
+18	süsse	süß	AUX	VMFIN	Mood=Sub|Tense=Pres|VerbForm=Fin	20	aux	_	_
+19	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	20	obj	_	_
+20	kümmern	kümmern	VERB	VVINF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Tut mir sehr leid, ich kann nicht meine Hund mitnehmen.
+1	Tut	tut	NOUN	NN	_	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	leid	leid	PROPN	NN	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
+9	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+11	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	1	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich bin am Sonntagabend wider da.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Sonntagabend	Sonntagabend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+6	wider	wider	ADV	PTKVZ	_	2	advmod	_	_
+7	da	da	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Vielen Dank im Voraus für Deine Hilfe.
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	ADP	NN	_	0	root	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Voraus	voraus	NOUN	NN	_	2	compound	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	Deine	Deine	PROPN	NE	_	5	nmod	_	_
+8	Hilfe	Hilfe	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Mit Fröndlischen Grüsen Friedrich
+1	Mit	mit	ADP	APPR	_	2	case	_	_
+2	Fröndlischen	Fröndlisch	NOUN	NN	_	0	root	_	_
+3	Grüsen	Grüse	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+4	Friedrich	Friedrich	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

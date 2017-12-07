@@ -1,0 +1,228 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000105_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi -hidden- 1234 Città X Settimana Giovani via F. Crispi 119 80127 Caserta Città X 28.05.2010 Caro Giorgio, Anché io uso internet molto.
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+4	hidden	hidden	INTJ	I	_	7	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	4	punct	_	SpacesAfter=\n
+6	1234	1234	NUM	N	NumType=Card	4	nummod	_	_
+7	Città	Città	PROPN	SP	_	1	nmod	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	Settimana	settimana	PROPN	SP	_	7	nmod	_	_
+10	Giovani	Giovani	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n
+11	via	via	NOUN	S	Gender=Fem|Number=Sing	17	nmod	_	_
+12	F.	F.	PROPN	SP	_	15	nmod	_	_
+13	Crispi	Crispi	PROPN	SP	_	12	flat:name	_	_
+14	119	119	NUM	N	NumType=Card	12	flat:name	_	SpacesAfter=\n
+15	80127	80127	NUM	N	NumType=Card	16	nummod	_	_
+16	Caserta	Caserta	PROPN	SP	_	11	nmod	_	SpacesAfter=\n
+17	Città	Città	PROPN	SP	_	7	appos	_	_
+18	X	X	PROPN	SP	_	17	flat:name	_	_
+19	28.05.2010	28.05.2010	NUM	N	NumType=Card	20	nummod	_	SpacesAfter=\n
+20	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+21	Giorgio	Giorgio	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	20	punct	_	SpacesAfter=\n
+23	Anché	Anché	PROPN	SP	_	25	nmod	_	_
+24	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+25	uso	udere	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+26	internet	internet	NOUN	S	_	25	obj	_	_
+27	molto	molto	ADV	B	_	26	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Oggi é molto importante usare l'internet.
+1	Oggi	oggi	ADV	B	_	4	advmod	_	_
+2	é	é	CCONJ	CC	_	4	cc	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+5	usare	usare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	internet	internet	NOUN	S	_	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = La gente molto parlano sul internet.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	parlano	parlare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	_
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	internet	internet	NOUN	S	_	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Puo conoscere tante persone nel tutto mondo.
+1	Puo	Puo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	conoscere	conoscere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+5-6	nel	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	tutto	tutto	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = A me non é sicuro, perché non sa altra parte parla verita.
+1	A	a	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	é	é	ADV	B	_	5	advmod	_	_
+5	sicuro	sicuro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	altra	altro	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	11	det	_	_
+11	parte	parte	NOUN	S	Gender=Fem|Number=Sing	12	nsubj	_	_
+12	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	verita	verire	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ci sono sul internet cose pericoloze per giovani.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	sul	_	_	_	_	_	_	_	_
+3	su	su	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	internet	internet	NOUN	S	_	2	obl	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+7	pericoloze	pericoloza	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	giovani	giovane	NOUN	S	Number=Plur	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Trovano tante le pagine dove c'è gente senza scrupuli, vole conoscere con giovani.
+1	Trovano	trovare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det:predet	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	pagine	pagina	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	SpaceAfter=No
+7	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	gente	gente	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+9	senza	senza	ADP	E	_	10	case	_	_
+10	scrupuli	scrupulo	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	13	punct	_	_
+12	vole	vole	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	conoscere	conoscere	VERB	V	VerbForm=Inf	1	conj	_	_
+14	con	con	ADP	E	_	15	case	_	_
+15	giovani	giovane	NOUN	S	Number=Plur	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Problema é perché non sono tutti siti controllati di state.
+1	Problema	problema	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	é	é	CCONJ	CC	_	7	cc	_	_
+3	perché	perché	SCONJ	CS	_	7	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	7	det	_	_
+7	siti	sito	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+8	controllati	controllare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	acl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	state	stato	NOUN	S	Gender=Fem|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Parlo solo con persone che conosco, non sono aperta per nove amicizie, non so sicura sulle chat.
+1	Parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	solo	solo	ADV	B	_	4	advmod	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+6	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	aperta	aperto	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	nove	nove	NUM	N	NumType=Card	13	nummod	_	_
+13	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	16	punct	_	_
+15	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+16	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+17	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	16	xcomp	_	_
+18-19	sulle	_	_	_	_	_	_	_	_
+18	su	su	ADP	E	_	20	case	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	chat	chat	NOUN	S	_	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Non posso parlare con qualcuno dove non vedo il viso!
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	_
+6	dove	dove	ADV	B	_	8	advmod	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	viso	viso	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	SpaceAfter=No
+11	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Consiglio, quando parlare con le persone nuove, non parla di cose private.
+1	Consiglio	consiglio	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	quando	quando	SCONJ	CS	_	4	mark	_	_
+4	parlare	parlare	VERB	V	VerbForm=Inf	11	advcl	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	_
+8	nuove	nuovo	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	11	obl	_	_
+14	private	privato	ADJ	A	Gender=Fem|Number=Plur	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 12
+# text = Ha conoscuto amicizia sul'internet e un puo freda, non si sente niente.
+1	Ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	conoscuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	amicizia	amicizia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	sul'	sulo	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	internet	internet	NOUN	S	_	3	nmod	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	puo	puo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	freda	fredo	NOUN	S	Gender=Masc	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl:impers	_	_
+13	sente	sentire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Oggi é il mondo fredo, tempo di macchina.
+1	Oggi	oggi	ADV	B	_	0	root	_	_
+2	é	é	SCONJ	CS	_	4	mark	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	fredo	fredere	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Cari saluti Maria Rossi
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,342 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100276_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 24/9/11
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	24	24	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	9	9	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	11	11	NUM	N	NumType=Card	4	compound	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Francesco :-) Che bello sentirti!
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Francesco	Francesco	PROPN	SP	_	0	root	_	_
+3	:	:	PUNCT	FC	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+5	)	)	PUNCT	FB	_	2	punct	_	SpacesAfter=\s\s\s\n
+6	Che	che	DET	DQ	PronType=Int	7	det	_	_
+7	bello	bello	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+8-9	sentirti	_	_	_	_	_	_	_	SpaceAfter=No
+8	sentir	sentire	VERB	V	VerbForm=Inf	2	parataxis	_	_
+9	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	expl	_	_
+10	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi fa sempre tanto piacere quando mi scrivi!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sempre	sempre	ADV	B	_	5	advmod	_	_
+4	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	quando	quando	SCONJ	CS	_	8	mark	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	scrivi	scrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Io attualmente sto sempre lavaorando nello stato.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	attualmente	attualmente	ADV	B	_	5	advmod	_	_
+3	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	sempre	sempre	ADV	B	_	5	advmod	_	_
+5	lavaorando	lavaorare	VERB	V	VerbForm=Ger	0	root	_	_
+6-7	nello	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stato	stato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Non mi piace tanto, perché i nostri clienti non sono tanto gentile sai ...
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	perché	perché	SCONJ	CS	_	13	mark	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
+8	nostri	nostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	clienti	cliente	NOUN	S	Number=Plur	13	nsubj	_	_
+10	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+11	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	tanto	tanto	ADV	B	_	13	advmod	_	_
+13	gentile	gentile	ADJ	A	Number=Sing	3	advcl	_	_
+14	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+15	...	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ma ci rimango fino il 29 febbraio 2012.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+3	rimango	rimanere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	fino	fino	ADV	B	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	29	29	NUM	N	NumType=Card	3	obl	_	_
+7	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	6	flat	_	_
+8	2012	2012	NUM	N	NumType=Card	6	flat	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Come te l'ho scritto l'ultima volta, vorrei andare a Miami e adesso e prenotato tutto.
+1	Come	come	ADV	B	_	5	advmod	_	_
+2	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+7	ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+8	volta	volta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Miami	Miami	PROPN	SP	_	11	obl	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	adesso	adesso	ADV	B	_	11	conj	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	prenotato	prenotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	conj	_	_
+18	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Ci vado da marzo fino settembre 2012 e non vedo l'ora!!
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	da	da	ADP	E	_	4	case	_	_
+4	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	fino	fino	ADP	E	_	6	case	_	_
+6	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	2012	2012	NUM	N	NumType=Card	6	nummod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	vedo	vedere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	ora	ora	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	!	!	PUNCT	FS	_	10	punct	_	SpaceAfter=No
+14	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Questo viaggio tiene tanto tempo per prepararlo, ma me picace organizzare.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	tiene	tenere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7-8	prepararlo	_	_	_	_	_	_	_	SpaceAfter=No
+7	preparar	preparare	VERB	V	VerbForm=Inf	3	advcl	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	ma	ma	CCONJ	CC	_	12	cc	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	picace	picace	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+13	organizzare	organizzare	VERB	V	VerbForm=Inf	12	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Forse ho un'idea cosa potresti fare per avere un podi soldi.
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	un'	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	idea	idea	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	7	obj	_	_
+6	potresti	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	4	acl:relcl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	avere	avere	VERB	V	VerbForm=Inf	7	advcl	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	podi	podo	ADJ	A	Gender=Masc|Number=Plur	12	amod	_	_
+12	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = Mia Mamma vuole aprire una yoghurteria in città, e sta cercando qualcuno per aiutarla per il periodo ottobre fino maggio.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Mamma	mamma	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	aprire	aprire	VERB	V	VerbForm=Inf	0	root	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	yoghurteria	yoghurteria	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	città	città	NOUN	S	Gender=Fem	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	12	punct	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	cercando	cercare	VERB	V	VerbForm=Ger	4	conj	_	_
+13	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	12	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15-16	aiutarla	_	_	_	_	_	_	_	_
+15	aiutar	aiutare	VERB	V	VerbForm=Inf	12	advcl	_	_
+16	la	la	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	obj	_	_
+17	per	per	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+20	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	19	compound	_	_
+21	fino	fino	ADP	E	_	22	case	_	_
+22	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Cosa ne pensi?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+2	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+3	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Ti piacerebbe?
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	obj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Fammi sapere spesso, così lo posso dire alla Mamma :-).
+1	Fammi	Fammo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	spesso	spesso	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	così	così	ADV	B	_	8	advmod	_	_
+6	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+7	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	dire	dire	VERB	V	VerbForm=Inf	1	conj	_	_
+9-10	alla	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Mamma	Mamma	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	:-	:-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+13	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Credo anche che ti devi iscrivire all'Università, perchè questo era sempre il tuo sogno!
+1	Credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	6	advmod	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	6	iobj	_	_
+5	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	iscrivire	iscrivire	VERB	V	VerbForm=Inf	1	ccomp	_	_
+7-8	all'	_	_	_	_	_	_	_	SpaceAfter=No
+7	a	a	ADP	E	_	9	case	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
+9	Università	università	NOUN	S	Gender=Fem	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	perchè	perché	SCONJ	CS	_	13	mark	_	_
+12	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+13	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+14	sempre	sempre	ADV	B	_	13	advmod	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+18	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 16
+# text = Allora, su con la vita :-).
+1	Allora	allora	ADV	B	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	su	su	ADP	E	_	6	case	_	_
+4	con	con	ADP	E	_	3	fixed	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+7	:	:	PUNCT	FC	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+9	)	)	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = La mia situazione professionale e un po noioso.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	professionale	professionale	ADJ	A	Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	po	po	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+8	noioso	noioso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 18
+# text = Dopo la maturità professionale ho comincato a lavorare ed adesso non trovo più il coraggio (o la voglia) di studiare.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	maturità	maturità	NOUN	S	Gender=Fem	6	obl	_	_
+4	professionale	professionale	ADJ	A	Number=Sing	3	amod	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	comincato	comincare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	8	mark	_	_
+8	lavorare	lavorare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	ed	e	CCONJ	CC	_	12	cc	_	_
+10	adesso	adesso	ADV	B	_	12	advmod	_	_
+11	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+12	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	più	più	ADV	B	_	15	advmod	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	coraggio	coraggio	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+16	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+17	o	o	CCONJ	CC	_	19	cc	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	)	)	PUNCT	FB	_	19	punct	_	_
+21	di	di	ADP	E	_	22	mark	_	_
+22	studiare	studiare	VERB	V	VerbForm=Inf	15	acl	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 19
+# text = Per questo me ne vado via per qualche tempo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	obl	_	_
+3	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	expl	_	_
+4	ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	5	iobj	_	_
+5	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	via	via	ADV	B	_	5	advmod	_	_
+7	per	per	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 20
+# text = Sono molto contenta che hai superato gli esami.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	esami	esame	NOUN	S	Gender=Masc|Number=Plur	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 21
+# text = Anche se l'ho saputo sempre che la riesci!
+1	Anche	anche	ADV	B	_	2	advmod	_	_
+2	se	se	SCONJ	CS	_	5	mark	_	_
+3	l'	lo	PRON	PC	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	5	obj	_	SpaceAfter=No
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	saputo	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	sempre	sempre	ADV	B	_	9	advmod	_	_
+7	che	che	SCONJ	CS	_	6	mark	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	riesci	riesce	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 22
+# text = Spero di rivederti presto.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	rivederti	_	_	_	_	_	_	_	_
+3	riveder	rivedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+5	presto	presto	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 23
+# text = Un caro abbraccio Maria
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	caro	caro	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpacesAfter=\s\n
+4	Maria	Maria	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+

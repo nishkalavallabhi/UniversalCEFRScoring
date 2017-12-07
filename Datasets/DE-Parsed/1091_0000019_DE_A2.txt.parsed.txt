@@ -1,0 +1,57 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000019_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 05.1.12 Liebe Julia, Ich habe eine FahrKarte für einen Wochenendausflug.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	05.1.12	05.1.12	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Julia	Julia	PROPN	NE	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	FahrKarte	FahrKarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Leider Können ich nicht fahren, weil mein Mann KranK ist.
+1	Leider	leider	ADV	ADV	_	5	advmod	_	_
+2	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+8	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+9	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	10	nsubj	_	_
+10	KranK	krank	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	11	nsubj	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Wen du die FahrKarte haben möchtest, schreib mich ein E-Meil.
+1	Wen	wer	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	5	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	nsubj	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	FahrKarte	FahrKarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	möchtest	möchtesen	ADJ	ADJD	Degree=Sup	8	amod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	schreib	schreib	PROPN	NE	_	5	appos	_	_
+9	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	E-Meil	E-Meil	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Mit freundlichen Grüßen E. Julia
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	E.	E.	PROPN	NE	_	3	appos	_	_
+5	Julia	Julia	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

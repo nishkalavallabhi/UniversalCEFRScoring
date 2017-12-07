@@ -1,0 +1,82 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ/LIB0611004A_CZ_A2.txt
+# newpar
+# sent_id = 1
+# text = Milá Evo!
+1	Milá	milý	ADJ	AANP1----1A----	Case=Nom|Degree=Pos|Gender=Neut|Number=Plur|Polarity=Pos	2	amod	_	_
+2	Evo	Evo	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Oth|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Včera jsi pozvala mě na oslavu svých narozenin.
+1	Včera	včera	ADV	Db-------------	_	3	advmod	_	_
+2	jsi	být	AUX	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	pozvala	pozvat	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	mě	já	PRON	PH-S4--1-------	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	obj	_	_
+5	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+6	oslavu	oslava	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	_
+7	svých	svůj	DET	P8XP2----------	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	8	det	_	_
+8	narozenin	narozeniny	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 3
+# text = Děkuju na to!
+1	Děkuju	děkovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
+3	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 4
+# text = Moc se na to těším!
+1	Moc	moc	ADV	Db-------------	_	5	advmod	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	_	_
+3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
+4	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	5	obj	_	_
+5	těším	těšit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	Z:-------------	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Ale chci zeptat, kde budeš oslavovat narozeniny?
+1	Ale	ale	CCONJ	J^-------------	_	2	cc	_	_
+2	chci	chtít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	zeptat	zeptat	VERB	Vf--------A----	Aspect=Perf|Polarity=Pos|VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+5	kde	kde	ADV	Db-------------	PronType=Int,Rel	7	advmod	_	_
+6	budeš	být	AUX	VB-S---2F-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	oslavovat	oslavovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	3	ccomp	_	_
+8	narozeniny	narozeniny	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 6
+# text = V kavárně nebo doma?
+1	V	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	kavárně	kavárna	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+3	nebo	nebo	CCONJ	J^-------------	_	4	cc	_	_
+4	doma	doma	ADV	Db-------------	_	2	conj	_	SpaceAfter=No
+5	?	?	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 7
+# text = V kolik hodin bude to začíná?
+1	V	v	ADP	RR--4----------	AdpType=Prep|Case=Acc	3	case	_	_
+2	kolik	kolik	DET	C?--4----------	Case=Acc|NumType=Card|PronType=Int,Rel	3	det:numgov	_	_
+3	hodin	hodina	NOUN	NNFP2-----A----	Case=Gen|Gender=Fem|Number=Plur|Polarity=Pos	6	obl	_	_
+4	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	_
+6	začíná	začínat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	Z:-------------	_	6	punct	_	_
+
+# sent_id = 8
+# text = A kdo ještě přijde k tobě?
+1	A	a	CCONJ	J^-------------	_	4	cc	_	_
+2	kdo	kdo	PRON	PKM-1----------	Animacy=Anim|Case=Nom|Gender=Masc|PronType=Int,Rel	4	nsubj	_	_
+3	ještě	ještě	ADV	Db-------------	_	4	advmod	_	_
+4	přijde	přijít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	6	case	_	_
+6	tobě	toba	NOUN	NNFS3-----A----	Case=Dat|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	Z:-------------	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tvoje kamarádka Kateřina
+1	Tvoje	Tvůj	DET	P8XP4----------	Case=Acc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes	2	det	_	_
+2	kamarádka	kamarádka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	_	SpacesAfter=\n\s
+3	Kateřina	Kateřina	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	0	root	_	SpacesAfter=\n
+

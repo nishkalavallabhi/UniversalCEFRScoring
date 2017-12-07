@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001727_IT_A1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 9.7.2011 Caro Daniele, é una settimana orribile.
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	9.7.2011	9.7.201l	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpacesAfter=\s\n
+5	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	_
+6	Daniele	Daniele	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+8	é	é	CCONJ	CC	_	10	cc	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+11	orribile	orribile	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = In ufficio c'è molto lavoro e giovedì pomeriggio non posso avete tempo per incontrare con te perché il mio capo ha organizzato una riunione giovedi pomeriggio.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	giovedì	giovedì	NOUN	S	Gender=Masc	12	obl	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	incontrare	incontrare	VERB	V	VerbForm=Inf	13	acl	_	_
+16	con	con	ADP	E	_	17	case	_	_
+17	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	15	obl	_	_
+18	perché	perché	SCONJ	CS	_	23	mark	_	_
+19	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+20	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	capo	capo	NOUN	S	Gender=Masc|Number=Sing	23	nsubj	_	_
+22	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux	_	_
+23	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	advcl	_	_
+24	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	_
+26	giovedi	giovedio	NOUN	S	Gender=Masc|Number=Plur	25	compound	_	SpacesAfter=\s\s
+27	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	26	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Andiamo a sabato sera in un ristorante tailandese?
+1	Andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+8	tailandese	tailandese	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Tante -unreadable-grazie e cordiali saluti!
+1	Tante	tanto	PROPN	SP	_	0	root	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	grazie	grazie	NOUN	S	_	3	compound	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	cordiali	cordiale	NOUN	S	Gender=Masc|Number=Plur	5	conj	_	_
+8	saluti	saluto	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 5
+# text = Michele
+1	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

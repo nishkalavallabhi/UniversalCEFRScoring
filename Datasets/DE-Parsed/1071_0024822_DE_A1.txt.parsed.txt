@@ -1,0 +1,93 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024822_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Daniela!! wie geht´s?
+1	Lieber	lieber	PROPN	NN	_	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+5	wie	wie	ADP	KOKOM	_	6	case	_	_
+6	geht´s	geht´s	PROPN	NN	_	1	nmod	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	6	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich mag Schwimmbad gehee...
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	Schwimmbad	Schwimmbad	PROPN	NE	_	0	root	_	_
+4	gehee	geheen	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	3	flat	_	SpaceAfter=No
+5	...	...	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Aber Du möcht mit mir Schwimmbad gehen.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	möcht	möchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	7	mark	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+6	Schwimmbad	Schwimmbad	NOUN	NN	Case=Dat|Number=Sing	7	iobj	_	_
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich habe essen, viele chips, viel gummi, Cola oder Tee trinken!!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Sing	6	amod	_	_
+6	chips	chips	NOUN	NN	Case=Nom|Number=Sing	14	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	viel	viel	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	9	det	_	_
+9	gummi	gummi	PROPN	NE	Case=Acc|Number=Sing	14	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Cola	Cola	PROPN	NE	_	9	conj	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	Tee	tee	NOUN	NN	_	9	conj	_	_
+14	trinken	trinken	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+15	!	!	PUNCT	$.	_	3	punct	_	SpaceAfter=No
+16	!	!	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Um 14.00 Uhr gehen.
+1	Um	um	ADP	APPR	_	3	case	_	_
+2	14.00	14.00	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	4	obl	_	_
+4	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ich mag dich!!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mag	miegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Schreibt ein text mit Antworten!! bitte viele Kusses!!
+1	Schreibt	schreibt	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+2	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	text	texen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	Antworten	antworten	NOUN	NN	Case=Dat|Number=Plur	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	1	punct	_	_
+8	bitte	bitten	NOUN	NN	_	10	compound	_	_
+9	viele	viel	ADJ	PIAT	Degree=Pos	10	amod	_	_
+10	Kusses	Kuß	NOUN	NN	_	1	dep	_	SpaceAfter=No
+11	!	!	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+12	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich rufe heute um 22.00 Uhr an!!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	rufe	rufen	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+3	heute	heute	ADV	ADV	_	6	advmod	_	_
+4	um	um	ADP	APPR	_	5	case	_	_
+5	22.00	22.00	NUM	CARD	NumType=Card	6	obl	_	_
+6	Uhr	Uhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	an	an	ADP	PTKVZ	_	6	compound:prt	_	SpaceAfter=No
+8	!	!	PUNCT	$.	_	6	punct	_	SpaceAfter=No
+9	!	!	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+

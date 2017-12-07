@@ -1,0 +1,136 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120430_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 13.03.2012 Liebe Michael ich habe Gesundheit und Glück für mich und meine familie ge wünscht, auch Spass an der Arbeit.
+1	Stadt	Stadt	NOUN	NN	_	7	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	13.03.2012	13.03.2012	PROPN	CARD	_	4	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+5	Michael	Michael	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Glück	Glück	NOUN	NN	_	12	conj	_	_
+11	für	für	ADP	APPR	_	12	case	_	_
+12	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
+13	und	und	CCONJ	KON	_	17	cc	_	_
+14	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	familie	familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	ge	ge	ADJ	ADJA	Degree=Pos	17	advmod	_	_
+17	wünscht	wünschen	ADJ	ADJD	Degree=Pos	7	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	20	punct	_	_
+19	auch	auch	ADV	ADV	_	20	advmod	_	_
+20	Spass	Spaß	NOUN	NN	_	17	conj	_	_
+21	an	an	ADP	APPR	_	23	case	_	_
+22	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ich bin seit drei Monate bei Firma XY.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	seit	seit	ADP	APPR	_	5	case	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Monate	Monat	NOUN	NN	_	2	obl	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	Firma	Firma	PROPN	NN	_	2	obl	_	_
+8	XY	XY	PROPN	NE	_	7	flat	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Die Kollege sind sehr nett und freundlich, aber der Sicht Arbeit ist noch bischen ungewönt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Kollege	Kollege	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	nett	nett	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	freundlich	freundlich	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	aber	aber	CCONJ	KON	_	16	cc	_	_
+10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Sicht	Sicht	NOUN	NN	_	16	nmod	_	_
+12	Arbeit	Arbeit	PROPN	NN	_	11	appos	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+14	noch	noch	ADV	ADV	_	16	advmod	_	_
+15	bischen	bisch	ADJ	ADJA	Degree=Pos	16	advmod	_	_
+16	ungewönt	ungewönt	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Am Silvester wahren wir bei meinem Muter.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Silvester	silvester	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+4	wahren	wahren	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Muter	Muter	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Wir haben gemeinsam gekocht und gegesen, nach mitag sind wir viel gespielt und getanzt.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	gekocht	gekocht	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	gegesen	gesen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	mitag	mitagen	PROPN	NN	Case=Dat|Number=Sing	13	obl	_	_
+10	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	viel	viel	ADV	ADV	_	13	advmod	_	_
+13	gespielt	spielen	VERB	VVPP	VerbForm=Part	4	conj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	getanzt	tanzen	VERB	VVPP	VerbForm=Part	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Am abend wir nor Schöne Feuerwerk geschossen, Es war sehr schön.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	abend	abend	ADJ	ADJD	Degree=Pos	4	amod	_	_
+4	wir	wir	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+5	nor	nor	PROPN	NE	Case=Nom|Gender=Masc|Number=Sing	4	flat	_	_
+6	Schöne	schön	PROPN	NN	_	4	appos	_	_
+7	Feuerwerk	Feuerwerk	PROPN	NN	_	6	flat	_	_
+8	geschossen	schießen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+11	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+12	sehr	sehr	ADV	ADV	_	13	advmod	_	_
+13	schön	schön	ADJ	ADJD	Degree=Pos	8	parataxis	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Wen habt ihr Zeit und Lust am nechsten monat kann ich Euch besuchen.
+1	Wen	wer	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	2	nsubj	_	_
+2	habt	haben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	14	advcl	_	_
+3	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Lust	Lust	NOUN	NN	_	4	conj	_	_
+7-8	am	_	_	_	_	_	_	_	_
+7	an	an	ADP	APPR	_	10	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	nechsten	nech	ADJ	ADJA	Degree=Sup	10	amod	_	_
+10	monat	moneten	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	obl	_	_
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	14	obj	_	_
+14	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Herzliche Grüße Stefan
+1	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Stefan	Stefan	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

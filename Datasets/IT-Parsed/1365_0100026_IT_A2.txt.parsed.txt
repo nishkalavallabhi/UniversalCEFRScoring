@@ -1,0 +1,80 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100026_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 2 Strada Maggiore Città X 15-03-10 cari STEFANO e BEATRICE
+1	2	2	NUM	N	NumType=Card	2	nummod	_	_
+2	Strada	strada	PROPN	SP	_	0	root	_	_
+3	Maggiore	Maggiore	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+4	Città	Città	PROPN	SP	_	2	conj	_	_
+5	X	X	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+6	15	15	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	03	03	NUM	N	NumType=Card	6	compound	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	10	10	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\n
+11	cari	caro	NOUN	S	Gender=Masc|Number=Plur	12	nmod	_	_
+12	STEFANO	Stefano	PROPN	SP	_	4	nmod	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	BEATRICE	BEATRICE	PROPN	SP	_	2	conj	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Io e la mia famiglia vi congratulazioni per la vostra matrimonio Siamo contenti di participare alla vostri bella giorno.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	e	e	CCONJ	CC	_	5	cc	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	1	conj	_	_
+6	vi	vi	ADV	B	_	7	advmod	_	_
+7	congratulazioni	congratulazionare	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	vostra	vostro	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+12	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	contenti	contento	ADJ	A	Gender=Masc|Number=Plur	7	conj	_	_
+14	di	di	ADP	E	_	15	mark	_	_
+15	participare	participare	VERB	V	VerbForm=Inf	13	advcl	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	20	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+18	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	20	det:poss	_	_
+19	bella	bello	ADJ	A	Gender=Fem|Number=Sing	20	amod	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Vorrei sapere che volete come Regalo?
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	4	mark	_	_
+4	volete	volere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	come	come	ADP	E	_	6	case	_	_
+6	Regalo	regalo	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = intento de la vostri noticia per il regalo prima la cerimonia.
+1	intento	intento	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+2	de	di	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	noticia	noticia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+9	prima	prima	ADV	B	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = vi saluto.
+1	vi	vi	ADV	B	_	2	advmod	_	_
+2	saluto	salvere	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = baci Michele
+1	baci	baco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+2	Michele	Michele	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

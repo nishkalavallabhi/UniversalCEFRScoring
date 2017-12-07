@@ -1,0 +1,161 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120414_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 5.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	den	VERB	VVINF	VerbForm=Inf	5	acl	_	_
+5	5	5	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = März, 2012 Liebe Dana, Vielen Dank für deinen Brief!
+1	März	März	PROPN	NN	_	8	nmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	2012	2012	NUM	CARD	NumType=Card	4	nmod	_	SpacesAfter=\n
+4	Liebe	Liebe	NOUN	NN	_	1	conj	_	_
+5	Dana	Dana	PROPN	NE	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+7	Vielen	viel	ADJ	NN	_	8	amod	_	_
+8	Dank	dank	NOUN	APPR	_	11	appos	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	deinen	dein	ADJ	PPOSAT	Degree=Pos	11	advmod	_	_
+11	Brief	Brief	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	!	!	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 3
+# text = Ich freue mich, dass du einen wundbar Urlaub in Istanbul machst.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+6	du	du	PROPN	PPER	_	9	case	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	wundbar	wundbar	ADJ	ADJD	Degree=Pos	9	amod	_	_
+9	Urlaub	Urlaub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Istanbul	Istanbul	PROPN	NE	_	12	obl	_	_
+12	machst	machen	VERB	VVFIN	Number=Sing|Person=2|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Auch herzlich Glückwunsch zu deiner bestanden Prüfung!
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	herzlich	herzlich	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+3	Glückwunsch	Glückwunsch	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+4	zu	zu	ADP	APPR	_	5	case	_	_
+5	deiner	dein	PROPN	NE	Case=Dat|Number=Sing	3	nmod	_	_
+6	bestanden	bestanden	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	Prüfung	Prüfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	!	!	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich kann es verstehen, wie schön ist es, wenn du deinen Onkel und deine Tante im Ausland besuchen kannst.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wie	wie	ADV	KOKOM	_	7	advmod	_	_
+7	schön	schön	ADJ	ADJD	Degree=Pos	4	ccomp	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	7	punct	_	_
+11	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
+12	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	21	nsubj	_	_
+13	deinen	dein	ADJ	PPOSAT	Degree=Pos	21	advmod	_	_
+14	Onkel	Onkel	NOUN	NN	Case=Acc|Number=Sing	21	obj	_	_
+15	und	und	CCONJ	KON	_	17	cc	_	_
+16	deine	dein	ADJ	ADJA	Degree=Pos	17	amod	_	_
+17	Tante	Tante	NOUN	NN	_	14	conj	_	_
+18-19	im	_	_	_	_	_	_	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	21	obl	_	_
+21	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	7	advcl	_	_
+22	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Meine Verwandten leben in Chine, un dich bin immer glücklich, wenn ich meine Verwandten in Chine besuchen kann Danke sehr für diene Frage, ob ich mir etwas aus Istanbul wünsche.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Chine	Chine	PROPN	NE	_	25	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	un	un	PROPN	VVFIN	_	8	nmod	_	_
+8	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	11	nsubj	_	_
+9	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	immer	immer	ADV	ADV	_	11	advmod	_	_
+11	glücklich	glücklich	ADJ	ADJD	Degree=Pos	25	amod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	wenn	wenn	SCONJ	KOUS	_	19	mark	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+15	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Gen|Number=Plur	19	obl	_	_
+17	in	in	ADP	APPR	_	18	case	_	_
+18	Chine	Chine	PROPN	NE	_	16	nmod	_	_
+19	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	25	advcl	_	_
+20	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	SpacesAfter=\n
+21	Danke	Dank	NOUN	PTKANT	_	25	compound	_	_
+22	sehr	sehr	ADV	ADV	_	25	advmod	_	_
+23	für	für	ADP	APPR	_	25	case	_	_
+24	diene	diene	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	25	punct	_	_
+27	ob	ob	SCONJ	KOUS	_	33	mark	_	_
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	33	nsubj	_	_
+29	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	33	iobj	_	_
+30	etwas	etwas	PRON	PIS	Case=Dat|PronType=Ind	33	obj	_	_
+31	aus	aus	ADP	APPR	_	32	case	_	_
+32	Istanbul	Istanbul	PROPN	NE	Case=Dat|Number=Sing	33	obl	_	_
+33	wünsche	wünsch	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	25	ccomp	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ich wünsche mir nur viel Fotos von dir.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	nur	nur	ADV	ADV	_	6	advmod	_	_
+5	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	Fotos	Foto	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	_
+7	von	von	ADP	APPR	_	8	case	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich will nach deiner Rückkehr besuchen!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	nach	nach	ADP	APPR	_	5	case	_	_
+4	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	5	amod	_	_
+5	Rückkehr	Rückkehr	NOUN	NN	Case=Dat|Number=Sing	6	obl	_	_
+6	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 9
+# text = So bis bald!
+1	So	so	ADV	ADV	_	3	advmod	_	_
+2	bis	bis	ADP	APPR	_	3	case	_	_
+3	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Viele Spaß in Istanbul!
+1	Viele	viel	PRON	PIAT	Case=Nom|PronType=Ind	2	det	_	_
+2	Spaß	Spaß	NOUN	NN	Case=Acc|Number=Sing	0	root	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Istanbul	Istanbul	PROPN	NE	_	2	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Viele Grüße, Maria
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

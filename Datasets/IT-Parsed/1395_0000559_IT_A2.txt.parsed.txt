@@ -1,0 +1,168 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000559_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 29/01/2011 Cara Anna, come stai?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	29	29	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+5	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+6	01	01	NUM	N	NumType=Card	4	compound	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	4	punct	_	SpaceAfter=No
+8	2011	2011	NUM	N	NumType=Card	4	compound	_	SpacesAfter=\n
+9	Cara	Cara	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	Anna	anna	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+12	come	come	SCONJ	CS	_	13	mark	_	_
+13	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mi chiamo Maria e sono di Città X, in Germania.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Maria	Maria	PROPN	SP	_	2	xcomp	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Città	Città	PROPN	SP	_	2	conj	_	_
+8	X	X	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Germania	Germania	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io voglio incontrarci ma ho anche delle domande:
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	incontrarci	_	_	_	_	_	_	_	_
+3	incontrar	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	anche	anche	ADV	B	_	10	advmod	_	_
+8-9	delle	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	10	det	_	_
+10	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 4
+# text = Dove abiti?
+1	Dove	dove	ADV	B	_	2	advmod	_	_
+2	abiti	abitare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ho letto che tu abiti a Milano, vero?
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	9	mark	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+5	abiti	abitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Milano	Milano	PROPN	SP	_	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	4	punct	_	_
+9	vero	vero	ADJ	A	Gender=Masc|Number=Sing	2	ccomp	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Come'è la città?
+1	Come	come	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	SpaceAfter=No
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	città	città	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = E cosa potriamo fare la sera?
+1	E	e	CCONJ	CC	_	4	cc	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	4	obj	_	_
+3	potriamo	potrare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Avete un cinema o un teatro?
+1	Avete	avere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	cinema	cinema	NOUN	S	Gender=Masc	1	obj	_	_
+4	o	o	CCONJ	CC	_	6	cc	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Come sta la tua famiglia?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Ho anche delle domande a causa del viaggio:
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	5	advmod	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	causa	causa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8-9	del	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
+11	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 11
+# text = Come posso arrivare a casa tua?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 12
+# text = E quanto tempo posso rimanere?
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quanto	quanto	ADV	B	_	3	advmod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	rimanere	rimanere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = Una settimana?
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Grazie per il contatto.
+1	Grazie	grazie	NOUN	S	_	0	root	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	contatto	contatto	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = Scrivimi.
+1	Scrivimi	Scrivimo	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Ci vediamo, Maria
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	SP	_	2	nsubj	_	SpacesAfter=\n
+

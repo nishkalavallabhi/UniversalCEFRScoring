@@ -1,0 +1,82 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000027_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X. 04.01.2010.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X.	X.	PROPN	NE	_	1	appos	_	_
+3	04.01.2010	04.01.2010	PROPN	NE	_	2	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sehr geehrte Damen und Herren, ich suche ein drei Zimmer Wohnung am Erdgeschoß mit große Balkon oder Terrase, Bad, Küche.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+8	suche	suchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+10	drei	drei	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+12	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Erdgeschoß	Erdgeschoß	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	nmod	_	_
+16	mit	mit	ADP	APPR	_	18	case	_	_
+17	große	groß	ADJ	ADJA	Degree=Pos	18	amod	_	_
+18	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	11	nmod	_	_
+19	oder	oder	CCONJ	KON	_	20	cc	_	_
+20	Terrase	Terra	NOUN	NN	_	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	22	punct	_	_
+22	Bad	Bad	NOUN	NN	_	11	conj	_	SpaceAfter=No
+23	,	,	PUNCT	$,	_	24	punct	_	_
+24	Küche	Küche	NOUN	NN	_	11	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = In haus soll auch sein ein Kelerraum für eigene Bedarf und Waschraum.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	haus	haus	NOUN	NN	_	5	obl	_	_
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	sein	sein	AUX	VAINF	VerbForm=Inf	0	root	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Kelerraum	Kelerraum	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	5	nsubj	_	_
+8	für	für	ADP	APPR	_	10	case	_	_
+9	eigene	eigen	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Bedarf	Bedarf	NOUN	NN	_	7	nmod	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Waschraum	Waschraum	NOUN	NN	_	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Dann hätten wir gern ein Parkplatz oder 2, oder Garage, weil wir zwei Autos besitzen.
+1	Dann	dann	ADV	ADV	_	6	advmod	_	_
+2	hätten	haben	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+4	gern	gern	ADV	ADV	_	6	advmod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Parkplatz	Parkplatz	NOUN	NN	_	0	root	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	2	2	NUM	CARD	NumType=Card	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	oder	oder	CCONJ	KON	_	11	cc	_	_
+11	Garage	Garage	NOUN	NN	_	6	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	6	punct	_	_
+13	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	zwei	zwei	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Autos	Auto	NOUN	NN	Case=Nom|Number=Plur	17	nsubj	_	_
+17	besitzen	besitzen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mit freundlinen Grüßen Familie
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlinen	freundlin	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	4	amod	_	SpacesAfter=\n
+4	Familie	Familie	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

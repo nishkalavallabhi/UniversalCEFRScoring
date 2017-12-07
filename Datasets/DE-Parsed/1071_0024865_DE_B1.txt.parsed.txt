@@ -1,0 +1,134 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024865_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Herzliche Glückwünsche.
+1	Lieber	lieber	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Glückwünsche	Glückwünsch	NOUN	NN	_	1	appos	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich Gratuliere Ihen und Ihre Frau auf das neue Baby.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	Gratuliere	Gratulier	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	Ihen	Ih	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Frau	Frau	NOUN	NN	_	3	conj	_	_
+7	auf	auf	ADP	APPR	_	10	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
+9	neue	neuen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Du bist jetzt ein Vater.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+2	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Vater	Vater	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Das ist Super.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Super	Super	ADJ	NN	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Wie heißt das Baby?
+1	Wie	wie	CCONJ	KON	_	2	dep	_	_
+2	heißt	heißen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Also, ist seine Baby Männlich oder Weiblich.
+1	Also	also	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	5	punct	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Baby	Baby	PROPN	NN	_	0	root	_	_
+6	Männlich	männlich	PROPN	NE	_	5	flat	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	Weiblich	weiblich	PROPN	NE	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich glaube es/sie is sehr shön/nett.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glaub	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	es/sie	es/sie	PRON	PPER	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	_
+4	is	is	VERB	ADJA	_	6	cop	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	shön/nett	shön/nett	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ich denke sehr gut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Wie es der Mutter des Babys geht?
+1	Wie	wie	ADP	KOUS	_	4	case	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	7	obl	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Babys	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+7	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 10
+# text = Sagt sie;
+1	Sagt	sagen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	SpaceAfter=No
+3	;	;	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 11
+# text = ich shicke meine Grüßen und besuche ich übermorgen mit viele Geschenke für das Baby.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	shicke	shick	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+3	meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Grüßen	grüßen	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	besuche	besuche	NOUN	NN	_	4	conj	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	übermorgen	übermorgen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	mit	mit	ADP	APPR	_	11	case	_	_
+10	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	Geschenke	Geschenk	NOUN	NN	Case=Acc|Number=Plur	8	obl	_	_
+12	für	für	ADP	APPR	_	14	case	_	_
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Wir bedanken uns bei Gott schön Tag noch.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	bedanken	bedanken	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3	uns	wir	PRON	PPER	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+4	bei	bei	ADP	APPR	_	5	case	_	_
+5	Gott	Gott	NOUN	NN	Case=Dat|Number=Sing	2	obl	_	_
+6	schön	schön	ADJ	ADJD	Degree=Pos	7	amod	_	_
+7	Tag	Tag	NOUN	NN	_	2	obl	_	_
+8	noch	noch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Mit freundlichen Grüßen, Katharina
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Katharina	Katharina	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

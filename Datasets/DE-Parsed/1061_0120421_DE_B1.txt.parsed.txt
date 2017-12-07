@@ -1,0 +1,208 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120421_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Dana, Danke für den Brief.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Dana	Dana	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Danke	Dank	NOUN	NN	_	1	appos	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Das ist toll, dass du deine Prüfung bestanden hast!
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	toll	toll	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	nsubj	_	_
+7	deine	dein	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Prüfung	Prüfung	NOUN	NN	_	6	nmod	_	_
+9	bestanden	bestehen	VERB	VVPP	VerbForm=Part	3	ccomp	_	_
+10	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	!	!	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ich gratuliere dir dazu!
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gratuliere	gratulieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	dazu	dazu	ADV	PAV	_	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Es ist richtig schön, wenn man Verwandte im Ausland hat.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	richtig	richtig	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
+8	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+12	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Mein Onkel und meine Tante leben auch im Ausland, in Australien.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Onkel	Onkel	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Tante	Tante	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	conj	_	_
+6	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	auch	auch	ADV	ADV	_	6	advmod	_	_
+8-9	im	_	_	_	_	_	_	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+10	Ausland	Ausland	NOUN	NN	_	6	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	in	in	ADP	APPR	_	13	case	_	_
+13	Australien	Australien	PROPN	NE	_	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ich gehe zu ihnen jeder Sommer-Urlaub.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	ihnen	ihnen	PRON	PPER	Case=Dat|Number=Plur|Person=3|PronType=Prs	2	obl	_	_
+5	jeder	jed	PRON	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	6	det	_	_
+6	Sommer-Urlaub	Sommer-Urlaub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Vieleicht kommst du mit mir nächste mal, nach Australien zu fliegen.
+1	Vieleicht	Vieleicht	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
+2	kommst	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	du	du	PROPN	PPER	_	2	nsubj	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+6	nächste	nah	ADJ	ADJA	_	7	amod	_	_
+7	mal	mal	NOUN	ADV	_	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	nach	nach	ADP	APPR	_	10	case	_	_
+10	Australien	Australien	PROPN	NE	Case=Dat|Number=Sing	12	obl	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
+12	fliegen	fliegen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich brauche zwar nichts aus Istanbul, aber du kannst mir doch eine Ansichtskarte schicken.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	zwar	zwar	ADV	ADV	_	2	advmod	_	_
+4	nichts	nichts	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	2	obj	_	_
+5	aus	aus	ADP	APPR	_	6	case	_	_
+6	Istanbul	Istanbul	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	15	punct	_	_
+8	aber	aber	CCONJ	KON	_	15	cc	_	_
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	nsubj	_	_
+10	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+11	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+12	doch	doch	ADV	ADV	_	15	advmod	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Ansichtskarte	Ansichtskarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+15	schicken	schicken	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = ich sammle gern, Postkarten von freunden.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sammle	samml	ADJ	ADJA	Degree=Pos	3	advmod	_	_
+3	gern	gern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	Postkarten	Postkarte	NOUN	NN	_	7	dep	_	_
+6	von	von	PROPN	APPR	_	7	dep	_	_
+7	freunden	freund	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich besuche dich gern wenn du zurückgekommen bist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	besuche	besuche	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	dep	_	_
+4	gern	gern	ADV	ADV	_	5	advmod	_	_
+5	wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+6	du	du	PROPN	PPER	Case=Nom|Number=Sing	7	nsubj:pass	_	_
+7	zurückgekommen	zurückgekommen	VERB	VVPP	VerbForm=Part	3	advcl	_	_
+8	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Ich bin in der letzten Woche der nächsten Monat frei.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	cop	_	_
+3	in	in	ADP	APPR	_	6	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	letzten	letzt	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Woche	Woche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+7	der	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+8	nächsten	nah	ADJ	ADJA	_	9	amod	_	_
+9	Monat	Monat	NOUN	NN	_	6	nmod	_	_
+10	frei	frei	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 12
+# text = Ruf mir an wenn du zu Hause bist!
+1	Ruf	Ruf	PROPN	NN	Case=Dat|Number=Sing	0	root	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+3	an	an	ADP	APPR	_	1	case	_	_
+4	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+6	zu	zu	ADP	APPR	_	7	case	_	_
+7	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	_
+8	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+9	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Also, ich wünsche dir noch, einen schönen Urlaub mit deiner Verwandte zu haben.
+1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+5	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	obj	_	_
+6	noch	noch	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+9	schönen	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	Urlaub	Urlaub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+11	mit	mit	ADP	APPR	_	13	case	_	_
+12	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	13	amod	_	_
+13	Verwandte	Verwandte|Verwandter	NOUN	NN	_	15	obl	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	haben	haben	VERB	VAINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Sag bitte auch schöne Grüße zu deinem Onkel und deiner Tante von mir.
+1	Sag	Sagen	PROPN	NN	_	5	nmod	_	_
+2	bitte	bitten	PROPN	NN	_	1	flat	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	schöne	schön	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Grüße	Grüße	NOUN	NN	_	0	root	_	_
+6	zu	zu	ADP	APPR	_	5	xcomp	_	_
+7	deinem	dein	PRON	PIAT	PronType=Neg	8	advmod	_	_
+8	Onkel	Onkel	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	11	amod	_	_
+11	Tante	Tante	NOUN	NN	_	8	conj	_	_
+12	von	von	ADP	APPR	_	13	case	_	_
+13	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Viele Grüße, Deine Eva
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Deine	Deine	PROPN	NE	_	2	appos	_	_
+5	Eva	Eva	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

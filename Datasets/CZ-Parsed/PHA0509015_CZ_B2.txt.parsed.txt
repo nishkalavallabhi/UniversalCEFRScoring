@@ -1,0 +1,407 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ/PHA0509015_CZ_B2.txt
+# newpar
+# sent_id = 1
+# text = Všude dobře, doma nejlépe.
+1	Všude	všude	ADV	Db-------------	PronType=Tot	2	advmod	_	_
+2	dobře	dobře	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	2	punct	_	_
+4	doma	doma	ADV	Db-------------	_	2	dep	_	_
+5	nejlépe	dobře	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	2	dep	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Jsem Ukrajinka a v České republice budlím 6 let.
+1	Jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+2	Ukrajinka	Ukrajink	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Nat|Number=Sing|Polarity=Pos	0	root	_	_
+3	a	a	CCONJ	J^-------------	_	6	cc	_	_
+4	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
+5	České	český	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	_	_
+6	republice	republika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	_
+7	budlím	budlet	NOUN	NNNS7-----A----	Case=Ins|Gender=Neut|Number=Sing|Polarity=Pos	2	obl	_	_
+8	6	6	NUM	C=-------------	NumForm=Digit|NumType=Card	9	nummod:gov	_	_
+9	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mám tady rodinu - manžela a dvé děti.
+1	Mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	tady	tady	ADV	Db-------------	PronType=Dem	1	advmod	_	_
+3	rodinu	rodina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	1	obj	_	_
+4	-	-	PUNCT	Z:-------------	_	5	punct	_	_
+5	manžela	manžel	NOUN	NNMS4-----A----	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	appos	_	_
+6	a	a	CCONJ	J^-------------	_	8	cc	_	_
+7	dvé	dvý	ADJ	AAFP4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos	8	amod	_	_
+8	děti	dítě	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 4
+# text = Po škole jsem šla studovát do Ruska zdravotnickou školu.
+1	Po	po	ADP	RR--6----------	AdpType=Prep|Case=Loc	2	case	_	_
+2	škole	škola	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	_
+3	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	šla	jít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+5	studovát	studovát	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	4	xcomp	_	_
+6	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	7	case	_	_
+7	Ruska	Rusko	PROPN	NNNS2-----A----	Case=Gen|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	5	obl	_	_
+8	zdravotnickou	zdravotnický	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	9	amod	_	_
+9	školu	škola	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	5	obj	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 5
+# text = Byla to moje první zkušenost s cizím jazýkem, lidmí, okolím.
+1	Byla	být	AUX	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	5	cop	_	_
+2	to	ten	DET	PDNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	moje	můj	DET	PSHS1-S1-------	Case=Nom|Gender=Fem,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+4	první	první	ADJ	CrFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	zkušenost	zkušenost	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+6	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	8	case	_	_
+7	cizím	cizí	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	8	amod	_	_
+8	jazýkem	jazýk	NOUN	NNIS7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	Z:-------------	_	10	punct	_	_
+10	lidmí	lidmí	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+12	okolím	okolet	VERB	VB-S---1P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 6
+# text = Také jsem navštívila několikrát Polsko, Rumunsko, Německo, Slovensko.
+1	Také	také	ADV	Db-------------	_	3	advmod	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	navštívila	navštívit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	několikrát	několikrát	ADV	Co-------------	NumType=Mult|PronType=Ind	3	obl	_	_
+5	Polsko	Polsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+7	Rumunsko	Rumunsko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+9	Německo	Německo	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+11	Slovensko	Slovensko	PROPN	NNNS1-----A----	Case=Nom|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 7
+# text = Bezesporu - cestování je zajímavá věc.
+1	Bezesporu	Bezesporo	ADV	Db-------------	_	0	root	_	_
+2	-	-	PUNCT	Z:-------------	_	6	punct	_	_
+3	cestování	cestování	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	6	nsubj	_	_
+4	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	zajímavá	zajímavý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	6	amod	_	_
+6	věc	věc	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 8
+# text = Přesto vždy se ráda vrácim domů.
+1	Přesto	přesto	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	5	cc	_	_
+2	vždy	vždy	ADV	Db-------------	PronType=Tot	5	advmod	_	_
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	5	expl:pv	_	_
+4	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	5	amod	_	_
+5	vrácim	vrácim	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
+6	domů	domů	ADV	Db-------------	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 9
+# text = Náš domov, rodinu, kamarádi vždy u nás vytváří jakesí pouto.
+1	Náš	můj	DET	PSYS1-P1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	det	_	_
+2	domov	domov	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	10	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	4	punct	_	_
+4	rodinu	rodina	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+6	kamarádi	kamarád	NOUN	NNMP1-----A---1	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	conj	_	_
+7	vždy	vždy	ADV	Db-------------	PronType=Tot	10	advmod	_	_
+8	u	u	ADP	RR--2----------	AdpType=Prep|Case=Gen	9	case	_	_
+9	nás	já	PRON	PP-P2--1-------	Case=Gen|Number=Plur|Person=1|PronType=Prs	10	obl	_	_
+10	vytváří	vytvářet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	jakesí	jakese	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	10	obl	_	_
+12	pouto	pouto	DET	PDFS7----------	Case=Ins|Gender=Fem|Number=Sing|PronType=Dem	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	10	punct	_	_
+
+# sent_id = 10
+# text = Zdá se, že i ty stromy doma máme vyšší, třešně sladší, květiny voní více a hvězdy září více.
+1	Zdá	zdát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+4	že	že	SCONJ	J,-------------	_	9	mark	_	_
+5	i	i	CCONJ	J^-------------	_	7	advmod:emph	_	_
+6	ty	ten	DET	PDIP4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	7	det	_	_
+7	stromy	strom	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	1	obj	_	_
+8	doma	doma	ADV	Db-------------	_	9	advmod	_	_
+9	máme	mít	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
+10	vyšší	vysoký	ADJ	AAFS4----2A----	Case=Acc|Degree=Cmp|Gender=Fem|Number=Sing|Polarity=Pos	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	13	punct	_	_
+12	třešně	třešně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	13	advmod	_	_
+13	sladší	sladký	ADJ	AAMS1----2A----	Animacy=Anim|Case=Nom|Degree=Cmp|Gender=Masc|Number=Sing|Polarity=Pos	10	conj	_	SpaceAfter=No
+14	,	,	PUNCT	Z:-------------	_	16	punct	_	_
+15	květiny	květina	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	16	obj	_	_
+16	voní	vonět	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+17	více	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	21	advmod	_	SpacesAfter=\s\s
+18	a	a	CCONJ	J^-------------	_	19	cc	_	_
+19	hvězdy	hvězda	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	17	conj	_	_
+20	září	září	NOUN	NNNS2-----A----	Case=Gen|Gender=Neut|Number=Sing|Polarity=Pos	17	nmod	_	_
+21	více	hodně	ADV	Dg-------2A----	Degree=Cmp|Polarity=Pos	16	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 11
+# text = Pobyt v cizíně nám dáva nové ználosti, informace, zkušenosti.
+1	Pobyt	pobyt	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
+2	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+3	cizíně	cizína	NOUN	NNNS6-----A----	Case=Loc|Gender=Neut|Number=Sing|Polarity=Pos	1	nmod	_	_
+4	nám	já	PRON	PP-P3--1-------	Case=Dat|Number=Plur|Person=1|PronType=Prs	1	dep	_	_
+5	dáva	dáva	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	dep	_	_
+6	nové	nový	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	_
+7	ználosti	ználost	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+9	informace	informace	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	5	conj	_	SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	11	punct	_	_
+11	zkušenosti	zkušenost	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 12
+# text = Domu vždy najdeme duševní klid, zázemí, lásku mátky.
+1	Domu	dům	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	5	nmod	_	_
+2	vždy	vždy	ADV	Db-------------	PronType=Tot	3	advmod	_	_
+3	najdeme	najít	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	duševní	duševní	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	5	amod	_	_
+5	klid	klid	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+7	zázemí	zázemí	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+9	lásku	láska	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	5	conj	_	_
+10	mátky	mátka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 13
+# text = Domu jezdim jednou za rok.
+1	Domu	dům	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	2	nmod	_	_
+2	jezdim	jezdim	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
+3	jednou	jednou	ADV	Cv-------------	NumType=Mult	2	dep	_	_
+4	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+5	rok	rok	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 14
+# text = Kromě toho, často pišu přibuzným dopisy, telefonuji.
+1	Kromě	kromě	ADP	RR--2----------	AdpType=Prep|Case=Gen	2	case	_	_
+2	toho	ten	DET	PDZS2----------	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Dem	9	obl	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	2	punct	_	_
+4	často	často	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	dep	_	_
+5	pišu	pišo	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	2	dep	_	_
+6	přibuzným	přibuzný	ADJ	AAIS7----1A----	Animacy=Inan|Case=Ins|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	7	amod	_	_
+7	dopisy	dopis	NOUN	NNIP7-----A----	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur|Polarity=Pos	2	dep	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	2	punct	_	_
+9	telefonuji	telefonovat	VERB	VB-S---1P-AA--1	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	9	punct	_	_
+
+# sent_id = 15
+# text = Svůj druhý domov jsem našla v České republice.
+1	Svůj	svůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	3	det	_	_
+2	druhý	druhý	ADJ	CrIS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_
+3	domov	domov	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	5	obj	_	_
+4	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	našla	najít	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+6	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	8	case	_	_
+7	České	český	ADJ	AAFS6----1A----	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	_
+8	republice	republika	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 16
+# text = Poznávam jinou kulturu, mentalitu, zvyky.
+1	Poznávam	Poznávam	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	0	root	_	_
+2	jinou	jiný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	3	amod	_	_
+3	kulturu	kultura	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	1	dep	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	5	punct	_	_
+5	mentalitu	mentalita	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+7	zvyky	zvyk	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	3	conj	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 17
+# text = Když mi je nejhůř, vzpomínám si na slov Jana Wericha: Když nejde o život - jde o hovno".
+1	Když	když	SCONJ	J,-------------	_	3	mark	_	_
+2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	3	iobj	_	_
+3	je	být	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+4	nejhůř	špatně	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	3	punct	_	_
+6	vzpomínám	vzpomínat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	_	_
+8	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	_
+9	slov	slovo	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	6	obj	_	_
+10	Jana	Jan	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	9	nmod	_	_
+11	Wericha	Werich	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	10	flat	_	SpaceAfter=No
+12	:	:	PUNCT	Z:-------------	_	18	punct	_	_
+13	Když	když	SCONJ	J,-------------	_	14	mark	_	_
+14	nejde	jít	VERB	VB-S---3P-NA---	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+15	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	16	case	_	_
+16	život	život	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	14	obj	_	_
+17	-	-	PUNCT	Z:-------------	_	14	punct	_	_
+18	jde	jít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+19	o	o	ADP	RR--4----------	AdpType=Prep|Case=Acc	20	case	_	_
+20	hovno	hovno	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	18	obj	_	SpaceAfter=No
+21	"	"	PUNCT	Z:-------------	_	18	punct	_	SpaceAfter=No
+22	.	.	PUNCT	Z:-------------	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Co mi nejvíce chybí?
+1	Co	co	PRON	PQ--1----------	Animacy=Inan|Case=Nom|PronType=Int,Rel	4	nsubj	_	_
+2	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	4	obj	_	_
+3	nejvíce	hodně	ADV	Dg-------3A----	Degree=Sup|Polarity=Pos	4	advmod	_	_
+4	chybí	chybět	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 19
+# text = Asi ta mateřčina.
+1	Asi	asi	PART	TT-------------	_	3	advmod:emph	_	_
+2	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	mateřčina	mateřčina	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 20
+# text = „Čistá, krásná, svatá řeč mateřská.
+1	„	„	PUNCT	Z:-------------	_	7	punct	_	SpaceAfter=No
+2	Čistá	Čistá	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	4	punct	_	_
+4	krásná	krásný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+6	svatá	svatý	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	2	conj	_	_
+7	řeč	řeč	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+8	mateřská	mateřský	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	7	punct	_	_
+
+# sent_id = 21
+# text = Zahřevná jako samo slunce a jako jaro i léto plodná a živná.
+1	Zahřevná	Zahřevný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+2	jako	jako	SCONJ	J,-------------	_	4	mark	_	_
+3	samo	sám	DET	PLNS1----------	Case=Nom|Gender=Neut|Number=Sing|PronType=Emp	4	xcomp	_	_
+4	slunce	slunce	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	advcl	_	_
+5	a	a	CCONJ	J^-------------	_	7	cc	_	_
+6	jako	jako	SCONJ	J,-------------	_	7	mark	_	_
+7	jaro	jaro	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	1	conj	_	_
+8	i	i	CCONJ	J^-------------	_	9	cc	_	_
+9	léto	léto	NOUN	NNNS1-----A----	Case=Nom|Gender=Neut|Number=Sing|Polarity=Pos	7	conj	_	_
+10	plodná	plodný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	7	amod	_	_
+11	a	a	CCONJ	J^-------------	_	12	cc	_	_
+12	živná	živný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 22
+# text = Melo by se jí vlastně řikát „druhá mátka".
+1	Melo	Met	VERB	VpNS---XR-AA---	Gender=Neut|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	by	být	AUX	Vc-------------	Mood=Cnd|VerbForm=Fin	1	aux	_	_
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pass	_	_
+4	jí	on	PRON	PPFS2--3-------	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+5	vlastně	vlastně	ADV	Db-------------	_	1	advmod	_	_
+6	řikát	řikát	NUM	Cn-S1----------	Case=Nom|Number=Sing|NumForm=Word|NumType=Card	9	nummod	_	_
+7	„	„	PUNCT	Z:-------------	_	6	punct	_	SpaceAfter=No
+8	druhá	druhý	ADJ	CrFS1----------	Case=Nom|Gender=Fem|Number=Sing|NumType=Ord	9	amod	_	_
+9	mátka	mátka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	1	nsubj:pass	_	SpaceAfter=No
+10	"	"	PUNCT	Z:-------------	_	1	punct	_	SpaceAfter=No
+11	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 23
+# text = Když nás ta první opustí, sklacená nebo když opustime ji a vyjdeme do světa, ta druha jde s nami až do konce, a sprovází nás až k hrobu.
+1	Když	když	SCONJ	J,-------------	_	5	mark	_	_
+2	nás	já	PRON	PP-P4--1-------	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+3	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+4	první	první	ADJ	CrFS7----------	Case=Ins|Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	opustí	opustit	NOUN	NNFS7-----A----	Case=Ins|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	Z:-------------	_	7	punct	_	_
+7	sklacená	sklacený	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	5	amod	_	_
+8	nebo	nebo	CCONJ	J^-------------	_	10	cc	_	_
+9	když	když	SCONJ	J,-------------	_	10	mark	_	_
+10	opustime	opustút	VERB	Vi-P---1--A----	Foreign=Yes|Mood=Imp|Number=Plur|Person=1|Polarity=Pos|VerbForm=Fin	7	dep	_	_
+11	ji	on	PRON	PPFS4--3-------	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	a	a	CCONJ	J^-------------	_	13	cc	_	_
+13	vyjdeme	vyjít	VERB	VB-P---1P-AA---	Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+14	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	15	case	_	_
+15	světa	svět	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	10	obl	_	SpaceAfter=No
+16	,	,	PUNCT	Z:-------------	_	19	punct	_	_
+17	ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	druha	druh	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	19	nsubj	_	_
+19	jde	jít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+20	s	s	ADP	RR--7----------	AdpType=Prep|Case=Ins	21	case	_	_
+21	nami	na	NOUN	NNFP7-----A----	Case=Ins|Gender=Fem|Number=Plur|Polarity=Pos	19	obl	_	_
+22	až	až	PART	TT-------------	_	24	advmod:emph	_	_
+23	do	do	ADP	RR--2----------	AdpType=Prep|Case=Gen	24	case	_	_
+24	konce	konec	NOUN	NNIS2-----A----	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing|Polarity=Pos	19	obl	_	SpaceAfter=No
+25	,	,	PUNCT	Z:-------------	_	27	punct	_	_
+26	a	a	CCONJ	J^-------------	_	27	cc	_	_
+27	sprovází	sprovázet	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+28	nás	já	PRON	PP-P4--1-------	Case=Acc|Number=Plur|Person=1|PronType=Prs	27	obj	_	_
+29	až	až	PART	TT-------------	_	31	advmod:emph	_	_
+30	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	31	case	_	_
+31	hrobu	hrob	NOUN	NNIS3-----A----	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing|Polarity=Pos	27	obl	_	SpaceAfter=No
+32	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 24
+# text = Poukazuje nam na to, co sprosté a nehodné a připomíná nás k tomu, co jemného, mílého a šlechetného.
+1	Poukazuje	poukazovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\s\s
+2	nam	nam	ADV	Db-------------	_	1	advmod	_	_
+3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
+4	to	ten	DET	PDNS4----------	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+6	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	4	acl	_	_
+7	sprosté	sprostý	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	6	amod	_	_
+8	a	a	CCONJ	J^-------------	_	9	cc	_	_
+9	nehodné	hodně	ADJ	AANS4----1A----	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	7	conj	_	_
+10	a	a	CCONJ	J^-------------	_	11	cc	_	_
+11	připomíná	připomínat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	nás	já	PRON	PP-P4--1-------	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	k	k	ADP	RR--3----------	AdpType=Prep|Case=Dat	14	case	_	_
+14	tomu	ten	DET	PDZS3----------	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	11	iobj	_	SpaceAfter=No
+15	,	,	PUNCT	Z:-------------	_	16	punct	_	_
+16	co	co	PRON	PQ--4----------	Animacy=Inan|Case=Acc|PronType=Int,Rel	14	acl	_	_
+17	jemného	jemný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	16	amod	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	19	punct	_	_
+19	mílého	mílý	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	conj	_	_
+20	a	a	CCONJ	J^-------------	_	21	cc	_	_
+21	šlechetného	šlechetný	ADJ	AANS2----1A----	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing|Polarity=Pos	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 25
+# text = Zahřívá naše srdce, řídí náš cit, vede náš rozum".
+1	Zahřívá	zahřívat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+2	naše	můj	DET	PSNS4-P1-------	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+3	srdce	srdce	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	1	punct	_	_
+5	řídí	řídit	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	náš	můj	DET	PSYS1-P1-------	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	7	det	_	_
+7	cit	cit	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	5	nsubj	_	SpaceAfter=No
+8	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+9	vede	vést	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+10	náš	můj	DET	PSIS4-P1-------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	11	det	_	_
+11	rozum	rozum	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	9	obj	_	SpaceAfter=No
+12	"	"	PUNCT	Z:-------------	_	5	punct	_	SpaceAfter=No
+13	.	.	PUNCT	Z:-------------	_	5	punct	_	_
+
+# sent_id = 26
+# text = Souhlasím se slovy Jana Nerudy.
+1	Souhlasím	souhlasit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	_
+3	slovy	slovo	NOUN	NNNP7-----A----	Case=Ins|Gender=Neut|Number=Plur|Polarity=Pos	1	obj	_	_
+4	Jana	Jan	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Giv|Number=Sing|Polarity=Pos	3	nmod	_	_
+5	Nerudy	Neruda	PROPN	NNMS2-----A----	Animacy=Anim|Case=Gen|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	4	flat	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 27
+# text = Zaroveň si myslím, že mám jedinečnou možnost mlůvit česky, číst dětem české pohádky a pilovIat, pilovIat, pilovat.
+1	Zaroveň	Zaroveň	ADV	Db-------------	_	3	advmod	_	_
+2	si	se	PRON	P7-X3----------	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	_
+3	myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+5	že	že	SCONJ	J,-------------	_	6	mark	_	_
+6	mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	jedinečnou	jedinečný	ADJ	AAFS4----1A----	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	_
+8	možnost	možnost	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	obj	_	_
+9	mlůvit	mlůvit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	8	acl	_	_
+10	česky	česky	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	9	advmod	_	SpaceAfter=No
+11	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+12	číst	číst	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	9	conj	_	_
+13	dětem	dítě	NOUN	NNFP3-----A----	Case=Dat|Gender=Fem|Number=Plur|Polarity=Pos	12	obj	_	_
+14	české	český	ADJ	AAFS2----1A----	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	15	amod	_	_
+15	pohádky	pohádka	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	13	nmod	_	_
+16	a	a	CCONJ	J^-------------	_	17	cc	_	_
+17	pilovIat	pilovIat	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	15	conj	_	SpaceAfter=No
+18	,	,	PUNCT	Z:-------------	_	19	punct	_	SpacesAfter=\s\s
+19	pilovIat	pilovIat	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	15	conj	_	SpaceAfter=No
+20	,	,	PUNCT	Z:-------------	_	21	punct	_	_
+21	pilovat	pilovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	9	conj	_	SpaceAfter=No
+22	.	.	PUNCT	Z:-------------	_	3	punct	_	SpacesAfter=\n
+

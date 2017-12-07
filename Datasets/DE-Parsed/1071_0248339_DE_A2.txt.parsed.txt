@@ -1,0 +1,84 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248339_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo liebe Katharina.
+1	Hallo	hallo	X	ITJ	_	3	dep	_	_
+2	liebe	lieben	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Katharina	Katharina	PROPN	NE	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = wie gehts dir?
+1	wie	wie	ADP	KOKOM	_	2	case	_	_
+2	gehts	gehts	ADV	ADV	_	3	advmod	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Hast du Lust mit mir zum Schwimbad gehen?
+1	Hast	hast	PROPN	NN	_	9	appos	_	_
+2	du	du	PROPN	PPER	_	1	flat	_	_
+3	Lust	Lust	PROPN	NN	_	1	flat	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	obl	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Schwimbad	Schwimbad	NOUN	NN	_	9	obl	_	_
+9	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Wo treffen wir uns?
+1	Wo	wo	ADV	PWAV	PronType=Int	2	mark	_	_
+2	treffen	treffen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Wann hast du so Zeit?
+1	Wann	wann	ADV	PWAV	_	2	advmod	_	_
+2	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+4	so	so	ADV	ADV	_	5	advmod	_	_
+5	Zeit	Zeit	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Du sollst bringen ein Handtuch, eine Badehose usw. mit.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+2	sollst	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	bringen	bringen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Handtuch	Handtuch	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Badehose	Badehose	NOUN	NN	_	5	appos	_	_
+9	usw	usw	X	VVFIN	_	8	dep	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+11	mit	mit	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Melde dich bitte bei mir bald.
+1	Melde	Melde	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+2	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	det	_	_
+3	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	1	obj	_	_
+4	bei	bei	ADP	APPR	_	5	case	_	_
+5	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+6	bald	bald	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Schön Tag noch.
+1	Schön	schön	ADJ	ADJD	Degree=Pos	2	amod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	_
+3	noch	noch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Gruß Julia
+1	Gruß	Grüssen	PROPN	NN	_	0	root	_	SpacesAfter=\n
+2	Julia	Julia	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

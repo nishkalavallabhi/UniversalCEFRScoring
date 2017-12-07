@@ -1,0 +1,119 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001158_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 24 novembre 2011 Ciao Paolo come stai e come sta la tua famiglia.
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	24	24	NUM	N	NumType=Card	8	nmod	_	_
+6	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	2011	2011	NUM	N	NumType=Card	5	flat	_	SpacesAfter=\s\n
+8	Ciao	Ciao	PROPN	SP	_	1	nmod	_	_
+9	Paolo	Paolo	PROPN	SP	_	8	flat:name	_	SpacesAfter=\n
+10	come	come	ADP	E	_	11	case	_	_
+11	stai	staio	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	e	e	CCONJ	CC	_	14	cc	_	_
+13	come	come	ADV	B	_	14	advmod	_	_
+14	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Come abbiamo telefonato settimana scorsa, abbiamo detto che vengo a trovarti per Natale.
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	telefonato	telefonare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+5	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	detto	dire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	che	che	SCONJ	CS	_	10	mark	_	_
+10	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	trovarti	trovarto	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	10	obl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	Natale	Natale	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Arrivando il 23 dicembre, fino qundo posso rimanere a casa tua?
+1	Arrivando	arrivare	VERB	V	VerbForm=Ger	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	23	23	NUM	N	NumType=Card	1	obl	_	_
+4	dicembre	dicembre	NOUN	S	Gender=Masc|Number=Sing	3	flat	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	fino	fino	ADV	B	_	9	mark	_	_
+7	qundo	qundo	SCONJ	CS	_	6	fixed	_	_
+8	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	rimanere	rimanere	VERB	V	VerbForm=Inf	1	advcl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Arriverò in treno alle 8 di sera, come trovo la casa tua?
+1	Arriverò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	treno	treno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	8	8	NUM	N	NumType=Card	1	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	come	come	SCONJ	CS	_	11	mark	_	_
+11	trovo	trovare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	SpaceAfter=No
+15	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Magari puoi venire à prendermi colla tua macchina?
+1	Magari	magari	ADV	B	_	5	advmod	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	venire	venire	AUX	VA	VerbForm=Inf	5	aux	_	_
+4	à	à	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	5	aux	_	_
+5-6	prendermi	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	colla	collare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = È grande la tua città, non lo so neanche.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	grande	grande	ADJ	A	Number=Sing	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	città	città	NOUN	S	Gender=Fem	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+10	neanche	neanche	ADV	BN	PronType=Neg	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Spero che passeremo assieme belli giorni e ti saluto con affetto Michele
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	passeremo	passare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	1	ccomp	_	_
+4	assieme	assieme	ADP	E	_	6	case	_	_
+5	belli	bello	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+6	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	obj	_	_
+9	saluto	salvere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	affetto	affetto	ADJ	A	Gender=Masc|Number=Sing	9	obl	_	SpacesAfter=\s\n\s
+12	Michele	Michele	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

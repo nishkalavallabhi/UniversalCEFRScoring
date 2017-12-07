@@ -1,0 +1,64 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000337_IT_A1.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 4 Marzo Caro Marco, io vado un amico Italiano da molto tempo a Città X
+1	Città	Città	PROPN	SP	_	11	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	4	4	NUM	N	NumType=Card	1	nmod	_	_
+6	Marzo	marzo	PROPN	SP	_	5	flat	_	SpacesAfter=\s\n
+7	Caro	Caro	PROPN	SP	_	1	appos	_	_
+8	Marco	Marco	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+10	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	amico	amico	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+14	Italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	13	amod	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	17	det	_	_
+17	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+18	a	a	ADP	E	_	19	case	_	_
+19	Città	città	PROPN	SP	_	11	obl	_	_
+20	X	X	ADJ	NO	Number=Sing|NumType=Ord	19	amod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Tutti va bene
+1	Tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = La vostra famiglia va bene vado -unreadable-l lavoro a l'albergo in macchina andato in vacanza a Città X per visitare il capitale Bacioni À presto Maria
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	bene	bene	ADV	B	_	6	advmod	_	SpacesAfter=\n
+6	vado	vado	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	-	-	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	unreadable	unreadable	ADJ	A	Number=Sing	28	amod	_	SpaceAfter=No
+9	-	-	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	l	l	X	X	_	28	nsubj	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	compound	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	14	det	_	SpaceAfter=No
+14	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	28	obl	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	28	obl	_	_
+17	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	28	advcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	_
+20	a	a	ADP	E	_	21	case	_	_
+21	Città	città	PROPN	SP	_	17	obl	_	_
+22	X	X	PROPN	SP	_	21	flat:name	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	visitare	visitare	VERB	V	VerbForm=Inf	28	advcl	_	_
+25	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	26	det	_	_
+26	capitale	capitale	NOUN	S	Gender=Masc|Number=Sing	28	nsubj	_	SpacesAfter=\n
+27	Bacioni	Bacioni	PROPN	SP	_	26	nmod	_	SpacesAfter=\n
+28	À	à	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	parataxis	_	_
+29	presto	presto	ADV	B	_	28	advmod	_	SpacesAfter=\s\n
+30	Maria	Maria	PROPN	SP	_	28	obj	_	SpacesAfter=\n
+

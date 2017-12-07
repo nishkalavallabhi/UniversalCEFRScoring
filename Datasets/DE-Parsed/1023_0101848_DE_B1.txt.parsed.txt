@@ -1,0 +1,149 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101848_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Eva Winkelmann Müllergasse 12 12345 Stadt X.
+1	Eva	Eva	PROPN	NE	_	7	dep	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Müllergasse	Müllergasse	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	6	nummod	_	SpacesAfter=\n
+5	12345	12345	NUM	CARD	NumType=Card	6	nmod	_	_
+6	Stadt	Stadt	NOUN	NN	_	1	nmod	_	_
+7	X.	X.	X	NE	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Computer-Spezialist Odenwaldstraße 5, 53119 Bonn Stadt X 22.03.2010 Praktikum als Kauffrau Beruf und Informatik, mit großen interesse habe ich diese anzeige beim Stadt X Zeitung gelesen.
+1	Computer-Spezialist	Computer-Spezialist	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	SpacesAfter=\n
+2	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	1	appos	_	_
+3	5	5	NUM	CARD	NumType=Card	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+5	53119	53119	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Bonn	Bonn	PROPN	NE	_	7	conj	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Stadt	Stadt	PROPN	NN	_	9	appos	_	_
+8	X	X	PROPN	NN	_	7	appos	_	_
+9	22.03.2010	22.03.2010	NUM	ADJA	NumType=Card	10	nummod	_	SpacesAfter=\n
+10	Praktikum	Praktikum	NOUN	NN	_	1	nmod	_	_
+11	als	als	ADP	KOKOM	_	13	case	_	_
+12	Kauffrau	Kauffrau	NOUN	NN	_	13	nmod	_	_
+13	Beruf	Beruf	NOUN	NN	_	0	root	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Informatik	Informatik	NOUN	NN	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	13	punct	_	SpacesAfter=\n
+17	mit	mit	ADP	APPR	_	19	case	_	_
+18	großen	groß	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	interesse	interesse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	23	obl	_	_
+20	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	aux	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	diese	dies	PRON	PDS	Case=Acc|PronType=Dem	23	obj	_	_
+23	anzeige	anzeige	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	parataxis	_	_
+24-25	beim	_	_	_	_	_	_	_	_
+24	bei	bei	ADP	APPR	_	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Stadt	Stadt	PROPN	NN	_	29	obl	_	_
+27	X	X	PROPN	NN	_	26	appos	_	_
+28	Zeitung	Zeitung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	26	flat	_	_
+29	gelesen	lesen	VERB	VVPP	VerbForm=Part	23	acl	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich komme aus Kenia und geboren in Stadt Y. Nachdem meine Schulabschul habe ich deutsch Kur besucht und Computer IT-Systemkauffrau gemacht.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	APPR	_	4	case	_	_
+4	Kenia	Kenia	PROPN	NE	Case=Dat|Number=Sing	2	obl	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	geboren	gebären	VERB	VVPP	VerbForm=Part	2	conj	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	PROPN	NN	_	6	obl	_	_
+9	Y.	Y.	PROPN	NE	_	8	flat	_	_
+10	Nachdem	nachdem	SCONJ	KOUS	_	17	mark	_	_
+11	meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Schulabschul	Schulabschul	PROPN	NE	Case=Nom|Number=Sing	17	nsubj	_	_
+13	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+15	deutsch	deutsch	ADJ	ADJD	Degree=Pos	17	advmod	_	_
+16	Kur	kur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+17	besucht	besuchen	VERB	VVPP	VerbForm=Part	6	advcl	_	_
+18	und	und	CCONJ	KON	_	21	cc	_	_
+19	Computer	Computer	NOUN	NN	Case=Nom|Number=Sing	21	nsubj:pass	_	_
+20	IT-Systemkauffrau	IT-Systemkauffrau	PROPN	NE	_	19	appos	_	_
+21	gemacht	machen	VERB	VVPP	VerbForm=Part	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Meine Interesse auf diese brief war Information und Kommunikation.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Interesse	Interesse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	auf	auf	ADP	APPR	_	4	case	_	_
+4	diese	dies	PRON	PDAT	Case=Acc|Number=Plur|PronType=Dem	5	obl	_	_
+5	brief	braufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	nsubj	_	_
+6	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	Information	Information	NOUN	NN	_	0	root	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Kommunikation	Kommunikation	NOUN	NN	_	7	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Ich habe erfahrung über diese Beruf für 3 jahre, ich habe auch bei Siemens und Computer Investment gearbeitet.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+3	erfahrung	Erfahrung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+4	über	über	ADP	APPR	_	6	case	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Masc|Number=Plur|PronType=Dem	6	det	_	_
+6	Beruf	Beruf	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	nmod	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	3	3	NUM	CARD	NumType=Card	9	nummod	_	_
+9	jahre	fahren|jahren	NOUN	NN	Case=Acc|Number=Plur	6	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	3	punct	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+12	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+13	auch	auch	ADV	ADV	_	15	advmod	_	_
+14	bei	bei	ADP	APPR	_	15	case	_	_
+15	Siemens	Siemens	PROPN	NE	_	19	obl	_	_
+16	und	und	CCONJ	KON	_	18	cc	_	_
+17	Computer	Computer	PROPN	NN	Case=Nom|Number=Sing	18	amod	_	_
+18	Investment	Investment	PROPN	NN	_	15	conj	_	_
+19	gearbeitet	arbeiten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich bin flexible, intelligent, punktlich und gerne mag ich teamarbeit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	flexible	flexibel	ADJ	ADJA	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	_
+5	intelligent	intelligent	ADJ	ADJD	Degree=Pos	3	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	punktlich	punktlich	ADJ	ADJD	Degree=Pos	3	conj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	gerne	gerne	ADV	ADV	_	3	conj	_	_
+10	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	teamarbeit	teamarbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich freue mich sehr zum eine antwort für ein Stelleangebot bei Ihnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	sehr	sehr	ADV	ADV	_	2	advmod	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	APPR	_	13	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	antwort	antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Stelleangebot	Stelleangebot	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	13	nsubj	_	_
+12	bei	bei	ADP	APPR	_	13	case	_	_
+13	Ihnen	Ihnen	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	2	obl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Mit freundlichen Grüßen Eva Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NE	_	3	appos	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

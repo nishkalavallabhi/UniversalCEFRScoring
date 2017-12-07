@@ -1,0 +1,120 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000396_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 29.05.2010 Ciao Flaviano, È già tanto tempo che non abbiamo più sentito.
+1	Città	Città	PROPN	SP	_	11	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	29.05.2010	29.05.2010	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Ciao	Ciao	PROPN	SP	_	1	conj	_	_
+6	Flaviano	Flaviano	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+8	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	già	già	ADV	B	_	11	advmod	_	_
+10	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	11	det	_	_
+11	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+13	non	non	ADV	BN	PronType=Neg	16	advmod	_	_
+14	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+15	più	più	ADV	B	_	16	advmod	_	_
+16	sentito	sentire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	acl:relcl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Come stai?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Spero bene!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Io sto benissimo, l'ultimo mezzo anno sono stata nel ticino.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	benissimo	bene	ADV	B	Degree=Abs	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	13	punct	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+6	ultimo	ultimo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	amod	_	_
+7	mezzo	mezzo	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	_
+8	anno	anno	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+9	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+10	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ticino	ticino	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ho lavorato come ragazza alla pare per imperare l'italiano.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	ragazza	ragazzo	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	pare	parere	NOUN	S	Number=Sing	2	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	imperare	imperare	VERB	V	VerbForm=Inf	2	advcl	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Se hai voglia ci possiamo incontrare a Città X in due settimane?
+1	Se	se	SCONJ	CS	_	6	mark	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	voglia	vogliare	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	obj	_	_
+5	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	incontrare	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	Città	PROPN	SP	_	6	obl	_	_
+9	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	due	due	NUM	N	NumType=Card	12	nummod	_	_
+12	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 7
+# text = Andrò a Città X per tre giorni con gli amici.
+1	Andrò	Andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	1	obl	_	_
+4	X	X	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	tre	tre	NUM	N	NumType=Card	7	nummod	_	_
+7	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	amici	amico	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Fammi saperlo!
+1	Fammi	Fammo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	saperlo	_	_	_	_	_	_	_	SpaceAfter=No
+2	saper	sapere	VERB	V	VerbForm=Inf	1	ccomp	_	_
+3	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Spero a presto.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	presto	presto	ADV	B	_	1	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Tanti saluti, Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

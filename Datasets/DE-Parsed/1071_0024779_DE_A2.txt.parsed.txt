@@ -1,0 +1,95 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024779_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 26.04.2012 Liber Jens, Alles Gute wünsche dir und deine Familie.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	26.04.2012	26.04.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Liber	Liber	PROPN	NN	_	4	flat	_	_
+6	Jens	Jens	PROPN	NE	_	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	Alles	alle	PRON	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
+9	Gute	gut	NOUN	NN	_	14	nmod	_	_
+10	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	14	cop	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	14	amod	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	deine	dein	ADJ	ADJA	Degree=Pos	11	conj	_	_
+14	Familie	Familie	NOUN	NN	_	1	appos	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Hast du der Name für das Baby?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Name	Name	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ich habe gehört - ihre name ist Maria.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gehört	gehören	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	-	-	PUNCT	$(	_	6	punct	_	_
+5	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	name	name	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	Maria	Maria	PROPN	NE	_	3	ccomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Wie geht es der Mutter, ist sie noch in Krankenhaus?
+1	Wie	wie	CCONJ	KON	_	2	cc	_	_
+2	geht	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Mutter	Mutter	NOUN	NN	_	11	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+8	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	noch	noch	ADV	ADV	_	11	advmod	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Krankenhaus	Krankenhaus	NOUN	NN	_	2	obl	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Wann hat sie nach hause gekommen?
+1	Wann	wann	ADV	ADV	_	6	advmod	_	_
+2	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+4	nach	nach	ADP	APPR	_	5	case	_	_
+5	hause	hause	PROPN	NE	Case=Dat|Number=Sing	6	obl	_	_
+6	gekommen	kommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ich möchte euch im Kurzem Zeit besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Kurzem	kurz	PROPN	ADJA	_	7	nmod	_	_
+7	Zeit	Zeit	NOUN	NN	_	8	nmod	_	_
+8	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Ich rufe dich an.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	rufe	rufen	NOUN	NN	Case=Acc|Number=Plur	3	obj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	dep	_	_
+4	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Viele Gruße Eva
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Gruße	Muß|Gruße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Eva	Eva	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

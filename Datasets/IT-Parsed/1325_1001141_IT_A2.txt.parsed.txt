@@ -1,0 +1,322 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001141_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = "Lettere Personali" del giornale Strada Maggiore 1234
+1	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+2	Lettere	Lettere	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	Personali	personali	ADJ	A	Number=Plur	2	amod	_	SpaceAfter=No
+4	"	"	PUNCT	FB	_	2	punct	_	_
+5-6	del	_	_	_	_	_	_	_	_
+5	di	di	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Strada	Strada	PROPN	SP	_	7	nmod	_	_
+9	Maggiore	Maggiore	PROPN	SP	_	8	flat:name	_	_
+10	1234	1234	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Settimana Giovani Città X via Crispi, 119, 80127 Caserta Cara Giorgio, Ho letto il tuo messeggio sul Internet.
+1	Settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+2	Giovani	Giovani	PROPN	SP	_	16	nsubj	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Città	Città	PROPN	SP	_	2	flat:name	_	_
+4	X	X	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+5	via	via	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	Crispi	Crispi	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	119	119	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	5	punct	_	_
+10	80127	80127	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\s\n
+11	Caserta	Caserta	PROPN	SP	_	5	nmod	_	SpacesAfter=\s\n
+12	Cara	Cara	PROPN	SP	_	5	nmod	_	_
+13	Giorgio	Giorgio	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+15	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	messeggio	messeggio	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+20-21	sul	_	_	_	_	_	_	_	_
+20	su	su	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	Internet	Internet	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 3
+# text = Sono Maria, abito a Città X.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	Maria	Maria	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	obl	_	_
+7	X	x	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Secondo me è molto cattivo che tu non hai amici, ma queste notizia che cerchi è buono.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	cattivo	cattivo	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	18	punct	_	_
+12	ma	ma	CCONJ	CC	_	18	cc	_	_
+13	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	14	det	_	_
+14	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	18	nsubj	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	cerchi	cercare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	buono	buono	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = La mia opinione delle amicizie virtuali sono che le donne e anche gli uomini chi usano chat sull'internet non hanno amici e forse famiglia.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+4-5	delle	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	3	nmod	_	_
+7	virtuali	virtuale	ADJ	A	Number=Plur	6	amod	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	che	che	SCONJ	CS	_	11	fixed	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	uomini	uomo	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	_
+16	chi	chi	PRON	PR	PronType=Rel	23	nsubj	_	_
+17	usano	usare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+18	chat	chat	NOUN	S	Gender=Masc	17	obj	_	_
+19-20	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+19	su	su	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	internet	internet	NOUN	S	_	17	obl	_	_
+22	non	non	ADV	BN	PronType=Neg	23	advmod	_	_
+23	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+24	amici	amico	NOUN	S	Gender=Masc|Number=Plur	23	obj	_	_
+25	e	e	CCONJ	CC	_	27	cc	_	_
+26	forse	forse	ADV	B	_	27	advmod	_	_
+27	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	11	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 6
+# text = Forse con cui parla sul chat non quella persona che tu pensa.
+1	Forse	forse	ADV	B	_	4	advmod	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	cui	cui	PRON	PR	PronType=Rel	4	obl	_	_
+4	parla	parlare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	sul	_	_	_	_	_	_	_	SpacesAfter=\s\s
+5	su	su	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	chat	chat	NOUN	S	Gender=Masc	4	obl	_	_
+8	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+9	quella	quello	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	10	det	_	_
+10	persona	persona	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+11	che	che	PRON	PR	PronType=Rel	13	obj	_	_
+12	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	13	nsubj	_	_
+13	pensa	pensare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Secondo me scriveresti una lettera/e-mail in cui scrivi quasi questo:
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	scriveresti	scrivere	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	e	e	CCONJ	CC	_	9	cc	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	9	punct	_	SpaceAfter=No
+9	mail	mail	NOUN	S	_	5	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	cui	cui	PRON	PR	PronType=Rel	12	obl	_	_
+12	scrivi	scrivare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	quasi	quasi	ADV	B	_	14	advmod	_	_
+14	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 8
+# text = "se scrivessi ancora da me allora andrai a polizia" oppure "non ti vorrei sentire, non ti amo e non vorrei che tu sia la mia amica."
+1	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+2	se	se	SCONJ	CS	_	3	mark	_	_
+3	scrivessi	scrivettere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	advcl	_	_
+4	ancora	ancora	ADV	B	_	6	advmod	_	_
+5	da	da	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+7	allora	allora	ADV	B	_	8	advmod	_	_
+8	andrai	andere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	polizia	polizia	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+11	"	"	PUNCT	FB	_	12	punct	_	_
+12	oppure	oppure	CCONJ	CC	_	17	cc	_	_
+13	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+14	non	non	ADV	BN	PronType=Neg	17	advmod	_	_
+15	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	obj	_	_
+16	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	sentire	sentire	VERB	V	VerbForm=Inf	8	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	non	non	ADV	BN	PronType=Neg	21	advmod	_	_
+20	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	21	obj	_	_
+21	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+22	e	e	CCONJ	CC	_	24	cc	_	_
+23	non	non	ADV	BN	PronType=Neg	24	advmod	_	_
+24	vorrei	volere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	conj	_	_
+25	che	che	SCONJ	CS	_	27	mark	_	_
+26	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	27	nsubj	_	_
+27	sia	essere	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	ccomp	_	_
+28	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+29	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	amica	amico	NOUN	S	Gender=Fem|Number=Sing	27	obj	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	8	punct	_	SpaceAfter=No
+32	"	"	PUNCT	FB	_	8	punct	_	_
+
+# sent_id = 9
+# text = Oppura farà un nuovo indirizzo d'e-mail.
+1	Oppura	Oppura	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+2	farà	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	d'	di	ADP	E	_	7	case	_	SpaceAfter=No
+7	e-mail	e-mail	NOUN	S	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = La mia opinione sull'uso di Internet ha tanti vantaggi e anche tanti svantaggi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4-5	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+4	su	su	ADP	E	_	6	case	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
+6	uso	uso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	Internet	Internet	PROPN	SP	_	6	nmod	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	anche	anche	ADV	B	_	15	advmod	_	_
+14	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	15	det	_	_
+15	svantaggi	svantaggio	NOUN	S	Gender=Masc|Number=Plur	11	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Ci sono vantaggi per esempio:
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	vantaggi	vantaggio	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 12
+# text = è più facile mandare la lettera oppure possiamo prenotare i biglietti del teatro e quelli del areo o del tram.
+1	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	più	più	ADV	B	_	3	advmod	_	_
+3	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+4	mandare	mandare	VERB	V	VerbForm=Inf	3	csubj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	_
+7	oppure	oppure	CCONJ	CC	_	9	cc	_	_
+8	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	prenotare	prenotare	VERB	V	VerbForm=Inf	3	conj	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	biglietti	biglietto	NOUN	S	Gender=Masc|Number=Plur	9	obj	_	_
+12-13	del	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	quelli	quello	PRON	PD	Gender=Masc|Number=Plur|PronType=Dem	11	conj	_	_
+17-18	del	_	_	_	_	_	_	_	_
+17	di	di	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	areo	areo	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+20	o	o	CCONJ	CC	_	23	cc	_	_
+21-22	del	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	tram	tram	NOUN	S	Gender=Masc	19	conj	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = Possiamo leggere le notizia attuale e possiamo ascoltare la musica.
+1	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	leggere	leggere	VERB	V	VerbForm=Inf	0	root	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	notizia	notizia	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	attuale	attuale	ADJ	A	Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ascoltare	ascoltare	VERB	V	VerbForm=Inf	2	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	musica	musica	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 14
+# text = Ma lo so che ci sono tanti svantaggi p.es.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	6	expl	_	_
+6	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+8	svantaggi	svantaggio	NOUN	S	Gender=Masc|Number=Plur	6	nsubj	_	_
+9	p.es	p.es	NOUN	S	_	8	compound	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = :
+1	:	:	PUNCT	FC	_	0	root	_	_
+
+# sent_id = 16
+# text = ci sono tante persone malattie che molestano tutti.
+1	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	persone	persona	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	_
+5	malattie	malattio	NOUN	S	Gender=Fem|Number=Plur	4	compound	_	_
+6	che	che	PRON	PR	PronType=Rel	7	nsubj	_	_
+7	molestano	molestare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Sulla rete ci sono virus o malattie.
+1-2	Sulla	_	_	_	_	_	_	_	_
+1	Su	su	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	rete	rete	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	virus	virus	NOUN	S	Gender=Masc	5	nsubj	_	_
+7	o	o	CCONJ	CC	_	8	cc	_	_
+8	malattie	malattia	NOUN	S	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = Spero che mi possa aiutare da te.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	possa	potere	AUX	VM	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	aiutare	aiutare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 19
+# text = Baci Maria
+1	Baci	Baci	PROPN	SP	_	0	root	_	_
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

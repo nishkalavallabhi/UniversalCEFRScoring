@@ -1,0 +1,108 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000354_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 16.04.2010 Città X
+1	16.04.2010	16.04.2010	NUM	N	NumType=Card	2	nummod	_	_
+2	Città	città	PROPN	SP	_	0	root	_	_
+3	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Cara Julia Sono in Italia nella citta Città X.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Julia	Julia	PROPN	SP	_	5	nsubj	_	SpacesAfter=\n
+3	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	Italia	Italia	PROPN	SP	_	0	root	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	citta	citta	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9	Città	Città	PROPN	SP	_	8	nmod	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 3
+# text = Mio indirizzo è Strada Maggiore 10.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Strada	strada	PROPN	SP	_	0	root	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	4	flat:name	_	_
+6	10	10	NUM	N	NumType=Card	5	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Sono stato facendo un corso di italiano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	aux:pass	_	_
+3	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Nel corso con me é mio vero amico Pietro.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+6	é	é	CCONJ	CC	_	9	cc	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+8	vero	vero	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	amico	amico	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+10	Pietro	Pietro	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ha venti anni.
+1	Ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	venti	venti	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Lui é polacco anche.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	_
+2	é	é	ADV	B	_	3	advmod	_	_
+3	polacco	polacco	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+4	anche	anche	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Nel mio tempo libero ho suono la chittara.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	libero	libero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	suono	sue	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	chittara	chittara	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 9
+# text = Devo visitare dei musei italiani.
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visitare	visitare	VERB	V	VerbForm=Inf	0	root	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	musei	museo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	italiani	italiano	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Cordiali Saluti, tuo amore Michele
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	Saluti	Saluto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+4	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	amore	amore	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\s\n
+6	Michele	Michele	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+

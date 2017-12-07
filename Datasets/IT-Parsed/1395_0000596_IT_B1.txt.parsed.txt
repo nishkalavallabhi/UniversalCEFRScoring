@@ -1,0 +1,134 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000596_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = 12/01/2010 Cari Mario e Pedro.
+1	12	12	NUM	N	NumType=Card	6	nummod	_	SpaceAfter=No
+2	/	/	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	01	01	NUM	N	NumType=Card	1	compound	_	SpaceAfter=No
+4	/	/	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	2010	2010	NUM	N	NumType=Card	3	compound	_	SpacesAfter=\n\s\s\s\s\s
+6	Cari	caro	PROPN	SP	_	0	root	_	_
+7	Mario	Mario	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Pedro	Pedro	PROPN	SP	_	6	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Come state.
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	state	essere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Io sono a Roma di Italia per fare de corsi d'italiano per apprendere la lingue.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Roma	Roma	PROPN	SP	_	2	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	4	nmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	fare	fare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	de	de	ADP	E	_	10	case	_	_
+10	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+11	d'	di	ADP	E	_	12	case	_	SpaceAfter=No
+12	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	apprendere	apprendere	VERB	V	VerbForm=Inf	10	acl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	lingue	lingua	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Noi siamo molti aggettivo di nazionalità X e cinque espagnoli.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	aggettivo	aggettivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	nazionalità	nazionalità	NOUN	S	Gender=Fem	4	nmod	_	_
+7	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	cinque	cinque	NUM	N	NumType=Card	10	nummod	_	_
+10	espagnoli	espagnolo	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Nostra insegnante à da Firenze.
+1	Nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	insegnante	insegnante	NOUN	S	Number=Sing	3	nsubj	_	_
+3	à	e	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	da	da	ADP	E	_	5	case	_	_
+5	Firenze	Firenze	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Lei chiama Daniella.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Daniella	Daniella	PROPN	SP	_	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Pendante mia tempo libero, io visito la città, faccio di shopping.
+1	Pendante	Pendare	ADP	E	_	3	case	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	visito	visire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	shopping	shopping	NOUN	S	Gender=Masc	11	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 8
+# text = Le sera, io mangio con d'altro aggettivo di nazionalità X nelle ristorante.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	mangio	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	con	con	ADP	E	_	9	case	_	_
+7	d'	di	ADP	E	_	9	case	_	SpaceAfter=No
+8	altro	altro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	aggettivo	aggettivo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	nazionalità	nazionalità	NOUN	S	Gender=Fem	9	nmod	_	_
+12	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	_
+13-14	nelle	_	_	_	_	_	_	_	_
+13	in	in	ADP	E	_	15	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
+15	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Noi mangiamo del specialite regionale.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	mangiamo	mangiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	specialite	specialite	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	regionale	regionale	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Io Rimago ancora due settimane.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	Rimago	Rimago	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = A presto Maria
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	3	advmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

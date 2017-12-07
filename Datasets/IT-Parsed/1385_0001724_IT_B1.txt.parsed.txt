@@ -1,0 +1,127 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001724_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 9 luglio 2011 Caro Daniele, come stai?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	9	9	NUM	N	NumType=Card	1	nmod	_	_
+5	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+7	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+8	Daniele	Daniele	PROPN	SP	_	1	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=\s\n
+10	come	come	SCONJ	CS	_	11	mark	_	_
+11	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Non sto bene, è una settimana orribile.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	7	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+8	orribile	orribile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = In ufficio c'è molto lavoro e giovedi non posso venire alla nostro appuntamento.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	giovedi	giovede	NOUN	S	Gender=Masc|Number=Plur	6	conj	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	venire	venire	VERB	V	VerbForm=Inf	4	advcl	_	_
+12-13	alla	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Siccome il mio capo ha organizzato una riunione, non ho tempo per incontrare con te.
+1	Siccome	siccome	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	capo	capo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	11	punct	_	_
+10	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+11	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	_
+13	per	per	ADP	E	_	14	mark	_	_
+14	incontrare	incontrare	VERB	V	VerbForm=Inf	12	acl	_	_
+15	con	con	ADP	E	_	16	case	_	_
+16	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ma forse tu hai tempo prossimo sabato sera.
+1	Ma	ma	CCONJ	CC	_	4	cc	_	_
+2	forse	forse	ADV	B	_	4	advmod	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+4	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+6	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+7	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Hai voglia di andare a cena in un ristorante tailandese?
+1	Hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	voglia	vogliare	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	cena	cenare	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	tailandese	tailandese	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Conosco un ristorante dove si mangia bene.
+1	Conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	dove	dove	ADV	B	_	6	advmod	_	_
+5	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	6	expl:impers	_	_
+6	mangia	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	bene	bene	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Per favore dirmi, se hai tempo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	favore	favore	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3-4	dirmi	_	_	_	_	_	_	_	SpaceAfter=No
+3	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	se	se	SCONJ	CS	_	7	mark	_	_
+7	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Ciao e tanti saluti Michele
+1	Ciao	ciao	INTJ	I	_	5	discourse	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	saluti	salutare	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpacesAfter=\s\n
+5	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

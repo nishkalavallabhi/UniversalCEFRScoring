@@ -1,0 +1,118 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000258_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 13-03-2012 Liebe Julia, We geht es dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	13-03-2012	13-03-2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Liebe	Liebe	NOUN	NN	_	1	conj	_	_
+6	Julia	Julia	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	We	We	PROPN	VVIMP	Case=Nom|Number=Sing	9	nsubj	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obj	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Es ist schon ein paar Tage dass ich von dir nicht gehört.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	schon	schon	ADV	ADV	_	6	advmod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+5	paar	paar	PRON	PIAT	PronType=Ind	6	det	_	_
+6	Tage	Tag	NOUN	NN	_	0	root	_	_
+7	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	von	von	ADP	APPR	_	10	case	_	_
+10	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	obl	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+12	gehört	gehören	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	6	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Mir geht es gut aber ich habe ein Problem, das du vielleicht lösen kann.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	gut	gut	ADV	ADJD	_	5	advmod	_	_
+5	aber	aber	ADV	ADV	_	2	advmod	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+8	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Problem	Problem	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	das	der	PRON	PRELS	Case=Nom|PronType=Rel	14	nsubj	_	_
+12	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	14	nsubj	_	_
+13	vielleicht	vielleicht	ADV	ADV	_	14	advmod	_	_
+14	lösen	lösen	VERB	VVINF	VerbForm=Inf	9	acl	_	_
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich habe eine Fahrkarte für kommenden wochenendausflug gekauft, aber leider habe ich keine Zeit.Ich habe ein Termin mit meinen Hausartzt.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	kommenden	kommend	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	wochenendausflug	wochenendausflug	NOUN	NN	Case=Dat|Number=Sing	4	nmod	_	_
+8	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	21	punct	_	_
+10	aber	aber	CCONJ	KON	_	21	cc	_	_
+11	leider	leider	ADV	ADV	_	21	advmod	_	_
+12	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+14	keine	kein	PRON	PIAT	PronType=Neg	15	advmod	_	_
+15	Zeit.Ich	Zeit.Ich	ADP	APPR	_	21	case	_	_
+16	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+17	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Termin	Termin	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	21	nsubj	_	_
+19	mit	mit	ADP	APPR	_	21	case	_	_
+20	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Hausartzt	hausartzt	ADJ	VVPP	_	8	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Die Karte ist eine U-Bahnkarte und ich nach stadt Y fahren wollte.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Karte	Karte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	U-Bahnkarte	U-Bahnkarte	NOUN	NN	_	0	root	_	_
+6	und	und	CCONJ	KON	_	11	cc	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+8	nach	nach	ADP	APPR	_	9	case	_	_
+9	stadt	stadt	PROPN	NN	Case=Dat|Number=Sing	11	obl	_	_
+10	Y	Y	PROPN	NE	_	9	appos	_	_
+11	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	5	conj	_	_
+12	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ich möchte gern wissen ob du die Fahrkarte haben möchte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	gern	gern	ADV	ADV	_	4	advmod	_	_
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	ob	ob	SCONJ	ADV	_	9	mark	_	_
+6	du	du	PROPN	PPER	_	9	nsubj	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+9	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+10	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich warte auf eine bisbaldige Antwort dein Michael
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	bisbaldige	bisbaldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpacesAfter=\n
+7	dein	dein	PROPN	PPOSAT	_	0	root	_	_
+8	Michael	Michael	PROPN	NE	_	7	appos	_	SpacesAfter=\n
+

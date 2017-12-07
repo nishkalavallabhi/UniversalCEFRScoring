@@ -1,0 +1,133 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000265_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 13.03.2012 Liebe Julia, Wie geht es dir?
+1	13.03.2012	13.03.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+3	Julia	Julia	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	Wie	Wie	ADV	KOUS	_	6	advmod	_	_
+6	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Mir geht es sehr gut und glücklich.
+1	Mir	ich	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	glücklich	glücklich	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Julia, Ich habe einen Wochenendausflug für Sommer Olimpic nach London gekauft Leider, Ich Kann nicht fahren, weil ich in die Kirche arbeiten muss und kein Zeit habe.
+1	Julia	Julia	NOUN	NE	_	18	dep	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+4	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+5	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Sommer	Sommer	NOUN	NN	Case=Acc|Number=Sing	18	obl	_	_
+9	Olimpic	Olimpic	PROPN	NE	Case=Acc|Number=Sing	18	obj	_	SpacesAfter=\s\s
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	London	London	PROPN	NE	Case=Dat|Number=Sing	18	obl	_	_
+12	gekauft	kaufen	ADJ	VVPP	_	13	advmod	_	_
+13	Leider	leider	ADV	ADV	_	11	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	18	punct	_	_
+15	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	Kann	Kann	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	18	advmod	_	_
+18	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	18	punct	_	_
+20	weil	weil	SCONJ	KOUS	_	25	mark	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+22	in	in	ADP	APPR	_	24	case	_	_
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Kirche	Kirche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obl	_	_
+25	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	18	advcl	_	_
+26	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+27	und	und	CCONJ	KON	_	30	cc	_	_
+28	kein	kein	PRON	PIAT	PronType=Neg	29	advmod	_	_
+29	Zeit	Zeit	NOUN	NN	_	30	obj	_	_
+30	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	conj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	18	punct	_	_
+
+# sent_id = 4
+# text = Möchtest du die Fahrkarte nach London?
+1	Möchtest	Möchtest	PROPN	NN	_	0	root	_	_
+2	du	du	PROPN	PPER	_	1	flat	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	nach	nach	ADP	APPR	_	6	case	_	_
+6	London	London	PROPN	NE	Case=Dat|Number=Sing	1	nmod	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	6	flat	_	_
+
+# sent_id = 5
+# text = Und Ich bringe das zu Haus.
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	Haus	Haus	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Gebt es moglichkeit, verkehrsmittel zu Haus kommen?
+1	Gebt	geben	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	expl	_	_
+3	moglichkeit	moglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	verkehrsmittel	verkehrsmittel	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+6	zu	zu	ADP	APPR	_	7	case	_	_
+7	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+8	kommen	kommen	VERB	VVINF	VerbForm=Inf	1	xcomp	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Wie weit das Haus vom Bus Haltstelle in der Bahnhofsstraße.
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	weit	weit	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+5-6	vom	_	_	_	_	_	_	_	_
+5	von	von	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Bus	Bus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+8	Haltstelle	Haltstelle	PROPN	NN	_	7	appos	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Bahnhofsstraße	Bahnhofsstraße	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ich möchte am Samstag die Fahrkarte zu dir geben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+8	zu	zu	ADP	APPR	_	9	case	_	_
+9	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	obl	_	_
+10	geben	geben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Bitte antwort mir schnell, dein, Tobias
+1	Bitte	Bitte	PART	ADV	_	2	aux	_	_
+2	antwort	antwort	NOUN	NN	_	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	schnell	schnellen	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\n
+6	dein	dein	PROPN	PPOSAT	_	4	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\n
+8	Tobias	Tobias	PROPN	NN	_	2	appos	_	SpacesAfter=\n
+

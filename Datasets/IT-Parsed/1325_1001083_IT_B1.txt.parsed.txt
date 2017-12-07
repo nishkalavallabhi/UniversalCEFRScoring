@@ -1,0 +1,307 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001083_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Centro culturale internazionale Città X, Paese X 1234 "Aggiungi un posto a tavola" Strada Maggiore 23/3
+1	Maria	Maria	PROPN	SP	_	13	nsubj	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Centro	centro	PROPN	SP	_	1	flat:name	_	_
+4	culturale	culturale	ADJ	A	Number=Sing	1	amod	_	_
+5	internazionale	internazionale	ADJ	A	Number=Sing	1	amod	_	SpacesAfter=\s\n
+6	Città	Città	PROPN	SP	_	1	flat:name	_	_
+7	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	1	punct	_	_
+9	Paese	paese	PROPN	SP	_	1	nmod	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	_
+11	1234	1234	NUM	N	NumType=Card	9	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	Aggiungi	Aggiungi	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	posto	posto	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	tavola	tavola	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	19	punct	_	SpacesAfter=\s\n
+19	Strada	Strada	PROPN	SP	_	17	nmod	_	_
+20	Maggiore	Maggiore	PROPN	SP	_	19	flat:name	_	_
+21	23	23	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+22	/	/	PUNCT	FF	_	21	punct	_	SpaceAfter=No
+23	3	3	NUM	N	NumType=Card	21	compound	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 2
+# text = Via dei Mille 48, 17021 Alassio (SV)
+1	Via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	dei	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	Mille	mille	PROPN	SP	_	1	nmod	_	_
+5	48	48	NUM	N	NumType=Card	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	17021	17021	NUM	N	NumType=Card	8	nummod	_	_
+8	Alassio	Alassio	PROPN	SP	_	10	nmod	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	SV	SV	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 3
+# text = Ogetto:
+1	Ogetto	Ogetto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 4
+# text = Chiedere informazioni Città X, 01.05.2011 Gentile Signore / Signora, ho letto il Vostro annuncio sul' internet.
+1	Chiedere	chiedere	VERB	V	VerbForm=Inf	13	advcl	_	_
+2	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s
+3	Città	Città	PROPN	SP	_	2	obj	_	_
+4	X	X	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	01.05.2011	01.05.201l	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	SpacesAfter=\s\n
+7	Gentile	gentile	PROPN	SP	_	3	conj	_	_
+8	Signore	signore	PROPN	SP	_	7	flat:name	_	_
+9	/	/	PUNCT	FF	_	7	punct	_	_
+10	Signora	signore	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+12	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+15	Vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	annuncio	annunciare	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+17	sul'	sulo	DET	RD	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
+18	internet	internet	NOUN	S	_	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 5
+# text = Io sono Maria Rossi, io abito a Città X in Paese X vicino a Città Y.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Maria	Maria	PROPN	SP	_	0	root	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	6	punct	_	_
+6	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	abito	abitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Città	Città	PROPN	SP	_	7	obl	_	_
+10	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	9	amod	_	_
+11	in	in	ADP	E	_	12	case	_	_
+12	Paese	paese	PROPN	SP	_	9	nmod	_	_
+13	X	X	PROPN	SP	_	12	flat:name	_	_
+14	vicino	vicino	ADV	B	_	16	case	_	_
+15	a	a	ADP	E	_	14	fixed	_	_
+16	Città	città	PROPN	SP	_	7	obl	_	_
+17	Y.	Y.	PROPN	SP	_	16	flat:name	_	_
+
+# sent_id = 6
+# text = Mi piace cucinare molto!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cucinare	cucinare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	molto	molto	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Mi interessa la cucina italiana e mi piace mangiare.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	interessa	interettere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+9	mangiare	mangiare	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Io non ho molto tempo libero, ma i piatti secondo la mia opinione sono molto importanti per una famiglia.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	libero	libero	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	17	punct	_	_
+8	ma	ma	CCONJ	CC	_	17	cc	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	piatti	piatto	NOUN	S	Gender=Masc|Number=Plur	17	nsubj	_	_
+11	secondo	secondo	ADP	E	_	14	case	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	opinione	opinione	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+15	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	importanti	importante	ADJ	A	Number=Plur	3	conj	_	_
+18	per	per	ADP	E	_	20	case	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Quanto costa questa serate?
+1	Quanto	quanto	PRON	PQ	Number=Sing|PronType=Int	2	obl	_	_
+2	costa	costare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	serate	serata	NOUN	S	Gender=Fem|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Devo mandare caparra?
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	mandare	mandare	VERB	V	VerbForm=Inf	0	root	_	_
+3	caparra	caparra	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Posso pagare con carta di credito?
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pagare	pagare	VERB	V	VerbForm=Inf	0	root	_	_
+3	con	con	ADP	E	_	4	case	_	_
+4	carta	carta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	credito	credito	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Mi piacciono i frutti e mi piace anche la carne.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacciono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	frutti	frutto	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	anche	anche	ADV	B	_	10	advmod	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	carne	carne	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Io non ho allergia.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	allergia	allergiare	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = (Sono fortunata).
+1	(	(	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+2	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	fortunata	fortunare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+4	)	)	PUNCT	FB	_	3	punct	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 15
+# text = Io preferisco la gallina.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	preferisco	preferire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	gallina	gallina	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Il sabato sera io ho un po' tempo libero.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	sera	sera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	po'	poco	ADV	B	_	8	advmod	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	libero	libero	ADJ	A	Gender=Masc|Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 17
+# text = Secondo me il culinare è molto interessante e una tavola famiglia è molto importante.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	obl	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	culinare	culinare	NOUN	S	Gender=Masc	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	interessante	interessante	ADJ	A	Number=Sing	0	root	_	_
+8	e	e	CCONJ	CC	_	14	cc	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	tavola	tavola	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	14	nsubj	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	importante	importante	ADJ	A	Number=Sing	7	conj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = Se il prezzo è ideale per me, io vorrei presentarmi!
+1	Se	se	SCONJ	CS	_	5	mark	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	ideale	ideale	ADJ	A	Number=Sing	11	advcl	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11-12	presentarmi	_	_	_	_	_	_	_	SpaceAfter=No
+11	presentar	presentare	VERB	V	VerbForm=Inf	0	root	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	obj	_	_
+13	!	!	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 19
+# text = Io vorrei comprare un libro di cucina internazionale.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	comprare	comprare	VERB	V	VerbForm=Inf	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	libro	libro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	cucina	cucina	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+8	internazionale	internazionale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = C'è?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Vorrei chiedere infomazioni!
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	infomazioni	infomazione	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Devo studiare cuochi per passione!
+1	Devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+3	cuochi	cuoco	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	passione	passione	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 23
+# text = Sono molto motivata!
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	motivata	motivato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 24
+# text = Grazie della vostra risposta!
+1	Grazie	grazie	NOUN	S	_	5	nmod	_	_
+2-3	della	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 25
+# text = In fede, Maria Rossi
+1	In	in	ADP	E	_	2	case	_	_
+2	fede	fede	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Maria	Maria	PROPN	SP	_	0	root	_	_
+5	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

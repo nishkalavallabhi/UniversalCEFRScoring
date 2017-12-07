@@ -1,0 +1,232 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000684_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi Strada Maggiore 12/97 12345 Città X Spett.le Societa Solidarietà Viva Viale Bruzzi 117 Milano All'attenzione della Spettabile Societa Solidarietà Viva
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	12	12	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+6	/	/	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	97	97	NUM	N	NumType=Card	5	compound	_	SpacesAfter=\n
+8	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+9	Città	Città	PROPN	SP	_	1	flat:name	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	Spett.le	Spett.le	PROPN	SP	_	9	flat:name	_	_
+12	Societa	Societa	PROPN	SP	_	9	flat:name	_	SpacesAfter=\s\s\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	Solidarietà	solidarietà	PROPN	SP	_	9	flat:name	_	_
+14	Viva	viva	PROPN	SP	_	18	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+15	Viale	viale	PROPN	SP	_	14	flat:name	_	_
+16	Bruzzi	Bruzzi	PROPN	SP	_	14	flat:name	_	_
+17	117	117	NUM	N	NumType=Card	18	nummod	_	_
+18	Milano	Milano	PROPN	SP	_	9	nmod	_	SpacesAfter=\s\n
+19-20	All'	_	_	_	_	_	_	_	SpaceAfter=No
+19	A	a	ADP	E	_	21	case	_	_
+20	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
+21	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+22-23	della	_	_	_	_	_	_	_	_
+22	di	di	ADP	E	_	24	case	_	_
+23	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Spettabile	Spettabile	PROPN	SP	_	21	nmod	_	_
+25	Societa	Societa	PROPN	SP	_	24	flat:name	_	_
+26	Solidarietà	solidarietà	PROPN	SP	_	1	flat:name	_	_
+27	Viva	viva	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Mi chiamo Michele Rossi e sono laureato in lingue con spezializzazione in lingua italiana e francese presso l' Universita Università X a Città Y.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Michele	Michele	PROPN	SP	_	2	obj	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	con	con	ADP	E	_	11	case	_	_
+11	spezializzazione	spezializzazione	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+14	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	13	amod	_	_
+15	e	e	CCONJ	CC	_	16	cc	_	_
+16	francese	francese	ADJ	A	Number=Sing	14	conj	_	_
+17	presso	presso	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	Universita	Universita	PROPN	SP	_	23	obl	_	_
+20	Università	università	PROPN	SP	_	19	flat:name	_	_
+21	X	X	PROPN	SP	_	19	flat:name	_	SpacesAfter=\s\s
+22	a	a	ADP	E	_	23	case	_	_
+23	Città	Città	PROPN	SP	_	7	obl	_	_
+24	Y.	Y.	PROPN	SP	_	23	flat:name	_	_
+
+# sent_id = 3
+# text = Dopo aver conseguito laurea, ho lavorato per tre anni come interprete simultaneo in Africa e in Asia.
+1	Dopo	dopo	SCONJ	CS	_	3	mark	_	_
+2	aver	avere	AUX	VA	VerbForm=Inf	3	aux	_	_
+3	conseguito	conseguire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	_
+4	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+8	per	per	ADP	E	_	10	case	_	_
+9	tre	tre	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	obl	_	_
+11	come	come	ADP	E	_	12	case	_	_
+12	interprete	interprete	NOUN	S	Number=Sing	7	obl	_	_
+13	simultaneo	simultaneo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Africa	Africa	PROPN	SP	_	12	nmod	_	_
+16	e	e	CCONJ	CC	_	18	cc	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Asia	Asia	PROPN	SP	_	15	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 4
+# text = Conosco anche la lingua inglese.
+1	Conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	anche	anche	ADV	B	_	4	advmod	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	inglese	inglese	ADJ	A	Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Attualmente lavoro e abito in Paese X, a Città Z , come traduttore freelance.
+1	Attualmente	attualmente	ADV	B	_	2	advmod	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Paese	paese	PROPN	SP	_	4	obl	_	_
+7	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Città	città	PROPN	SP	_	2	conj	_	_
+11	Z	Z	PROPN	SP	_	10	flat:name	_	_
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	come	come	ADP	E	_	14	case	_	_
+14	traduttore	traduttore	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	freelance	freelance	ADJ	A	Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\s\s\s\s\n
+
+# sent_id = 6
+# text = Sarei veramente interessato a collaborare con voi durante il periodo estivo in giugno e agosto.
+1	Sarei	essere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	veramente	veramente	ADV	B	_	3	advmod	_	_
+3	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5	collaborare	collaborare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	5	obl	_	_
+8	durante	durante	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+11	estivo	estivo	ADJ	A	Gender=Masc|Number=Sing	10	amod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ritengo che le mie competenze da me acquiste possono essere utili per organizzare il recupero di materiale riciclabile anche all'estero in caso in cui l'interprete è necessario.
+1	Ritengo	ritenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	11	mark	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	competenze	competenza	NOUN	S	Gender=Fem|Number=Plur	11	nsubj	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	me	me	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	acquiste	acquistere	ADJ	A	Gender=Fem|Number=Plur	7	amod	_	_
+9	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	essere	essere	AUX	V	VerbForm=Inf	11	cop	_	_
+11	utili	utile	ADJ	A	Number=Plur	1	ccomp	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	organizzare	organizzare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	recupero	recupero	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	materiale	materiale	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	_
+18	riciclabile	riciclabile	ADJ	A	Number=Sing	17	amod	_	_
+19	anche	anche	ADV	B	_	22	advmod	_	_
+20-21	all'	_	_	_	_	_	_	_	SpaceAfter=No
+20	a	a	ADP	E	_	22	case	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
+22	estero	estero	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+23	in	in	ADP	E	_	24	case	_	_
+24	caso	caso	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	cui	cui	PRON	PR	PronType=Rel	30	obl	_	_
+27	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	28	det	_	SpaceAfter=No
+28	interprete	interprete	NOUN	S	Number=Sing	30	nsubj	_	_
+29	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	necessario	necessario	ADJ	A	Gender=Masc|Number=Sing	24	acl:relcl	_	SpaceAfter=No
+31	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Sono automunito, amo viaggiare, e sono disponibile ad efettuare transferite periodiche ed a transferirmi all'estero.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	automunito	automunito	ADJ	A	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	amo	amare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	viaggiare	viaggiare	VERB	V	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	9	punct	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	disponibile	disponibile	ADJ	A	Number=Sing	5	conj	_	_
+10	ad	a	ADP	E	_	11	mark	_	_
+11	efettuare	efettuare	VERB	V	VerbForm=Inf	9	advcl	_	_
+12	transferite	transferita	NOUN	S	Gender=Fem|Number=Plur	11	obj	_	_
+13	periodiche	periodico	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	_
+14	ed	e	CCONJ	CC	_	16	cc	_	_
+15	a	a	ADP	E	_	16	mark	_	_
+16-17	transferirmi	_	_	_	_	_	_	_	_
+16	transferir	transferire	VERB	V	VerbForm=Inf	11	conj	_	_
+17	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+18-19	all'	_	_	_	_	_	_	_	SpaceAfter=No
+18	a	a	ADP	E	_	20	case	_	_
+19	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
+20	estero	estero	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Con la presente Vi sottopongo il mio curriculum vitae.
+1	Con	con	ADP	E	_	4	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	presente	presente	ADJ	A	Number=Sing	4	amod	_	_
+4	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	obl	_	_
+5	sottopongo	sottoporre	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	curriculum	curriculum	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9	vitae	vitae	ADJ	A	Number=Sing	8	amod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 10
+# text = Nel caso in cui siate alla ricerca d'interprete gradirei una eventuale collaborazione.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	caso	caso	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+6	siate	siare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ricerca	ricerca	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	interprete	interprete	NOUN	S	Number=Sing	9	nmod	_	_
+12	gradirei	gradire	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	eventuale	eventuale	ADJ	A	Number=Sing	15	amod	_	_
+15	collaborazione	collaborazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Cordiali saluti Michele Rossi
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,166 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000560_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X,Gennaio 11 Caro Marco!
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X,Gennaio	X,Gennaio	PROPN	SP	_	1	flat:name	_	_
+3	11	11	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+5	Marco	Marco	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Come stai a Città X?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	2	obl	_	_
+5	X	X	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Sai, vorrei trovarti nelle prossime vacanze.
+1	Sai	Sai	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trovarti	trovartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5-6	nelle	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	8	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+7	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	8	amod	_	_
+8	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Come posso arrivare a casa tua?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = C'è un tram o un treno dell'aeroporto al centro di Città X?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tram	tram	NOUN	S	Gender=Masc	2	nsubj	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	treno	treno	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8-9	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+8	di	di	ADP	E	_	10	case	_	_
+9	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
+10	aeroporto	aeroporto	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+11-12	al	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	Città	città	PROPN	SP	_	13	nmod	_	_
+16	X	X	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = O puoi andare a prendermi in macchina?
+1	O	o	CCONJ	CC	_	3	cc	_	_
+2	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	prendermi	_	_	_	_	_	_	_	_
+5	prender	prendere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = E quanto tempo posso rimanere a casa tua?
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	quanto	quanto	ADV	B	_	3	advmod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	rimanere	rimanere	VERB	V	VerbForm=Inf	0	root	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Altrimenti prenoterò una camera d'albergo nel centro.
+1	Altrimenti	altrimenti	ADV	B	_	2	advmod	_	_
+2	prenoterò	prenotare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	camera	camera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7-8	nel	_	_	_	_	_	_	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	centro	centro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Penso che ci sono molte le possibilità per fare shopping a Città X, vero?
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	molte	molto	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	possibilità	possibilità	NOUN	S	Gender=Fem	5	nsubj	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	shopping	shopping	NOUN	S	_	9	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Città	città	PROPN	SP	_	9	obl	_	_
+13	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	vero	vero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+16	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Tu conosci i bei ristoranti o le discoteche in città?
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	conosci	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+4	bei	bello	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	SpacesAfter=\s\s
+5	ristoranti	ristorante	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6	o	o	CCONJ	CC	_	8	cc	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	discoteche	discoteca	NOUN	S	Gender=Fem|Number=Plur	5	conj	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	città	città	NOUN	S	Gender=Fem	8	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Che altre cose possiamo fare la sera?
+1	Che	che	DET	DQ	PronType=Int	3	det	_	_
+2	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 12
+# text = Vorrei uscire insieme!
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	uscire	uscire	VERB	V	VerbForm=Inf	0	root	_	_
+3	insieme	insieme	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = A presto, ti voglio bene, saluti,Maria
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	5	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	iobj	_	_
+5	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	_
+8	saluti,Maria	saluti,Maria	PROPN	SP	_	5	nsubj	_	SpacesAfter=\n
+

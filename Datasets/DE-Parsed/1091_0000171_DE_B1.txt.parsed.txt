@@ -1,0 +1,122 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000171_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Seher geeherter Herr Meier in zwei Tage fahre ich nach Stadt X wegen eine Geschefts arbeit.
+1	Seher	Seher	ADV	ADV	_	2	advmod	_	_
+2	geeherter	geeherter	ADJ	ADJA	Degree=Cmp,Pos	3	amod	_	_
+3	Herr	Herr	NOUN	NN	_	4	compound	_	_
+4	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	15	nsubj	_	SpacesAfter=\n
+5	in	in	ADP	APPR	_	8	case	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Tage	Tag	NOUN	NN	_	8	nmod	_	_
+8	fahre	fahren	NOUN	NN	Case=Gen|Number=Plur	4	nmod	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	15	obl	_	_
+12	X	X	PROPN	NN	_	11	appos	_	_
+13	wegen	wegen	ADP	APPR	_	15	case	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Geschefts	Geschefts	PROPN	NN	_	0	root	_	_
+16	arbeit	arbeit	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	15	flat	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Deswegen kann ich nicht meine Katze mir nehmen.
+1	Deswegen	deswegen	ADV	PAV	_	8	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Katze	Katze	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obj	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Könnten sie bitte sich um meine Katze kummern, während ich nicht zu Hause bin.
+1	Könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+3	bitte	bitten	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpacesAfter=\s\s
+4	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	SpacesAfter=\s\s
+5	um	um	ADP	APPR	_	7	case	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	kummern	kummern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	während	während	SCONJ	KOUS	_	15	mark	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	nicht	nicht	PART	PTKNEG	Polarity=Neg	15	advmod	_	_
+13	zu	zu	ADP	APPR	_	14	case	_	_
+14	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	15	obl	_	_
+15	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\s
+
+# sent_id = 4
+# text = Das was sie frißt habe ich alles früher gekauft.
+1	Das	der	SCONJ	ART	_	4	mark	_	_
+2	was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	frißt	frißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+7	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	9	nsubj	_	_
+8	früher	früher	ADJ	ADJD	Degree=Cmp,Pos	9	advmod	_	_
+9	gekauft	kaufen	VERB	VVPP	VerbForm=Part	4	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = nur Sie braucht jemand welsche um sie kummert.
+1	nur	nur	ADV	ADV	_	2	advmod	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+3	braucht	brauchen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+4	jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+5	welsche	welsch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	9	amod	_	_
+6	um	um	ADP	APPR	_	8	mark	_	_
+7	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	obj	_	_
+8	kummert	kummern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = und ich denke sie sind die richtige Person.
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	denke	denk	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+7	richtige	richtig	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Person	Person	NOUN	NN	_	3	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 7
+# text = Ich freue mich sehr, wenn Sie mir helfen kann es wäre schön, wenn Sie mir sobald Bescheid geben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	sehr	sehr	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+7	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	9	nsubj	_	_
+8	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+9	helfen	helfen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+10	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+13	schön	schön	ADJ	ADJD	Degree=Pos	9	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	9	punct	_	_
+15	wenn	wenn	SCONJ	KOUS	_	20	mark	_	_
+16	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	20	nsubj	_	_
+17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	20	iobj	_	_
+18	sobald	sobald	ADV	ADV	_	20	advmod	_	_
+19	Bescheid	Bescheid	NOUN	NN	Case=Acc|Number=Sing	20	obj	_	_
+20	geben	geben	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Mit freundlischen Grüßen.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlischen	freundlischen	ADJ	ADJA	Degree=Pos	3	advmod	_	_
+3	Grüßen	grüßen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+

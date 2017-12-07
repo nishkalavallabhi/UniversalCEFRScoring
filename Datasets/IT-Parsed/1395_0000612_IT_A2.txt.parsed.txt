@@ -1,0 +1,141 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000612_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, Martedi 12 gennaio 2010 Cari Amici, Stiamo facendo un corso d'Italiano a la scuola di Firenze:
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	Martedi	Martede	PROPN	SP	_	1	nmod	_	_
+5	12	12	NUM	N	NumType=Card	4	nmod	_	_
+6	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	2010	2010	NUM	N	NumType=Card	5	flat	_	SpacesAfter=\s\n
+8	Cari	caro	PROPN	SP	_	1	nmod	_	_
+9	Amici	Amici	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+11	Stiamo	stare	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	facendo	fare	VERB	V	VerbForm=Ger	1	advcl	_	_
+13	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	corso	corso	NOUN	S	Gender=Masc|Number=Sing	12	obj	_	_
+15	d'	di	ADP	E	_	16	case	_	SpaceAfter=No
+16	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	14	nmod	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Firenze	Firenze	PROPN	SP	_	19	nmod	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = la nostra insegnante è molta agradable.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	molta	molto	ADV	B	_	6	advmod	_	_
+6	agradable	agradable	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Come lo savete stiamo partiti in Italia per imparare meglio la lingua perque queste estate vogliamo a pasare qualque giorno a Città X.
+1	Come	come	ADV	B	_	5	advmod	_	_
+2	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+3	savete	savete	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	partiti	partire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	13	advcl	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	Italia	Italia	PROPN	SP	_	5	obl	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	imparare	imparare	VERB	V	VerbForm=Inf	13	advcl	_	_
+10	meglio	meglio	ADV	B	_	9	advmod	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+13	perque	perque	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+14	queste	questo	DET	DD	Gender=Fem|Number=Plur|PronType=Dem	15	det	_	_
+15	estate	estate	NOUN	S	Gender=Fem|Number=Sing	13	obj	_	_
+16	vogliamo	volere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+17	a	a	ADP	E	_	18	mark	_	_
+18	pasare	pasare	VERB	V	VerbForm=Inf	16	xcomp	_	_
+19	qualque	qualque	DET	DI	Number=Sing|PronType=Ind	20	det	_	_
+20	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	18	obj	_	_
+21	a	a	ADP	E	_	22	case	_	_
+22	Città	città	PROPN	SP	_	18	obl	_	_
+23	X	x	ADJ	NO	Number=Sing|NumType=Ord	22	amod	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 4
+# text = Clara, la nostra insegnante, è contenta perqué le studiente lavorano bene.
+1	Clara	Clara	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	insegnante	insegnante	NOUN	S	Number=Sing	1	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	contenta	contentare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+9	perqué	perqué	SCONJ	CS	_	12	mark	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	studiente	studiente	NOUN	S	Number=Sing	12	nsubj	_	_
+12	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+13	bene	bene	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = Stiamo diece studiente:
+1	Stiamo	stare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	diece	diece	ADP	E	_	3	case	_	_
+3	studiente	studiente	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+4	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 6
+# text = otto donne e due signore.
+1	otto	otto	NUM	N	NumType=Card	2	nummod	_	_
+2	donne	donna	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	_
+5	signore	signore	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Loggiamo in un collegio dove si mangia e si dorme bene.
+1	Loggiamo	Loggare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	collegio	collegio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	dove	dove	ADV	B	_	7	advmod	_	_
+6	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	7	expl:impers	_	_
+7	mangia	mangiare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl:impers	_	_
+10	dorme	dormire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = La sera visitamo un po' la citta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+3	visitamo	visitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	po'	poco	ADV	B	_	3	advmod	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	citta	citta	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Vi lo dirò.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	_
+2	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+3	dirò	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Bacio a tutti.
+1	Bacio	Bacio	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	1	obl	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Maria
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

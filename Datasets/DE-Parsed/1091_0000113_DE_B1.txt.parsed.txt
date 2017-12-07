@@ -1,0 +1,115 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000113_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liber Michael, Wie gehet es dir?
+1	Liber	Liber	PROPN	NN	_	5	dep	_	_
+2	Michael	Michael	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Wie	Wie	ADV	KOUS	_	5	advmod	_	_
+5	gehet	gehen	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ich höffe, dass du viel Zeit hast und schlage dir einen Wochenendausflug vor.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	höffe	höffen	NOUN	NN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	det	_	_
+6	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	schlage	schlagen	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	obj	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	vor	vor	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Leider, kann ich nicht mit dir fahren.
+1	Leider	leider	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	8	punct	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	obl	_	_
+8	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Am letzte Woche habe ich einen Wochenendticket eingekauft um einen Ausflug nach Stadt X am nächste Samstag mache.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+3	letzte	letzt	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Woche	Woche	NOUN	NN	_	9	obl	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|PronType=Art	8	det	_	_
+8	Wochenendticket	Wochenendticket	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	9	obj	_	_
+9	eingekauft	eingekaufen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	um	um	ADP	APPR	_	12	case	_	_
+11	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Ausflug	Ausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	_
+13	nach	nach	ADP	APPR	_	14	case	_	_
+14	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	12	nmod	_	_
+15	X	X	PROPN	NN	_	14	appos	_	_
+16-17	am	_	_	_	_	_	_	_	_
+16	an	an	ADP	APPR	_	20	case	_	_
+17	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	20	det	_	_
+18	nächste	nah	ADJ	ADJA	_	20	amod	_	_
+19	Samstag	samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	amod	_	_
+20	mache	mach	NOUN	NN	Case=Dat|Number=Sing	12	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Aber wegen einer schwere Krankheit meiner Tochter, muss ich mich um meinen beiden Enkelinen kümmern.
+1	Aber	aber	ADV	KON	_	5	advmod	_	_
+2	wegen	wegen	ADP	APPR	_	5	case	_	_
+3	einer	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	schwere	schwer	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Krankheit	Krankheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+6	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Tochter	Tochter	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	16	obj	_	_
+12	um	um	ADP	APPR	_	15	case	_	_
+13	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
+14	beiden	beide	PRON	PIAT	Case=Dat|Number=Plur|NumType=Card|PronType=Tot	15	det	_	_
+15	Enkelinen	Enkeline	NOUN	NN	Case=Dat|Number=Plur	16	obl	_	_
+16	kümmern	kümmern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 6
+# text = Vielleicht hast du Lust um dise schöne Stadt zu besuchen?
+1	Vielleicht	vielleicht	ADV	ADV	_	10	advmod	_	_
+2	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	10	nsubj	_	_
+4	Lust	Lust	PROPN	NN	_	3	appos	_	_
+5	um	um	ADP	APPR	_	8	case	_	_
+6	dise	dise	ADV	ADV	_	8	advmod	_	_
+7	schöne	schön	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Stadt	Stadt	NOUN	NN	_	3	nmod	_	_
+9	zu	zu	PART	PTKZU	_	10	mark	_	_
+10	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit freundliche Grüße!
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Dein Stefan
+1	Dein	dein	PROPN	PPOSAT	_	0	root	_	_
+2	Stefan	Stefan	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

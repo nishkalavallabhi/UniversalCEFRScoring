@@ -1,0 +1,59 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000069_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Frau Müller Stadt X 06-01-2012 Ich fliege Am Montag un 7 uhr nach Moskau Können Sie bitte meine Katze füttern?
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	2	amod	_	_
+2	Frau	Frau	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+3	Müller	Müller	PROPN	NE	_	2	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	3	flat	_	_
+5	X	X	PROPN	NN	_	3	appos	_	_
+6	06-01-2012	06-01-2012	PROPN	CARD	_	5	flat	_	SpacesAfter=\n
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	fliege	fliege	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9-10	Am	_	_	_	_	_	_	_	_
+9	An	an	PROPN	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+12	un	un	PROPN	VVFIN	_	13	cc	_	_
+13	7	7	PROPN	CARD	_	11	appos	_	_
+14	uhr	uhr	PROPN	NN	Case=Nom|Number=Sing	13	flat	_	_
+15	nach	nach	ADP	APPR	_	16	case	_	_
+16	Moskau	moskau	PROPN	NE	Case=Dat|Number=Sing	8	obl	_	_
+17	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+18	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	22	nsubj	_	_
+19	bitte	bitten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+20	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+22	füttern	füttern	VERB	VVINF	VerbForm=Inf	8	conj	_	SpaceAfter=No
+23	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich werfe meinen Schlüssel in dar Briefkasten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	werfe	werfen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Schlüssel	Schlüssel	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dar	dar	ADJ	ADJD	Degree=Pos	7	amod	_	_
+7	Briefkasten	Briefkasen	NOUN	NN	_	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Am Freitag bin ich Zurück Vielen Dak im Voraus für Ihre Hilfe
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
+4	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	Zurück	zurück	ADV	ADV	_	7	advmod	_	SpacesAfter=\n
+7	Vielen	viel	ADJ	PIAT	Degree=Pos	8	amod	_	_
+8	Dak	Dak	NOUN	NN	_	0	root	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	14	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+11	Voraus	voraus	ADV	ADV	_	14	advmod	_	_
+12	für	für	ADP	APPR	_	14	case	_	_
+13	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Hilfe	Hilfe	NOUN	NN	_	8	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,135 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000369_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 29.
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	29	29	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Marzo 2010 Caro Giovanni come stai?
+1	Marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	2010	2010	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\n
+3	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+4	Giovanni	Giovanni	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+5	come	come	ADP	E	_	6	case	_	_
+6	stai	stare	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Da due anni non ci siamo più visti.
+1	Da	da	ADP	E	_	3	case	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	8	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	più	più	ADV	B	_	8	advmod	_	_
+8	visti	vedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = Io sto molto bene, come anche mia famiglia.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	come	come	ADP	E	_	9	case	_	_
+7	anche	anche	ADV	B	_	9	advmod	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 5
+# text = Il lavoro mi piace molto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Attualmente sto faccendo un corso in italiano a livello A2.
+1	Attualmente	attualmente	ADV	B	_	3	advmod	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	faccendo	faccere	VERB	V	VerbForm=Ger	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	livello	livello	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	A2	A2	PROPN	SP	_	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = In febbraio eravamo una settimana à Città X per sciare.
+1	In	in	ADP	E	_	2	case	_	_
+2	febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+3	eravamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	6	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	settimana	settimano	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+6	à	à	NOUN	S	Gender=Fem	0	root	_	_
+7	Città	Città	PROPN	SP	_	6	nsubj	_	_
+8	X	X	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	_
+9	per	per	ADP	E	_	10	mark	_	_
+10	sciare	sciare	VERB	V	VerbForm=Inf	7	acl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Senti Giovanni, vorrei fare con te un appuntamento per incontrarci.
+1	Senti	sentire	NOUN	S	Number=Plur	5	nsubj	_	_
+2	Giovanni	Giovanni	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+6	con	con	ADP	E	_	7	case	_	_
+7	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	obl	_	_
+8	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	incontrarci	_	_	_	_	_	_	_	SpaceAfter=No
+11	incontrar	incontrare	VERB	V	VerbForm=Inf	5	advcl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Fammi sapere quando avresti tempo.
+1	Fammi	Fammo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	1	csubj	_	_
+3	quando	quando	SCONJ	CS	_	5	mark	_	_
+4	avresti	avresto	DET	DD	Gender=Masc|Number=Plur|PronType=Dem	5	det	_	_
+5	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Per me andrebbe bene il lunedi prossimo, cioè lundi di pasqua.
+1	Per	per	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	andrebbe	andre	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lunedi	lunede	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	_
+7	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	6	punct	_	_
+9	cioè	cioè	ADV	B	_	10	advmod	_	_
+10	lundi	lundi	ADJ	A	Gender=Masc|Number=Plur	6	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	pasqua	pasqua	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Con tanti cari saluti e buona pasqua Michele
+1	Con	con	ADP	E	_	3	case	_	_
+2	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+3	cari	caro	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+4	saluti	saluto	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	buona	buono	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	_
+7	pasqua	pasqua	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	SpacesAfter=\n
+8	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,67 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000235_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 12-3-2012 Liebe Julia, wie geht´s dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	12-3-2012	12-3-2012	PROPN	CARD	_	4	amod	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+5	Julia	Julia	PROPN	NE	_	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s
+7	wie	wie	ADP	KOUS	_	8	case	_	_
+8	geht´s	geht´s	PROPN	NE	_	1	appos	_	_
+9	dir	dir	PROPN	NN	_	8	flat	_	SpaceAfter=No
+10	?	?	PROPN	$.	_	8	flat	_	_
+
+# sent_id = 2
+# text = Ich möchte für zwei tage nach Stadt Y fahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	zwei	zwei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	tage	tagen	NOUN	VVFIN	Case=Acc|Number=Plur	9	obl	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	9	obl	_	_
+8	Y	y	PROPN	NN	_	7	appos	_	_
+9	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Ich habe eine Katz.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	Katz	katz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich kann die nicht mitnehmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	die	der	PRON	ART	Case=Acc|Number=Plur|PronType=Dem	5	obj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Deshalb möchte ich deine hilft von 17 marz bis 20 marz.
+1	Deshalb	deshalb	ADV	PAV	_	5	advmod	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	deine	dein	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+5	hilft	helfen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	von	von	ADP	APPR	_	11	case	_	_
+7	17	17	NUM	CARD	NumType=Card	11	nummod	_	_
+8	marz	marz	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+9	bis	bis	ADP	APPR	_	10	case	_	_
+10	20	20	NUM	CARD	NumType=Card	11	nmod	_	_
+11	marz	marz	ADJ	ADJD	Degree=Pos	5	amod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Vielen danke deine Katharina
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	danke	danken	NOUN	NN	Case=Acc|Number=Sing	0	root	_	SpacesAfter=\s\n
+3	deine	dein	PROPN	NE	_	2	appos	_	SpacesAfter=\s\n
+4	Katharina	Katharina	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,130 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000216_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Friedrich Winkelmann den 10 April 2012 Zentralplatz 10 Stadt X Sehr geehrte Damen und Herrn Ich suche einen Wohnung in der Nähe Stadt Y. Ich würde gern einen Wohnung mit 3 Zimmer Küche und Bad Suchen.
+1	Friedrich	Friedrich	PROPN	NE	_	7	compound	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	den	der	PROPN	ART	_	5	nmod	_	_
+4	10	10	PROPN	CARD	_	5	nummod	_	_
+5	April	April	PROPN	NN	_	1	appos	_	_
+6	2012	2012	NUM	CARD	NumType=Card	7	nmod	_	SpacesAfter=\n
+7	Zentralplatz	Zentralplatz	NOUN	NN	_	0	root	_	_
+8	10	10	NUM	CARD	NumType=Card	9	nummod	_	SpacesAfter=\n
+9	Stadt	Stadt	NOUN	NN	_	13	nmod	_	_
+10	X	X	PROPN	NN	_	9	appos	_	SpacesAfter=\n
+11	Sehr	Sehr	PROPN	ADV	_	9	appos	_	_
+12	geehrte	geehrt	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Damen	Dame	NOUN	NN	_	7	appos	_	_
+14	und	und	CCONJ	KON	_	36	cc	_	_
+15	Herrn	Herr	NOUN	NN	_	16	compound	_	SpacesAfter=\n
+16	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+17	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	36	obj	_	_
+18	einen	ein	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	19	det	_	_
+19	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	17	iobj	_	_
+20	in	in	ADP	APPR	_	22	case	_	_
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Nähe	Nähe	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
+23	Stadt	Stadt	PROPN	NN	_	22	nmod	_	_
+24	Y.	Y.	PROPN	NE	_	23	appos	_	_
+25	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+26	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	36	aux	_	_
+27	gern	gern	ADV	ADV	_	36	advmod	_	_
+28	einen	ein	DET	PIAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind	29	det	_	_
+29	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	36	obj	_	_
+30	mit	mit	ADP	APPR	_	32	case	_	_
+31	3	3	NUM	CARD	NumType=Card	32	nummod	_	_
+32	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	29	nmod	_	_
+33	Küche	Küche	NOUN	NN	_	32	appos	_	_
+34	und	und	CCONJ	KON	_	35	cc	_	_
+35	Bad	Bad	NOUN	NN	_	33	conj	_	_
+36	Suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	13	conj	_	SpaceAfter=No
+37	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ich auch interessiere mich ein Wohnung mit Balkon habe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	auch	auch	ADV	ADV	_	3	advmod	_	_
+3	interessiere	interessieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nsubj	_	_
+7	mit	mit	ADP	APPR	_	8	case	_	_
+8	Balkon	Balkon	NOUN	NN	Case=Dat|Number=Sing	9	obl	_	_
+9	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich habe ein Auto.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
+4	Auto	Auto	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte ein Wohnung mit ein Garage Suchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Garage	Garage	NOUN	NN	_	4	nmod	_	_
+8	Suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Ich möchte eine Wohnung auf dem Land Suchen, Weil ich ruhig und Natur liebe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+8	Suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	Weil	weil	SCONJ	KOUS	_	15	mark	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	ruhig	ruhig	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	Natur	Natur	NOUN	NN	_	12	conj	_	_
+15	liebe	lieben	PROPN	NN	Case=Nom|Number=Sing	8	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich möchte auch Wissen, Wie hoch ist die Miete für die Wohnung auf dem Land pro monat.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	Wissen	wissen	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	Wie	wie	ADV	KOKOM	_	7	advmod	_	_
+7	hoch	hoch	ADJ	ADJD	Degree=Pos	4	parataxis	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+9	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	nmod	_	_
+14	auf	auf	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	13	nmod	_	_
+17	pro	pro	ADP	APPR	_	18	case	_	_
+18	monat	monat	NOUN	NN	_	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich hoffe auf eine baldige Antwort Mit freundlichen Grüßen Friedrich Winkelmann
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	baldige	baldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpacesAfter=\n
+7	Mit	mit	ADP	APPR	_	9	case	_	_
+8	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Grüßen	grüßen	NOUN	NN	_	2	nmod	_	SpacesAfter=\n
+10	Friedrich	Friedrich	PROPN	NE	_	9	appos	_	_
+11	Winkelmann	Winkelmann	PROPN	NE	_	10	flat	_	SpacesAfter=\n
+

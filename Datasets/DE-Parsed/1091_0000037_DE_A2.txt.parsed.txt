@@ -1,0 +1,43 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000037_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 04.1.2012 Sehr geherteDamen und Herren , ich suche eine Wohnung, mit drei Zimmer und eine Kleine Balkon.
+1	Stadt	Stadt	NOUN	NN	_	5	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	04.1.2012	04.1.2012	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+4	Sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	geherteDamen	gehertedamen	ADJ	ADJA	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Herren	Herr	NOUN	NN	_	5	conj	_	_
+8	,	,	PUNCT	$,	_	10	punct	_	SpacesAfter=\n
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	conj	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	mit	mit	ADP	APPR	_	16	case	_	_
+15	drei	drei	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	12	nmod	_	_
+17	und	und	CCONJ	KON	_	20	cc	_	_
+18	eine	ein	DET	ART	Definite=Ind|PronType=Art	20	det	_	_
+19	Kleine	klein	PROPN	NN	_	20	amod	_	_
+20	Balkon	Balkon	PROPN	NN	_	16	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 2
+# text = Auch suche ich dazu eine Garage.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	dazu	dazu	ADV	PAV	_	2	advmod	_	_
+5	eine	ein	NUM	PIS	NumType=Card	6	obl	_	_
+6	Garage	Garage	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Herzliche Grüße Tobias Müller
+1	Herzliche	herzlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Tobias	Tobias	PROPN	NE	_	2	appos	_	_
+4	Müller	Müller	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

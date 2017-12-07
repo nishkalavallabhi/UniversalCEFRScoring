@@ -1,0 +1,187 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100070_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 12.6.2010 Ciao Francesco!
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	12.6.2010	12.6.2010	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Ciao	Ciao	PROPN	SP	_	1	conj	_	_
+6	Francesco	Francesco	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Che piacere di ascoltare qualcosa di te.
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	ascoltare	ascoltare	VERB	V	VerbForm=Inf	2	acl	_	_
+5	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Gratulazioni per la tua laurea della maturità.
+1	Gratulazioni	Gratulazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	maturità	maturità	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Li massimo dei voti - non è niente!
+1	Li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+2	massimo	massimo	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3-4	dei	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	voti	voto	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+6	-	-	PUNCT	FF	_	1	punct	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	advcl	_	SpaceAfter=No
+10	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Sai già che mi ho sposato con Maria (finalmente) e che siamo traslocati a Città X?
+1	Sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	già	già	ADV	B	_	1	advmod	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	expl	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	sposato	sposare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	Maria	Maria	PROPN	SP	_	6	obl	_	_
+9	(	(	PUNCT	FB	_	10	punct	_	SpaceAfter=No
+10	finalmente	finalmente	ADV	B	_	6	advmod	_	SpaceAfter=No
+11	)	)	PUNCT	FB	_	10	punct	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	che	che	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+14	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	traslocati	traslocare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	conj	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	Città	Città	PROPN	SP	_	15	obl	_	_
+18	X	X	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ti mandrò subito il nostro nuovo indirizzo.
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	_
+2	mandrò	mandere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	subito	subito	ADV	B	_	2	advmod	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+6	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+7	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Se vuoi, vieni a fare una visita.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	vuoi	volere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	vieni	venere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	visita	visita	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Invece, nella mia vita professionale ha cambiato niente.
+1	Invece	invece	ADV	B	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	vita	vita	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+7	professionale	professionale	ADJ	A	Number=Sing	6	amod	_	_
+8	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+10	niente	niente	PRON	PI	Number=Sing|PronType=Ind	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Lavoro anchora nella stessa ditta e ho troppo di lavoro, perché manca il personale.
+1	Lavoro	lavorare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	anchora	anchora	ADV	B	_	1	advmod	_	_
+3-4	nella	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	stessa	stesso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	ditta	ditta	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	troppo	troppo	ADV	B	_	11	advmod	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	8	punct	_	_
+13	perché	perché	SCONJ	CS	_	14	mark	_	_
+14	manca	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	personale	personale	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+
+# sent_id = 10
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpaceAfter=No
+
+# sent_id = 11
+# text = .Perché verresti a lavorare qui?
+1	.Perché	.Perché	SCONJ	CS	_	2	mark	_	_
+2	verresti	verredere	VERB	V	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	lavorare	lavorare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	qui	qui	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Allora, ti mandrò anche il numero di telefono della nostra segretaria per organizare un incontro.
+1	Allora	allora	ADV	B	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+4	mandrò	mandere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+5	anche	anche	ADV	B	_	7	advmod	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	numero	numero	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10-11	della	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	13	case	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	segretaria	segretaria	NOUN	S	Gender=Fem|Number=Sing	7	nmod	_	_
+14	per	per	ADP	E	_	15	mark	_	_
+15	organizare	organizare	VERB	V	VerbForm=Inf	4	advcl	_	_
+16	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	incontro	incontro	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Adesso buona fortuna e se hai bisogna di informazioni addizionali scrivimi!
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	buona	buono	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+4	e	e	CCONJ	CC	_	7	cc	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	informazioni	informazione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+10	addizionali	addizionale	ADJ	A	Number=Plur	9	amod	_	_
+11	scrivimi	scrivimo	ADJ	NO	Gender=Masc|Number=Plur|NumType=Ord	9	amod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Tanti saluti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

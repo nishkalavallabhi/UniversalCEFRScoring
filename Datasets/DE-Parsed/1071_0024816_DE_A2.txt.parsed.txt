@@ -1,0 +1,63 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024816_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Daniela, wie geht´s?
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	PROPN	KOUS	_	1	appos	_	_
+5	geht´s	geht´s	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	?	?	PROPN	$.	_	4	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wills du mit mir ins schwimmbad gehen am Mittwoch abend (13 uhr)?
+1	Wills	Wills	PROPN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	nsubj	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+5-6	ins	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	schwimmbad	schwimmbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+8	gehen	gehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+12	abend	abend	NOUN	ADV	_	8	obl	_	_
+13	(	(	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+14	13	13	NUM	CARD	NumType=Card	15	nummod	_	_
+15	uhr	ahren	PROPN	NN	_	8	appos	_	SpaceAfter=No
+16	)	)	PUNCT	$(	_	15	punct	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich habe eine große Orangensaft flasche für uns Möchtest du mit die ein Früchtuk gebringen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Orangensaft	Orangensaft	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+6	flasche	flasch	PROPN	ADJA	_	5	appos	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	uns	wir	PROPN	PPER	Case=Acc|Number=Plur	9	nmod	_	_
+9	Möchtest	Möchtest	PROPN	NN	_	10	appos	_	_
+10	du	du	PROPN	PPER	_	5	case	_	SpacesAfter=\s\s
+11	mit	mit	ADP	APPR	_	14	case	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	_
+13	ein	ein	NUM	ART	NumType=Card	14	nummod	_	_
+14	Früchtuk	Früchtuk	NOUN	NN	Case=Acc|Number=Sing	15	obl	_	_
+15	gebringen	bringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	?	?	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Viele danke!
+1	Viele	viel	PRON	PIAT	Case=Nom|PronType=Ind	2	nsubj	_	_
+2	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Michael ;p
+1	Michael	Michael	PROPN	NE	_	0	root	_	_
+2	;p	;p	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+

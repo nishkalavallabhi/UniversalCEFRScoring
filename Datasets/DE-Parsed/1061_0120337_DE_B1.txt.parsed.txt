@@ -1,0 +1,203 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120337_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Sehr geehrte Frau Silke Stadt X(27/02/2012)
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	4	amod	_	_
+3	Frau	Frau	NOUN	NN	_	4	compound	_	_
+4	Silke	Silke	PROPN	NE	_	0	root	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Stadt	Stadt	PROPN	NN	_	4	appos	_	_
+6	X(	x(	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+7	27/02/2012	27/02/2012	PROPN	CARD	_	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	$(	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich bedanke bei Ihnen Für den Brief.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bedanke	bedanken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	Ihnen	Ihn	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	2	obl	_	_
+5	Für	Für	ADP	APPR	_	7	case	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich habe an Ihren Gedanke gedacht und ich finde es schön.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	Ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Gedanke	Gedanke	NOUN	NN	_	6	obl	_	_
+6	gedacht	denken|gedenken	VERB	VVPP	VerbForm=Part	0	root	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	6	conj	_	_
+10	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+11	schön	schön	ADJ	ADJD	Degree=Pos	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = vielleicht komme ich für ein Paar Tage zu Ihnen zu besuchen, Für mich mag ich die Tiere nich.
+1	vielleicht	vielleicht	ADV	ADV	_	2	advmod	_	_
+2	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	für	für	ADP	APPR	_	9	case	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Paar	Paar	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	9	nsubj	_	_
+7	Tage	Tag	PROPN	NN	_	6	appos	_	_
+8	zu	zu	ADP	APPR	_	9	case	_	_
+9	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	2	obl	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	19	punct	_	_
+13	Für	für	ADP	APPR	_	14	case	_	_
+14	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+15	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Tiere	Tier	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+19	nich	nich	PART	ADJD	Polarity=Neg	2	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = ich habe probleme mit sie besonders die Katzen.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	probleme	probleme	ADJ	ADJD	Case=Acc|Degree=Pos	0	root	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	sie	sie	PRON	PPER	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
+6	besonders	besonders	ADV	ADV	_	7	advmod	_	_
+7	die	der	PRON	ART	Case=Nom|Number=Plur|PronType=Dem	8	det	_	_
+8	Katzen	Katze	VERB	VVFIN	VerbForm=Fin	5	acl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = auf Jedenfall danke ich Ihnen Für Ihren vorschlag.
+1	auf	auf	ADP	APPR	_	2	case	_	_
+2	Jedenfall	jedenfall	NOUN	NN	_	3	obl	_	_
+3	danke	dank	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	Ihnen	Ihnen	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	3	iobj	_	_
+6	Für	für	ADP	APPR	_	8	case	_	_
+7	Ihren	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	vorschlag	vorschliegen	NOUN	NN	_	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ich wünsche mir viele im meinem lebem: aber für meinen Geburtstag nichts viel.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	viele	viel	PRON	PIS	Case=Acc|PronType=Ind	2	obj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	8	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+7	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	lebem	lebem	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	2	punct	_	_
+10	aber	aber	ADV	ADV	_	15	advmod	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Geburtstag	Geburtstag	NOUN	VVIMP	Case=Dat|Number=Plur	15	obl	_	_
+14	nichts	nichts	PRON	PIS	Case=Acc|Number=Sing|PronType=Neg	15	obj	_	_
+15	viel	viel	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	2	appos	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Für mich reicht aus wenn ich viele Erinnerungen indiesem besondern Tag habe Die mit Freunden und Familie sind.
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+3	reicht	reichen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	aus	aus	ADP	APPR	_	11	case	_	_
+5	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	8	amod	_	_
+8	Erinnerungen	Erinnerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	_
+9	indiesem	indiesem	PRON	PDAT	PronType=Dem	10	dep	_	_
+10	besondern	besondern	VERB	VVINF	VerbForm=Inf	11	advcl	_	_
+11	Tag	Tag	NOUN	NN	_	3	obl	_	_
+12	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	_
+13	Die	der	PROPN	ART	_	15	nmod	_	_
+14	mit	mit	ADP	APPR	_	15	case	_	_
+15	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	18	obl	_	_
+16	und	und	CCONJ	KON	_	17	cc	_	_
+17	Familie	Familie	NOUN	NN	_	15	conj	_	_
+18	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ich habe kein interesse an Geschenken und sowas.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	kein	kein	PRON	PIAT	PronType=Neg	4	advmod	_	_
+4	interesse	intereß	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+5	an	an	ADP	APPR	_	6	case	_	_
+6	Geschenken	Geschenk	NOUN	NN	_	4	nmod	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	sowas	sowas	VERB	PRELS	_	6	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = deswegen sollen sie kein interesse am Geschenkt Für mich Also.
+1	deswegen	deswegen	ADV	PAV	_	8	advmod	_	_
+2	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+4	kein	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	interesse	intereß	NOUN	NN	Case=Acc|Number=Plur	8	obj	_	SpacesAfter=\s\s
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	7	case	_	_
+7	dem	der	PRON	ART	PronType=Dem	8	obl	_	_
+8	Geschenkt	schenken	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+9	Für	für	PROPN	APPR	_	8	appos	_	_
+10	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+11	Also	also	ADV	ADV	_	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Mit und meiner familie geht es gut außer Meinem Vater hat ein Problem mit der Gesundheit aber sie wissen wie immer.
+1	Mit	mit	ADP	APPR	_	5	case	_	_
+2	und	und	CCONJ	KON	_	5	cc	_	_
+3	meiner	ich	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	familie	familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	iobj	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+8	außer	außer	ADP	APPR	_	11	advmod	_	_
+9	Meinem	meinem	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Vater	Vater	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Problem	Problem	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	11	obj	_	_
+14	mit	mit	ADP	APPR	_	16	case	_	_
+15	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Gesundheit	Gesundheit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+17	aber	aber	CCONJ	KON	_	19	cc	_	_
+18	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	wissen	wissen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	11	conj	_	_
+20	wie	wie	ADP	KOKOM	_	21	case	_	_
+21	immer	immer	ADV	ADV	_	19	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 12
+# text = Es ist vorbei Er ist zurzeit wieder Gesund und passen sie auf Ihre Familie auf Mit Freundlichen Grüßen Michael
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+3	vorbei	vorbei	ADV	ADV	_	2	advmod	_	_
+4	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	zurzeit	zurzeit	ADV	ADV	_	8	advmod	_	_
+7	wieder	wieder	ADV	ADV	_	8	advmod	_	_
+8	Gesund	gesund	ADJ	ADJD	Degree=Pos	19	amod	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	SpacesAfter=\s\s
+10	passen	passen	VERB	VVFIN	VerbForm=Fin	8	conj	_	_
+11	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+12	auf	auf	ADP	APPR	_	14	case	_	_
+13	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+15	auf	auf	ADP	APPR	_	18	case	_	SpacesAfter=\n
+16	Mit	mit	NOUN	NN	_	18	nmod	_	_
+17	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	18	amod	_	_
+18	Grüßen	Grüßen	NOUN	NN	_	10	obl	_	SpacesAfter=\n
+19	Michael	Michael	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

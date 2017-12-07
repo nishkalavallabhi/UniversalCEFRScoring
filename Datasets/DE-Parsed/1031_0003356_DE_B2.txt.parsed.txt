@@ -1,0 +1,301 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003356_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = In Stadt X wohnen Die Hauptstadt der Schweiz ist klein wenn man es mit London, Paris oder Tokyo vergleicht, aber es hat Charakter und die Altstadt ist schön mit alten Gebäuden.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	10	nmod	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	wohnen	wohnen	PROPN	NN	Case=Nom|Number=Plur	2	flat	_	SpacesAfter=\n
+5	Die	der	PROPN	ART	_	6	nmod	_	_
+6	Hauptstadt	Hauptstadt	PROPN	NN	_	2	appos	_	_
+7	der	der	PROPN	ART	_	8	nmod	_	_
+8	Schweiz	Schweiz	PROPN	NE	_	6	nmod	_	_
+9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	klein	klein	ADJ	ADJD	Degree=Pos	0	root	_	_
+11	wenn	wenn	SCONJ	KOUS	_	20	mark	_	_
+12	man	man	PRON	PIS	Case=Nom|PronType=Ind	20	nsubj	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+14	mit	mit	ADP	APPR	_	15	case	_	_
+15	London	London	PROPN	NE	Case=Dat|Number=Sing	20	obl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	Paris	Paris	PROPN	NE	_	15	conj	_	_
+18	oder	oder	CCONJ	KON	_	19	cc	_	_
+19	Tokyo	Tokyo	PROPN	NE	_	15	conj	_	_
+20	vergleicht	vergleichen	VERB	VVFIN	Person=3|VerbForm=Fin	10	advcl	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	24	punct	_	_
+22	aber	aber	CCONJ	KON	_	24	cc	_	_
+23	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj	_	_
+25	Charakter	Charakter	NOUN	NN	Case=Acc|Number=Sing	24	obj	_	_
+26	und	und	CCONJ	KON	_	28	cc	_	_
+27	die	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
+28	Altstadt	Altstadt	NOUN	NN	_	25	conj	_	_
+29	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	_
+30	schön	schön	ADJ	ADJD	Degree=Pos	24	advmod	_	_
+31	mit	mit	ADP	APPR	_	33	case	_	_
+32	alten	alt	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	33	amod	_	_
+33	Gebäuden	Gebäude	NOUN	NN	Case=Dat|Number=Plur	24	obl	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = In Stadt X zu wohnen ist schön, wenn um die Stadt X zu sehen, aber nah genug um die Laden zu besichtigen oder für den Ausgang am Abend.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	5	obl	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	zu	zu	PART	PTKZU	_	5	mark	_	_
+5	wohnen	swoe	VERB	VVINF	VerbForm=Inf	7	acl	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	schön	schön	ADJ	ADJD	Degree=Pos	24	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	wenn	wenn	SCONJ	KOUS	_	15	mark	_	_
+10	um	um	ADP	APPR	_	15	mark	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+13	X	X	PROPN	NN	_	12	appos	_	SpacesAfter=\s\s
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	sehen	sehen	VERB	VVINF	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	18	punct	_	_
+17	aber	aber	CCONJ	ADV	_	18	cc	_	_
+18	nah	nah	ADJ	ADJD	Degree=Pos	7	conj	_	_
+19	genug	genug	ADV	ADV	_	7	advmod	_	_
+20	um	um	ADP	APPR	_	24	mark	_	_
+21	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	22	det	_	_
+22	Laden	Laden	NOUN	NN	Case=Acc|Number=Plur	24	obj	_	_
+23	zu	zu	PART	PTKZU	_	24	mark	_	_
+24	besichtigen	besichtigen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+25	oder	oder	CCONJ	KON	_	28	cc	_	_
+26	für	für	ADP	APPR	_	28	case	_	_
+27	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	Ausgang	Ausgang	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+29-30	am	_	_	_	_	_	_	_	_
+29	an	an	ADP	APPR	_	31	case	_	_
+30	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	31	det	_	_
+31	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	28	nmod	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	24	punct	_	_
+
+# sent_id = 3
+# text = Es ist sicher für Familien mit Kleinkindern und billiger in den Agromelationen zu wohnen als in der Stadt selber.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	sicher	sicher	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	für	für	ADP	APPR	_	5	case	_	_
+5	Familien	Familien	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	3	nmod	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	Kleinkindern	Kleinkind	NOUN	NN	Case=Dat|Number=Plur	3	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	billiger	billig	ADJ	ADJD	Degree=Cmp,Pos	7	conj	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Agromelationen	Agromelation	NOUN	NN	Case=Dat|Number=Plur	19	nmod	_	_
+13	zu	zu	ADP	APPR	_	14	case	_	_
+14	wohnen	wohnen	NOUN	NN	Case=Dat|Number=Sing	19	nmod	_	_
+15	als	als	ADP	KOKOM	_	19	case	_	_
+16	in	in	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	19	obl	_	_
+19	selber	selber	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Aber was genau kann man in Stadt X machen?
+1	Aber	aber	CCONJ	KON	_	9	cc	_	_
+2	was	was	PRON	PWS	Case=Acc|Number=Sing|PronType=Int	9	obj	_	_
+3	genau	genau	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+4	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	_	9	obl	_	_
+8	X	X	PROPN	NN	_	7	appos	_	_
+9	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 5
+# text = Für Jugendliche braucht es nicht lange um in die Stadt zu fahren.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	Jugendliche	Jugendliche	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+3	braucht	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	lange	lange	ADV	ADV	_	12	advmod	_	_
+7	um	um	ADP	APPR	_	12	mark	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
+12	fahren	fahren	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ich brauchte nur zehn minuten mit dem Tram bis ich in der Innenstadt bin.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauchte	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	nur	nur	ADV	ADV	_	2	advmod	_	_
+4	zehn	zehn	NUM	CARD	NumType=Card	5	nummod	_	_
+5	minuten	minu	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Tram	Tram	PROPN	NN	Case=Dat|Number=Sing	5	nmod	_	_
+9	bis	bis	ADP	APPR	_	10	case	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Innenstadt	Innenstadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	obj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Am Abend ist Stadt X ein sehr gute Ort mit viele Optionen wo man gehen kann.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Abend	Abend	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+6	X	X	ADP	ADJA	_	10	appos	_	_
+7	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+8	sehr	sehr	ADV	ADV	_	9	advmod	_	_
+9	gute	gut	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Ort	Ort	NOUN	NN	_	5	nmod	_	_
+11	mit	mit	ADP	APPR	_	13	case	_	_
+12	viele	viel	ADJ	PIAT	Degree=Pos	13	amod	_	_
+13	Optionen	Option	NOUN	NN	Case=Dat|Number=Sing	10	nmod	_	_
+14	wo	wo	ADV	PWAV	_	16	advmod	_	_
+15	man	man	PRON	PIS	Case=Nom|PronType=Ind	16	nsubj	_	_
+16	gehen	gehen	VERB	VVINF	VerbForm=Inf	13	acl	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = z.B. im Kino oder Theater gehen, in verschiedenen Discotheken oder am Donnerstag den Abendschaut anschauen.
+1	z.B.	z.B.	ADV	ADV	_	4	advmod	_	_
+2-3	im	_	_	_	_	_	_	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Kino	Kino	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	Theater	Theater	NOUN	NN	_	4	conj	_	_
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	11	punct	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	verschiedenen	verschieden	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Discotheken	Discothek	NOUN	NN	_	7	conj	_	_
+12	oder	oder	CCONJ	KON	_	11	cc	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Donnerstag	Donnerstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+17	Abendschaut	Abendschaut	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+18	anschauen	anschauen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Wenn man hingegen in ein Restaurant gehen will, nicht schokiert sein wenn man die Preiss sieht.
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+3	hingegen	hingegen	ADV	ADV	_	7	advmod	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Restaurant	Restaurant	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	11	advcl	_	_
+8	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
+11	schokiert	schokieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+12	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	cop	_	_
+13	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	16	det	_	_
+16	Preiss	Preiß	NOUN	NN	Case=Acc|Number=Plur	17	obj	_	_
+17	sieht	sehen	VERB	VVFIN	Person=3|VerbForm=Fin	12	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 10
+# text = Restaurants sind teuer, nicht nur in Stadt X, sondern Schweizweit.
+1	Restaurants	Restaurant	NOUN	NN	Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	teuer	teuer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	nur	nur	ADV	ADV	_	8	advmod	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	NOUN	NN	_	3	nmod	_	_
+9	X	X	PROPN	NN	_	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	sondern	sondern	CCONJ	KON	_	12	cc	_	_
+12	Schweizweit	schweizweit	NOUN	ADJD	_	3	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = In Stadt X, sind Wohnblöcke viel billiger als Häuser.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	8	nmod	_	_
+3	X	X	PROPN	NN	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	Wohnblöcke	Wohnblock	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+7	viel	viel	ADV	ADV	_	8	advmod	_	_
+8	billiger	billig	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	_
+9	als	als	ADP	KOKOM	_	10	case	_	_
+10	Häuser	Haus	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 12
+# text = Auf dem Land ist es biliiger als in der Stadt zu wohnen.
+1	Auf	auf	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	nmod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+6	biliiger	biliig	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	_
+7	als	als	ADP	KOKOM	_	6	case	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
+12	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	7	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 13
+# text = Mein Fazit: Stadt X ist eine sicher Stadt für Familien mit Kinder hingegen eine "coole" Stadt für Jugendliche.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Fazit	Fazit	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	2	punct	_	_
+4	Stadt	Stadt	NOUN	NN	_	2	appos	_	_
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+8	sicher	sicher	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+10	für	für	ADP	APPR	_	11	case	_	_
+11	Familien	Familien	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	nmod	_	_
+12	mit	mit	ADP	APPR	_	13	case	_	_
+13	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	9	nmod	_	_
+14	hingegen	hingegen	ADV	ADV	_	17	advmod	_	_
+15	eine	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+16	"	"	PUNCT	$(	_	17	punct	_	SpaceAfter=No
+17	coole	cool	PROPN	NN	Case=Nom|Number=Sing	13	nsubj	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	17	punct	_	_
+19	Stadt	Stadt	NOUN	NN	_	17	appos	_	_
+20	für	für	ADP	APPR	_	21	case	_	_
+21	Jugendliche	Jugendliche	NOUN	NN	_	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 14
+# text = Noch etwas ganz wichtig.
+1	Noch	noch	ADV	ADV	_	2	advmod	_	_
+2	etwas	etwas	ADV	ADV	_	4	advmod	_	_
+3	ganz	ganz	ADV	ADV	_	4	advmod	_	_
+4	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 15
+# text = Sontags sind fast alle Lädern zu.
+1	Sontags	Sontags	PROPN	ADV	_	0	root	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	fast	fast	ADV	ADV	_	4	advmod	_	_
+4	alle	alle	PRON	PIS	PronType=Tot	5	det	_	_
+5	Lädern	Läd	NOUN	NN	Case=Dat|Number=Plur	2	obl	_	_
+6	zu	zu	ADP	PTKVZ	_	5	case	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,64 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001725_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 9.
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	4	punct	_	_
+4	9	9	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = luglio 2011 Ciao Daniele è una settimana orribile.
+1	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+2	2011	2011	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\n
+3	Ciao	Ciao	PROPN	SP	_	1	nmod	_	_
+4	Daniele	Daniele	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	orribile	orribile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = In ufficio c'è molto lavoro e giovedì pomeriggio non posso uscire con te giovedì.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+7	e	e	CCONJ	CC	_	12	cc	_	_
+8	giovedì	giovedì	NOUN	S	Gender=Masc	9	nmod	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	uscire	uscire	VERB	V	VerbForm=Inf	6	conj	_	_
+13	con	con	ADP	E	_	14	case	_	_
+14	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	obl	_	_
+15	giovedì	giovedì	NOUN	S	Gender=Masc	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ci vediamo sabato sera tu vuoi cenare in un ristorante tailandese?
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+4	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+6	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	cenare	cenare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11	tailandese	tailandese	ADJ	A	Number=Sing	10	amod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = tanti cari saluti Michele Rossi
+1	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	3	det	_	_
+2	cari	caro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	saluti	salutare	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n
+4	Michele	Michele	PROPN	SP	_	3	nmod	_	_
+5	Rossi	Rossi	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+

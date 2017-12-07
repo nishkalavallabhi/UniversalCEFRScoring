@@ -1,0 +1,101 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000021_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Julia, am diese Wochenende habe ich einen Ausflug nach Berlin geplant.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Julia	Julia	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4-5	am	_	_	_	_	_	_	_	_
+4	an	an	ADP	APPR	_	5	case	_	_
+5	dem	der	PRON	PRELS	PronType=Rel	14	obl	_	_
+6	diese	dies	PRON	PDAT	Case=Acc|PronType=Dem	7	det	_	SpacesAfter=\s\s
+7	Wochenende	Wochenende	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	14	obj	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+10	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Ausflug	Ausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+12	nach	nach	ADP	APPR	_	13	case	_	_
+13	Berlin	Berlin	PROPN	NE	Case=Dat|Number=Sing	14	obl	_	_
+14	geplant	planen	VERB	VVPP	VerbForm=Part	1	acl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich habe eine Fahrkarte für Wochenendenausflug.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	Wochenendenausflug	Wochenendenausflagen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = im Angebot gekauft.
+1-2	im	_	_	_	_	_	_	_	_
+1	in	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Angebot	Angebot	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+4	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Leider ist es nicht so gelungen, wie ich es wollte.
+1	Leider	leider	ADV	ADV	_	6	advmod	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+5	so	so	ADV	ADV	_	6	advmod	_	_
+6	gelungen	lungen	VERB	ADJD	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	wie	wie	SCONJ	KOUS	_	11	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+11	wollte	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich möchte dich fragen vielleicht kannst du meine Fahrkarte benutzen, weil du schon am Wochenende deine Eltern in München besuchen wolltest.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+4	fragen	fragen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	vielleicht	vielleicht	ADV	ADV	_	10	advmod	_	_
+6	kannst	kannsen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	benutzen	benutzen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	weil	weil	SCONJ	KOUS	_	22	mark	_	_
+13	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	22	nsubj	_	_
+14	schon	schon	ADV	ADV	_	17	advmod	_	_
+15-16	am	_	_	_	_	_	_	_	_
+15	an	an	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	19	nmod	_	_
+18	deine	dein	ADJ	ADJA	Degree=Pos	19	amod	_	_
+19	Eltern	Eltern	NOUN	NN	_	13	appos	_	_
+20	in	in	ADP	APPR	_	21	case	_	_
+21	München	München	PROPN	NE	_	13	nmod	_	_
+22	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	10	advcl	_	_
+23	wolltest	wolltest	ADJ	ADJD	Degree=Sup	22	xcomp	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Bitte schreib mir zurück.
+1	Bitte	bitten	NOUN	PTKANT	_	2	compound	_	_
+2	schreib	schreib	PROPN	NE	_	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	zurück	zurück	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Einen schönen Gruß von deiner Freundin Eva
+1	Einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	schönen	schön	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	Gruß	Gruß	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+4	von	von	ADP	APPR	_	6	case	_	_
+5	deiner	dein	PROPN	NE	Case=Dat|Number=Sing	6	amod	_	_
+6	Freundin	Freundin	NOUN	NN	Case=Dat|Number=Plur	3	nmod	_	SpacesAfter=\n
+7	Eva	Eva	PROPN	NE	_	6	appos	_	SpacesAfter=\n
+

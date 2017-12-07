@@ -1,0 +1,112 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000087_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X,09,01,2012 Liebe Julia: Wie geht es dir?
+1	Stadt	Stadt	NOUN	NN	_	7	obl	_	_
+2	X,09,01,2012	X,09,01,2012	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+3	Liebe	Liebe	PROPN	NN	_	2	flat	_	_
+4	Julia	Julia	PROPN	NE	_	2	flat	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+6	Wie	Wie	PROPN	KOUS	_	1	appos	_	_
+7	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+9	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obl	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ich habe lange nicht gehört dein Informationenn.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	lange	lange	ADV	ADV	_	5	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	gehört	gehören	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	dein	dein	PROPN	PPOSAT	_	5	appos	_	_
+7	Informationenn	Informationenn	PROPN	ADJA	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Diese Wochenende, ich wollte nach Stadt Y fahren mit dem Zug, ich habe ein Nacht in ein Hotel reserviert aber ich kann nicht, weill ich habe ein Wichtig Termin mit mein Schef in der Tag die mein reise, ich wollte dich fragen ob die Fahrkarte haben möchte und in mein platz fahren?
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	2	det	_	_
+2	Wochenende	Wochenende	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+8	Y	y	PROPN	NN	_	7	appos	_	_
+9	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+10	mit	mit	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Zug	Zug	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	obl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	9	punct	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+15	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+16	ein	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+17	Nacht	Nacht	NOUN	NN	_	21	obl	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Hotel	Hotel	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	21	obl	_	_
+21	reserviert	reserviert	VERB	VVFIN	VerbForm=Fin	9	parataxis	_	_
+22	aber	aber	ADV	ADV	_	21	advmod	_	_
+23	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+24	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	_
+25	nicht	nicht	PART	PTKNEG	Polarity=Neg	29	advmod	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	25	punct	_	_
+27	weill	weill	PROPN	NE	Case=Nom|Number=Sing	29	nsubj	_	_
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	ccomp	_	_
+30	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	32	det	_	_
+31	Wichtig	wichtig	ADJ	ADJD	Degree=Pos	32	amod	_	_
+32	Termin	Termin	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	29	obj	_	_
+33	mit	mit	ADP	APPR	_	35	case	_	_
+34	mein	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	Schef	Schef	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	32	nmod	_	_
+36	in	in	ADP	APPR	_	38	case	_	_
+37	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Tag	Tag	NOUN	NN	_	35	nmod	_	_
+39	die	der	PRON	ART	Case=Nom|PronType=Dem	46	nsubj	_	_
+40	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	46	obj	_	_
+41	reise	reise	ADV	ADV	_	46	mark	_	SpaceAfter=No
+42	,	,	PUNCT	$,	_	41	punct	_	_
+43	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	46	nsubj	_	_
+44	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	46	aux	_	_
+45	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	46	nsubj	_	_
+46	fragen	fragen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	35	acl	_	_
+47	ob	ob	SCONJ	KOUS	_	50	mark	_	_
+48	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	49	det	_	_
+49	Fahrkarte	Fahrkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	50	nsubj	_	_
+50	haben	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	46	ccomp	_	_
+51	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	50	aux	_	_
+52	und	und	CCONJ	KON	_	56	cc	_	_
+53	in	in	ADP	APPR	_	55	case	_	_
+54	mein	mein	ADJ	ADJD	Degree=Pos	55	amod	_	_
+55	platz	platz	NOUN	NN	Case=Dat|Number=Sing	56	obl	_	_
+56	fahren	fahren	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	50	conj	_	SpaceAfter=No
+57	?	?	PUNCT	$.	_	46	punct	_	_
+
+# sent_id = 4
+# text = Ich schenke dich diese Fahrkarte Zum reisen und können die Kultur die Stadt Y. Alles Liebe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	schenke	schenken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	det	_	_
+4	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	5	det	_	_
+5	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6-7	Zum	_	_	_	_	_	_	_	_
+6	Zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	reisen	reisen	NOUN	NN	Case=Dat|Number=Plur	5	nmod	_	_
+9	und	und	CCONJ	KON	_	14	cc	_	_
+10	können	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+14	Stadt	Stadt	NOUN	NN	_	8	conj	_	_
+15	Y.	Y.	PROPN	NE	_	16	amod	_	SpacesAfter=\n
+16	Alles	alle	PROPN	NN	_	17	nmod	_	_
+17	Liebe	Liebe	PROPN	NN	_	14	appos	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Stefan
+1	Stefan	Stefan	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

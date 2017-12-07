@@ -1,0 +1,78 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000026_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 04 01 2012 Sehr geehrte Domen und Herren, Ich suchen eine neue Wohnung.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	X	ADJA	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	9	punct	_	_
+4	04	04	NUM	CARD	NumType=Card	9	nummod	_	_
+5	01	01	NUM	CARD	NumType=Card	9	nmod	_	_
+6	2012	2012	NUM	CARD	NumType=Card	9	nmod	_	SpacesAfter=\n
+7	Sehr	Sehr	ADV	ADV	_	8	advmod	_	_
+8	geehrte	geehrt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	Domen	Dom	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Herren	Herr	NOUN	NN	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	14	punct	_	SpacesAfter=\n
+13	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	1	conj	_	_
+15	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich bin heiratet.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	heiratet	heiraten	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich moschte meine wohnung zwei zimmer und ein kuche ein Bod ein Bolkon.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	moschte	moschen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	zimmer	zimmer	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	kuche	kuch	NOUN	NN	_	6	conj	_	_
+10	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+11	Bod	bod	NOUN	NN	_	9	nmod	_	_
+12	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Bolkon	Bolkon	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	2	nsubj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Können sie bitte mir, wie viel kosstet om monot und vie viel Heben koste.
+1	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+3	bitte	bitten	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wie	wie	ADV	KOUS	_	7	advmod	_	_
+7	viel	viel	PRON	PIAT	PronType=Ind	8	advmod	_	_
+8	kosstet	kosstet	VERB	VVPP	VerbForm=Part	15	acl	_	_
+9	om	om	PROPN	ADJA	_	14	nmod	_	_
+10	monot	monieten	PROPN	PTKVZ	Polarity=Neg	9	flat	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	vie	vie	PROPN	NE	_	9	conj	_	_
+13	viel	viel	ADJ	PIAT	Case=Dat|Degree=Pos|Number=Sing	14	amod	_	_
+14	Heben	heben	NOUN	NN	Case=Dat|Number=Sing	15	iobj	_	_
+15	koste	kosen|kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich möchte Won miete Mit freundliche Grüßen Evo Muller
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	Won	Won	PROPN	NE	Case=Nom|Number=Sing	4	nsubj	_	_
+4	miete	miet	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpacesAfter=\n
+5	Mit	mit	ADP	APPR	_	7	case	_	_
+6	freundliche	freundlich	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Grüßen	grüßen	NOUN	NN	_	4	obl	_	SpacesAfter=\n
+8	Evo	Evo	PROPN	NE	_	7	appos	_	_
+9	Muller	Muller	PROPN	NN	_	8	flat	_	SpacesAfter=\n
+

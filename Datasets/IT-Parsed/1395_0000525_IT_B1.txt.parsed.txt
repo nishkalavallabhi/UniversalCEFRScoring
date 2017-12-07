@@ -1,0 +1,110 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000525_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 26 NOVEMBRE 2010 CARO MARCELLO COME STAI?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	26	26	NUM	N	NumType=Card	1	nmod	_	_
+5	NOVEMBRE	novembre	PROPN	SP	_	4	flat	_	_
+6	2010	2010	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\n
+7	CARO	Caro	PROPN	SP	_	1	nmod	_	_
+8	MARCELLO	Marcello	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	COME	come	PROPN	SP	_	7	flat:name	_	_
+10	STAI	Stai	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = IO STO BENE.
+1	IO	io	PROPN	SP	_	0	root	_	_
+2	STO	Sto	PROPN	SP	_	1	flat:name	_	_
+3	BENE	Bene	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = LAVORI SEMPRE ALL'UNIVERSITÀ DI CITTÀ Y?
+1	LAVORI	lavore	PROPN	SP	_	2	nsubj	_	_
+2	SEMPRE	sempre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	ALL'	_	_	_	_	_	_	_	SpaceAfter=No
+3	A	a	ADP	E	_	5	case	_	_
+4	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	UNIVERSITÀ	università	PROPN	SP	_	2	obl	_	_
+6	DI	di	ADP	E	_	7	case	_	_
+7	CITTÀ	Città	PROPN	SP	_	5	nmod	_	_
+8	Y	y	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = CHE COSA HAI FATTO NEGLI ULTIMI TEMPI?
+1	CHE	che	DET	DQ	PronType=Int	2	det	_	_
+2	COSA	Cosa	PROPN	SP	_	0	root	_	_
+3	HAI	avere	PROPN	SP	_	2	flat:name	_	_
+4	FATTO	fare	PROPN	SP	_	2	nmod	_	_
+5-6	NEGLI	_	_	_	_	_	_	_	_
+5	IN	in	PROPN	SP	_	4	flat:name	_	_
+6	GLI	il	PROPN	SP	_	4	flat:name	_	_
+7	ULTIMI	ultimo	PROPN	SP	_	6	flat:name	_	_
+8	TEMPI	Tempi	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = SONO ANDATO A CITTÀ Z CON L'AEREO PER DUE SETTIMANE.
+1	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	ANDATO	andare	PROPN	SP	_	0	root	_	_
+3	A	A	PROPN	SP	_	2	flat:name	_	_
+4	CITTÀ	Città	PROPN	SP	_	2	flat:name	_	_
+5	Z	Z	PROPN	SP	_	2	appos	_	_
+6	CON	con	PROPN	SP	_	5	flat:name	_	_
+7	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	AEREO	aereo	PROPN	SP	_	5	flat:name	_	_
+9	PER	per	PROPN	SP	_	8	appos	_	_
+10	DUE	due	PROPN	SP	_	9	flat:name	_	_
+11	SETTIMANE	settimana	PROPN	SP	_	9	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = LAVORO SEMPRE PER IL Azienda X.
+1	LAVORO	lavorare	PRON	PE	Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	SEMPRE	sempre	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	PER	per	PROPN	SP	_	2	xcomp	_	_
+4	IL	il	PROPN	SP	_	3	flat:name	_	_
+5	Azienda	azienda	PROPN	SP	_	3	flat:name	_	_
+6	X	x	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = ESPERO CHE LA TUA FAMIGLIA STA BENE!
+1	ESPERO	ESPERO	PROPN	SP	_	0	root	_	_
+2	CHE	Che	PROPN	SP	_	1	flat:name	_	_
+3	LA	lo	PROPN	SP	_	1	flat:name	_	_
+4	TUA	tuo	PROPN	SP	_	1	flat:name	_	_
+5	FAMIGLIA	famiglia	PROPN	SP	_	1	flat:name	_	_
+6	STA	stare	PROPN	SP	_	1	flat:name	_	_
+7	BENE	Bene	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = QUANDO POSSIAMO VEDERCI PER BERE UN BUON VINO ROSSO CONERC?
+1	QUANDO	quando	ADV	B	_	6	advmod	_	_
+2	POSSIAMO	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3-4	VEDERCI	_	_	_	_	_	_	_	_
+3	VEDER	vedere	PROPN	SP	_	6	obj	_	_
+4	CI	ci	PROPN	SP	_	3	flat:name	_	_
+5	PER	per	PROPN	SP	_	3	flat:name	_	_
+6	BERE	bere	PROPN	SP	_	0	root	_	_
+7	UN	Un	PROPN	SP	_	6	flat:name	_	_
+8	BUON	buon	PROPN	SP	_	6	flat:name	_	_
+9	VINO	vino	PROPN	SP	_	6	flat:name	_	_
+10	ROSSO	Rosso	PROPN	SP	_	6	flat:name	_	_
+11	CONERC	CONERC	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = CARI SALUTI E A PRESTO Michele
+1	CARI	caro	PROPN	SP	_	0	root	_	_
+2	SALUTI	Saluto	PROPN	SP	_	1	flat:name	_	_
+3	E	e	CCONJ	CC	_	4	cc	_	_
+4	A	a	PROPN	SP	_	1	conj	_	_
+5	PRESTO	presto	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+6	Michele	Michele	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

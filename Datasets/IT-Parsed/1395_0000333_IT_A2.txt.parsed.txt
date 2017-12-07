@@ -1,0 +1,131 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000333_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 4 Marzo Caro Marco, Come stai?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	4	4	NUM	N	NumType=Card	5	nummod	_	_
+5	Marzo	marzo	PROPN	SP	_	10	obl	_	SpacesAfter=\n
+6	Caro	Caro	PROPN	SP	_	5	flat:name	_	_
+7	Marco	Marco	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+9	Come	come	SCONJ	CS	_	10	mark	_	_
+10	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Qui tutto a posto:
+1	Qui	qui	ADV	B	_	2	advmod	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	posto	posto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+5	:	:	PUNCT	FC	_	2	punct	_	_
+
+# sent_id = 3
+# text = la famiglia, il lavoro anche il tempo.
+1	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Aveva pensato andare a verderli al mese de maggio ma Vera e Carlo, i miei amici, vengono a casa mia.
+1	Aveva	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	a	a	ADP	E	_	5	mark	_	_
+5-6	verderli	_	_	_	_	_	_	_	_
+5	verder	verdere	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	li	li	PRON	PC	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mese	mese	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+10	de	di	ADP	E	_	11	case	_	_
+11	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	ma	ma	CCONJ	CC	_	13	cc	_	_
+13	Vera	vera	PROPN	SP	_	21	conj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	Carlo	Carlo	PROPN	SP	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	amici	amico	NOUN	S	Gender=Masc|Number=Plur	21	nsubj	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+22	a	a	ADP	E	_	23	case	_	_
+23	casa	casa	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	_
+24	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Allora, se sei libero, puoi venir anche tu.
+1	Allora	allora	ADV	B	_	8	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	se	se	SCONJ	CS	_	5	mark	_	_
+4	sei	essere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	libero	libero	ADJ	A	Gender=Masc|Number=Sing	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	venir	venire	VERB	V	VerbForm=Inf	0	root	_	_
+9	anche	anche	ADV	B	_	10	advmod	_	_
+10	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 6
+# text = È una coppia molto gentile e che sa ridere.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	coppia	coppia	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	gentile	gentile	ADJ	A	Number=Sing	3	amod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	che	che	PRON	PR	PronType=Rel	8	nsubj	_	_
+8	sa	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+9	ridere	ridere	VERB	V	VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ne pensi e fammi sapere la tua decisione.
+1	Ne	ne	PRON	PC	Clitic=Yes|PronType=Prs	2	iobj	_	_
+2	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	fammi	fare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj	_	_
+5	sapere	sapere	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	decisione	decisione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ho lavorato molto molto quest'anno e bisogno cambiare di ambiente.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	molto	molto	ADV	B	_	6	advmod	_	_
+5	quest'	questo	DET	DD	Number=Sing|PronType=Dem	6	det	_	SpaceAfter=No
+6	anno	anno	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpacesAfter=\s\s
+9	cambiare	cambiare	VERB	V	VerbForm=Inf	8	acl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	ambiente	ambiente	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = A presto.
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Baci Maria
+1	Baci	Baci	PROPN	SP	_	0	root	_	SpacesAfter=\s\n
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,119 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001104_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 28.maggio 2011 Ciao Antonio e Fabrizio, Come stai?
+1	Città	Città	PROPN	SP	_	12	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	28.maggio	28.maggio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	2011	2011	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+6	Ciao	Ciao	PROPN	SP	_	4	nmod	_	_
+7	Antonio	Antonio	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Fabrizio	Fabrizio	PROPN	SP	_	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+11	Come	come	SCONJ	CS	_	12	mark	_	_
+12	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Va bene?
+1	Va	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Sono a Città X per fare un corso di italiano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	0	root	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	3	acl	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	corso	corso	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Città X è una bella città.
+1	Città	Città	PROPN	SP	_	6	nsubj	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	bella	bello	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	città	città	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Quando non ho c'è lezione italiano, vado fare la spesa.
+1	Quando	quando	SCONJ	CS	_	5	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+6	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+7	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	spesa	spesa	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Qualce volta, vado in calcio.
+1	Qualce	Qualce	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Milan o Inter Milan, per me uguale.
+1	Milan	Milan	PROPN	SP	_	0	root	_	_
+2	o	o	CCONJ	CC	_	3	cc	_	_
+3	Inter	Inter	PROPN	SP	_	1	conj	_	_
+4	Milan	Milan	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	per	per	ADP	E	_	7	case	_	_
+7	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
+8	uguale	uguale	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Ho visitato il duomo.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visitato	visitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	duomo	duomo	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = C'è un bellissimo duomo.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	5	amod	_	_
+5	duomo	duomo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Vediamo la prossima settimana a Città Y.
+1	Vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	città	PROPN	SP	_	4	nmod	_	_
+7	Y.	Y.	PROPN	SP	_	6	flat:name	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = A presto Michele
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	3	advmod	_	SpacesAfter=\s\n
+3	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

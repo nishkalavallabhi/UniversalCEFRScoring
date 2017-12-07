@@ -1,0 +1,182 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100169_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Beatrice Russo Via San Marco, 56 20138 Milano
+1	Beatrice	Beatore	PROPN	SP	_	0	root	_	_
+2	Russo	russo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\n
+3	Via	via	PROPN	SP	_	1	nmod	_	_
+4	San	San	PROPN	SP	_	3	flat:name	_	_
+5	Marco	Marco	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	56	56	NUM	N	NumType=Card	9	nummod	_	SpacesAfter=\n
+8	20138	20138	NUM	N	NumType=Card	7	flat	_	_
+9	Milano	Milano	PROPN	SP	_	3	nmod	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 2
+# text = Città X, 14.5.11 Cara Beatrice, Come stai?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	14.5.11	14.5.1l	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	SpacesAfter=\n
+5	Cara	caro	PROPN	SP	_	1	nmod	_	_
+6	Beatrice	Beatore	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\n
+8	Come	come	SCONJ	CS	_	9	mark	_	_
+9	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Ho ricevuto il vostro invito - mille grazie!
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	-	-	PUNCT	FF	_	8	punct	_	_
+7	mille	mille	NUM	N	NumType=Card	8	nummod	_	_
+8	grazie	grazie	NOUN	S	_	5	compound	_	SpaceAfter=No
+9	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Mi piacerebbe molto andare al ristorante von voi e i vostri parenti ed amici.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	andare	andare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	von	Von	ADP	E	_	9	case	_	_
+9	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	7	nmod	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+12	vostri	vostro	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	parenti	parente	NOUN	S	Number=Plur	2	conj	_	_
+14	ed	e	CCONJ	CC	_	15	cc	_	_
+15	amici	amico	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ma io non posso andare perché non vuole lasciare mia bambina a casa e la baby-sitter non ha tempo per occuparla.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+6	perché	perché	SCONJ	CS	_	9	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+8	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	lasciare	lasciare	VERB	V	VerbForm=Inf	20	advcl	_	SpacesAfter=\s\s
+10	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	bambina	bambino	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	casa	casa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	baby	baby	NOUN	S	Gender=Fem	13	conj	_	SpaceAfter=No
+17	-	-	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+18	sitter	sitter	AUX	VM	VerbForm=Inf	20	aux	_	_
+19	non	non	ADV	BN	PronType=Neg	20	advmod	_	_
+20	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+21	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+22	per	per	ADP	E	_	23	mark	_	_
+23-24	occuparla	_	_	_	_	_	_	_	SpaceAfter=No
+23	occupar	occupare	VERB	V	VerbForm=Inf	20	advcl	_	_
+24	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	obj	_	_
+25	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Scusami, per favore!
+1	Scusami	Scusame	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ma certo visiterò la cerimonia!
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	certo	certo	ADV	B	_	3	advmod	_	_
+3	visiterò	visitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sarò nella chiesa alle 17.00.
+1	Sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	4	cop	_	_
+2-3	nella	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	alle	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	17.00	17.00	NUM	N	NumType=Card	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Forse avrei bisgona di aiuto.
+1	Forse	forse	ADV	B	_	2	advmod	_	_
+2	avrei	avere	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bisgona	bisgonare	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	aiuto	aiuto	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Dimmi, cosa posso regalare?
+1	Dimmi	Dimma	NOUN	S	Gender=Masc|Number=Plur	5	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	regalare	regalare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Hai una idea?
+1	Hai	avere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Perché non vorrei realarti qualcosa che di non hai bisogno.
+1	Perché	perché	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	realarti	realartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	di	di	ADP	E	_	9	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+9	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Beatrice, tanti auguri per voi!
+1	Beatrice	Beatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	_
+4	auguri	augurare	NOUN	S	Gender=Masc|Number=Plur	1	appos	_	_
+5	per	per	ADP	E	_	6	case	_	_
+6	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = A presto, un grande abbraccio, La tua amica Maria
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	10	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	abbraccio	abbraccio	NOUN	S	Gender=Masc|Number=Sing	10	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	10	punct	_	SpacesAfter=\s\n
+8	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	amica	amico	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+11	Maria	Maria	PROPN	SP	_	10	nmod	_	SpacesAfter=\n
+

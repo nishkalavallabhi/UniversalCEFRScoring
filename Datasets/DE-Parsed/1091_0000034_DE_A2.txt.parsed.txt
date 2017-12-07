@@ -1,0 +1,54 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000034_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 04.01.2012 Sehr geehrte Damen und Herren, ich suche eine Wohnung Große.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	X	ADJA	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	_
+4	04.01.2012	04.01.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Sehr	Sehr	NOUN	NN	_	7	cop	_	_
+6	geehrte	geehrt	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Damen	Dame	NOUN	NN	_	1	conj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Herren	Herr	NOUN	NN	_	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	SpacesAfter=\n
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	conj	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+15	Große	groß	PROPN	NN	_	14	appos	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = die Wohnung soll vier Zimmer haben mit drei schlafzimmer, Wohnzimmer, Küche, Badezimmer mit Dusche, Toilette und Balkon.
+1	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	vier	vier	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+6	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	drei	drei	NUM	CARD	NumType=Card	9	nummod	_	_
+9	schlafzimmer	schlafzimmer	NOUN	NN	Case=Acc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Wohnzimmer	Wohnzimmer	NOUN	NN	_	9	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Küche	Küche	NOUN	NN	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Badezimmer	Badezimmer	NOUN	NN	_	9	conj	_	_
+16	mit	mit	ADP	APPR	_	17	case	_	_
+17	Dusche	Dusche	NOUN	NN	_	15	nmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	19	punct	_	_
+19	Toilette	Toilette	NOUN	NN	_	17	conj	_	_
+20	und	und	CCONJ	KON	_	21	cc	_	_
+21	Balkon	Balkon	NOUN	NN	_	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Mit freundlichen Grüßen Eva Müller
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NE	_	3	appos	_	_
+5	Müller	Müller	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

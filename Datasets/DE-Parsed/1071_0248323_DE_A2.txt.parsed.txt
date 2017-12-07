@@ -1,0 +1,78 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248323_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Ingo.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich haben eine Arbeit in Neuburg gefundet, Ich beginnt 1st Juli.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	_
+7	gefundet	gefunden	ADJ	VVPP	_	2	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	beginnt	beginnen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+11	1st	1st	ADV	ADV	_	10	advmod	_	_
+12	Juli	Juli	PROPN	NN	_	10	appos	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich brauche eine Wohnung in Neuburg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Kann ihr Hilfe mich bei der Wohnungssuche.
+1	Kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Hilfe	Hilfe	NOUN	NN	Case=Acc|Number=Sing	1	obj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Ich habe an Idee Große der Wohnung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	an	an	ADP	APPR	_	4	case	_	_
+4	Idee	Idee	NOUN	NN	_	2	obl	_	_
+5	Große	groß	PROPN	NN	_	4	appos	_	_
+6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Wohnung	Wohnung	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Kann Sie anrufen mich und spricht mich wenn Sie haben der Zeit Mit Große Freundlich Vielen Vielen Danke.
+1	Kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+3	anrufen	anrufen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	spricht	sprechen	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	obj	_	_
+8	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
+9	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	12	nsubj	_	_
+10	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	SpacesAfter=\n
+13	Mit	mit	ADP	APPR	_	18	case	_	_
+14	Große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	18	amod	_	_
+15	Freundlich	freundlich	ADJ	NN	_	18	amod	_	SpacesAfter=\n
+16	Vielen	viel	ADJ	NN	_	18	amod	_	_
+17	Vielen	viel	ADJ	NN	_	18	amod	_	_
+18	Danke	Danke	NOUN	PTKANT	_	12	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+

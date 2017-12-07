@@ -1,0 +1,197 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ/0826_CZ_A2.txt
+# newpar
+# sent_id = 1
+# text = 18. -ambigous-
+1	18	18	NUM	C=-------------	NumForm=Digit|NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+3	-	-	PUNCT	Z:-------------	_	4	punct	_	SpaceAfter=No
+4	ambigous	ambigous	ADJ	AAXXX----1A----	Degree=Pos|Foreign=Yes|Polarity=Pos	1	conj	_	SpaceAfter=No
+5	-	-	PUNCT	Z:-------------	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ahoj Aleno,
+1	Ahoj	ahoj	PART	TT-------------	_	2	advmod	_	_
+2	Aleno	Aleno	ADJ	VsNS---XX-AP---	Gender=Neut|Number=Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\n\n\n\n
+
+# newpar
+# sent_id = 3
+# text = děkuju ti mockrát za tvůj email.
+1	děkuju	děkovat	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	ti	ten	DET	PDMP1----------	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Dem	3	det	_	_
+3	mockrát	moc	ADV	Cv-------------	NumType=Mult	1	obj	_	_
+4	za	za	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+5	tvůj	tvůj	DET	P8IS4----------	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes	6	det	_	_
+6	email	email	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 4
+# text = Těšila jsem se moc a těším se na tebe.
+1	Těšila	těšit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	jsem	být	AUX	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	aux	_	_
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	_
+4	moc	moc	ADV	Db-------------	_	1	obj	_	_
+5	a	a	CCONJ	J^-------------	_	6	cc	_	_
+6	těším	těšit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	6	expl:pv	_	_
+8	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	9	case	_	_
+9	tebe	ty	PRON	P6-X4----------	Case=Acc|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 5
+# text = Momentálně učím pro zkoušku, ale brzo bude končit semestr.
+1	Momentálně	momentálně	ADV	Dg-------1A----	Degree=Pos|Polarity=Pos	2	advmod	_	SpacesAfter=\s\s
+2	učím	učit	VERB	VB-S---1P-AA---	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\s\s
+3	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
+4	zkoušku	zkouška	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	Z:-------------	_	9	punct	_	_
+6	ale	ale	CCONJ	J^-------------	_	9	cc	_	_
+7	brzo	brzy	ADV	Dg-------1A---1	Degree=Pos|Polarity=Pos	9	advmod	_	_
+8	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	končit	končit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	conj	_	_
+10	semestr	semestr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	9	obj	_	SpaceAfter=No
+11	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 6
+# text = Už na diplomce a také neplánuju dovolenou.
+1	Už	už	ADV	Db-------------	_	3	advmod:emph	_	SpacesAfter=\s\s
+2	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	3	case	_	_
+3	diplomce	diplomka	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	0	root	_	_
+4	a	a	CCONJ	J^-------------	_	6	cc	_	_
+5	také	také	ADV	Db-------------	_	6	advmod	_	_
+6	neplánuju	plánovat	VERB	VB-S---1P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+7	dovolenou	dovolená	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	3	punct	_	_
+
+# sent_id = 7
+# text = Ale příští semestr pojedu na Slovensko.
+1	Ale	ale	CCONJ	J^-------------	_	4	cc	_	_
+2	příští	příští	ADJ	AAIS4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	3	amod	_	_
+3	semestr	semestr	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	4	obl	_	SpacesAfter=\s\s
+4	pojedu	pojed	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+6	Slovensko	Slovensko	PROPN	NNNS4-----A----	Case=Acc|Gender=Neut|NameType=Geo|Number=Sing|Polarity=Pos	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 8
+# text = Tam budu studovat na univerzitě.
+1	Tam	tam	ADV	Db-------------	PronType=Dem	3	advmod	_	SpacesAfter=\s\s
+2	budu	být	AUX	VB-S---1F-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	studovat	studovat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+4	na	na	ADP	RR--6----------	AdpType=Prep|Case=Loc	5	case	_	_
+5	univerzitě	univerzita	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	Z:-------------	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Tak, těším se na návštěv.
+1	Tak	tak	ADV	Db-------------	PronType=Dem	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	Z:-------------	_	3	punct	_	_
+3	těším	těšit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+4	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	3	expl:pv	_	_
+5	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+6	návštěv	návštěva	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Kdy přije?
+1	Kdy	kdy	ADV	Db-------------	PronType=Int,Rel	2	advmod	_	SpacesAfter=\s\s
+2	přije	přít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = Mám čas a pro tebe na nádraží.
+1	Mám	mít	VERB	VB-S---1P-AA---	Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	čas	čas	NOUN	NNIS4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Polarity=Pos	1	obj	_	_
+3	a	a	CCONJ	J^-------------	_	5	cc	_	SpacesAfter=\s\s
+4	pro	pro	ADP	RR--4----------	AdpType=Prep|Case=Acc	5	case	_	_
+5	tebe	ty	PRON	P6-X4----------	Case=Acc|PronType=Prs|Reflex=Yes	1	conj	_	_
+6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	7	case	_	_
+7	nádraží	nádraží	NOUN	NNNS4-----A----	Case=Acc|Gender=Neut|Number=Sing|Polarity=Pos	5	orphan	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Doma žvanit spolu nebo pít píjeme kávu.
+1	Doma	doma	ADV	Db-------------	_	2	advmod	_	SpacesAfter=\s\s
+2	žvanit	žvanit	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	0	root	_	_
+3	spolu	spolu	ADV	Db-------------	_	2	advmod	_	SpacesAfter=\s\s
+4	nebo	nebo	CCONJ	J^-------------	_	5	cc	_	_
+5	pít	pít	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	3	conj	_	_
+6	píjeme	píjeme	PROPN	NNMS1-----A----	Animacy=Anim|Case=Nom|Gender=Masc|NameType=Sur|Number=Sing|Polarity=Pos	2	nsubj	_	_
+7	kávu	káva	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	2	obj	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 13
+# text = Máš chuť?
+1	Máš	mít	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	chuť	chuť	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	1	obj	_	SpaceAfter=No
+3	?	?	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Tak, kurz češtiny je zajímavý také.
+1	Tak	tak	ADV	Db-------------	PronType=Dem	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	Z:-------------	_	6	punct	_	_
+3	kurz	kurs	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	6	nsubj	_	SpacesAfter=\s\s
+4	češtiny	čeština	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	3	nmod	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	zajímavý	zajímavý	ADJ	AAIS1----1A----	Animacy=Inan|Case=Nom|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos	1	dep	_	_
+7	také	také	ADV	Db-------------	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 15
+# text = Máš informace nebo detaile?
+1	Máš	mít	VERB	VB-S---2P-AA---	Mood=Ind|Number=Sing|Person=2|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\s\s
+2	informace	informace	NOUN	NNFP4-----A----	Case=Acc|Gender=Fem|Number=Plur|Polarity=Pos	1	obj	_	_
+3	nebo	nebo	CCONJ	J^-------------	_	4	cc	_	_
+4	detaile	detaile	NOUN	NNMS5-----A----	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing|Polarity=Pos	1	conj	_	SpaceAfter=No
+5	?	?	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Těšila bych se, kdybys mi posilala inzerát.
+1	Těšila	těšit	VERB	VpQW---XR-AA---	Aspect=Perf|Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	bych	být	AUX	Vc-S---1-------	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin	1	aux	_	_
+3	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	SpaceAfter=No
+4	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+5-6	kdybys	_	_	_	_	_	_	_	_
+5	když	když	SCONJ	J,-------------	_	8	mark	_	_
+6	bys	být	AUX	Vc-S---2-------	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin	8	aux	_	_
+7	mi	já	PRON	PH-S3--1-------	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short	8	iobj	_	_
+8	posilala	posilat	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	1	advcl	_	_
+9	inzerát	inzerát	VERB	Vf--------A----	Polarity=Pos|VerbForm=Inf	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Kolik stojí kurz nebo kdy se bude konat?
+1	Kolik	kolik	DET	C?--4----------	Case=Acc|NumType=Card|PronType=Int,Rel	2	obj	_	_
+2	stojí	stát	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	kurz	kurs	NOUN	NNIS1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing|Polarity=Pos	2	nsubj	_	_
+4	nebo	nebo	CCONJ	J^-------------	_	8	cc	_	_
+5	kdy	kdy	ADV	Db-------------	PronType=Int,Rel	8	advmod	_	_
+6	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	8	expl:pv	_	_
+7	bude	být	AUX	VB-S---3F-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	konat	konat	VERB	Vf--------A----	Aspect=Imp|Polarity=Pos|VerbForm=Inf	2	conj	_	SpaceAfter=No
+9	?	?	PUNCT	Z:-------------	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Těším se na tebe a na naše setkani.
+1	Těším	těšit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	se	se	PRON	P7-X4----------	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short	1	expl:pv	_	_
+3	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	4	case	_	_
+4	tebe	ty	PRON	P6-X4----------	Case=Acc|PronType=Prs|Reflex=Yes	1	obj	_	_
+5	a	a	CCONJ	J^-------------	_	8	cc	_	_
+6	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	8	case	_	_
+7	naše	můj	DET	PSXP4-P1-------	Case=Acc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det	_	_
+8	setkani	setkan	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	conj	_	SpaceAfter=No
+9	.	.	PUNCT	Z:-------------	_	1	punct	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 19
+# text = Zatím ahoj
+1	Zatím	zatím	ADV	Db-------------	_	0	root	_	_
+2	ahoj	ahoj	PART	TT-------------	_	1	dep	_	SpacesAfter=\n\n\n
+
+# newpar
+# sent_id = 20
+# text = Tvoje Julie
+1	Tvoje	Tvůj	NOUN	NNIP1-----A----	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Polarity=Pos	2	nmod	_	_
+2	Julie	Julie	PROPN	NNFS1-----A----	Case=Nom|Gender=Fem|NameType=Giv|Number=Sing|Polarity=Pos	0	root	_	SpacesAfter=\n
+

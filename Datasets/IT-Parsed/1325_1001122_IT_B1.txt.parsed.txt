@@ -1,0 +1,194 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001122_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Strada Maggiore n. 12 Città X Paese X
+1	Strada	strada	PROPN	SP	_	0	root	_	_
+2	Maggiore	maggiore	PROPN	SP	_	1	nmod	_	_
+3	n.	numero	NOUN	S	Gender=Masc	2	flat:name	_	_
+4	12	12	NUM	N	NumType=Card	2	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Città	Città	PROPN	SP	_	1	nmod	_	_
+6	X	X	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Paese	paese	PROPN	SP	_	5	flat:name	_	_
+8	X	X	PROPN	SP	_	5	flat:name	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Dipartimento di lInguistica Teorica e Applicata Università degli Studi di Pavia, Corso Strada Nuova, 65 27100 Pavia, Italia 22 gennaio 2012 Gentile Signora Gabriella Favati, sono Michele Rossi, e vivo a Città X.
+1	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	32	nsubj	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	lInguistica	lInguistica	PROPN	SP	_	1	nmod	_	_
+4	Teorica	Teorica	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	Applicata	applicare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\s\n
+7	Università	università	NOUN	S	Gender=Fem	3	conj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Studi	Studi	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Pavia	Pavia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	Corso	Corso	PROPN	SP	_	1	conj	_	_
+15	Strada	Strada	PROPN	SP	_	14	flat:name	_	_
+16	Nuova	Nuova	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	_
+18	65	65	NUM	N	NumType=Card	20	nummod	_	SpacesAfter=\n
+19	27100	27100	NUM	N	NumType=Card	18	flat	_	_
+20	Pavia	Pavia	PROPN	SP	_	15	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	15	punct	_	_
+22	Italia	Italia	PROPN	SP	_	15	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+23	22	22	NUM	N	NumType=Card	22	flat:name	_	_
+24	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	_
+25	2012	2012	NUM	N	NumType=Card	24	nummod	_	SpacesAfter=\s\n
+26	Gentile	gentile	PROPN	SP	_	15	appos	_	_
+27	Signora	signore	PROPN	SP	_	26	flat:name	_	_
+28	Gabriella	Gabriella	PROPN	SP	_	26	flat:name	_	_
+29	Favati	Favare	PROPN	SP	_	26	flat:name	_	SpaceAfter=No
+30	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+31	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	32	cop	_	_
+32	Michele	Michele	PROPN	SP	_	0	root	_	_
+33	Rossi	Rossi	PROPN	SP	_	32	flat:name	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	36	punct	_	_
+35	e	e	CCONJ	CC	_	36	cc	_	_
+36	vivo	vivo	ADJ	A	Gender=Masc|Number=Sing	32	conj	_	_
+37	a	a	ADP	E	_	38	case	_	_
+38	Città	città	PROPN	SP	_	32	conj	_	_
+39	X	x	ADJ	NO	Number=Sing|NumType=Ord	38	amod	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	32	punct	_	_
+
+# sent_id = 3
+# text = L'Ultima settimana ho letto il Suo avviso nella bacheca della mia scuola di lingua .
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+2	Ultima	ultimo	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+3	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	Suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	bacheca	bacheca	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Prima di tutto -unreadable- preferiamo l'operazione dell'aprendimento.
+1	Prima	prima	ADV	B	_	3	case	_	_
+2	di	di	ADP	E	_	1	fixed	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	7	obl	_	_
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	unreadable	unreadable	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpacesAfter=\n
+7	preferiamo	preferire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	operazione	operazione	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10-11	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+10	di	di	ADP	E	_	12	case	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
+12	aprendimento	aprendimento	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = Le sue lezioni sono interessanti.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
+2	sue	suo	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	lezioni	lezione	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	interessanti	interessante	ADJ	A	Number=Plur	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Ogni estate ci da un libro obligatorio.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	estate	estate	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+4	da	da	ADP	E	_	6	case	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	libro	libro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	obligatorio	obligatorio	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Questo è molto utile, perché non dimentico la grammatica neanche durante la vacanca.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	utile	utile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	perché	perché	SCONJ	CS	_	8	mark	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	dimentico	dimentire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	neanche	neanche	ADV	BN	PronType=Neg	14	advmod	_	_
+12	durante	durante	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	vacanca	vacanca	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Ogni anno festeggiamo il Natale anche con il gruppo di lingua italiano.
+1	Ogni	ogni	DET	DI	Number=Sing|PronType=Ind	2	det	_	_
+2	anno	anno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	festeggiamo	festeggiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Natale	Natale	PROPN	SP	_	3	obj	_	_
+6	anche	anche	ADV	B	_	9	advmod	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	gruppo	gruppo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	9	nmod	_	_
+12	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Nel loro insiemo, vorrei studiare di più l'italiano.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	loro	loro	DET	AP	Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	insiemo	insie	NOUN	S	_	7	obl	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	più	più	ADV	B	_	7	advmod	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	SpaceAfter=No
+11	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Spero che riesca.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	riesca	riuscire	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = In attesa della Sua lettera cortese.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+3-4	della	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+7	cortese	cortesa	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 12
+# text = Distinti saluti Michele Rossi
+1	Distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Michele	Michele	PROPN	SP	_	1	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

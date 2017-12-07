@@ -1,0 +1,296 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100098_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X 6.11.10 Ciao Francesco Che bello.
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	_
+3	6.11.10	6.11.10	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	Ciao	Ciao	PROPN	SP	_	1	nmod	_	_
+5	Francesco	Francesco	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+6	Che	Che	DET	DQ	PronType=Int	7	det	_	_
+7	bello	bello	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Finalmente hai finito con tutto.
+1	Finalmente	finalmente	ADV	B	_	3	advmod	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	con	con	ADP	E	_	5	case	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Io sto bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = E ancora tutto bene.
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	ancora	ancora	ADV	B	_	3	advmod	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Non ha cambiato tanto solo qualcosa; Forse non lo sia ancora:
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	cambiato	cambiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	tanto	tanto	SCONJ	CS	_	10	mark	_	_
+5	solo	solo	ADV	B	_	6	advmod	_	_
+6	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	10	nsubj	_	SpaceAfter=No
+7	;	;	PUNCT	FC	_	6	punct	_	_
+8	Forse	forse	PROPN	SP	_	10	nsubj	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+11	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+12	ancora	ancora	ADV	B	_	10	advmod	_	SpaceAfter=No
+13	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 6
+# text = il Paolo e la Giada non sono più i insieme.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Paolo	Paolo	PROPN	SP	_	9	nsubj	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Giada	Giada	PROPN	SP	_	2	conj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	più	più	ADV	B	_	9	advmod	_	_
+9	i	il	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+10	insieme	insieme	ADV	B	_	9	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = Il Paolo non era fedele.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	Paolo	Paolo	PROPN	SP	_	5	nsubj	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	cop	_	SpacesAfter=\s\s
+5	fedele	fedelo	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Erano 7 anni insieme!
+1	Erano	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	cop	_	_
+2	7	7	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	insieme	insieme	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Brutto..
+1	Brutto..	Brutto..	PROPN	SP	_	0	root	_	SpaceAfter=No
+
+# sent_id = 10
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Noi abbiamo lì in città tanto lavoro nei albergi.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	lì	lì	ADV	B	_	2	advmod	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	città	città	NOUN	S	Gender=Fem	2	obl	_	_
+6	tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+8-9	nei	_	_	_	_	_	_	_	_
+8	in	in	ADP	E	_	10	case	_	_
+9	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	albergi	albergo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Perchè adesso comincia il inverno, e vengono tanti touristi.
+1	Perchè	perché	ADV	B	_	3	advmod	_	_
+2	adesso	adesso	ADV	B	_	3	advmod	_	_
+3	comincia	cominciare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	vengono	venire	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+9	tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	10	det	_	_
+10	touristi	tourista	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 13
+# text = I prossimi giorni vado cercare un lavoro per te.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	prossimi	prossimo	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+4	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	cercare	cercare	VERB	V	VerbForm=Inf	4	ccomp	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 14
+# text = va bene?
+1	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Io lavoro ancora alla banca Ma è bello.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lavoro	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	banca	banca	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	Ma	ma	CCONJ	CC	_	9	cc	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	bello	bello	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Le gente, i clienti, il capo é la paga.
+1	Le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	gente	gente	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	clienti	cliente	NOUN	S	Number=Plur	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	8	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	capo	capo	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	_
+9	é	é	SCONJ	CS	_	11	advmod	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	paga	paga	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 17
+# text = Ma faccio una scuola interna.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	interna	interno	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Per essere più sicura con i clienti commerciali.
+1	Per	per	ADP	E	_	4	mark	_	_
+2	essere	essere	AUX	V	VerbForm=Inf	4	cop	_	_
+3	più	più	ADV	B	_	4	advmod	_	_
+4	sicura	sicuro	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	clienti	cliente	NOUN	S	Number=Plur	4	obl	_	_
+8	commerciali	commerciale	ADJ	A	Number=Plur	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 19
+# text = La scuola va 6 mesi.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	6	6	NUM	N	NumType=Card	5	nummod	_	_
+5	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 20
+# text = E difficile ma va.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	difficile	difficile	ADJ	A	Number=Sing	0	root	_	_
+3	ma	ma	CCONJ	CC	_	4	cc	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 21
+# text = Et tu?
+1	Et	e	CCONJ	CC	_	2	cc	_	_
+2	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 22
+# text = Come hai fatto l'esame con il massimo dei voti?
+1	Come	come	SCONJ	CS	_	3	mark	_	_
+2	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esame	esame	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	voti	voto	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 23
+# text = Tu sei bravissimo.
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	sei	essere	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	bravissimo	bravo	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 24
+# text = Ma sapeva già!
+1	Ma	ma	CCONJ	CC	_	2	cc	_	_
+2	sapeva	sapere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	già	già	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 25
+# text = Adesso puoi la prima volta lavorare senza studiare.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	puoi	potere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	prima	primo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	5	amod	_	_
+5	volta	volta	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+6	lavorare	lavorare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+7	senza	senza	ADP	E	_	8	mark	_	_
+8	studiare	studiare	VERB	V	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 26
+# text = Non devi andare subito a casa per studiare.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+4	subito	subito	ADV	B	_	3	advmod	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	studiare	studiare	VERB	V	VerbForm=Inf	3	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 27
+# text = Penso che adesso non sai che cosa vuoi fare con il tempo libero?;-) Ti voglio bene, ci sentiamo, bacio Maria
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+2	che	che	SCONJ	CS	_	5	mark	_	_
+3	adesso	adesso	ADV	B	_	5	advmod	_	_
+4	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+5	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	9	nsubj	_	_
+8	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	5	ccomp	_	_
+10	con	con	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+13	libero	libero	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	1	punct	_	SpaceAfter=No
+15	;	;	PUNCT	FC	_	1	punct	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+17	)	)	PUNCT	FB	_	1	punct	_	SpacesAfter=\n
+18	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	19	obj	_	_
+19	voglio	volere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+20	bene	bene	ADV	B	_	19	advmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	23	punct	_	SpacesAfter=\n
+22	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	expl	_	_
+23	sentiamo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	conj	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	23	punct	_	_
+25	bacio	bacio	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+26	Maria	Maria	PROPN	SP	_	25	nmod	_	SpacesAfter=\n
+

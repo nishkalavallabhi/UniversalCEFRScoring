@@ -1,0 +1,155 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001161_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 24.11.2011 Caro Paolo!
+1	24.11.2011	24.11.201l	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	SpacesAfter=\s\n
+2	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	Paolo	Paolo	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 2
+# text = Come stai?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Spero que tutto va bene!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sto bene.
+1	Sto	stare	ADV	B	_	2	advmod	_	_
+2	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Vorrei fare un corso italiano a Città X.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	italiano	italiano	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	Città	città	PROPN	SP	_	4	nmod	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Mi piace tanto questa lingua!!!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tanto	tanto	ADV	B	_	2	advmod	_	_
+4	questa	questo	PRON	PD	Gender=Fem|Number=Sing|PronType=Dem	2	nsubj	_	_
+5	lingua!!!	lingua!!!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ti volevo chiedere, se posso rimanere in casa tua per 2 settimane?
+1	Ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
+2	volevo	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	chiedere	chiedere	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	se	se	SCONJ	CS	_	7	mark	_	_
+6	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	rimanere	rimanere	VERB	V	VerbForm=Inf	3	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	casa	casa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+10	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	obj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	2	2	NUM	N	NumType=Card	13	nummod	_	_
+13	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	10	obl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Com'è Città X?
+1	Com'	come	SCONJ	CS	_	3	advmod	_	SpaceAfter=No
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Città	Città	PROPN	SP	_	0	root	_	_
+4	X	X	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Mi piacerebbe visitare il Monumento X!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	visitare	visitare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Monumento	monumento	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	X	X	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Come sta la tua famiglia?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Tanto tempo che non la ho visto.
+1	Tanto	tanto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	la	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	obj	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl:relcl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Paolo, ti ricordi quando siamo usciti la ultima volta?
+1	Paolo	Paolo	PROPN	SP	_	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+4	ricordi	ricordare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	quando	quando	SCONJ	CS	_	7	mark	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	usciti	uscire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	advcl	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	ultima	ultimo	ADJ	NO	Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	volta	volta	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 13
+# text = Vorrei sapere cosa possiamo fare la sera, dove possiamo uscire?
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	5	obj	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	sera	sera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	7	punct	_	_
+9	dove	dove	ADV	B	_	11	advmod	_	_
+10	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	uscire	uscire	VERB	V	VerbForm=Inf	7	acl:relcl	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Aspetto con impazienza la tua risposta!
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	impazienza	impazienza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+7	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Cari Saluti e a presto, Maria
+1	Cari	caro	PROPN	SP	_	0	root	_	_
+2	Saluti	Saluti	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	7	cc	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	presto	presto	ADV	B	_	7	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\n\s\n\s
+7	Maria	Maria	PROPN	SP	_	1	conj	_	SpacesAfter=\n
+

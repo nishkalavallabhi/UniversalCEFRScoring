@@ -1,0 +1,254 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120327_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 28.02.2012 Liebe Silke, ich freue mich sehr, dass Du zu mir geschrieben hast.
+1	Stadt	Stadt	NOUN	NN	_	10	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	28.02.2012	28.02.2012	PROPN	NN	_	6	amod	_	SpacesAfter=\n
+6	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+7	Silke	Silke	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+11	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+12	sehr	sehr	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	10	punct	_	_
+14	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+15	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	18	nsubj	_	_
+16	zu	zu	ADP	APPR	_	17	case	_	_
+17	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	18	obl	_	_
+18	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	10	ccomp	_	_
+19	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Meine Familie geht es auch ganz gut.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	auch	auch	ADV	ADV	_	3	advmod	_	_
+6	ganz	ganz	ADV	ADV	_	7	advmod	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Wie du weißt, ich hier in Deutschland wohne und meine Familie in Polen aber ich telefoniere oft.
+1	Wie	wie	ADP	KOUS	_	3	case	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	3	nsubj	_	_
+3	weißt	weißen|wissen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+6	hier	hier	ADV	ADV	_	3	advmod	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Deutschland	Deutschland	PROPN	NE	_	3	obl	_	_
+9	wohne	wohne	PROPN	APPR	_	8	flat	_	_
+10	und	und	CCONJ	KON	_	17	cc	_	_
+11	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Polen	Polen	PROPN	NE	_	12	nmod	_	_
+15	aber	aber	CCONJ	KON	_	17	cc	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	telefoniere	telefoni	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	conj	_	_
+18	oft	oft	ADV	ADV	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich würde gern nach Polen fahren aber leider habe ich kein Zeit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	gern	gern	ADV	ADV	_	6	advmod	_	_
+4	nach	nach	ADP	APPR	_	5	case	_	_
+5	Polen	Polen	PROPN	NE	Case=Dat|Number=Sing	6	obl	_	_
+6	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	aber	aber	ADV	ADV	_	6	advmod	_	_
+8	leider	leider	ADV	ADV	_	9	advmod	_	_
+9	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	kein	kein	PRON	PIAT	PronType=Neg	12	advmod	_	_
+12	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ja, ich habe bald Geburtstag.
+1	Ja	Ja	PART	NN	_	4	mark	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bald	bald	SCONJ	KOUS	_	6	mark	_	_
+6	Geburtstag	Geburtstag	NOUN	NN	_	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ich werde schon 29 Jahre alt!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	schon	schon	ADV	ADV	_	4	advmod	_	_
+4	29	29	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Jahre	Jahr	NOUN	NN	_	6	nmod	_	_
+6	alt	alt	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ich mag Haustiere sehr.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	Haustiere	Haustiern	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	sehr	sehr	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Ich hätte gern einen Hund oder eine Katze.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	gern	gern	ADV	ADV	_	5	advmod	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+6	oder	oder	CCONJ	KON	_	8	cc	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Katze	Katze	NOUN	NN	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Leider, Vatter von meinem Freund mag Tiere nicht und er möchte keine zu Hause haben.
+1	Leider	leider	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Vatter	Vatter	NOUN	NN	_	16	conj	_	_
+4	von	von	ADP	APPR	_	6	case	_	_
+5	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Freund	Freund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+7	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+8	Tiere	Tier	NOUN	NN	Case=Nom|Number=Plur	16	nsubj	_	_
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+10	und	und	CCONJ	KON	_	16	cc	_	_
+11	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+12	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+13	keine	kein	PRON	PIAT	PronType=Neg	16	advmod	_	_
+14	zu	zu	ADP	APPR	_	15	case	_	_
+15	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+16	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 10
+# text = Deshalb kann ich nicht eben zum Geburtstag keine Tiere bekommen.
+1	Deshalb	deshalb	ADV	PAV	_	11	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	eben	eben	ADV	ADV	_	11	advmod	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+9	keine	kein	PRON	PIAT	PronType=Neg	10	advmod	_	_
+10	Tiere	Tier	NOUN	NN	Case=Nom|Number=Plur	11	nsubj:pass	_	_
+11	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 11
+# text = Schade!
+1	Schade	schade	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ich habe keinen besonderen Wünsch.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	keinen	kein	PRON	PIAT	PronType=Neg	4	advmod	_	_
+4	besonderen	besonderen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+5	Wünsch	Wünsch	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 13
+# text = Ich werde sehr froh, wenn ich eine Geburtstagskarte bekommen, und vieleich eine Schockolade.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	froh	friehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Geburtstagskarte	Geburtstagskarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	4	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	13	punct	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	vieleich	vieleich	ADJ	ADJD	Degree=Pos	15	conj	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Schockolade	Schockolade	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Ich liebe die Schokolade.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	liebe	lieben	PROPN	NN	Case=Nom|Number=Sing	1	nsubj	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Schokolade	schokolade	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Im Mai habe ich eine Woche frei.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+4	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Woche	Woche	NOUN	NN	_	8	nmod	_	_
+8	frei	frein	ADJ	PTKVZ	Degree=Pos	4	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Ich könnte Dich gern besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	Dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+4	gern	gern	ADV	ADV	_	5	advmod	_	_
+5	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Ich könnte mit meinem Freund ankommen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Freund	Freund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+6	ankommen	ankommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 18
+# text = Du hast ihn noch nicht kennengelernt.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+2	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+4	noch	noch	ADV	ADV	_	5	advmod	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	kennengelernt	kennenlernen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 19
+# text = Da ist eine gute Möglichkeit.
+1	Da	da	SCONJ	ADV	_	5	mark	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+4	gute	gut	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Möglichkeit	Möglichkeit	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 20
+# text = Bis bald!
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 21
+# text = Liebe Grüße Katharina
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Katharina	Katharina	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

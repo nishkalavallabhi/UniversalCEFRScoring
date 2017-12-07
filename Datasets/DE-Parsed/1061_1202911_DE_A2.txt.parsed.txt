@@ -1,0 +1,130 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1202911_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 21.02.2012 Liebe Dana, vielen Danke für Deine einladung.
+1	21.02.2012	21.02.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	Dana	Dana	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	vielen	viel	ADJ	PIAT	Degree=Pos	6	amod	_	_
+6	Danke	Dank	NOUN	NN	_	2	appos	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	Deine	Deine	PROPN	NE	_	9	nmod	_	_
+9	einladung	Einladung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ich kommen gern zu nigeria Besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	kommen	kommen	VERB	VVINF	VerbForm=Inf	6	xcomp	_	_
+3	gern	gern	ADV	ADV	_	2	advmod	_	_
+4	zu	zu	ADP	APPR	_	5	case	_	_
+5	nigeria	nigeria	PROPN	NN	Case=Dat|Number=Sing	2	obl	_	_
+6	Besuchen	besuchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = aber bin ich in Stadt X gefahren, weil ich zu Hause am 22.03.212 kommen.
+1	aber	aber	ADV	ADV	_	7	advmod	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Stadt	Stadt	PROPN	NN	_	7	obl	_	_
+6	X	X	PROPN	NN	_	5	appos	_	_
+7	gefahren	fahren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	16	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+11	zu	zu	ADP	APPR	_	12	case	_	_
+12	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	16	obl	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	22.03.212	22.03.212	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+16	kommen	kommen	VERB	VVINF	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Die Stadt ist sehr schön und interesant, Deshalb Glücke ich meine neue Stadt lieben besuchen..
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Stadt	Stadt	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	interesant	interesant	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	10	punct	_	_
+9	Deshalb	deshalb	NUM	ADJA	NumType=Card	10	nummod	_	_
+10	Glücke	Glück	NOUN	NN	_	16	obl	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+12	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Stadt	Stadt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpacesAfter=\s\s
+15	lieben	lieben	VERB	VVINF	VerbForm=Inf	16	xcomp	_	_
+16	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+17	..	..	PUNCT	NN	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ich wunsch dich bestanden in Ihre prüfung und glücklich gesundheit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	wunsch	wunsch	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj:pass	_	_
+4	bestanden	bestehen	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	prüfung	prüfung	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	glücklich	glücklich	ADJ	ADJD	Degree=Pos	10	amod	_	_
+10	gesundheit	sundheien	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = ich bleibe noch ein monat bei meinen mutter wünhst du dir etwas aus Nigeria leben.
+1	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bleibe	bleiben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	ADV	_	2	advmod	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	monat	monat	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	mutter	mutt	NOUN	NN	Case=Dat|Number=Sing	2	obl	_	_
+9	wünhst	wünhen	ADV	ADV	_	2	advmod	_	_
+10	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	nsubj	_	_
+11	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	obj	_	_
+12	etwas	etwas	PRON	PIS	Case=Dat|PronType=Ind	15	iobj	_	_
+13	aus	aus	ADP	APPR	_	14	case	_	_
+14	Nigeria	Nigeria	PROPN	NE	Case=Dat|Number=Sing	12	nmod	_	_
+15	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	acl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Vielleicht kannst du mich ja auch nach meiner Mutter mal wieder zu Hause besuchen.
+1	Vielleicht	vielleicht	ADV	ADV	_	14	advmod	_	_
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	14	nsubj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	_
+5	ja	ja	ADV	ADV	_	14	advmod	_	_
+6	auch	auch	ADV	ADV	_	14	advmod	_	_
+7	nach	nach	ADP	APPR	_	9	case	_	_
+8	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Mutter	Mutter	NOUN	NN	Case=Dat|Number=Sing	14	obl	_	_
+10	mal	mal	ADV	ADV	_	14	advmod	_	_
+11	wieder	wieder	ADV	ADV	_	14	advmod	_	_
+12	zu	zu	ADP	APPR	_	13	case	_	_
+13	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	14	obl	_	_
+14	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Vielen Dank für Ihr verständnis Mit Freundlichen Grüßen Tobias Meier
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	Ihr	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	verständnis	verständnis	NOUN	NN	Case=Acc|Number=Sing	2	nmod	_	SpacesAfter=\s\n
+6	Mit	mit	ADP	APPR	_	8	case	_	_
+7	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Grüßen	Grüßen	NOUN	NN	_	2	nmod	_	SpacesAfter=\n
+9	Tobias	Tobias	PROPN	NE	_	8	appos	_	_
+10	Meier	Meier	PROPN	NN	_	9	flat	_	SpacesAfter=\n
+

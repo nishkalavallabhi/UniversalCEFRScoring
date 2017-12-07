@@ -1,0 +1,153 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001103_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 28.06.11 Cari amici!
+1	28.06.11	28.06.1l	NUM	N	NumType=Card	2	nummod	_	SpacesAfter=\s\n
+2	Cari	caro	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	amici	amico	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sono qui a Città X per imparare l'italiano.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	qui	qui	ADV	B	_	4	advmod	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	0	root	_	_
+5	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	_
+6	per	per	ADP	E	_	7	mark	_	_
+7	imparare	imparare	VERB	V	VerbForm=Inf	4	advcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Città X si trova al mare più ou meno 200 km in fronte di Città Y.
+1	Città	Città	PROPN	SP	_	4	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	_
+3	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	4	expl	_	_
+4	trova	trovare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	mare	mare	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+8	più	più	ADV	B	_	7	advmod	_	_
+9	ou	ou	ADP	E	_	12	case	_	_
+10	meno	meno	ADV	B	_	11	advmod	_	_
+11	200	200	NUM	N	NumType=Card	12	nummod	_	_
+12	km	chilometro	NOUN	S	Gender=Masc	8	obl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	fronte	fronte	NOUN	S	Number=Sing	4	obl	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Città	città	PROPN	SP	_	14	nmod	_	_
+17	Y.	Y.	PROPN	SP	_	16	flat:name	_	_
+
+# sent_id = 4
+# text = Che una molta bella e vecchia città.
+1	Che	che	SCONJ	CS	_	7	mark	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	molta	molta	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+4	bella	bello	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	vecchia	vecchio	ADJ	A	Gender=Fem|Number=Sing	4	conj	_	_
+7	città	città	NOUN	S	Gender=Fem	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = In nostro corso ci sono tante persone differente.
+1	In	in	ADP	E	_	3	case	_	_
+2	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	_
+5	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	7	det	_	_
+7	persone	persona	NOUN	S	Gender=Fem|Number=Plur	5	nsubj	_	_
+8	differente	differente	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = 3 Persone sono del Inghilterra, 2 delle USA, 3 Persone di Città Z et una di Città W. Sono un vero "Dreamteam".
+1	3	3	NUM	N	NumType=Card	2	nummod	_	_
+2	Persone	persona	NOUN	S	Gender=Fem|Number=Plur	6	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Inghilterra	Inghilterra	PROPN	SP	_	27	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	6	punct	_	_
+8	2	2	NUM	N	NumType=Card	6	nummod	_	_
+9-10	delle	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	USA	USA	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	6	punct	_	_
+13	3	3	NUM	N	NumType=Card	14	nummod	_	_
+14	Persone	persona	NOUN	S	Gender=Fem|Number=Plur	27	nsubj	_	_
+15	di	di	ADP	E	_	16	case	_	_
+16	Città	Città	PROPN	SP	_	14	nmod	_	_
+17	Z	Z	PROPN	SP	_	16	flat:name	_	_
+18	et	e	CCONJ	CC	_	19	cc	_	_
+19	una	uno	PRON	PI	Gender=Fem|Number=Sing|PronType=Ind	16	conj	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	Città	Città	PROPN	SP	_	19	nmod	_	_
+22	W.	W.	PROPN	SP	_	21	flat:name	_	_
+23	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	cop	_	_
+24	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+25	vero	vero	ADJ	A	Gender=Masc|Number=Sing	27	amod	_	_
+26	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	Dreamteam	Dreamteam	PROPN	SP	_	0	root	_	SpaceAfter=No
+28	"	"	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	27	punct	_	_
+
+# sent_id = 7
+# text = Quando non abbiamo lezione, faggiamo tante cose insieme, andare al mare, mangare in pizzeria, andare in cinema, andare in montagna, fare delle passeggiate.
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	faggiamo	faggare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	insieme	insieme	ADV	B	_	11	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	andare	andare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	mare	mare	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	mangare	mangare	VERB	V	VerbForm=Inf	11	conj	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	pizzeria	pizzeria	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	20	punct	_	_
+20	andare	andare	VERB	V	VerbForm=Inf	11	conj	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	cinema	cinema	NOUN	S	Gender=Masc	20	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	andare	andare	VERB	V	VerbForm=Inf	11	conj	_	_
+25	in	in	ADP	E	_	26	case	_	_
+26	montagna	montagna	NOUN	S	Gender=Fem|Number=Sing	24	obl	_	SpaceAfter=No
+27	,	,	PUNCT	FF	_	28	punct	_	_
+28	fare	fare	VERB	V	VerbForm=Inf	11	conj	_	_
+29-30	delle	_	_	_	_	_	_	_	_
+29	di	di	ADP	E	_	31	case	_	_
+30	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	31	det	_	_
+31	passeggiate	passeggiata	NOUN	S	Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Tutto insieme.
+1	Tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	_
+2	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = A presto!
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Michele
+1	Michele	Michele	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

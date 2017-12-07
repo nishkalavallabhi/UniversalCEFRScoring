@@ -1,0 +1,83 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000353_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 19.07.2010 Ciao!
+1	Città	città	PROPN	SP	_	0	root	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	19.07.2010	19.07.2010	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Ciao	Ciao	PROPN	SP	_	1	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sono a Città X in Italia per studiare dela lingua l'Italiana.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	0	root	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Italia	Italia	PROPN	SP	_	3	nmod	_	_
+7	per	per	ADP	E	_	8	mark	_	_
+8	studiare	studiare	VERB	V	VerbForm=Inf	3	advcl	_	_
+9	dela	dela	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	_
+10	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	Italiana	Italiana	PROPN	SP	_	8	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Imparo che parlare e che scrivere in questa lingua.
+1	Imparo	Imparo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	parlare	parlare	VERB	V	VerbForm=Inf	1	ccomp	_	_
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	scrivere	scrivere	VERB	V	VerbForm=Inf	3	conj	_	_
+7	in	in	ADP	E	_	9	case	_	_
+8	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
+9	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ecco cosa faccio qui!
+1	Ecco	ecco	ADV	B	_	3	advmod	_	_
+2	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	obj	_	_
+3	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	qui	qui	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = In mio tempo libero, quando con c'é lezione, mi piacce ascoltare la musica e leggere i libri.
+1	In	in	ADP	E	_	3	case	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	quando	quando	SCONJ	CS	_	13	mark	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	13	obl	_	SpaceAfter=No
+9	é	é	CCONJ	CC	_	10	cc	_	_
+10	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	8	punct	_	_
+12	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	13	iobj	_	_
+13	piacce	piacce	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	ascoltare	ascoltare	VERB	V	VerbForm=Inf	13	csubj	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	musica	musica	NOUN	S	Gender=Fem|Number=Sing	14	obj	_	_
+17	e	e	CCONJ	CC	_	18	cc	_	_
+18	leggere	leggere	VERB	V	VerbForm=Inf	14	conj	_	_
+19	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	libri	libro	NOUN	S	Gender=Masc|Number=Plur	18	obj	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = A presto!
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Tuo Michele
+1	Tuo	tuo	PROPN	SP	_	0	root	_	_
+2	Michele	Michele	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

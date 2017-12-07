@@ -1,0 +1,47 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024852_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Alex.
+1	Hallo	Hallo	PROPN	NE	_	0	root	_	_
+2	Alex	Alex	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich glückwünsche dich mit geburt Baby!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	glückwünsche	glückwünsch	ADJ	ADJA	Degree=Pos	3	advmod	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	geburt	burn	PROPN	NE	Case=Dat|Number=Sing	3	nmod	_	_
+6	Baby	Baby	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Wie es der Mutter das Baby geht?
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	0	root	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	cop	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Wie heißt das Baby?
+1	Wie	wie	CCONJ	KON	_	2	dep	_	_
+2	heißt	heißen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Tschüss!
+1	Tschüss	Tschüss	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Deine Julia
+1	Deine	Dein	PROPN	NE	_	0	root	_	_
+2	Julia	Julia	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,155 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120425_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 13.03.2011 Lieber Michael Danke für deinen netten Brief.
+1	Stadt	Stadt	NOUN	NN	_	11	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	13.03.2011	13.03.2011	PROPN	CARD	_	5	amod	_	SpacesAfter=\n
+5	Lieber	lieb	PROPN	NN	_	7	appos	_	_
+6	Michael	Michael	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+7	Danke	Dank	NOUN	PTKANT	_	1	appos	_	_
+8	für	für	ADP	APPR	_	11	case	_	_
+9	deinen	dein	ADJ	PPOSAT	Degree=Pos	10	advmod	_	_
+10	netten	netten	ADJ	ADJA	Degree=Pos	11	advmod	_	_
+11	Brief	Brief	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Ich habe mich sehr gefreut, dass du die Silvesternacht mit Franz und Daniela verbracht hast, und alles war prima gewessen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+8	du	du	PROPN	NN	Case=Nom|Number=Sing	15	nsubj	_	_
+9	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Silvesternacht	Silvesternacht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+11	mit	mit	ADP	APPR	_	12	case	_	_
+12	Franz	Franz	PROPN	NE	_	10	nmod	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	Daniela	Daniela	PROPN	NE	_	12	conj	_	_
+15	verbracht	verbringen	VERB	VVPP	VerbForm=Part	5	ccomp	_	_
+16	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	_
+18	und	und	CCONJ	KON	_	22	cc	_	_
+19	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	22	nsubj	_	_
+20	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	_
+21	prima	prima	ADJ	ADJA	Degree=Pos	22	amod	_	_
+22	gewessen	wessen	NOUN	NN	_	5	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Meine wünsche für das neue Jahr sind alles über meinen Sohn und seine Erfolge in der verschiedenen Zielen.
+1	Meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	iobj	_	_
+2	wünsche	wünsch	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	für	für	ADP	APPR	_	6	case	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+5	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+7	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	2	obj	_	_
+9	über	über	ADP	APPR	_	11	case	_	_
+10	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Sohn	Sohn	NOUN	NN	_	8	nmod	_	_
+12	und	und	CCONJ	KON	_	18	cc	_	_
+13	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Erfolge	Erfolg	NOUN	NN	Case=Acc|Number=Sing	18	obj	_	_
+15	in	in	ADP	APPR	_	18	case	_	_
+16	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	verschiedenen	verschieden	ADJ	ADJA	Degree=Pos	18	amod	_	_
+18	Zielen	Ziel	NOUN	NN	_	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Bei unserem Arbeit auser neuer Verpachung Maschin gibt nicht neues.
+1	Bei	bei	ADP	APPR	_	4	case	_	_
+2	unserem	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	Arbeit	Arbeit	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	4	amod	_	_
+4	auser	aus	PROPN	NN	_	8	obl	_	_
+5	neuer	neu	ADJ	ADJA	Degree=Cmp,Pos	6	amod	_	_
+6	Verpachung	Verpachung	NOUN	NN	_	4	nmod	_	_
+7	Maschin	maschin	PROPN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+8	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+10	neues	neu	PROPN	ADJA	Case=Acc|Gender=Masc,Neut|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Wenn du uns besucht, möchte ich dass wir zusammen richtig feiern.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	nsubj	_	_
+3	uns	wir	PROPN	PPER	Case=Acc|Number=Plur	2	obj	_	_
+4	besucht	besuchen	VERB	VVPP	VerbForm=Part	12	advcl	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+8	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+10	zusammen	zusammen	ADV	ADV	_	12	advmod	_	_
+11	richtig	richtig	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+12	feiern	feiern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 6
+# text = Wie wäre es mit dem Essen in einem chinesischen Resturant?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Essen	Essen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+7	in	in	ADP	APPR	_	10	case	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+9	chinesischen	chinesisch	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	10	amod	_	_
+10	Resturant	Resturant	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Am Silvesternacht wir waren in Stadt X und haben wir in einem guten chinesichen Resturant gegessen.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Silvesternacht	Silvesternacht	PROPN	NN	_	0	root	_	_
+4	wir	wir	PROPN	PPER	Case=Nom|Number=Sing	3	flat	_	_
+5	waren	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	_	3	nmod	_	_
+8	X	X	PROPN	NN	_	7	appos	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	haben	haben	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+12	in	in	ADP	APPR	_	16	case	_	_
+13	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+14	guten	gut	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	16	amod	_	_
+15	chinesichen	chinesich	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	16	amod	_	_
+16	Resturant	Resturant	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	17	obl	_	_
+17	gegessen	gessen	VERB	VVPP	VerbForm=Part	10	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Das war super.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	super	super	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Bitte sagst du Bescheid.
+1	Bitte	Bitte	ADV	VVIMP	_	4	advmod	_	_
+2	sagst	sagen	ADV	ADV	_	4	advmod	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	nsubj	_	_
+4	Bescheid	Bescheid	PROPN	NN	Case=Nom|Number=Sing	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Schöne Grüße von meinem Mann Julia
+1	Schöne	schön	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	_
+3	von	von	ADP	APPR	_	5	case	_	_
+4	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Mann	Mann	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	SpacesAfter=\n
+6	Julia	Julia	PROPN	NE	_	5	appos	_	SpacesAfter=\n
+

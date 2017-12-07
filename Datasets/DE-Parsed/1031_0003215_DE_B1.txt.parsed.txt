@@ -1,0 +1,296 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003215_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Katharina Schmidt, Stadt X Zentralplatz 12, 123456 Traditionelle im Ausland Stadt X Winkelsweg 21 123456 Stadt X, den 01.11.2011 Sehr geehrte Damen und Herren, ich habe Ihre Internetseite gelesen.
+1	Katharina	Katharina	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmidt	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	Stadt	Stadt	NOUN	NN	_	1	nmod	_	_
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	Zentralplatz	Zentralplatz	PROPN	NN	_	5	flat	_	_
+7	12	12	NUM	CARD	NumType=Card	4	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	_
+9	123456	123456	NUM	CARD	NumType=Card	10	nummod	_	SpacesAfter=\n
+10	Traditionelle	traditionell	NOUN	NN	_	19	nmod	_	_
+11-12	im	_	_	_	_	_	_	_	_
+11	in	in	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	nmod	_	SpacesAfter=\n
+14	Stadt	Stadt	PROPN	NN	_	13	nmod	_	_
+15	X	X	PROPN	NN	_	14	appos	_	SpacesAfter=\n
+16	Winkelsweg	Winkelsweg	PROPN	NN	_	14	flat	_	_
+17	21	21	NUM	CARD	NumType=Card	18	nummod	_	SpacesAfter=\n
+18	123456	123456	NUM	CARD	NumType=Card	19	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+19	Stadt	Stadt	NOUN	NN	_	1	conj	_	_
+20	X	X	PROPN	NN	_	19	appos	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	19	punct	_	_
+22	den	der	PRON	PRELS	Case=Nom|PronType=Rel	26	nsubj	_	_
+23	01.11.2011	01.11.2011	NUM	CARD	NumType=Card	26	nummod	_	SpacesAfter=\n
+24	Sehr	Sehr	ADV	ADV	_	25	advmod	_	_
+25	geehrte	geehrt	ADJ	ADJA	Degree=Pos	26	amod	_	_
+26	Damen	Dame	NOUN	NN	_	34	appos	_	_
+27	und	und	CCONJ	KON	_	28	cc	_	_
+28	Herren	Herr	NOUN	NN	_	26	conj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	26	punct	_	SpacesAfter=\n
+30	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	nsubj	_	_
+31	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	_
+32	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	Internetseite	Internetseite	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	34	iobj	_	_
+34	gelesen	lesen	VERB	VVPP	VerbForm=Part	1	acl	_	SpaceAfter=No
+35	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Dort habe ich das Thema „Ist es sinnvoll, auch im Ausland die Traditionen seines Heimatlandes fortzusetzen, oder sollte man sich an der Kultur des Gastlandes orientieren?" gefanden.
+1	Dort	dort	ADV	ADV	_	7	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Thema	Thema	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+6	„	„	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+7	Ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+9	sinnvoll	sinnvellen	ADJ	ADJD	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	7	punct	_	_
+11	auch	auch	ADV	ADV	_	14	advmod	_	_
+12-13	im	_	_	_	_	_	_	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	19	obl	_	_
+15	die	der	DET	ART	Definite=Def|PronType=Art	16	det	_	_
+16	Traditionen	Tradition	NOUN	NN	_	19	appos	_	_
+17	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Heimatlandes	Heimatland	NOUN	NN	_	16	nmod	_	_
+19	fortzusetzen	fortsetzen	VERB	VVIZU	_	7	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	30	punct	_	_
+21	oder	oder	CCONJ	KON	_	30	cc	_	_
+22	sollte	sollen	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	30	aux	_	_
+23	man	man	PRON	PIS	Case=Nom|PronType=Ind	30	nsubj	_	_
+24	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	30	obj	_	_
+25	an	an	ADP	APPR	_	27	case	_	_
+26	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	obl	_	_
+28	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	29	det	_	_
+29	Gastlandes	Gastland	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	27	nmod	_	_
+30	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
+31	?	?	PUNCT	$.	_	30	punct	_	SpaceAfter=No
+32	"	"	PUNCT	$(	_	30	punct	_	_
+33	gefanden	gefehen|stehen	VERB	VVINF	VerbForm=Inf	30	xcomp	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte meiner Meinung zum Thema anschreiben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Meinung	Meinung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Thema	Thema	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+8	anschreiben	anschreiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich denke, dass man die wichtigste Sache seines Heimatlandes ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	wichtigste	wichtig	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	8	amod	_	_
+8	Sache	Sache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+9	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Heimatlandes	Heimatland	NOUN	NN	_	8	nmod	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Deshalb glaube ich, dass man im Ausland sowohl die Traditionen seines Heimatlandes fortsetzen, als auch an der Kultur des Gastlandes ein bischen orientiert muß.
+1	Deshalb	deshalb	ADV	PAV	_	2	advmod	_	_
+2	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	obl	_	_
+10	sowohl	sowohl	CCONJ	KON	_	12	cc	_	_
+11	die	der	DET	ART	Definite=Def|PronType=Art	12	det	_	_
+12	Traditionen	Tradition	NOUN	NN	_	9	conj	_	_
+13	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Heimatlandes	Heimatland	NOUN	NN	_	12	nmod	_	_
+15	fortsetzen	fortsetzen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	26	punct	_	_
+17	als	als	CCONJ	KOKOM	_	26	cc	_	_
+18	auch	auch	ADV	ADV	_	26	advmod	_	_
+19	an	an	ADP	APPR	_	21	case	_	_
+20	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+22	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Gastlandes	Gastland	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	21	nmod	_	_
+24	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	26	det	_	_
+25	bischen	bisch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	orientiert	orientiert	VERB	VVPP	VerbForm=Part	15	conj	_	_
+27	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	26	aux	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Wenn man im Ausland gefahren ist, muß es ihre Heimat nicht vergessen.
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	6	nsubj	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+6	gefahren	fahren	VERB	VVPP	VerbForm=Part	14	advcl	_	_
+7	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	muß	müssen	AUX	VMFIN	Number=Sing|Person=3|VerbForm=Fin	14	aux	_	_
+10	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	expl	_	_
+11	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Heimat	Heimat	NOUN	NN	Case=Dat|Number=Sing	14	iobj	_	_
+13	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	_
+14	vergessen	vergessen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 7
+# text = Die Menschen können die Feste auch im Ausland feiern.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	2	det	_	_
+2	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+3	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Feste	Fest	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+6	auch	auch	ADV	ADV	_	9	advmod	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+10	feiern	feiern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Aber es ist gut, wenn sie das Gastland auch kennen.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	das	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Gastland	Gastland	NOUN	NN	_	4	advcl	_	_
+10	auch	auch	ADV	ADV	_	11	advmod	_	_
+11	kennen	kennen	ADV	VVFIN	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Zum Beispiel, das die Bevölkerung welches Fest feiern, wie ist die Brauches.
+1-2	Zum	_	_	_	_	_	_	_	_
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Beispiel	Beispiel	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	das	der	PRON	PRELS	Case=Nom|PronType=Rel	10	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Bevölkerung	Bevölkerung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+8	welches	welch	PRON	PWS	Case=Acc|PronType=Int	9	det	_	_
+9	Fest	fest	NOUN	NN	_	7	nmod	_	_
+10	feiern	feiern	VERB	VVINF	VerbForm=Inf	15	acl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	wie	wie	ADP	KOUS	_	15	case	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
+15	Brauches	Brauch	NOUN	NN	_	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich glaube, dass die Ausländer freundlich sind, wenn die Gäste über dem Land Fragen stellen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Ausländer	Ausländer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	freundlich	freundlich	ADJ	ADJD	Degree=Pos	2	ccomp	_	_
+8	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	2	punct	_	_
+10	wenn	wenn	SCONJ	KOUS	_	17	mark	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Gäste	Gast	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+13	über	über	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	17	obl	_	_
+16	Fragen	Frage	PROPN	NN	_	15	appos	_	_
+17	stellen	stellen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Wenn wir die fremde Brauche kennengelernt, können wir über die selbste Feste und Brauche erzählen.
+1	Wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	fremde	fremd	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Brauche	brauche	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	kennengelernt	kennenlernen	VERB	VVPP	VerbForm=Part	16	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+10	über	über	ADP	APPR	_	13	case	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	13	det	_	_
+12	selbste	selbst	ADJ	ADJA	Degree=Sup	13	amod	_	_
+13	Feste	Fest	NOUN	NN	Case=Acc|Number=Plur	16	obl	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Brauche	brauche	NOUN	NN	_	13	conj	_	_
+16	erzählen	erzählen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Also, ich glaube, dass wir alle zweite Möglichkeiten auswählen.
+1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	11	mark	_	_
+7	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+8	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	10	det	_	_
+9	zweite	zweit	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	10	amod	_	_
+10	Möglichkeiten	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+11	auswählen	auswählen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Danke für die Möglichkeit, dass ich meine Meinung geschrieb konnte!
+1	Danke	Dank	NOUN	NN	_	0	root	_	_
+2	für	für	ADP	APPR	_	4	case	_	_
+3	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Möglichkeit	Möglichkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+10	geschrieb	geschrieb	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	_
+11	konnte	können	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Bleib ich weiterhin Ihre Leserin!
+1	Bleib	Bleib	PROPN	NN	_	5	nsubj	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	flat	_	_
+3	weiterhin	weiterhin	ADV	ADV	_	5	advmod	_	_
+4	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Leserin	Leserin	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Mit freundlichen Grüßen Katharina Schmidt
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Katharina	Katharina	PROPN	NE	_	3	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

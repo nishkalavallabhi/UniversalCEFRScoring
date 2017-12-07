@@ -1,0 +1,99 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000415_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 11.06.10 Ciao Paulo, Come stai?
+1	11.06.10	11.06.10	NUM	N	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Ciao	Ciao	PROPN	SP	_	0	root	_	_
+3	Paulo	Paulo	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+5	Come	come	SCONJ	CS	_	6	mark	_	_
+6	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Io sto molto bene, l'estate è arivata!!!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bene	bene	ADV	B	_	9	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	estate	estate	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	arivata	arivare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+10	!!!	!!!	PUNCT	FF	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Mia famiglia sta anche bene però mio fratello è un po malato..
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+4	anche	anche	ADV	B	_	5	advmod	_	_
+5	bene	bene	ADV	B	_	8	advmod	_	_
+6	però	però	ADV	B	_	8	advmod	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	po	po	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+12	malato..	malato	ADJ	A	_	11	amod	_	SpaceAfter=No
+
+# sent_id = 4
+# text = .
+1	.	.	PUNCT	FS	_	0	root	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Io lavoro ancora alla Posta Svizzera a Città X allo sportello e mi piace tanto.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lavoro	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ancora	ancora	ADV	B	_	2	advmod	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Posta	posta	PROPN	SP	_	2	obl	_	_
+7	Svizzera	svizzero	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+8	a	a	ADP	E	_	9	case	_	_
+9	Città	città	PROPN	SP	_	2	obl	_	_
+10	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	9	amod	_	_
+11-12	allo	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	sportello	sportello	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	16	iobj	_	_
+16	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+17	tanto	tanto	ADV	B	_	16	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Mio capo e veramente bravo e gentile.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	capo	capo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	5	cc	_	_
+4	veramente	veramente	ADV	B	_	5	advmod	_	_
+5	bravo	bravo	ADJ	A	Gender=Masc|Number=Sing	2	conj	_	_
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	gentile	gentile	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Sono contenta del mio posto di lavoro.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = A presto Cari saluti Maria
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	3	advmod	_	SpacesAfter=\n
+3	Cari	caro	PROPN	SP	_	0	root	_	_
+4	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

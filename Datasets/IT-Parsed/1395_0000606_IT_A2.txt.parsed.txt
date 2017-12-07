@@ -1,0 +1,90 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000606_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, martedì 12 gennaio Cari amici, sono a Città X, sto facendo un corso d'italiano.
+1	Città	Città	NOUN	S	Gender=Fem	12	nsubj	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	martedì	martedì	NOUN	S	Gender=Masc	1	nmod	_	_
+5	12	12	NUM	N	NumType=Card	4	nummod	_	_
+6	gennaio	gennaio	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	SpacesAfter=\s\n
+7	Cari	caro	PROPN	SP	_	1	nmod	_	_
+8	amici	amico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+10	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Città	Città	PROPN	SP	_	0	root	_	_
+13	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	facendo	fare	VERB	V	VerbForm=Ger	12	advcl	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	corso	corso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	d'	di	ADP	E	_	20	case	_	SpaceAfter=No
+20	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = La mia insegnante è una segnora molta simpatica qui si chiama Maria.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	6	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	segnora	segnore	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	8	det	_	_
+8	simpatica	simpatica	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	qui	qui	ADV	B	_	11	advmod	_	_
+10	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	11	expl	_	_
+11	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+12	Maria	Maria	PROPN	SP	_	11	xcomp	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = In nel corso con me ci sono due inglese, uno spagnolo.
+1	In	in	ADP	E	_	4	case	_	_
+2-3	nel	_	_	_	_	_	_	_	_
+2	in	in	ADP	E	_	1	fixed	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
+7	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	_
+8	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	due	due	NUM	N	NumType=Card	10	nummod	_	_
+10	inglese	inglese	NOUN	S	Number=Sing	12	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	10	punct	_	_
+12	uno	uno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+13	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 4
+# text = La giornata studiamo l'italiano et la sera facciamo passagere nel centro e dopo andiamo al restorante.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	giornata	giornata	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	studiamo	studiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+6	et	e	CCONJ	CC	_	9	cc	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	sera	sera	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+9	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+10	passagere	passagere	VERB	V	VerbForm=Inf	9	xcomp	_	_
+11-12	nel	_	_	_	_	_	_	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	centro	centro	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	dopo	dopo	ADV	B	_	16	advmod	_	_
+16	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+17-18	al	_	_	_	_	_	_	_	_
+17	a	a	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	restorante	restorante	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 5
+# text = Baci Maria
+1	Baci	Baci	PROPN	SP	_	0	root	_	_
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

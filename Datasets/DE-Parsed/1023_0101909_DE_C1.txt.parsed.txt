@@ -1,0 +1,206 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101909_DE_C1.txt
+# newpar
+# sent_id = 1
+# text = Maria Winkelmann Bahnhofsstraße 12 1234 Stadt X Computer-Spezialist Odenwaldstr.
+1	Maria	Maria	PROPN	NE	_	8	nsubj	_	_
+2	Winkelmann	Winkelmann	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	1	flat	_	_
+4	12	12	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	1234	1234	NUM	CARD	NumType=Card	1	nmod	_	_
+6	Stadt	Stadt	PROPN	NN	_	1	appos	_	_
+7	X	X	PROPN	NN	_	6	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Computer-Spezialist	Computer-Spezialist	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+9	Odenwaldstr	Odenwaldstr	PROPN	NE	_	8	flat	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = 5 53119 Bonn Stadt X, 20.03.2010 Bewerbungsbrief Sehr geehrte Damen und Herren Ihr Inserat, dass Sie eine Vertriebspraktikantin suchen, hat mich sehr angesprochen.
+1	5	5	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	53119	53119	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Bonn	Bonn	PROPN	NE	_	4	nmod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	0	root	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	20.03.2010	20.03.2010	NUM	ADJA	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Bewerbungsbrief	Bewerbungsbrief	NOUN	NN	_	11	nmod	_	SpacesAfter=\n
+9	Sehr	Sehr	ADV	ADV	_	10	advmod	_	_
+10	geehrte	geehrt	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Damen	Dame	NOUN	NN	_	4	conj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Herren	Herr	NOUN	NN	_	15	conj	_	SpacesAfter=\n
+14	Ihr	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Inserat	Inserat	NOUN	NN	_	4	appos	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	15	punct	_	_
+17	dass	dass	SCONJ	KOUS	_	21	mark	_	_
+18	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	20	nsubj	_	_
+19	eine	ein	DET	ART	Definite=Ind|PronType=Art	20	det	_	_
+20	Vertriebspraktikantin	Vertriebspraktikantin	NOUN	NN	_	21	obl	_	_
+21	suchen	suchen	VERB	VVINF	VerbForm=Inf	15	ccomp	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	26	punct	_	_
+23	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux	_	_
+24	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	26	obj	_	_
+25	sehr	sehr	ADV	ADV	_	26	advmod	_	_
+26	angesprochen	angesproch	VERB	VVPP	VerbForm=Part	21	conj	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Der obengenannte Beruf fasziniert mich schon seit Jahren, deshalb wäre ein Praktikum in Ihrer Firma genau das Richtige für mich, damit ich später die Ausbildung zur IT-Systemkauffrau absolvieren kann.
+1	Der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	obengenannte	obengenannt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	Beruf	Beruf	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	fasziniert	faszinieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+6	schon	schon	ADV	ADV	_	4	advmod	_	_
+7	seit	seit	ADP	APPR	_	8	case	_	_
+8	Jahren	Jahr	NOUN	NN	_	4	obl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	deshalb	deshalb	ADV	PAV	_	19	advmod	_	_
+11	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	aux	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Praktikum	Praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	19	obj	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	Ihrer	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Firma	Firma	NOUN	NN	_	13	nmod	_	_
+17	genau	genau	ADJ	ADJD	Degree=Pos	19	advmod	_	_
+18	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
+19	Richtige	richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	parataxis	_	_
+20	für	für	ADP	APPR	_	21	case	_	_
+21	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	31	punct	_	_
+23	damit	damit	SCONJ	KOUS	_	31	mark	_	_
+24	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	31	nsubj	_	_
+25	später	spät	ADJ	ADJD	Degree=Cmp,Pos	31	advmod	_	_
+26	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+27	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+28-29	zur	_	_	_	_	_	_	_	_
+28	zu	zu	ADP	APPR	_	30	case	_	_
+29	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
+30	IT-Systemkauffrau	IT-Systemkauffrau	NOUN	NN	Case=Dat|Number=Sing	31	obl	_	_
+31	absolvieren	absolvieren	VERB	VVINF	VerbForm=Inf	19	conj	_	_
+32	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Wie Sie aus meinen Bewerbungsunterlagen entnehmen können, habe ich die Handelsschule/XY erfolgreich abgeschlossen.
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	6	nsubj	_	_
+3	aus	aus	ADP	APPR	_	5	case	_	_
+4	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	_
+5	Bewerbungsunterlagen	Bewerbungsunterlagen	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
+6	entnehmen	entnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	können	können	AUX	VMINF	VerbForm=Inf	6	aux	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+12	Handelsschule/XY	Handelsschule/XY	NOUN	NE	Case=Nom|Number=Sing	14	nsubj:pass	_	_
+13	erfolgreich	erfolgreich	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+14	abgeschlossen	abschließen	VERB	VVPP	VerbForm=Part	6	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ich habe grosses Interesse an elektronischer Datenverarbeitung und in der Informatik bilde mich kontinuierlich weiter.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	grosses	groß	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	0	root	_	_
+4	Interesse	Interesse	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	15	obj	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	elektronischer	elektronisch	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
+7	Datenverarbeitung	Datenverarbeitung	NOUN	NN	_	4	nmod	_	_
+8	und	und	CCONJ	KON	_	11	cc	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Informatik	Informatik	NOUN	NN	_	4	conj	_	_
+12	bilde	bilde	PROPN	ADJD	_	11	appos	_	_
+13	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+14	kontinuierlich	kontinuierlich	ADJ	ADJD	Degree=Pos	15	advmod	_	_
+15	weiter	weiter	ADV	PTKVZ	_	3	appos	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ich schätze mich als freundlich, offen und kundenorientiert ein, und bewahre auch in hektischen Situationen den sog „kühlen Kopf".
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	schätze	schätzen	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	als	als	ADP	KOKOM	_	10	case	_	_
+5	freundlich	freundlich	ADJ	ADJD	Degree=Pos	10	amod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	offen	offen	ADJ	ADJD	Degree=Pos	5	conj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	kundenorientiert	kundenorientiert	ADJ	ADJD	Degree=Pos	5	conj	_	_
+10	ein	ein	NOUN	ART	_	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	21	punct	_	_
+12	und	und	CCONJ	KON	_	21	cc	_	_
+13	bewahre	fahren|bewahren	PROPN	NN	Case=Nom|Number=Plur	21	nsubj	_	_
+14	auch	auch	ADV	ADV	_	17	advmod	_	_
+15	in	in	ADP	APPR	_	17	case	_	_
+16	hektischen	hektisch	ADJ	ADJA	Degree=Pos	17	amod	_	_
+17	Situationen	Situation	NOUN	NN	_	18	obl	_	_
+18	den	der	VERB	VVINF	VerbForm=Inf	21	xcomp	_	_
+19	sog	saugen	ADJ	VVFIN	_	21	amod	_	_
+20	„	„	PUNCT	$.	_	21	punct	_	SpaceAfter=No
+21	kühlen	kühlen	VERB	VVINF	VerbForm=Inf	10	conj	_	_
+22	Kopf	Kopf	NOUN	NN	_	21	appos	_	SpaceAfter=No
+23	"	"	PUNCT	$(	_	21	punct	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 7
+# text = Bin belastbar, mobil und flexibel, und übernehme ich gerne die Verantwortung.
+1	Bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	belastbar	belastbar	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	4	punct	_	_
+4	mobil	mobil	ADJ	ADJD	Degree=Pos	2	conj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	flexibel	flexibel	ADJ	ADJD	Degree=Pos	2	conj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	übernehme	übernehmen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+11	gerne	gerne	ADV	ADV	_	9	advmod	_	_
+12	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Verantwortung	Verantwortung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ich würde mich dieser neuen Herausforderung gerne stellen, neue Menschen kennenlernen und mich weiter entwickeln.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+4	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+5	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	Herausforderung	Herausforderung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
+7	gerne	gerne	ADV	ADV	_	8	advmod	_	_
+8	stellen	stellen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	12	punct	_	_
+10	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	Menschen	Mensch	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+12	kennenlernen	kennenlernen	VERB	VVINF	VerbForm=Inf	8	conj	_	_
+13	und	und	CCONJ	KON	_	16	cc	_	_
+14	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	obj	_	_
+15	weiter	weiter	ADV	ADV	_	16	advmod	_	_
+16	entwickeln	entwickeln	VERB	VVINF	VerbForm=Inf	12	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 9
+# text = Es würde mich freuen, mich bei Ihnen persönlich vorstellen zu dürfen.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+4	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+7	bei	bei	ADP	APPR	_	8	case	_	_
+8	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	10	obl	_	_
+9	persönlich	persönlich	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+10	vorstellen	vorstellen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	_
+11	zu	zu	PART	PTKZU	_	12	mark	_	_
+12	dürfen	dürfen	AUX	VMINF	VerbForm=Inf	10	aux	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 10
+# text = Freundliche Grüsse Maria Winkelmann
+1	Freundliche	freundlich	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	Grüsse	Gruß	NOUN	NN	Case=Nom|Number=Plur	0	root	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	NE	_	2	appos	_	_
+4	Winkelmann	Winkelmann	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

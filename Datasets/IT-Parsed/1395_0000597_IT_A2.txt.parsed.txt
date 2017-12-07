@@ -1,0 +1,154 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000597_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cari Mario e Francesco, 12/10/2010 Sono a Città X da una settimana, per studiare l'Italiano .
+1	Cari	caro	PROPN	SP	_	13	nsubj	_	_
+2	Mario	Mario	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Francesco	Francesco	PROPN	SP	_	1	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	12	12	NUM	N	NumType=Card	4	nummod	_	SpaceAfter=No
+7	/	/	PUNCT	FF	_	6	punct	_	SpaceAfter=No
+8	10	10	NUM	N	NumType=Card	6	compound	_	SpaceAfter=No
+9	/	/	PUNCT	FF	_	8	punct	_	SpaceAfter=No
+10	2010	2010	NUM	N	NumType=Card	8	compound	_	SpacesAfter=\s\n
+11	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	Città	PROPN	SP	_	0	root	_	_
+14	X	x	PROPN	SP	_	13	flat:name	_	_
+15	da	da	ADP	E	_	17	case	_	_
+16	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	13	punct	_	_
+19	per	per	ADP	E	_	20	mark	_	_
+20	studiare	studiare	VERB	V	VerbForm=Inf	13	advcl	_	_
+21	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	22	det	_	SpaceAfter=No
+22	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	20	obj	_	_
+23	.	.	PUNCT	FS	_	13	punct	_	_
+
+# sent_id = 2
+# text = Sono arrivato il sabato scorso.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	arrivato	arrivare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Imparo l'Italiano per il mio lavoro.
+1	Imparo	Imparo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	Italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	per	per	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Siamo undieci nel corso, abbiamo due insegnanti, che si chiamano Daniela e Nicoletta.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	undieci	undieco	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+3-4	nel	_	_	_	_	_	_	_	_
+3	in	in	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	insegnanti	insegnante	NOUN	S	Gender=Masc|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	13	expl	_	_
+13	chiamano	chiamare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+14-15	Daniela	_	_	_	_	_	_	_	_
+14	Danie	Danie	PROPN	SP	_	13	xcomp	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	e	e	CCONJ	CC	_	17	cc	_	_
+17	Nicoletta	Nicoletta	PROPN	SP	_	13	obj	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = hanno molto pasienza.
+1	hanno	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	pasienza	pasienza	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = I miei amici nel corso sono molto simpatici e andiamo insieme a bere qualcosa alla sera.
+1	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+2	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corso	corso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	simpatici	simpatico	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	insieme	insieme	ADV	B	_	14	mark	_	_
+13	a	a	ADP	E	_	12	fixed	_	_
+14	bere	bere	VERB	V	VerbForm=Inf	11	advcl	_	_
+15	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	14	obj	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	sera	sera	NOUN	S	Gender=Fem|Number=Sing	14	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 7
+# text = La città mi piace molto e quando non c'è lezione, faccio passeggiate nei dintorni, oppure posso andare in bicicletta.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	città	città	NOUN	S	Gender=Fem	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	_
+6	e	e	CCONJ	CC	_	10	cc	_	_
+7	quando	quando	SCONJ	CS	_	10	mark	_	_
+8	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+11	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+14	passeggiate	passeggiare	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+15-16	nei	_	_	_	_	_	_	_	_
+15	in	in	ADP	E	_	17	case	_	_
+16	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	17	det	_	_
+17	dintorni	dintorni	NOUN	S	Gender=Masc|Number=Plur	14	obl	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	21	punct	_	_
+19	oppure	oppure	CCONJ	CC	_	21	cc	_	_
+20	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	andare	andare	VERB	V	VerbForm=Inf	4	conj	_	_
+22	in	in	ADP	E	_	23	case	_	_
+23	bicicletta	bicicletta	NOUN	S	Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Spero que tutto va bene da voi.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	PRON	PI	Number=Sing|PronType=Ind	4	obj	_	SpacesAfter=\s\s
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Ci vediamo quando ritorno a casa mià A Presto Michele
+1	Ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	obj	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	quando	quando	SCONJ	CS	_	4	mark	_	_
+4	ritorno	ritorno	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+7	mià	mià	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	2	parataxis	_	SpacesAfter=\s\n
+8	A	a	PROPN	SP	_	7	obj	_	_
+9	Presto	presto	PROPN	SP	_	8	flat:name	_	SpacesAfter=\s\n\s
+10	Michele	Michele	PROPN	SP	_	7	nsubj	_	SpacesAfter=\n
+

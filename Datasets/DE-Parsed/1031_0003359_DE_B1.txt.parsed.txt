@@ -1,0 +1,381 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003359_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Kultur???
+1	Kultur	Kultur	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	??	??	PUNCT	$.	_	1	punct	_	SpaceAfter=No
+3	?	?	PROPN	$.	_	1	flat	_	_
+
+# sent_id = 2
+# text = Je mehr ... desto Besser!
+1	Je	je	ADV	APPR	_	2	advmod	_	_
+2	mehr	mehr	ADV	ADV	_	5	advmod	_	_
+3	...	...	PUNCT	$.	_	5	punct	_	_
+4	desto	desto	CCONJ	KON	_	5	cc	_	_
+5	Besser	Besser	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Guten Tag, liebe Leseinnen und liebe Lesern!
+1	Guten	gut	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Tag	Tag	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	liebe	lieben	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Leseinnen	Leseinnen	NOUN	NN	_	2	conj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	liebe	lieb	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Lesern	Leser	NOUN	NN	_	2	conj	_	SpaceAfter=No
+9	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Die Traditionen, die wir in unserem Heimatland noch als Kind lernen, sind ein großes Teil von unserer Verhaltung, und sie beeinflüssen immer unsere Ansicht des Lebens.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Traditionen	Tradition	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	die	der	PRON	PRELS	Case=Acc|PronType=Rel	12	obj	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	unserem	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Heimatland	Heimatland	NOUN	NN	_	12	obl	_	_
+9	noch	noch	ADV	ADV	_	12	advmod	_	_
+10	als	als	ADP	KOKOM	_	11	case	_	_
+11	Kind	Kind	NOUN	NN	_	12	obl	_	_
+12	lernen	lernen	VERB	VVINF	VerbForm=Inf	2	acl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	2	punct	_	_
+14	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	ein	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+16	großes	groß	ADJ	ADJA	Degree=Pos	17	amod	_	_
+17	Teil	Teil	NOUN	NN	_	0	root	_	_
+18	von	von	ADP	APPR	_	20	case	_	_
+19	unserer	unser	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	Verhaltung	Verhaltung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	24	punct	_	_
+22	und	und	CCONJ	KON	_	24	cc	_	_
+23	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	_
+24	beeinflüssen	beeinflüssen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	17	conj	_	_
+25	immer	immer	ADV	ADV	_	27	advmod	_	_
+26	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	Ansicht	Ansicht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+28	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	29	det	_	_
+29	Lebens	Leben	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	27	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 5
+# text = Aber wenn man in einer anderen Kultur mit unterschiedlichen Traditionen sich anpassen muss, dann gibt es Konflikt zwischen unseren Werten und es lösst sich nicht so einfach auf.
+1	Aber	aber	ADV	KON	_	12	advmod	_	_
+2	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	unterschiedlichen	unterschiedlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	Traditionen	Tradition	NOUN	NN	Case=Dat|Number=Plur	12	obl	_	_
+11	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+12	anpassen	anpassen	VERB	VVINF	VerbForm=Inf	16	advcl	_	_
+13	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	dann	dann	ADV	ADV	_	16	advmod	_	_
+16	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+17	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+18	Konflikt	Konflikt	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+19	zwischen	zwischen	ADP	APPR	_	21	case	_	_
+20	unseren	unser	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Werten	Wert|Werten	NOUN	NN	Case=Dat|Number=Plur	18	nmod	_	_
+22	und	und	CCONJ	KON	_	24	cc	_	_
+23	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	expl	_	_
+24	lösst	lössen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	16	conj	_	_
+25	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	24	obj	_	_
+26	nicht	nicht	PART	PTKNEG	Polarity=Neg	24	advmod	_	_
+27	so	so	ADV	ADV	_	28	advmod	_	_
+28	einfach	einfach	ADJ	ADJD	Degree=Pos	24	advmod	_	_
+29	auf	auf	ADP	PTKVZ	_	24	compound:prt	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = In solchen Fälle kommt man auf die Frage: Soll ich weitermacher wie immer oder soll ich mich was neues probieren lassen?
+1	In	in	ADP	APPR	_	3	case	_	_
+2	solchen	solch	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	3	det	_	_
+3	Fälle	Fall	NOUN	NN	Case=Dat|Number=Plur	4	obl	_	_
+4	kommt	kommen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+6	auf	auf	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Frage	Frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	:	:	PUNCT	$.	_	8	punct	_	_
+10	Soll	Soll	NOUN	NN	_	12	nmod	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	weitermacher	weitermach	ADJ	ADJD	Degree=Cmp,Pos	8	ccomp	_	_
+13	wie	wie	CCONJ	KOKOM	_	14	cc	_	_
+14	immer	immer	ADV	ADV	_	12	conj	_	_
+15	oder	oder	CCONJ	KON	_	22	cc	_	_
+16	soll	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+18	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	obj	_	_
+19	was	was	PRON	PIS	Case=Acc|PronType=Ind	22	obj	_	_
+20	neues	neu	ADJ	ADJA	Degree=Pos	21	advmod	_	_
+21	probieren	probieren	VERB	VVINF	VerbForm=Inf	22	xcomp	_	_
+22	lassen	lassen	VERB	VVINF	VerbForm=Inf	12	conj	_	SpaceAfter=No
+23	?	?	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 7
+# text = Wie alle meine neue Freunde machen?
+1	Wie	wie	ADP	KOUS	_	6	xcomp	_	_
+2	alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	5	det	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Freunde	Freund	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Es fällt man schwer eine „richtige“ Antwort zu finden, man kann aber die Vorteile und die Nachteile abwägen.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	fällt	fallen|fällen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+4	schwer	schwer	ADV	ADJD	_	2	advmod	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+6	„	„	PUNCT	$.	_	11	punct	_	SpaceAfter=No
+7	richtige	richtig	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	9	amod	_	SpaceAfter=No
+8	“	“	PUNCT	$.	_	9	punct	_	_
+9	Antwort	Antwort	NOUN	NN	_	11	obj	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	finden	finden	VERB	VVINF	VerbForm=Inf	17	acl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
+14	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	aber	aber	ADV	KON	_	17	advmod	_	_
+16	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	17	det	_	_
+17	Vorteile	Vorteil	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	2	obj	_	_
+18	und	und	CCONJ	KON	_	21	cc	_	_
+19	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
+20	Nachteile	Nachteile	NOUN	NN	Case=Nom|Gender=Neut|Number=Plur	21	nsubj	_	_
+21	abwägen	abwägen	VERB	VVINF	VerbForm=Inf	17	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Wenn jemand im einem anderen Land lebt, werden vor ihm im Alltag viele neue Sache und Situationen gestellt.
+1	Wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+2	jemand	jemand	PRON	PIS	Case=Nom|PronType=Ind	8	nsubj	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	7	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	7	amod	_	_
+7	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+8	lebt	leben	VERB	VVPP	VerbForm=Part	21	advcl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	werden	werden	AUX	VAINF	VerbForm=Inf	21	aux:pass	_	_
+11	vor	vor	ADP	APPR	_	12	case	_	_
+12	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	obl	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	21	obl	_	_
+16	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	_
+17	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	18	amod	_	_
+18	Sache	Sache	NOUN	NN	Case=Nom|Number=Sing	21	nsubj:pass	_	_
+19	und	und	CCONJ	KON	_	20	cc	_	_
+20	Situationen	Situation	NOUN	NN	_	18	conj	_	_
+21	gestellt	stellen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 10
+# text = Dann muss diese Person mit dieser Sache oder Situation besser, wie es möglich ist, angehen.
+1	Dann	dann	ADV	ADV	_	10	advmod	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+3	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	Person	Person	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	dieser	dies	PRON	PDAT	Case=Dat|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	Sache	Sache	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+8	oder	oder	CCONJ	KON	_	9	cc	_	_
+9	Situation	Situation	NOUN	NN	_	7	conj	_	_
+10	besser	gut	ADJ	ADJD	Degree=Cmp	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	wie	wie	ADV	KOUS	_	14	advmod	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	möglich	möglich	ADJ	ADJD	Degree=Pos	10	ccomp	_	_
+15	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	10	punct	_	_
+17	angehen	angehen	VERB	VVINF	VerbForm=Inf	10	xcomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 11
+# text = In Manchen Fälle, kann er wie in seinem Heimtland reagieren, aber in anderen Fällen nicht.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	Manchen	manch	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	3	det	_	_
+3	Fälle	Fall	NOUN	NN	Case=Dat|Number=Plur	11	obl	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+6	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+7	wie	wie	ADP	KOKOM	_	11	case	_	_
+8	in	in	ADP	APPR	_	10	case	_	_
+9	seinem	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Heimtland	Heimtland	NOUN	NN	_	11	obl	_	_
+11	reagieren	reagieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	16	punct	_	_
+13	aber	aber	CCONJ	ADV	_	16	cc	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	anderen	ander	ADJ	ADJA	Degree=Pos	16	amod	_	_
+16	Fällen	Fall|Fällen	NOUN	NN	_	11	conj	_	_
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 12
+# text = Sont kann er schlecht interpretiert werder und die Sachen werden nicht gut laufen.
+1	Sont	Sont	NOUN	NN	_	5	dep	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	er	e	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	schlecht	schlecht	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+5	interpretiert	interpretieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+6	werder	werder	PROPN	ADJA	Case=Gen|Gender=Masc,Neut|Number=Sing	5	obl	_	_
+7	und	und	CCONJ	KON	_	9	cc	_	_
+8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Sachen	Sache	NOUN	NN	_	6	conj	_	_
+10	werden	werden	AUX	VAINF	VerbForm=Inf	5	aux:pass	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
+12	gut	gut	ADJ	ADJD	Degree=Pos	13	advmod	_	_
+13	laufen	laufen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	5	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Im Gegensatz zu diesem Nachteil, gibt es auch die möglichkeit für was anders erleben und kennenlernen.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Gegensatz	Gegensatz	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	6	det	_	_
+6	Nachteil	Nachteil	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+10	auch	auch	ADV	ADV	_	8	advmod	_	_
+11	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	möglichkeit	möglichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+13	für	für	ADP	APPR	_	14	case	_	_
+14	was	was	PRON	PIS	Case=Acc|PronType=Ind	16	obl	_	_
+15	anders	anders	ADV	ADV	_	16	advmod	_	_
+16	erleben	erleben	VERB	VVINF	VerbForm=Inf	12	acl	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	kennenlernen	kennenlernen	VERB	VVINF	VerbForm=Inf	16	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Das heißt z.B wann man an einer neuen Kultur sich orientieren lässt.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	2	nsubj	_	_
+2	heißt	heißen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+3	z.B	z.B	X	NN	_	2	advmod	_	_
+4	wann	winnen	ADV	PWAV	_	12	advmod	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+6	an	an	ADP	APPR	_	9	case	_	_
+7	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+10	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	12	obj	_	_
+11	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+12	lässt	lassen	VERB	VVFIN	Person=3|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 15
+# text = Da man einfach aufgeschlossen für die Leute, die Kultur, eine Ansicht ist.
+1	Da	da	SCONJ	KOUS	_	4	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+3	einfach	einfach	ADV	ADJD	_	4	advmod	_	_
+4	aufgeschlossen	aufgeschlossen	VERB	VVPP	VerbForm=Part	14	advcl	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Leute	Leute	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	die	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+10	Kultur	Kultur	NOUN	NN	_	4	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Ansicht	Ansicht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 16
+# text = Schaut man von neuer Perspektiven und erlebt man auch viel mehr.
+1	Schaut	schauen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	1	nsubj	_	_
+3	von	von	ADP	APPR	_	5	case	_	_
+4	neuer	neu	ADJ	ADJA	Degree=Cmp,Pos	5	amod	_	_
+5	Perspektiven	Perspektive	NOUN	NN	Case=Dat|Number=Plur	1	obl	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	erlebt	erleben	VERB	VVFIN	VerbForm=Fin	1	conj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+9	auch	auch	ADV	ADV	_	7	advmod	_	_
+10	viel	viel	PRON	PIAT	Case=Acc|PronType=Ind	7	obj	_	_
+11	mehr	mehr	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Es ist schön, wenn man unsere Tradiptionen liebt, sie überall erträgt und weiter reichen kann.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+7	unsere	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Tradiptionen	Tradiption	NOUN	NN	_	9	obj	_	_
+9	liebt	lieben	ADJ	VVPP	_	13	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	überall	überall	ADV	ADV	_	13	advmod	_	_
+13	erträgt	ertragen	VERB	VVFIN	Person=3|VerbForm=Fin	3	parataxis	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	weiter	weiter	ADV	ADV	_	16	advmod	_	_
+16	reichen	reichen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	13	conj	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 18
+# text = Aber es ist noch schöner, wenn man andere Tradiotionen kennenlernt, probiert und wenn sie gut sind für uns hält, ohne die andere und die eigene Identität zu verlieren, nach meiner Meinung.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	noch	noch	ADV	ADV	_	5	advmod	_	_
+5	schöner	schöner	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
+9	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	10	amod	_	_
+10	Tradiotionen	Tradiotion	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+11	kennenlernt	kennenlernen	ADJ	VVPP	_	5	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	probiert	probieren	ADJ	ADJD	Degree=Pos	11	conj	_	_
+14	und	und	CCONJ	KON	_	21	cc	_	_
+15	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
+16	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
+17	gut	gut	ADJ	ADJD	Degree=Pos	18	advmod	_	_
+18	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+19	für	für	ADP	APPR	_	20	case	_	_
+20	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	21	obl	_	_
+21	hält	halten	VERB	VVFIN	Person=3|VerbForm=Fin	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	21	punct	_	_
+23	ohne	ohne	ADP	APPR	_	35	case	_	_
+24	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
+25	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	35	amod	_	_
+26	und	und	CCONJ	KON	_	31	cc	_	_
+27	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	eigene	eigen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	Identität	Identität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	_
+30	zu	zu	PART	PTKZU	_	31	mark	_	_
+31	verlieren	verlieren	VERB	VVINF	VerbForm=Inf	25	conj	_	SpaceAfter=No
+32	,	,	PUNCT	$,	_	35	punct	_	_
+33	nach	nach	ADP	APPR	_	35	case	_	_
+34	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	35	det:poss	_	_
+35	Meinung	Meinung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	21	obl	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = „Wiederlesen“ J.Maria
+1	„	„	PUNCT	$.	_	2	punct	_	SpaceAfter=No
+2	Wiederlesen	Wiederlese	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	“	“	PUNCT	$.	_	2	punct	_	_
+4	J.Maria	J.Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

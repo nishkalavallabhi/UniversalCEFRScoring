@@ -1,0 +1,142 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1029116_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 28.02.3012.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	28.02.3012	28.02.3012	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Liebe Dana, wie geht es du und wie gehts deiner Onkel und deine Tante.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Dana	Dana	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	acl	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	du	du	PROPN	PPER	_	5	conj	_	_
+8	und	und	CCONJ	KON	_	7	cc	_	_
+9	wie	wie	ADP	KOKOM	_	12	case	_	_
+10	gehts	gehts	ADV	NN	_	12	advmod	_	_
+11	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	12	amod	_	_
+12	Onkel	Onkel	NOUN	NN	_	7	nmod	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	deine	dein	ADJ	ADJA	Degree=Pos	15	amod	_	_
+15	Tante	Tante	NOUN	NN	_	12	conj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Viel glückwünsch zum prüfung bestanden Istanbul ist sehr schön Stadt in der Türkei und intressant, aber man kann verwandt nicht in alles Stadt, weil es ist großer Stadt.
+1	Viel	viel	ADV	ADV	_	2	advmod	_	_
+2	glückwünsch	glückwünsch	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	prüfung	prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	6	obl	_	_
+6	bestanden	bestanden	VERB	VVPP	VerbForm=Part	11	acl	_	SpacesAfter=\n
+7	Istanbul	istanbul	PROPN	NE	Case=Nom|Number=Sing	6	nsubj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
+10	schön	schön	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+11	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Türkei	Türkei	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	intressant	intressant	ADJ	ADJD	Degree=Pos	11	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	11	punct	_	_
+18	aber	aber	CCONJ	KON	_	25	cc	_	_
+19	man	man	PRON	PIS	Case=Nom|PronType=Ind	25	nsubj	_	_
+20	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	_
+21	verwandt	verwanden	ADJ	ADJD	Degree=Pos	25	advmod	_	_
+22	nicht	nicht	PART	PTKNEG	Polarity=Neg	23	advmod	_	_
+23	in	in	ADP	APPR	_	25	case	_	_
+24	alles	alle	ADJ	ADJA	Degree=Pos	25	amod	_	_
+25	Stadt	Stadt	NOUN	NN	_	11	conj	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	11	punct	_	_
+27	weil	weil	SCONJ	KOUS	_	31	mark	_	_
+28	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	nsubj	_	_
+29	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	cop	_	_
+30	großer	groß	ADJ	ADJA	Degree=Cmp,Pos	31	amod	_	_
+31	Stadt	Stadt	NOUN	NN	_	11	advcl	_	SpaceAfter=No
+32	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich würde gern eine Schiffsfahrt machen, aber ich habe kein Zeit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	gern	gern	ADV	ADV	_	6	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Schiffsfahrt	Schiffsfahrt	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	aber	aber	CCONJ	KON	_	10	cc	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	kein	kein	PRON	PIAT	PronType=Neg	12	advmod	_	_
+12	Zeit	Zeit	NOUN	NN	_	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich wünsche gern ein bild (Sovinier) von Istanbul.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	gern	gern	ADV	ADV	_	2	advmod	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	bild	bild	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	2	nsubj	_	_
+6	(	(	PUNCT	$(	_	7	punct	_	SpaceAfter=No
+7	Sovinier	Sovinier	NOUN	NN	_	5	appos	_	SpaceAfter=No
+8	)	)	PUNCT	$(	_	7	punct	_	_
+9	von	von	ADP	APPR	_	10	case	_	_
+10	Istanbul	Istanbul	PROPN	NE	Case=Dat|Number=Sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Wann bist du da zurück.
+1	Wann	wann	ADV	PWAV	_	2	advmod	_	_
+2	bist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+4	da	da	ADV	ADV	_	2	advmod	_	_
+5	zurück	zurück	ADV	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ich kann dich auch nach deiner Rückkehr mal wieder zu Hause besuchen und erzahlst du über deine verwandet.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	nsubj	_	_
+4	auch	auch	ADV	ADV	_	12	advmod	_	_
+5	nach	nach	ADP	APPR	_	7	case	_	_
+6	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	7	amod	_	_
+7	Rückkehr	Rückkehr	NOUN	NN	Case=Dat|Number=Sing	12	obl	_	_
+8	mal	mal	ADV	ADV	_	12	advmod	_	_
+9	wieder	wieder	ADV	ADV	_	12	advmod	_	_
+10	zu	zu	ADP	APPR	_	11	case	_	_
+11	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+12	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+13	und	und	CCONJ	KON	_	18	cc	_	_
+14	erzahlst	erzahlsen	ADV	ADV	_	18	advmod	_	_
+15	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	18	nsubj:pass	_	_
+16	über	über	ADP	APPR	_	17	case	_	_
+17	deine	dein	PROPN	NE	_	15	nmod	_	_
+18	verwandet	verwanden	VERB	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 8
+# text = Ich hoffe dich sehr gut verwanden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gut	gut	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+6	verwanden	verwand	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Viele Grüße Katharina
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Katharina	Katharina	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

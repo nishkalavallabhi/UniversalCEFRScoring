@@ -1,0 +1,148 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000404_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 29.maggio 2010 Cari Rocco e Antonio, spero che stiate bene.
+1	Città	Città	PROPN	SP	_	11	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	29.maggio	29.maggio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+5	2010	2010	NUM	N	NumType=Card	4	nummod	_	SpacesAfter=\n
+6	Cari	caro	PROPN	SP	_	1	conj	_	_
+7	Rocco	Rocco	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	Antonio	Antonio	PROPN	SP	_	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+11	spero	sperare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+12	che	che	SCONJ	CS	_	13	mark	_	_
+13	stiate	stiare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	11	ccomp	_	_
+14	bene	bene	ADV	B	_	13	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 2
+# text = Io sto qui a Città X.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qui	qui	ADV	B	_	2	advmod	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Città	città	PROPN	SP	_	2	obl	_	_
+6	X	x	ADJ	NO	Number=Sing|NumType=Ord	5	amod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Vivo in una famiglia nei dintorni di Città X e sto facendo un corso d'italiano.
+1	Vivo	vire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	E	_	4	case	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	dintorni	dintorni	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	Città	città	PROPN	SP	_	7	nmod	_	_
+10	X	X	ADJ	NO	Number=Sing|NumType=Ord	9	amod	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	facendo	fare	VERB	V	VerbForm=Ger	1	conj	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	corso	corso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	d'	di	ADP	E	_	17	case	_	SpaceAfter=No
+17	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Oggi abbiamo imparato quando e come si deve usare il conditionale.
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	abbiamo	avere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	imparato	imparare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	quando	quando	SCONJ	CS	_	9	mark	_	_
+5	e	e	CCONJ	CC	_	9	cc	_	_
+6	come	come	ADV	B	_	9	advmod	_	_
+7	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	9	expl:impers	_	_
+8	deve	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	usare	usare	VERB	V	VerbForm=Inf	3	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	conditionale	conditionale	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Mi piacerebbe di sapere già tutto.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	sapere	sapere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	già	già	ADV	B	_	6	advmod	_	_
+6	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Sapete che cosa mi piace di più?
+1	Sapete	sapere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	DET	DQ	PronType=Int	3	det	_	_
+3	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	1	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	più	più	ADV	B	_	5	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Nel tempo libero andiamo a fare la spese o usciamo per andare a ballare in discoteca.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	a	a	ADP	E	_	7	mark	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	5	xcomp	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spese	spesa	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	_
+10	o	o	CCONJ	CC	_	11	cc	_	_
+11	usciamo	uscire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	conj	_	_
+12	per	per	ADP	E	_	13	mark	_	_
+13	andare	andare	VERB	V	VerbForm=Inf	11	advcl	_	_
+14	a	a	ADP	E	_	15	mark	_	_
+15	ballare	ballare	VERB	V	VerbForm=Inf	13	xcomp	_	_
+16	in	in	ADP	E	_	17	case	_	_
+17	discoteca	discoteca	NOUN	S	Gender=Fem|Number=Sing	15	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 8
+# text = Una volta siamo andati a Città Y per vedere il torre.
+1	Una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	volta	volta	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	obl	_	_
+7	Y	y	PROPN	SP	_	6	flat:name	_	_
+8	per	per	ADP	E	_	9	mark	_	_
+9	vedere	vedere	VERB	V	VerbForm=Inf	4	advcl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	torre	torre	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Era veramento un bel giorno.
+1	Era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	aux	_	_
+2	veramento	veramento	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	bel	bello	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ci vediamo presto.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	presto	presto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Cari saluti, Maria
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	SP	_	2	appos	_	SpacesAfter=\n
+

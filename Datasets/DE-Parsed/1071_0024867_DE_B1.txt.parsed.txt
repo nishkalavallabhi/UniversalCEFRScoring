@@ -1,0 +1,104 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024867_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Stadt X, 08.03.2012 ich bin sehr Glück für euch.
+1	Lieber	lieber	PROPN	NN	_	9	appos	_	_
+2	Jens	Jens	PROPN	NN	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	1	appos	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	_
+7	08.03.2012	08.03.2012	NUM	CARD	NumType=Card	9	nummod	_	SpacesAfter=\n
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
+11	Glück	Glück	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
+12	für	für	ADP	APPR	_	13	case	_	_
+13	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	11	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = In diesem toll Tag, möchte ich dir und deiner Frau gratulieren, Habe ich richtig verstanden?
+1	In	in	ADP	APPR	_	2	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|PronType=Dem	12	obl	_	_
+3	toll	toll	ADJ	ADJD	Degree=Pos	4	amod	_	_
+4	Tag	Tag	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\s
+6	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	8	conj	_	_
+11	Frau	Frau	NOUN	NN	_	8	appos	_	_
+12	gratulieren	gratulieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	17	punct	_	_
+14	Habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	richtig	richtig	ADV	ADJD	_	17	advmod	_	_
+17	verstanden	verstehen	VERB	VVPP	VerbForm=Part	12	conj	_	SpaceAfter=No
+18	?	?	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 3
+# text = Bist du auf drei schönes zwilingers Vater geworden?
+1	Bist	bist	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	cop	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	drei	drei	NUM	CARD	NumType=Card	6	nummod	_	_
+5	schönes	schön	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	zwilingers	zwilingers	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+7	Vater	Vater	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	nmod	_	_
+8	geworden	werden	VERB	VAPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Toll!
+1	Toll	toll	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Und wie geht es der Mutter?
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	wie	wie	ADV	KOKOM	_	3	advmod	_	_
+3	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Mutter	Mutter	NOUN	NN	_	3	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Haben sie jetzt die Kinder genommen?
+1	Haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+3	jetzt	jetzt	ADV	ADV	_	6	advmod	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+6	genommen	nehmen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Ruft mich an, wenn kann ich dir helfen.
+1	Ruft	rufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+2	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+6	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obj	_	_
+9	helfen	helfen	VERB	VVINF	VerbForm=Inf	1	advcl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Glückwünsche noch mal!
+1	Glückwünsche	Glückwünsche	NOUN	NN	_	0	root	_	_
+2	noch	noch	ADV	ADV	_	3	advmod	_	_
+3	mal	mal	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Liebe Grüße Michael ddd
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	2	appos	_	_
+4	ddd	ddd	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

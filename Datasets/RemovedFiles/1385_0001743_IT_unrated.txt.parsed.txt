@@ -1,0 +1,41 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001743_IT_unrated.txt
+# newpar
+# sent_id = 1
+# text = Ciao Michele, Come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Michele	Michele	PROPN	SP	_	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Perche' non potete incontrarvi con lui giovedi pomeriggio?
+1	Perche	Perca	ADV	B	_	5	advmod	_	SpaceAfter=No
+2	'	'	PUNCT	FB	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	potete	potere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5-6	incontrarvi	_	_	_	_	_	_	_	_
+5	incontrar	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	5	obj	_	_
+7	con	con	ADP	E	_	8	case	_	_
+8	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obl	_	_
+9	giovedi	giovedio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+10	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	SpaceAfter=No
+11	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Tu vai un ristorante pomeriggio?
+1	Tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	vai	andare	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+

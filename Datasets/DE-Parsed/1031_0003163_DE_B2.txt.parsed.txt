@@ -1,0 +1,386 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003163_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X wohnt man in Ruhe.
+1	Stadt	Stadt	NOUN	NN	_	3	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	wohnt	wohnen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	man	man	PRON	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Ruhe	Ruhe	PROPN	NE	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Üblicherweise Stadt X ist sehr ruhig.
+1	Üblicherweise	üblicherweise	ADV	ADV	_	2	advmod	_	_
+2	Stadt	Stadt	NOUN	NN	_	6	nmod	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	sehr	sehr	ADV	ADV	_	6	advmod	_	_
+6	ruhig	ruhig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 3
+# text = Da passiert kaum was.
+1	Da	da	ADV	ADV	_	2	advmod	_	_
+2	passiert	passieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	kaum	kaen	ADV	ADV	_	2	advmod	_	_
+4	was	was	PRON	PIS	Case=Acc|PronType=Ind	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Normale Familie und Einzelperson wohnen in eine Haus.
+1	Normale	normal	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Familie	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Einzelperson	Einzelperson	NOUN	NN	_	2	conj	_	_
+5	wohnen	wohnen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	eine	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Haus	Haus	NOUN	NN	_	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Es giebt sehr wenige Hochhäuse.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	giebt	gieben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	wenige	wenig	ADJ	PIAT	Degree=Pos	5	amod	_	_
+5	Hochhäuse	Hochhäuse	NOUN	NN	_	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = So hoch ist es auch nicht.
+1	So	so	ADV	ADV	_	2	advmod	_	_
+2	hoch	hoch	ADJ	ADJD	Degree=Pos	0	root	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+5	auch	auch	ADV	ADV	_	6	advmod	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ungefähr drei Etage oder am meisten fünf Etage.
+1	Ungefähr	ungefähr	ADV	ADJD	_	2	advmod	_	_
+2	drei	drei	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Etage	Etage	NOUN	NN	_	0	root	_	_
+4	oder	oder	CCONJ	KON	_	9	cc	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	9	case	_	_
+6	dem	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+7	meisten	meist	ADV	PIS	_	9	advmod	_	_
+8	fünf	fünf	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Etage	Etage	NOUN	NN	_	3	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Meiste Hochhäuse sind Geschäfte.
+1	Meiste	meist	PRON	PIAT	Case=Nom|PronType=Ind	2	det	_	_
+2	Hochhäuse	Hochhäuse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Geschäfte	Geschäft	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Doch manche sind wie ein kleine Appartment.
+1	Doch	doch	CCONJ	KON	_	7	cc	_	_
+2	manche	manch	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	wie	wie	ADP	KOKOM	_	7	case	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+6	kleine	klein	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Appartment	Appartment	NOUN	NN	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 10
+# text = Meine Meinung nach ist in Stadt X giebt es sehr viele Geschäfter.
+1	Meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	nach	nach	ADP	APPR	_	8	case	_	_
+4	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Stadt	Stadt	NOUN	NN	_	3	nmod	_	_
+7	X	X	PROPN	NN	_	6	appos	_	_
+8	giebt	gieben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	sehr	sehr	ADV	ADV	_	11	advmod	_	_
+11	viele	viel	ADJ	PIAT	Degree=Pos	12	amod	_	_
+12	Geschäfter	Geschäft	NOUN	NN	_	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 11
+# text = Meine Stadt Stadt X ist nicht so berühmt.
+1	Meine	mein	PROPN	PPOSAT	_	3	nmod	_	_
+2	Stadt	Stadt	PROPN	NN	_	1	flat	_	_
+3	Stadt	Stadt	PROPN	NN	_	5	appos	_	_
+4	X	X	PROPN	NN	_	3	appos	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+7	so	so	ADV	ADV	_	8	advmod	_	_
+8	berühmt	berühmt	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 12
+# text = Viele Leute kennen Stadt X nicht.
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Leute	Leute	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	kennen	kennen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	Stadt	Stadt	PROPN	NN	_	3	obj	_	_
+5	X	X	PROPN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 13
+# text = Trotzdem wollen vielen Leute in Stadt X leben.
+1	Trotzdem	trotzdem	ADV	PAV	_	8	advmod	_	_
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	vielen	viel	ADJ	PIAT	Degree=Pos	4	amod	_	_
+4	Leute	Leute	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Stadt	Stadt	PROPN	NN	_	4	nmod	_	_
+7	X	X	PROPN	NN	_	6	appos	_	_
+8	leben	leben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 14
+# text = Die meisten von dem ist Musiker, Prister oder Schwerster.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+2	meisten	meist	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	6	nsubj	_	_
+3	von	von	ADP	APPR	_	4	case	_	_
+4	dem	der	PRON	ART	Case=Dat|PronType=Dem	2	nmod	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	Musiker	Musiker	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Prister	Prister	NOUN	NN	_	6	conj	_	_
+9	oder	oder	CCONJ	KON	_	10	cc	_	_
+10	Schwerster	Schwerster	NOUN	NN	_	6	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 15
+# text = Man kann so denken, dass Stadt X sehr leicht zu einer Wohnung kaufen oder mieten kann.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	so	so	ADV	ADV	_	4	advmod	_	_
+4	denken	denken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	14	mark	_	_
+7	Stadt	Stadt	PROPN	NN	_	14	nsubj	_	_
+8	X	X	PROPN	NE	Case=Nom|Number=Sing	7	flat	_	_
+9	sehr	sehr	ADV	ADV	_	10	advmod	_	_
+10	leicht	leicht	ADJ	ADJD	Degree=Pos	14	advmod	_	_
+11	zu	zu	ADP	APPR	_	13	case	_	_
+12	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+14	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
+15	oder	oder	CCONJ	KON	_	16	cc	_	_
+16	mieten	mieten	VERB	VVINF	VerbForm=Inf	14	conj	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 16
+# text = Aber es ist eigentlich ganz anderes als man denkt.
+1	Aber	aber	CCONJ	KON	_	6	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	eigentlich	eigentlich	ADV	ADV	_	6	advmod	_	_
+5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
+6	anderes	ander	PRON	PIAT	PronType=Ind	0	root	_	_
+7	als	als	ADP	KOKOM	_	9	xcomp	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+9	denkt	denken	VERB	VVFIN	Person=3|VerbForm=Fin	6	acl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 17
+# text = Es ist sehr schwer ein Wohnung zu mieten.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	mieten	mieten	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 18
+# text = Kaufen ist vielleicht einfacher als mieten.
+1	Kaufen	kaufen	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	vielleicht	vielleicht	ADV	ADV	_	4	advmod	_	_
+4	einfacher	einfach	ADJ	ADJA	Degree=Cmp,Pos	0	root	_	_
+5	als	als	CCONJ	KOKOM	_	6	cc	_	_
+6	mieten	mieten	ADJ	ADJA	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 19
+# text = Denn Kaufen ist einfach kaufen mit Geld.
+1	Denn	denn	ADV	KON	_	2	advmod	_	_
+2	Kaufen	kaufen	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+3	ist	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	einfach	einfach	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+5	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	Geld	Geld	NOUN	NN	Case=Dat|Number=Sing	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 20
+# text = Aber mieten ist schwer ohne Kontakte.
+1	Aber	aber	CCONJ	KON	_	2	cc	_	_
+2	mieten	mieten	ADJ	ADJA	Degree=Pos	4	advmod	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	ohne	ohne	ADP	APPR	_	6	case	_	_
+6	Kontakte	Kontakt	NOUN	NN	Case=Acc|Number=Plur	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 21
+# text = Die Zeitung ist auch ein wichtigen Information.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Zeitung	Zeitung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	auch	auch	ADV	ADV	_	7	advmod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+6	wichtigen	wichtig	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Information	Information	NOUN	NN	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 22
+# text = Man kann so sagen, dass alle mögliche Haus im Zeitung stand.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	so	so	ADV	ADV	_	4	advmod	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	13	mark	_	_
+7	alle	alle	PRON	PIS	Case=Nom|PronType=Tot	9	det	_	_
+8	mögliche	möglich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	Haus	Haus	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	Zeitung	Zeitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	_
+13	stand	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 23
+# text = Man kann auch natürlich bein Internet suchen aber es giebt nicht so viele Häuse.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	auch	auch	ADV	ADV	_	7	advmod	_	_
+4	natürlich	natürlich	ADJ	ADV	Degree=Pos	5	advmod	_	_
+5	bein	bein	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	Internet	Internet	PROPN	NN	_	5	appos	_	_
+7	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	aber	aber	CCONJ	KON	_	10	cc	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	giebt	gieben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	conj	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
+12	so	so	ADV	ADV	_	13	advmod	_	_
+13	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Masc|Number=Plur	14	amod	_	_
+14	Häuse	Haus	NOUN	NN	Case=Acc|Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 24
+# text = Ein WG zu mieten ist auch nicht leicht.
+1	Ein	ein	DET	ART	Definite=Ind|PronType=Art	2	det	_	_
+2	WG	WG	NOUN	NN	_	0	root	_	_
+3	zu	zu	PART	PTKZU	_	4	mark	_	_
+4	mieten	mieten	VERB	VVINF	VerbForm=Inf	2	acl	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+6	auch	auch	ADV	ADV	_	7	advmod	_	_
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+8	leicht	leicht	ADJ	ADJD	Degree=Pos	2	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 25
+# text = Fast jeder WG sind volle person.
+1	Fast	fast	PROPN	ADV	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+2	jeder	jed	PRON	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	3	det	_	_
+3	WG	WG	PROPN	NE	Case=Nom|Number=Sing	1	nsubj	_	_
+4	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	volle	voll	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	person	persen	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 26
+# text = Auch wenn man im Studierbürge bietet, muss man wenigsten 1 Monate warten.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	7	nsubj	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Studierbürge	Studierbürge	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+7	bietet	bieten	VERB	VVPP	VerbForm=Part	14	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	14	punct	_	_
+9	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	14	nsubj	_	_
+11	wenigsten	wenig	ADJ	ADJA	Degree=Sup	13	amod	_	_
+12	1	1	NUM	CARD	NumType=Card	13	nummod	_	_
+13	Monate	Monat	NOUN	NN	_	14	obl	_	_
+14	warten	warten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 27
+# text = Wenn man ein Ausländer ist, wird es mehr schwer.
+1	Wenn	wenn	SCONJ	KOUS	_	4	mark	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Ausländer	Ausländer	NOUN	NN	_	10	nmod	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+9	mehr	mehr	ADV	ADV	_	10	advmod	_	_
+10	schwer	schwer	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 28
+# text = Man muss beachten, dass man schon gut Deutsch sprechen kann, eine Beruf hat oder Studiert hauptsache man muss etwas im Alltag machen, versichert, und ein Konto hat.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	3	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	beachten	beachen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	10	nsubj	_	_
+7	schon	schon	ADV	ADV	_	10	advmod	_	_
+8	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	Deutsch	deutsch	NOUN	ADJD	Case=Dat|Number=Sing	10	iobj	_	_
+10	sprechen	sprechen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	3	punct	_	_
+13	eine	ein	DET	ART	Definite=Ind|PronType=Art	14	det	_	_
+14	Beruf	Beruf	NOUN	NN	_	15	obl	_	_
+15	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	_
+16	oder	oder	CCONJ	KON	_	17	cc	_	_
+17	Studiert	studieren	ADJ	ADJD	Degree=Pos	15	conj	_	_
+18	hauptsache	hauptsache	NOUN	NN	Case=Acc|Number=Sing	27	obj	_	_
+19	man	man	PRON	PIS	Case=Nom|PronType=Ind	27	nsubj	_	_
+20	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	_
+21	etwas	etwas	PRON	PIS	Case=Acc|PronType=Ind	27	obj	_	_
+22-23	im	_	_	_	_	_	_	_	_
+22	in	in	ADP	APPR	_	24	case	_	_
+23	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	24	det	_	_
+24	Alltag	Alltag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	27	nmod	_	_
+25	machen	machen	PROPN	VVFIN	_	24	aux	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	27	punct	_	_
+27	versichert	versichern	ADJ	VVPP	_	3	conj	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	31	punct	_	_
+29	und	und	CCONJ	KON	_	31	cc	_	_
+30	ein	ein	DET	ART	Definite=Ind|PronType=Art	31	det	_	_
+31	Konto	Konto	NOUN	NN	_	32	conj	_	_
+32	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 29
+# text = Danach wird etwas leichter eine Wohnung zu mieten.
+1	Danach	danach	ADV	PAV	_	4	advmod	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	etwas	etwas	ADV	ADV	_	4	advmod	_	_
+4	leichter	leicht	ADJ	ADJA	Case=Nom|Degree=Cmp,Pos|Number=Plur	0	root	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	mieten	mieten	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+

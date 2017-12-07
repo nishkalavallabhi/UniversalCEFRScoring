@@ -1,0 +1,95 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001129_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Caro Francesco, come stai?
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+2	Francesco	Francesco	PROPN	SP	_	1	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io sto bene, ma ho molto da lavorare.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	6	punct	_	_
+5	ma	ma	CCONJ	CC	_	6	cc	_	_
+6	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+7	molto	molto	ADV	B	_	9	advmod	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	lavorare	lavorare	VERB	V	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ah, io abito a Città X.
+1	Ah	ah	INTJ	I	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	abito	abitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	obl	_	_
+7	X	x	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Puoi dirmi dove tu lavori adesso?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirmi	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	dove	dove	ADV	B	_	5	advmod	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	ccomp	_	_
+6	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+7	adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Solo a Città Y o anche a Città Z.
+1	Solo	solo	ADV	B	_	3	advmod	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	0	root	_	_
+4	Y	y	PROPN	SP	_	3	flat:name	_	_
+5	o	o	CCONJ	CC	_	8	cc	_	_
+6	anche	anche	ADV	B	_	8	advmod	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	città	PROPN	SP	_	3	conj	_	_
+9	Z	Z	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Che tipo di lavoro tu vuole fare?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	case	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+6	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	4	acl:relcl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Quando vorrebbe tu inizi?
+1	Quando	quando	SCONJ	CS	_	2	advmod	_	_
+2	vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+4	inizi	inizio	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Io espero che tutto va bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	espero	esperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	_
+5	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Cari saluti Maria
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

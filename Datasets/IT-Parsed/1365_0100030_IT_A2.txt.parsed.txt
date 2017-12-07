@@ -1,0 +1,121 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100030_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi 14, Strada Maggiore 12345 Città X Beatrice e Stefano Napoli Città X, lunedi 15 marzo 2010 Cara Beatrice e caro Stefano, Ho ricevuto sua partecipazione per vostra matrimonia e grazié mille.
+1	Maria	Maria	PROPN	SP	_	28	nsubj	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	14	14	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	Strada	strada	PROPN	SP	_	1	appos	_	_
+6	Maggiore	Maggiore	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+7	12345	12345	NUM	N	NumType=Card	5	flat:name	_	_
+8	Città	Città	PROPN	SP	_	5	conj	_	_
+9	X	decimo	PROPN	SP	_	8	flat:name	_	SpacesAfter=\n
+10	Beatrice	Beatore	PROPN	SP	_	8	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	_
+12	Stefano	Stefano	PROPN	SP	_	8	conj	_	SpacesAfter=\n
+13	Napoli	Napoli	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n
+14	Città	Città	PROPN	SP	_	12	flat:name	_	_
+15	X	X	ADJ	NO	Number=Sing|NumType=Ord	12	amod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	5	punct	_	_
+17	lunedi	lunede	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+18	15	15	NUM	N	NumType=Card	17	obl	_	_
+19	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	18	flat	_	_
+20	2010	2010	NUM	N	NumType=Card	18	flat	_	SpacesAfter=\n
+21	Cara	Cara	PROPN	SP	_	5	appos	_	_
+22	Beatrice	Beatore	PROPN	SP	_	21	flat:name	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	caro	caro	ADJ	A	Gender=Masc|Number=Sing	25	amod	_	_
+25	Stefano	Stefano	PROPN	SP	_	21	conj	_	SpaceAfter=No
+26	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+27	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+28	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+29	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	28	obj	_	_
+31	per	per	ADP	E	_	33	case	_	_
+32	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	33	det:poss	_	_
+33	matrimonia	matrimonia	NOUN	S	Gender=Fem|Number=Sing	30	nmod	_	_
+34	e	e	CCONJ	CC	_	35	cc	_	_
+35	grazié	grazié	NOUN	S	Gender=Masc	33	conj	_	_
+36	mille	mille	NUM	N	NumType=Card	35	nummod	_	SpaceAfter=No
+37	.	.	PUNCT	FS	_	28	punct	_	_
+
+# sent_id = 2
+# text = Sono molto contenta e faccio per tutte due miei congratulazioni.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	contenta	contento	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+6	per	per	ADP	E	_	10	case	_	_
+7	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	10	det:predet	_	_
+8	due	due	NUM	N	NumType=Card	10	nummod	_	_
+9	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Dieci anni fa, ho pensato a questo momento e le ringraziamo dell'invito.
+1	Dieci	dieci	NUM	N	NumType=Card	2	nummod	_	_
+2	anni	anno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+3	fa	fa	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	pensato	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	momento	momento	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	le	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Plur|Person=3|PronType=Prs	12	obj	_	_
+12	ringraziamo	ringraziare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+13-14	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+13	di	di	ADP	E	_	15	case	_	_
+14	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
+15	invito	invito	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Sono contente di venire a Napoli con mio marito per suo matrimonio.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	contente	contento	ADJ	A	Gender=Fem|Number=Plur	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Napoli	Napoli	PROPN	SP	_	4	obl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	marito	marito	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+10	per	per	ADP	E	_	12	case	_	SpacesAfter=\s\s
+11	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Avete bisogna di qualche cosa?
+1	Avete	avere	AUX	VM	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	5	det	_	_
+5	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = perche non ho una idea per un regalo.
+1	perche	perca	NOUN	S	Gender=Fem|Number=Plur	3	obj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	idea	idea	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Bacio a tutte due Maria
+1	Bacio	Bacio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	tutte	tutto	DET	T	Gender=Fem|Number=Plur|PronType=Tot	4	det	_	_
+4	due	due	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

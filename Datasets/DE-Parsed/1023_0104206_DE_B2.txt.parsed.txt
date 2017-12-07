@@ -1,0 +1,191 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0104206_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Maria Meier Bahnhofsstr.
+1	Maria	Maria	PROPN	NE	_	0	root	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstr	Bahnhofsstr	PROPN	NN	_	1	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 51 12345 Stadt X-CH Aupairsglobal Bahnhofstr.
+1	51	51	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	12345	12345	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+4	X-CH	X-CH	PROPN	NE	_	3	appos	_	SpacesAfter=\n\s\n
+5	Aupairsglobal	Aupairsglobal	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+6	Bahnhofstr	Bahnhofstr	PROPN	NN	_	4	flat	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = 101 65185 Wiesbaden Tel: 0611/9988776 14.8.2010 Informationen über Aupairsglobal Sehr geehrte Damen und Herren In der Deutschenzeitung habe ich am 13.08.2010 eure Au-pair-Riese Angebote gelesen.
+1	101	101	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	65185	65185	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Wiesbaden	Wiesbaden	PROPN	NE	_	0	root	_	SpacesAfter=\n
+4	Tel	Tel	PROPN	NE	_	3	flat	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	3	punct	_	_
+6	0611/9988776	0611/9988776	PROPN	ADJA	Case=Nom|Number=Sing	12	nsubj	_	SpacesAfter=\n\s\n
+7	14.8.2010	14.8.2010	NUM	ADJA	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Informationen	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+9	über	über	ADP	APPR	_	10	case	_	_
+10	Aupairsglobal	Aupairsglobal	PROPN	NE	_	12	nmod	_	SpacesAfter=\n\s\n
+11	Sehr	Sehr	PROPN	ADV	_	10	flat	_	_
+12	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	parataxis	_	_
+13	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	27	obj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Herren	Herr	NOUN	NN	_	13	conj	_	SpacesAfter=\n
+16	In	in	ADP	APPR	_	18	case	_	_
+17	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Deutschenzeitung	Deutschenzeitung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	13	nmod	_	_
+19	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	27	aux	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+21-22	am	_	_	_	_	_	_	_	_
+21	an	an	ADP	APPR	_	25	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	25	det	_	_
+23	13.08.2010	13.08.2010	NUM	CARD	NumType=Card	25	nmod	_	_
+24	eure	euer	ADJ	ADJA	Case=Acc|Number=Plur	25	amod	_	_
+25	Au-pair-Riese	Au-pair-Riese	NOUN	NN	_	27	obl	_	_
+26	Angebote	Angebot	NOUN	NN	Case=Acc|Number=Plur	27	obj	_	_
+27	gelesen	lesen	VERB	VVPP	VerbForm=Part	12	ccomp	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 4
+# text = Ich schreibe euch weil ich für eine Stelle in Deutschen interessiert bin.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	schreibe	schreiben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Deutschen	Deutsche	NOUN	NN	_	8	nmod	_	_
+11	interessiert	interessieren	ADJ	VVPP	_	2	advcl	_	_
+12	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Warum suche ich in Deutschland eine stelle? weil ich meine duetschkentnisse verbessern möchte und für das hätte ich gerne in Deutschland zu kommen, aber ich möchte noch mehr informationen haben über euren Programmen beim Au-Pairglobal, wie Z.B. welchen aktiviten gibt es dort?
+1	Warum	warum	ADV	PWAV	_	7	advmod	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	Deutschland	Deutschland	PROPN	NE	_	6	nmod	_	_
+6	eine	ein	PROPN	ART	_	7	obl	_	_
+7	stelle	stell	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	duetschkentnisse	duetschkentniß	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+13	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	7	advcl	_	_
+14	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	aux	_	_
+15	und	und	CCONJ	KON	_	24	cc	_	_
+16	für	für	ADP	APPR	_	24	case	_	_
+17	das	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
+18	hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+20	gerne	gerne	ADV	ADV	_	24	advmod	_	_
+21	in	in	ADP	APPR	_	22	case	_	_
+22	Deutschland	Deutschland	PROPN	NE	_	24	obl	_	_
+23	zu	zu	PART	PTKZU	_	24	mark	_	_
+24	kommen	kommen	VERB	VVINF	VerbForm=Inf	13	conj	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	44	punct	_	_
+26	aber	aber	CCONJ	KON	_	44	cc	_	_
+27	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	44	nsubj	_	_
+28	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	aux	_	_
+29	noch	noch	ADV	ADV	_	30	advmod	_	_
+30	mehr	mehr	ADV	ADV	_	32	advmod	_	_
+31	informationen	informationen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	32	nsubj	_	_
+32	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	44	aux	_	_
+33	über	über	ADP	APPR	_	34	case	_	_
+34	euren	euer	NOUN	NN	Case=Dat|Number=Sing	44	obl	_	_
+35	Programmen	Programm	NOUN	NN	Case=Dat|Number=Plur	44	obl	_	_
+36-37	beim	_	_	_	_	_	_	_	_
+36	bei	bei	ADP	APPR	_	38	case	_	_
+37	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	38	det	_	_
+38	Au-Pairglobal	Au-Pairglobal	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	35	nmod	_	SpaceAfter=No
+39	,	,	PUNCT	$,	_	35	punct	_	_
+40	wie	wie	ADP	KOUS	_	43	case	_	_
+41	Z.B.	Z.B.	ADV	ADV	_	43	advmod	_	_
+42	welchen	welch	PRON	PIAT	PronType=Ind	43	det	_	_
+43	aktiviten	aktiviten	NOUN	NN	Case=Dat|Gender=Neut|Number=Plur	35	nmod	_	_
+44	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	conj	_	_
+45	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	44	expl	_	_
+46	dort	dort	ADV	ADV	_	44	advmod	_	SpaceAfter=No
+47	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Weil ich selber sehr aktiv bin.
+1	Weil	weil	SCONJ	KOUS	_	5	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	selber	selber	ADV	ADV	_	5	advmod	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	aktiv	aktiv	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = In meinem Freizeit interessiere ich mich für viele sachen und moglichst muss immer etwas neues sein w.z.b. Neue Orten besuchen, neuen Leuten kenne lernen usw.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Freizeit	Freizeit	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+4	interessiere	interessieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	obj	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	sachen	sachen	ADJ	ADJA	Degree=Pos	4	obl	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	moglichst	moglichen	VERB	VVFIN	VerbForm=Fin	4	conj	_	_
+12	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+13	immer	immer	ADV	ADV	_	14	advmod	_	_
+14	etwas	etwas	ADV	ADV	_	15	advmod	_	_
+15	neues	neu	ADJ	ADJA	Degree=Pos	11	advmod	_	_
+16	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	w.z.b	w.z.b	NOUN	NN	Case=Dat|Number=Sing	21	iobj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	_
+19	Neue	neu	ADJ	ADJA	Degree=Pos	20	amod	_	_
+20	Orten	Ort|Orten	NOUN	NN	_	21	obl	_	_
+21	besuchen	besuchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	11	conj	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	4	punct	_	_
+23	neuen	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	Leuten	Leute	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+25	kenne	kennen	ADJ	NE	Case=Acc|Number=Sing	26	amod	_	_
+26	lernen	lern	NOUN	VVINF	_	24	nmod	_	_
+27	usw	usw	X	VVFIN	_	4	advmod	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Lieber Team des Aupairglobal ich warte dass Ihr mir alle informationen uber eure Angebote schickt und ich Danke euch für das Verständnis.
+1	Lieber	lieber	PROPN	NN	_	0	root	_	_
+2	Team	Team	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	1	flat	_	_
+3	des	der	PROPN	ART	_	4	nmod	_	_
+4	Aupairglobal	Aupairglobal	PROPN	NN	_	1	nmod	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+6	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+7	dass	dass	SCONJ	ADJA	_	15	mark	_	_
+8	Ihr	Ihr|ihr	PRON	PPOSAT	Case=Dat|Person=2,3|Poss=Yes|PronType=Prs	15	iobj	_	_
+9	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	iobj	_	_
+10	alle	alle	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot	11	det	_	_
+11	informationen	informationen	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+12	uber	uber	ADJ	ADJD	Degree=Pos	13	advmod	_	_
+13	eure	euer	ADJ	ADJA	Case=Acc|Number=Plur	14	amod	_	_
+14	Angebote	Angebot	NOUN	NN	Case=Acc|Number=Plur	15	obj	_	_
+15	schickt	schicken	VERB	VVPP	VerbForm=Part	6	ccomp	_	_
+16	und	und	CCONJ	KON	_	18	cc	_	_
+17	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+18	Danke	Dank	NOUN	NN	_	15	conj	_	_
+19	euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	18	obj	_	_
+20	für	für	ADP	APPR	_	22	case	_	_
+21	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	_
+22	Verständnis	Verständnis	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Freundliche Grüsse Maria
+1	Freundliche	freundlich	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	Grüsse	Gruß	NOUN	NN	Case=Nom|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

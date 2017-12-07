@@ -1,0 +1,200 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101690_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Meier Müller Friedrich 05.03.10 Bahnhofsstraße 1 12345 Stadt X Tel 01234566789 Computer-Spezialist Odenwaldstraße 5 53119 Bonn Bewerbung um einen Praktikumsplatz Als Vertriebspraktikant Sehr geehrte Damen und Herren, durch Ihr enzeige von 17.01.10 bin ich seh aufmerksam geworden.
+1	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	2	amod	_	_
+2	Müller	Müller	PROPN	NE	_	0	root	_	_
+3	Friedrich	Friedrich	PROPN	NE	_	2	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	05.03.10	05.03.10	PROPN	CARD	Case=Acc|Number=Sing	2	flat	_	SpacesAfter=\n
+5	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	2	flat	_	_
+6	1	1	NUM	CARD	NumType=Card	2	appos	_	SpacesAfter=\n
+7	12345	12345	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Stadt	Stadt	NOUN	NN	_	10	compound	_	_
+9	X	X	PROPN	NN	_	8	appos	_	SpacesAfter=\n
+10	Tel	Tel	PROPN	NN	_	2	flat	_	_
+11	01234566789	01234566789	NUM	CARD	NumType=Card	12	nummod	_	SpacesAfter=\n
+12	Computer-Spezialist	Computer-Spezialist	NOUN	NN	Case=Nom|Number=Sing	17	nsubj	_	SpacesAfter=\n
+13	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	12	appos	_	_
+14	5	5	NUM	CARD	NumType=Card	15	nummod	_	SpacesAfter=\n
+15	53119	53119	NUM	CARD	NumType=Card	16	nummod	_	_
+16	Bonn	Bonn	PROPN	NE	_	17	nmod	_	SpacesAfter=\n
+17	Bewerbung	Bewerbung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+18	um	um	ADP	APPR	_	25	case	_	_
+19	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Praktikumsplatz	Praktikumsplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	SpacesAfter=\n
+21	Als	als	ADP	KOKOM	_	22	case	_	_
+22	Vertriebspraktikant	Vertriebspraktikant	NOUN	NN	_	20	nmod	_	SpacesAfter=\n
+23	Sehr	Sehr	ADV	ADV	_	24	advmod	_	_
+24	geehrte	geehrt	ADJ	ADJA	Degree=Pos	25	amod	_	_
+25	Damen	Dame	NOUN	NN	_	17	nmod	_	_
+26	und	und	CCONJ	KON	_	27	cc	_	_
+27	Herren	Herr	NOUN	NN	_	25	conj	_	SpaceAfter=No
+28	,	,	PUNCT	$,	_	17	punct	_	SpacesAfter=\n
+29	durch	durch	ADP	APPR	_	30	case	_	_
+30	Ihr	ihr	PRON	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	31	obl	_	_
+31	enzeige	enzeige	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	17	acl	_	_
+32	von	von	ADP	APPR	_	33	case	_	_
+33	17.01.10	17.01.10	NUM	CARD	NumType=Card	31	obl	_	_
+34	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	36	cop	_	_
+35	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+36	seh	seh	NOUN	VVIMP	_	37	nsubj	_	_
+37	aufmerksam	aufmerksam	ADJ	ADJD	Degree=Pos	31	conj	_	_
+38	geworden	werden	VERB	VAPP	VerbForm=Part	37	cop	_	SpaceAfter=No
+39	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ihr Unternehmen ist mir innovativ und international bekannt.
+1	Ihr	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Unternehmen	Unternehmen	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	innovativ	innovativ	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	international	international	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+8	bekannt	bekennen	ADJ	VVPP	_	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = In so Arbeitsumfeld finde ich die besten Chencen als Kaufmännischer Student, deshalb bewerb ich mich heute bei Ihnen inder Zeit von 01.6.10 bis 31.08.10.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	so	so	ADV	ADV	_	3	advmod	_	_
+3	Arbeitsumfeld	Arbeitsumfeld	NOUN	NN	_	4	obl	_	_
+4	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+7	besten	gut	ADJ	ADJA	Case=Acc|Degree=Sup|Number=Plur	8	amod	_	_
+8	Chencen	Chence	NOUN	NN	Case=Acc|Number=Plur	4	obj	_	_
+9	als	als	ADP	KOKOM	_	10	case	_	_
+10	Kaufmännischer	Kaufmännischer	PROPN	ADJA	_	8	nmod	_	_
+11	Student	Student	PROPN	NN	_	10	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	4	punct	_	_
+13	deshalb	deshalb	ADV	PAV	_	14	advmod	_	_
+14	bewerb	bewerb	PROPN	NN	_	4	appos	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+16	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	_
+17	heute	heute	ADV	ADV	_	14	advmod	_	_
+18	bei	bei	ADP	APPR	_	19	case	_	_
+19	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	14	nmod	_	_
+20	inder	inder	ADJ	ADJA	Degree=Cmp,Pos	21	amod	_	_
+21	Zeit	Zeit	NOUN	NN	_	19	nmod	_	_
+22	von	von	ADP	APPR	_	23	case	_	_
+23	01.6.10	01.6.10	NUM	CARD	NumType=Card	4	dep	_	_
+24	bis	bis	ADP	KON	_	25	case	_	_
+25	31.08.10	31.08.10	NUM	CARD	NumType=Card	23	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Durch meie Schulzeit ich habe größe erfahrung mit dem EDV wie Word, Exel, etc und behersche ich 10 Finger System.
+1	Durch	durch	ADP	APPR	_	3	case	_	_
+2	meie	meie	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	Schulzeit	Schulzeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	größe	größe	NOUN	NN	Case=Gen|Number=Plur	18	nmod	_	_
+7	erfahrung	Erfahrung	NOUN	NN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	10	det	_	_
+10	EDV	EDV	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+11	wie	wie	ADP	KOKOM	_	12	case	_	_
+12	Word	Word	PROPN	NE	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	14	punct	_	_
+14	Exel	Exel	PROPN	NE	_	12	conj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	16	punct	_	_
+16	etc	etc	PROPN	NE	_	12	conj	_	_
+17	und	und	CCONJ	KON	_	12	cc	_	_
+18	behersche	behersch	ADJ	ADJA	Degree=Pos	5	advmod	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+20	10	10	NUM	CARD	NumType=Card	21	nummod	_	_
+21	Finger	Finger	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+22	System	System	NOUN	NN	_	21	appos	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich war schon Prarktikum als vertrieb für Nahost bei firme XY in der Zeit von 01.7.09 bis 21.09.09 davon viele erfahrung gebrach.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	schon	schon	ADV	ADV	_	4	advmod	_	_
+4	Prarktikum	Prarktikum	NOUN	NN	_	22	obl	_	_
+5	als	als	ADP	KOKOM	_	6	case	_	_
+6	vertrieb	vertrieb	NOUN	NN	_	4	nmod	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	Nahost	Nahost	NOUN	NN	_	6	nmod	_	_
+9	bei	bei	ADP	APPR	_	22	case	_	_
+10	firme	firme	ADJ	ADJA	Degree=Pos	22	advmod	_	_
+11	XY	XY	NOUN	NE	Case=Nom|Number=Sing	22	nsubj	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	nmod	_	_
+15	von	von	ADP	APPR	_	22	case	_	_
+16	01.7.09	01.7.09	NUM	CARD	NumType=Card	22	nummod	_	_
+17	bis	bis	ADP	KON	_	18	case	_	_
+18	21.09.09	21.09.09	NUM	CARD	NumType=Card	22	nmod	_	_
+19	davon	davon	ADV	PAV	_	22	advmod	_	_
+20	viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	21	det	_	_
+21	erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+22	gebrach	gebrach	ADV	PTKVZ	_	0	root	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 6
+# text = Eben so wie meine Sprach kentnesse Arabisch, Englisch und Russisch verteit
+1	Eben	eben	ADV	ADV	_	2	advmod	_	_
+2	so	so	ADV	ADV	_	5	advmod	_	_
+3	wie	wie	ADP	KOKOM	_	5	case	_	_
+4	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Sprach	Sprach	NOUN	NN	_	12	nmod	_	_
+6	kentnesse	kentnessen	PROPN	NN	_	5	appos	_	_
+7	Arabisch	Arabisch	PROPN	NN	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Englisch	englisch	PROPN	NN	_	6	conj	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	Russisch	russisch	PROPN	NN	_	6	conj	_	_
+12	verteit	verteit	ADJ	ADJD	Degree=Pos	0	root	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Als intrnational tätig.
+1	Als	als	ADP	KOKOM	_	3	case	_	_
+2	intrnational	intrnational	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	tätig	tätig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Auser dem bin ich flexibel und engagiert.
+1	Auser	Auser	NOUN	NN	_	5	nmod	_	_
+2	dem	der	PRON	ART	Case=Dat|PronType=Dem	1	iobj	_	_
+3	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	flexibel	flexibel	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	engagiert	engagieren	ADJ	ADJD	Degree=Pos	5	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Auch Wochenenddienste und wechselende Arbeitzeit Selbsverstänlich.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	Wochenenddienste	Wochenenddienst	NOUN	NN	_	0	root	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	wechselende	wechselend	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Arbeitzeit	Arbeitzeit	NOUN	NN	_	2	conj	_	_
+6	Selbsverstänlich	Selbsverstänlich	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Über Einladung zu Gesprach termin freu mich seh.
+1	Über	über	ADP	APPR	_	2	case	_	_
+2	Einladung	Einladung	NOUN	NN	_	8	obl	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	Gesprach	gesprach	PROPN	NE	_	2	nmod	_	_
+5	termin	termin	PROPN	NE	_	4	flat	_	_
+6	freu	freu	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+8	seh	seh	VERB	VVIMP	_	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Mit freundlichen Grüssen Meier Müller
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	3	amod	_	_
+3	Grüssen	Grüsse	NOUN	NN	Case=Dat|Number=Plur	0	root	_	SpacesAfter=\n
+4	Meier	Meier	PROPN	NN	_	3	appos	_	_
+5	Müller	Müller	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

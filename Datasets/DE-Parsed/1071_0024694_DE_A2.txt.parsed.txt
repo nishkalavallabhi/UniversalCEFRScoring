@@ -1,0 +1,132 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024694_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 8.3.2012 Lieber Ingo, weißt du, dass ich habe eine neue Arbeit im Neuburg gefunden.
+1	8.3.2012	8.3.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Lieber	lieb	PROPN	NN	_	5	dep	_	_
+3	Ingo	Ingo	PROPN	NE	_	2	flat	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	weißt	weißen|wissen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	5	punct	_	_
+8	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+11	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+14-15	im	_	_	_	_	_	_	_	_
+14	in	in	ADP	APPR	_	16	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	16	det	_	_
+16	Neuburg	Neuburg	PROPN	NE	_	13	nmod	_	_
+17	gefunden	finden	VERB	VVPP	VerbForm=Part	5	ccomp	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Leider ich habe keine Zeit.
+1	Leider	leider	ADV	ADV	_	3	advmod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Zeit	Zeit	NOUN	NN	_	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ich kann nicht eine Wohnung suchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Auch meine Frau hat keine Zeit.
+1	Auch	auch	ADV	ADV	_	4	advmod	_	_
+2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Frau	Frau	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	keine	kein	PRON	PIAT	PronType=Neg	6	advmod	_	_
+6	Zeit	Zeit	NOUN	NN	_	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Sie hat viele Arbeit.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Jeder Tag holt sie Kinder zur Schule ab, dann geht sie von Arbeit.
+1	Jeder	jed	PRON	PIAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot	2	det	_	_
+2	Tag	Tag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	holt	holen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	8	obj	_	_
+6-7	zur	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Schule	Schule	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+9	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	dann	dann	ADV	ADV	_	12	advmod	_	_
+12	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	conj	_	_
+13	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+14	von	von	ADP	APPR	_	15	case	_	_
+15	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Am nachmittag muss sie einkaufen.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	nachmittag	nachmittagen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+4	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	einkaufen	einkaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Könntst du mir bitte helfen, und eine gruße Wohnung finden.
+1	Könntst	Könntst	ADV	ADV	_	5	advmod	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+4	bitte	bitte	NOUN	NN	Case=Acc|Number=Plur	5	obj	_	_
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	11	punct	_	_
+7	und	und	CCONJ	KON	_	11	cc	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	gruße	gruß	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+10	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	finden	finden	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 9
+# text = Wenn du suchst bitte ruf mich an schnell, weil ich den.
+1	Wenn	wenn	SCONJ	KOUS	_	3	mark	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	suchst	suchst	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	bitte	bitten	NOUN	NN	Case=Acc|Number=Plur	3	obj	_	_
+5	ruf	raffen	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+7	an	an	ADP	APPR	_	8	case	_	_
+8	schnell	schnell	ADJ	ADJD	Degree=Pos	3	advmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+12	den	der	DET	ART	Definite=Def|PronType=Art	11	det	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = 1.7.2012 anfangen muss liebe Grüeße Friedrich
+1	1.7.2012	1.7.2012	NUM	CARD	NumType=Card	2	obl	_	_
+2	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	SpacesAfter=\n
+4	liebe	lieben	PROPN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+5	Grüeße	Grüeße	PROPN	NN	_	2	nsubj	_	SpacesAfter=\n
+6	Friedrich	Friedrich	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+

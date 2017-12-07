@@ -1,0 +1,116 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100024_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi 2 Strada Maggiore 1234
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	2	2	NUM	N	NumType=Card	1	flat:name	_	_
+4	Strada	strada	PROPN	SP	_	1	nmod	_	_
+5	Maggiore	Maggiore	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+6	1234	1234	NUM	N	NumType=Card	4	nummod	_	_
+
+# sent_id = 2
+# text = Città X Francia Città X 15 Marzo 2010 Cari Amichi Ho recevuto sua invitazione.
+1	Città	Città	PROPN	SP	_	12	nsubj	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Francia	Francia	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+4	Città	Città	PROPN	SP	_	1	conj	_	_
+5	X	decimo	PROPN	SP	_	4	flat:name	_	_
+6	15	15	NUM	N	NumType=Card	7	nummod	_	_
+7	Marzo	marzo	PROPN	SP	_	4	flat:name	_	_
+8	2010	2010	NUM	N	NumType=Card	9	nummod	_	SpacesAfter=\n
+9	Cari	caro	PROPN	SP	_	4	flat:name	_	_
+10	Amichi	Amichi	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n
+11	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	recevuto	recevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	invitazione	invitazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 3
+# text = Sono molto felice.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	felice	felice	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Innanzi tutto, sarò presente alla ceremonia nella chiesa di Santa Chiara a Napoli il 20 novembre prossimo.
+1	Innanzi	innanzi	ADP	E	_	2	case	_	_
+2	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	5	cop	_	_
+5	presente	presente	ADJ	A	Number=Sing	0	root	_	_
+6-7	alla	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	ceremonia	ceremonia	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	chiesa	chiesa	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	Santa	Santa	PROPN	SP	_	11	nmod	_	_
+14	Chiara	chiaro	PROPN	SP	_	13	flat:name	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Napoli	Napoli	PROPN	SP	_	5	obl	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	20	20	NUM	N	NumType=Card	5	obl	_	_
+19	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	18	flat	_	_
+20	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Inoltre andrò al ristorante "Da Circo" per festeggiare il suo matrimonio.
+1	Inoltre	inoltre	ADV	B	_	2	advmod	_	_
+2	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3-4	al	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+7	Da	da	ADP	E	_	8	case	_	_
+8	Circo	circo	PROPN	SP	_	5	nmod	_	SpaceAfter=No
+9	"	"	PUNCT	FB	_	2	punct	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11	festeggiare	festeggiare	VERB	V	VerbForm=Inf	2	advcl	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	suo	suo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	11	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ringraziandovi dell'invito, dica me che cosa volete come regalo?
+1-2	Ringraziandovi	_	_	_	_	_	_	_	_
+1	Ringraziando	Ringraziare	VERB	V	VerbForm=Ger	7	advcl	_	_
+2	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	1	iobj	_	_
+3-4	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+3	di	di	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	dica	dire	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+9	che	che	DET	DQ	PronType=Int	10	det	_	_
+10	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+11	volete	volere	AUX	VM	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	come	come	ADP	E	_	13	case	_	_
+13	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = In attesa di una sua risposta, vi auguri molti congratulazioni Michele Rossi
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+3	di	di	ADP	E	_	6	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	auguri	augurare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	11	det	_	_
+11	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	SpacesAfter=\s\n
+12	Michele	Michele	PROPN	SP	_	9	nsubj	_	_
+13	Rossi	Rossi	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n
+

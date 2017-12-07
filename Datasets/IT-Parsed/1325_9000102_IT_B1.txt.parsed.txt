@@ -1,0 +1,311 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000102_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Rossi Maria Strada Maggiore 110 12345 Città X TEL: 0345-11111111 28.05.10 Città X SPETTABILE:
+1	Rossi	Rossi	PROPN	SP	_	0	root	_	_
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	110	110	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\n
+6	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	Città	PROPN	SP	_	4	flat:name	_	_
+8	X	decimo	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+9	TEL	TEL	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+10	:	:	PUNCT	FC	_	1	punct	_	_
+11	0345	0345	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+12	-	-	PUNCT	FF	_	11	punct	_	SpaceAfter=No
+13	11111111	11111111	NUM	N	NumType=Card	11	compound	_	SpacesAfter=\n
+14	28.05.10	28.05.10	NUM	N	NumType=Card	1	flat:name	_	_
+15	Città	Città	PROPN	SP	_	1	conj	_	_
+16	X	x	PROPN	SP	_	15	flat:name	_	SpacesAfter=\n
+17	SPETTABILE	SPETTABILE	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+18	:	:	PUNCT	FC	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = SOLIDARIETÀ VIVA VIALE BRUZZI 117 21023 MILANO SPETT.LE.- VISTO IL VOSTRO ANNUNCIO SU UN GIORNALE, PER IL LAVORO DEI CAMPI ESTIVI
+1	SOLIDARIETÀ	solidarietà	PROPN	SP	_	0	root	_	_
+2	VIVA	viva	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	VIALE	viale	PROPN	SP	_	1	flat:name	_	_
+4	BRUZZI	BRUZZI	PROPN	SP	_	3	flat:name	_	_
+5	117	117	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n
+6	21023	21023	NUM	N	NumType=Card	7	nummod	_	_
+7	MILANO	MILANO	PROPN	SP	_	3	nmod	_	SpacesAfter=\n
+8	SPETT.LE	SPETT.LE	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+9	.	.	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+11	VISTO	visto	PROPN	SP	_	1	nmod	_	_
+12	IL	il	PROPN	SP	_	11	flat:name	_	_
+13	VOSTRO	vostro	PROPN	SP	_	11	flat:name	_	_
+14	ANNUNCIO	annuncio	PROPN	SP	_	11	flat:name	_	_
+15	SU	su	PROPN	SP	_	11	appos	_	_
+16	UN	Un	PROPN	SP	_	15	flat:name	_	_
+17	GIORNALE	giornale	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	15	punct	_	_
+19	PER	per	PROPN	SP	_	15	conj	_	_
+20	IL	il	PROPN	SP	_	19	flat:name	_	_
+21	LAVORO	lavoro	PROPN	SP	_	19	flat:name	_	_
+22-23	DEI	_	_	_	_	_	_	_	_
+22	DI	di	ADP	E	_	24	case	_	_
+23	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+24	CAMPI	campi	PROPN	SP	_	19	nmod	_	_
+25	ESTIVI	estivi	PROPN	SP	_	19	flat:name	_	_
+
+# sent_id = 3
+# text = DI SOLIDARIETÀ VIVA.
+1	DI	di	ADP	E	_	2	case	_	_
+2	SOLIDARIETÀ	solidarietà	PROPN	SP	_	0	root	_	_
+3	VIVA	viva	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = IN ANZZI TUTTO VOREI DIRE CHE SONO INTERESATA E POTREI DARE IL MIO AIUTO, a CASA HO TANTE COSE COME VESTITI, SCARPE, BORSE E ECC.
+1	IN	in	ADP	E	_	2	case	_	_
+2	ANZZI	ANZZI	PROPN	SP	_	8	nmod	_	_
+3	TUTTO	tutto	PROPN	SP	_	2	flat:name	_	_
+4	VOREI	VOREI	PROPN	SP	_	8	nsubj	_	_
+5	DIRE	dire	PROPN	SP	_	4	flat:name	_	_
+6	CHE	Che	PROPN	SP	_	4	flat:name	_	_
+7	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	INTERESATA	INTERESATA	PROPN	SP	_	0	root	_	_
+9	E	e	CCONJ	CC	_	10	cc	_	_
+10	POTREI	potrei	PROPN	SP	_	8	conj	_	_
+11	DARE	dare	PROPN	SP	_	10	flat:name	_	_
+12	IL	il	PROPN	SP	_	10	flat:name	_	_
+13	MIO	mio	PROPN	SP	_	10	flat:name	_	_
+14	AIUTO	aiuto	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	8	punct	_	_
+16	a	a	ADP	E	_	17	case	_	_
+17	CASA	Casa	PROPN	SP	_	8	nmod	_	_
+18	HO	Ho	PROPN	SP	_	17	flat:name	_	_
+19	TANTE	tante	PROPN	SP	_	17	flat:name	_	_
+20	COSE	Cose	PROPN	SP	_	17	flat:name	_	_
+21	COME	come	PROPN	SP	_	17	appos	_	_
+22	VESTITI	vestito	PROPN	SP	_	21	flat:name	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	24	punct	_	_
+24	SCARPE	scarpe	PROPN	SP	_	21	conj	_	SpaceAfter=No
+25	,	,	PUNCT	FF	_	26	punct	_	_
+26	BORSE	borsa	PROPN	SP	_	21	conj	_	_
+27	E	e	CCONJ	CC	_	28	cc	_	_
+28	ECC	ecc	PROPN	SP	_	21	conj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 5
+# text = CHE DA TANTO TEMPO NON LI USO PIÙ.
+1	CHE	che	DET	DQ	PronType=Int	2	det	_	_
+2	DA	da	PROPN	SP	_	0	root	_	_
+3	TANTO	tanto	PROPN	SP	_	2	flat:name	_	_
+4	TEMPO	tempo	PROPN	SP	_	2	flat:name	_	_
+5	NON	non	PROPN	SP	_	2	nmod	_	_
+6	LI	li	PROPN	SP	_	5	flat:name	_	_
+7	USO	uso	PROPN	SP	_	6	flat:name	_	_
+8	PIÙ	più	ADV	B	_	5	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = COSÌ ANCHE I GIOCATOLI PER I BAMBINI CHE SONO BEN CURATI.
+1	COSÌ	così	PROPN	SP	_	0	root	_	_
+2	ANCHE	anche	PROPN	SP	_	10	nmod	_	_
+3	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	GIOCATOLI	GIOCATOLI	PROPN	SP	_	10	nsubj	_	_
+5	PER	per	PROPN	SP	_	4	flat:name	_	_
+6	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	BAMBINI	bambini	PROPN	SP	_	5	flat:name	_	_
+8	CHE	che	PROPN	SP	_	7	nmod	_	_
+9	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	BEN	bene	PROPN	SP	_	1	flat:name	_	_
+11	CURATI	CURATI	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = QUINDI SONO DISPONIBILE DI REGALARLI A VOI.
+1	QUINDI	quindi	ADV	B	_	3	advmod	_	_
+2	SONO	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	DISPONIBILE	disponibile	ADJ	A	Gender=Fem|Number=Plur	0	root	_	SpacesAfter=\s\s
+4	DI	Di	ADP	E	_	5	case	_	_
+5-6	REGALARLI	_	_	_	_	_	_	_	_
+5	REGALAR	regalar	PROPN	SP	_	3	obl	_	_
+6	LI	li	PROPN	SP	_	5	flat:name	_	_
+7	A	A	ADP	E	_	8	case	_	_
+8	VOI	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = SONO UNA RAGAZZA DA 22 ANNI
+1	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	UNA	uno	PROPN	SP	_	0	root	_	_
+3	RAGAZZA	ragazzo	PROPN	SP	_	2	flat:name	_	_
+4	DA	Da	PROPN	SP	_	2	flat:name	_	_
+5	22	22	NUM	N	NumType=Card	4	nummod	_	_
+6	ANNI	Anni	PROPN	SP	_	2	flat:name	_	_
+
+# sent_id = 9
+# text = IL MIO NOME E Maria.
+1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	MIO	mio	PROPN	SP	_	0	root	_	_
+3	NOME	nome	PROPN	SP	_	2	flat:name	_	_
+4	E	e	CCONJ	CC	_	5	cc	_	_
+5	Maria	Maria	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = DI ORIGINE SONO MACEDONE MA DA 3 ANNI VIVO E LAVORO COME INFERMIERA IN SVIZZERA.
+1	DI	di	ADP	E	_	2	case	_	_
+2	ORIGINE	origine	PROPN	SP	_	3	nmod	_	_
+3	SONO	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	MACEDONE	MACEDONE	PROPN	SP	_	0	root	_	_
+5	MA	Ma	PROPN	SP	_	4	flat:name	_	_
+6	DA	da	PROPN	SP	_	4	flat:name	_	_
+7	3	3	NUM	N	NumType=Card	6	nummod	_	_
+8	ANNI	Anni	PROPN	SP	_	6	flat:name	_	_
+9	VIVO	vivo	PROPN	SP	_	6	flat:name	_	_
+10	E	e	CCONJ	CC	_	11	cc	_	_
+11	LAVORO	lavoro	PROPN	SP	_	6	conj	_	_
+12	COME	Come	PROPN	SP	_	11	flat:name	_	_
+13	INFERMIERA	INFERMIERA	PROPN	SP	_	12	flat:name	_	_
+14	IN	In	PROPN	SP	_	12	flat:name	_	_
+15	SVIZZERA	Svizzera	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 11
+# text = PARLO LA MIA LINGUA MADRE "MACEDONE" E ITALIANO.
+1	PARLO	parlare	PROPN	SP	_	7	nsubj	_	_
+2	LA	lo	PROPN	SP	_	1	flat:name	_	_
+3	MIA	mio	PROPN	SP	_	1	flat:name	_	_
+4	LINGUA	lingua	PROPN	SP	_	7	nmod	_	_
+5	MADRE	madre	PROPN	SP	_	4	flat:name	_	_
+6	"	"	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+7	MACEDONE	MACEDONE	PROPN	SP	_	0	root	_	SpaceAfter=No
+8	"	"	PUNCT	FB	_	7	punct	_	_
+9	E	e	CCONJ	CC	_	10	cc	_	_
+10	ITALIANO	italiano	PROPN	SP	_	7	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 12
+# text = QUESTA SETIMANA DAL 20.07.10
+1	QUESTA	questo	PROPN	SP	_	0	root	_	_
+2	SETIMANA	SETIMANA	PROPN	SP	_	1	flat:name	_	_
+3-4	DAL	_	_	_	_	_	_	_	_
+3	DA	Da	PROPN	SP	_	1	flat:name	_	_
+4	IL	il	PROPN	SP	_	3	flat:name	_	_
+5	20.07.10	20.07.10	NUM	N	NumType=Card	3	nummod	_	_
+
+# sent_id = 13
+# text = AL 01.08.10 SONO IN VACANZA QUINDI NON LAVORO E SONO A VOSTRA DISPOSIZIONE PER AIUTARE.
+1-2	AL	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	2	case	_	_
+2	IL	il	PROPN	SP	_	5	nmod	_	_
+3	01.08.10	01.08.10	NUM	N	NumType=Card	2	nummod	_	_
+4	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	IN	In	PROPN	SP	_	0	root	_	_
+6	VACANZA	vacanza	PROPN	SP	_	5	flat:name	_	_
+7	QUINDI	quindi	PROPN	SP	_	5	nsubj	_	_
+8	NON	Non	PROPN	SP	_	7	nmod	_	_
+9	LAVORO	lavoro	PROPN	SP	_	8	flat:name	_	_
+10	E	E	CCONJ	CC	_	12	cc	_	_
+11	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	A	a	PROPN	SP	_	8	conj	_	_
+13	VOSTRA	Vostra	PROPN	SP	_	12	nsubj	_	_
+14	DISPOSIZIONE	disposizione	PROPN	SP	_	13	flat:name	_	_
+15	PER	per	PROPN	SP	_	13	flat:name	_	_
+16	AIUTARE	aiutare	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 14
+# text = QUANDO AVEVO 19 ANNI IN MACEDONIA CERA ANCHE UN ANNUNCIO SIMILE DOVE HO PARTECIPATO LASCIANDO LE MIE COSE CHE NON CI USAVO PIU, MA ANCHE HO AIUTATO DI DA LO -unreadable-RE OGGETTI RICICLABILI, PER UNA AGENZIA.
+1	QUANDO	quando	PROPN	SP	_	0	root	_	_
+2	AVEVO	avere	PROPN	SP	_	1	nmod	_	_
+3	19	19	NUM	N	NumType=Card	4	nummod	_	_
+4	ANNI	anno	PROPN	SP	_	2	flat:name	_	_
+5	IN	In	PROPN	SP	_	2	flat:name	_	_
+6	MACEDONIA	Macedonia	PROPN	SP	_	2	nmod	_	_
+7	CERA	cera	PROPN	SP	_	6	flat:name	_	_
+8	ANCHE	anche	PROPN	SP	_	6	nmod	_	_
+9	UN	Un	PROPN	SP	_	8	flat:name	_	_
+10	ANNUNCIO	annuncio	PROPN	SP	_	8	flat:name	_	_
+11	SIMILE	simile	PROPN	SP	_	8	flat:name	_	_
+12	DOVE	Dove	PROPN	SP	_	8	flat:name	_	_
+13	HO	Ho	PROPN	SP	_	8	flat:name	_	_
+14	PARTECIPATO	partecipato	PROPN	SP	_	8	flat:name	_	_
+15	LASCIANDO	Lasciando	PROPN	SP	_	8	flat:name	_	_
+16	LE	Le	PROPN	SP	_	8	flat:name	_	_
+17	MIE	mie	PROPN	SP	_	16	flat:name	_	_
+18	COSE	Cose	PROPN	SP	_	16	flat:name	_	_
+19	CHE	Che	PROPN	SP	_	16	nmod	_	_
+20	NON	Non	PROPN	SP	_	19	flat:name	_	_
+21	CI	ci	PROPN	SP	_	20	flat:name	_	_
+22	USAVO	USAVO	PROPN	SP	_	20	flat:name	_	_
+23	PIU	PIU	PROPN	SP	_	20	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	20	punct	_	_
+25	MA	Ma	PROPN	SP	_	20	appos	_	_
+26	ANCHE	anche	PROPN	SP	_	30	nmod	_	_
+27	HO	avere	PROPN	SP	_	26	flat:name	_	_
+28	AIUTATO	aiutare	PROPN	SP	_	26	flat:name	_	_
+29	DI	Di	ADP	E	_	30	case	_	_
+30	DA	Da	PROPN	SP	_	25	flat:name	_	_
+31	LO	lo	PROPN	SP	_	30	flat:name	_	_
+32	-	-	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+33	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	30	nmod	_	SpaceAfter=No
+34	-	-	PUNCT	FF	_	33	punct	_	SpaceAfter=No
+35	RE	Re	PROPN	SP	_	33	nsubj	_	_
+36	OGGETTI	oggetti	PROPN	SP	_	35	flat:name	_	_
+37	RICICLABILI	RICICLABILI	PROPN	SP	_	35	flat:name	_	SpaceAfter=No
+38	,	,	PUNCT	FF	_	35	punct	_	_
+39	PER	per	PROPN	SP	_	35	appos	_	_
+40	UNA	Una	PROPN	SP	_	39	flat:name	_	_
+41	AGENZIA	agenzia	PROPN	SP	_	39	flat:name	_	SpaceAfter=No
+42	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 15
+# text = QUINDI SONO HA VOSTRA DISPOSIZIONE, IN PERIODO GIA SCRITO.
+1	QUINDI	quindi	ADV	B	_	3	advmod	_	_
+2	SONO	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	HA	Ha	PROPN	SP	_	0	root	_	_
+4	VOSTRA	Vostra	PROPN	SP	_	3	flat:name	_	_
+5	DISPOSIZIONE	disposizione	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	_
+7	IN	in	PROPN	SP	_	3	appos	_	_
+8	PERIODO	periodo	PROPN	SP	_	7	flat:name	_	_
+9	GIA	Gia	PROPN	SP	_	7	flat:name	_	_
+10	SCRITO	SCRITO	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 16
+# text = VI MANDO I MIEI PIÙ CORDIALI SALUTI
+1	VI	sesto	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	_
+2	MANDO	MANDO	PROPN	SP	_	0	root	_	_
+3	I	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	4	det	_	_
+4	MIEI	mieo	PROPN	SP	_	2	nmod	_	_
+5	PIÙ	più	ADP	E	_	6	case	_	_
+6	CORDIALI	CORDIALI	PROPN	SP	_	4	nmod	_	_
+7	SALUTI	Saluto	PROPN	SP	_	2	flat:name	_	_
+
+# sent_id = 17
+# text = E RIMANGO IN ATESA DI UNA VOSTRA RISPOSTA, SUL INDIRIZIO SOPRA SCRITO HO PURE IL MIO NUMERO PRIVATO.
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	RIMANGO	RIMANGO	PROPN	SP	_	0	root	_	_
+3	IN	In	PROPN	SP	_	2	flat:name	_	_
+4	ATESA	ATESA	PROPN	SP	_	2	flat:name	_	_
+5	DI	di	ADP	E	_	6	case	_	_
+6	UNA	uno	PROPN	SP	_	2	nmod	_	_
+7	VOSTRA	Vostra	PROPN	SP	_	6	flat:name	_	_
+8	RISPOSTA	risposto	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	_
+10-11	SUL	_	_	_	_	_	_	_	_
+10	SU	su	PROPN	SP	_	2	appos	_	_
+11	IL	il	PROPN	SP	_	10	flat:name	_	_
+12	INDIRIZIO	INDIRIZIO	PROPN	SP	_	10	flat:name	_	_
+13	SOPRA	sopra	PROPN	SP	_	10	flat:name	_	_
+14	SCRITO	SCRITO	PROPN	SP	_	10	flat:name	_	_
+15	HO	Ho	PROPN	SP	_	10	flat:name	_	_
+16	PURE	pure	PROPN	SP	_	10	flat:name	_	_
+17	IL	il	PROPN	SP	_	10	flat:name	_	_
+18	MIO	mio	PROPN	SP	_	10	flat:name	_	_
+19	NUMERO	numero	PROPN	SP	_	10	flat:name	_	_
+20	PRIVATO	privato	PROPN	SP	_	19	flat:name	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 18
+# text = Rossi Maria
+1	Rossi	Rossi	PROPN	SP	_	0	root	_	_
+2	Maria	Maria	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

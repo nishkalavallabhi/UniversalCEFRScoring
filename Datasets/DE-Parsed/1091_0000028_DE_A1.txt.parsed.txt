@@ -1,0 +1,51 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000028_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 04.01.2012 Sehr geehrte Damen und Herren, Ich suche eine Wonung, funf Zimmer 130 m², mit dem Balkon, mit dem Garage, Bis 1000,- warm.
+1	Stadt	Stadt	NOUN	NN	_	6	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	04.01.2012	04.01.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Sehr	Sehr	PROPN	ADV	_	4	flat	_	_
+6	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	Damen	Dame	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Herren	Herr	PROPN	NN	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\n
+11	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	suche	suchen	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Wonung	Wonung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	funf	funf	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Zimmer	Zimmer	NOUN	NN	_	14	conj	_	_
+18	130	130	NUM	CARD	NumType=Card	19	nummod	_	_
+19	m	m	NOUN	NN	Case=Acc|Number=Sing	17	obj	_	SpaceAfter=No
+20	²	²	NOUN	ADJD	Case=Acc|Number=Sing	19	obj	_	SpaceAfter=No
+21	,	,	PUNCT	$,	_	12	punct	_	_
+22	mit	mit	ADP	APPR	_	24	case	_	_
+23	dem	der	PRON	PRELS	Case=Dat|PronType=Rel	24	det	_	_
+24	Balkon	Balkon	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	12	punct	_	_
+26	mit	mit	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Definite=Def|PronType=Art	28	det	_	_
+28	Garage	Garage	NOUN	NN	_	12	conj	_	SpaceAfter=No
+29	,	,	PUNCT	$,	_	32	punct	_	_
+30	Bis	bis	ADP	KON	_	32	case	_	_
+31	1000,-	1000,-	PUNCT	$(	_	32	punct	_	_
+32	warm	warm	ADJ	ADJD	Degree=Pos	28	amod	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	32	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich dante Ihnen im varaus mit freundlichen Grüßen
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	dante	danen	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	0	root	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	varaus	varaus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	nmod	_	SpacesAfter=\n
+7	mit	mit	ADP	APPR	_	9	case	_	_
+8	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Grüßen	grüßen	NOUN	NN	_	3	nmod	_	SpacesAfter=\n
+

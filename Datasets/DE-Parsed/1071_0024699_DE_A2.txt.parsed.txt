@@ -1,0 +1,108 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024699_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Ingo, 01.03.2012. wie geht´s dir und wie geht´s deine Eltern.
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	01.03.2012	01.03.2012	NUM	CARD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	.	.	NOUN	$.	_	13	obl	_	SpacesAfter=\n
+6	wie	wie	ADP	KOKOM	_	7	case	_	_
+7	geht´s	geht´s	PROPN	NN	_	13	obl	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	conj	_	_
+9	und	und	CCONJ	KON	_	8	cc	_	_
+10	wie	wie	ADP	KOKOM	_	11	case	_	_
+11	geht´s	geht´s	PROPN	NN	_	8	nmod	_	_
+12	deine	dein	PROPN	NN	_	11	flat	_	_
+13	Eltern	Eltern	VERB	VVINF	VerbForm=Inf	1	acl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich vermese dich Hast du ein Arbeit gevunden Oder noch nicht?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	vermese	vermese	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	appos	_	_
+4	Hast	Hast	PROPN	NN	_	3	nmod	_	_
+5	du	du	PROPN	PPER	_	4	flat	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Arbeit	Arbeit	NOUN	NN	_	8	obl	_	_
+8	gevunden	gevunden	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	Oder	oder	PROPN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+10	noch	noch	ADV	ADV	_	8	advmod	_	_
+11	nicht	nicht	ADV	PTKNEG	Polarity=Neg	8	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich muss meine Wohnung um ziehen in Neuburg Weil habe Ich ein Arbeit gefunden und ich bin Glüglich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	um	um	ADP	APPR	_	6	mark	_	_
+6	ziehen	ziehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Neuburg	Neuburg	PROPN	NE	_	14	obl	_	_
+9	Weil	weil	PROPN	VVIMP	_	8	flat	_	_
+10	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+11	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	14	obj	_	_
+14	gefunden	finden	VERB	VVPP	VerbForm=Part	6	conj	_	_
+15	und	und	CCONJ	KON	_	18	cc	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	Glüglich	Glüglich	ADJ	ADJD	Degree=Pos	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Kannst du bitter mir helfen Weil habe ich Viel Sachen und muss Ich am 01.04.2012 Arbeiten und ich habe vinger Zeit und Soll ich am 15.03.2012 alle meine Sache raus..
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	bitter	bitter	ADV	ADJD	_	5	advmod	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	Weil	weil	PROPN	VVIMP	_	20	obl	_	_
+7	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+9	Viel	viel	PRON	PIS	Case=Acc|PronType=Ind	10	det	_	_
+10	Sachen	Sache	NOUN	NN	Case=Acc|Number=Plur	20	obj	_	_
+11	und	und	CCONJ	KON	_	20	cc	_	_
+12	muss	müssen	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	20	aux	_	_
+13	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+14-15	am	_	_	_	_	_	_	_	_
+14	an	an	ADP	APPR	_	17	case	_	_
+15	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+16	01.04.2012	01.04.2012	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Arbeiten	Arbeit|Arbeiten	NOUN	NN	Case=Dat|Number=Plur	20	obl	_	_
+18	und	und	CCONJ	KON	_	20	cc	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+20	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+21	vinger	ving	ADJ	ADJA	Degree=Cmp,Pos	22	amod	_	_
+22	Zeit	Zeit	NOUN	NN	_	20	obl	_	_
+23	und	und	CCONJ	KON	_	24	cc	_	_
+24	Soll	Soll	NOUN	NN	_	22	conj	_	_
+25	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+26-27	am	_	_	_	_	_	_	_	_
+26	an	an	ADP	APPR	_	28	case	_	_
+27	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	28	det	_	_
+28	15.03.2012	15.03.2012	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	24	obl	_	_
+29	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	31	det	_	_
+30	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	Sache	Sache	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+32	raus	raus	ADV	ADV	_	24	conj	_	SpaceAfter=No
+33	..	..	PUNCT	NN	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich viel Stress Ich Vermesse dich, und vielen dank Julia
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	viel	viel	PRON	PIAT	Case=Dat|Number=Sing|PronType=Ind	3	det	_	_
+3	Stress	Streß	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	Vermesse	Vermesse	NOUN	NN	Case=Acc|Number=Plur	6	obj	_	_
+6	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	dep	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	vielen	viel	PRON	PIAT	PronType=Ind	6	conj	_	_
+10	dank	dinken	ADP	APPR	_	11	case	_	SpacesAfter=\n
+11	Julia	Julia	PROPN	NE	_	9	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,120 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000432_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cari ragazzi, sono a Città X che è una città affascinante vicino al mare.
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	obl	_	_
+7	X	decimo	PROPN	SP	_	6	flat:name	_	_
+8	che	che	PRON	PR	PronType=Rel	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	città	città	NOUN	S	Gender=Fem	6	nmod	_	_
+12	affascinante	affascinare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	11	acl	_	_
+13	vicino	vicino	ADV	B	_	16	case	_	_
+14-15	al	_	_	_	_	_	_	_	_
+14	a	a	ADP	E	_	13	fixed	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mare	mare	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Sto facendo un corso di italiano.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = La mia amica Maria che conosco dello scambio abita a Città X e stiamo facendo questo corso insieme.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	amica	amico	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+4	Maria	Maria	PROPN	SP	_	3	nmod	_	_
+5	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+6	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	scambio	scambio	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	abita	abitare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Città	Città	PROPN	SP	_	10	obl	_	_
+13	X	X	PROPN	SP	_	12	flat:name	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	facendo	fare	VERB	V	VerbForm=Ger	10	conj	_	_
+17	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
+18	corso	corso	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	_
+19	insieme	insieme	ADV	B	_	16	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 4
+# text = Quando non c'è lezione facciamo molte cose per esempio ieri siamo andate in spiaggia per prendere il sole.
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	4	expl	_	SpaceAfter=No
+4	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+5	lezione	lezione	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+6	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	8	det	_	_
+8	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	per	per	ADP	E	_	10	case	_	_
+10	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+11	ieri	ieri	ADV	B	_	10	advmod	_	_
+12	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	andate	andare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	acl:relcl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	spiaggia	spiaggia	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	_
+16	per	per	ADP	E	_	17	mark	_	_
+17	prendere	prendere	VERB	V	VerbForm=Inf	13	advcl	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	sole	sole	NOUN	S	Gender=Masc|Number=Sing	17	obj	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Domani visiteremo il torre di Pisa.
+1	Domani	domani	ADV	B	_	2	advmod	_	_
+2	visiteremo	visitare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	torre	torre	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	Pisa	Pisa	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Questo mi fa piacere.
+1	Questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	fa	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mi mancate molto!
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	mancate	mancare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ci vediamo.
+1	Ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Tanti saluti a tutti, Eva
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+6	Eva	Eva	PROPN	SP	_	2	appos	_	SpacesAfter=\n
+

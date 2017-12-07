@@ -1,0 +1,146 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100260_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Cara Beatrice, caro Stefano, Con grande sorpresa, ho ricevuto oggi vostra partecipazione di matrimonio.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	SpacesAfter=\s\n
+7	Con	con	ADP	E	_	9	case	_	_
+8	grande	grande	ADJ	A	Number=Sing	9	amod	_	_
+9	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+13	oggi	oggi	ADV	B	_	12	advmod	_	_
+14	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det	_	_
+15	partecipazione	partecipazione	NOUN	S	Gender=Fem|Number=Sing	12	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Per questo grande passo vi auguro profondamente.
+1	Per	per	ADP	E	_	4	case	_	_
+2	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+3	grande	grande	ADJ	A	Number=Sing	4	amod	_	_
+4	passo	passo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+5	vi	vi	ADV	B	_	6	advmod	_	_
+6	auguro	augurare	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+7	profondamente	profondamente	ADV	B	_	4	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Le ringrazio il vostro invito dopo la cerimonia di incontrarsi al ristorante "Da Ciro".
+1	Le	lo	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	iobj	_	_
+2	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	dopo	dopo	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10-11	incontrarsi	_	_	_	_	_	_	_	_
+10	incontrar	incontrare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	10	expl	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+15	"	"	PUNCT	FB	_	17	punct	_	SpaceAfter=No
+16	Da	da	ADP	E	_	17	case	_	_
+17	Ciro	Ciro	PROPN	SP	_	14	nmod	_	SpaceAfter=No
+18	"	"	PUNCT	FB	_	2	punct	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Sicomme durante le prossime due settimane sarò in viaggio d'affari in Paese X, non potrò essere alla vostra festa e vi prego di scusarmi.
+1	Sicomme	Sicomma	ADV	B	_	9	advmod	_	_
+2	durante	durante	ADP	E	_	6	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+4	prossime	prossimo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+5	due	due	NUM	N	NumType=Card	6	nummod	_	_
+6	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	9	obl	_	_
+7	sarò	essere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	9	cop	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	viaggio	viaggio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	affari	affare	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+12	in	in	ADP	E	_	13	case	_	_
+13	Paese	paese	PROPN	SP	_	9	nmod	_	_
+14	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	22	punct	_	_
+16	non	non	ADV	BN	PronType=Neg	22	advmod	_	_
+17	potrò	potere	AUX	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	22	aux	_	_
+18	essere	essere	AUX	V	VerbForm=Inf	22	cop	_	_
+19-20	alla	_	_	_	_	_	_	_	_
+19	a	a	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	festa	festa	NOUN	S	Gender=Fem|Number=Sing	9	conj	_	_
+23	e	e	CCONJ	CC	_	25	cc	_	_
+24	vi	vi	ADV	B	_	25	advmod	_	_
+25	prego	pregare	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+26	di	di	ADP	E	_	27	case	_	_
+27	scusarmi	arma|scusarme	NOUN	S	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Cominciando una nuova vita insieme, mi posso immaginare, che non avete ancora tutto per la casa.
+1	Cominciando	cominciare	VERB	V	VerbForm=Ger	9	advcl	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	nuova	nuovo	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	vita	vita	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+5	insieme	insieme	ADV	B	_	1	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	obj	_	_
+8	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	immaginare	immaginare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	13	punct	_	_
+11	che	che	PRON	PR	PronType=Rel	13	nsubj	_	_
+12	non	non	ADV	BN	PronType=Neg	13	advmod	_	_
+13	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	ancora	ancora	ADV	B	_	15	advmod	_	_
+15	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	13	obj	_	_
+16	per	per	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 6
+# text = Qual bisogno avete che potrei regalarvi?
+1	Qual	equale	DET	DQ	Number=Sing|PronType=Int	2	det	_	_
+2	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	6	mark	_	_
+5	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6-7	regalarvi	_	_	_	_	_	_	_	SpaceAfter=No
+6	regalar	regalare	VERB	V	VerbForm=Inf	3	ccomp	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	6	obj	_	_
+8	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Lasciate sapermilo!
+1	Lasciate	lasciare	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sapermilo	sapermilo	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Vi augurio una grande indimenticabile festa.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	_
+2	augurio	augurio	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+4	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+5	indimenticabile	indimenticabile	ADJ	A	Number=Sing	6	amod	_	_
+6	festa	festa	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Cordiali saluti Michele
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

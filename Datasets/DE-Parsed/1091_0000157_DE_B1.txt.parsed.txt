@@ -1,0 +1,191 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000157_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Tobias Ich wolte in Urlaub gehen, nach Rumänien, wegen das ich habe eine Kleine probleme mit meiner Hund.
+1	Hallo	Hallo	X	ITJ	_	4	dep	_	_
+2	Tobias	Tobias	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	wolte	wolen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Urlaub	Urlaub	NOUN	NE	_	4	obl	_	_
+7	gehen	gehen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	4	punct	_	_
+9	nach	nach	ADP	APPR	_	10	case	_	_
+10	Rumänien	Rumänien	PROPN	NN	Case=Dat|Number=Sing	4	obl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	4	punct	_	_
+12	wegen	wegen	ADP	APPR	_	13	case	_	_
+13	das	der	PRON	PRELS	Case=Acc|PronType=Rel	15	obl	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Kleine	klein	PROPN	NN	_	15	obj	_	_
+18	probleme	problemen	PROPN	NN	Case=Nom|Number=Plur	17	flat	_	_
+19	mit	mit	ADP	APPR	_	21	case	_	_
+20	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	21	det:poss	_	_
+21	Hund	Hund	NOUN	NN	Case=Dat|Number=Sing	17	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ich fahre mit dem Auto aber ist zu Klein für meinem Hund weil wir sind 4 personen in der Auto.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+2	fahre	fahren	NOUN	NN	Case=Nom|Number=Plur	20	nsubj	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Auto	Auto	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+6	aber	aber	ADV	ADV	_	20	advmod	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+8	zu	zu	ADP	APPR	_	9	case	_	_
+9	Klein	Klein	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+10	für	für	ADP	APPR	_	12	case	_	_
+11	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Hund	Hund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	20	nmod	_	_
+13	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+14	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	4	4	NUM	CARD	NumType=Card	17	nummod	_	_
+17	personen	Person	NOUN	NN	_	12	nmod	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	der	der	DET	ART	Definite=Def|PronType=Art	20	det	_	_
+20	Auto	Auto	NOUN	NN	_	0	root	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 3
+# text = Habe ich dann eine frage zu dir, könte ich meine Hund bei dir lassen.?
+1	Habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+3	dann	dann	ADV	ADV	_	9	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	frage	frage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+6	zu	zu	ADP	APPR	_	7	case	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	könte	könen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+11	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+13	bei	bei	ADP	APPR	_	15	case	_	_
+14	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	obj	_	_
+15	lassen	lassen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	9	punct	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Ich fahre nexte Woche, am Montag und ich bleiben da bis Sonntag, in gesamt eine Woche.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	fahre	fahren	NOUN	NN	Case=Gen|Number=Plur	3	obl	_	_
+3	nexte	next	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	Woche	Woche	PROPN	NN	Case=Nom|Number=Sing	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Montag	Montag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	bleiben	bleiben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	3	conj	_	_
+12	da	da	ADV	ADV	_	11	advmod	_	_
+13	bis	bis	ADP	APPR	_	14	case	_	_
+14	Sonntag	Sonntag	PROPN	NN	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	11	punct	_	_
+16	in	in	ADP	APPR	_	19	case	_	_
+17	gesamt	gesamt	ADV	ADV	_	18	advmod	_	_
+18	eine	ein	NUM	ART	NumType=Card	19	nummod	_	_
+19	Woche	Woche	NOUN	NN	_	11	obl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Da muss mit der Hund jeden Morgens um 07°° Uhr trausen gehen, cca 30 minute, dann um 15°° uhr wieder und danach um 21°°uhr letzte mal.
+1	Da	da	ADV	ADV	_	12	advmod	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+6	jeden	jed	PRON	PIAT	Case=Gen|Gender=Masc,Neut|Number=Sing|PronType=Tot	7	det	_	_
+7	Morgens	morgens	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+8	um	um	ADP	APPR	_	12	mark	_	_
+9	07°°	07°°	NOUN	XY	Case=Acc|Number=Sing	12	obl	_	_
+10	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	12	obj	_	_
+11	trausen	trausen	PROPN	NE	_	10	appos	_	_
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	cca	cca	PROPN	NE	_	16	nsubj	_	_
+15	30	30	PROPN	CARD	_	14	appos	_	_
+16	minute	minute	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	12	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	21	punct	_	_
+18	dann	dann	ADV	ADV	_	21	advmod	_	_
+19	um	um	ADP	APPR	_	20	case	_	_
+20	15	15	NUM	CARD	NumType=Card	21	nmod	_	SpaceAfter=No
+21	°°	°°	SYM	_	_	12	conj	_	_
+22	uhr	uhr	PROPN	NN	Case=Nom|Number=Sing	30	nsubj	_	_
+23	wieder	wieder	ADV	ADV	_	25	advmod	_	_
+24	und	und	CCONJ	KON	_	25	cc	_	_
+25	danach	danach	ADV	PAV	_	22	conj	_	_
+26	um	um	ADP	APPR	_	29	case	_	_
+27	21°°uhr	21°°uhr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+28	letzte	letzt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	mal	mal	NOUN	ADV	_	25	obl	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	21	punct	_	_
+
+# sent_id = 6
+# text = Er isst was du gibst, z.B., Fleisch, Brot, Suppe u.s.w..
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	isst	essen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	was	was	PRON	PIS	Case=Acc|PronType=Ind	4	obj	_	_
+4	du	du	PROPN	PPER	_	2	acl	_	_
+5	gibst	gibsen	ADV	PTKVZ	_	4	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	z.B.	z.B.	X	ADV	_	9	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	Fleisch	Fleisch	NOUN	NN	_	4	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	Brot	Brot	NOUN	NN	_	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Suppe	Suppe	NOUN	NN	_	4	conj	_	_
+14	u.s.w..	u.s.w..	PUNCT	NN	_	2	punct	_	_
+
+# sent_id = 7
+# text = Er ist Groß.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Groß	Groß	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = aber du weiss er ist freundlich.
+1	aber	aber	ADV	ADV	_	3	advmod	_	_
+2	du	du	PROPN	PPER	_	3	case	_	_
+3	weiss	weiß	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+4	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	freundlich	freundlich	ADJ	ADJD	Degree=Pos	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = mit alle leute und Kinder.
+1	mit	mit	ADP	APPR	_	3	case	_	_
+2	alle	alle	PRON	PIAT	Case=Acc|Number=Plur|PronType=Tot	3	nsubj	_	_
+3	leute	leuen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Ich wünsch dir alles gute und ich warte deine antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	wünsch	wünsch	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	dir	dir	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+4	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	5	obj	_	_
+5	gute	guen	ADJ	ADJA	Degree=Pos	3	xcomp	_	_
+6	und	und	CCONJ	KON	_	10	cc	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	warte	warten	ADJ	ADJA	Degree=Pos	9	advmod	_	_
+9	deine	dein	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	antwort	antwort	NOUN	NN	_	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = M.fG. Friedrich
+1	M.fG	M.fG	ADJ	ADJD	Degree=Pos	3	amod	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+3	Friedrich	Friedrich	NOUN	NE	_	0	root	_	SpacesAfter=\n
+

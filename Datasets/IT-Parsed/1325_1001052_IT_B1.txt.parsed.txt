@@ -1,0 +1,273 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001052_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi 22
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	22	22	NUM	N	NumType=Card	1	flat:name	_	_
+
+# sent_id = 2
+# text = Città X Strada Maggiore 15 HUNGARY Gabriella Favati Universita degli Studi di Pavia, Corso Strada Nuova, 65 27100 Pavia ITALIA 2011/10/01
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	_
+3	Strada	strada	PROPN	SP	_	1	nmod	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	3	flat:name	_	_
+5	15	15	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\n
+6	HUNGARY	Hungary	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+7	Gabriella	Gabriella	PROPN	SP	_	3	flat:name	_	_
+8	Favati	Favare	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+9	Universita	Universita	PROPN	SP	_	3	flat:name	_	_
+10-11	degli	_	_	_	_	_	_	_	_
+10	di	di	ADP	E	_	12	case	_	_
+11	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	Studi	Studi	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpacesAfter=\n
+13	di	di	ADP	E	_	14	case	_	_
+14	Pavia	Pavia	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	16	punct	_	_
+16	Corso	Corso	PROPN	SP	_	3	conj	_	_
+17	Strada	Strada	PROPN	SP	_	16	appos	_	SpacesAfter=\n
+18	Nuova	Nuova	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	17	punct	_	_
+20	65	65	NUM	N	NumType=Card	22	nummod	_	SpacesAfter=\n
+21	27100	27100	NUM	N	NumType=Card	22	nummod	_	_
+22	Pavia	Pavia	PROPN	SP	_	17	nmod	_	SpacesAfter=\n
+23	ITALIA	ITALIA	PROPN	SP	_	22	nmod	_	SpacesAfter=\n
+24	2011	2011	NUM	N	NumType=Card	23	flat:name	_	SpaceAfter=No
+25	/	/	PUNCT	FF	_	23	punct	_	SpaceAfter=No
+26	10	10	NUM	N	NumType=Card	23	nummod	_	SpaceAfter=No
+27	/	/	PUNCT	FF	_	26	punct	_	SpaceAfter=No
+28	01	01	NUM	N	NumType=Card	26	compound	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Caro Gabriella, io sono una 18 anni ragazza ungherese.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Gabriella	Gabriella	PROPN	SP	_	9	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+7	18	18	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	9	nmod	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+10	ungherese	ungherese	ADJ	A	Number=Sing	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 4
+# text = Mi chiamo Maria (perchè la mia nonna è di Vietnam) Io studio l'Università di Commerciale di Città X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Maria	Maria	PROPN	SP	_	14	obj	_	_
+4	(	(	PUNCT	FB	_	11	punct	_	SpaceAfter=No
+5	perchè	perché	SCONJ	CS	_	11	mark	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	nonna	nonno	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	Vietnam	Vietnam	PROPN	SP	_	3	nmod	_	SpaceAfter=No
+12	)	)	PUNCT	FB	_	11	punct	_	_
+13	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	studio	studiare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	SpaceAfter=No
+16	Università	università	NOUN	S	Gender=Fem	14	obj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	Commerciale	commerciale	PROPN	SP	_	16	nmod	_	_
+19	di	di	ADP	E	_	20	case	_	_
+20	Città	Città	PROPN	SP	_	16	nmod	_	_
+21	X	X	ADJ	NO	Number=Sing|NumType=Ord	20	amod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = perciò mi devo studiare le lingue straniere.
+1	perciò	perciò	ADV	B	_	4	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+3	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	4	obj	_	_
+7	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ho scelto la lingua italiana e studio già 2 anni.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	scelto	scegliere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	SpacesAfter=\s\s
+6	e	e	CCONJ	CC	_	7	cc	_	_
+7	studio	studio	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	già	già	ADV	B	_	10	advmod	_	_
+9	2	2	NUM	N	NumType=Card	10	nummod	_	_
+10	anni	anno	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Secondo me è importante che studiamo le lingue perchè questo sarà il futuro.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	importante	importante	ADJ	A	Number=Sing	0	root	_	_
+5	che	che	SCONJ	CS	_	6	mark	_	_
+6	studiamo	studiare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	csubj	_	_
+7	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	6	obj	_	_
+9	perchè	perché	SCONJ	CS	_	13	mark	_	_
+10	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	13	nsubj	_	_
+11	sarà	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	cop	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	6	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 8
+# text = Per esempio non posso andare le vacanze se non parlo le lingue straniere.
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+3	non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+4	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	andare	andare	VERB	V	VerbForm=Inf	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	se	se	SCONJ	CS	_	10	mark	_	_
+9	non	non	ADV	BN	PronType=Neg	10	advmod	_	_
+10	parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	10	obj	_	_
+13	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 9
+# text = Oppure cerco un lavoro di posto mi devo parlare le lingue straniere.
+1	Oppure	oppure	CCONJ	CC	_	2	cc	_	_
+2	cerco	cercare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	posto	posto	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	9	iobj	_	_
+8	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	parlare	parlare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+10	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	9	obj	_	_
+12	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Non mi solo devo studiare le lingue, ma anche tutti.
+1	Non	non	ADV	BN	PronType=Neg	5	advmod	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+3	solo	solo	ADV	B	_	5	advmod	_	_
+4	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	11	punct	_	_
+9	ma	ma	CCONJ	CC	_	11	cc	_	_
+10	anche	anche	ADV	B	_	11	advmod	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 11
+# text = Insomma non è possibile evitare questa cosa.
+1	Insomma	insomma	ADV	B	_	4	advmod	_	_
+2	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+5	evitare	evitare	VERB	V	VerbForm=Inf	4	csubj	_	_
+6	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+7	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 12
+# text = Secondo me è buono studiare le lingue perchè posso conoscere molta gente e avrò i rapporti all'estero.
+1	Secondo	secondo	ADP	E	_	2	case	_	_
+2	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	buono	bue	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	studiare	studiare	VERB	V	VerbForm=Inf	0	root	_	_
+6	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	_
+7	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	5	obj	_	_
+8	perchè	perché	SCONJ	CS	_	10	mark	_	_
+9	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	conoscere	conoscere	VERB	V	VerbForm=Inf	5	advcl	_	_
+11	molta	molto	DET	DI	Gender=Fem|Number=Sing|PronType=Ind	12	det	_	_
+12	gente	gente	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	e	e	CCONJ	CC	_	14	cc	_	_
+14	avrò	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	conj	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	rapporti	rapporto	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+17-18	all'	_	_	_	_	_	_	_	SpaceAfter=No
+17	a	a	ADP	E	_	19	case	_	_
+18	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
+19	estero	estero	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 13
+# text = e gli amici.
+1	e	e	CCONJ	CC	_	3	cc	_	_
+2	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 14
+# text = Adesso andrò in Italia perchè ho conosciuto una ragazza italiana guando sono stata là.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	andrò	andere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Italia	Italia	PROPN	SP	_	2	obl	_	_
+5	perchè	perché	SCONJ	CS	_	7	mark	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	conosciuto	conoscere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	guando	guare	VERB	V	VerbForm=Ger	7	advcl	_	_
+12	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	cop	_	_
+14	là	là	ADV	B	_	11	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = e adesso ha invitato a sua casa.
+1	e	e	CCONJ	CC	_	4	cc	_	_
+2	adesso	adesso	ADV	B	_	4	advmod	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 16
+# text = Io offro a tutti
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	offro	offro	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obl	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = Con rispetto Maria Rossi ps.:
+1	Con	con	ADP	E	_	3	case	_	_
+2	rispetto	rispetto	ADV	B	_	1	fixed	_	_
+3	Maria	Maria	PROPN	SP	_	5	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+5	ps.	peguente	NOUN	S	_	0	root	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	5	punct	_	_
+
+# sent_id = 18
+# text = il mio numero di telefono: 0345-11111111 se vorresti chiedere gualcosa.
+1	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	numero	numero	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+7	0345	0345	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	11111111	11111111	NUM	N	NumType=Card	3	nummod	_	_
+10	se	se	SCONJ	CS	_	12	mark	_	_
+11	vorresti	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	SpacesAfter=\s\s
+12	chiedere	chiedere	VERB	V	VerbForm=Inf	3	advcl	_	_
+13	gualcosa	gualcosa	PRON	PI	Number=Sing|PronType=Ind	12	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+

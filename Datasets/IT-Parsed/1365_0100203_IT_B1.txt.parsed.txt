@@ -1,0 +1,163 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100203_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 840 12345 Città X Stefano Tittarelli e Beatrice Russo Via Friuli 72 Napoli Caro Stefano, Cara Beatrice,
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	nmod	_	_
+5	840	840	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\n
+6	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	Città	PROPN	SP	_	1	conj	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+9	Stefano	Stefano	PROPN	SP	_	7	flat:name	_	_
+10	Tittarelli	Tittarelli	PROPN	SP	_	7	flat:name	_	_
+11	e	e	CCONJ	CC	_	12	cc	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+12	Beatrice	Beatore	PROPN	SP	_	7	conj	_	_
+13	Russo	russo	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+14	Via	via	PROPN	SP	_	12	flat:name	_	_
+15	Friuli	Friuli	PROPN	SP	_	12	flat:name	_	_
+16	72	72	NUM	N	NumType=Card	12	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+17	Napoli	Napoli	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n
+18	Caro	Caro	PROPN	SP	_	1	flat:name	_	_
+19	Stefano	Stefano	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+21	Cara	Cara	ADJ	A	Gender=Fem|Number=Sing	22	amod	_	_
+22	Beatrice	Beatore	PROPN	SP	_	1	appos	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Vi ringrazio per l'invito che ho ricevuto.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	invito	invito	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mi ha fatto un gran piacere.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+2	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	gran	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Cari congratulazioni per il vostro matrimonio e solo il meglio per il futuro.
+1	Cari	caro	ADJ	A	Number=Plur	2	amod	_	_
+2	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+3	per	per	ADP	E	_	6	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+7	e	e	CCONJ	CC	_	10	cc	_	_
+8	solo	solo	ADV	B	_	10	advmod	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	meglio	meglio	NOUN	S	_	2	conj	_	_
+11	per	per	ADP	E	_	13	case	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Arrivo con piacere alla ceremonia.
+1	Arrivo	arrivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	3	case	_	_
+3	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	ceremonia	ceremonia	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ma non credo che arriverò al ristorante.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	credo	credere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5	arriverò	arrivare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin	3	ccomp	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Perché ho già un altro appuntamento.
+1	Perché	perché	ADV	B	_	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	già	già	ADV	B	_	2	advmod	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	altro	altro	ADJ	A	Gender=Masc|Number=Sing	6	amod	_	_
+6	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Se mai ti faccio sappere una settimana prima.
+1	Se	se	SCONJ	CS	_	4	mark	_	_
+2	mai	mai	ADV	B	_	4	advmod	_	_
+3	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	4	obj	_	_
+4	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+5	sappere	sappere	VERB	V	VerbForm=Inf	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+8	prima	prima	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Altro non so che regalo vi piacerebbe.
+1	Altro	altro	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+2	non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+3	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	7	iobj	_	_
+7	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 10
+# text = Dite mi per favore con cosa che vi posso fare un piacere?
+1	Dite	dire	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	favore	favore	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+7	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+8	vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	_
+9	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	fare	fare	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	10	obj	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Non vorrei regalare qualcosa inutile.
+1	Non	non	ADV	BN	PronType=Neg	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	regalare	regalare	VERB	V	VerbForm=Inf	0	root	_	_
+4	qualcosa	qualcosa	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+5	inutile	inutile	ADJ	A	Number=Sing	3	amod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\s\n
+
+# sent_id = 12
+# text = Ormai ci sentiamo.
+1	Ormai	ormai	ADV	B	_	3	advmod	_	_
+2	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
+3	sentiamo	sentire	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Cari saluti Maria
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

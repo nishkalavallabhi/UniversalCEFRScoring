@@ -1,0 +1,63 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024821_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Daniela, wie geht´s?
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	PROPN	KOUS	_	1	appos	_	_
+5	geht´s	geht´s	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	?	?	PROPN	$.	_	4	flat	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Am Mittwoch gehe ich zum schwimmen, mochtest du kommen?
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Mittwoch	Mittwoch	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+4	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6-7	zum	_	_	_	_	_	_	_	_
+6	zu	zu	ADP	APPR	_	8	mark	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	4	punct	_	_
+10	mochtest	mocht	ADJ	ADJD	Degree=Sup	12	advmod	_	_
+11	du	du	PROPN	PPER	Case=Nom|Number=Sing	12	nsubj	_	_
+12	kommen	kommen	VERB	VVINF	VerbForm=Inf	4	acl	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Um 6 uhr im A+B.
+1	Um	um	ADP	APPR	_	2	case	_	_
+2	6	6	NUM	CARD	NumType=Card	3	obl	_	_
+3	uhr	ahren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	A+B	A+B	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich bringe alle mit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	alle	alle	PRON	PIAT	PronType=Tot	2	obl	_	_
+4	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = bis Mitwoch Maria.
+1	bis	bis	ADP	APPR	_	2	case	_	_
+2	Mitwoch	Mitwoch	PROPN	NN	_	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	2	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = P.D. deine froind komme?
+1	P.D.	P.D.	ADV	ADV	_	2	advmod	_	_
+2	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	froind	froind	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+

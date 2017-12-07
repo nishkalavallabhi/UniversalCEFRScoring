@@ -1,0 +1,57 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024837_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, Herzliche Glückwünsch das Baby bekommen.
+1	Lieber	lieb	PROPN	NN	_	8	dep	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Herzliche	herzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	Glückwünsch	Glückwünsch	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	bekommen	bekommen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Wie gehts deine Frau und dein Baby.
+1	Wie	wie	ADP	KOUS	_	4	case	_	_
+2	gehts	gehts	ADV	NN	_	3	advmod	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Frau	Frau	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	dein	dein	PROPN	PPOSAT	_	4	conj	_	_
+7	Baby	Baby	PROPN	NN	_	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Wie heißt ihre Baby namen?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Baby	Baby	PROPN	NN	_	2	nsubj	_	_
+5	namen	nam	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	4	flat	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ihre Baby mädchen oder junge.
+1	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Baby	Baby	PROPN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+3	mädchen	mädchen	ADJ	ADJA	Degree=Pos	0	root	_	_
+4	oder	oder	CCONJ	KON	_	5	cc	_	_
+5	junge	jung	ADJ	ADJA	Degree=Pos	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Schöne Gruß deine Frau.
+1	Schöne	schön	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Gruß	Gruß	NOUN	NN	_	4	nmod	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Frau	Frau	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße Julia
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Julia	Julia	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

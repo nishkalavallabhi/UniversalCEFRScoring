@@ -1,0 +1,106 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000221_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 12.3.2012 Lieber Michael Ich muss ein Wohne nach Stadt Y gehen Ich habe ein termin.
+1	Stadt	Stadt	NOUN	NN	_	16	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	12.3.2012	12.3.2012	PROPN	CARD	_	5	appos	_	SpacesAfter=\n
+5	Lieber	lieb	PROPN	NN	_	1	appos	_	_
+6	Michael	Michael	PROPN	NE	_	5	flat	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+8	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Wohne	Wohne	NOUN	NN	_	16	appos	_	_
+11	nach	nach	ADP	APPR	_	12	case	_	_
+12	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+13	Y	y	PROPN	NE	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+14	gehen	gehen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	_
+15	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	ein	ein	DET	ART	Definite=Ind|PronType=Art	18	det	_	_
+18	termin	termin	NOUN	NN	Case=Gen|Number=Plur	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 2
+# text = kannst du meine katze (Mietze) nehmen?
+1	kannst	kannsen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+3	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	katze	katz	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+6	Mietze	Mietz	NOUN	NN	_	4	appos	_	SpaceAfter=No
+7	)	)	PUNCT	$(	_	6	punct	_	_
+8	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Du musst hilfen mir.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+2	musst	mußt	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+3	hilfen	hilfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Sie ist Süß und Du musst essen ihr geben Kannst du Mietze am 13.03. nehmen?
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Süß	süß	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+4	und	und	CCONJ	KON	_	9	cc	_	_
+5	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	nsubj	_	_
+6	musst	mußen	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+7	essen	essen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	_
+8	ihr	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	9	iobj	_	_
+9	geben	geben	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+10	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+11	du	du	PROPN	PPER	_	17	obl	_	_
+12	Mietze	Mietz	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13-14	am	_	_	_	_	_	_	_	_
+13	an	an	ADP	APPR	_	11	case	_	_
+14	dem	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+15	13.03	13.03	NUM	CARD	NumType=Card	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	11	punct	_	_
+17	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+18	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Und Du musst mit ihr spielen.
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+3	musst	mußt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	ihr	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	3	obl	_	_
+6	spielen	spielen	VERB	VVINF	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Alle brauchst du ein ball.
+1	Alle	alle	PRON	PIS	Case=Nom|PronType=Tot	2	nsubj	_	_
+2	brauchst	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	du	du	PROPN	PPER	_	5	case	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	ball	ball	NOUN	NN	_	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = (Ja ein ball und Sie ist nicht ein hund) Danke, bist bald Michael Friedrich Meier
+1	(	(	PUNCT	$(	_	2	punct	_	SpaceAfter=No
+2	Ja	Ja	PART	NN	_	10	dep	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	ball	ball	NOUN	NN	_	10	nmod	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Sie	sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	conj	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	hund	hund	NOUN	NN	_	12	nmod	_	SpaceAfter=No
+11	)	)	PUNCT	$(	_	10	punct	_	SpacesAfter=\n
+12	Danke	Dank	NOUN	NN	_	0	root	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	16	punct	_	_
+14	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	bald	bald	ADV	ADV	_	16	advmod	_	SpacesAfter=\n
+16	Michael	Michael	PROPN	NE	_	12	conj	_	_
+17	Friedrich	Friedrich	PROPN	NE	_	16	flat	_	_
+18	Meier	Meier	PROPN	NN	_	16	flat	_	SpacesAfter=\n
+

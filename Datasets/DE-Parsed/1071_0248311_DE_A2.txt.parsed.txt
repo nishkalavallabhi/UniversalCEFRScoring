@@ -1,0 +1,75 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248311_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, Lange nicht gesehen!
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Lange	Lange	PROPN	NE	_	1	appos	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	gesehen	sehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Nächten Freitag arbeite ich nicht, dann habe ich Zeit Hast du Lust auf schwimmen gehen?
+1	Nächten	Nacht	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	3	amod	_	_
+2	Freitag	Freitag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	amod	_	_
+3	arbeite	arbeien	PROPN	ADJA	_	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	dann	dann	ADV	ADV	_	16	advmod	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+10	Zeit	Zeit	NOUN	NN	_	16	obl	_	_
+11	Hast	Hast	PROPN	NN	_	10	nmod	_	_
+12	du	du	PROPN	PPER	_	11	flat	_	_
+13	Lust	Lust	PROPN	NN	_	11	flat	_	_
+14	auf	auf	ADP	APPR	_	16	case	_	_
+15	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	16	xcomp	_	_
+16	gehen	gehen	VERB	VVINF	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 3
+# text = Es gibt ein neu Strand am Rhein.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+2	gibt	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+4	neu	neu	ADJ	ADJD	Degree=Pos	5	amod	_	_
+5	Strand	Strand	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obj	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Rhein	Rhein	PROPN	NE	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Du kann Trinken mitbringe.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	Trinken	trinken	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	mitbringe	mitbringen	PROPN	NN	Case=Nom|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ich bringe noch obst mit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bringe	bring	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	ADV	_	2	advmod	_	_
+4	obst	oben	ADV	ADV	_	2	advmod	_	_
+5	mit	mit	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Schreib bitte züruck!
+1	Schreib	schreib	PROPN	NE	_	0	root	_	_
+2	bitte	bitten	PROPN	NN	_	1	flat	_	_
+3	züruck	züruck	PROPN	NE	_	1	flat	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Viele Grüß Michael
+1	Viele	viel	PRON	PIAT	Case=Nom|PronType=Ind	2	det	_	_
+2	Grüß	Grüß	NOUN	ADJD	Case=Nom|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

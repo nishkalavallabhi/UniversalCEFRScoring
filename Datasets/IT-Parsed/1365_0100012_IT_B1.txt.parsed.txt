@@ -1,0 +1,106 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100012_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Rossi Michele Strada Maggiore, 33 Città X
+1	Rossi	Rossi	PROPN	SP	_	0	root	_	_
+2	Michele	Michele	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	33	33	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n
+7	Città	città	PROPN	SP	_	1	conj	_	_
+8	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Città X, il 15 agosto 2009 Cari Stefano e Beatrice.
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	15	15	NUM	N	NumType=Card	1	nmod	_	_
+6	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	2009	2009	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Cari	caro	PROPN	SP	_	1	nmod	_	_
+9	Stefano	Stefano	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	Beatrice	Beatore	PROPN	SP	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Congratulazioni per il vostro matrimonio e vi ringrazio per il vostro invito.
+1	Congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	per	per	ADP	E	_	5	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+8	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+9	per	per	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	invito	invito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Vendrei con la mia ragazza, Maria e arriverei il 20 novembre verso le 16 ore a Napoli con la mia macchina.
+1	Vendrei	Vendre	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	ragazza	ragazza	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	_
+7	Maria	Maria	PROPN	SP	_	1	conj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	arriverei	arrivare	VERB	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	20	20	NUM	N	NumType=Card	9	obl	_	_
+12	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	11	flat	_	_
+13	verso	verso	ADP	E	_	16	case	_	_
+14	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	_
+15	16	16	NUM	N	NumType=Card	16	nummod	_	_
+16	ore	ora	NOUN	S	Gender=Fem|Number=Plur	11	nmod	_	_
+17	a	a	ADP	E	_	18	case	_	_
+18	Napoli	Napoli	PROPN	SP	_	16	nmod	_	_
+19	con	con	ADP	E	_	22	case	_	_
+20	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+21	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	macchina	macchina	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Vi telefonerei sta settimana per sapere se ci sono alberghi vicino al ristorante per prenotare una camera e anche che cosa posso vi regalare.
+1	Vi	vi	PRON	PC	Clitic=Yes|PronType=Prs	3	iobj	_	_
+2	telefonerei	telefonare	AUX	V	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	sta	sto	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	sapere	sapere	VERB	V	VerbForm=Inf	3	advcl	_	_
+7	se	se	SCONJ	CS	_	9	mark	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+10	alberghi	albergo	NOUN	S	Gender=Masc|Number=Plur	9	nsubj	_	_
+11	vicino	vicino	ADV	B	_	14	case	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	11	fixed	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+15	per	per	ADP	E	_	16	mark	_	_
+16	prenotare	prenotare	VERB	V	VerbForm=Inf	9	advcl	_	_
+17	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	camera	camera	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+19	e	e	CCONJ	CC	_	25	cc	_	_
+20	anche	anche	ADV	B	_	22	advmod	_	_
+21	che	che	DET	DQ	PronType=Int	22	det	_	_
+22	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	25	obj	_	_
+23	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	vi	vi	ADV	B	_	25	advmod	_	_
+25	regalare	regalare	VERB	V	VerbForm=Inf	16	conj	_	SpaceAfter=No
+26	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Tanti Baci Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur	2	det	_	_
+2	Baci	Baci	PROPN	SP	_	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+

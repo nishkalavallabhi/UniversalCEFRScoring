@@ -1,0 +1,57 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024853_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Jens, ich habe deine Novität gehort.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
+2	Jens	Jens	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	deine	dein	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Novität	Novität	NOUN	NN	_	0	root	_	_
+8	gehort	horen	PROPN	NE	_	7	appos	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Glückwünsche für du und deine Frau! wie heisst der Baby?
+1	Glückwünsche	Glückwünsche	NOUN	NN	_	0	root	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	nsubj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	deine	dein	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Frau	Frau	NOUN	NN	_	3	conj	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	3	punct	_	_
+8	wie	wie	CCONJ	KOKOM	_	9	cc	_	_
+9	heisst	heißen	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
+10	der	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Baby	Baby	PROPN	NN	_	9	obl	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Ist ein männlich oder eine weiblich?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	ein	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	männlich	männlich	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	oder	oder	CCONJ	KON	_	6	cc	_	_
+5	eine	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	weiblich	weiblich	ADJ	ADJD	Degree=Pos	3	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Wie geht der Mutter und der Baby?
+1	Wie	wie	CCONJ	KON	_	2	dep	_	_
+2	geht	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	2	dep	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Baby	Baby	PROPN	NN	_	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Viele grusse, Katharina
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	nsubj	_	_
+2	grusse	grussen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Katharina	Katharina	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

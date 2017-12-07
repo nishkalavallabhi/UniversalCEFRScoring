@@ -1,0 +1,156 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120368_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Silke Mir geht,s nicht so gut, weil habe ich diese woche viel arbeiten.
+1	Liebe	Liebe	PROPN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+2	Silke	Silke	PROPN	NN	Case=Nom|Number=Plur	1	flat	_	SpacesAfter=\n
+3	Mir	ich	PROPN	PPER	_	1	appos	_	_
+4	geht,s	geht,s	PROPN	NN	_	3	flat	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	so	so	ADV	ADV	_	7	advmod	_	_
+7	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	15	mark	_	_
+10	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	woche	woch	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+14	viel	viel	PRON	PIAT	Case=Acc|PronType=Ind	15	obj	_	_
+15	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	7	advcl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ich muss ab 9 uhr bis 4.30 arbeiten und dann ich gehe zum Deutschkurs.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	ab	ab	ADP	APPR	_	4	case	_	_
+4	9	9	NUM	CARD	NumType=Card	5	obl	_	_
+5	uhr	uhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+6	bis	bis	ADP	APPR	_	7	case	_	_
+7	4.30	4.30	NUM	CARD	NumType=Card	8	obl	_	_
+8	arbeiten	arbeiten	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
+9	und	und	CCONJ	KON	_	12	cc	_	_
+10	dann	dann	ADV	ADV	_	12	advmod	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	8	conj	_	_
+13-14	zum	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Deutschkurs	Deutschkurs	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = um 9 uhr bin ich wieder zu Hause.
+1	um	um	ADP	APPR	_	2	case	_	_
+2	9	9	NUM	CARD	NumType=Card	3	obl	_	_
+3	uhr	uhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	cop	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	wieder	wieder	ADV	ADV	_	8	advmod	_	_
+7	zu	zu	ADP	APPR	_	8	case	_	_
+8	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich glaube ein Hund besser am eine Katze ist, aber ich Weiß nicht.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	5	nmod	_	_
+5	besser	gut	ADJ	ADJD	Degree=Cmp	2	advmod	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	10	mark	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	aber	aber	CCONJ	KON	_	14	cc	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	Weiß	wissen	NOUN	NN	_	2	conj	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Ich mag nicht Tiere zu Hause mitnehmen, weil ich denke Tiere Schlechtte duft haben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+4	Tiere	Tier	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+5	zu	zu	ADP	APPR	_	6	case	_	_
+6	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+7	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	denke	denk	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	advcl	_	_
+12	Tiere	Tier	NOUN	NN	Case=Acc|Number=Plur	14	obj	_	_
+13	Schlechtte	Schlechtte	PROPN	NN	_	12	appos	_	_
+14	duft	dufen	VERB	VVPP	VerbForm=Part	11	ccomp	_	_
+15	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Aber zum Geburtstag ich wünsche nur Gesundheit und wieder Gesundheit und richtige Leben.
+1	Aber	aber	ADV	KON	_	6	advmod	_	_
+2-3	zum	_	_	_	_	_	_	_	_
+2	zu	zu	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Geburtstag	Geburtstag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+7	nur	nur	ADV	ADV	_	8	advmod	_	_
+8	Gesundheit	Gesundheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	wieder	wieder	ADV	ADV	_	11	advmod	_	_
+11	Gesundheit	Gesundheit	NOUN	NN	_	8	conj	_	_
+12	und	und	CCONJ	KON	_	14	cc	_	_
+13	richtige	richtig	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Leben	Leben	NOUN	NN	_	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich danke dir, du immer meine Geburtstag nicht vergessen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	_
+6	immer	immer	ADV	ADV	_	10	advmod	_	_
+7	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Geburtstag	Geburtstag	NOUN	VVIMP	Case=Dat|Number=Plur	10	iobj	_	_
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	10	advmod	_	_
+10	vergessen	vergessen	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Gott sei dank meine Familie alle sind gut und Glücklich, mir auch alles ist okay.
+1	Gott	Gott	NOUN	NN	Case=Nom|Number=Sing	16	nsubj	_	_
+2	sei	sein	AUX	VAFIN	Number=Sing|Person=3|VerbForm=Fin	16	aux	_	_
+3	dank	dank	ADP	APPR	_	5	case	_	_
+4	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+6	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	8	nsubj	_	_
+7	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	gut	gut	ADJ	ADJD	Degree=Pos	16	advmod	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Glücklich	glücklich	ADJ	ADJD	Degree=Pos	8	conj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	8	punct	_	_
+12	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	nmod	_	_
+13	auch	auch	ADV	ADV	_	8	advmod	_	_
+14	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	16	nsubj	_	_
+15	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	okay	Okay	ADJ	NE	_	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Mit viele freündlich.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	viele	viele	ADJ	PIS	Case=Nom|Degree=Pos	3	amod	_	_
+3	freündlich	freündlich	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Katharina
+1	Katharina	Katharina	PROPN	NE	Case=Nom|Number=Sing	0	root	_	SpacesAfter=\n
+

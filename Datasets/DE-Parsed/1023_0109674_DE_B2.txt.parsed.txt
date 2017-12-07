@@ -1,0 +1,232 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0109674_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Aupairsglobal Bahnhofstr.
+1	Aupairsglobal	Aupairsglobal	PROPN	NE	_	0	root	_	SpacesAfter=\n
+2	Bahnhofstr	Bahnhofstr	PROPN	NN	_	1	flat	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 101 65187 Wiesbaden Müllergasse 1 12345 Stadt X Eva Winkelmann Sehr geehrte Damen und Herren, nachdem ich Ihre Anzeige im Internet gelesen hatte, habe die Interesse auf die Vorschläge bekommen.
+1	101	101	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+2	65187	65187	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Wiesbaden	Wiesbaden	PROPN	NE	_	7	nmod	_	SpacesAfter=\n
+4	Müllergasse	Müllergasse	PROPN	NN	_	3	flat	_	_
+5	1	1	NUM	CARD	NumType=Card	3	appos	_	SpacesAfter=\n
+6	12345	12345	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Stadt	Stadt	NOUN	NN	_	12	nsubj	_	_
+8	X	X	PROPN	NN	_	7	appos	_	SpacesAfter=\n
+9	Eva	Eva	PROPN	NE	_	7	appos	_	_
+10	Winkelmann	Winkelmann	PROPN	NE	_	9	flat	_	SpacesAfter=\n
+11	Sehr	Sehr	PROPN	ADV	_	9	appos	_	_
+12	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	12	obj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Herren	Herr	NOUN	NN	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	12	punct	_	SpacesAfter=\n
+17	nachdem	nachdem	SCONJ	KOUS	_	24	mark	_	_
+18	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+19	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	24	nsubj	_	_
+21-22	im	_	_	_	_	_	_	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	23	det	_	_
+23	Internet	Internet	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	24	obl	_	_
+24	gelesen	lesen	VERB	VVPP	VerbForm=Part	33	advcl	_	_
+25	hatte	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	33	punct	_	_
+27	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+28	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Interesse	Interesse	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+30	auf	auf	ADP	APPR	_	32	case	_	_
+31	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+32	Vorschläge	Vorschlag	NOUN	NN	Case=Acc|Number=Plur	33	obl	_	_
+33	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	12	conj	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Ich bin Studentin.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Studentin	Studentin	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Zurzeit studiere ich an der Universität der fremdesprache, Richtung Germanistik und interessiere ich mich für eine Au-pair-Stelle in Deutschland.
+1	Zurzeit	zurzeit	ADV	ADV	_	2	advmod	_	_
+2	studiere	studieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	an	an	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Universität	Universität	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
+7	der	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+8	fremdesprache	fremdesprach	ADJ	ADJA	Degree=Pos	10	amod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	Richtung	Richtung	NOUN	NN	_	6	nmod	_	_
+11	Germanistik	Germanistik	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	interessiere	interessieren	NOUN	NN	_	11	conj	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+15	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	18	obj	_	_
+16	für	für	ADP	APPR	_	18	case	_	_
+17	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Au-pair-Stelle	Au-pair-Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+19	in	in	ADP	APPR	_	20	case	_	_
+20	Deutschland	Deutschland	PROPN	NE	_	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Ich möchte gerne die Information zu bekommen, was muß ich dafür machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	gerne	gerne	ADV	ADV	_	7	advmod	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	zu	zu	PART	PTKZU	_	7	mark	_	_
+7	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	was	was	PRON	PRELS	Case=Acc|Number=Sing|PronType=Rel	13	obj	_	_
+10	muß	müssen	AUX	VMFIN	Number=Sing|Person=1|VerbForm=Fin	13	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+12	dafür	dafür	ADV	PAV	_	13	advmod	_	_
+13	machen	machen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Erstens möchte ich wissen, wie kann man ein Erlaubnis für diese Tätigkeit zu bekommen und welche Forderungen dafur sind.
+1	Erstens	erstens	ADV	ADV	_	4	advmod	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wie	wie	ADV	KOUS	_	15	advmod	_	_
+7	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
+10	Erlaubnis	Erlaubnis	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+11	für	für	ADP	APPR	_	13	case	_	_
+12	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	Tätigkeit	Tätigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obl	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
+16	und	und	CCONJ	KON	_	20	cc	_	_
+17	welche	welch	PRON	PRELS	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	19	det	_	_
+18	Forderungen	Forderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	19	amod	_	_
+19	dafur	dafur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+20	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Welche spachliches Nevou braucht man.
+1	Welche	welch	PRON	PWAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Int	3	det	_	_
+2	spachliches	spachlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Nevou	Nevou	NOUN	NN	_	4	obl	_	_
+4	braucht	brauchen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	_
+5	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Ebenso mochte ich wissen, nicht nur meine Pflichten, sondern auch die Rechte.
+1	Ebenso	ebenso	ADV	ADV	_	2	advmod	_	_
+2	mochte	mocht	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+4	wissen	wissen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+7	nur	nur	ADV	ADV	_	9	advmod	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Pflichten	Pflicht	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	14	punct	_	_
+11	sondern	sondern	CCONJ	KON	_	14	cc	_	_
+12	auch	auch	ADV	ADV	_	14	advmod	_	_
+13	die	der	DET	ART	Definite=Def|PronType=Art	14	det	_	_
+14	Rechte	Recht|Rechte	NOUN	NN	_	9	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Ob ich selbst die Familien wählen oder nicht?
+1	Ob	ob	SCONJ	KOUS	_	6	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	selbst	selbst	ADV	ADV	_	6	advmod	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Familien	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+6	wählen	wählen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+7	oder	oder	CCONJ	KON	_	8	cc	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 10
+# text = Im Lauf der Arbet könnte ich den Sprachkursen besuchen, muß ich die Führerschein zu haben.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Lauf	Lauf	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Arbet	Arbet	NOUN	NN	_	3	nmod	_	_
+6	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
+9	Sprachkursen	Sprachkurs	NOUN	NN	Case=Dat|Number=Plur	10	iobj	_	_
+10	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	17	punct	_	_
+12	muß	müssen	AUX	VMFIN	Person=3|VerbForm=Fin	17	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	15	det	_	_
+15	Führerschein	Führerschein	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+16	zu	zu	PART	PTKZU	_	17	mark	_	_
+17	haben	haben	VERB	VAINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 11
+# text = Ich interessire mich besonders für mein Freizeit, ob ich selbst lösen, wie kann ich die verbringen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	interessire	interessir	PROPN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+4	besonders	besonders	ADV	ADV	_	7	advmod	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	mein	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Freizeit	Freizeit	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	ob	ob	SCONJ	KOUS	_	12	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	selbst	selbst	ADV	ADV	_	12	advmod	_	_
+12	lösen	lösen	VERB	VVINF	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	7	punct	_	_
+14	wie	wie	ADV	KOUS	_	18	advmod	_	_
+15	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+17	die	der	PRON	ART	Case=Nom|PronType=Dem	18	nsubj	_	_
+18	verbringen	verbring	VERB	VVINF	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+19	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Ich hoffe schnellstemöglich einen Antwort von Ihnen zu bekommen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	schnellstemöglich	schnellstemöglich	ADV	ADJD	_	2	advmod	_	_
+4	einen	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Antwort	Antwort	NOUN	NN	_	9	obj	_	_
+6	von	von	ADP	APPR	_	7	case	_	_
+7	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	9	obl	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Danke im Voraus Mit freundlichen Grüßen Eva Winkelmann Stadt Y, 14.10.2011 Winkelmann
+1	Danke	Dank	NOUN	NN	_	14	nmod	_	_
+2-3	im	_	_	_	_	_	_	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Voraus	voraus	ADV	ADV	_	1	advmod	_	SpacesAfter=\n
+5	Mit	mit	ADP	APPR	_	7	case	_	_
+6	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Grüßen	grüßen	NOUN	NN	_	1	nmod	_	SpacesAfter=\n
+8	Eva	Eva	PROPN	NE	_	7	appos	_	_
+9	Winkelmann	Winkelmann	PROPN	NE	_	8	flat	_	SpacesAfter=\n
+10	Stadt	Stadt	PROPN	NN	_	8	flat	_	_
+11	Y	Y	PROPN	NN	_	8	flat	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	7	punct	_	_
+13	14.10.2011	14.10.2011	NUM	CARD	NumType=Card	7	appos	_	_
+14	Winkelmann	Winkelmann	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

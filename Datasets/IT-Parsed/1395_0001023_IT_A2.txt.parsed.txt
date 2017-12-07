@@ -1,0 +1,149 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001023_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Anna, Come stai e come sta la tua famiglia?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Anna	anna	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+4	Come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	_
+6	e	e	CCONJ	CC	_	8	cc	_	_
+7	come	come	SCONJ	CS	_	8	mark	_	_
+8	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Abito a Città X in Paese X e la città è molto bene.
+1	Abito	abitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	a	a	ADP	E	_	3	case	_	_
+3	Città	Città	PROPN	SP	_	1	obl	_	_
+4	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Paese	paese	PROPN	SP	_	7	nmod	_	_
+7	X	X	PROPN	SP	_	3	nmod	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	città	città	NOUN	S	Gender=Fem	3	conj	_	_
+11	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Mi piacono molto i musei della città.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacono	piacere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	musei	museo	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	città	città	NOUN	S	Gender=Fem	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Vado al liceo con il treno, ma arrivo a casa mia con il bus.
+1	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	liceo	liceo	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	con	con	ADP	E	_	7	case	_	_
+6	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	treno	treno	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	10	punct	_	_
+9	ma	ma	CCONJ	CC	_	10	cc	_	_
+10	arrivo	arrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	conj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+14	con	con	ADP	E	_	16	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	bus	bus	NOUN	S	Gender=Masc	10	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Possiamo guardare la TV la sera o per esempio possiamo giocare al calcio la sera se sono a Roma.
+1	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	guardare	guardare	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	TV	TV	PROPN	SP	_	2	obj	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	o	o	CCONJ	CC	_	11	cc	_	_
+8	per	per	ADP	E	_	9	case	_	_
+9	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+10	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	giocare	giocare	VERB	V	VerbForm=Inf	4	conj	_	_
+12-13	al	_	_	_	_	_	_	_	_
+12	a	a	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	calcio	calcio	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sera	sera	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+17	se	se	SCONJ	CS	_	18	mark	_	_
+18	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Roma	Roma	PROPN	SP	_	18	obl	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Che cosa fai la sera?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+3	fai	fare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = Come può arrivare a casa sua se te voglio andare a trovare?
+1	Come	come	ADV	B	_	3	advmod	_	_
+2	può	potere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	arrivare	arrivare	VERB	V	VerbForm=Inf	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+7	se	se	SCONJ	CS	_	10	mark	_	_
+8	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	10	obj	_	_
+9	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	andare	andare	VERB	V	VerbForm=Inf	3	advcl	_	_
+11	a	a	ADP	E	_	12	mark	_	_
+12	trovare	trovare	VERB	V	VerbForm=Inf	10	advcl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = E com'è la tua città?
+1	E	e	CCONJ	CC	_	3	cc	_	_
+2	com'	comi	ADV	B	_	3	advmod	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	città	città	NOUN	S	Gender=Fem	3	nsubj	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = So che abiti a Roma, ma la città è bella?
+1	So	sapere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	3	mark	_	_
+3	abiti	abitare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	ccomp	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Roma	Roma	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	11	punct	_	_
+7	ma	ma	CCONJ	CC	_	11	cc	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	città	città	NOUN	S	Gender=Fem	11	nsubj	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	bella	bello	ADJ	A	Gender=Fem|Number=Sing	1	conj	_	SpaceAfter=No
+12	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Ciao, Maria
+1	Ciao	ciao	INTJ	I	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

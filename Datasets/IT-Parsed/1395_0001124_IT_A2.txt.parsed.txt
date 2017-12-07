@@ -1,0 +1,72 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001124_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cari amici, Sono a Città X in Italia.
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	Sono	essere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	città	PROPN	SP	_	4	obl	_	_
+7	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	Italia	Italia	PROPN	SP	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Frequento un corso per imparare l'italiano.
+1	Frequento	Frequento	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	corso	corso	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	per	per	ADP	E	_	5	mark	_	_
+5	imparare	imparare	VERB	V	VerbForm=Inf	1	advcl	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Siamo 15 persone nel corso é diverdente.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	15	15	NUM	N	NumType=Card	3	nummod	_	_
+3	persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corso	corso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	é	é	ADV	B	_	8	advmod	_	_
+8	diverdente	diverdente	ADJ	A	Number=Sing	6	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Nel mio tempo libero vado spesso in pizzeria oppure facciamo una spassegiata.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+5	libero	libero	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	_
+6	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s\s
+7	spesso	spesso	ADV	B	_	6	advmod	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	pizzeria	pizzeria	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	oppure	oppure	CCONJ	CC	_	11	cc	_	_
+11	facciamo	fare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	spassegiata	spassegiata	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Rimango ancora per 2 settimane.
+1	Rimango	Rimanire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ancora	ancora	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	5	case	_	_
+4	2	2	NUM	N	NumType=Card	5	nummod	_	_
+5	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Cordiali saluti Michele
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,118 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0000129_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = A:
+1	A	a	ADP	E	_	0	root	_	SpaceAfter=No
+2	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 2
+# text = Michele.bianchi@internet.it Oggetto:
+1	Michele.bianchi@internet.it	Michele.bianchi@internet.it	PROPN	SP	_	0	root	_	SpacesAfter=\n
+2	Oggetto	oggetto	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	:	:	PUNCT	FC	_	1	punct	_	_
+
+# sent_id = 3
+# text = appuntamento giovedi Ciao Daniele Come stai?
+1	appuntamento	appuntamento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	giovedi	giovedio	NOUN	S	Number=Plur	1	compound	_	SpacesAfter=\n
+3	Ciao	Ciao	PROPN	SP	_	2	nmod	_	_
+4	Daniele	Daniele	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+5	Come	come	SCONJ	CS	_	6	mark	_	_
+6	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Senti, questa settimana è una settimana orribile.
+1	Senti	sentire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+8	orribile	orribile	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 5
+# text = In ufficio c'e molto lavoro e giovedì pomeriggio non posso passare insieme, perché nostro capo ha organizzato una riunione importante.
+1	In	in	ADP	E	_	2	case	_	_
+2	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+3	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+4	e	e	CCONJ	CC	_	6	cc	_	_
+5	molto	molto	ADV	B	_	6	advmod	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	conj	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	giovedì	giovedì	NOUN	S	Gender=Masc	2	conj	_	_
+9	pomeriggio	pomeriggio	NOUN	S	Gender=Masc|Number=Sing	12	obl	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	passare	passare	VERB	V	VerbForm=Inf	0	root	_	_
+13	insieme	insieme	ADV	B	_	12	advmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	perché	perché	SCONJ	CS	_	19	mark	_	_
+16	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	capo	capo	NOUN	S	Gender=Masc|Number=Sing	19	nsubj	_	_
+18	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	advcl	_	_
+20	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	19	obj	_	_
+22	importante	importante	ADJ	A	Number=Sing	21	amod	_	SpaceAfter=No
+23	.	.	PUNCT	FS	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Possiamo vedere il sabato sera?
+1	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	vedere	vedere	VERB	V	VerbForm=Inf	0	root	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	sabato	sabato	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Possiamo prendere la cena in un ristorante tailandese.
+1	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	prendere	prendere	VERB	V	VerbForm=Inf	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	cena	cena	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	tailandese	tailandese	ADJ	A	Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Che cosa pensi?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+3	pensi	pensare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = le menu sono buoni
+1	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	menu	menù	NOUN	S	Gender=Masc	4	nsubj	_	_
+3	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Mi scrivi rapidamente, perché devo subito prenotare un tavolo per due.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	expl	_	_
+2	scrivi	scrivare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	rapidamente	rapidamente	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	perché	perché	SCONJ	CS	_	8	mark	_	_
+6	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+7	subito	subito	ADV	B	_	8	advmod	_	_
+8	prenotare	prenotare	VERB	V	VerbForm=Inf	2	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	tavolo	tavolo	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	due	due	NUM	N	NumType=Card	10	nummod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Cari saluti Michele
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

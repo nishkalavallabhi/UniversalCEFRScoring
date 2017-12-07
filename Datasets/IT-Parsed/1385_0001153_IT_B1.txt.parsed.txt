@@ -1,0 +1,120 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001153_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = CIAO CARO MICHELE GRAZIE PER LA TUA EMAIL.
+1	CIAO	Ciao	PROPN	SP	_	0	root	_	_
+2	CARO	Caro	PROPN	SP	_	1	flat:name	_	_
+3	MICHELE	Michele	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+4	GRAZIE	grazie	PROPN	SP	_	3	flat:name	_	_
+5	PER	per	PROPN	SP	_	3	flat:name	_	_
+6	LA	lo	PROPN	SP	_	3	flat:name	_	_
+7	TUA	tuo	PROPN	SP	_	3	flat:name	_	_
+8	EMAIL.	EMAIL.	PROPN	SP	_	3	flat:name	_	_
+
+# sent_id = 2
+# text = VORREI AIUTARTI, MA HO BISOGNO DI QUALCHE INFORMAZIONE IN PIÙ.
+1	VORREI	volere	PROPN	SP	_	0	root	_	_
+2	AIUTARTI	AIUTARTI	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	MA	ma	PROPN	SP	_	1	appos	_	_
+5	HO	avere	PROPN	SP	_	4	flat:name	_	_
+6	BISOGNO	bisogno	PROPN	SP	_	4	flat:name	_	_
+7	DI	Di	ADP	E	_	8	case	_	_
+8	QUALCHE	qualche	PROPN	SP	_	9	nmod	_	_
+9	INFORMAZIONE	informazione	PROPN	SP	_	6	nmod	_	_
+10	IN	In	PROPN	SP	_	9	flat:name	_	_
+11	PIÙ	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = PUOI DIRMI, DOVE LAVORI ADESSO, QUANDO VORRESTI INIZIARE LAVORO.
+1	PUOI	potere	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	0	root	_	_
+2-3	DIRMI	_	_	_	_	_	_	_	SpaceAfter=No
+2	DIR	dir	PROPN	SP	_	1	nsubj	_	_
+3	MI	mi	PROPN	SP	_	2	flat:name	_	_
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	DOVE	Dove	PROPN	SP	_	2	appos	_	_
+6	LAVORI	lavore	PROPN	SP	_	5	flat:name	_	_
+7	ADESSO	adesso	PROPN	SP	_	5	flat:name	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	5	punct	_	_
+9	QUANDO	quando	PROPN	SP	_	11	nsubj	_	_
+10	VORRESTI	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	INIZIARE	iniziare	PROPN	SP	_	5	acl:relcl	_	_
+12	LAVORO	lavoro	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = E (QUESTO È IMPORTANTE!) CHE TIPO DI LAVORO TI INTERESSA?
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	(	(	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+3	QUESTO	questo	PROPN	SP	_	5	nsubj	_	_
+4	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	IMPORTANTE	importante	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpaceAfter=No
+7	)	)	PUNCT	FB	_	5	punct	_	_
+8	CHE	Che	PROPN	SP	_	5	nmod	_	_
+9	TIPO	tipo	PROPN	SP	_	8	flat:name	_	_
+10	DI	di	ADP	E	_	11	case	_	_
+11	LAVORO	Lavoro	PROPN	SP	_	8	flat:name	_	_
+12	TI	Ti	PROPN	SP	_	8	flat:name	_	_
+13	INTERESSA	interesso	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+14	?	?	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = VORREI SAPERE ANCHE, DOVE VORRESTI LAVORARE.
+1	VORREI	volere	PROPN	SP	_	7	nsubj	_	_
+2	SAPERE	sapere	PROPN	SP	_	1	flat:name	_	_
+3	ANCHE	anche	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	1	punct	_	_
+5	DOVE	Dove	PROPN	SP	_	6	nmod	_	_
+6	VORRESTI	vorresto	AUX	VM	Mood=Cnd|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	LAVORARE.	LAVORARE.	PROPN	SP	_	0	root	_	_
+
+# sent_id = 6
+# text = A Città X, A Città Y?
+1	A	a	ADP	E	_	2	case	_	_
+2	Città	Città	PROPN	SP	_	0	root	_	_
+3	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	A	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	2	nmod	_	_
+7	Y	y	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = SPERO, CHE POTRÒ AIUTARTI E SPERO VEDERTI PRESTO.
+1	SPERO	sperare	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	CHE	che	PROPN	SP	_	1	nmod	_	_
+4	POTRÒ	POTRÒ	PROPN	SP	_	3	flat:name	_	_
+5	AIUTARTI	AIUTARTI	PROPN	SP	_	3	flat:name	_	_
+6	E	E	CCONJ	CC	_	7	cc	_	_
+7	SPERO	Spero	PROPN	SP	_	3	flat:name	_	_
+8-9	VEDERTI	_	_	_	_	_	_	_	_
+8	VEDER	veder	PROPN	SP	_	7	nmod	_	_
+9	TI	Ti	PROPN	SP	_	8	flat:name	_	_
+10	PRESTO	presto	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = SE CERCHERÒ
+1	SE	se	PROPN	SP	_	0	root	_	_
+2	CERCHERÒ	Cercare	PROPN	SP	_	1	flat:name	_	_
+
+# sent_id = 9
+# text = QUALCOSA, TI CHIAMERÒ.
+1	QUALCOSA	qualcosa	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	3	punct	_	_
+3	TI	Ti	PROPN	SP	_	1	conj	_	_
+4	CHIAMERÒ	CHIAMERÒ	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = CIAO, BACCIONI TUA AMICA Maria
+1	CIAO	ciao	INTJ	I	_	3	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	BACCIONI	BACCIONI	PROPN	SP	_	0	root	_	SpacesAfter=\n
+4	TUA	tuo	PROPN	SP	_	3	flat:name	_	_
+5	AMICA	amico	PROPN	SP	_	3	flat:name	_	_
+6	Maria	Maria	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,111 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000206_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Frankfurt Rundschau Stadt X, 10.03.12 Bahnhofsstr 123 Michael Müller Akademie Klausenhof Winkelsg. 321. Sehr geehrte Dammen und Herren.
+1	Frankfurt	Frankfurt	PROPN	NE	_	0	root	_	_
+2	Rundschau	Rundschau	PROPN	NE	_	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Stadt	Stadt	PROPN	NN	_	1	appos	_	_
+4	X	X	PROPN	NN	_	3	appos	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	7	punct	_	_
+6	10.03.12	10.03.12	NUM	CARD	NumType=Card	7	nummod	_	SpacesAfter=\n
+7	Bahnhofsstr	Bahnhofsstr	NOUN	NN	_	1	conj	_	_
+8	123	123	NUM	CARD	NumType=Card	7	appos	_	SpacesAfter=\n
+9	Michael	Michael	PROPN	NE	_	7	appos	_	_
+10	Müller	Müller	PROPN	NE	_	9	flat	_	SpacesAfter=\n
+11	Akademie	Akademie	PROPN	NN	_	9	flat	_	_
+12	Klausenhof	Klausenhof	PROPN	NN	_	9	flat	_	SpacesAfter=\n
+13	Winkelsg	Winkelsg	PROPN	NE	_	9	flat	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	1	punct	_	_
+15	321	321	NUM	CARD	NumType=Card	19	nummod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	19	punct	_	SpacesAfter=\n
+17	Sehr	Sehr	ADV	ADV	_	18	advmod	_	_
+18	geehrte	geehrt	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	Dammen	Dammen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+20	und	und	CCONJ	KON	_	21	cc	_	_
+21	Herren	Herr	NOUN	NN	_	19	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wohnung Anziege.
+1	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+2	Anziege	Anziegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich suche ein neue 2Zimmer Wonung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	2Zimmer	2Zimmer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	Wonung	Wonung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich lebe jetzt in Stadt X aber möchte ich nachste Monat im Stadt Y zeihen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lebe	leben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	2	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Stadt	Stadt	PROPN	NN	_	2	obl	_	_
+6	X	X	PROPN	NN	_	5	appos	_	_
+7	aber	aber	ADV	ADV	_	16	advmod	_	_
+8	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+10	nachste	nachst	ADJ	ADJA	Degree=Sup	11	amod	_	_
+11	Monat	Monat	NOUN	NN	_	16	nmod	_	_
+12-13	im	_	_	_	_	_	_	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Stadt	Stadt	PROPN	NN	_	11	nmod	_	_
+15	Y	Y	PROPN	NN	_	14	appos	_	_
+16	zeihen	zeihen	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = I suche ein Wohnung mit ein Balkon und Garage weil ich habe Kinder und liebe Spatz.
+1	I	I	NUM	NE	NumType=Card	2	nmod	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	mit	mit	ADP	APPR	_	7	case	_	_
+6	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Balkon	Balkon	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Garage	Garage	NOUN	NN	_	7	conj	_	_
+10	weil	weil	SCONJ	KOUS	_	12	mark	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+13	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	12	obj	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	liebe	lieb	ADJ	ADJA	Degree=Pos	16	amod	_	_
+16	Spatz	Spatz	NOUN	NN	_	13	conj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich mochte ein Bisichtigungstermin vereiban mit euch.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mochte	mochte	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Bisichtigungstermin	Bisichtigungstermin	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	5	nsubj	_	_
+5	vereiban	vereiban	PROPN	NE	Case=Acc|Number=Sing	2	obj	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	euch	ihr	PRON	PPER	Case=Dat|Number=Plur|Person=2|Polite=Infm|PronType=Prs	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ich warte Antwort bitte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	warte	warten	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Antwort	Antwort	NOUN	NN	_	4	nmod	_	_
+4	bitte	bitten	PROPN	NN	_	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Mit freundlichen Grußen Michael Müller
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grußen	Gruße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Michael	Michael	PROPN	NE	_	3	appos	_	_
+5	Müller	Müller	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

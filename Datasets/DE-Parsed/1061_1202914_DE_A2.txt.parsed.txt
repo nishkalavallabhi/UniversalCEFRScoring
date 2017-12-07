@@ -1,0 +1,124 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1202914_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Libe Dana, Stadt X 27.02.12.
+1	Libe	Libe	PROPN	NE	_	0	root	_	_
+2	Dana	Dana	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	PROPN	NN	_	1	appos	_	_
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	27.02.12	27.02.12	PROPN	CARD	_	4	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Danke für Sie deine Brif.
+1	Danke	Dank	NOUN	NN	_	0	root	_	_
+2	für	für	ADP	APPR	_	3	case	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Brif	Brif	NOUN	NN	_	3	appos	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = Ich denke oft an dich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	oft	oft	ADV	ADV	_	2	advmod	_	_
+4	an	an	ADP	APPR	_	5	case	_	_
+5	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Natürlich besuche ich dich wann zürick kommen.
+1	Natürlich	natürlich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	besuche	besuchen	NOUN	NN	Case=Nom|Number=Plur	7	nsubj	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+4	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obj	_	_
+5	wann	wann	ADV	PWAV	_	7	advmod	_	_
+6	zürick	zürick	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+7	kommen	kommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Aber ich mache Party am Sontag und lade ich dich ein, Ich freue mich für usere Besuchen.
+1	Aber	aber	CCONJ	KON	_	4	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	mache	mach	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Party	Party	NOUN	NN	_	10	compound	_	_
+5-6	am	_	_	_	_	_	_	_	_
+5	an	an	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Sontag	Sontag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	lade	lade	PROPN	NN	_	7	conj	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+11	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	15	obj	_	_
+12	ein	ein	ADV	PTKVZ	_	11	compound:prt	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+16	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	obj	_	_
+17	für	für	ADP	APPR	_	19	case	_	_
+18	usere	us	PRON	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	19	det	_	_
+19	Besuchen	besuchen	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	15	obl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Hast du Prüfung, ja?
+1	Hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3	Prüfung	Prüfung	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	_
+5	ja	ja	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich wünsche dir viel Erfolg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	Erfolg	Erfolg	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich hatte aus Istanbul schal oder schone Ohre.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hatte	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	aus	aus	ADP	APPR	_	4	case	_	_
+4	Istanbul	Istanbul	PROPN	NN	Case=Dat|Number=Sing	2	obl	_	_
+5	schal	schal	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+6	oder	oder	CCONJ	KON	_	8	cc	_	_
+7	schone	schon	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	8	amod	_	_
+8	Ohre	fahren|Ohren	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	conj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Im schöne Land leben deine Verwandtem.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	schöne	schön	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	Land	Land	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	obl	_	_
+5	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	Verwandtem	Verwandtem	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Ich möchte gern in Istanbul urlob machen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	gern	gern	ADV	ADV	_	7	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Istanbul	Istanbul	PROPN	NE	_	7	obl	_	_
+6	urlob	urlob	ADJ	ADJD	Degree=Pos	7	xcomp	_	_
+7	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Bis bald Maria
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	3	advmod	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

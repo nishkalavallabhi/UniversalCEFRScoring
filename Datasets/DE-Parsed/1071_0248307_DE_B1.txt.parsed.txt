@@ -1,0 +1,65 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248307_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, ich will am Samstag um 18 Uhr ins Schwimmbad gehen.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	15	nsubj	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	nsubj	_	_
+5	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	obl	_	_
+9	um	um	ADP	APPR	_	11	case	_	_
+10	18	18	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	15	obl	_	_
+12-13	ins	_	_	_	_	_	_	_	_
+12	in	in	ADP	APPR	_	14	case	_	_
+13	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Schwimmbad	Schwimmbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+15	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 2
+# text = Möchtest du auch schwimmen?
+1	Möchtest	Möchtest	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+3	auch	auch	ADV	ADV	_	4	advmod	_	_
+4	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	1	acl	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Dann kommst du ins Schwimmbad in Stadtteil X. Und du muss ihr schwimmanzug mitbringen.
+1	Dann	dann	ADV	ADV	_	2	advmod	_	_
+2	kommst	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+4-5	ins	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Schwimmbad	Schwimmbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadtteil	Stadtteil	NOUN	NN	_	6	nmod	_	_
+9	X.	X.	PROPN	NE	_	10	amod	_	_
+10	Und	und	PROPN	NN	_	8	appos	_	_
+11	du	du	PROPN	PPER	_	10	flat	_	_
+12	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	schwimmanzug	schwimmanzug	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+15	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Bis später.
+1	Bis	Bis	ADP	KON	_	2	case	_	_
+2	später	spät	ADJ	ADJD	Degree=Cmp,Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Viele Grüße, deiner Michael
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	deiner	dein	PROPN	NE	_	2	appos	_	_
+5	Michael	Michael	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

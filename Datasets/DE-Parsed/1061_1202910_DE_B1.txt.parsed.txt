@@ -1,0 +1,170 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1202910_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 28.02.12 Liebe Dana, Herzliche Glückwunsch zur bestandenen Prüfung, ich freue mich für dich.
+1	Stadt	Stadt	NOUN	NN	_	10	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	28.02.12	28.02.12	PROPN	NN	_	1	appos	_	SpacesAfter=\n
+6	Liebe	Liebe	PROPN	NN	_	5	appos	_	_
+7	Dana	Dana	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	Herzliche	herzlich	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	Glückwunsch	Glückwunsch	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+11-12	zur	_	_	_	_	_	_	_	_
+11	zu	zu	ADP	APPR	_	14	case	_	_
+12	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+13	bestandenen	bestandenen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	17	punct	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	10	conj	_	_
+18	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	17	obj	_	_
+19	für	für	ADP	APPR	_	20	case	_	_
+20	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	17	obl	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Natürlich es ist schon, wenn man Verwandte im Auslad hat, die man zu besuchen kann.
+1	Natürlich	natürlich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	schon	schon	ADV	ADV	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	12	mark	_	_
+7	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
+8	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Auslad	Auslad	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
+12	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	12	punct	_	_
+14	die	der	PRON	PRELS	Case=Nom|PronType=Rel	17	obj	_	_
+15	man	man	PRON	PIS	Case=Nom|PronType=Ind	17	nsubj	_	_
+16	zu	zu	PART	PTKZU	_	17	mark	_	_
+17	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	12	acl	_	_
+18	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Meine Verwandte sind aus Kanada, da gibt es auch viele Dinge zu sehen.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Verwandte	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aus	aus	ADP	APPR	_	5	case	_	_
+5	Kanada	Kanada	PROPN	NE	Case=Dat|Number=Sing	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	da	da	ADV	ADV	_	8	advmod	_	_
+8	gibt	geben	VERB	VVFIN	VerbForm=Fin	3	conj	_	_
+9	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	_
+10	auch	auch	ADV	ADV	_	14	advmod	_	_
+11	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Sing	12	amod	_	_
+12	Dinge	Ding	NOUN	NN	Case=Acc|Number=Plur	14	obj	_	_
+13	zu	zu	PART	PTKZU	_	14	mark	_	_
+14	sehen	sehen	VERB	VVINF	VerbForm=Inf	8	acl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Irgend wann besuche ich sie.
+1	Irgend	Irgend	ADJ	ADJD	Degree=Pos	3	advmod	_	_
+2	wann	wann	ADV	PWAV	_	3	advmod	_	_
+3	besuche	besuchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Ich weis es nicht was man da in Istanbul kaufen kann, aber ich habe ein Wunsch bring mir vier Meter Stoff aus Seide mit.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	weis	weis	VERB	PTKVZ	_	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	was	was	VERB	PIAT	_	2	acl	_	_
+6	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+7	da	da	ADV	ADV	_	10	advmod	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Istanbul	Istanbul	PROPN	NE	_	10	obl	_	_
+10	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
+11	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	15	punct	_	_
+13	aber	aber	CCONJ	KON	_	15	cc	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Wunsch	Wunsch	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	15	nsubj	_	_
+18	bring	brehen	PROPN	VVIMP	_	17	nmod	_	_
+19	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+20	vier	vier	NUM	CARD	NumType=Card	21	nummod	_	_
+21	Meter	Meter	NOUN	NN	_	22	nmod	_	_
+22	Stoff	Stoff	NOUN	NN	_	15	obl	_	_
+23	aus	aus	ADP	APPR	_	24	case	_	_
+24	Seide	Seide	NOUN	NN	_	22	nmod	_	_
+25	mit	mit	ADP	PTKVZ	_	15	compound:prt	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Farbe Gold.
+1	Farbe	Farben	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Gold	Gold	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Weil hier in Deutschland Seidenstoff kostet sehr teuer.
+1	Weil	weil	SCONJ	KOUS	_	6	mark	_	_
+2	hier	hier	ADV	ADV	_	6	advmod	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	Deutschland	Deutschland	PROPN	NE	_	5	nmod	_	_
+5	Seidenstoff	Seidenstoff	NOUN	NN	_	6	obl	_	_
+6	kostet	kosten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	sehr	sehr	ADV	ADV	_	8	advmod	_	_
+8	teuer	teuer	ADJ	ADJD	Degree=Pos	6	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Ich freue mich schon auf deine Rückkehr, gern besuche ich dir zu Hause.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	schon	schon	ADV	ADV	_	2	advmod	_	_
+5	auf	auf	ADP	APPR	_	7	case	_	_
+6	deine	dein	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Rückkehr	Rückkehr	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	gern	gern	ADV	ADV	_	10	advmod	_	_
+10	besuche	besuchen	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+12	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	11	obj	_	_
+13	zu	zu	ADP	APPR	_	14	case	_	_
+14	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Vieleicht im Mai nach meiner Prüfung.
+1	Vieleicht	Vieleicht	NOUN	NN	_	0	root	_	_
+2-3	im	_	_	_	_	_	_	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Mai	Mai	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	nmod	_	_
+5	nach	nach	ADP	APPR	_	7	case	_	_
+6	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 10
+# text = Bestimmt hast du viel zu erzählen.
+1	Bestimmt	bestimmt	ADV	VVFIN	_	6	advmod	_	_
+2	hast	hast	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+4	viel	viel	PRON	PIAT	PronType=Ind	6	advmod	_	_
+5	zu	zu	PART	PTKZU	_	6	mark	_	_
+6	erzählen	erzählen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Viele Grüße Katharina
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Katharina	Katharina	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

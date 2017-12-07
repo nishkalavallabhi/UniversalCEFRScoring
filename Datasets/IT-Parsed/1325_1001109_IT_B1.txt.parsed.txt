@@ -1,0 +1,217 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001109_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi 03.12.2011
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	03.12.2011	03.12.2011	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\s\s\s\s
+
+# sent_id = 2
+# text = Città X Strada Maggiore 207
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	nmod	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	3	flat:name	_	_
+5	207	207	NUM	N	NumType=Card	3	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Città X tel. 0345-11111111
+1	Città	città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	3	amod	_	SpacesAfter=\s\n
+3	tel.	telii	NOUN	S	_	1	nmod	_	_
+4	0345	0345	NUM	N	NumType=Card	3	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+6	11111111	11111111	NUM	N	NumType=Card	1	compound	_	SpacesAfter=\s\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 4
+# text = Dipartimento di Linguistica Teorica e Applicata Unversità degli Studi di Pavia, Corso Strada Nuova, 65, 27100 Pavia, Italia Egrege Signora Gabriella Favati;
+1	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	di	di	ADP	E	_	3	case	_	_
+3	Linguistica	Linguistica	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Teorica	Teorica	PROPN	SP	_	3	flat:name	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	Applicata	applicare	ADJ	A	Gender=Fem|Number=Sing	7	amod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Unversità	Unversità	NOUN	S	Gender=Fem	3	conj	_	_
+8-9	degli	_	_	_	_	_	_	_	_
+8	di	di	ADP	E	_	10	case	_	_
+9	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
+10	Studi	Studi	NOUN	S	Gender=Masc|Number=Plur	7	nmod	_	_
+11	di	di	ADP	E	_	12	case	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+12	Pavia	Pavia	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	14	punct	_	_
+14	Corso	Corso	PROPN	SP	_	1	conj	_	_
+15	Strada	Strada	PROPN	SP	_	1	conj	_	_
+16	Nuova	Nuova	PROPN	SP	_	15	flat:name	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	15	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+18	65	65	NUM	N	NumType=Card	15	nummod	_	SpaceAfter=No
+19	,	,	PUNCT	FF	_	21	punct	_	_
+20	27100	27100	NUM	N	NumType=Card	21	nummod	_	_
+21	Pavia	Pavia	PROPN	SP	_	1	conj	_	SpaceAfter=No
+22	,	,	PUNCT	FF	_	23	punct	_	_
+23	Italia	Italia	PROPN	SP	_	1	conj	_	SpacesAfter=\s\n\s\n
+24	Egrege	Egrege	PROPN	SP	_	23	flat:name	_	_
+25	Signora	signore	PROPN	SP	_	23	flat:name	_	_
+26	Gabriella	Gabriella	PROPN	SP	_	23	flat:name	_	_
+27	Favati	Favato	PROPN	SP	_	23	flat:name	_	SpaceAfter=No
+28	;	;	PUNCT	FC	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Sono una studentessa universitaria di economia.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	studentessa	studentessa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	universitaria	universitario	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	economia	economia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ho ventidue anni.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ventidue	ventidue	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Vengo dalla Valle X, Canton Canton X.
+1	Vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	dalla	_	_	_	_	_	_	_	_
+2	da	da	ADP	E	_	4	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Valle	valle	PROPN	SP	_	1	obl	_	_
+5	X	X	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	_
+7	Canton	Canton	PROPN	SP	_	4	appos	_	_
+8	Canton	Canton	PROPN	SP	_	7	flat:name	_	_
+9	X	x	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = Mia lingua ma-unreadable-ra è italiana.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+3	ma	ma	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+5	unreadable	unreadable	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	SpaceAfter=No
+6	-	-	PUNCT	FF	_	5	punct	_	SpaceAfter=No
+7	ra	ra	NOUN	S	Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\s\s
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 9
+# text = Parlo perfettamente tedesco e francese.
+1	Parlo	parlare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	perfettamente	perfettamente	ADV	B	_	3	advmod	_	_
+3	tedesco	tedesco	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	francese	francese	ADJ	A	Number=Sing	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Da due anni che sto imparando inglese.
+1	Da	da	ADP	E	_	3	case	_	_
+2	due	due	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+4	che	che	PRON	PR	PronType=Rel	6	nsubj	_	_
+5	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	imparando	imparare	VERB	V	VerbForm=Ger	3	acl:relcl	_	_
+7	inglese	inglese	ADJ	A	Number=Sing	6	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Volendo imparare bene, bisogno leggere, ascoltare, anche secondo me molto importante parlare.
+1	Volendo	Volere	AUX	VA	VerbForm=Ger	2	aux	_	_
+2	imparare	imparare	VERB	V	VerbForm=Inf	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	5	punct	_	_
+5	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	leggere	leggere	VERB	V	VerbForm=Inf	5	acl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	8	punct	_	_
+8	ascoltare	ascoltare	VERB	V	VerbForm=Inf	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	8	punct	_	_
+10	anche	anche	ADV	B	_	12	advmod	_	_
+11	secondo	secondo	ADP	E	_	12	case	_	_
+12	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+13	molto	molto	ADV	B	_	14	advmod	_	_
+14	importante	importante	ADJ	A	Number=Sing	12	amod	_	_
+15	parlare	parlare	VERB	V	VerbForm=Inf	8	ccomp	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 12
+# text = Percio l'anno prossimo mi piacerebbe andare in America.
+1	Percio	Perciare	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	anno	anno	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	prossimo	prossimo	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+6	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	andare	andare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+8	in	in	ADP	E	_	9	case	_	_
+9	America	America	PROPN	SP	_	7	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 13
+# text = Imparando altre lingue abbiamo grande possibilità.
+1	Imparando	imparare	VERB	V	VerbForm=Ger	0	root	_	_
+2	altre	altro	ADJ	A	Gender=Fem|Number=Plur	3	amod	_	_
+3	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+4	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	possibilità	possibilità	NOUN	S	Gender=Fem	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Possiamo conoscere altre paese; abiente.
+1	Possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	conoscere	conoscere	VERB	V	VerbForm=Inf	0	root	_	_
+3	altre	altro	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	4	det	_	_
+4	paese	paese	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
+5	;	;	PUNCT	FC	_	6	punct	_	_
+6	abiente	abiente	NOUN	S	Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 15
+# text = Mi piace tanto viaggiare, alora conoscere altre lingue, per me, una cosa molto importane .
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tanto	tanto	ADV	B	_	2	advmod	_	_
+4	viaggiare	viaggiare	VERB	V	VerbForm=Inf	2	csubj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	alora	alora	ADV	B	_	7	advmod	_	_
+7	conoscere	conoscere	VERB	V	VerbForm=Inf	4	conj	_	_
+8	altre	altro	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	_
+9	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	7	punct	_	_
+11	per	per	ADP	E	_	12	case	_	_
+12	me	me	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	obl	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	7	punct	_	_
+14	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	importane	importano	ADJ	A	Number=Sing	15	amod	_	_
+18	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 16
+# text = Penso, che tutti dobbiamo cercare di imparare lingue straniere.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	che	che	PRON	PR	PronType=Rel	6	obj	_	_
+4	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	6	nsubj	_	_
+5	dobbiamo	dovere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	cercare	cercare	VERB	V	VerbForm=Inf	1	acl:relcl	_	_
+7	di	di	ADP	E	_	8	mark	_	_
+8	imparare	imparare	VERB	V	VerbForm=Inf	6	xcomp	_	_
+9	lingue	lingua	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	straniere	straniero	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 17
+# text = Vi porgo cordiali saluti Maria Rossi
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	porgo	porgere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	cordiali	cordiale	ADJ	A	Number=Plur	4	amod	_	_
+4	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Maria	Maria	PROPN	SP	_	4	nmod	_	_
+6	Rossi	Rossi	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+

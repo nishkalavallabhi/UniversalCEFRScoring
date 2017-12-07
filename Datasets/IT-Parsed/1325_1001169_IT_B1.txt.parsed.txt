@@ -1,0 +1,245 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001169_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Spet.
+1	Spet	Spet	NOUN	S	Gender=Masc	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Azienda, il mio nome è Michele Rossi, ho 30 anni e sono aggettivo di nazionalità X.
+1	Azienda	azienda	NOUN	S	Gender=Fem|Number=Sing	7	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	nome	nome	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	Michele	Michele	PROPN	SP	_	0	root	_	_
+8	Rossi	Rossi	PROPN	SP	_	7	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	7	punct	_	_
+10	ho	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	acl	_	_
+11	30	30	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obl	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+15	aggettivo	aggettivo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	nazionalità	nazionalità	NOUN	S	Gender=Fem	15	nmod	_	_
+18	X	X	PROPN	SP	_	17	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Sono venuto in Italia 2 anni fa e da quel periodo abito a Roma, alla città eterna.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	venuto	venire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Italia	Italia	PROPN	SP	_	2	obl	_	_
+5	2	2	NUM	N	NumType=Card	6	nummod	_	_
+6	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+7	fa	fa	ADV	B	_	6	advmod	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	da	da	ADP	E	_	11	case	_	_
+10	quel	quello	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	_
+11	periodo	periodo	NOUN	S	Gender=Masc|Number=Sing	18	conj	_	_
+12	abito	abitare	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+13	a	a	ADP	E	_	14	case	_	_
+14	Roma	Roma	PROPN	SP	_	11	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	11	punct	_	_
+16-17	alla	_	_	_	_	_	_	_	_
+16	a	a	ADP	E	_	18	case	_	_
+17	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	città	città	NOUN	S	Gender=Fem	2	obl	_	_
+19	eterna	eterno	ADJ	A	Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Anche in Paese X avevo lavorato come stagista, invece siccome il paese avevano problemi economici, ho deciso di andare in un paese più ricco.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Paese	paese	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	X	decimo	PROPN	SP	_	3	nmod	_	_
+5	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	aux	_	_
+6	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	come	come	ADP	E	_	8	case	_	_
+8	stagista	stagista	NOUN	S	Number=Sing	6	obl	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	6	punct	_	_
+10	invece	invece	ADV	B	_	11	advmod	_	_
+11	siccome	siccome	SCONJ	CS	_	14	mark	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	paese	paese	NOUN	S	Gender=Masc|Number=Sing	14	nsubj	_	_
+14	avevano	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	advcl	_	_
+15	problemi	problema	NOUN	S	Gender=Masc|Number=Plur	14	obj	_	_
+16	economici	economico	ADJ	A	Gender=Masc|Number=Plur	15	amod	_	SpaceAfter=No
+17	,	,	PUNCT	FF	_	19	punct	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	deciso	decidere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+20	di	di	ADP	E	_	21	mark	_	_
+21	andare	andare	VERB	V	VerbForm=Inf	19	xcomp	_	_
+22	in	in	ADP	E	_	24	case	_	_
+23	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	paese	paese	NOUN	S	Gender=Masc|Number=Sing	21	obl	_	_
+25	più	più	ADV	B	_	26	advmod	_	_
+26	ricco	ricco	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Avendo letto l'annuncio sapevo che lo fosse scritto per me.
+1	Avendo	avere	AUX	VA	VerbForm=Ger	2	aux	_	_
+2	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	sapevo	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	2	ccomp	_	_
+6	che	che	SCONJ	CS	_	9	mark	_	_
+7	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+8	fosse	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	_
+10	per	per	ADP	E	_	11	case	_	_
+11	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 6
+# text = Perchè secondo me sono abituato ai requisti richiesti.
+1	Perchè	perché	ADV	B	_	5	advmod	_	_
+2	secondo	secondo	ADP	E	_	3	case	_	_
+3	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+4	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	abituato	abituare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	ai	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	requisti	requista	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	richiesti	richiedere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	acl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Per esempio anche nel passato quando ero stagista in Città X, sempre facevo amicizie con i clinti, anzi anche adesso parlo con alcuni di loro.
+1	Per	per	ADP	E	_	2	case	_	_
+2	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4-5	nel	_	_	_	_	_	_	_	_
+4	in	in	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	passato	passato	NOUN	S	Gender=Masc|Number=Sing	15	obl	_	_
+7	quando	quando	SCONJ	CS	_	9	mark	_	_
+8	ero	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	9	aux	_	_
+9	stagista	stagedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	advcl	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Città	Città	PROPN	SP	_	9	obl	_	_
+12	X	X	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	6	punct	_	_
+14	sempre	sempre	ADV	B	_	15	advmod	_	_
+15	facevo	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+16	amicizie	amicizia	NOUN	S	Gender=Fem|Number=Plur	15	obj	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	clinti	clinto	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	19	punct	_	_
+21	anzi	anzi	ADV	B	_	24	advmod	_	_
+22	anche	anche	ADV	B	_	23	advmod	_	_
+23	adesso	adesso	ADV	B	_	24	advmod	_	_
+24	parlo	parlare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	conj	_	_
+25	con	con	ADP	E	_	26	case	_	_
+26	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	24	obl	_	_
+27	di	di	ADP	E	_	28	case	_	_
+28	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	15	punct	_	_
+
+# sent_id = 8
+# text = Altro motivo per cui vorrei lavorare da Loro il fatto che da piccolo volevo essere stagista cioè ho studiato anche all'universita per essere questo.
+1	Altro	altro	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	_
+2	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	cui	cui	PRON	PR	PronType=Rel	6	obl	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	lavorare	lavorare	VERB	V	VerbForm=Inf	2	acl:relcl	_	_
+7	da	da	ADP	E	_	8	case	_	_
+8	Loro	Loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	6	obl	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	fatto	fatto	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+11	che	che	SCONJ	CS	_	16	mark	_	_
+12	da	da	ADP	E	_	14	case	_	_
+13	piccolo	piccolo	ADJ	A	Gender=Masc|Number=Sing	14	amod	_	_
+14	volevo	volere	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+15	essere	essere	AUX	VA	VerbForm=Inf	16	aux	_	_
+16	stagista	stagedere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	_
+17	cioè	cioè	CCONJ	CC	_	19	cc	_	_
+18	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	conj	_	_
+20	anche	anche	ADV	B	_	23	advmod	_	_
+21-22	all'	_	_	_	_	_	_	_	SpaceAfter=No
+21	a	a	ADP	E	_	23	case	_	_
+22	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
+23	universita	universita	NOUN	S	Gender=Fem|Number=Sing	19	obl	_	_
+24	per	per	ADP	E	_	26	mark	_	_
+25	essere	essere	AUX	V	VerbForm=Inf	26	cop	_	_
+26	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	23	acl	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Invece in Italia finora non avevo la possibilità di lavorare in un ufficio come stagista.
+1	Invece	invece	ADV	B	_	3	advmod	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	Italia	Italia	PROPN	SP	_	6	obl	_	_
+4	finora	finora	ADV	B	_	6	advmod	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	possibilità	possibilità	NOUN	S	Gender=Fem	6	obj	_	_
+9	di	di	ADP	E	_	10	mark	_	_
+10	lavorare	lavorare	VERB	V	VerbForm=Inf	8	acl	_	_
+11	in	in	ADP	E	_	13	case	_	_
+12	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	10	obl	_	_
+14	come	come	ADP	E	_	15	case	_	_
+15	stagista	stagista	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 10
+# text = Avevo una vità libera, senza lavoro.
+1	Avevo	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	vità	vità	NOUN	S	Gender=Fem	1	obj	_	_
+4	libera	libero	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	3	punct	_	_
+6	senza	senza	ADP	E	_	7	case	_	_
+7	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = Mi mantenevo dai soldi che avevo ricevuto in Paese X.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	mantenevo	mantenere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	dai	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	soldi	soldo	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+6	che	che	PRON	PR	PronType=Rel	8	obj	_	_
+7	avevo	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	8	aux	_	_
+8	ricevuto	ricevere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+9	in	in	ADP	E	_	10	case	_	_
+10	Paese	paese	PROPN	SP	_	8	obl	_	_
+11	X	X	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Aspetto la Loro risposta.
+1	Aspetto	aspettare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Loro	loro	PROPN	SP	_	1	obj	_	_
+4	risposta	risposta	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Distinti Saluti 2012.03.03.
+1	Distinti	distinto	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+2	Saluti	Saluti	NOUN	S	Gender=Masc|Number=Plur	1	nsubj:pass	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	2012.03.03	2012.03.03	NUM	N	NumType=Card	2	nummod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 14
+# text = Via delle fontane
+1	Via	via	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+2-3	delle	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	fontane	fontana	NOUN	S	Gender=Fem|Number=Plur	1	nmod	_	SpacesAfter=\n
+

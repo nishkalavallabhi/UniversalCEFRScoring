@@ -1,0 +1,305 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0002061_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Man hat immer einen großen Wert darauf gelegt, wo man wohnt.
+1	Man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	immer	immer	ADV	ADV	_	2	advmod	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	großen	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	Wert	Wert	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+7	darauf	darauf	PRON	PAV	PronType=Dem,Rel	8	advmod	_	_
+8	gelegt	legen	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	wo	wo	ADV	PWAV	_	12	advmod	_	_
+11	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
+12	wohnt	wohnen	VERB	VVPP	VerbForm=Part	2	acl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Ich will Ihnen zeigen, wo kann man eine Wohnung kaufen oder mieten und wie viel es kosten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	4	iobj	_	_
+4	zeigen	zeigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wo	wo	ADV	PWAV	_	11	advmod	_	_
+7	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	mieten	mieten	ADJ	ADJA	Degree=Pos	11	conj	_	_
+14	und	und	CCONJ	KON	_	18	cc	_	_
+15	wie	wie	ADV	KOUS	_	18	advmod	_	_
+16	viel	viel	PRON	PIAT	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	18	nsubj	_	_
+17	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+18	kosten	kosten	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Am meisten Personen in meiner Stadt wohnen in einer 3 oder 4-Zimmer Wohnung.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	meisten	meist	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	Personen	Person	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Stadt	Stadt	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	wohnen	wohnen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+9	in	in	ADP	APPR	_	14	case	_	_
+10	einer	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+11	3	3	NUM	CARD	NumType=Card	14	nummod	_	_
+12	oder	oder	CCONJ	KON	_	13	cc	_	_
+13	4-Zimmer	4-Zimmer	NOUN	NN	_	11	conj	_	_
+14	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Die Wohnungen sind zwar groß aber sie kosten auch ganz viel.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	zwar	zwar	ADV	ADV	_	5	advmod	_	_
+5	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	aber	aber	CCONJ	KON	_	8	cc	_	_
+7	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	kosten	kosten	NOUN	NN	_	5	conj	_	_
+9	auch	auch	ADV	ADV	_	11	advmod	_	_
+10	ganz	ganz	ADV	ADV	_	11	advmod	_	_
+11	viel	viel	ADV	PIS	_	8	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = In Stadt X die Lohnen sind höher als in den anderen Städten Polens aber entsprechend für die Kosten.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Stadt	Stadt	PROPN	NN	_	7	nmod	_	_
+3	X	X	PROPN	NN	_	2	appos	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Lohnen	Lohn	NOUN	NN	Case=Acc|Number=Plur	7	obj	_	_
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	höher	höher	ADJ	ADJD	_	0	root	_	_
+8	als	als	ADP	KOKOM	_	18	case	_	_
+9	in	in	ADP	APPR	_	12	case	_	_
+10	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	12	det	_	_
+11	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	Städten	Stadt	NOUN	NN	Case=Dat|Number=Plur	8	nmod	_	_
+13	Polens	Polen	PROPN	NE	_	12	nmod	_	_
+14	aber	aber	ADV	ADV	_	18	advmod	_	_
+15	entsprechend	entsprechend	ADJ	ADJD	Degree=Pos	18	advmod	_	_
+16	für	für	ADP	APPR	_	18	case	_	_
+17	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+18	Kosten	kosten	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Die Kosten hängen davon ab, was man kaufen oder mieten will und wo.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Kosten	Kosten	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	hängen	hängen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	davon	davon	ADV	PAV	_	3	advmod	_	_
+5	ab	ab	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	was	was	PRON	PRELS	Case=Acc|Number=Sing|PronType=Rel	9	obj	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+9	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	12	xcomp	_	_
+10	oder	oder	CCONJ	KON	_	11	cc	_	_
+11	mieten	mieten	ADJ	ADJA	Degree=Pos	9	conj	_	_
+12	will	wollen	VERB	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	acl	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	wo	wo	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Die Wohnungen im Zentrum sind die teuerste und man muss darauf beachten, ob sich diese Wohnung in einem neuen oder alten Hochhaus befindet.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	_
+2	Wohnungen	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Zentrum	Zentrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+6	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	teuerste	teuer	NOUN	ADJA	_	0	root	_	_
+9	und	und	CCONJ	KON	_	13	cc	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
+11	muss	müssen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	darauf	darauf	PRON	PAV	PronType=Dem,Rel	13	dep	_	_
+13	beachten	beacht	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	8	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	13	punct	_	_
+15	ob	ob	SCONJ	KOUS	_	25	mark	_	_
+16	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	25	obj	_	_
+17	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	18	det	_	_
+18	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+19	in	in	ADP	APPR	_	24	case	_	_
+20	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	24	det	_	_
+21	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	24	amod	_	_
+22	oder	oder	CCONJ	KON	_	23	cc	_	_
+23	alten	alt	ADJ	ADJA	Degree=Pos	21	conj	_	_
+24	Hochhaus	Hochhaus	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	25	obl	_	_
+25	befindet	befinden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	13	ccomp	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Aber die schwierigste ist eine große Wohnung günstig kaufen.
+1	Aber	aber	ADV	KON	_	9	advmod	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	schwierigste	schwierig	ADJ	ADJA	Case=Acc|Degree=Sup|Gender=Fem|Number=Sing	4	amod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	günstig	günstig	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+9	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Viele wollen es verkaufen aber auf zu hohem Preis.
+1	Viele	viel	PRON	PIAT	Case=Nom|PronType=Ind	4	nsubj	_	_
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	verkaufen	verkaufen	VERB	VVINF	VerbForm=Inf	0	root	_	SpacesAfter=\s\s
+5	aber	aber	ADV	ADV	_	4	advmod	_	_
+6	auf	auf	ADP	APPR	_	4	xcomp	_	_
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	hohem	hoch	ADJ	ADJA	_	9	amod	_	_
+9	Preis	Preis	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Am besten ist die Angebote im Internet suchen und dann vergleichen.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Definite=Def|PronType=Art	3	det	_	_
+3	besten	gut	ADJ	ADJA	Degree=Sup	4	amod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Angebote	Angebot	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+7-8	im	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Internet	Internet	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+10	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	und	und	CCONJ	KON	_	13	cc	_	_
+12	dann	dann	ADV	ADV	_	13	advmod	_	_
+13	vergleichen	vergleichen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Viele Familien wonnen in einem Haus, aber nicht im Zentrum sondern 20-30 Minuten entfernt, sodass man schnell mit der Verkehr zum Ort fahen kann.
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	2	det	_	_
+2	Familien	Familie	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	wonnen	wonnen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	16	punct	_	_
+8	aber	aber	CCONJ	ADV	_	16	cc	_	_
+9	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Zentrum	Zentrum	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+13	sondern	sondern	CCONJ	KON	_	15	cc	_	_
+14	20-30	20-30	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Minuten	Minute	NOUN	NN	_	12	conj	_	_
+16	entfernt	entfernt	VERB	ADJD	_	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	3	punct	_	_
+18	sodass	sodass	SCONJ	VVFIN	_	27	mark	_	_
+19	man	man	PRON	PIS	Case=Nom|PronType=Ind	27	nsubj	_	_
+20	schnell	schnell	ADV	ADJD	_	27	advmod	_	_
+21	mit	mit	ADP	APPR	_	23	case	_	_
+22	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Verkehr	Verkehr	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+24-25	zum	_	_	_	_	_	_	_	_
+24	zu	zu	ADP	APPR	_	26	case	_	_
+25	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Ort	Ort	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	23	nmod	_	_
+27	fahen	fahen	VERB	VVFIN	VerbForm=Fin	3	advcl	_	_
+28	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 12
+# text = Einzelpersonen leben in den Wohnungen neben Zentrum, wo sie alles nah haben Die Preisen sind nicht niedrig, aber jeden kann etwas Entsprechendes für sich selbst finden.
+1	Einzelpersonen	Einzelperson	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+2	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	Wohnungen	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Plur	2	obl	_	_
+6	neben	neben	ADP	APPR	_	7	case	_	_
+7	Zentrum	Zentrum	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	wo	wo	ADV	PWAV	_	28	advmod	_	_
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	28	nsubj	_	_
+11	alles	alle	PRON	PIS	Case=Nom|PronType=Tot	28	nsubj	_	_
+12	nah	nehen	ADV	ADJD	_	28	advmod	_	_
+13	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	_
+14	Die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	Preisen	Preis	NOUN	NN	Case=Nom|Number=Plur	28	nsubj	_	_
+16	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+17	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+18	niedrig	niedrig	ADJ	ADJD	Degree=Pos	28	advmod	_	SpaceAfter=No
+19	,	,	PUNCT	$,	_	24	punct	_	_
+20	aber	aber	CCONJ	KON	_	24	cc	_	_
+21	jeden	jed	PRON	PIAT	PronType=Tot	24	det	_	_
+22	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+23	etwas	etwas	ADV	ADV	_	24	advmod	_	_
+24	Entsprechendes	entsprechend	NOUN	NN	_	18	conj	_	_
+25	für	für	ADP	APPR	_	26	case	_	_
+26	sich	er|es|sie	PRON	PRF	Case=Acc,Dat|Person=3|PronType=Prs|Reflex=Yes	24	nmod	_	_
+27	selbst	selbst	ADV	ADV	_	26	advmod	_	_
+28	finden	finden	NOUN	VVFIN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	acl	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Meiner Meinung nach die wichtigste ist sich zu sagen, wie viel Geld man bezahlen kann und dann etwas suchen.
+1	Meiner	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Meinung	Meinung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+3	nach	nach	ADP	APPR	_	5	case	_	_
+4	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	_
+5	wichtigste	wichtig	NOUN	ADJA	Case=Nom|Gender=Masc|Number=Plur	2	nmod	_	_
+6	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	9	obj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	wie	wie	ADV	KOUS	_	15	advmod	_	_
+12	viel	viel	PRON	PIAT	PronType=Ind	13	det	_	_
+13	Geld	Geld	NOUN	NN	_	11	nmod	_	_
+14	man	man	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
+15	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	9	ccomp	_	_
+16	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+17	und	und	CCONJ	KON	_	20	cc	_	_
+18	dann	dann	ADV	ADV	_	20	advmod	_	_
+19	etwas	etwas	ADV	ADV	_	20	advmod	_	_
+20	suchen	suchen	VERB	VVINF	VerbForm=Inf	15	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 14
+# text = Natürlich man muss auch wissen, ob man einen ruhigen Platz sucht oder nicht.
+1	Natürlich	natürlich	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+2	man	man	PRON	PIS	Case=Nom|PronType=Ind	5	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	auch	auch	ADV	ADV	_	5	advmod	_	_
+5	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	ob	ob	SCONJ	KOUS	_	12	mark	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	12	nsubj	_	_
+9	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	ruhigen	ruhig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Platz	Platz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+12	sucht	suchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	ccomp	_	_
+13	oder	oder	CCONJ	KON	_	14	cc	_	_
+14	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 15
+# text = Dann wird man zufrieden.
+1	Dann	dann	ADV	ADV	_	4	advmod	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	4	nsubj:pass	_	_
+4	zufrieden	zufreiden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+

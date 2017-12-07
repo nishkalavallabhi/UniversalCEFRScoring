@@ -1,0 +1,87 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ/PHA0210004_CZ_A2.txt
+# newpar
+# sent_id = 1
+# text = Ta žena možná pracuje v Knihovně jako Knihovnice nebo je studentka.
+1	Ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_
+3	možná	možná	ADV	Db-------------	_	4	advmod	_	_
+4	pracuje	pracovat	VERB	VB-S---3P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	v	v	ADP	RR--6----------	AdpType=Prep|Case=Loc	6	case	_	_
+6	Knihovně	knihovna	NOUN	NNFS6-----A----	Case=Loc|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	_
+7	jako	jako	SCONJ	J,-------------	_	8	mark	_	_
+8	Knihovnice	Knihovnice	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	xcomp	_	_
+9	nebo	nebo	CCONJ	J^-------------	_	10	cc	_	_
+10	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	studentka	studentka	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	10	nsubj	_	SpaceAfter=No
+12	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 2
+# text = Její jmena vůbec neznám.
+1	Její	jeho	DET	PSZS1FS3-------	Case=Nom|Gender=Masc,Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	2	det	_	_
+2	jmena	jmeno	NOUN	NNNP1-----A----	Case=Nom|Gender=Neut|Number=Plur|Polarity=Pos	4	nsubj	_	_
+3	vůbec	vůbec	ADV	Db-------------	_	4	advmod:emph	_	_
+4	neznám	znát	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	Z:-------------	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mohla být z Asie nebo Evropy.
+1	Mohla	moci	VERB	VpQW---XR-AA---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Act	0	root	_	_
+2	být	být	AUX	Vf--------A----	Polarity=Pos|VerbForm=Inf	1	xcomp	_	_
+3	z	z	ADP	RR--2----------	AdpType=Prep|Case=Gen	4	case	_	_
+4	Asie	Asie	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	1	obl	_	_
+5	nebo	nebo	CCONJ	J^-------------	_	6	cc	_	_
+6	Evropy	Evropa	PROPN	NNFS2-----A----	Case=Gen|Gender=Fem|NameType=Geo|Number=Sing|Polarity=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 4
+# text = Myslím, že má asi třicet let.
+1	Myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	Z:-------------	_	4	punct	_	_
+3	že	že	SCONJ	J,-------------	_	4	mark	_	_
+4	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+5	asi	asi	PART	TT-------------	_	6	advmod:emph	_	_
+6	třicet	třicet	NUM	Cn-S4----------	Case=Acc|Number=Sing|NumForm=Word|NumType=Card	7	nummod:gov	_	_
+7	let	rok	NOUN	NNNP2-----A----	Case=Gen|Gender=Neut|Number=Plur|Polarity=Pos	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 5
+# text = Je mozna, že je vdaná mozna ma děti, ale kolik, nevím.
+1	Je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux:pass	_	_
+2	mozna	mozný	ADJ	VsQW---XX-AP---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	Z:-------------	_	8	punct	_	_
+4	že	že	SCONJ	J,-------------	_	8	mark	_	_
+5	je	být	AUX	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+6	vdaná	vdaný	ADJ	AAFS1----1A----	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos	8	amod	_	_
+7	mozna	mozna	ADJ	VsQW---XX-AP---	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short|VerbForm=Part|Voice=Pass	8	amod	_	_
+8	ma	ma	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	2	dep	_	_
+9	děti	dítě	NOUN	NNFP1-----A----	Case=Nom|Gender=Fem|Number=Plur|Polarity=Pos	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+11	ale	ale	CCONJ	J^-------------	_	12	cc	_	_
+12	kolik	kolik	DET	C?--4----------	Case=Acc|NumType=Card|PronType=Int,Rel	8	conj	_	SpaceAfter=No
+13	,	,	PUNCT	Z:-------------	_	12	punct	_	_
+14	nevím	vědět	VERB	VB-S---1P-NA---	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No
+15	.	.	PUNCT	Z:-------------	_	2	punct	_	_
+
+# sent_id = 6
+# text = Myslím že Ta žena má ráda různé typy knihy.
+1	Myslím	myslit	VERB	VB-S---1P-AA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	že	že	SCONJ	J,-------------	_	5	mark	_	_
+3	Ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	5	nsubj	_	_
+5	má	mít	VERB	VB-S---3P-AA---	Mood=Ind|Number=Sing|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
+6	ráda	rád	ADJ	ACQW------A----	Gender=Fem,Neut|Number=Plur,Sing|Polarity=Pos|Variant=Short	8	xcomp	_	_
+7	různé	různý	ADJ	AAIP4----1A----	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos	8	amod	_	_
+8	typy	typ	NOUN	NNIP4-----A----	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Polarity=Pos	5	obj	_	_
+9	knihy	kniha	NOUN	NNFS2-----A----	Case=Gen|Gender=Fem|Number=Sing|Polarity=Pos	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	Z:-------------	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ta žena vůbec nechodí na procházku.
+1	Ta	ten	DET	PDFS1----------	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	žena	žena	NOUN	NNFS1-----A----	Case=Nom|Gender=Fem|Number=Sing|Polarity=Pos	4	nsubj	_	_
+3	vůbec	vůbec	ADV	Db-------------	_	4	advmod:emph	_	_
+4	nechodí	chodit	VERB	VB-S---3P-NA---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	na	na	ADP	RR--4----------	AdpType=Prep|Case=Acc	6	case	_	_
+6	procházku	procházka	NOUN	NNFS4-----A----	Case=Acc|Gender=Fem|Number=Sing|Polarity=Pos	4	obl	_	SpaceAfter=No
+7	.	.	PUNCT	Z:-------------	_	4	punct	_	SpacesAfter=\n
+

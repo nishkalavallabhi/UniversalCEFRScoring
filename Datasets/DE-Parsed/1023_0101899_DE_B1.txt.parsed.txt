@@ -1,0 +1,135 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101899_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Julia Schmidt Bahnhofsstraße 12, App.
+1	Julia	Julia	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmidt	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	1	flat	_	_
+4	12	12	PROPN	CARD	Case=Dat|Gender=Fem|Number=Sing	1	flat	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	1	punct	_	_
+6	App	App	PROPN	VVFIN	_	1	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 21 20.03.2010 1234 Stadt X Bulgarien Odenwaldstraße 5 53119 Bonn Bewerbung um ein Praktikum Sehr geehrte Damen und Herren, Ihre Anzeige habe ich in Regionaler Zeitung gelesen und hat meine Interesse geweckt.
+1	21	21	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	20.03.2010	20.03.2010	NUM	ADJA	NumType=Card	3	nummod	_	SpacesAfter=\n
+3	1234	1234	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Stadt	Stadt	NOUN	NN	_	8	dep	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\n
+6	Bulgarien	Bulgarien	PROPN	NE	_	4	appos	_	SpacesAfter=\n
+7	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	6	flat	_	_
+8	5	5	NUM	CARD	NumType=Card	11	nummod	_	SpacesAfter=\n
+9	53119	53119	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Bonn	Bonn	PROPN	NE	_	11	nmod	_	SpacesAfter=\n
+11	Bewerbung	Bewerbung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+12	um	um	ADP	APPR	_	14	case	_	_
+13	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Praktikum	Praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	17	nmod	_	SpacesAfter=\n
+15	Sehr	Sehr	ADV	ADV	_	16	advmod	_	_
+16	geehrte	geehrt	ADJ	ADJA	Degree=Pos	17	amod	_	_
+17	Damen	Dame	NOUN	NN	_	28	dep	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	Herren	Herr	NOUN	NN	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	17	punct	_	SpacesAfter=\n
+21	Ihre	ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	28	nsubj	_	_
+23	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	_
+24	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+25	in	in	ADP	APPR	_	27	case	_	_
+26	Regionaler	Regionaler	NOUN	NN	_	27	compound	_	_
+27	Zeitung	Zeitung	NOUN	NN	_	28	obl	_	_
+28	gelesen	lesen	VERB	VVPP	VerbForm=Part	0	root	_	_
+29	und	und	CCONJ	KON	_	33	cc	_	_
+30	hat	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	33	aux	_	_
+31	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	Interesse	Interesse	NOUN	NN	Case=Acc|Number=Sing	33	obj	_	_
+33	geweckt	wecken	VERB	VVPP	VerbForm=Part	28	conj	_	SpaceAfter=No
+34	.	.	PUNCT	$.	_	28	punct	_	_
+
+# sent_id = 3
+# text = Ich Studiere Informationtechnologie in der Technische Universität in Stadt X. Um meine Ausbildung abzuschlißen muss ich ein Praktikum machen in darum bewerbe ich mich bei Ihnen Sie suchen ein Person mit Erfahrung und Kenntnisse in IT-Technologie brauche, Diese ihre Anforderungen erfülle ich.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+2	Studiere	Studier	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	_
+3	Informationtechnologie	Informationtechnologie	NOUN	NN	_	2	appos	_	_
+4	in	in	ADP	APPR	_	7	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	Technische	technisch	PROPN	ADJA	_	7	amod	_	_
+7	Universität	Universität	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Stadt	Stadt	PROPN	NN	_	7	nmod	_	_
+10	X.	X.	PROPN	NE	_	9	appos	_	_
+11	Um	um	ADP	KOUI	_	13	case	_	_
+12	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Ausbildung	Ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+14	abzuschlißen	abzuschlißen	VERB	VVINF	VerbForm=Inf	19	xcomp	_	_
+15	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Praktikum	Praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	19	obj	_	_
+19	machen	machen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+20	in	in	ADP	APPR	_	37	case	_	_
+21	darum	darum	PRON	PAV	PronType=Dem,Rel	37	dep	_	_
+22	bewerbe	bewerben	NOUN	NN	Case=Nom|Number=Plur	37	nsubj	_	_
+23	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+24	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	28	obj	_	_
+25	bei	bei	ADP	APPR	_	26	case	_	_
+26	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	28	obl	_	_
+27	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	28	nsubj	_	_
+28	suchen	suchen	VERB	VVINF	VerbForm=Inf	37	xcomp	_	_
+29	ein	ein	DET	ART	Definite=Ind|PronType=Art	30	det	_	_
+30	Person	Person	NOUN	NN	_	28	obl	_	_
+31	mit	mit	ADP	APPR	_	32	case	_	_
+32	Erfahrung	Erfahrung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	30	nmod	_	_
+33	und	und	CCONJ	KON	_	34	cc	_	_
+34	Kenntnisse	Kenntnis	NOUN	NN	_	32	conj	_	_
+35	in	in	ADP	APPR	_	36	case	_	_
+36	IT-Technologie	IT-Technologie	NOUN	NN	_	28	obl	_	_
+37	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	19	acl	_	SpaceAfter=No
+38	,	,	PUNCT	$,	_	37	punct	_	_
+39	Diese	dies	PRON	PDS	Case=Nom|PronType=Dem	43	nsubj	_	_
+40	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	41	det:poss	_	_
+41	Anforderungen	Anforderung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	43	obj	_	_
+42	erfülle	erfüllen	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	37	nsubj	_	SpaceAfter=No
+44	.	.	PUNCT	$.	_	19	punct	_	_
+
+# sent_id = 4
+# text = Neben meine Studium abreite ich als Verkauferin in ein großen Technologische Geschäft wo ich viel Technische und Kommunikation gesammelt habe Ich bin flexibel, beherrsche kommunikation fähigen.
+1	Neben	neben	ADP	APPR	_	3	case	_	_
+2	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Studium	Studium	NOUN	NN	Case=Dat|Gender=Neut|Number=Sing	0	root	_	_
+4	abreite	abreien	PROPN	ADJA	_	3	appos	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	Verkauferin	Verkauferin	NOUN	NN	_	3	nmod	_	_
+8	in	in	ADP	APPR	_	12	case	_	_
+9	ein	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+10	großen	groß	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Technologische	Technologisch	NOUN	NN	_	12	nmod	_	_
+12	Geschäft	Geschäft	NOUN	NN	_	7	nmod	_	SpacesAfter=\s\s
+13	wo	wo	ADV	PWAV	PronType=Int	19	advmod	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+15	viel	viel	PRON	PIAT	Case=Acc|Number=Sing|PronType=Ind	16	det	_	_
+16	Technische	technisch	PROPN	ADJA	Case=Acc|Number=Sing	19	obj	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	Kommunikation	Kommunikation	NOUN	NN	_	16	conj	_	_
+19	gesammelt	sammeln	VERB	VVPP	VerbForm=Part	12	acl	_	_
+20	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	aux	_	SpacesAfter=\n
+21	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+22	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	cop	_	_
+23	flexibel	flexibel	ADJ	ADJD	Degree=Pos	19	parataxis	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	23	punct	_	_
+25	beherrsche	beherrsch	ADJ	ADJA	Degree=Pos	26	amod	_	_
+26	kommunikation	kommunikation	NOUN	NN	_	27	obl	_	_
+27	fähigen	fähig	VERB	VVINF	VerbForm=Inf	23	conj	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mit freundlichen Grüßen Julia Schmidt
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Julia	Julia	PROPN	NE	_	3	appos	_	_
+5	Schmidt	Schmidt	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

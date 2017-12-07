@@ -1,0 +1,386 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003091_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Meinem Thema lautet "Is es sinnvoll, auch im Ausland die seines Haimatlands fortzusetzen."
+1	Meinem	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Thema	Thema	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+3	lautet	lauten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	cop	_	_
+4	"	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+5	Is	Is	PROPN	NN	_	0	root	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	expl	_	_
+7	sinnvoll	sinnvollen	ADJ	ADJD	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	auch	auch	ADV	ADV	_	12	advmod	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Ausland	Ausland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+13	die	der	PRON	ART	Case=Nom|PronType=Dem	16	nsubj	_	_
+14	seines	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Haimatlands	Haimatland	NOUN	NN	_	13	nmod	_	_
+16	fortzusetzen	fortsetzen	VERB	VVIZU	_	5	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	5	punct	_	_
+
+# sent_id = 2
+# text = Ich finde, dass Thema sehr Interessant, weil es sehr wichtiges Punkt in Europa geworden ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	_
+5	Thema	Thema	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
+7	Interessant	interessant	NOUN	NN	_	2	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
+12	wichtiges	wichtig	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Punkt	Punkt	NOUN	NN	_	2	advcl	_	_
+14	in	in	ADP	APPR	_	15	case	_	_
+15	Europa	Europa	PROPN	NE	_	13	nmod	_	_
+16	geworden	werden	VERB	VAPP	VerbForm=Part	13	cop	_	_
+17	ist	sein	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Einerseits macht es Sinn das Kultur zu fortzusetzen.
+1	Einerseits	einerseits	ADV	ADV	_	2	advmod	_	_
+2	macht	machen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	Sinn	Sinn	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	fortzusetzen	fortsetzen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Anderseits gibt es viele Probleme in Gastland, weil man nicht mehr in Gastland ohne neue Kultur zu lernen.
+1	Anderseits	Anderseits	ADV	ADV	_	2	advmod	_	_
+2	gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	viele	viel	ADJ	PIAT	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	Probleme	Problem	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Gastland	Gastland	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	19	mark	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	19	nsubj	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
+12	mehr	mehr	ADV	ADV	_	11	advmod	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Gastland	Gastland	NOUN	NN	_	19	obl	_	_
+15	ohne	ohne	ADP	APPR	_	17	case	_	_
+16	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+18	zu	zu	PART	PTKZU	_	19	mark	_	_
+19	lernen	lernen	VERB	VVINF	VerbForm=Inf	2	advcl	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = In Gastland zwar verliert den selbern Kultur aber lernt man viel von den neuen Kultur.
+1	In	in	ADP	APPR	_	2	case	_	_
+2	Gastland	Gastland	PROPN	NE	_	4	obl	_	_
+3	zwar	zwar	ADV	ADV	_	2	advmod	_	_
+4	verliert	verlieren	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	den	der	PRON	ART	Case=Acc|PronType=Dem	6	obj	_	_
+6	selbern	selbern	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	4	acl	_	_
+7	Kultur	Kultur	PROPN	NN	Case=Acc|Number=Sing	6	obj	_	_
+8	aber	aber	ADV	ADV	_	9	advmod	_	_
+9	lernt	lernen	VERB	VVFIN	VerbForm=Fin	6	conj	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	9	nsubj	_	_
+11	viel	viel	PRON	PIAT	Case=Acc|PronType=Ind	9	obj	_	_
+12	von	von	ADP	APPR	_	15	case	_	_
+13	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	neuen	neu	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ich vermute, dass es ist sinnvall, wenn man neue Kultur learnt, weil es sinn macht.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	vermute	vermuen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	7	mark	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+7	sinnvall	sinnvall	NOUN	NN	Case=Acc|Number=Sing	2	ccomp	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	wenn	wenn	SCONJ	KOUS	_	13	mark	_	_
+10	man	man	PRON	PIS	Case=Nom|PronType=Ind	13	nsubj	_	_
+11	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+13	learnt	learnen	ADJ	VVPP	_	2	advcl	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	2	punct	_	_
+15	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	_
+17	sinn	sinn	NOUN	VVIMP	_	2	advcl	_	_
+18	macht	machen	VERB	VVFIN	Person=3|VerbForm=Fin	17	cop	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Es ist auch Sehr wichtig, wenn man nue Sprache learnt, weil Sprach wie eine bruche ist.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	Sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	wichtig	wichtig	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	wenn	wenn	SCONJ	KOUS	_	11	mark	_	_
+8	man	man	PRON	PIS	Case=Nom|PronType=Ind	11	nsubj	_	_
+9	nue	nue	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Sprache	Sprache	NOUN	NN	_	11	nmod	_	_
+11	learnt	learnen	ADJ	VVPP	_	5	advcl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	weil	weil	SCONJ	KOUS	_	14	mark	_	_
+14	Sprach	Sprach	NOUN	NN	_	11	advcl	_	_
+15	wie	wie	ADP	KOKOM	_	17	case	_	_
+16	eine	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+17	bruche	bruch	NOUN	NN	_	14	nmod	_	_
+18	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Sprache macht einfache in Gastland zu leben.
+1	Sprache	Sprache	NOUN	NN	Case=Nom|Number=Sing	2	nsubj	_	_
+2	macht	machen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	einfache	einfach	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	2	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	Gastland	Gastland	PROPN	NN	_	7	obl	_	_
+6	zu	zu	PART	PTKZU	_	7	mark	_	_
+7	leben	leben	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Z.B. Lerent man Deutsch in Deutschland, weil es Landssprache ist.
+1	Z.B.	Z.b.	ADV	ADV	_	2	advmod	_	_
+2	Lerent	Lerent	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+4	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Deutschland	Deutschland	PROPN	NE	_	2	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+9	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+10	Landssprache	Landssprache	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = And die Sprache Integration ist.
+1	And	and	CCONJ	FM	_	4	cc	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Sprache	Sprache	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	Integration	integration	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ohne Sprache geht es gar nicht.
+1	Ohne	ohne	ADP	APPR	_	2	case	_	_
+2	Sprache	Sprache	NOUN	NN	Case=Acc|Number=Sing	3	obl	_	_
+3	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+5	gar	gar	ADV	ADV	_	3	advmod	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	3	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ich möchte heir sagen, dass es nicht einfach neue Kultur zu learn, trozdem ist sehr sinnvall Gastland Kultur zu nehmen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	heir	heu	PROPN	NN	Case=Dat|Number=Sing	4	iobj	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	22	mark	_	_
+7	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	expl	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
+9	einfach	einfach	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+10	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+12	zu	zu	ADP	APPR	_	13	case	_	_
+13	learn	learn	PROPN	NE	Case=Dat|Number=Sing	11	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	22	punct	_	_
+15	trozdem	trozdem	ADV	KOUS	_	22	advmod	_	_
+16	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	cop	_	_
+17	sehr	sehr	ADV	ADV	_	19	advmod	_	_
+18	sinnvall	sinnvall	PROPN	NN	Case=Nom|Number=Sing	19	nsubj	_	_
+19	Gastland	Gastland	PROPN	NN	_	22	obj	_	_
+20	Kultur	Kultur	PROPN	NN	Case=Acc|Number=Sing	19	flat	_	_
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
+22	nehmen	nehmen	VERB	VVINF	VerbForm=Inf	4	ccomp	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Wenn ich mit der Leute Deutsch sprache, finden sie es wie einen von denen.
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Leute	Leute	NOUN	NN	_	9	advcl	_	_
+6	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	7	amod	_	_
+7	sprache	sprach	NOUN	NN	Case=Acc|Number=Sing	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	finden	finden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+10	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	wie	wie	ADP	KOKOM	_	15	case	_	_
+13	einen	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+14	von	von	ADP	APPR	_	15	case	_	_
+15	denen	der	PRON	PDS	PronType=Dem	9	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 14
+# text = Ich finde, dass Gastland meine neue Heimatland ist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+5	Gastland	Gastland	PROPN	NE	Case=Nom|Number=Sing	9	nsubj	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+7	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	8	amod	_	_
+8	Heimatland	Heimatland	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
+9	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 15
+# text = Es wäre sehr gut, wenn ich prefket Deutsch Sprache.
+1	Es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	wäre	sein	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	prefket	prefken	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	advcl	_	_
+9	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	8	obj	_	_
+10	Sprache	Sprache	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 16
+# text = Heimtland war meines Land und es beliebt.
+1	Heimtland	Heimtland	PROPN	NE	Case=Nom|Number=Sing	4	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	meines	mein	PRON	PIS	PronType=Ind	4	det	_	_
+4	Land	Land	NOUN	NN	_	0	root	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	expl	_	_
+7	beliebt	belieben	ADJ	VVPP	_	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 17
+# text = Aber ich sollte neue Learn und neue anfangen.
+1	Aber	aber	CCONJ	KON	_	8	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+4	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	5	amod	_	_
+5	Learn	Learn	NOUN	NN	Case=Acc|Number=Sing	8	obj	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	neue	neu	ADJ	ADJA	Degree=Pos	8	advmod	_	_
+8	anfangen	anfangen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 18
+# text = Es bedeutet neue learn und ich sollte mich an der kultur der Gastland orientieren.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	bedeutet	bedeuten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	4	amod	_	_
+4	learn	learn	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+5	und	und	CCONJ	KON	_	14	cc	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+7	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	aux	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	14	obj	_	_
+9	an	an	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	kultur	kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+12	der	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	Gastland	Gastland	NOUN	NN	_	11	nmod	_	_
+14	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 19
+# text = Ich finde, dass es keine gefähr neue zu Orientiern.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	finde	finden	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	10	mark	_	_
+5	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+6	keine	kein	PRON	PIAT	PronType=Neg	10	advmod	_	_
+7	gefähr	gefähr	ADV	ADJD	_	10	advmod	_	_
+8	neue	neu	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	10	amod	_	_
+9	zu	zu	ADP	APPR	_	10	case	_	_
+10	Orientiern	Orientier	NOUN	NN	Case=Dat|Number=Plur	2	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 20
+# text = Aber ich muss auch meine Kultur behalten.
+1	Aber	aber	CCONJ	KON	_	7	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	auch	auch	ADV	ADV	_	7	advmod	_	_
+5	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	behalten	behalten	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 21
+# text = Es ist eine Herausfordung.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	eine	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Herausfordung	Herausfordung	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Abschließed möchte ich sagen: "Wird es besser wird es schlimer fragt mann all Jahrlich seien wir ehrlich das Leben ist immer Lebensgefährlich" Darum mussen wir Gastland kultur nehmen mit dem offenen Herzen.
+1	Abschließed	Abschließed	NOUN	NN	_	4	obl	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+6	"	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+7	Wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+9	besser	gut	ADJ	ADJD	Degree=Cmp	13	advmod	_	SpacesAfter=\n
+10	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	schlimer	schlim	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	SpacesAfter=\n
+13	fragt	fragen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	parataxis	_	_
+14	mann	mann	PROPN	NE	Case=Nom|Number=Sing	16	nsubj	_	_
+15	all	all	DET	PIAT	PronType=Ind	16	det	_	_
+16	Jahrlich	Jahrlich	NOUN	NN	_	24	nmod	_	SpacesAfter=\n
+17	seien	sein	VERB	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+18	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+19	ehrlich	ehrlich	ADJ	ADJD	Degree=Pos	24	advmod	_	SpacesAfter=\n
+20	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+21	Leben	Leben	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	24	nsubj	_	_
+22	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	immer	immer	ADV	ADV	_	24	advmod	_	_
+24	Lebensgefährlich	Lebensgefährlich	NOUN	NN	_	31	obl	_	SpaceAfter=No
+25	"	"	PUNCT	$(	_	31	punct	_	SpacesAfter=\n
+26	Darum	darum	ADV	PWAV	_	31	advmod	_	_
+27	mussen	mussen	NOUN	NN	_	28	compound	_	_
+28	wir	wir	PROPN	PPER	Case=Nom|Number=Sing	31	nsubj	_	_
+29	Gastland	Gastland	PROPN	NN	_	28	appos	_	_
+30	kultur	kultur	PROPN	NN	Case=Acc|Number=Sing	29	flat	_	_
+31	nehmen	nehmen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	13	xcomp	_	_
+32	mit	mit	ADP	APPR	_	35	case	_	_
+33	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	35	det	_	_
+34	offenen	offen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	35	amod	_	_
+35	Herzen	Herz	NOUN	NN	_	31	obl	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 23
+# text = Denn hat man keine Fremdikeit im Gastland.
+1	Denn	denn	ADV	KON	_	2	advmod	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	man	man	PRON	PIS	Case=Nom|PronType=Ind	2	nsubj	_	_
+4	keine	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Fremdikeit	Fremdikeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Gastland	Gastland	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+

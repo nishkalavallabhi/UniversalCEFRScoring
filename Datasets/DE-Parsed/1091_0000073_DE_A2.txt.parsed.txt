@@ -1,0 +1,82 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000073_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Sehr Damen und Herren, Ich suche eine 3 Zimmer Wohnung.
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	Damen	Dame	NOUN	NN	_	0	root	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Herren	Herr	NOUN	NN	_	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+6	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	suche	suchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	3	3	NUM	CARD	NumType=Card	10	nummod	_	_
+10	Zimmer	Zimmer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Meine Wohnung ist 2 Zimmer.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	2	2	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Zimmer	Zimmer	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Meine Wohnung für unsere ist zu Klein, weil ich 2 Kinder habe.
+1	Meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	zu	zu	ADP	APPR	_	7	case	_	_
+7	Klein	Klein	PROPN	NE	Case=Dat|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	13	mark	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+11	2	2	NUM	CARD	NumType=Card	12	nummod	_	_
+12	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	13	obj	_	_
+13	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte auch große Balkon.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	große	groß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Balkon	Balkon	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Die miete muss 600 € kalt pro Monat sein.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	miete	miet	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	muss	muss	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	600	600	NUM	CARD	NumType=Card	6	nmod	_	_
+5	€	€	X	NN	_	6	advmod	_	_
+6	kalt	kalen	ADJ	ADJD	Degree=Pos	0	root	_	_
+7	pro	pro	ADP	APPR	_	8	case	_	_
+8	Monat	Monat	NOUN	NN	_	6	nmod	_	_
+9	sein	sein	VERB	VAINF	VerbForm=Inf	6	cop	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ich bin sehr zufrieden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	zufrieden	zufrieden	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit freundliche Grüße, Julia Müller
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Julia	Julia	PROPN	NE	_	3	appos	_	_
+6	Müller	Müller	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+

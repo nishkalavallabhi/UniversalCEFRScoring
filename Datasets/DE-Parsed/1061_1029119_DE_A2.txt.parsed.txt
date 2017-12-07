@@ -1,0 +1,131 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1029119_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 27.02.2012.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	27.02.2012	27.02.2012	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Lieber Silke, vielen Dank für deine Brief.
+1	Lieber	lieb	PROPN	NN	_	8	nsubj	_	_
+2	Silke	Silke	PROPN	VVFIN	Case=Nom|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	vielen	viel	ADJ	PIAT	Degree=Pos	5	amod	_	_
+5	Dank	Dank	NOUN	NN	_	1	appos	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	deine	dein	NOUN	NN	Case=Acc|Number=Plur	5	nmod	_	_
+8	Brief	Braufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Ich freue mich auf seinen Einladung, leider kann ich nicht besuchen, weil ich viele Arbeit habe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	auf	auf	ADP	APPR	_	6	case	_	_
+5	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Einladung	Einladung	NOUN	NN	_	2	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	leider	leider	ADV	ADV	_	12	advmod	_	_
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+12	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	2	punct	_	_
+14	weil	weil	SCONJ	KOUS	_	18	mark	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+16	viele	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+18	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Für meinen Geburstag ich wünsche mir immer von ein kleinen Hund, trozdem habe ich keinen.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Geburstag	Geburstag	NOUN	VVIMP	Case=Dat|Number=Plur	5	obl	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+6	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+7	immer	immer	ADV	ADV	_	5	advmod	_	_
+8	von	von	ADP	APPR	_	11	case	_	_
+9	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+10	kleinen	klein	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	11	amod	_	_
+11	Hund	Hund	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	5	punct	_	_
+13	trozdem	trozder	ADV	KOUS	_	17	advmod	_	_
+14	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+16	keinen	kein	PRON	PIAT	PronType=Neg	17	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Deshalb bin ich sehr glücklich wenn ich ein Hund habe, denn ich möge die Tiere.
+1	Deshalb	deshalb	ADV	PAV	_	5	advmod	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	glücklich	glücklich	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	ein	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	NN	_	5	advcl	_	_
+10	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	5	punct	_	_
+12	denn	denn	CCONJ	KON	_	14	cc	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+14	möge	mög	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	conj	_	_
+15	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Tiere	Tier	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Bei uns es ganz gut.
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	5	obl	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+4	ganz	ganz	ADV	ADV	_	5	advmod	_	_
+5	gut	gun	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Stefan geht noch nicht in den Kindergarten, weil in den Kindergarten kein Plazt haben, mein Mann ist sehr gut, denn er hat ein neue Arbeit.
+1	Stefan	Stefan	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	noch	noch	ADV	ADV	_	4	advmod	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Kindergarten	Kindergarten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9	weil	weil	SCONJ	KOUS	_	15	mark	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	Kindergarten	Kindergarten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+13	kein	kein	PRON	PIAT	PronType=Neg	14	advmod	_	_
+14	Plazt	Plazt	NOUN	NN	_	15	obj	_	_
+15	haben	haben	VERB	VAINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	21	punct	_	_
+17	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	21	nsubj	_	_
+19	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	sehr	sehr	ADV	ADV	_	21	advmod	_	_
+21	gut	gut	ADJ	ADJD	Degree=Pos	15	conj	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	25	punct	_	_
+23	denn	denn	CCONJ	KON	_	25	cc	_	_
+24	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	nsubj	_	_
+25	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+26	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	28	det	_	_
+27	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Viele Grüße Maria
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

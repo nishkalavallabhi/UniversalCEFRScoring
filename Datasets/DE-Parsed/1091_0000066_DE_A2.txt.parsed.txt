@@ -1,0 +1,37 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000066_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Maria, Ich bin zwei Tage nicht zu Hause Am Samstag ich fahre nach Stadt X Können Sie bitte meine Katze füttern.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	24	nsubj	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+6	zwei	zwei	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Tage	Tag	NOUN	NN	_	8	nmod	_	_
+8	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+9	zu	zu	ADP	APPR	_	10	case	_	_
+10	Hause	Haus	PROPN	NE	Case=Dat|Number=Sing	5	obl	_	SpacesAfter=\n
+11-12	Am	_	_	_	_	_	_	_	_
+11	An	An	PROPN	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	nmod	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+15	fahre	fahr	NOUN	NN	Case=Acc|Number=Plur	24	obj	_	_
+16	nach	nach	ADP	APPR	_	17	case	_	_
+17	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	15	nmod	_	_
+18	X	X	PROPN	NN	_	17	appos	_	SpacesAfter=\n
+19	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	_
+20	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	24	nsubj	_	_
+21	bitte	bitten	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	24	iobj	_	_
+22	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+24	füttern	füttern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Fille Danke.
+1	Fille	Fille	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	Danke	Danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+

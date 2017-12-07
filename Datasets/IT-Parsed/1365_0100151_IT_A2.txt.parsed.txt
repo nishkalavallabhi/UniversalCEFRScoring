@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100151_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Città X 78 1234 Città X 07.04.2011 B.Russo & S.Tittarelli Via Friuli 72 Napoli R.S.V.P. 080-55.01.53.29
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Città	Città	PROPN	SP	_	1	flat:name	_	_
+4	X	X	PROPN	SP	_	1	nmod	_	_
+5	78	78	NUM	N	NumType=Card	4	flat:name	_	SpacesAfter=\n
+6	1234	1234	NUM	N	NumType=Card	4	flat:name	_	_
+7	Città	Città	PROPN	SP	_	1	nmod	_	_
+8	X	decimo	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n
+9	07.04.2011	07.04.2011	PROPN	SP	NumType=Card	7	flat:name	_	SpacesAfter=\n
+10	B.Russo	B.Russo	PROPN	SP	_	7	flat:name	_	_
+11	&	&	SYM	SYM	_	10	flat:name	_	_
+12	S.Tittarelli	S.Tittarelli	PROPN	SP	_	17	nmod	_	SpacesAfter=\n
+13	Via	via	PROPN	SP	_	12	flat:name	_	_
+14	Friuli	Friuli	PROPN	SP	_	12	flat:name	_	_
+15	72	72	NUM	N	NumType=Card	16	nummod	_	SpacesAfter=\n
+16	Napoli	Napoli	PROPN	SP	_	12	flat:name	_	SpacesAfter=\n
+17	R.S.V.P.	R.S.V.P.	PROPN	SP	_	7	nmod	_	_
+18	080	080	NUM	N	NumType=Card	17	flat:name	_	SpaceAfter=No
+19	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+20	55.01.53.29	55.01.53.29	NUM	N	NumType=Card	1	nummod	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Cara Beatrice, Caro Stefano, Tanti auguri al vostro matrimonio.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	2	appos	_	_
+5	Stefano	Stefano	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+7	Tanti	tanto	PROPN	SP	_	8	nsubj	_	_
+8	auguri	augurio	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	12	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Noi vi ringraziamo per il invito.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	vi	vi	ADV	B	_	3	advmod	_	_
+3	ringraziamo	ringraziare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	invito	invito	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = Con piacere andiamo prima alla cerimonia e dopo al ristorante.
+1	Con	con	ADP	E	_	2	case	_	_
+2	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+3	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	prima	prima	ADV	B	_	7	case	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	dopo	dopo	ADV	B	_	7	conj	_	_
+10-11	al	_	_	_	_	_	_	_	_
+10	a	a	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Che cosa vi possiamo regalare?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+3	vi	vi	ADV	B	_	2	advmod	_	_
+4	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	regalare	regalare	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Cari saluti Maria
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

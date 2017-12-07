@@ -1,0 +1,143 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000005_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Guten Tag.
+1	Guten	guten	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	Tag	Tag	NOUN	NN	_	1	obl	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Meine liebe Freundin!
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	liebe	lieben	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+3	Freundin	Freundin	VERB	NN	_	0	root	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Heute habe ich eine Fahrkarte gekauft, aber ich habe ein Termin zum Arzt und kann nicht in Dortmund fahren.
+1	Heute	heute	ADV	ADV	_	6	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	10	punct	_	_
+8	aber	aber	CCONJ	KON	_	10	cc	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	conj	_	_
+11	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Termin	Termin	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	10	nsubj	_	_
+13-14	zum	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+16	und	und	CCONJ	KON	_	21	cc	_	_
+17	kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	21	advmod	_	_
+19	in	in	ADP	APPR	_	20	case	_	_
+20	Dortmund	Dortmund	PROPN	NE	_	21	obl	_	_
+21	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	6	conj	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ich wollte meine Tochter besuchen, aber jetzt kann ich nicht Wenn hast du Lust nach Dortmund fahren dann schenke ich dir meine Fahrkarte.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Tochter	Tochter	NOUN	NN	Case=Acc|Number=Sing	5	obj	_	_
+5	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	18	punct	_	_
+7	aber	aber	CCONJ	KON	_	18	cc	_	_
+8	jetzt	jetzt	ADV	ADV	_	18	advmod	_	_
+9	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	12	advmod	_	_
+12	Wenn	wenn	CCONJ	KOUS	_	13	cc	_	_
+13	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	aux	_	_
+14	du	du	PROPN	PPER	_	15	case	_	_
+15	Lust	Lust	PROPN	NN	_	13	nmod	_	_
+16	nach	nach	ADP	APPR	_	17	case	_	_
+17	Dortmund	Dortmund	PROPN	NE	Case=Acc|Number=Sing	18	obl	_	_
+18	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	5	conj	_	_
+19	dann	dann	ADV	ADV	_	18	advmod	_	_
+20	schenke	schenken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	18	conj	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+22	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	20	obj	_	_
+23	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	24	det:poss	_	_
+24	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Morgen um 7.Uhr fährt Zug nach Dortmund und du kannst dann zu deine Freundin fahren.
+1	Morgen	morgen	ADV	ADV	_	4	advmod	_	_
+2	um	um	ADP	APPR	_	3	case	_	_
+3	7.Uhr	7.Uhr	NOUN	NN	Case=Acc|Number=Sing	4	obl	_	_
+4	fährt	fahren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	Zug	Zug	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	_
+6	nach	nach	ADP	APPR	_	7	case	_	_
+7	Dortmund	Dortmund	PROPN	NE	Case=Acc|Number=Sing	15	obl	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	du	du	PROPN	PPER	_	7	conj	_	_
+10	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+11	dann	dann	ADV	ADV	_	15	advmod	_	_
+12	zu	zu	ADP	APPR	_	14	case	_	_
+13	deine	dein	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Freundin	Freundin	NOUN	NN	_	15	obl	_	_
+15	fahren	fahren	VERB	VVINF	VerbForm=Inf	4	parataxis	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Wenn willst du Fahrkarte haben, dann warte ich dich.
+1	Wenn	wenn	SCONJ	KOUS	_	5	mark	_	_
+2	willst	willen	ADV	ADV	_	5	advmod	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	5	nsubj	_	_
+4	Fahrkarte	Fahrkarte	PROPN	NE	_	3	appos	_	_
+5	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	8	punct	_	_
+7	dann	dann	ADV	ADV	_	8	advmod	_	_
+8	warte	warten	ADJ	ADJA	Degree=Pos	10	advmod	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+10	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Oder ruf mir an.
+1	Oder	Oder	PROPN	NE	_	0	root	_	_
+2	ruf	raffen	PROPN	NN	_	1	flat	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	1	iobj	_	_
+4	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 8
+# text = Wann kannst du die Karte abholen.
+1	Wann	wann	ADV	ADV	_	6	advmod	_	_
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	6	nsubj	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Karte	Karte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	abholen	abholen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Ich warte dein anruf.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	dein	dein	PROPN	PPOSAT	_	0	root	_	_
+4	anruf	anruf	PROPN	NN	_	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 10
+# text = Tschuß.
+1	Tschuß	Tschüssen	VERB	VMFIN	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 11
+# text = Julia Mit freundlichen Grüßen deine Freundin.
+1	Julia	Julia	PROPN	NE	_	6	dep	_	SpacesAfter=\n
+2	Mit	mit	ADP	APPR	_	4	case	_	_
+3	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Grüßen	grüßen	NOUN	NN	_	6	obl	_	_
+5	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	Freundin	Freundin	VERB	NN	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,255 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000211_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 12.06.2010 Maria Rossi GIORGIO ARMANI Strada Maggiore 35 Via Borgonuovo, 21 12345 Città X 20121 Milano Ufficio del Personale Spettabile direttore dell'ufficio del Personale, sono laureata di Academia di Belle Arti di Città Y.
+1	Città	Città	NOUN	S	Gender=Fem	36	nsubj:pass	_	_
+2	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	12.06.2010	12.06.2010	NUM	N	NumType=Card	6	nummod	_	SpacesAfter=\s\n\s\n
+6	Maria	Maria	PROPN	SP	_	1	nmod	_	_
+7	Rossi	Rossi	PROPN	SP	_	6	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	GIORGIO	Giorgio	PROPN	SP	_	6	flat:name	_	_
+9	ARMANI	Armani	PROPN	SP	_	6	flat:name	_	SpacesAfter=\s\n
+10	Strada	strada	PROPN	SP	_	6	flat:name	_	_
+11	Maggiore	Maggiore	PROPN	SP	_	6	flat:name	_	_
+12	35	35	NUM	N	NumType=Card	13	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+13	Via	via	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+14	Borgonuovo	Borgonuovo	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	6	punct	_	_
+16	21	21	NUM	N	NumType=Card	18	nummod	_	SpacesAfter=\s\n
+17	12345	12345	NUM	N	NumType=Card	16	flat	_	_
+18	Città	Città	PROPN	SP	_	6	appos	_	_
+19	X	decimo	PROPN	SP	_	18	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+20	20121	20121	NUM	N	NumType=Card	21	nummod	_	_
+21	Milano	Milano	PROPN	SP	_	18	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+22	Ufficio	ufficio	PROPN	SP	_	21	flat:name	_	_
+23-24	del	_	_	_	_	_	_	_	_
+23	di	di	ADP	E	_	25	case	_	_
+24	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
+25	Personale	personale	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	SpacesAfter=\s\n
+26	Spettabile	Spettabile	ADJ	A	Number=Sing	25	amod	_	_
+27	direttore	direttore	NOUN	S	Gender=Masc|Number=Sing	18	appos	_	_
+28-29	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+28	di	di	ADP	E	_	30	case	_	_
+29	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
+30	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	27	nmod	_	_
+31-32	del	_	_	_	_	_	_	_	_
+31	di	di	ADP	E	_	33	case	_	_
+32	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	_
+33	Personale	personale	NOUN	S	Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
+34	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\s\n
+35	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	36	aux:pass	_	_
+36	laureata	laureare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+37	di	di	ADP	E	_	38	case	_	_
+38	Academia	Academia	PROPN	SP	_	36	obl	_	_
+39	di	di	ADP	E	_	40	case	_	_
+40	Belle	bei	PROPN	SP	_	38	nmod	_	_
+41	Arti	arte	PROPN	SP	_	40	flat:name	_	_
+42	di	di	ADP	E	_	43	case	_	_
+43	Città	città	PROPN	SP	_	40	nmod	_	_
+44	Y.	Y.	PROPN	SP	_	43	flat:name	_	_
+
+# sent_id = 2
+# text = La mia tesi di laurea riguardava proprio la moda.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	tesi	tesi	NOUN	S	Gender=Fem	6	nsubj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	laurea	laurea	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	_
+6	riguardava	riguardare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	proprio	proprio	ADV	B	_	9	advmod	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	moda	moda	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 3
+# text = Se sia possibile, vorrei fare uno stage presso la Vostra ditta.
+1	Se	se	SCONJ	CS	_	3	mark	_	_
+2	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	possibile	possibile	ADJ	A	Number=Sing	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+7	uno	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	stage	stage	NOUN	S	Gender=Masc	6	obj	_	_
+9	presso	presso	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Vostra	Vostra	PROPN	SP	_	6	obl	_	_
+12	ditta	ditto	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 4
+# text = Sarebbe il mio primo lavoro, comunque ho conquistato già certa esperienza partecipando nei concorsi ed organizzando le mostre della fotografia in mia città materna.
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+4	primo	primo	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	5	amod	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	comunque	comunque	ADV	B	_	9	advmod	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	conquistato	conquistato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	parataxis	_	_
+10	già	già	ADV	B	_	11	advmod	_	_
+11	certa	certo	ADJ	A	Gender=Fem|Number=Sing	9	obl	_	_
+12	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	11	nsubj	_	_
+13	partecipando	partecipare	VERB	V	VerbForm=Ger	9	advcl	_	_
+14-15	nei	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	concorsi	concorso	NOUN	S	Gender=Masc|Number=Plur	13	obl	_	_
+17	ed	e	CCONJ	CC	_	18	cc	_	_
+18	organizzando	organizzare	VERB	V	VerbForm=Ger	13	conj	_	_
+19	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	_
+20	mostre	mostra	NOUN	S	Gender=Fem|Number=Plur	18	obj	_	_
+21-22	della	_	_	_	_	_	_	_	_
+21	di	di	ADP	E	_	23	case	_	_
+22	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+23	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	in	in	ADP	E	_	26	case	_	_
+25	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	città	città	NOUN	S	Gender=Fem	23	nmod	_	_
+27	materna	materno	ADJ	A	Gender=Fem|Number=Sing	26	amod	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 5
+# text = Ho fatto anche le prove della progettazione dei vestiti occasionali per esempio per la cerimonia di matrimonio.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	anche	anche	ADV	B	_	5	advmod	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	prove	prova	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	progettazione	progettazione	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9-10	dei	_	_	_	_	_	_	_	_
+9	di	di	ADP	E	_	11	case	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	vestiti	vestito	NOUN	S	Gender=Masc|Number=Plur	8	nmod	_	_
+12	occasionali	occasionale	ADJ	A	Number=Plur	11	amod	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+15	per	per	ADP	E	_	17	case	_	_
+16	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	cerimonia	cerimonia	NOUN	S	Gender=Fem|Number=Sing	11	nmod	_	_
+18	di	di	ADP	E	_	19	case	_	_
+19	matrimonio	matrimonio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Il mio gran sogno sia aver possibilità di osservare il modo di lavoro nella Vostra ditta e forse nel futuro creare la propria collezione.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+3	gran	gran	ADJ	A	_	4	amod	_	_
+4	sogno	sogno	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	aver	avere	AUX	VA	VerbForm=Inf	7	cop	_	_
+7	possibilità	possibilità	NOUN	S	Gender=Fem	0	root	_	_
+8	di	di	ADP	E	_	9	mark	_	_
+9	osservare	osservare	VERB	V	VerbForm=Inf	7	acl	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+12	di	di	ADP	E	_	13	case	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	Vostra	vostro	PROPN	SP	_	9	obl	_	_
+17	ditta	ditta	ADJ	A	Gender=Fem|Number=Sing	16	amod	_	_
+18	e	e	CCONJ	CC	_	23	cc	_	_
+19	forse	forse	ADV	B	_	23	advmod	_	_
+20-21	nel	_	_	_	_	_	_	_	_
+20	in	in	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	23	obl	_	_
+23	creare	creare	VERB	V	VerbForm=Inf	9	conj	_	_
+24	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
+25	propria	proprio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	26	det:poss	_	_
+26	collezione	collezione	NOUN	S	Gender=Fem|Number=Sing	23	obj	_	SpaceAfter=No
+27	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Vi invito alcuni dei miei lavori.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	invito	invitare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	alcuni	alcuno	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	obj	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+6	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	3	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Se avessite interessati della mia proposta potrei inviare di piÙ.
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	avessite	avessita	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+3	interessati	interessato	ADJ	A	Gender=Masc|Number=Plur	2	obj	_	_
+4-5	della	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	7	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	proposta	proposta	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+8	potrei	potere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	inviare	inviare	VERB	V	VerbForm=Inf	0	root	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	piÙ	più	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Ammettéro volentieri ogni forma di lavorazione (anche gratuito) perché vale per me tanto trovarmi nel mondo di moda.
+1	Ammettéro	Ammettéro	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+2	volentieri	volentieri	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	4	det	_	_
+4	forma	forma	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lavorazione	lavorazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	_
+7	(	(	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+8	anche	anche	ADV	B	_	9	advmod	_	_
+9	gratuito	gratuito	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpaceAfter=No
+10	)	)	PUNCT	FB	_	9	punct	_	_
+11	perché	perché	SCONJ	CS	_	12	mark	_	_
+12	vale	valere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	me	me	NOUN	S	Gender=Fem|Number=Plur	12	obl	_	_
+15	tanto	tanto	ADV	B	_	16	advmod	_	_
+16	trovarmi	arma|trovarme	ADJ	A	Number=Plur	12	amod	_	_
+17-18	nel	_	_	_	_	_	_	_	_
+17	in	in	ADP	E	_	19	case	_	_
+18	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+19	mondo	mondo	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+20	di	di	ADP	E	_	21	case	_	_
+21	moda	moda	NOUN	S	Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Resto in attesa del Vostro risposto il più volentieri tramite l'inernet sull'indirizzo maria.rossi@internet.it. Porgo i miei distinti saluti Maria Rossi
+1	Resto	redere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	in	in	ADP	E	_	3	case	_	_
+3	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+4-5	del	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	Vostro	vostro	PROPN	SP	_	3	nmod	_	_
+7	risposto	rispondere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	acl	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	più	più	ADV	B	_	10	advmod	_	_
+10	volentieri	volentieri	ADV	B	_	7	advmod	_	_
+11	tramite	tramite	ADP	E	_	13	case	_	_
+12	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	13	det	_	SpaceAfter=No
+13	inernet	inernet	NOUN	S	Gender=Masc	7	obl	_	_
+14-15	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+14	su	su	ADP	E	_	16	case	_	_
+15	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+17	maria.rossi@internet.it	maria.rossi@internet.it	NOUN	S	Gender=Masc	16	compound	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+19	Porgo	Porgo	ADP	E	_	22	case	_	_
+20	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
+21	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	1	obl	_	_
+23	saluti	salutare	ADJ	A	Gender=Masc|Number=Plur	22	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+24	Maria	Maria	PROPN	SP	_	22	nmod	_	_
+25	Rossi	Rossi	PROPN	SP	_	24	flat:name	_	SpacesAfter=\n
+

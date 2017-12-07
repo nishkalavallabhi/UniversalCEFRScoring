@@ -1,0 +1,68 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024801_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = 16.03.2012 Hallo, mein Freund Ingo!
+1	16.03.2012	16.03.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Hallo	Hallo	NOUN	NN	Case=Acc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	2	nsubj	_	_
+6	Ingo	Ingo	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Wie gehst es dir?
+1	Wie	wie	CCONJ	KON	_	2	cc	_	_
+2	gehst	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Kann du mir helfen?
+1	Kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ich brauche eine Wohnung von 1. April in Neuburg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	von	von	ADP	APPR	_	8	case	_	_
+6	1	1	NUM	CARD	NumType=Card	8	nummod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	8	punct	_	_
+8	April	April	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+9	in	in	ADP	APPR	_	10	case	_	_
+10	Neuburg	Neuburg	PROPN	NE	_	8	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Kann du mir bei der Wohnungssuche helfen?
+1	Kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	7	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Ich danke dir!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	SpaceAfter=No
+4	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit Freundlich Größen, Maria
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	Freundlich	freundlich	ADJ	NN	_	3	amod	_	_
+3	Größen	Groß	NOUN	NN	Case=Gen|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

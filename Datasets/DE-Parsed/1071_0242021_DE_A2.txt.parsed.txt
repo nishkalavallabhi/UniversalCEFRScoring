@@ -1,0 +1,96 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0242021_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Anna, wie geht es Dir, mit geht es gut.
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Anna	Anna	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+6	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	5	punct	_	_
+9	mit	mit	ADP	APPR	_	10	case	_	_
+10	geht	gehen	VERB	VVFIN	VerbForm=Fin	5	conj	_	_
+11	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	expl	_	_
+12	gut	gut	ADJ	ADJD	Degree=Pos	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich möchte ein Wohnung zum 1. März.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	_	0	root	_	_
+5-6	zum	_	_	_	_	_	_	_	_
+5	zu	zu	ADP	APPR	_	4	case	_	_
+6	dem	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+7	1	1	NUM	CARD	NumType=Card	9	amod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+9	März	März	PROPN	NN	_	4	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Bitte Sie helfen bei der Wohnungssuche _ 3 Zimmer, ein Balkon und Garage und nicht zu teuer.
+1	Bitte	Bitte	PART	ADV	_	3	mark	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	_
+3	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	bei	bei	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	_	_	PUNCT	$.	_	9	punct	_	_
+8	3	3	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Zimmer	Zimmer	NOUN	NN	_	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	12	punct	_	_
+11	ein	ein	DET	ART	Definite=Ind|PronType=Art	12	det	_	_
+12	Balkon	Balkon	NOUN	NN	_	6	conj	_	_
+13	und	und	CCONJ	KON	_	14	cc	_	_
+14	Garage	Garage	NOUN	NN	_	6	conj	_	_
+15	und	und	CCONJ	KON	_	18	cc	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
+17	zu	zu	ADV	PTKA	_	18	advmod	_	_
+18	teuer	teuer	ADJ	ADJD	Degree=Pos	6	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Ich ruf mich an.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
+2	ruf	raffen	NOUN	NN	Case=Acc|Number=Sing	1	obj	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Viellen Dank Dir finden und helfen mir.
+1	Viellen	Vielle	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+2	Dank	Dank	ADP	NN	_	4	mark	_	_
+3	Dir	dir	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	obj	_	_
+4	finden	finden	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	helfen	helfen	VERB	VVINF	VerbForm=Inf	4	conj	_	_
+7	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Alles gutte und Viel Spaß.
+1	Alles	alle	PRON	PIAT	Case=Nom|PronType=Tot	5	nsubj	_	_
+2	gutte	gutt	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Viel	viel	PRON	PIAT	PronType=Ind	2	conj	_	_
+5	Spaß	Spessen	VERB	VVFIN	Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Herzlich Grüße _ Deine Freundin.
+1	Herzlich	Herzlich	ADJ	ADJD	Degree=Pos	4	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	4	compound	_	_
+3	_	_	PUNCT	$.	_	4	punct	_	_
+4	Deine	Deine	NOUN	NN	_	5	dep	_	_
+5	Freundin	Freundin	VERB	NN	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Tschüss Eva
+1	Tschüss	Tschüss	PROPN	NN	_	0	root	_	SpacesAfter=\n
+2	Eva	Eva	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+

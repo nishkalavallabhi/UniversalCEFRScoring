@@ -1,0 +1,243 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001137_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Dipartimento Teorica e Applicata Universita degli Studi di Parma Corso Strada Nuova 65 27100 Parma Italia 22.01.2012
+1	Dipartimento	dipartimento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	Teorica	Teorico	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	Applicata	applicata	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n
+5	Universita	Universita	NOUN	S	Gender=Fem|Number=Sing	1	compound	_	_
+6-7	degli	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	Studi	studio	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Parma	Parma	PROPN	SP	_	8	nmod	_	SpacesAfter=\n
+11	Corso	Corso	PROPN	SP	_	10	flat:name	_	_
+12	Strada	strada	PROPN	SP	_	16	nmod	_	_
+13	Nuova	Nuova	PROPN	SP	_	12	flat:name	_	_
+14	65	65	NUM	N	NumType=Card	12	flat:name	_	SpacesAfter=\n
+15	27100	27100	NUM	N	NumType=Card	16	nummod	_	_
+16	Parma	Parma	PROPN	SP	_	1	nmod	_	_
+17	Italia	Italia	PROPN	SP	_	16	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+18	22.01.2012	22.01.2012	NUM	N	NumType=Card	16	nummod	_	_
+
+# sent_id = 2
+# text = Città X Spettabile Singora Favati, Con riferimento al Sua "lettera" publicata desidero sottoporre la Sua attenzione la mia risposta che e -unreadable-i miei argomento.
+1	Città	Città	PROPN	SP	_	16	nsubj	_	_
+2	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Spettabile	Spettabile	PROPN	SP	_	1	nmod	_	_
+4	Singora	Singora	PROPN	SP	_	3	flat:name	_	_
+5	Favati	Favare	PROPN	SP	_	3	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	3	punct	_	SpacesAfter=\n
+7	Con	con	ADP	E	_	8	case	_	_
+8	riferimento	riferimento	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	Sua	Sua	PROPN	SP	_	8	nmod	_	_
+12	"	"	PUNCT	FB	_	13	punct	_	SpaceAfter=No
+13	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+14	"	"	PUNCT	FB	_	13	punct	_	_
+15	publicata	publicare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+16	desidero	desiderare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+17	sottoporre	sottoporre	VERB	V	VerbForm=Inf	16	xcomp	_	_
+18	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+19	Sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	20	det:poss	_	_
+20	attenzione	attenzione	NOUN	S	Gender=Fem|Number=Sing	17	obj	_	_
+21	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+22	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	23	det:poss	_	_
+23	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	20	nmod	_	_
+24	che	che	PRON	PR	PronType=Rel	23	obj	_	_
+25	e	e	CCONJ	CC	_	31	cc	_	_
+26	-	-	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+27	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	31	amod	_	SpaceAfter=No
+28	-	-	PUNCT	FB	_	27	punct	_	SpaceAfter=No
+29	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	31	det	_	_
+30	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	31	det:poss	_	_
+31	argomento	argomento	NOUN	S	Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
+32	.	.	PUNCT	FS	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ho cominciato la lingua l'inglese 10 anni fa.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	cominciato	cominciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+6	inglese	inglese	ADJ	A	Number=Sing	8	amod	_	_
+7	10	10	NUM	N	NumType=Card	8	nummod	_	_
+8	anni	anno	NOUN	S	Gender=Masc|Number=Plur	2	obl	_	_
+9	fa	fa	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Fortunalemente -unreadable-i ragazzi passano una lingua straniera di solito già nella sucola elementare.
+1	Fortunalemente	Fortunalemente	ADV	B	_	3	advmod	_	_
+2	-	-	PUNCT	FF	_	1	punct	_	SpaceAfter=No
+3	unreadable	unreadable	ADJ	A	Number=Sing	7	advcl	_	SpaceAfter=No
+4	-	-	PUNCT	FF	_	3	punct	_	SpaceAfter=No
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	ragazzi	ragazzo	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+7	passano	passare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	7	obj	_	_
+10	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	9	amod	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	solito	solito	NOUN	S	Gender=Masc|Number=Sing	16	nmod	_	_
+13	già	già	ADV	B	_	16	advmod	_	_
+14-15	nella	_	_	_	_	_	_	_	_
+14	in	in	ADP	E	_	16	case	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	sucola	sucola	NOUN	S	Gender=Fem|Number=Sing	9	appos	_	_
+17	elementare	elementare	ADJ	A	Number=Sing	16	amod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Dopo cinque anni ho avuto la possibilità spendere un mese a Londra.
+1	Dopo	dopo	ADP	E	_	3	case	_	_
+2	cinque	cinque	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	possibilità	possibilità	NOUN	S	Gender=Fem	5	obj	_	_
+8	spendere	spendere	VERB	V	VerbForm=Inf	7	acl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	mese	mese	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Londra	Londra	PROPN	SP	_	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Pero sono solo 16 anni questo mese la fatto la -unreadable- la una cita.
+1	Pero	pero	PROPN	SP	_	5	nsubj	_	_
+2	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	solo	solo	ADV	B	_	4	advmod	_	_
+4	16	16	NUM	N	NumType=Card	5	nummod	_	_
+5	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	mese	mendere	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+8	la	il	PRON	PC	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	obj	_	_
+9	fatto	fatto	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	acl	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	-	-	PUNCT	FB	_	9	punct	_	SpaceAfter=No
+12	unreadable	unreadable	ADJ	A	Number=Sing	5	amod	_	SpaceAfter=No
+13	-	-	PUNCT	FB	_	5	punct	_	_
+14	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	cita	cita	NOUN	S	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	16	punct	_	_
+
+# sent_id = 7
+# text = Perché questo significa la motivazione -unreadable-la lingua.
+1	Perché	perché	SCONJ	CS	_	3	mark	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	_
+3	significa	significare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	motivazione	motivazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	-	-	PUNCT	FB	_	5	punct	_	SpaceAfter=No
+7	unreadable	unreadable	ADJ	A	Gender=Fem|Number=Plur	10	amod	_	SpaceAfter=No
+8	-	-	PUNCT	FB	_	7	punct	_	SpaceAfter=No
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Ho il piacere l'esperienza vedere e vivere in una cultura straniera.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	piacere	piacere	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esperienza	esperienza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+6	vedere	vedere	VERB	V	VerbForm=Inf	5	acl	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	vivere	vivere	VERB	V	VerbForm=Inf	6	conj	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	cultura	cultura	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	straniera	straniero	ADJ	A	Gender=Fem|Number=Sing	11	amod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Quando ho compreso la lingua non sono -unreadable-solo la parole e i regoli di grammatica ma anche in modo di pensare e abituarsi.
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	compreso	comprendere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	advcl	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	-	-	PUNCT	FF	_	7	punct	_	SpaceAfter=No
+9	unreadable	unreadable	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+10	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+11	solo	solo	ADV	B	_	13	advmod	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	parole	parola	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+14	e	e	CCONJ	CC	_	16	cc	_	_
+15	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
+16	regoli	regolo	NOUN	S	Gender=Masc|Number=Plur	13	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	grammatica	grammatica	NOUN	S	Gender=Fem|Number=Sing	16	nmod	_	_
+19	ma	ma	CCONJ	CC	_	22	cc	_	_
+20	anche	anche	ADV	B	_	22	advmod	_	_
+21	in	in	ADP	E	_	22	case	_	_
+22	modo	modo	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+23	di	di	ADP	E	_	24	mark	_	_
+24	pensare	pensare	VERB	V	VerbForm=Inf	22	acl	_	_
+25	e	e	CCONJ	CC	_	26	cc	_	_
+26-27	abituarsi	_	_	_	_	_	_	_	SpaceAfter=No
+26	abituar	abituare	VERB	V	VerbForm=Inf	24	conj	_	_
+27	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	26	obj	_	_
+28	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Adesso come un adult il mio profession sono insegnante e interpretatore la lingua.
+1	Adesso	adesso	ADV	B	_	9	advmod	_	_
+2	come	come	ADP	E	_	4	case	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	adult	adult	NOUN	S	Gender=Masc	9	obl	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	profession	professione	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	insegnante	insegnare	VERB	V	Number=Sing|Tense=Pres|VerbForm=Part	0	root	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	interpretatore	interpretatore	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+12	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	9	punct	_	_
+
+# sent_id = 11
+# text = Mi piacerebbe continuare la communicazione dal questo thema.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	continuare	continuare	VERB	V	VerbForm=Inf	2	csubj	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	communicazione	communicazione	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6-7	dal	_	_	_	_	_	_	_	_
+6	da	da	ADP	E	_	9	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	thema	thema	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Restando alla sua posizione per un colloquio.
+1	Restando	restare	VERB	V	VerbForm=Ger	0	root	_	_
+2-3	alla	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	5	case	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	sua	suo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	posizione	posizione	NOUN	S	Gender=Fem|Number=Sing	1	obl	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s
+
+# sent_id = 13
+# text = Distinti saluti Maria
+1	Distinti	distinto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+2	saluti	saluti	ADJ	A	Gender=Masc|Number=Plur	1	amod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

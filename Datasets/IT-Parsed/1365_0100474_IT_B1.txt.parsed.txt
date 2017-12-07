@@ -1,0 +1,253 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100474_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = 14.1.2012 Città X, -symbol- Caro Francesco, come stai?
+1	14.1.2012	14.1.2012	NUM	N	NumType=Card	2	nummod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+2	Città	Città	PROPN	SP	_	0	root	_	_
+3	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	-	-	PUNCT	FF	_	2	punct	_	SpaceAfter=No
+6	symbol	symbol	ADJ	A	_	8	amod	_	SpaceAfter=No
+7	-	-	PUNCT	FF	_	6	punct	_	SpacesAfter=\s\n
+8	Caro	Caro	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	Francesco	Francesco	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+11	come	come	SCONJ	CS	_	12	mark	_	_
+12	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Io sto bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Adesso lavoro come l'insegnante in una scuola linguistica a Città Y e mi piace questo lavoro molto.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	lavoro	lavorare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	come	come	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	insegnante	insegnante	NOUN	S	Number=Sing	2	nmod	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	scuola	scuola	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	_
+9	linguistica	linguistico	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	SpacesAfter=\s\s
+10	a	a	ADP	E	_	11	case	_	_
+11	Città	Città	PROPN	SP	_	8	nmod	_	_
+12	Y	y	PROPN	SP	_	11	flat:name	_	_
+13	e	e	CCONJ	CC	_	15	cc	_	_
+14	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+15	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	17	det	_	_
+17	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+18	molto	molto	ADV	B	_	2	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = C'è fantastico che tu hai superato con il massimo dei voti, so che tu sai intelligente.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	fantastico	fantastico	ADJ	A	Gender=Masc|Number=Sing	2	xcomp	_	_
+4	che	che	SCONJ	CS	_	7	mark	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+6	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	superato	superare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	con	con	ADP	E	_	10	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	massimo	massimo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+11-12	dei	_	_	_	_	_	_	_	_
+11	di	di	ADP	E	_	13	case	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	voti	voto	NOUN	S	Gender=Masc|Number=Plur	10	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	7	punct	_	_
+15	so	sapere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+16	che	che	SCONJ	CS	_	18	mark	_	_
+17	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	18	nsubj	_	SpacesAfter=\s\s
+18	sai	sapere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	ccomp	_	_
+19	intelligente	intelligente	ADJ	A	Number=Sing	18	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = A Città Y ho trovato i novi amici.
+1	A	a	ADP	E	_	2	case	_	_
+2	Città	Città	PROPN	SP	_	5	obl	_	_
+3	Y	y	PROPN	SP	_	2	flat:name	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+7	novi	novo	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	amici	amico	NOUN	S	Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Devi sapere che Città Y è una città molto bellissimo con una culturella molto interessante.
+1	Devi	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	SCONJ	CS	_	8	mark	_	_
+4	Città	Città	PROPN	SP	_	8	nsubj	_	_
+5	Y	y	PROPN	SP	_	4	flat:name	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	città	città	NOUN	S	Gender=Fem	2	ccomp	_	_
+9	molto	molto	ADV	B	_	10	advmod	_	_
+10	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	8	amod	_	_
+11	con	con	ADP	E	_	13	case	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	culturella	culturella	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+14	molto	molto	ADV	B	_	15	advmod	_	_
+15	interessante	interessante	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Penso che sia una bella idea di venire a Città Y. Naturalmente ti auito di trovare un lavoro.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	bella	bello	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	_
+6	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	ccomp	_	_
+7	di	di	ADP	E	_	8	mark	_	SpacesAfter=\s\s
+8	venire	venire	VERB	V	VerbForm=Inf	6	acl	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Città	Città	PROPN	SP	_	8	obl	_	_
+11	Y.	Y.	PROPN	SP	_	10	flat:name	_	_
+12	Naturalmente	naturalmente	PROPN	SP	_	10	flat:name	_	SpacesAfter=\s\s
+13	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	14	iobj	_	_
+14	auito	auire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	acl	_	SpacesAfter=\s\s
+15	di	di	ADP	E	_	16	mark	_	_
+16	trovare	trovare	VERB	V	VerbForm=Inf	14	xcomp	_	_
+17	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	16	obj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 8
+# text = A mio avviso non sia facile perché ci sono molte studente a Città Y che lavorano durante loro studiare .
+1	A	a	ADP	E	_	3	case	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	avviso	avviso	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+4	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+5	sia	essere	AUX	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	SpacesAfter=\s\s
+6	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+7	perché	perché	SCONJ	CS	_	9	mark	_	_
+8	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	9	expl	_	_
+9	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+10	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	11	det	_	SpacesAfter=\s\s
+11	studente	studente	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	città	PROPN	SP	_	11	nmod	_	_
+14	Y	y	PROPN	SP	_	13	flat:name	_	_
+15	che	che	PRON	PR	PronType=Rel	16	nsubj	_	_
+16	lavorano	lavorare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+17	durante	durante	ADP	E	_	18	case	_	_
+18	loro	loro	PRON	PE	Number=Plur|Person=3|PronType=Prs	16	obl	_	_
+19	studiare	studiare	VERB	V	VerbForm=Inf	16	ccomp	_	_
+20	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Per questa ragione i dintorni non cercano persone.
+1	Per	per	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+4	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	SpacesAfter=\s\s
+5	dintorni	dintorni	NOUN	S	Gender=Masc|Number=Plur	7	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+7	cercano	cercare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	persone	persona	NOUN	S	Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 10
+# text = Ma conosco qualcuno che offerto un bar e c'è una possibilità per te.
+1	Ma	ma	CCONJ	CC	_	2	cc	_	SpacesAfter=\s\s
+2	conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	qualcuno	qualcuno	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	2	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	5	nsubj	_	_
+5	offerto	offrire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	bar	bar	NOUN	S	Gender=Masc	5	obj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	10	expl	_	SpaceAfter=No
+10	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	possibilità	possibilità	NOUN	S	Gender=Fem	10	nsubj	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 11
+# text = La mia situazione professionale a Città Y è fantastica, amo i bambini e dare a gli i lezioni volentieri.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	situazione	situazione	NOUN	S	Gender=Fem|Number=Sing	9	nsubj	_	_
+4	professionale	professionale	ADJ	A	Number=Sing	3	amod	_	SpacesAfter=\s\s
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	3	nmod	_	_
+7	Y	y	PROPN	SP	_	6	flat:name	_	_
+8	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	fantastica	fantastico	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	amo	amare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	9	conj	_	_
+12	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	bambini	bambino	NOUN	S	Gender=Masc|Number=Plur	11	obj	_	_
+14	e	e	CCONJ	CC	_	15	cc	_	_
+15	dare	dare	VERB	V	VerbForm=Inf	9	conj	_	_
+16	a	a	ADP	E	_	19	case	_	_
+17	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+18	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	_
+19	lezioni	lezione	NOUN	S	Gender=Masc|Number=Plur	15	obl	_	_
+20	volentieri	volentieri	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Non ho paura l'esame non era molto difficile.
+1	Non	non	ADV	BN	PronType=Neg	2	advmod	_	_
+2	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	paura	paura	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	esame	esame	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+6	non	non	ADV	BN	PronType=Neg	9	advmod	_	_
+7	era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	cop	_	_
+8	molto	molto	ADV	B	_	9	advmod	_	_
+9	difficile	difficile	ADJ	A	Number=Sing	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 13
+# text = Ho l'esame di très mesi e sono molto d'accordo con la mia vita.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	esame	esame	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	di	di	ADP	E	_	5	case	_	_
+5	très	très	NOUN	S	Gender=Masc	3	nmod	_	_
+6	mesi	mese	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	molto	molto	ADV	B	_	11	advmod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+12	con	con	ADP	E	_	15	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	vita	vita	NOUN	S	Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 14
+# text = Penso che lavori per questo lavoro è assolutmante d'accordo.
+1	Penso	pensare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+2	che	che	SCONJ	CS	_	8	mark	_	SpacesAfter=\s\s
+3	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	8	nsubj	_	_
+4	per	per	ADP	E	_	6	case	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	_
+7	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	assolutmante	assolutmare	ADJ	A	Number=Sing	1	ccomp	_	_
+9	d'	di	ADP	E	_	10	case	_	SpaceAfter=No
+10	accordo	accordo	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = Tanti saluti Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

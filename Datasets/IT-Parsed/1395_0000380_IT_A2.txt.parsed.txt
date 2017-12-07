@@ -1,0 +1,148 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000380_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Carla come stai?
+1	Ciao	Ciao	PROPN	SP	_	0	root	_	_
+2	Carla	Carla	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	come	come	ADP	E	_	4	case	_	_
+4	stai	stare	NOUN	S	Gender=Masc|Number=Plur	1	nmod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Spero che tutto va bene!
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	4	mark	_	_
+3	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	4	nsubj	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Io sto molto bene, sono in vacanza al mare.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	8	punct	_	_
+6	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+9-10	al	_	_	_	_	_	_	_	_
+9	a	a	ADP	E	_	11	case	_	_
+10	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	mare	mare	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = La settimana scorsa, ho avuto troppo da fare in ufficio e non ho dormito bene.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+3	scorsa	scorso	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	2	punct	_	_
+5	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	troppo	troppo	ADV	B	_	9	advmod	_	_
+8	da	da	ADP	E	_	9	mark	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	6	ccomp	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	ufficio	ufficio	NOUN	S	Gender=Masc|Number=Sing	9	obl	_	_
+12	e	e	CCONJ	CC	_	15	cc	_	_
+13	non	non	ADV	BN	PronType=Neg	15	advmod	_	_
+14	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	dormito	dormire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	_
+16	bene	bene	ADV	B	_	15	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 5
+# text = Ma ho avuto dei colleghi gentili che hanno aiutarmi.
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	avuto	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4-5	dei	_	_	_	_	_	_	_	_
+4	di	di	ADP	E	_	6	case	_	_
+5	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	6	det	_	_
+6	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+7	gentili	gentile	ADJ	A	Number=Plur	6	amod	_	_
+8	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+9	hanno	avere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10-11	aiutarmi	_	_	_	_	_	_	_	SpaceAfter=No
+10	aiutar	aiutare	VERB	V	VerbForm=Inf	6	acl:relcl	_	_
+11	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 6
+# text = Normalmente, il mio lavoro mi piace e non è stressante così.
+1	Normalmente	normalmente	ADV	B	_	7	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+4	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	7	nsubj	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	e	e	CCONJ	CC	_	11	cc	_	_
+9	non	non	ADV	BN	PronType=Neg	11	advmod	_	_
+10	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+11	stressante	stressare	ADJ	A	Number=Sing	7	conj	_	_
+12	così	così	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Senti, vengo a Città X in settembre.
+1	Senti	sente	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	advcl	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	ADP	E	_	5	case	_	_
+5	Città	città	PROPN	SP	_	3	obl	_	_
+6	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	5	amod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 8
+# text = Sei lì dal 9 al 14?
+1	Sei	Se	AUX	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	cop	_	_
+2	lì	lì	ADV	B	_	5	advmod	_	_
+3-4	dal	_	_	_	_	_	_	_	_
+3	da	da	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	9	9	NUM	N	NumType=Card	0	root	_	_
+6-7	al	_	_	_	_	_	_	_	_
+6	a	a	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	14	14	NUM	N	NumType=Card	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Scrivimi una e-mail si tu hai voglia e tempo per vederci.
+1	Scrivimi	Scrivimo	PROPN	SP	_	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	e-mail	e-mail	NOUN	S	_	1	obj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	3	expl	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	hai	avere	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+7	voglia	voglia	NOUN	S	Gender=Fem|Number=Sing	6	obj	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+10	per	per	ADP	E	_	11	mark	_	_
+11-12	vederci	_	_	_	_	_	_	_	SpaceAfter=No
+11	veder	vedere	VERB	V	VerbForm=Inf	6	advcl	_	_
+12	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 10
+# text = Sarebbe superba!
+1	Sarebbe	essere	AUX	VA	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	superba	superbo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Tanti saluti e bacci, a presto Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	bacci	baccio	NOUN	S	Gender=Masc|Number=Plur	2	conj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	4	punct	_	_
+6	a	a	ADP	E	_	7	case	_	_
+7	presto	presto	ADV	B	_	4	advmod	_	SpacesAfter=\n
+8	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

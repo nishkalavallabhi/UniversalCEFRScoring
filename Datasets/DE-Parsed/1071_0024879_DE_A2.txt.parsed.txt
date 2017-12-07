@@ -1,0 +1,68 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024879_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 08.03.2012 Liebe Svetlana, wie geht es Ihnen?
+1	Stadt	Stadt	NOUN	NN	_	9	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	08.03.2012	08.03.2012	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Liebe	Liebe	NOUN	NN	_	1	appos	_	_
+6	Svetlana	Svetlana	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	wie	wie	ADV	KOUS	_	9	advmod	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	Ihnen	sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	9	iobj	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 2
+# text = Ich möchte Ihnen gratulieren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	4	iobj	_	_
+4	gratulieren	gratulieren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Sie haben Zwillinge.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	Zwillinge	Zwilling	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Das ist schön.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Wie heißen die Babys?
+1	Wie	wie	ADV	KOUS	_	2	advmod	_	_
+2	heißen	heißen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Babys	Baby	NOUN	NN	Case=Nom|Number=Plur	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Jungen oder Mädchen?
+1	Jungen	Junge	NOUN	NN	_	0	root	_	_
+2	oder	oder	CCONJ	KON	_	3	cc	_	_
+3	Mädchen	Mädchen	NOUN	NN	_	1	conj	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Viel Glück!
+1	Viel	viel	VERB	PIS	_	0	root	_	_
+2	Glück	Glück	NOUN	NN	Case=Acc|Number=Sing	1	obj	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Für Sie bis balld Julia
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	0	root	_	_
+3	bis	bis	ADP	APPR	_	4	case	_	_
+4	balld	balld	PROPN	NE	_	2	nmod	_	SpacesAfter=\n
+5	Julia	Julia	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

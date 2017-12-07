@@ -1,0 +1,106 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0020001_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Ingo, Ich bin Meier Michael.
+1	Hallo	Hallo	PROPN	NE	Case=Nom|Number=Sing	0	root	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	7	nsubj	_	_
+7	Michael	Michael	PROPN	NE	_	1	appos	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Ich suche eine neubauWohnung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	neubauWohnung	neubauWohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich suche 3 Zimmer Wohnung mit balkon und mit Terasse Garage.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	3	3	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	5	obj	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	balkon	balkon	NOUN	NN	Case=Dat|Number=Sing	2	nmod	_	_
+8	und	und	CCONJ	KON	_	11	cc	_	_
+9	mit	mit	ADP	APPR	_	10	case	_	_
+10	Terasse	Terasse	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+11	Garage	Garage	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich will zum 1. März wohnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3-4	zum	_	_	_	_	_	_	_	_
+3	zu	zu	ADP	APPR	_	7	case	_	_
+4	dem	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+5	1	1	NUM	CARD	NumType=Card	7	amod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+7	März	März	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	obl	_	_
+8	wohnen	wohnen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 5
+# text = Kannst du bei mir hiffen.
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	nsubj	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	obl	_	_
+5	hiffen	hiffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = Kannst du im anzeigen lesen.
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	nsubj	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	anzeigen	anzeigen	ADJ	ADJA	Case=Dat|Degree=Pos|Gender=Masc,Neut|Number=Sing	6	amod	_	_
+6	lesen	lesen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = oder kannst du eine frei wohnung.
+1	oder	oder	CCONJ	KON	_	2	cc	_	_
+2	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	frei	frei	ADJ	ADJD	Degree=Pos	6	amod	_	_
+6	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Darf ich nicht teuer sein.
+1	Darf	dürfen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+4	teuer	teuer	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	sein	sein	VERB	VAINF	VerbForm=Inf	4	cop	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 9
+# text = Bitte geben Sie antwort.
+1	Bitte	Bitte	ADV	VVIMP	_	2	advmod	_	_
+2	geben	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	antwort	antwort	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Vielen Dank Tschüss Dein Freund Meier Michael
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	ADP	NN	_	0	root	_	SpacesAfter=\n
+3	Tschüss	Tschüss	PROPN	NN	_	2	amod	_	SpacesAfter=\n
+4	Dein	dein	PROPN	PPOSAT	_	3	flat	_	_
+5	Freund	Freund	PROPN	NN	_	3	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	Meier	Meier	PROPN	NN	_	2	appos	_	_
+7	Michael	Michael	PROPN	NE	_	6	flat	_	SpacesAfter=\n
+

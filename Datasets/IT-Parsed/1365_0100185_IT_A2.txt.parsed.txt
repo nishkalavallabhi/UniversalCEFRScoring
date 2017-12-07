@@ -1,0 +1,117 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100185_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cara Beatrice, caro Stefano, congratulazioni per il vostro Matrimonio!
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	conj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	7	punct	_	SpacesAfter=\s\n
+7	congratulazioni	congratulazione	NOUN	S	Gender=Fem|Number=Plur	2	conj	_	_
+8	per	per	ADP	E	_	11	case	_	_
+9	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Matrimonio	matrimonio	PROPN	SP	_	7	nmod	_	SpaceAfter=No
+12	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = È bellissimo chè decidete di sposare e restare nella futura insieme.
+1	È	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	bellissimo	bello	ADJ	A	Degree=Abs|Gender=Masc|Number=Sing	0	root	_	_
+3	chè	poiché	SCONJ	CS	_	4	mark	_	_
+4	decidete	decidere	VERB	V	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	sposare	sposare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7	e	e	CCONJ	CC	_	8	cc	_	_
+8	restare	restare	VERB	V	VerbForm=Inf	6	conj	_	_
+9-10	nella	_	_	_	_	_	_	_	_
+9	in	in	ADP	E	_	11	case	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	futura	futura	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+12	insieme	insieme	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Mille grazie per il messaggio.
+1	Mille	mille	NUM	N	_	0	root	_	_
+2	grazie	grazie	NOUN	S	_	5	case	_	_
+3	per	per	ADP	E	_	2	fixed	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	messaggio	messaggio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Sono molto felice che invitatemi.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	5	mark	_	_
+5-6	invitatemi	_	_	_	_	_	_	_	SpaceAfter=No
+5	invitate	invitare	VERB	V	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	ccomp	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Naturalmente vorrei partecipare alla festa.
+1	Naturalmente	naturalmente	ADV	B	_	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	partecipare	partecipare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	alla	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	festa	festa	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Però c'è un problema:
+1	Però	però	ADV	B	_	3	advmod	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	problema	problema	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	SpaceAfter=No
+6	:	:	PUNCT	FC	_	3	punct	_	_
+
+# sent_id = 7
+# text = Siccome devo lavorare al questo giorno arrivo un po tardi.
+1	Siccome	siccome	ADV	B	_	3	advmod	_	_
+2	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lavorare	lavorare	VERB	V	VerbForm=Inf	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	7	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+6	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	7	det	_	_
+7	giorno	giorno	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+8	arrivo	arrivere	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	po	po	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+11	tardi	tardi	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Vorrebbe un regalo concreto?
+1	Vorrebbe	volere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	regalo	regalo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+4	concreto	concreto	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 9
+# text = Se no, ho una sorpresa meravigliosa!
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	no	no	ADV	BN	PronType=Neg	6	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+7	meravigliosa	meraviglioso	ADJ	A	Gender=Fem|Number=Sing	6	amod	_	SpaceAfter=No
+8	!	!	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 10
+# text = Migliore saluti, Maria
+1	Migliore	migliore	ADJ	A	Degree=Cmp|Number=Sing	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n\s\s\s
+4	Maria	Maria	PROPN	SP	_	2	conj	_	SpacesAfter=\n
+

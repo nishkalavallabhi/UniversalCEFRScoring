@@ -1,0 +1,65 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024800_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 16.03.2012 Lieber Ingo, wie get´s dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	16.03.2012	16.03.2012	PROPN	CARD	_	4	amod	_	SpacesAfter=\n
+4	Lieber	Lieber	PROPN	NN	_	1	appos	_	_
+5	Ingo	Ingo	PROPN	NE	_	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+7	wie	wie	ADP	KOUS	_	8	case	_	_
+8	get´s	get´s	PROPN	NE	_	1	appos	_	_
+9	dir	dir	PROPN	NN	_	8	flat	_	SpaceAfter=No
+10	?	?	PROPN	$.	_	8	flat	_	_
+
+# sent_id = 2
+# text = Ich habe eine Arbeit in Neuburg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich suche eine Wohnung in Neuburg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich brauche am 05.04.2011 neue Wohnung und 60 qm.größe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	11	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+5	05.04.2011	05.04.2011	NUM	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing|NumType=Card	11	amod	_	_
+6	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	60	60	NUM	CARD	NumType=Card	10	nummod	_	_
+10	qm.gr	qm.gr	NOUN	NN	_	5	conj	_	SpaceAfter=No
+11	öße	öß	NOUN	NN	Case=Dat|Number=Sing	2	obl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Kann du mir helfen?
+1	Kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	4	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Liebe Grüße Maria
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

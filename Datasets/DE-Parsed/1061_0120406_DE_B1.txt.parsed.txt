@@ -1,0 +1,178 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120406_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 03/05/12 Liebe Dana, Vielen Dank für deine Brief, das war sehr nett.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	03/05/12	03/05/12	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Dana	Dana	PROPN	NE	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+7	Vielen	viel	ADJ	NN	_	8	amod	_	_
+8	Dank	dank	NOUN	APPR	_	1	appos	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	deine	dein	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Brief	Brief	NOUN	NN	_	16	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	das	der	PRON	PRELS	Case=Nom|PronType=Rel	16	nsubj	_	_
+14	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+15	sehr	sehr	ADV	ADV	_	16	advmod	_	_
+16	nett	nett	ADJ	ADJD	Degree=Pos	8	acl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich freue mich auf dich besuchen, bitte meldest du dich an, wenn du ankommen hast.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	auf	auf	ADP	APPR	_	5	case	_	_
+5	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	6	obl	_	_
+6	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	2	punct	_	_
+8	bitte	bitten	PROPN	NN	_	2	appos	_	_
+9	meldest	meldesen	ADV	ADV	_	2	advmod	_	_
+10	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	11	nsubj	_	_
+11	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+12	an	an	ADP	PTKVZ	_	2	compound:prt	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	2	punct	_	_
+14	wenn	wenn	SCONJ	KOUS	_	16	mark	_	_
+15	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	16	nsubj	_	_
+16	ankommen	ankommen	VERB	VVINF	VerbForm=Inf	2	advcl	_	_
+17	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ich verstehe, dass du nach der länger Zeit deine Verwandten besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	verstehe	verstehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	12	nsubj	_	_
+6	nach	nach	ADP	APPR	_	9	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	länger	lang	ADJ	ADJD	_	9	amod	_	_
+9	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
+10	deine	dein	ADJ	ADJA	Degree=Pos	11	amod	_	_
+11	Verwandten	Verwandte|Verwandter	NOUN	NN	_	5	nmod	_	_
+12	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Sagmal wo leben sie, in zentral oder andere?
+1	Sagmal	Sagmal	ADV	ADV	_	7	advmod	_	_
+2	wo	wo	ADV	PWAV	PronType=Int	3	advmod	_	_
+3	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	1	acl	_	_
+4	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	zentral	zentral	ADJ	ADJD	Degree=Pos	0	root	_	_
+8	oder	oder	CCONJ	KON	_	9	cc	_	_
+9	andere	ander	ADJ	ADJA	Degree=Pos	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Du hast gesagt über dien Prüfung.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	nsubj	_	_
+2	hast	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	gesagt	gesagen|langen	VERB	VVPP	VerbForm=Part	0	root	_	_
+4	über	über	ADP	APPR	_	6	case	_	_
+5	dien	dium	PROPN	NE	_	6	nmod	_	_
+6	Prüfung	Prüfung	NOUN	NN	_	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Das ist sehr schön.
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	schön	schön	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ich hab dir gesagt, dass du glücklich bist.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	hab	haben	AUX	VAIMP	_	4	aux	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	obj	_	_
+4	gesagt	sagen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	dass	dass	SCONJ	KOUS	_	8	mark	_	_
+7	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nsubj	_	_
+8	glücklich	glücklich	ADJ	ADJD	Degree=Pos	4	ccomp	_	_
+9	bist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Aber über das Schicken muss ich sagen „Du brauchst nicht es machen.
+1	Aber	aber	ADV	KON	_	13	advmod	_	_
+2	über	über	ADP	APPR	_	4	case	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	4	det	_	_
+4	Schicken	schicken	NOUN	NN	Case=Acc|Number=Plur	13	obl	_	_
+5	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+6	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+7	sagen	sagen	VERB	VVINF	VerbForm=Inf	13	xcomp	_	_
+8	„	„	PUNCT	$.	_	13	punct	_	SpaceAfter=No
+9	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	13	nsubj	_	_
+10	brauchst	brauchen	ADV	ADV	_	13	advmod	_	_
+11	nicht	nicht	PART	PTKNEG	Polarity=Neg	13	advmod	_	_
+12	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 9
+# text = Für mich ist deine Gesundheit und gute Nachrichten von dir genug", aber wenn du willst, dann ich freue mich auf eine dinge von deiner Meinung.
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Gesundheit	Gesundheit	NOUN	NN	_	0	root	_	_
+6	und	und	CCONJ	KON	_	8	cc	_	_
+7	gute	gut	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Nachrichten	Nachricht	NOUN	NN	_	5	conj	_	_
+9	von	von	ADP	APPR	_	10	case	_	_
+10	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	8	nmod	_	_
+11	genug	genug	ADV	ADV	_	5	advmod	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	5	punct	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	21	punct	_	_
+14	aber	aber	CCONJ	ADV	_	21	cc	_	_
+15	wenn	wenn	SCONJ	KOUS	_	21	mark	_	_
+16	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	21	nsubj	_	_
+17	willst	willst	ADV	ADV	_	21	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	21	punct	_	_
+19	dann	dann	ADV	ADV	_	21	advmod	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj	_	_
+21	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	5	conj	_	_
+22	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	21	obj	_	_
+23	auf	auf	ADP	APPR	_	21	compound:prt	_	_
+24	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+25	dinge	ding	PROPN	NN	Case=Nom|Number=Plur	23	nsubj	_	_
+26	von	von	ADP	APPR	_	28	case	_	_
+27	deiner	dein	PROPN	NE	Case=Dat|Number=Sing	28	amod	_	_
+28	Meinung	Meinung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Ich wünsche gute nächste drei Wochen für dich und bitte viele Grüße an deiner Verwandten.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	gute	gut	ADJ	ADJA	Degree=Pos	4	advmod	_	_
+4	nächste	nach	ADJ	ADJA	_	6	amod	_	_
+5	drei	drei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Wochen	Woche	NOUN	NN	_	2	obl	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obl	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	bitte	bitten	PROPN	NN	_	8	conj	_	_
+11	viele	viel	PROPN	PIS	_	10	flat	_	_
+12	Grüße	Grüße	PROPN	NN	_	10	flat	_	_
+13	an	an	ADP	APPR	_	15	case	_	_
+14	deiner	dein	ADJ	ADJA	Degree=Cmp,Pos	15	amod	_	_
+15	Verwandten	Verwandte|Verwandter	NOUN	NN	_	2	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Liebe Grüße, Stefan
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Stefan	Stefan	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

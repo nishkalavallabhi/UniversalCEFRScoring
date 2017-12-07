@@ -1,0 +1,55 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001795_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Silvio, come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Silvio	Silvio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Puoi dirmi dove tu lavori adesso?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirmi	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	_
+4	dove	dove	ADV	B	_	5	advmod	_	_
+5	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	2	ccomp	_	_
+6	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	5	nsubj	_	_
+7	adesso	adesso	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Vorrei sapere questo tipo di lavoro tu vuoi fare?
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	_
+4	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	9	nsubj	_	_
+8	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	fare	fare	VERB	V	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = A questa data tu vuoi iniziare un nuovo lavoro?
+1	A	a	ADP	E	_	3	case	_	_
+2	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	data	data	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+5	vuoi	volere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	9	amod	_	_
+9	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 5
+# text = Tanti saluti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

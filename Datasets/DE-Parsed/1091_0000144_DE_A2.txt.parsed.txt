@@ -1,0 +1,54 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000144_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Ich schuche eine Wohnung Ich schuche 3-4 zimm und eine Balkon und eine Garage.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+2	schuche	schuchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpacesAfter=\n
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	schuche	schuchen	NOUN	NN	Case=Nom|Number=Plur	14	nsubj	_	_
+7	3-4	3-4	NUM	CARD	NumType=Card	8	nummod	_	_
+8	zimm	zimm	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	eine	ein	DET	ART	Definite=Ind|PronType=Art	11	det	_	_
+11	Balkon	Balkon	NOUN	NN	_	8	conj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	eine	ein	NUM	ART	NumType=Card	6	conj	_	_
+14	Garage	Garage	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 2
+# text = und in Dreter Stück.
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	in	in	ADP	APPR	_	4	case	_	_
+3	Dreter	Dret	PROPN	NE	_	4	amod	_	_
+4	Stück	Stück	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ich kann nicht in höhr Haus wohnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+4	in	in	ADP	APPR	_	5	case	_	_
+5	höhr	höhr	PROPN	NN	_	7	obl	_	_
+6	Haus	Haus	PROPN	NN	_	5	flat	_	_
+7	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = und die Miete bie 300€ Bitte Mit schone Grus 1.3.11.
+1	und	und	CCONJ	KON	_	7	cc	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+4	bie	bie	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	amod	_	_
+5	300	300	PROPN	CARD	_	3	appos	_	SpaceAfter=No
+6	€	€	PROPN	ADJD	Case=Acc|Number=Sing	5	obj	_	_
+7	Bitte	Bitte	PART	ADV	_	0	root	_	SpacesAfter=\n
+8	Mit	mit	ADP	APPR	_	9	case	_	_
+9	schone	schone	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpacesAfter=\n
+10	Grus	Grus	PROPN	NE	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	SpacesAfter=\n\s
+11	1.3.11	1.3.11	PROPN	CARD	_	9	appos	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+

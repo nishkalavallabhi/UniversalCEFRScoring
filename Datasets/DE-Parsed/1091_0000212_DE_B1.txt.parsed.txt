@@ -1,0 +1,122 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000212_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Frau Katharina Winkelmann Bahnhofsstraße 1 12345
+1	Frau	Frau	NOUN	NN	_	6	compound	_	_
+2	Katharina	Katharina	PROPN	NE	_	1	appos	_	_
+3	Winkelmann	Winkelmann	PROPN	NE	_	2	flat	_	SpacesAfter=\n
+4	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	2	flat	_	_
+5	1	1	NUM	CARD	NumType=Card	1	appos	_	SpacesAfter=\n
+6	12345	12345	NUM	CARD	NumType=Card	0	root	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = Wohnungsamt Zentralplatz 12 54321 Stadt X Stadt Y, 10.02.2012 Sehr geheerte Damen und Herren, Ich bin Lehrerin von Beruf, bin nicht vereihatet und ich habe kein Kind.
+1	Wohnungsamt	Wohnungsamt	ADP	APPR	_	2	case	_	SpacesAfter=\n
+2	Zentralplatz	Zentralplatz	NOUN	NN	_	12	obl	_	_
+3	12	12	NUM	CARD	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	54321	54321	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Stadt	Stadt	NOUN	NN	_	2	nmod	_	_
+6	X	X	PROPN	NN	_	5	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	Stadt	Stadt	PROPN	NN	_	5	appos	_	_
+8	Y	y	PROPN	NN	_	7	appos	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	11	punct	_	_
+10	10.02.2012	10.02.2012	NUM	CARD	NumType=Card	11	nummod	_	SpacesAfter=\n
+11	Sehr	Sehr	NOUN	NN	_	2	conj	_	_
+12	geheerte	geheert	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	Damen	Dame	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	und	und	CCONJ	KON	_	15	cc	_	_
+15	Herren	Herr	PROPN	NN	_	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	SpacesAfter=\n
+17	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	Lehrerin	Lehrerin	NOUN	NN	_	12	conj	_	_
+20	von	von	ADP	APPR	_	21	case	_	_
+21	Beruf	Beruf	NOUN	NN	Case=Dat|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	$,	_	25	punct	_	_
+23	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	cop	_	_
+24	nicht	nicht	PART	PTKNEG	Polarity=Neg	25	advmod	_	_
+25	vereihatet	vereihaten	VERB	ADJD	_	12	conj	_	_
+26	und	und	CCONJ	KON	_	28	cc	_	_
+27	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+29	kein	kein	PRON	PIAT	PronType=Neg	30	advmod	_	_
+30	Kind	Kind	NOUN	NN	Case=Nom|Number=Sing	28	nsubj	_	SpaceAfter=No
+31	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 3
+# text = Auf beruflichen muss ich umziehen in Stadt X und ich suche eine Wohnung mieten.
+1	Auf	auf	ADP	APPR	_	2	case	_	_
+2	beruflichen	beruflich	ADJ	ADJA	Degree=Pos	5	advmod	_	_
+3	muss	muss	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	umziehen	umziehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	_	5	obl	_	_
+8	X	X	PROPN	NN	_	7	appos	_	_
+9	und	und	CCONJ	KON	_	14	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+11	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	14	iobj	_	_
+12	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	mieten	mieten	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ich möchte zwei Zimmer hell, groß Ein Balkon auf Ich habe ein paar fragen: Wie hoch sind die Nebenkosten und die Kaution.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	zwei	zwei	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	_
+5	hell	hellen	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	_
+8	Ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Balkon	Balkon	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	15	nsubj	_	_
+10	auf	auf	ADP	APPR	_	11	case	_	_
+11	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+12	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+13	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+14	paar	paar	PRON	PIAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Ind	15	mark	_	_
+15	fragen	fragen	VERB	VVINF	VerbForm=Inf	7	parataxis	_	SpaceAfter=No
+16	:	:	PUNCT	$.	_	15	punct	_	_
+17	Wie	wie	ADV	KOKOM	_	18	advmod	_	_
+18	hoch	hoch	ADJ	ADJD	Degree=Pos	15	parataxis	_	_
+19	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+20	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+21	Nebenkosten	Nebenkosten	NOUN	NN	Case=Nom|Number=Plur	18	nsubj	_	_
+22	und	und	CCONJ	KON	_	24	cc	_	_
+23	die	der	DET	ART	Definite=Def|PronType=Art	24	det	_	_
+24	Kaution	Kaution	NOUN	NN	_	21	conj	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 5
+# text = Wann kann ich die Wohnung besichtigen?
+1	Wann	wann	ADV	ADV	_	6	advmod	_	_
+2	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	besichtigen	besichtigen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 6
+# text = Ich hoffe von Ihnen ein baldigen Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	von	von	ADP	APPR	_	4	case	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	7	nmod	_	_
+5	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+6	baldigen	baldig	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Antwort	Antwort	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Mit Freundichen Grüßen Frau Katharina Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	Freundichen	Freundichen	NOUN	NN	_	3	compound	_	_
+3	Grüßen	Grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Frau	Frau	NOUN	NN	_	5	compound	_	_
+5	Katharina	Katharina	PROPN	NE	_	3	appos	_	_
+6	Winkelmann	Winkelmann	PROPN	NE	_	5	flat	_	SpacesAfter=\n
+

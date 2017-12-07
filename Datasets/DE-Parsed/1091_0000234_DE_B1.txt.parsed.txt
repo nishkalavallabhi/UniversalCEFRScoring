@@ -1,0 +1,174 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000234_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Eva, Ich will am Samstag ins Gebirge fahren.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+2	Eva	Eva	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+5	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Samstag	Samstag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+9-10	ins	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Gebirge	Gebirge	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	12	obl	_	_
+12	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Ich mache meine Urlaub.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	mache	mach	NOUN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+3	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Urlaub	Urlaub	NOUN	NE	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Ich bin nicht zu Hause für zwei Wochen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+4	zu	zu	ADP	APPR	_	5	case	_	_
+5	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	2	obl	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	zwei	zwei	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Wochen	Woche	NOUN	NN	Case=Acc|Number=Plur	2	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Du weiß doch: ich habe einen Hund und zwei Katze.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	weiß	wissen	VERB	VVFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	doch	doch	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+4	:	:	PUNCT	$.	_	2	punct	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	zwei	zwei	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Katze	Katze	NOUN	NN	_	8	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Aber ich kann nich mitnehmen.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	nich	nich	PART	ADJD	Polarity=Neg	5	advmod	_	_
+5	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = In diesem Hotel sind Haustiere nicht erlaubt.
+1	In	in	ADP	APPR	_	3	case	_	_
+2	diesem	dies	PRON	PDAT	Case=Dat|Gender=Masc,Neut|Number=Sing|PronType=Dem	3	det	_	_
+3	Hotel	Hotel	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+4	sind	sein	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux:pass	_	_
+5	Haustiere	Haustier	NOUN	NN	Case=Nom|Number=Plur	7	nsubj:pass	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+7	erlaubt	erlauben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 7
+# text = Kannst du mir mit meinen Haustieren helfen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+2	du	du	PROPN	PPER	Case=Dat|Number=Sing	7	iobj	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Haustieren	Haustier	NOUN	NN	Case=Dat|Number=Plur	7	obl	_	_
+7	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 8
+# text = Mein Hund isst drei mal pro Tag.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	_
+3	isst	essen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	mal	mal	ADV	ADV	_	3	advmod	_	_
+6	pro	pro	ADP	APPR	_	7	case	_	_
+7	Tag	Tag	NOUN	NN	_	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Am Nachmittag sollst du draußen bringen.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Nachmittag	Nachmittag	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+4	sollst	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	nsubj	_	_
+6	draußen	draußen	ADV	ADV	_	7	advmod	_	_
+7	bringen	bringen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 10
+# text = Meine Katze essen und trinken wasser vier mal pro Tag.
+1	Meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+3	essen	essen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	trinken	trinken	VERB	VVINF	VerbForm=Inf	3	conj	_	_
+6	wasser	wass	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	_
+7	vier	vier	NUM	CARD	NumType=Card	10	nummod	_	_
+8	mal	mal	ADV	ADV	_	10	advmod	_	_
+9	pro	pro	ADP	APPR	_	10	case	_	_
+10	Tag	Tag	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 11
+# text = Du sollst nicht in der Küche lassen.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	nsubj	_	_
+2	sollst	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	2	advmod	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	der	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Küche	Küche	NOUN	NN	_	7	obl	_	_
+7	lassen	lassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Und der Hund auch.
+1	Und	und	CCONJ	KON	_	0	root	_	_
+2	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	Hund	Hund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	auch	auch	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 13
+# text = Kannst du morgen um 8.30 meine Haustiere mitnehmen?
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	8	nsubj	_	_
+3	morgen	morgen	ADV	ADV	_	8	advmod	_	_
+4	um	um	ADP	APPR	_	7	case	_	_
+5	8.30	8.30	NUM	CARD	NumType=Card	6	nummod	_	_
+6	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Haustiere	Haustier	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	mitnehmen	mitnehmen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 14
+# text = Ich warte auf deine baldige Antwort.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+3	auf	auf	ADP	APPR	_	6	case	_	_
+4	deine	dein	ADJ	ADJA	Degree=Pos	6	amod	_	_
+5	baldige	baldig	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Antwort	Antwort	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 15
+# text = Bis bald.
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 16
+# text = Friedrich
+1	Friedrich	Friedrich	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

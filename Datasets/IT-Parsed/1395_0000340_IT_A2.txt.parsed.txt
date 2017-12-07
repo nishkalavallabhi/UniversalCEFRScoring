@@ -1,0 +1,148 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000340_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 4 marzo 2010 Caro Fabio, Come stai?
+1	Città	Città	PROPN	SP	_	12	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	4	4	NUM	N	NumType=Card	1	nmod	_	_
+6	marzo	marzo	NOUN	S	Gender=Masc|Number=Sing	5	flat	_	_
+7	2010	2010	NUM	N	NumType=Card	8	nummod	_	SpacesAfter=\n
+8	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+9	Fabio	Fabio	PROPN	SP	_	1	conj	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	9	punct	_	SpacesAfter=\n
+11	Come	come	SCONJ	CS	_	12	mark	_	_
+12	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	12	punct	_	_
+
+# sent_id = 2
+# text = Io sto bene!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	bene	bene	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mia famiglia sta bene anche.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	sta	stare	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	bene	bene	ADV	B	_	0	root	_	_
+5	anche	anche	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Mio fratello ha un filho, Francesco, che ha 3 anni.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	fratello	fratello	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	filho	filho	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	Francesco	Francesco	PROPN	SP	_	5	appos	_	SpaceAfter=No
+8	,	,	PUNCT	FF	_	3	punct	_	_
+9	che	che	PRON	PR	PronType=Rel	10	nsubj	_	_
+10	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+11	3	3	NUM	N	NumType=Card	12	nummod	_	_
+12	anni	anno	NOUN	S	Gender=Masc|Number=Plur	10	obj	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Lavoro al albergo "Alba" dove sono cameriera.
+1	Lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	_
+5	"	"	PUNCT	FB	_	6	punct	_	SpaceAfter=No
+6	Alba	alba	PROPN	SP	_	4	nmod	_	SpaceAfter=No
+7	"	"	PUNCT	FB	_	6	punct	_	_
+8	dove	dove	ADV	B	_	10	advmod	_	_
+9	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	cameriera	cameriera	NOUN	S	Gender=Fem|Number=Sing	4	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Questo lavoro mi piace molto.
+1	Questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	_
+2	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	molto	molto	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Ho studiato l'italiano durante 1 mese e mezzo per il mio lavoro perché ci sono molti italiani a Città X!
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	durante	durante	ADP	E	_	7	case	_	_
+6	1	1	NUM	N	NumType=Card	7	nummod	_	_
+7	mese	mese	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+8	e	e	CCONJ	CC	_	9	cc	_	_
+9	mezzo	mezzo	NOUN	S	Gender=Masc|Number=Sing	7	conj	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+14	perché	perché	SCONJ	CS	_	16	mark	_	_
+15	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	16	expl	_	_
+16	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+17	molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	18	det	_	_
+18	italiani	italiano	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+19	a	a	ADP	E	_	20	case	_	_
+20	Città	città	PROPN	SP	_	18	nmod	_	_
+21	X	x	ADJ	NO	Number=Sing|NumType=Ord	20	amod	_	SpaceAfter=No
+22	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Sono andata a Città Y in ottobre scorso.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andata	andare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	2	obl	_	_
+5	Y	y	PROPN	SP	_	4	flat:name	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Era magnifico e la gente è molto simpatica.
+1	Era	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	cop	_	_
+2	magnifico	magnifico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+3	e	e	CCONJ	CC	_	8	cc	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gente	gente	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	simpatica	simpatico	ADJ	A	Gender=Fem|Number=Sing	2	conj	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Penso andare a vederte a Città X questo inverno.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	andare	andare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	vederte	vedrire	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	nmod	_	_
+7	X	decimo	PROPN	SP	_	6	flat:name	_	_
+8	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	_
+9	inverno	inverno	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 11
+# text = A presto!
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Tanti Baci Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur	2	det	_	_
+2	Baci	Baci	PROPN	SP	_	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+

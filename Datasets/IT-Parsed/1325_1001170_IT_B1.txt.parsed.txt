@@ -1,0 +1,211 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_1001170_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Michele Rossi Strada Maggiore 42 12345 Città X Paese X Città X, 12 ottobre 20120 ALI - Agenza Lavoro Interinale Spettabile Ufficio, Sto scrivendo in risposta alla Vostra inserzione apparsa su Corriere della Sera.
+1	Michele	Michele	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	_
+5	42	42	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	12345	12345	NUM	N	NumType=Card	5	fixed	_	_
+7	Città	Città	PROPN	SP	_	1	nmod	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+9	Paese	paese	PROPN	SP	_	7	nmod	_	_
+10	X	X	PROPN	SP	_	9	flat:name	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	Città	Città	PROPN	SP	_	7	conj	_	_
+12	X	X	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	12	12	NUM	N	NumType=Card	11	nmod	_	_
+15	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	14	flat	_	_
+16	20120	20120	NUM	N	NumType=Card	14	flat	_	SpacesAfter=\s\n
+17	ALI	Ali	PROPN	SP	_	11	conj	_	_
+18	-	-	PUNCT	FF	_	17	punct	_	_
+19	Agenza	Agenza	PROPN	SP	_	17	flat:name	_	_
+20	Lavoro	Lavoro	PROPN	SP	_	17	flat:name	_	_
+21	Interinale	Interinale	PROPN	SP	_	17	flat:name	_	SpacesAfter=\s\n\s\n
+22	Spettabile	Spettabile	PROPN	SP	_	17	flat:name	_	_
+23	Ufficio	ufficio	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+25	Sto	Sto	PROPN	SP	_	1	nmod	_	_
+26	scrivendo	scrivere	VERB	V	VerbForm=Ger	25	advcl	_	_
+27	in	in	ADP	E	_	28	case	_	_
+28	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+29-30	alla	_	_	_	_	_	_	_	_
+29	a	a	ADP	E	_	32	case	_	_
+30	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+31	Vostra	vostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	inserzione	inserzione	NOUN	S	Gender=Fem|Number=Sing	26	obl	_	_
+33	apparsa	apparso	ADJ	A	Gender=Fem|Number=Sing	32	amod	_	_
+34	su	su	ADP	E	_	35	case	_	_
+35	Corriere	Corriere	PROPN	SP	_	32	nmod	_	_
+36-37	della	_	_	_	_	_	_	_	_
+36	di	di	ADP	E	_	38	case	_	_
+37	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
+38	Sera	Sera	PROPN	SP	_	35	nmod	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Mi permetto di presentare l'impegno in questione.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+2	permetto	permettere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	presentare	presentare	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	6	det	_	SpaceAfter=No
+6	impegno	impegno	NOUN	S	Gender=Masc|Number=Sing	4	obj	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	questione	questione	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Ho 23 anni, coniugato con due figli.
+1	Ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	23	23	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	coniugato	coniugare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+6	con	con	ADP	E	_	8	case	_	_
+7	due	due	NUM	N	NumType=Card	8	nummod	_	_
+8	figli	figlio	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi sono laureato in economice presso l'università di Città Y nel 1982.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	expl	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	laureato	laureare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	in	in	ADP	E	_	5	case	_	_
+5	economice	economice	NOUN	S	Gender=Fem|Number=Sing	3	obl	_	_
+6	presso	presso	ADP	E	_	8	case	_	_
+7	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	8	det	_	SpaceAfter=No
+8	università	università	NOUN	S	Gender=Fem	3	obl	_	_
+9	di	di	ADP	E	_	10	case	_	_
+10	Città	città	PROPN	SP	_	8	nmod	_	_
+11	Y	y	PROPN	SP	_	10	flat:name	_	_
+12-13	nel	_	_	_	_	_	_	_	_
+12	in	in	ADP	E	_	14	case	_	_
+13	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	1982	1982	NUM	N	NumType=Card	3	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 5
+# text = Adesso lavoro come addetto alla esportazione.
+1	Adesso	adesso	ADV	B	_	2	advmod	_	_
+2	lavoro	lavorare	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	come	come	ADP	E	_	4	case	_	_
+4	addetto	addetto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+5-6	alla	_	_	_	_	_	_	_	_
+5	a	a	ADP	E	_	7	case	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	esportazione	esportazione	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Conosco perfettamente l'italiano, l'inglese e lo spagnolo.
+1	Conosco	conoscere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	perfettamente	perfettamente	ADV	B	_	1	advmod	_	SpacesAfter=\s\s
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	SpaceAfter=No
+4	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	7	punct	_	_
+6	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	inglese	inglese	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	lo	il	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	spagnolo	spagnolo	ADJ	A	Gender=Masc|Number=Sing	1	conj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 7
+# text = Ho una completta conoscenza dei affari economici, avendo ripetutamente lavorato in Italia.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	completta	completto	ADJ	A	Gender=Fem|Number=Sing	4	amod	_	_
+4	conoscenza	conoscenza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5-6	dei	_	_	_	_	_	_	_	SpacesAfter=\s\s
+5	di	di	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	affari	affare	NOUN	S	Gender=Masc|Number=Plur	4	nmod	_	_
+8	economici	economico	ADJ	A	Gender=Masc|Number=Plur	7	amod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	avendo	avere	AUX	VA	VerbForm=Ger	12	aux	_	_
+11	ripetutamente	ripetutamente	ADV	B	_	12	advmod	_	_
+12	lavorato	lavorare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	Italia	Italia	PROPN	SP	_	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Sarei interessato a conoscere nei dattagli che cosa comportarebbero la registrazione del lavoro.
+1	Sarei	essere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	interessato	interessato	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	a	a	ADP	E	_	4	mark	_	_
+4	conoscere	conoscere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+5-6	nei	_	_	_	_	_	_	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
+7	dattagli	dattaglio	NOUN	S	Gender=Masc|Number=Plur	4	obl	_	_
+8	che	che	PRON	PR	PronType=Rel	10	obj	_	_
+9	cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	10	obj	_	_
+10	comportarebbero	comportare	VERB	V	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	registrazione	registrazione	NOUN	S	Gender=Fem|Number=Sing	10	nsubj	_	_
+13-14	del	_	_	_	_	_	_	_	_
+13	di	di	ADP	E	_	15	case	_	_
+14	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Quando sarebbe la data d'inizio dello stage?
+1	Quando	quando	SCONJ	CS	_	4	mark	_	_
+2	sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	data	data	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	inizio	inizio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+7-8	dello	_	_	_	_	_	_	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	stage	stage	NOUN	S	Gender=Masc	6	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 10
+# text = Nella speranza che la mia domanda venga accoltata favorevolmente e che mi venga accortata l'onore di un colloquio i miei migliori saluti.
+1-2	Nella	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	speranza	speranza	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+4	che	che	SCONJ	CS	_	9	mark	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	9	nsubj:pass	_	_
+8	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+9	accoltata	accoltare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+10	favorevolmente	favorevolmente	ADV	B	_	9	advmod	_	_
+11	e	e	CCONJ	CC	_	15	cc	_	_
+12	che	che	PRON	PR	PronType=Rel	15	nsubj:pass	_	_
+13	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	_
+14	venga	venire	AUX	VA	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	accortata	accortare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	_
+16	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	17	det	_	SpaceAfter=No
+17	onore	onore	NOUN	S	Gender=Masc|Number=Sing	15	nsubj:pass	_	_
+18	di	di	ADP	E	_	20	case	_	_
+19	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	colloquio	colloquio	NOUN	S	Gender=Masc|Number=Sing	17	nmod	_	_
+21	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
+22	miei	mio	DET	AP	Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs	24	det:poss	_	_
+23	migliori	migliore	ADJ	A	Degree=Cmp|Number=Plur	24	amod	_	_
+24	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	20	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 11
+# text = Rossi P.S.
+1	Rossi	Rossi	PROPN	SP	_	0	root	_	SpacesAfter=\n
+2	P.S	P.S	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 12
+# text = Allegato Curriculum Vitae
+1	Allegato	allegare	PROPN	SP	_	0	root	_	_
+2	Curriculum	Curriculum	PROPN	SP	_	1	flat:name	_	_
+3	Vitae	Vitae	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+

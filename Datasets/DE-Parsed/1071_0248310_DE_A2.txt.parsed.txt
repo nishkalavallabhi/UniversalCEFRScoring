@@ -1,0 +1,68 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248310_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, wie geht´s?
+1	Liebe	Liebe	NOUN	NN	_	0	root	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	PROPN	KOUS	_	1	appos	_	_
+5	geht´s	geht´s	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	?	?	PROPN	$.	_	4	flat	_	_
+
+# sent_id = 2
+# text = Ich mochte heute schwimmen gehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mochte	mocht	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	heute	heute	ADV	ADV	_	2	advmod	_	_
+4	schwimmen	schwimmen	VERB	VVINF	VerbForm=Inf	5	xcomp	_	_
+5	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Mochtest du?
+1	Mochtest	Mochtest	PROPN	NN	_	0	root	_	_
+2	du	du	PROPN	PPER	_	1	flat	_	SpaceAfter=No
+3	?	?	PROPN	$.	_	1	flat	_	_
+
+# sent_id = 4
+# text = Ich gehe im 14 Uhr.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	gehe	gehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3-4	im	_	_	_	_	_	_	_	_
+3	in	in	ADP	APPR	_	6	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	14	14	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Treffen uns in Bahnhofsstr. und wir gehen zussamen.
+1	Treffen	treffen	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+2	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	7	iobj	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Bahnhofsstr.	Bahnhofsstr.	NOUN	NN	_	7	obl	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	gehen	gehen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+8	zussamen	zussam	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Du solltest eine schokolade und ein Brot.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	solltest	solltesen	ADJ	ADJD	Degree=Sup	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	schokolade	schokolade	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	und	und	CCONJ	KON	_	7	cc	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Brot	Brot	NOUN	NN	_	4	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Viele Gruße, Deine Eva
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Gruße	Muß|Gruße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\n
+4	Deine	Deine	PROPN	NE	_	2	appos	_	_
+5	Eva	Eva	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

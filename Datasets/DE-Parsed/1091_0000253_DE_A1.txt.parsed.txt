@@ -1,0 +1,55 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000253_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 13.03.2012 Liebe Julia Wie geht es dir?
+1	Stadt	Stadt	NOUN	NN	_	7	obl	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	13.03.2012	13.03.2012	PROPN	CARD	_	4	amod	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+5	Julia	Julia	PROPN	NE	_	4	appos	_	SpacesAfter=\n
+6	Wie	Wie	PROPN	KOUS	_	5	flat	_	_
+7	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+9	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	7	obl	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 2
+# text = Mir geht es gut.
+1	Mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+4	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich möchte in wochenenda fluzoig für Brasilien und du was macht diese wochenenda?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	aux	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	wochenenda	wochenenda	PROPN	NE	_	11	obl	_	SpacesAfter=\s\s
+5	fluzoig	fluzoig	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	Brasilien	Brasilien	PROPN	NE	Case=Dat|Number=Sing	4	nmod	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	du	du	PROPN	NE	_	7	conj	_	_
+10	was	was	PRON	PIAT	Case=Acc|PronType=Ind	11	obj	_	_
+11	macht	machen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+12	diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	13	det	_	_
+13	wochenenda	wochenenda	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+14	?	?	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 4
+# text = Warum nicht mit mir.
+1	Warum	warum	ADV	PAV	_	4	advmod	_	_
+2	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Hertz Grüß, Ma
+1	Hertz	Hertz	PROPN	NE	_	0	root	_	_
+2	Grüß	Grüß	PROPN	NN	Case=Nom|Number=Sing	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ma	ma	PROPN	ADJA	_	1	appos	_	SpacesAfter=\n
+

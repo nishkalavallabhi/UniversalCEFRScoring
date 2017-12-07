@@ -1,0 +1,147 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000211_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Tobias Meier Bahnhofsstr.
+1	Tobias	Tobias	PROPN	NE	_	0	root	_	_
+2	Meier	Meier	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Bahnhofsstr	Bahnhofsstr	PROPN	NE	_	1	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 123 Winkelsweg 321 Stadt X Stadt Y. 10.3.12 Ich brauche ihre hilfe.
+1	123	123	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Winkelsweg	Winkelsweg	NOUN	NN	Case=Acc|Number=Sing	10	obj	_	_
+3	321	321	NUM	CARD	NumType=Card	4	nummod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Stadt	Stadt	NOUN	NN	_	2	appos	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\n
+6	Stadt	Stadt	PROPN	NN	_	4	appos	_	_
+7	Y.	Y.	PROPN	NE	_	6	appos	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	10.3.12	10.3.12	PROPN	CARD	_	7	appos	_	SpacesAfter=\n
+9	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+11	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	hilfe	hilfe	NOUN	NN	Case=Dat|Number=Sing	10	iobj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Seehgrte Damen und Herren.
+1	Seehgrte	Seehgrte	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Damen	Dame	NOUN	NN	_	0	root	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Herren	Herren	NOUN	NN	_	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich will mit meinen Freunden wohnen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	mit	mit	ADP	APPR	_	5	case	_	_
+4	meinen	mein	PRON	PPOSAT	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	6	obl	_	_
+6	wohnen	wohnen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = und wir sind Studenten, wir haben keinen Job.
+1	und	und	CCONJ	KON	_	4	cc	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Studenten	Student	NOUN	NN	_	6	compound	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	keinen	kein	PRON	PIAT	PronType=Neg	9	advmod	_	_
+9	Job	Job	NOUN	NN	Case=Acc|Number=Sing	7	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = deshalb suchen wir über billige Wohnung.
+1	deshalb	deshalb	ADV	PAV	_	2	advmod	_	_
+2	suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4	über	über	ADP	APPR	_	6	case	_	_
+5	billige	billig	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Wohnung	Wohnung	NOUN	NN	_	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Wir sind vier personen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	vier	vier	NUM	CARD	NumType=Card	4	nummod	_	_
+4	personen	Person	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = und wir brauchen eine Wohnung mit vier Zimmer.
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	vier	vier	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	3	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Und Bad und Küche.
+1	Und	und	CCONJ	KON	_	2	cc	_	_
+2	Bad	Bad	NOUN	NN	_	0	root	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Küche	Küche	NOUN	NN	_	2	conj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = ist es möglich eine Wohnung mit einem Bakon. weil wir manchmal rauss sitzen möchten.
+1	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	_
+3	möglich	möglich	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Bakon	Bakon	NOUN	NN	Case=Dat|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+10	weil	weil	SCONJ	KOUS	_	14	mark	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+12	manchmal	manchmal	ADV	ADV	_	14	advmod	_	_
+13	rauss	rauß	NOUN	NN	Case=Acc|Number=Plur	14	obj	_	_
+14	sitzen	sitzen	VERB	VVINF	VerbForm=Inf	3	csubj	_	_
+15	möchten	mögen	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	aux	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = wir wollen ein information über die Miete wissen.
+1	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+2	wollen	wollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	information	information	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+5	über	über	ADP	APPR	_	7	case	_	_
+6	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Miete	Miete	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+8	wissen	wissen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = wir können nur 1200.- pro Monat bezahlen.
+1	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	nur	nur	ADV	ADV	_	7	advmod	_	_
+4	1200.-	1200.-	PUNCT	$(	_	7	punct	_	_
+5	pro	pro	ADP	APPR	_	6	case	_	_
+6	Monat	Monat	NOUN	NN	_	7	obl	_	_
+7	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = mit Freundlichen grüßen.
+1	mit	mit	ADP	APPR	_	2	case	_	_
+2	Freundlichen	freundliche	NOUN	NN	_	3	obl	_	_
+3	grüßen	grüßen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Tobias
+1	Tobias	Tobias	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

@@ -1,0 +1,126 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001120_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 18 agosto 2011 Ciao Roberto Vorrei visitarti a casa la settimana prossima.
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	18	18	NUM	N	NumType=Card	1	nmod	_	_
+5	agosto	agosto	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+7	Ciao	Ciao	PROPN	SP	_	1	conj	_	_
+8	Roberto	Roberto	PROPN	SP	_	7	flat:name	_	SpacesAfter=\s\n
+9	Vorrei	volere	PROPN	SP	_	7	flat:name	_	_
+10	visitarti	visitartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	acl	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	casa	casa	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	10	obl	_	_
+15	prossima	prossimo	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Come è la tua città, grande o piccola?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	città	città	NOUN	S	Gender=Fem	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	5	punct	_	_
+7	grande	grande	ADJ	A	Number=Sing	5	amod	_	_
+8	o	o	CCONJ	CC	_	9	cc	_	_
+9	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	7	conj	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = E facile di trovare la tua casa?
+1	E	e	CCONJ	CC	_	2	cc	_	_
+2	facile	facile	ADJ	A	Number=Sing	0	root	_	_
+3	di	di	ADP	E	_	4	mark	_	_
+4	trovare	trovare	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	obj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Come va tua familia?
+1	Come	come	ADV	B	_	2	advmod	_	_
+2	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	familia	familia	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Spero que va bene.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	que	que	PRON	PI	Number=Sing|PronType=Ind	3	obj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+4	bene	bene	ADV	B	_	1	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Cosa possono fare la sera?
+1	Cosa	cosa	PRON	PQ	Number=Sing|PronType=Int	3	nsubj	_	_
+2	possono	potere	AUX	VM	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	fare	fare	VERB	V	VerbForm=Inf	0	root	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	sera	sera	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 7
+# text = C'è un cinema o un teatro?
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	2	expl	_	SpaceAfter=No
+2	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	cinema	cinema	NOUN	S	Gender=Masc	2	nsubj	_	_
+5	o	o	CCONJ	CC	_	7	cc	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	teatro	teatro	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Quando posso venire?
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	venire	venire	VERB	V	VerbForm=Inf	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 9
+# text = Posso venire lunedi e stare fino a mercoledi?
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	venire	venire	VERB	V	VerbForm=Inf	0	root	_	_
+3	lunedi	lunedere	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+4	e	e	CCONJ	CC	_	5	cc	_	_
+5	stare	stare	VERB	V	VerbForm=Inf	2	conj	_	_
+6	fino	fino	ADV	B	_	8	case	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	mercoledi	mercolede	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 10
+# text = Va bene cosi per te?
+1	Va	andare	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	bene	bene	ADV	B	_	3	advmod	_	_
+3	cosi	coso	ADJ	A	Gender=Masc|Number=Plur	0	root	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	3	obl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Posso rimanere tre giorni in tuo casa?
+1	Posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	rimanere	rimanere	VERB	V	VerbForm=Inf	0	root	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	2	obj	_	_
+5	in	in	ADP	E	_	7	case	_	_
+6	tuo	tuo	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	casa	casa	NOUN	S	Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Tanti salutti Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	salutti	salutto	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Michele	Michele	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

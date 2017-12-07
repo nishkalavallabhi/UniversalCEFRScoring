@@ -1,0 +1,66 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001150_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Caro Anna, grazie per la tua email.
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Anna	anna	PROPN	SP	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	grazie	grazie	NOUN	S	_	8	case	_	_
+5	per	per	ADP	E	_	4	fixed	_	_
+6	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+7	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	email	email	NOUN	S	_	2	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 2
+# text = Vorrei aiutarti, ma ho bisogno di qualche informazione in più.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	aiutarti	aiutartire	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	ma	ma	CCONJ	CC	_	5	cc	_	_
+5	ho	avere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	bisogno	bisogno	NOUN	S	Gender=Masc|Number=Sing	5	obj	_	_
+7	di	di	ADP	E	_	9	case	_	_
+8	qualche	qualche	DET	DI	Number=Sing|PronType=Ind	9	det	_	_
+9	informazione	informazione	NOUN	S	Gender=Fem|Number=Sing	6	nmod	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	più	più	ADV	B	_	9	advmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Puoi dirmi dove lavori adesso?
+1	Puoi	potere	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2-3	dirmi	_	_	_	_	_	_	_	_
+2	dir	dire	VERB	V	VerbForm=Inf	0	root	_	_
+3	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	dove	dove	ADV	B	_	5	advmod	_	_
+5	lavori	lavoro	NOUN	S	Gender=Masc|Number=Plur	2	nsubj	_	_
+6	adesso	adesso	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Vorrei sapere che tipo di lavoro ti preferisci.
+1	Vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	0	root	_	_
+3	che	che	DET	DQ	PronType=Int	4	det	_	_
+4	tipo	tipo	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+7	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	obj	_	_
+8	preferisci	preferire	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Quando vorrei iniziare nuovo lavoro Molti cari saluti Ciao, Maria
+1	Quando	quando	SCONJ	CS	_	3	advmod	_	_
+2	vorrei	volere	AUX	VM	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	iniziare	iniziare	VERB	V	VerbForm=Inf	0	root	_	_
+4	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	SpacesAfter=\s\n
+6	Molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	8	det	_	_
+7	cari	caro	ADJ	A	Gender=Masc|Number=Plur	8	amod	_	_
+8	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	3	obj	_	SpacesAfter=\n
+9	Ciao	Ciao	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=\n
+11	Maria	Maria	PROPN	SP	_	8	appos	_	SpacesAfter=\n
+

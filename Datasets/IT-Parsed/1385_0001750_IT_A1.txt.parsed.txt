@@ -1,0 +1,47 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1385_0001750_IT_A1.txt
+# newpar
+# sent_id = 1
+# text = Ciao Marta Come stai?
+1	Ciao	ciao	INTJ	I	_	4	obj	_	_
+2	Marta	Marta	PROPN	SP	_	4	nsubj	_	SpacesAfter=\n
+3	Come	come	ADV	B	_	4	advmod	_	_
+4	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Scrivo da te perche nostro apunntamento non niente.
+1	Scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	da	da	ADP	E	_	3	case	_	_
+3	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	1	obl	_	_
+4	perche	perco	ADV	BN	PronType=Neg	6	advmod	_	_
+5	nostro	nostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	apunntamento	apunntamento	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	_
+7	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+8	niente	niente	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 3
+# text = Perche mio capo ha organizzato una riunione io posso essere.
+1	Perche	Perca	ADV	B	_	5	advmod	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	capo	capo	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	organizzato	organizzare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	riunione	riunione	NOUN	S	Gender=Fem|Number=Sing	5	obj	_	_
+8	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	essere	essere	VERB	V	VerbForm=Inf	7	acl:relcl	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Alora possiamo incontro domenica Scusi bracci addbracci Maria
+1	Alora	Alora	ADV	B	_	5	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	incontro	incontro	ADP	E	_	4	case	_	_
+4	domenica	domenica	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	SpacesAfter=\s\n
+5	Scusi	Scuso	PROPN	SP	_	0	root	_	_
+6	bracci	braccio	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+7	addbracci	addbraccio	ADJ	A	Gender=Masc|Number=Plur	5	amod	_	_
+8	Maria	Maria	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+

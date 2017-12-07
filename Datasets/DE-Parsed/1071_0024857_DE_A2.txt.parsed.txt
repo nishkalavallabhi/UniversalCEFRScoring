@@ -1,0 +1,98 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024857_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Herr Jens, Hallo!
+1	Herr	Herr	NOUN	NN	_	2	compound	_	_
+2	Jens	Jens	PROPN	NE	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Hallo	Hallo	PROPN	NN	_	2	appos	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Wie gehts dir, Ich wünsche das seine Frau hat des Baby gekommen, und jetz bis du vater.
+1	Wie	wie	ADP	KOUS	_	2	case	_	_
+2	gehts	gehts	ADV	ADV	_	3	advmod	_	SpacesAfter=\s\s
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+6	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	3	parataxis	_	_
+7	das	der	PRON	PDS	Case=Acc|PronType=Dem	6	obj	_	_
+8	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Frau	Frau	NOUN	NN	Case=Nom|Number=Sing	13	nsubj	_	_
+10	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Baby	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	13	obl	_	_
+13	gekommen	kommen	VERB	VVPP	VerbForm=Part	6	ccomp	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	16	punct	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	jetz	jetz	PROPN	NE	_	6	conj	_	_
+17	bis	bis	ADP	KON	_	18	case	_	_
+18	du	du	PROPN	PPER	_	16	amod	_	_
+19	vater	vat	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	18	flat	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = wie heist ist seine Frau? und Wenn ist sein Baby geworen, ist seine Baby a jung oder menschen, und was willst du die name für seine Baby?
+1	wie	wie	ADV	KOKOM	_	2	advmod	_	_
+2	heist	heist	VERB	VVFIN	VerbForm=Fin	5	acl	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Frau?	frau?	NOUN	NN	_	11	nmod	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	Wenn	wenn	PROPN	NE	_	5	conj	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Baby	Baby	PROPN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	geworen	geworen	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	11	punct	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Baby	Baby	PROPN	NN	Case=Nom|Number=Sing	17	nsubj	_	_
+16	a	a	PROPN	FM	_	17	nmod	_	_
+17	jung	jung	ADJ	ADJD	Degree=Pos	0	root	_	_
+18	oder	oder	CCONJ	KON	_	19	cc	_	_
+19	menschen	menschen	ADJ	ADJA	Degree=Pos	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	24	punct	_	_
+21	und	und	CCONJ	KON	_	24	cc	_	_
+22	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	24	nsubj	_	_
+23	willst	willen	ADV	ADV	_	24	advmod	_	_
+24	du	du	PROPN	PPER	_	17	conj	_	_
+25	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	26	det	_	_
+26	name	nam	PROPN	NN	Case=Nom|Number=Sing	29	nsubj	_	_
+27	für	für	ADP	APPR	_	29	case	_	_
+28	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	29	det:poss	_	_
+29	Baby	Baby	PROPN	NN	_	24	nmod	_	SpaceAfter=No
+30	?	?	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 4
+# text = Ich wünsche Dir einen Shöenen tag und vielglück für seine Baby. und viele Gruße für Seine Frau.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+5	Shöenen	Shöene	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	tag	tiegen	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+7	und	und	CCONJ	KON	_	8	cc	_	_
+8	vielglück	vielglück	NOUN	NN	_	6	conj	_	_
+9	für	für	ADP	APPR	_	11	case	_	_
+10	seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	11	det:poss	_	_
+11	Baby	Baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+13	und	und	CCONJ	KON	_	15	cc	_	_
+14	viele	viel	ADJ	PIAT	Degree=Pos	15	amod	_	_
+15	Gruße	Muß|Gruße	NOUN	NN	_	2	conj	_	_
+16	für	für	ADP	APPR	_	18	case	_	_
+17	Seine	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	18	det:poss	_	_
+18	Frau	Frau	NOUN	NN	_	15	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Dein Freund.
+1	Dein	dein	PRON	PIAT	Case=Acc|Gender=Masc,Neut|Number=Sing|PronType=Ind	2	det	_	_
+2	Freund	Freund	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Maria
+1	Maria	Maria	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

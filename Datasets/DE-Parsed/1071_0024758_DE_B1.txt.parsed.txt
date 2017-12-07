@@ -1,0 +1,117 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024758_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Hallo Ingo, wie gehts es dir?
+1	Hallo	Hallo	X	ITJ	_	2	dep	_	_
+2	Ingo	Ingo	NOUN	NE	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	wie	wie	ADP	KOUS	_	7	case	_	_
+5	gehts	gehts	ADV	NN	_	7	advmod	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nmod	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Also, habe ich eine Arbeit in Neuburg gefunden und am 15.07.2012 ist meine erste Tag in die Firma.
+1	Also	also	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	9	punct	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Neuburg	Neuburg	PROPN	NE	_	6	nmod	_	_
+9	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	und	und	CCONJ	KON	_	17	cc	_	_
+11-12	am	_	_	_	_	_	_	_	_
+11	an	an	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+13	15.07.2012	15.07.2012	NUM	CARD	NumType=Card	17	nmod	_	_
+14	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	meine	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	_
+16	erste	erst	ADJ	ADJA	Degree=Pos|NumType=Ord	17	amod	_	_
+17	Tag	Tag	NOUN	NN	_	9	conj	_	_
+18	in	in	ADP	APPR	_	20	case	_	_
+19	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
+20	Firma	Firma	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 3
+# text = Aber habe ich ein Problem.
+1	Aber	aber	ADV	KON	_	2	advmod	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Problem	Problem	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 4
+# text = Ich brauche dort eine Wohnung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dort	dort	ADV	ADV	_	2	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Könntest du bitte mir bei der Wohnungssuche hilfen?
+1	Könntest	Könntest	PROPN	NN	_	4	flat	_	_
+2	du	du	PROPN	PPER	_	3	case	_	_
+3	bitte	bitten	PROPN	NN	_	1	nmod	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	hilfen	hilfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Ich brauchen ca. 75 m² Wohnung mit 2 Zimmer, Bad, Kuche, toilette und garage.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+3	ca	ca	ADV	NE	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+5	75	75	NUM	CARD	NumType=Card	6	nummod	_	_
+6	m	m	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+7	²	²	NUM	ADJD	NumType=Card	6	appos	_	_
+8	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+9	mit	mit	ADP	APPR	_	11	case	_	_
+10	2	2	NUM	CARD	NumType=Card	11	nummod	_	_
+11	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	2	obl	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	13	punct	_	_
+13	Bad	Bad	NOUN	NN	_	11	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	Kuche	kuche	NOUN	NN	_	11	conj	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	17	punct	_	_
+17	toilette	toilett	NOUN	NN	_	11	conj	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	garage	garage	NOUN	NN	_	11	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Ich rufe dich noch mal an.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	rufe	rufen	NOUN	NN	Case=Acc|Number=Plur	3	obj	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+4	noch	noch	ADV	ADV	_	5	advmod	_	_
+5	mal	mal	ADV	ADV	_	3	advmod	_	_
+6	an	an	ADP	PTKVZ	_	3	compound:prt	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Vielen Dank für deine Hilfe!
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+3	für	für	ADP	APPR	_	5	case	_	SpacesAfter=\s\s
+4	deine	dein	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Hilfe	Hilfe	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Vielen Gruße, Eva
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Gruße	Muß|Gruße	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

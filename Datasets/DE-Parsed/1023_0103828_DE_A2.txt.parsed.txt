@@ -1,0 +1,98 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0103828_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Maria Müller 12-321 Stadt X Zentralplatz 123/4 Stadt X, 7.07.2010.
+1	Maria	Maria	PROPN	NE	_	8	nsubj	_	_
+2	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+3	12-321	12-321	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Stadt	Stadt	NOUN	NN	_	1	nmod	_	_
+5	X	X	PROPN	NN	_	4	appos	_	SpacesAfter=\n
+6	Zentralplatz	Zentralplatz	PROPN	NN	_	5	flat	_	_
+7	123/4	123/4	PROPN	CARD	_	8	amod	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Stadt	Stadt	PROPN	NN	_	0	root	_	_
+9	X	X	PROPN	NN	_	8	appos	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	8	punct	_	_
+11	7.07.2010	7.07.2010	NUM	CARD	NumType=Card	8	appos	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Computer-Spezialist Odenwaldstraße 5 53119 Bonn Sehr geehrte Damen und Herren.
+1	Computer-Spezialist	Computer-Spezialist	NOUN	NN	Case=Nom|Number=Sing	7	nsubj	_	SpacesAfter=\n
+2	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	1	appos	_	_
+3	5	5	NUM	CARD	NumType=Card	4	nummod	_	SpacesAfter=\n
+4	53119	53119	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Bonn	Bonn	PROPN	NE	_	6	nmod	_	SpacesAfter=\n
+6	Sehr	Sehr	PROPN	ADV	_	1	appos	_	_
+7	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	Damen	Dame	NOUN	NN	Case=Acc|Number=Plur	7	obj	_	_
+9	und	und	CCONJ	KON	_	10	cc	_	_
+10	Herren	Herr	NOUN	NN	_	8	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Sie suchen jemanden der IT Systemkaufman.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+2	suchen	suchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	jemanden	jemand	PRON	PIS	Case=Dat|PronType=Ind	2	iobj	_	_
+4	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	IT	IT	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	Systemkaufman	Systemkaufman	PROPN	NE	_	3	appos	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Meine spezielle gund für diese Tatigkeit mochte ich im folgenden darlegen: Ich bin kompetent, interesse an elektronische und arbeitete bereits praktikant informatik in Polizei.
+1	Meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det	_	_
+2	spezielle	speziell	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	gund	gund	NOUN	NN	_	7	dep	_	_
+4	für	für	ADP	APPR	_	6	case	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Tatigkeit	Tatigkeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	nmod	_	_
+7	mochte	mochte	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	folgenden	folgend	NOUN	ADJA	Case=Dat|Gender=Masc,Neut|Number=Sing	12	obl	_	_
+12	darlegen	darlegen	VERB	VVFIN	VerbForm=Fin	7	xcomp	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+14	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+15	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	cop	_	_
+16	kompetent	kompetent	ADJ	ADJD	Degree=Pos	7	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	interesse	intereß	NOUN	NN	Case=Acc|Number=Plur	20	obj	_	_
+19	an	an	ADP	APPR	_	20	case	_	_
+20	elektronische	elektronisch	ADJ	ADJA	Degree=Pos	16	conj	_	_
+21	und	und	CCONJ	KON	_	22	cc	_	_
+22	arbeitete	arbeiten	VERB	VVFIN	VerbForm=Fin	20	conj	_	_
+23	bereits	bereits	ADV	ADV	_	24	advmod	_	_
+24	praktikant	praktikant	ADJ	ADJD	Degree=Pos	22	advmod	_	_
+25	informatik	informatik	NOUN	NN	Case=Acc|Number=Sing	22	obj	_	_
+26	in	in	ADP	APPR	_	27	case	_	_
+27	Polizei	Polizei	NOUN	NN	_	22	obl	_	SpaceAfter=No
+28	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Ich habe kurs OFICCE.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	kurs	Kurs	ADV	NN	_	4	advmod	_	_
+4	OFICCE	OFICCE	NOUN	NE	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Wahrend meiner tatigkeit erwarb.
+1	Wahrend	Wahrend	SCONJ	KOUS	_	4	mark	_	_
+2	meiner	ich	PRON	PPOSAT	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	tatigkeit	tatigkeit	NOUN	NN	Case=Gen|Gender=Fem|Number=Plur	4	iobj	_	_
+4	erwarb	erwerben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = pozdraviam serdezcne Mit Froindlichen Grüßen Müller
+1	pozdraviam	pozdraviommen	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	serdezcne	serdezcn	ADJ	ADJA	Degree=Pos	5	advmod	_	SpacesAfter=\s\s\n
+3	Mit	mit	ADP	APPR	_	5	case	_	_
+4	Froindlichen	Froindlichen	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	Grüßen	Grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+6	Müller	Müller	PROPN	NE	_	5	appos	_	SpacesAfter=\n
+

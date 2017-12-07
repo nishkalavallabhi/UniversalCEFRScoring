@@ -1,0 +1,101 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001108_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Paolo, Come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Paolo	Paolo	PROPN	SP	_	1	conj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = La tua famiglia tutto bene?
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	tua	tuo	PRON	PP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	nsubj	_	_
+3	famiglia	famiglia	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	3	obj	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Arrivo lunedi prossima alle 14.00 a Città X e alle 15.00 00 a tua casa.
+1	Arrivo	arrivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	lunedi	lunede	NOUN	S	Gender=Fem|Number=Plur	1	obj	_	_
+3	prossima	proo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4-5	alle	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
+6	14.00	14.00	NUM	N	NumType=Card	1	obl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	Città	PROPN	SP	_	1	obl	_	_
+9	X	x	PROPN	SP	_	8	flat:name	_	_
+10	e	e	CCONJ	CC	_	13	cc	_	_
+11-12	alle	_	_	_	_	_	_	_	_
+11	a	a	ADP	E	_	13	case	_	_
+12	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	13	det	_	_
+13	15.00	15.00	NUM	N	NumType=Card	8	conj	_	_
+14	00	00	NUM	N	NumType=Card	13	nummod	_	_
+15	a	a	ADP	E	_	17	case	_	_
+16	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	casa	casa	NOUN	S	Gender=Fem|Number=Sing	13	nmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Va bene per te?
+1	Va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	bene	bene	ADV	B	_	1	advmod	_	_
+3	per	per	ADP	E	_	4	case	_	_
+4	te	te	PRON	PE	Number=Sing|Person=2|PronType=Prs	1	obl	_	SpaceAfter=No
+5	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 5
+# text = Martedi, io vuole visitare Città X perche in un altro lettera tu scritto, Città X e una interessante città.
+1	Martedi	Martede	PROPN	SP	_	5	vocative	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	visitare	visitare	VERB	V	VerbForm=Inf	0	root	_	_
+6	Città	Città	PROPN	SP	_	5	obj	_	_
+7	X	X	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpacesAfter=\s\s
+8	perche	perca	ADV	B	_	5	advmod	_	_
+9	in	in	ADP	E	_	12	case	_	_
+10	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+11	altro	altro	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	_
+12	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	obl	_	_
+13	tu	tu	PRON	PE	Number=Sing|Person=2|PronType=Prs	12	advcl	_	_
+14	scritto	scrivere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	13	punct	_	_
+16	Città	Città	PROPN	SP	_	13	appos	_	_
+17	X	X	PROPN	SP	_	16	flat:name	_	_
+18	e	e	CCONJ	CC	_	21	cc	_	_
+19	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	interessante	interessante	ADJ	A	Number=Sing	21	amod	_	_
+21	città	città	NOUN	S	Gender=Fem	16	conj	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = Sono per tre giorni in Città X e vuole sapere tutti della città.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+2	per	per	ADP	E	_	4	case	_	_
+3	tre	tre	NUM	N	NumType=Card	4	nummod	_	_
+4	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	0	root	_	_
+7	X	x	PROPN	SP	_	6	flat:name	_	_
+8	e	e	CCONJ	CC	_	10	cc	_	_
+9	vuole	volere	AUX	VM	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	sapere	sapere	VERB	V	VerbForm=Inf	6	conj	_	_
+11	tutti	tutto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	10	obj	_	_
+12-13	della	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	città	città	NOUN	S	Gender=Fem	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Tanti saluti Maria
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

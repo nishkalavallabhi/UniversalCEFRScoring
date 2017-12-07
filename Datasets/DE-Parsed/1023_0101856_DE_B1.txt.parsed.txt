@@ -1,0 +1,165 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101856_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 22 März 2010 Computer-Spezialist Odenwaldstraße 5 53119 Bonn Betreff: Ihre Stelle fur ein Vertriebspraktikant Sehr geehrte Damen und Herren, ich möchte mich bei Ihnen für die Stelle zum Vertriebspraktikant bewerben, wie gelesen in Ihre Anzeige in Computer Fachblatt von 19-03-2010 Für meine ausbildung zum Computer Programem an der Hochschule in Stadt X steht auch ein Praktikum aufs Program.
+1	Stadt	Stadt	NOUN	NN	_	36	dep	_	_
+2	X	X	X	ADJA	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	5	punct	_	_
+4	22	22	NUM	CARD	NumType=Card	5	nummod	_	_
+5	März	März	PROPN	NN	_	1	appos	_	_
+6	2010	2010	NUM	CARD	NumType=Card	5	nmod	_	SpacesAfter=\n
+7	Computer-Spezialist	Computer-Spezialist	PROPN	NN	_	5	flat	_	SpacesAfter=\n
+8	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	5	flat	_	_
+9	5	5	NUM	CARD	NumType=Card	5	nmod	_	SpacesAfter=\n
+10	53119	53119	NUM	CARD	NumType=Card	5	nummod	_	_
+11	Bonn	Bonn	PROPN	NE	_	5	appos	_	SpacesAfter=\n
+12	Betreff	Betreff	PROPN	NN	_	5	flat	_	SpaceAfter=No
+13	:	:	PUNCT	$.	_	1	punct	_	_
+14	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Stelle	Stelle	NOUN	NN	_	16	nmod	_	_
+16	fur	fur	PROPN	NE	Case=Nom|Number=Sing	21	nsubj	_	_
+17	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	18	det	_	_
+18	Vertriebspraktikant	Vertriebspraktikant	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	21	obj	_	SpacesAfter=\n
+19	Sehr	Sehr	ADV	ADV	_	20	advmod	_	_
+20	geehrte	geehrt	ADJ	ADJA	Degree=Pos	21	amod	_	_
+21	Damen	Dame	NOUN	NN	_	1	appos	_	_
+22	und	und	CCONJ	KON	_	23	cc	_	_
+23	Herren	Herr	NOUN	NN	_	21	conj	_	SpaceAfter=No
+24	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+25	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	_
+26	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	aux	_	_
+27	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	36	obj	_	_
+28	bei	bei	ADP	APPR	_	29	case	_	_
+29	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	36	obl	_	_
+30	für	für	ADP	APPR	_	32	case	_	_
+31	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	32	det	_	_
+32	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	36	obl	_	_
+33-34	zum	_	_	_	_	_	_	_	_
+33	zu	zu	ADP	APPR	_	35	case	_	_
+34	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	35	det	_	_
+35	Vertriebspraktikant	Vertriebspraktikant	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	32	nmod	_	_
+36	bewerben	bewerben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+37	,	,	PUNCT	$,	_	36	punct	_	_
+38	wie	wie	CCONJ	KOUS	_	39	cc	_	_
+39	gelesen	lesen	VERB	VVPP	VerbForm=Part	61	acl	_	_
+40	in	in	ADP	APPR	_	42	case	_	_
+41	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	42	det:poss	_	_
+42	Anzeige	Anzeige	NOUN	NN	_	39	obl	_	_
+43	in	in	ADP	APPR	_	45	case	_	_
+44	Computer	Computer	ADJ	ADJA	Degree=Cmp,Pos	45	amod	_	_
+45	Fachblatt	Fachblatt	NOUN	NN	_	39	obl	_	_
+46	von	von	ADP	APPR	_	47	case	_	_
+47	19-03-2010	19-03-2010	NUM	CARD	NumType=Card	45	nmod	_	_
+48	Für	Für	ADP	APPR	_	50	case	_	_
+49	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	50	det:poss	_	_
+50	ausbildung	ausbildung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	61	obl	_	_
+51-52	zum	_	_	_	_	_	_	_	_
+51	zu	zu	ADP	APPR	_	54	case	_	_
+52	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	54	det	_	_
+53	Computer	Computer	ADJ	ADJA	Case=Dat|Degree=Cmp,Pos|Number=Sing	54	amod	_	_
+54	Programem	Programem	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	50	nmod	_	_
+55	an	an	ADP	APPR	_	57	case	_	_
+56	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	det	_	_
+57	Hochschule	Hochschule	PROPN	NN	Case=Dat|Gender=Fem|Number=Sing	54	nmod	_	_
+58	in	in	ADP	APPR	_	59	case	_	_
+59	Stadt	Stadt	PROPN	NN	_	57	nmod	_	_
+60	X	X	PROPN	NN	_	59	appos	_	_
+61	steht	stehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	36	conj	_	_
+62	auch	auch	ADV	ADV	_	36	advmod	_	_
+63	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	64	det	_	_
+64	Praktikum	Praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	36	obj	_	_
+65-66	aufs	_	_	_	_	_	_	_	_
+65	auf	auf	ADP	APPR	_	67	case	_	_
+66	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	67	det	_	_
+67	Program	Program	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	64	nmod	_	SpaceAfter=No
+68	.	.	PUNCT	$.	_	36	punct	_	SpacesAfter=\n\s
+
+# sent_id = 2
+# text = Seit mehrere Jahren bin ich teilzeit bei einem Freund beschäftigd und kann damit schön erste erfahrungen nachweisen.
+1	Seit	seit	ADP	APPR	_	3	case	_	_
+2	mehrere	mehrere	PRON	PIAT	PronType=Ind	3	det	_	_
+3	Jahren	Jahr	NOUN	NN	Case=Dat|Number=Plur	4	obl	_	_
+4	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	teilzeit	teilzeit	ADV	ADV	_	4	advmod	_	_
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Freund	Freund	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	4	obl	_	_
+10	beschäftigd	beschäftigd	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	_
+11	und	und	CCONJ	KON	_	17	cc	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+13	damit	damit	ADV	PAV	_	17	advmod	_	_
+14	schön	schön	ADJ	ADJD	Degree=Pos	17	advmod	_	_
+15	erste	erst	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur|NumType=Ord	16	amod	_	_
+16	erfahrungen	erfahrungen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	_
+17	nachweisen	nachweisen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Und naturlich kann ich mich mit den Englische Sprache gut aus.
+1	Und	und	CCONJ	KON	_	2	cc	_	_
+2	naturlich	naturlich	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+5	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+6	mit	mit	ADP	APPR	_	9	case	_	_
+7	den	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	9	det	_	_
+8	Englische	englisch	PROPN	ADJA	Case=Nom|Gender=Fem|Number=Sing	9	amod	_	_
+9	Sprache	Sprache	PROPN	NN	_	10	obl	_	_
+10	gut	gun	VERB	VVPP	VerbForm=Part	0	root	_	_
+11	aus	aus	ADP	PTKVZ	_	10	compound:prt	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich möchte mich mit diese Stelle noch weiter berüflich ausbilden Freundlichkeit und Kundenservice sind ein wichtiger Teil davon Bei weitere Fragen stehe ich Ihnen gerne persöhnlich zu verfugung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	obj	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
+6	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+7	noch	noch	ADV	ADV	_	8	advmod	_	_
+8	weiter	weiter	ADJ	ADV	Degree=Pos	9	advmod	_	_
+9	berüflich	berüflich	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+10	ausbilden	ausbilden	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+11	Freundlichkeit	Freundlichkeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+12	und	und	CCONJ	KON	_	13	cc	_	_
+13	Kundenservice	Kundenservice	NOUN	NN	_	11	conj	_	_
+14	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+15	ein	ein	DET	ART	Definite=Ind|PronType=Art	17	det	_	_
+16	wichtiger	wichtig	ADJ	ADJA	Degree=Cmp,Pos	17	amod	_	_
+17	Teil	Teil	NOUN	NN	_	10	parataxis	_	_
+18	davon	davon	ADV	PAV	_	17	advmod	_	_
+19	Bei	Bei	ADP	APPR	_	21	case	_	_
+20	weitere	weit	ADJ	ADJA	Degree=Cmp	21	amod	_	_
+21	Fragen	Frage	NOUN	NN	Case=Dat|Number=Plur	22	obl	_	_
+22	stehe	stehen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	17	acl	_	_
+23	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+24	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	22	iobj	_	_
+25	gerne	gerne	ADV	ADV	_	26	advmod	_	_
+26	persöhnlich	persöhnlich	ADJ	ADJD	Degree=Pos	22	advmod	_	_
+27	zu	zu	ADP	APPR	_	28	case	_	_
+28	verfugung	verfugung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mit vielen Dank im Voraus, M.
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	vielen	viel	ADJ	PIAT	Degree=Pos	3	amod	_	_
+3	Dank	Dank	NOUN	NN	_	0	root	_	_
+4-5	im	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+6	Voraus	voraus	NOUN	NN	_	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\s\n
+8	M.	M.	NOUN	NN	_	3	appos	_	_
+
+# sent_id = 6
+# text = Meier Anhang: Lebenslauf Foto Zeugnisse
+1	Meier	Meier	NUM	ADJA	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Anhang	Anhang	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	:	:	PUNCT	$.	_	2	punct	_	_
+4	Lebenslauf	Lebenslauf	NOUN	NN	_	5	compound	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+5	Foto	Foto	PROPN	NN	_	6	nmod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	Zeugnisse	Zeugnis	NOUN	NN	_	2	appos	_	SpacesAfter=\n
+

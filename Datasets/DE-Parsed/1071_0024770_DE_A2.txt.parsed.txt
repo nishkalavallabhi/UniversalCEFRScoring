@@ -1,0 +1,77 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024770_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Ingo Ich habe eine Arbeit in Neuburg.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	appos	_	SpacesAfter=\n
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Neuburg	Neuburg	PROPN	NE	_	6	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Muss du Helfen mir.
+1	Muss	muss	NOUN	NN	Case=Nom|Number=Plur	3	nsubj	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	3	nsubj	_	_
+3	Helfen	helfen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Brauche du mir bitte Neue Wohnung in Neuburg.
+1	Brauche	brauche	NOUN	NN	_	0	root	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	nsubj	_	_
+3	mir	ich	PROPN	PPER	_	2	nmod	_	_
+4	bitte	bitten	PROPN	NN	_	7	nmod	_	_
+5	Neue	neu	PROPN	ADJA	Case=Acc|Gender=Fem|Number=Sing	6	amod	_	_
+6	Wohnung	Wohnung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Neuburg	Neuburg	PROPN	NE	_	1	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Ich habe Große Wohnung 4 Zimmer, Kuche, Toilete und Balkon, bis 750 € warm.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	_
+3	Große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Plur	4	amod	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+5	4	4	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	8	punct	_	_
+8	Kuche	kuche	NOUN	NN	_	6	conj	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	10	punct	_	_
+10	Toilete	Toilete	NOUN	NN	_	6	conj	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Balkon	Balkon	NOUN	NN	_	6	conj	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	4	punct	_	_
+14	bis	bis	ADP	APPR	_	15	case	_	_
+15	750	750	NUM	CARD	NumType=Card	4	nmod	_	_
+16	€	€	X	NN	_	17	advmod	_	_
+17	warm	warm	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Suchst du Wohnung haustiere auch.
+1	Suchst	Suchst	ADV	ADV	_	4	advmod	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	3	det	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	haustiere	haustieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	auch	auch	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Vielen Dank!
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Vielen Grüssen deine Eva
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Grüssen	Grüsse	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	deine	dein	PROPN	NE	_	2	appos	_	_
+4	Eva	Eva	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

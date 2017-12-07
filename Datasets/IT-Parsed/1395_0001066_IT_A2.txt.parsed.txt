@@ -1,0 +1,137 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001066_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Carlo Città X, 18 junio Comè stai?
+1	Ciao	Ciao	PROPN	SP	_	9	nsubj	_	_
+2	Carlo	Carlo	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Città	Città	PROPN	SP	_	1	flat:name	_	_
+4	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	18	18	NUM	N	NumType=Card	7	nummod	_	_
+7	junio	junio	NOUN	S	Gender=Masc|Number=Sing	1	nmod	_	SpacesAfter=\s\n
+8	Comè	Comè	PROPN	SP	_	7	nmod	_	_
+9	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	FS	_	9	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Siamo sull'isola d'Elba in vacanze e la mia famiglia ed io stanno molto bene.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+2-3	sull'	_	_	_	_	_	_	_	SpaceAfter=No
+2	su	su	ADP	E	_	4	case	_	_
+3	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+4	isola	isola	NOUN	S	Gender=Fem|Number=Sing	0	root	_	_
+5	d'	di	ADP	E	_	6	case	_	SpaceAfter=No
+6	Elba	Elba	PROPN	SP	_	4	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	_
+9	e	e	CCONJ	CC	_	12	cc	_	_
+10	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	4	conj	_	_
+13	ed	e	CCONJ	CC	_	15	cc	_	_
+14	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	stanno	stare	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+16	molto	molto	ADV	B	_	17	advmod	_	_
+17	bene	bene	ADV	B	_	15	advmod	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Il tempo è fantastico e siamo alla spiagga tutti i giorni.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	4	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fantastico	fantastico	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	siamo	essere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	spiagga	spiagga	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	tutti	tutto	DET	T	Gender=Masc|Number=Plur|PronType=Tot	12	det:predet	_	_
+11	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
+12	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	6	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 4
+# text = Abiamo trovato una piccola casa vicino al mare.
+1	Abiamo	abiamo	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	piccola	piccolo	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+6	vicino	vicino	ADV	B	_	9	case	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	6	fixed	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	mare	mare	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Alla settimana passata abiamo fatto un giro dell'isola.
+1-2	Alla	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+4	passata	passato	ADJ	A	Gender=Fem|Number=Sing	3	amod	_	_
+5	abiamo	abare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+7	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	giro	giro	NOUN	S	Gender=Masc|Number=Sing	6	obj	_	_
+9-10	dell'	_	_	_	_	_	_	_	SpaceAfter=No
+9	di	di	ADP	E	_	11	case	_	_
+10	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
+11	isola	isola	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 6
+# text = Al officio va bene anche, ho un nuovo capo, ed è molto piacevole di lavore con lui.
+1-2	Al	_	_	_	_	_	_	_	_
+1	A	a	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	officio	officio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+4	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	_
+6	anche	anche	ADV	B	_	4	advmod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	11	punct	_	_
+8	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	cop	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+10	nuovo	nuovo	ADJ	A	Gender=Masc|Number=Sing	11	amod	_	_
+11	capo	capo	NOUN	S	Gender=Masc|Number=Sing	4	conj	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	16	punct	_	_
+13	ed	e	CCONJ	CC	_	16	cc	_	_
+14	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	piacevole	piacevole	ADJ	A	Number=Sing	4	conj	_	_
+17	di	di	ADP	E	_	18	case	_	_
+18	lavore	lavore	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpacesAfter=\s\s
+19	con	con	ADP	E	_	20	case	_	_
+20	lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 7
+# text = Quando siamo ritornati, è possibile incontrarti?
+1	Quando	quando	SCONJ	CS	_	3	mark	_	_
+2	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	ritornati	ritornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	6	advcl	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	possibile	possibile	ADJ	A	Number=Sing	0	root	_	_
+7-8	incontrarti	_	_	_	_	_	_	_	SpaceAfter=No
+7	incontrar	incontrare	VERB	V	VerbForm=Inf	6	csubj	_	_
+8	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	7	obj	_	_
+9	?	?	PUNCT	FS	_	6	punct	_	_
+
+# sent_id = 8
+# text = Fammi sapere!
+1	Fammi	Fammo	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sapere	sapere	VERB	V	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n\s\n
+
+# newpar
+# sent_id = 9
+# text = Cari saluti, Michele
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	Michele	Michele	PROPN	SP	_	2	appos	_	SpacesAfter=\n
+

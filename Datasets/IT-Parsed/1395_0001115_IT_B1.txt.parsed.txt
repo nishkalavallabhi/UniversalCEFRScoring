@@ -1,0 +1,120 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001115_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = 9 luglio 2011 Carissimo Alessandro, come stai?
+1	9	9	NUM	N	NumType=Card	4	nmod	_	_
+2	luglio	luglio	NOUN	S	Gender=Masc|Number=Sing	1	flat	_	_
+3	2011	2011	NUM	N	NumType=Card	1	flat	_	SpacesAfter=\s\n
+4	Carissimo	Caro	PROPN	SP	_	0	root	_	_
+5	Alessandro	Alessandro	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	4	punct	_	SpacesAfter=\s\n
+7	come	come	SCONJ	CS	_	8	mark	_	_
+8	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	advcl	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 2
+# text = Mia madre e io stiamo molto bene.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	madre	madre	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	conj	_	_
+5	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	molto	molto	ADV	B	_	7	advmod	_	_
+7	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 3
+# text = Spero che la tua familia anche sta bene.
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	7	mark	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	familia	familia	NOUN	S	Gender=Fem|Number=Sing	7	nsubj	_	_
+6	anche	anche	ADV	B	_	7	advmod	_	_
+7	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+8	bene	bene	ADV	B	_	7	advmod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 4
+# text = Mi piacerebbe rivederti presto.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piacerebbe	piacere	VERB	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	rivederti	_	_	_	_	_	_	_	_
+3	riveder	rivedere	VERB	V	VerbForm=Inf	2	xcomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	iobj	_	_
+5	presto	presto	ADV	B	_	3	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Forse possiamo incontrarci questo mese perché abbiamo vacanze estive.
+1	Forse	forse	ADV	B	_	3	advmod	_	_
+2	possiamo	potere	AUX	VM	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3-4	incontrarci	_	_	_	_	_	_	_	_
+3	incontrar	incontrare	VERB	V	VerbForm=Inf	0	root	_	_
+4	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	_
+5	questo	questo	DET	DD	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	mese	mese	NOUN	S	Gender=Masc|Number=Sing	3	obj	_	_
+7	perché	perché	SCONJ	CS	_	8	mark	_	_
+8	abbiamo	avere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+9	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	8	obj	_	_
+10	estive	estivo	ADJ	A	Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Che cosa pensi di trovarci fra due settimane per cinque giorni?
+1	Che	che	DET	DQ	PronType=Int	2	det	_	_
+2	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+3	pensi	pensare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	di	di	ADP	E	_	5	mark	_	_
+5-6	trovarci	_	_	_	_	_	_	_	_
+5	trovar	trovare	VERB	V	VerbForm=Inf	3	xcomp	_	_
+6	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	_
+7	fra	fra	ADP	E	_	9	case	_	_
+8	due	due	NUM	N	NumType=Card	9	nummod	_	_
+9	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	5	obl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	cinque	cinque	NUM	N	NumType=Card	12	nummod	_	_
+12	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Sono certa che c'é un sacco di cose da fare insieme, per esempio andare in discoteca.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	certa	certo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	5	mark	_	_
+4	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	5	expl	_	SpaceAfter=No
+5	é	é	PRON	PP	Number=Sing|Poss=Yes|PronType=Prs	2	nsubj	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	sacco	sacco	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	7	nmod	_	_
+10	da	da	ADP	E	_	11	mark	_	_
+11	fare	fare	VERB	V	VerbForm=Inf	9	acl	_	_
+12	insieme	insieme	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	per	per	ADP	E	_	15	case	_	_
+15	esempio	esempio	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	_
+16	andare	andare	VERB	V	VerbForm=Inf	11	xcomp	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	discoteca	discoteca	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 8
+# text = Hai una idea che ancora potremmo fare?
+1	Hai	avere	VERB	V	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	idea	idea	NOUN	S	Gender=Fem|Number=Sing	1	obj	_	_
+4	che	che	PRON	PR	PronType=Rel	7	obj	_	_
+5	ancora	ancora	ADV	B	_	7	advmod	_	_
+6	potremmo	potere	AUX	VM	Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	fare	fare	VERB	V	VerbForm=Inf	3	acl:relcl	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Ciao e a presto Maria
+1	Ciao	ciao	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	presto	presto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

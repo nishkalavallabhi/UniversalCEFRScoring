@@ -1,0 +1,127 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001169_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cari amici, tanti saluti da Città X.
+1	Cari	caro	ADJ	A	Gender=Masc|Number=Plur	2	amod	_	_
+2	amici	amico	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+4	tanti	tanto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	_
+5	saluti	salutare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	acl	_	_
+6	da	da	ADP	E	_	7	case	_	_
+7	Città	Città	PROPN	SP	_	5	obl:agent	_	_
+8	X	x	ADJ	NO	Number=Sing|NumType=Ord	7	amod	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Sto facendo un corso di italiano in strada maggiore .
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	facendo	fare	VERB	V	VerbForm=Ger	0	root	_	_
+3	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	corso	corso	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+5	di	di	ADP	E	_	6	case	_	_
+6	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	in	in	ADP	E	_	8	case	_	_
+8	strada	strada	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	maggiore	maggiore	ADJ	A	Degree=Cmp|Number=Sing	8	amod	_	_
+10	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = La mia insegnante si chiama Carla.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Carla	Carla	PROPN	SP	_	5	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Lei è davvero brava e mi aiuta molto d'imparare la lingua italiana.
+1	Lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	davvero	davvero	ADV	B	_	4	advmod	_	_
+4	brava	bravo	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	e	e	CCONJ	CC	_	7	cc	_	_
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	aiuta	aiutare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+8	molto	molto	ADV	B	_	10	advmod	_	_
+9	d'	di	ADP	E	_	10	mark	_	SpaceAfter=No
+10	imparare	imparare	VERB	V	VerbForm=Inf	7	xcomp	_	_
+11	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	10	obj	_	_
+13	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Per questo sto benissimo.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	3	obl	_	_
+3	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	benissimo	bene	ADV	B	Degree=Abs	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Nel mio tempo libro mi godo il sole e faccio lo shopping.
+1-2	Nel	_	_	_	_	_	_	_	_
+1	In	in	ADP	E	_	4	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+5	libro	libro	ADJ	A	Gender=Masc|Number=Sing	4	amod	_	SpacesAfter=\s\s
+6	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
+7	godo	godo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sole	sole	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	11	cc	_	_
+11	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	lo	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	shopping	shopping	NOUN	S	Gender=Masc	11	obj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	7	punct	_	_
+
+# sent_id = 7
+# text = Ho visto già tante belle cose ...
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	visto	vedere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	già	già	ADV	B	_	2	advmod	_	_
+4	tante	tanto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	6	det	_	_
+5	belle	bello	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	cose	cosa	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+7	...	.	PUNCT	FF	_	2	punct	_	_
+
+# sent_id = 8
+# text = Spero che anche voi state bene...
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	che	che	SCONJ	CS	_	6	mark	_	_
+3	anche	anche	ADV	B	_	6	advmod	_	_
+4	voi	voi	AUX	VM	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	state	essere	AUX	VA	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	6	cop	_	_
+6	bene..	bene	NOUN	S	_	1	ccomp	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Purtroppo tra due settimane devo ritornare a casa.
+1	Purtroppo	purtroppo	ADV	B	_	6	advmod	_	_
+2	tra	tra	ADP	E	_	4	case	_	_
+3	due	due	NUM	N	NumType=Card	4	nummod	_	_
+4	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	6	obl	_	_
+5	devo	dovere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	ritornare	ritornare	VERB	V	VerbForm=Inf	0	root	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	casa	casa	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = A presto!
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 11
+# text = Bacio!
+1	Bacio	Bacio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s
+
+# sent_id = 12
+# text = Maria
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

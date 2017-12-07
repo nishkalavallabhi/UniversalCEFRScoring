@@ -1,0 +1,139 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000205_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Bahnhofsstrß 12 12345, Stadt X. Wohnungsamt. Winkelsgss. - 321.
+1	Bahnhofsstrß	Bahnhofsstrß	PROPN	NN	_	5	dep	_	_
+2	12	12	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\s\n
+3	12345	12345	NUM	CARD	NumType=Card	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	5	punct	_	SpacesAfter=\n
+5	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+6	X.	X.	PROPN	NE	_	5	appos	_	SpacesAfter=\n\s\n
+7	Wohnungsamt	Wohnungsamt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	6	flat	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+9	Winkelsgss.	Winkelsgss.	PROPN	NE	_	5	appos	_	_
+10	-	-	PUNCT	$(	_	9	punct	_	_
+11	321	321	PROPN	CARD	_	9	appos	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Stadt X 10.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	10	10	PROPN	CARD	_	1	appos	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 3
+# text = März 12 Ich suche eine passende wohnung Sehr gerrhte Herren und Damen.
+1	März	März	PROPN	NN	_	4	dep	_	_
+2	12	12	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n\s\s\s\s\s\s\s
+3	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	suche	suchen	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	passende	passende	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpacesAfter=\n
+8	Sehr	sehr	ADV	ADV	_	9	advmod	_	_
+9	gerrhte	gerrht	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Herren	Herr	NOUN	NN	_	4	appos	_	_
+11	und	und	CCONJ	KON	_	12	cc	_	_
+12	Damen	Dame	NOUN	NN	_	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich suche eine passende, wohnung für mich, ich wohne in Stadt X seit ca. 5 Jahren.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	passende	passende	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	6	punct	_	_
+6	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+7	für	für	ADP	APPR	_	8	case	_	_
+8	mich	ich	PRON	PPER	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	6	punct	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+11	wohne	wohne	ADP	APPR	_	18	dep	_	_
+12	in	in	ADP	APPR	_	13	case	_	_
+13	Stadt	Stadt	PROPN	NN	_	18	obl	_	_
+14	X	X	PROPN	NN	_	13	appos	_	_
+15	seit	seit	ADP	APPR	_	17	case	_	_
+16	ca.	ca.	ADV	ADV	_	17	advmod	_	_
+17	5	5	NUM	CARD	NumType=Card	18	obl	_	_
+18	Jahren	Jahr	VERB	VVFIN	VerbForm=Fin	4	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Aber meine wohnung ist Klein und hatt auch keine Balkon.
+1	Aber	aber	CCONJ	KON	_	5	cc	_	_
+2	meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	wohnung	wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	Klein	klein	ADJ	ADJD	Degree=Pos	0	root	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	hatt	hatt	ADJ	ADJD	Degree=Pos	5	conj	_	_
+8	auch	auch	ADV	ADV	_	10	advmod	_	_
+9	keine	kein	PRON	PIAT	PronType=Neg	10	advmod	_	_
+10	Balkon	Balkon	NOUN	NN	_	5	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 6
+# text = das wegen schriebe ich ob Ihr mich eine passend wohnung bersorgen kann?
+1	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	wegen	wegen	ADP	APPR	_	3	case	_	_
+3	schriebe	schrieb	ADJ	ADJA	Degree=Pos	0	root	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+5	ob	ieben	SCONJ	ADV	_	11	mark	_	_
+6	Ihr	Ihr|ihr	PRON	PPOSAT	Case=Dat|Person=2,3|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	obj	_	_
+8	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	passend	passend	ADJ	ADJD	Degree=Pos	10	amod	_	_
+10	wohnung	wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+11	bersorgen	bersorgen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+13	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 7
+# text = Also eine Wohnung mit 4 zimmer, mit eine richtige schöner Balkon und noch mit eine Garage, weil ich eine neues Auto kaufen möchte.
+1	Also	also	ADV	ADV	_	3	advmod	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	4	4	NUM	CARD	NumType=Card	6	nummod	_	_
+6	zimmer	zimmer	NOUN	NN	Case=Acc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	mit	mit	ADP	APPR	_	12	case	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+10	richtige	richtig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+11	schöner	schön	ADJ	ADJA	Degree=Cmp,Pos	12	amod	_	_
+12	Balkon	Balken	NOUN	NN	_	3	nmod	_	_
+13	und	und	CCONJ	KON	_	17	cc	_	_
+14	noch	noch	ADV	ADV	_	17	advmod	_	_
+15	mit	mit	ADP	APPR	_	17	case	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Garage	Garage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	17	punct	_	_
+19	weil	weil	SCONJ	KOUS	_	24	mark	_	_
+20	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	nsubj	_	_
+21	eine	ein	DET	ART	Definite=Ind|PronType=Art	23	det	_	_
+22	neues	neu	ADJ	ADJA	Degree=Pos	23	amod	_	_
+23	Auto	Auto	NOUN	NN	_	24	obl	_	_
+24	kaufen	kaufen	VERB	VVINF	VerbForm=Inf	17	advcl	_	_
+25	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 8
+# text = Auf eine positiv Antwort würde mich freuen.
+1	Auf	auf	ADP	APPR	_	4	case	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	positiv	positiv	ADJ	ADJD	Degree=Pos	4	amod	_	_
+4	Antwort	Antwort	NOUN	NN	_	7	obl	_	_
+5	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+7	freuen	freuen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Freundlich Grüße Stefan Meier
+1	Freundlich	freundlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Stefan	Stefan	PROPN	NE	_	2	appos	_	_
+4	Meier	Meier	PROPN	NN	_	3	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,75 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0243581_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Lieber Jens, wie geht es Dir?
+1	Lieber	lieb	PROPN	NN	_	0	root	_	_
+2	Jens	Jens	PROPN	NE	_	1	flat	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	wie	wie	ADV	KOUS	_	5	advmod	_	_
+5	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	1	parataxis	_	_
+6	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	Dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	5	obj	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Ich wüsche Hirzlisch Glück und gesund für deine Frau und dein Baby. wie geht es sie?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+2	wüsche	wüsch	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+3	Hirzlisch	Hirzlisch	ADJ	NN	_	4	amod	_	_
+4	Glück	Glück	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	gesund	gesund	ADJ	ADJD	Degree=Pos	4	conj	_	_
+7	für	für	ADP	APPR	_	9	case	_	_
+8	deine	dein	ADJ	ADJA	Degree=Pos	9	amod	_	_
+9	Frau	Frau	NOUN	NN	_	6	nmod	_	_
+10	und	und	CCONJ	KON	_	11	cc	_	_
+11	dein	dein	PROPN	PPOSAT	_	9	conj	_	_
+12	Baby	Baby	PROPN	NN	_	11	flat	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+14	wie	wie	ADV	KOKOM	_	15	advmod	_	_
+15	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+16	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+17	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	SpaceAfter=No
+18	?	?	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 3
+# text = Ist sie zu Hause oder im KrankenHause?
+1	Ist	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	1	obl	_	_
+5	oder	oder	CCONJ	KON	_	8	cc	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	KrankenHause	KrankenHause	NOUN	NN	_	4	conj	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 4
+# text = Wie Heisen das baby?
+1	Wie	wie	ADP	KOKOM	_	2	case	_	_
+2	Heisen	Heisen	NOUN	NN	_	0	root	_	_
+3	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	baby	baby	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No
+5	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Bitteschreiben fur mich einen Brief.
+1	Bitteschreiben	Bitteschreiben	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+2	fur	fur	PROPN	NE	_	1	appos	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	einen	ein	NOUN	ART	Case=Acc|Number=Plur	5	obj	_	_
+5	Brief	Brief	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Gruße, dein Freunde F. lachendes Gesicht
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Gruße	Muß|Gruße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	_
+4	dein	dein	PROPN	PPOSAT	_	2	appos	_	_
+5	Freunde	Freund	PROPN	NN	_	4	flat	_	_
+6	F.	F.	PROPN	NE	_	4	flat	_	_
+7	lachendes	lachend	ADJ	ADJA	Degree=Pos	8	amod	_	_
+8	Gesicht	Gesicht	NOUN	NN	_	0	root	_	SpacesAfter=\n
+

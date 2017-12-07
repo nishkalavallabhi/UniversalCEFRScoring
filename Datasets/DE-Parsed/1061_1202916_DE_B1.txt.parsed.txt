@@ -1,0 +1,150 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_1202916_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, den 27.02.12 Liebe Olga, ich wunsche dir Glück zur Prüfung, und bin ich jetzt in den Urlaub.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	den	der	DET	ART	Definite=Def|PronType=Art	6	det	_	_
+5	27.02.12	27.02.12	PROPN	NN	_	6	amod	_	SpacesAfter=\n
+6	Liebe	Liebe	PROPN	NN	_	1	appos	_	_
+7	Olga	Olga	PROPN	NE	_	6	flat	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	wunsche	wunsch	ADJ	ADJA	Degree=Pos	11	advmod	_	_
+11	dir	dir	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	obj	_	_
+12	Glück	Glück	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+13-14	zur	_	_	_	_	_	_	_	_
+13	zu	zu	ADP	APPR	_	15	case	_	_
+14	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	1	punct	_	_
+17	und	und	CCONJ	KON	_	18	cc	_	_
+18	bin	sein	VERB	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	1	conj	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	nsubj	_	_
+20	jetzt	jetzt	ADV	ADV	_	23	advmod	_	_
+21	in	in	ADP	APPR	_	23	case	_	_
+22	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	Urlaub	Urlaub	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	18	obl	_	SpaceAfter=No
+24	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich bin in Stadt X und besuche meine Freundin, sie wohnt schon 15 Jahre hier.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Stadt	Stadt	PROPN	NN	_	9	nmod	_	_
+5	X	X	PROPN	NN	_	4	appos	_	_
+6	und	und	CCONJ	KON	_	7	cc	_	_
+7	besuche	besuche	NOUN	NN	_	4	conj	_	_
+8	meine	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Freundin	Freundin	NOUN	NN	_	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	wohnt	wohnen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	9	parataxis	_	_
+13	schon	schon	ADV	ADV	_	12	advmod	_	_
+14	15	15	NUM	CARD	NumType=Card	15	nummod	_	_
+15	Jahre	Jahr	NOUN	NN	_	12	obl	_	_
+16	hier	hier	ADV	ADV	_	12	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Der ist groß und interessant Stadt.
+1	Der	der	PRON	PDS	Case=Nom|PronType=Dem	3	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	groß	groß	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	interessant	interessant	ADJ	ADJD	Degree=Pos	6	amod	_	_
+6	Stadt	Stadt	NOUN	NN	_	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Gestern wäre wir ins Theater gegangen, dass war so schön.
+1	Gestern	gestern	ADV	ADV	_	7	advmod	_	_
+2	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+4-5	ins	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Theater	Theater	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+7	gegangen	gehen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	12	mark	_	_
+10	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	_
+11	so	so	ADV	ADV	_	12	advmod	_	_
+12	schön	schön	ADJ	ADJD	Degree=Pos	7	ccomp	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 5
+# text = Morger wir machen Ausflug im Stadt und besuchen Geschäft.
+1	Morger	Morger	PROPN	NE	Case=Nom|Number=Sing	3	nsubj	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	machen	machen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+4	Ausflug	Ausflug	NOUN	NN	Case=Nom|Number=Sing	3	nsubj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Stadt	Stadt	NOUN	NN	_	4	nmod	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	besuchen	besuchen	ADJ	ADJA	Degree=Pos	10	amod	_	_
+10	Geschäft	Geschäft	NOUN	NN	_	4	conj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = Ich bleibe hier noch zwei Woche bei meine Freundin.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bleibe	bleiben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	hier	hier	ADV	ADV	_	2	advmod	_	_
+4	noch	noch	ADV	ADV	_	2	advmod	_	_
+5	zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Woche	Woche	NOUN	NN	_	2	obl	_	_
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Freundin	Freundin	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Schreib mir Bitte, welhe Geschänk kann ich mit bringen oder schicken.
+1	Schreib	Schreib	NOUN	NN	_	10	dep	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	iobj	_	_
+3	Bitte	bitte	PART	ADV	_	10	mark	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	welhe	welh	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Geschänk	Geschänk	NOUN	NN	_	10	obl	_	_
+7	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	mit	mit	ADP	APPR	_	10	case	_	_
+10	bringen	bring	VERB	VVINF	VerbForm=Inf	0	root	_	_
+11	oder	oder	CCONJ	KON	_	12	cc	_	_
+12	schicken	schicken	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Wann ich komme nach Hause, kannst du mich besuchen?
+1	Wann	wann	ADV	ADV	_	3	advmod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+4	nach	nach	ADP	APPR	_	5	case	_	_
+5	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	3	obl	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	10	nsubj	_	_
+9	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	3	ccomp	_	SpaceAfter=No
+11	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 9
+# text = Ich warte dich Antworte bald.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	warte	warten	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+4	Antworte	Antwort	NOUN	NN	Case=Acc|Number=Plur	3	obj	_	_
+5	bald	bald	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Hertzliche Grüße Katharina
+1	Hertzliche	Hertzlich	NOUN	NN	_	0	root	_	_
+2	Grüße	Grüße	PROPN	NN	_	1	appos	_	SpacesAfter=\n
+3	Katharina	Katharina	PROPN	NE	_	2	flat	_	SpacesAfter=\n
+

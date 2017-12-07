@@ -1,0 +1,283 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0108307_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Beschwerdebrief Maria Meier Stadt X Stadt X, am 7. Juli 2011.
+1	Beschwerdebrief	Beschwerdebrief	NOUN	NN	_	0	root	_	SpacesAfter=\n
+2	Maria	Maria	PROPN	NE	_	1	appos	_	_
+3	Meier	Meier	PROPN	NN	_	2	flat	_	SpacesAfter=\n
+4	Stadt	Stadt	PROPN	NN	_	2	flat	_	_
+5	X	X	PROPN	NN	_	2	appos	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	Stadt	Stadt	PROPN	NN	_	2	flat	_	_
+7	X	X	PROPN	NN	_	2	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	2	punct	_	_
+9-10	am	_	_	_	_	_	_	_	_
+9	an	an	ADP	APPR	_	1	case	_	_
+10	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+11	7	7	NUM	CARD	NumType=Card	13	nummod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+13	Juli	Juli	PROPN	NN	_	1	nmod	_	_
+14	2011	2011	NUM	CARD	NumType=Card	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = An die Au-pair-Agentur Schutz & Partner Regenstr.
+1	An	an	ADP	APPR	_	3	case	_	_
+2	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Au-pair-Agentur	Au-pair-Agentur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+4	Schutz	Schutz	NOUN	NN	_	3	nmod	_	_
+5	&	&	PUNCT	$.	_	6	punct	_	_
+6	Partner	Partner	NOUN	NN	_	4	appos	_	SpacesAfter=\n
+7	Regenstr	Regenstr	PROPN	NE	_	6	appos	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = 101 90451 Nürnberg Betreff: Betreeuung durch die Agentur.
+1	101	101	NUM	CARD	NumType=Card	3	nummod	_	SpacesAfter=\n
+2	90451	90451	NUM	CARD	NumType=Card	1	nummod	_	_
+3	Nürnberg	Nürnberg	PROPN	NE	_	0	root	_	SpacesAfter=\n
+4	Betreff	Betreff	PROPN	NN	_	3	flat	_	SpaceAfter=No
+5	:	:	PUNCT	$.	_	3	punct	_	_
+6	Betreeuung	Betreeuung	NOUN	NN	_	3	appos	_	_
+7	durch	durch	ADP	APPR	_	9	case	_	_
+8	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Agentur	agentur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Beschwerde da ich mich beschäftigt als Au-pair-Mädchen in Deutschland wollte habe ich Schultzagentur gesucht um eine versiecherte Stelle als Gastarbeiterin zu bekommen.
+1	Beschwerde	Beschwerde	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\n
+2	da	da	SCONJ	ADV	_	5	mark	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+5	beschäftigt	beschäftigen	VERB	VVPP	VerbForm=Part	1	advcl	_	_
+6	als	als	ADP	KOKOM	_	7	case	_	_
+7	Au-pair-Mädchen	Au-pair-Mädchen	NOUN	NN	_	5	obl	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Deutschland	Deutschland	PROPN	NE	_	10	obl	_	_
+10	wollte	wollen	VERB	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	ccomp	_	_
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+13	Schultzagentur	Schultzagentur	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	gesucht	suchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	ccomp	_	_
+15	um	um	ADP	APPR	_	22	mark	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+17	versiecherte	versiechert	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+19	als	als	ADP	KOKOM	_	20	case	_	_
+20	Gastarbeiterin	Gastarbeiterin	NOUN	NN	_	22	obl	_	_
+21	zu	zu	PART	PTKZU	_	22	mark	_	_
+22	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	14	advcl	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Als ich Ihre Annonce geleseh habe, habe ich an Sie geschrieben um Betreung zu bekommen.
+1	Als	als	SCONJ	KOUS	_	5	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+3	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Annonce	Annonce	NOUN	NE	_	5	obj	_	_
+5	geleseh	gelesehen	VERB	VVIMP	_	12	advcl	_	_
+6	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	12	punct	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	an	an	ADP	APPR	_	11	case	_	_
+11	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	12	obl	_	_
+12	geschrieben	schreiben	VERB	VVPP	VerbForm=Part	0	root	_	_
+13	um	um	ADP	APPR	_	16	mark	_	_
+14	Betreung	Betreung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+15	zu	zu	PART	PTKZU	_	16	mark	_	_
+16	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	12	advcl	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 6
+# text = Für Ihre Betreuung musste ich 150 Euro bezahlen.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	Ihre	Ihr|ihr	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Plur|Person=2,3|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Betreuung	Betreuung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+4	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	150	150	NUM	CARD	NumType=Card	7	nummod	_	_
+7	Euro	Euro	PROPN	NN	_	8	obl	_	_
+8	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Alles war mit Ihnen genau vereinbaren : ich könnte bei der deutsche Familie als Gast wohnen, die Beschäftigung mit zwei Kindern sollte maximal 4 Stunde pro Tag dauern.
+1	Alles	alle	PRON	PIS	Case=Nom|PronType=Tot	6	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	mit	mit	ADP	APPR	_	4	case	_	_
+4	Ihnen	Sie|sie	PRON	PPER	Case=Dat|Person=2|Polite=Form|PronType=Prs	6	nmod	_	_
+5	genau	genau	ADJ	ADJD	Degree=Pos	6	advmod	_	_
+6	vereinbaren	vereinbaren	NOUN	NN	_	0	root	_	_
+7	:	:	PUNCT	$.	_	6	punct	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+9	könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+10	bei	bei	ADP	APPR	_	13	case	_	_
+11	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+12	deutsche	deutsch	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	Familie	Familie	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	16	obl	_	_
+14	als	als	ADP	KOKOM	_	15	case	_	_
+15	Gast	Gast	NOUN	NN	_	16	obl	_	_
+16	wohnen	swoe	VERB	VVFIN	VerbForm=Fin	6	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	16	punct	_	_
+18	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	Beschäftigung	Beschäftigung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	29	obj	_	_
+20	mit	mit	ADP	APPR	_	22	case	_	_
+21	zwei	zwei	NUM	CARD	NumType=Card	22	nummod	_	_
+22	Kindern	Kind	NOUN	NN	Case=Dat|Number=Plur	19	nmod	_	_
+23	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	aux	_	_
+24	maximal	maximal	ADV	ADJD	_	26	advmod	_	_
+25	4	4	NUM	CARD	NumType=Card	26	nummod	_	_
+26	Stunde	Stunde	NOUN	NN	Case=Dat|Number=Sing	29	obl	_	_
+27	pro	pro	ADP	APPR	_	28	case	_	_
+28	Tag	Tag	NOUN	NN	_	26	nmod	_	_
+29	dauern	dauern	VERB	VVINF	VerbForm=Inf	16	xcomp	_	SpaceAfter=No
+30	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 8
+# text = Im Fall der Krankheit haben Sie mir Versicherung gegeben, aufrund deren sollte ich kostenlos medizinische Hilfe bekommen.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Fall	Fall	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	10	obl	_	_
+4	der	der	DET	ART	Definite=Def|PronType=Art	5	det	_	_
+5	Krankheit	Krankheit	NOUN	NN	_	3	nmod	_	_
+6	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	10	nsubj	_	_
+8	mir	ich	PRON	PRF	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	10	iobj	_	_
+9	Versicherung	Versicherung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	10	iobj	_	_
+10	gegeben	geben	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	10	punct	_	_
+12	aufrund	aufrund	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+13	deren	der	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+14	sollte	sollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	aux	_	_
+15	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+16	kostenlos	kostenlos	ADJ	ADJD	Degree=Pos	19	advmod	_	_
+17	medizinische	medizinisch	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Sing	18	amod	_	_
+18	Hilfe	Hilfe	NOUN	NN	Case=Acc|Number=Sing	19	obj	_	_
+19	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	10	conj	_	SpaceAfter=No
+20	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 9
+# text = Sie haben mir versp-unreadable-ochen, Deutschunterricht täglich zu besuchen.
+1	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	4	iobj	_	_
+4	versp-unreadable-ochen	versp-unreadable-ochen	ADJ	ADJA	Degree=Pos	0	root	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	Deutschunterricht	Deutschunterricht	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+7	täglich	täglich	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	4	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Wenn ich als Au-pair-Mädchen bei „der Deutschfamilie“ gewoht habe, war ich ständig 12 Uhr mit Kindern beschäftigt!
+1	Wenn	wenn	SCONJ	KOUS	_	10	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+3	als	als	ADP	KOKOM	_	4	case	_	_
+4	Au-pair-Mädchen	Au-pair-Mädchen	NOUN	NN	_	10	obl	_	_
+5	bei	bei	ADP	APPR	_	8	case	_	_
+6	„	„	PUNCT	$.	_	8	punct	_	SpaceAfter=No
+7	der	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Deutschfamilie	Deutschfamilie	NOUN	NN	_	10	obl	_	SpaceAfter=No
+9	“	“	PUNCT	$.	_	8	punct	_	_
+10	gewoht	wohen	VERB	VVPP	VerbForm=Part	20	advcl	_	_
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	SpaceAfter=No
+12	,	,	PUNCT	$,	_	20	punct	_	_
+13	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	cop	_	_
+14	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	_
+15	ständig	ständig	ADJ	ADJD	Degree=Pos	17	advmod	_	_
+16	12	12	NUM	CARD	NumType=Card	17	nummod	_	_
+17	Uhr	Uhr	NOUN	NN	Case=Acc|Number=Sing	20	obj	_	_
+18	mit	mit	ADP	APPR	_	19	case	_	_
+19	Kindern	Kind	NOUN	NN	Case=Dat|Number=Plur	17	nmod	_	_
+20	beschäftigt	beschäftigen	VERB	VVFIN	VerbForm=Fin	0	root	_	SpaceAfter=No
+21	!	!	PUNCT	$.	_	20	punct	_	_
+
+# sent_id = 11
+# text = Ich habe nur drei Mal Zeit gefunden, Unterricht zu besuchen!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	nur	nur	ADV	ADV	_	4	advmod	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Mal	Mal	NOUN	NN	_	7	obl	_	_
+6	Zeit	Zeit	NOUN	NN	_	7	obl	_	_
+7	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	Unterricht	Unterricht	NOUN	NN	Case=Acc|Number=Sing	11	obj	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+12	!	!	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 12
+# text = Als ich krank war, um zum Arzt zu gehen und die Arzneimitteln zu bekommen, musste ich 57 Euro bezahlen!
+1	Als	als	SCONJ	KOUS	_	3	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	krank	krank	ADJ	ADJD	Degree=Pos	22	advcl	_	_
+4	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	_
+6	um	um	ADP	KOUI	_	11	mark	_	_
+7-8	zum	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Arzt	Arzt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+10	zu	zu	PART	APPR	_	11	mark	_	_
+11	gehen	gehen	VERB	VVINF	VerbForm=Inf	3	advcl	_	_
+12	und	und	CCONJ	KON	_	16	cc	_	_
+13	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
+14	Arzneimitteln	Mittel|Arzneimitteln	NOUN	NN	Case=Nom|Number=Plur	16	nsubj:pass	_	_
+15	zu	zu	PART	PTKZU	_	16	mark	_	_
+16	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	3	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	22	punct	_	_
+18	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+20	57	57	NUM	CARD	NumType=Card	21	nummod	_	_
+21	Euro	Euro	PROPN	NN	Case=Acc|Number=Sing	22	obj	_	_
+22	bezahlen	bezahlen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+23	!	!	PUNCT	$.	_	22	punct	_	_
+
+# sent_id = 13
+# text = Und die Gastfamilie hat immer auf Polnisch gesprochen und deswegen habe ich meinen Absicht - Deutschsprachkenntnisse zu verbessern - verloren.
+1	Und	und	CCONJ	KON	_	8	cc	_	_
+2	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Gastfamilie	Gastfamilie	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+4	hat	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+5	immer	immer	ADV	ADV	_	8	advmod	_	_
+6	auf	auf	ADP	APPR	_	7	case	_	_
+7	Polnisch	Polnisch	NOUN	NN	_	8	obl	_	_
+8	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	0	root	_	_
+9	und	und	CCONJ	KON	_	20	cc	_	_
+10	deswegen	deswegen	ADV	PAV	_	20	advmod	_	_
+11	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+13	meinen	mein	PRON	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Absicht	Absicht	NOUN	NN	_	16	compound	_	_
+15	-	-	PUNCT	$(	_	16	punct	_	_
+16	Deutschsprachkenntnisse	Deutschsprachkenntnis	NOUN	NN	Case=Acc|Number=Plur	18	obj	_	_
+17	zu	zu	PART	PTKZU	_	18	mark	_	_
+18	verbessern	verbessern	VERB	VVINF	VerbForm=Inf	20	xcomp	_	_
+19	-	-	PUNCT	$(	_	18	punct	_	_
+20	verloren	verlieren	VERB	VVPP	VerbForm=Part	8	conj	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Aus diesen Gründe fordere ich mein Geld zurück, sonst werde ich gegen Sie gerichtlich Vorgehen.
+1	Aus	aus	ADP	APPR	_	3	case	_	_
+2	diesen	dies	PRON	PDAT	Case=Acc|Number=Plur|PronType=Dem	3	det	_	_
+3	Gründe	Grund	NOUN	NN	Case=Acc|Number=Plur	16	obl	_	_
+4	fordere	fordern	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	5	amod	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+6	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	7	det:poss	_	_
+7	Geld	Geld	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	5	obj	_	_
+8	zurück	zurück	ADV	PTKVZ	_	5	compound:prt	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	sonst	sonst	ADV	ADV	_	16	advmod	_	_
+11	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+13	gegen	gegen	ADP	APPR	_	14	case	_	_
+14	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	16	obl	_	_
+15	gerichtlich	gerichtlich	ADJ	ADJD	Degree=Pos	16	advmod	_	_
+16	Vorgehen	vorgehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	SpacesAfter=\n
+

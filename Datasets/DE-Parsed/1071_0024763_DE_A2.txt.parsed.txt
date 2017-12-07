@@ -1,0 +1,52 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024763_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Ingo, Ich habe eine Arbeit in Neuburg gefunden, ich brauche eine Wohnung in Neuburg am 14.05.2012 ich suche Wohnung ca.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	13	nsubj	_	_
+2	Ingo	Ingo	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+5	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+8	in	in	ADP	APPR	_	9	case	_	_
+9	Neuburg	Neuburg	PROPN	NE	_	7	nmod	_	_
+10	gefunden	finden	VERB	VVPP	VerbForm=Part	1	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	1	punct	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	in	in	ADP	APPR	_	17	case	_	_
+17	Neuburg	Neuburg	PROPN	NE	_	13	obl	_	_
+18-19	am	_	_	_	_	_	_	_	_
+18	an	an	ADP	APPR	_	13	case	_	_
+19	dem	der	DET	ART	Definite=Def|PronType=Art	13	det	_	_
+20	14.05.2012	14.05.2012	NUM	CARD	NumType=Card	23	nummod	_	_
+21	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	det:poss	_	_
+22	suche	such	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+23	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+24	ca	ca	ADJ	NE	Degree=Pos	13	advmod	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 2
+# text = 120 m und drei Zimmer vielen Dank für hilfe.
+1	120	120	NUM	CARD	NumType=Card	2	nummod	_	_
+2	m	m	NOUN	NN	_	7	nmod	_	_
+3	und	und	CCONJ	KON	_	5	cc	_	_
+4	drei	drei	NUM	CARD	NumType=Card	5	nummod	_	_
+5	Zimmer	Zimmer	NOUN	NN	_	2	conj	_	_
+6	vielen	viel	ADJ	PIAT	Degree=Pos	7	amod	_	_
+7	Dank	Dank	NOUN	NN	_	0	root	_	_
+8	für	für	ADP	APPR	_	9	case	_	_
+9	hilfe	hilfe	NOUN	NN	Case=Dat|Number=Sing	7	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Viele Grüße von Stefan Meier
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	von	von	ADP	APPR	_	4	case	_	SpacesAfter=\s\n
+4	Stefan	Stefan	PROPN	NE	_	2	nmod	_	_
+5	Meier	Meier	PROPN	NN	_	4	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,121 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000192_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Michael Friedrich Meier Stadt X Akademie Klausenhof Bahnhofsstraße 123 12345 Stadt X
+1	Michael	Michael	PROPN	NE	_	11	nmod	_	_
+2	Friedrich	Friedrich	PROPN	NE	_	1	flat	_	_
+3	Meier	Meier	PROPN	NN	_	1	flat	_	SpacesAfter=\n
+4	Stadt	Stadt	PROPN	NN	_	1	flat	_	_
+5	X	X	PROPN	NN	_	1	flat	_	_
+6	Akademie	Akademie	PROPN	NN	_	1	flat	_	_
+7	Klausenhof	Klausenhof	PROPN	NN	_	1	flat	_	SpacesAfter=\n
+8	Bahnhofsstraße	Bahnhofsstraße	PROPN	NN	_	1	flat	_	_
+9	123	123	NUM	CARD	NumType=Card	1	nummod	_	SpacesAfter=\n
+10	12345	12345	NUM	CARD	NumType=Card	1	nummod	_	_
+11	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+12	X	X	PROPN	NN	_	11	appos	_	SpacesAfter=\n\n
+
+# newpar
+# sent_id = 2
+# text = „Das Wohnungsamt (u. adresse)“ Eine Wohnung Suche Sehr Geerhte Damen und Herren, Suche ich gerne auf eine neue Wohnung, und habe ich Interesse mit ihre Anzeige in FR vom 09.03.2012.
+1	„	„	PUNCT	$.	_	14	punct	_	SpaceAfter=No
+2	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Wohnungsamt	Wohnungsamt	PROPN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+4	(	(	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+5	u.	um	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	adresse	adressen	NOUN	NN	_	3	appos	_	SpaceAfter=No
+7	)	)	PUNCT	$(	_	6	punct	_	SpaceAfter=No
+8	“	“	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+9	Eine	ein	DET	ART	Definite=Ind|PronType=Art	10	det	_	_
+10	Wohnung	Wohnung	NOUN	NN	_	11	compound	_	_
+11	Suche	Suche	PROPN	NN	Case=Nom|Number=Sing	14	nsubj	_	SpacesAfter=\n
+12	Sehr	sehr	PROPN	ADV	_	11	appos	_	_
+13	Geerhte	Geerhte	ADJ	ADJA	Degree=Pos	14	amod	_	_
+14	Damen	Dame	NOUN	NN	_	0	root	_	_
+15	und	und	CCONJ	KON	_	16	cc	_	_
+16	Herren	Herr	NOUN	NN	_	14	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	18	punct	_	SpacesAfter=\n
+18	Suche	Suche	NOUN	NN	_	14	appos	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+20	gerne	gerne	ADV	ADV	_	18	advmod	_	_
+21	auf	auf	ADP	APPR	_	24	case	_	_
+22	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+23	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	14	punct	_	_
+26	und	und	CCONJ	KON	_	29	cc	_	_
+27	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	aux	_	_
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	29	nsubj	_	_
+29	Interesse	Interesse	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+30	mit	mit	ADP	APPR	_	29	case	_	_
+31	ihre	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	32	det:poss	_	_
+32	Anzeige	Anzeige	NOUN	NN	Case=Nom|Number=Sing	34	nsubj	_	_
+33	in	in	ADP	APPR	_	34	case	_	_
+34	FR	Fr	PROPN	NE	_	30	nmod	_	_
+35-36	vom	_	_	_	_	_	_	_	_
+35	von	von	ADP	APPR	_	34	case	_	_
+36	dem	der	DET	ART	Definite=Def|PronType=Art	37	det	_	_
+37	09.03.2012	09.03.2012	NUM	CARD	NumType=Card	35	dep	_	SpaceAfter=No
+38	.	.	PUNCT	$.	_	37	punct	_	_
+
+# sent_id = 3
+# text = Hätte ich noch nähere Informationen, zum beispiel wie viele Zimmer die Wohnung hat.
+1	Hätte	haben	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+3	noch	noch	ADV	ADV	_	4	advmod	_	_
+4	nähere	nah	ADJ	ADJA	Case=Acc|Gender=Fem|Number=Plur	5	amod	_	_
+5	Informationen	informationen	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	9	punct	_	_
+7-8	zum	_	_	_	_	_	_	_	_
+7	zu	zu	ADP	APPR	_	9	case	_	_
+8	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+9	beispiel	beispiel	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	obl	_	_
+10	wie	wie	ADP	KOKOM	_	12	case	_	_
+11	viele	viel	ADJ	PIAT	Degree=Pos	12	amod	_	_
+12	Zimmer	Zimmer	NOUN	NN	_	9	nmod	_	_
+13	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
+14	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+15	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 4
+# text = Gibt es ein Balkon oder nicht?
+1	Gibt	geben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	ein	ein	DET	ART	Definite=Ind|PronType=Art	4	det	_	_
+4	Balkon	Balkon	NOUN	NN	_	1	obl	_	_
+5	oder	oder	CCONJ	KON	_	6	cc	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	4	advmod	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Am endsten, wie viel ist das Miete?
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	endsten	endsen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	wie	wie	ADP	KOUS	_	6	case	_	_
+6	viel	viel	PRON	PIAT	Case=Dat|Number=Sing|PronType=Ind	7	det	_	_
+7	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	das	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Miete	Miete	NOUN	NN	_	0	root	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Ich hoffe eine bäldige Information.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	bäldige	bäldig	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Information	Information	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Freundlichen Grüßen Michael Friedrich Meier
+1	Freundlichen	freundlich	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	2	appos	_	_
+4	Friedrich	Friedrich	PROPN	NE	_	3	flat	_	_
+5	Meier	Meier	PROPN	NN	_	3	flat	_	SpacesAfter=\n
+

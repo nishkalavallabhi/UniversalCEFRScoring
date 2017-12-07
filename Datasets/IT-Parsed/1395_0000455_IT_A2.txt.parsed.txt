@@ -1,0 +1,87 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000455_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Ciao Nevio, come stai?
+1	Ciao	ciao	INTJ	I	_	0	root	_	_
+2	Nevio	Nevio	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	SpacesAfter=\n
+4	come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Sto molto bene, perché finalmente ho fatto la maturità e per questa ragione ho studiato molti negli ultimi tempi.
+1	Sto	stare	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	3	punct	_	_
+5	perché	perché	SCONJ	CS	_	8	mark	_	_
+6	finalmente	finalmente	ADV	B	_	8	advmod	_	_
+7	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	maturità	maturità	NOUN	S	Gender=Fem	8	obj	_	_
+11	e	e	CCONJ	CC	_	16	cc	_	_
+12	per	per	ADP	E	_	14	case	_	_
+13	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	14	det	_	_
+14	ragione	ragione	NOUN	S	Gender=Fem|Number=Sing	16	obl	_	_
+15	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	studiato	studiare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+17	molti	molto	PRON	PI	Gender=Masc|Number=Plur|PronType=Ind	16	obj	_	_
+18-19	negli	_	_	_	_	_	_	_	_
+18	in	in	ADP	E	_	21	case	_	_
+19	gli	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	21	det	_	_
+20	ultimi	ultimo	ADJ	A	Gender=Masc|Number=Plur	21	amod	_	_
+21	tempi	tempo	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	SpaceAfter=No
+22	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Anche la mia famiglia sta bene e siamo andati in vacanza a Città X in Emilia-Romagna insieme.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+5	sta	stare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	bene	bene	ADV	B	_	5	advmod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	città	PROPN	SP	_	19	obl	_	_
+14	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	13	amod	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	Emilia	Emilia	PROPN	SP	_	13	nmod	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+18	Romagna	Romagna	PROPN	SP	_	13	flat:name	_	_
+19	insieme	insieme	ADV	B	_	5	advmod	_	SpaceAfter=No
+20	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Città X è molto bella!
+1	Città	Città	PROPN	SP	_	5	nsubj	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	bella	bello	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	!	!	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Tanti saluti a casa!
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	casa	casa	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=No
+5	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = A presto!
+1	A	a	ADP	E	_	2	case	_	_
+2	presto	presto	ADV	B	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Maria
+1	Maria	Maria	PROPN	SP	_	0	root	_	SpacesAfter=\n
+

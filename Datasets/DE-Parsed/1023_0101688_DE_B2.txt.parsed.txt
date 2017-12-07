@@ -1,0 +1,198 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1023_0101688_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Julia Schmidt Bahnhofstr.
+1	Julia	Julia	PROPN	NE	_	0	root	_	_
+2	Schmidt	Schmidt	PROPN	NE	_	1	flat	_	SpacesAfter=\n
+3	Bahnhofstr	Bahnhofstr	PROPN	NN	_	1	flat	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = 123 12345 Stadt X Computer-Spezialist Odenwaldstraße 5 53119 Bonn 08.02.2009 Bewerbung um einen Praktikumsplatz Sehr geehrte Damen und Herren, Ich interessiere mich dafür, mein Praktikum bei Ihrem Geschäft zu machen.
+1	123	123	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	12345	12345	NUM	CARD	NumType=Card	3	nummod	_	_
+3	Stadt	Stadt	NOUN	NN	_	9	advmod	_	_
+4	X	X	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+5	Computer-Spezialist	Computer-Spezialist	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+6	Odenwaldstraße	Odenwaldstraße	PROPN	NN	_	5	flat	_	_
+7	5	5	NUM	CARD	NumType=Card	9	nummod	_	SpacesAfter=\n
+8	53119	53119	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Bonn	Bonn	PROPN	NE	_	10	nmod	_	SpacesAfter=\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+10	08.02.2009	08.02.2009	NUM	CARD	NumType=Card	11	nummod	_	SpacesAfter=\n
+11	Bewerbung	Bewerbung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+12	um	um	ADP	APPR	_	14	case	_	_
+13	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+14	Praktikumsplatz	Praktikumsplatz	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	SpacesAfter=\n
+15	Sehr	Sehr	ADV	ADV	_	16	advmod	_	_
+16	geehrte	geehrt	ADJ	ADJA	Degree=Pos	17	amod	_	_
+17	Damen	Dame	NOUN	NN	_	0	root	_	_
+18	und	und	CCONJ	KON	_	19	cc	_	_
+19	Herren	Herr	NOUN	NN	_	17	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	22	punct	_	SpacesAfter=\n
+21	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	_
+22	interessiere	interessieren	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	17	conj	_	_
+23	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	22	obj	_	_
+24	dafür	dafür	PRON	PAV	PronType=Dem,Rel	22	advmod	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	22	punct	_	_
+26	mein	mein	PRON	PPOSAT	Case=Acc|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	27	det:poss	_	_
+27	Praktikum	Praktikum	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	22	obj	_	_
+28	bei	bei	ADP	APPR	_	30	case	_	_
+29	Ihrem	Ihr|ihr	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Person=2,3|Poss=Yes|PronType=Prs	30	det:poss	_	_
+30	Geschäft	Geschäft	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	32	obl	_	_
+31	zu	zu	PART	PTKZU	_	32	mark	_	_
+32	machen	machen	VERB	VVINF	VerbForm=Inf	22	xcomp	_	SpaceAfter=No
+33	.	.	PUNCT	$.	_	17	punct	_	_
+
+# sent_id = 3
+# text = Für diese Stelle bringe ich alle Voraussetzungen mit.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	Stelle	Stelle	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+4	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	alle	alle	PRON	PIAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot	7	det	_	_
+7	Voraussetzungen	Voraussetzung	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+8	mit	mit	ADP	PTKVZ	_	4	compound:prt	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ich habe 4 Jahre Wirtschaft an der Uni in der Ukraine studiert.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+3	4	4	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Jahre	Jahr	NOUN	NN	_	5	nmod	_	_
+5	Wirtschaft	Wirtschaft	NOUN	NN	_	12	obl	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Uni	Uni	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Ukraine	Ukraine	PROPN	NE	_	8	nmod	_	_
+12	studiert	studieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 5
+# text = Meine Spezialisierung ist Betriebswirtschaft.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Spezialisierung	Spezialisierung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	Betriebswirtschaft	Betriebswirtschaft	NOUN	NN	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Ich spreche gut Russisch, Deutsch, Englisch und ich habe Grundkenntnisse in Franzosisch.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	spreche	sprechen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	gut	gut	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+4	Russisch	russisch	PROPN	ADJD	_	8	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	4	punct	_	_
+6	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	4	punct	_	_
+8	Englisch	englisch	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	Grundkenntnisse	Grundkenntnis	NOUN	NN	Case=Acc|Number=Plur	11	obj	_	_
+13	in	in	ADP	APPR	_	14	case	_	_
+14	Franzosisch	Franzosisch	PROPN	NN	_	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Ich habe auch gute Computerkenntnisse.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	5	advmod	_	_
+4	gute	guen	ADJ	ADJA	Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	Computerkenntnisse	Computerkenntnis	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Ich habe gern mit anderen Leuten zu tun und ich arbeite gern im Team.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	gern	gern	ADV	ADV	_	8	advmod	_	_
+4	mit	mit	ADP	APPR	_	6	case	_	_
+5	anderen	ander	ADJ	ADJA	Case=Dat|Degree=Pos|Number=Plur	6	amod	_	_
+6	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	8	obl	_	_
+7	zu	zu	PART	PTKZU	_	8	mark	_	_
+8	tun	tun	VERB	VVINF	VerbForm=Inf	0	root	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	arbeite	arbeien	NOUN	ADJA	_	8	conj	_	_
+12	gern	gern	ADV	ADV	_	11	advmod	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	Team	Team	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Ich möchte in Deutschland arbeiten, weil ich glaube, dass ich auf diese Weise die Gelegenheit haben werde, nicht nur die Arbeit, sondern auch die Mentalität der Deutschen besser kennen zu lernen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	in	in	ADP	APPR	_	4	case	_	_
+4	Deutschland	Deutschland	PROPN	NE	_	5	obl	_	_
+5	arbeiten	arbeiten	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	weil	weil	SCONJ	KOUS	_	9	mark	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	glaube	glauben	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	dass	dass	SCONJ	KOUS	_	18	mark	_	_
+12	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+13	auf	auf	ADP	APPR	_	15	case	_	_
+14	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	15	det	_	_
+15	Weise	Weise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+16	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	Gelegenheit	Gelegenheit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+18	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+19	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	5	punct	_	_
+21	nicht	nicht	PART	PTKNEG	Polarity=Neg	22	advmod	_	_
+22	nur	nur	ADV	ADV	_	5	advmod	_	_
+23	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
+25	,	,	PUNCT	$,	_	33	punct	_	_
+26	sondern	sondern	CCONJ	KON	_	33	cc	_	_
+27	auch	auch	ADV	ADV	_	29	advmod	_	_
+28	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	Mentalität	Mentalität	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	33	obj	_	_
+30	der	der	DET	ART	Definite=Def|PronType=Art	31	det	_	_
+31	Deutschen	Deutsche	NOUN	NN	_	29	nmod	_	_
+32	besser	gut	ADJ	ADJD	Degree=Cmp	33	advmod	_	_
+33	kennen	kennen	VERB	VVINF	VerbForm=Inf	5	conj	_	_
+34	zu	zu	PART	PTKZU	_	35	mark	_	_
+35	lernen	lernen	VERB	VVINF	VerbForm=Inf	33	xcomp	_	SpaceAfter=No
+36	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 10
+# text = Diese Erfahrung wird mir später bei meiner Arbeit in der Ukraine helfen und in der deutscher Sprache Vielen Dank am hinaus Mit freundlichen Grüßen Julia Schmidt
+1	Diese	dies	PRON	PDAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
+2	Erfahrung	Erfahrung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+3	wird	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+4	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	12	iobj	_	_
+5	später	spät	ADV	ADJD	_	12	advmod	_	_
+6	bei	bei	ADP	APPR	_	8	case	_	_
+7	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Ukraine	Ukraine	PROPN	NE	_	12	obl	_	_
+12	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+13	und	und	CCONJ	KON	_	18	cc	_	_
+14	in	in	ADP	APPR	_	17	case	_	_
+15	der	der	DET	ART	Definite=Def|PronType=Art	17	det	_	_
+16	deutscher	deutsch	ADJ	ADJA	Degree=Cmp,Pos	17	amod	_	_
+17	Sprache	Sprache	NOUN	NN	_	18	nmod	_	SpacesAfter=\n
+18	Vielen	viel	ADJ	PIAT	Degree=Pos	12	conj	_	_
+19	Dank	Dank	NOUN	NN	Case=Acc|Number=Sing	12	obj	_	_
+20-21	am	_	_	_	_	_	_	_	_
+20	an	an	ADP	APPR	_	22	case	_	_
+21	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	22	det	_	_
+22	hinaus	hinaus	ADV	ADV	_	12	advmod	_	SpacesAfter=\n
+23	Mit	mit	ADP	APPR	_	25	case	_	_
+24	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	25	amod	_	_
+25	Grüßen	grüßen	NOUN	NN	_	12	obl	_	SpacesAfter=\n
+26	Julia	Julia	PROPN	NE	_	25	appos	_	_
+27	Schmidt	Schmidt	PROPN	NE	_	26	flat	_	SpacesAfter=\n
+

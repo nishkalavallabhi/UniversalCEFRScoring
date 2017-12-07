@@ -1,0 +1,86 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000526_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, 26.11.10 Caro Roberto come stai?
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	5	punct	_	_
+4	26.11.10	26.11.10	NUM	N	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	_
+6	Roberto	Roberto	PROPN	SP	_	5	flat:name	_	SpacesAfter=\n
+7	come	come	ADP	E	_	8	case	_	_
+8	stai	stare	NOUN	S	Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	?	?	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 2
+# text = Io, non sto bene.
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+4	sto	stare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	bene	bene	ADV	B	_	4	advmod	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 3
+# text = Mia mama è molto malata e mio padre ha non molto tempo per lei.
+1	Mia	mio	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+2	mama	mama	ADJ	A	Gender=Fem|Number=Sing	1	amod	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	molto	molto	ADV	B	_	5	advmod	_	_
+5	malata	malato	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+6	e	e	CCONJ	CC	_	9	cc	_	_
+7	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	padre	padre	NOUN	S	Gender=Masc|Number=Sing	9	nsubj	_	_
+9	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	_
+10	non	non	ADV	BN	PronType=Neg	12	advmod	_	_
+11	molto	molto	DET	DI	Gender=Masc|Number=Sing|PronType=Ind	12	det	_	_
+12	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	5	obl	_	_
+13	per	per	ADP	E	_	14	case	_	_
+14	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	12	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 4
+# text = Lui lavora troppo.
+1	Lui	lui	PRON	PE	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	lavora	lavorare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	troppo	troppo	ADV	B	_	2	advmod	_	SpaceAfter=No
+4	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Il mio lavoro mi piace molto.
+1	Il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+2	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+5	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	molto	molto	ADV	B	_	5	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = La settimana prossima sono libera.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	5	nsubj	_	_
+3	prossima	proo	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+4	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	libera	libero	ADJ	A	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = hai tempo per venire a Città X?
+1	hai	avere	AUX	VA	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4	venire	venire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	obl	_	_
+7	X	X	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+8	?	?	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Baci e a presto Maria
+1	Baci	Baco	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+2	e	e	CCONJ	CC	_	4	cc	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	presto	presto	NOUN	S	Gender=Masc|Number=Sing	1	conj	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

@@ -1,0 +1,93 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248337_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Daniela, gehen wir heute ins Schwimmbad.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+2	Daniela	Daniela	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	gehen	gehen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+6	heute	heute	ADV	ADV	_	4	advmod	_	_
+7-8	ins	_	_	_	_	_	_	_	_
+7	in	in	ADP	APPR	_	9	case	_	_
+8	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+9	Schwimmbad	Schwimmbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 2
+# text = Ich denke besser ins Termalbad in Stadt X gehen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	denken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	besser	gut	ADJ	ADJD	Degree=Cmp	2	advmod	_	_
+4-5	ins	_	_	_	_	_	_	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Termalbad	Termalbad	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
+7	in	in	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	PROPN	NN	_	6	nmod	_	_
+9	X	X	PROPN	NN	_	8	appos	_	_
+10	gehen	gehen	VERB	VVINF	VerbForm=Inf	2	xcomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Könnten wir am HauptBahnhof treffen?
+1	Könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	HauptBahnhof	Hauptbahnhof	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+6	treffen	treffen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ich denke das ist besser für uns und dann können wir einen bus bis zum Termalbad geben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	denke	Rank|denke	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	das	der	PRON	PDS	Case=Nom|PronType=Dem	5	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	besser	gut	ADJ	ADJD	Degree=Cmp	2	ccomp	_	_
+6	für	für	ADP	APPR	_	7	case	_	_
+7	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	5	nmod	_	_
+8	und	und	CCONJ	KON	_	18	cc	_	_
+9	dann	dann	ADV	ADV	_	18	advmod	_	_
+10	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+11	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+12	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	bus	bus	PROPN	NE	Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+14	bis	bis	ADP	KON	_	18	case	_	_
+15-16	zum	_	_	_	_	_	_	_	_
+15	zu	zu	ADP	APPR	_	17	case	_	_
+16	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	17	det	_	_
+17	Termalbad	Termalbad	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	14	nmod	_	_
+18	geben	geben	VERB	VVINF	VerbForm=Inf	5	conj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Trefft um 19 Uhr!
+1	Trefft	Trefft	NOUN	NN	_	4	dep	_	_
+2	um	um	ADP	APPR	_	3	case	_	_
+3	19	19	NUM	CARD	NumType=Card	4	obl	_	_
+4	Uhr	Uhr	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Bring bitte dein Badanzug und 10 Euro mit!
+1	Bring	Bring	PROPN	NE	_	0	root	_	_
+2	bitte	bitten	PROPN	NN	_	1	flat	_	_
+3	dein	dein	PROPN	PPOSAT	_	1	flat	_	_
+4	Badanzug	Badanzug	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	1	flat	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	10	10	PROPN	CARD	_	1	conj	_	_
+7	Euro	Euro	PROPN	NN	_	6	appos	_	_
+8	mit	mit	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+9	!	!	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit freundliche Grüße, Eva
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüße	Grüße	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Eva	Eva	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

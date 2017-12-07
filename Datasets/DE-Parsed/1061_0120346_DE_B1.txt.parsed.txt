@@ -1,0 +1,146 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120346_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 28.02.2012 Liebe Silke, ich habe gestern deine Brief bekommen.
+1	28.02.2012	28.02.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	10	nsubj	_	_
+3	Silke	Silke	NOUN	NN	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+6	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+7	gestern	gestern	ADV	ADV	_	8	advmod	_	_
+8	deine	dein	ADJ	ADJA	Degree=Pos	10	advmod	_	_
+9	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+10	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 2
+# text = Ich habe sehr gefreut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	sehr	sehr	ADV	ADV	_	4	advmod	_	_
+4	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Vielen dank für das.
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	dank	dinken	NOUN	APPR	_	0	root	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Uns geht es auch ganz gut.
+1	Uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	auch	auch	ADV	ADV	_	2	advmod	_	_
+5	ganz	ganz	ADV	ADV	_	6	advmod	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	2	xcomp	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Maria arbeitet und ich besuche ein Deutschkurs.
+1	Maria	Maria	PROPN	NE	_	2	dep	_	_
+2	arbeitet	arbeiten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	und	und	CCONJ	KON	_	7	cc	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	besuche	besuchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+6	ein	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+7	Deutschkurs	Deutschkurs	NOUN	NN	_	2	conj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Ich mag auch Tier besonders Hund.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	mag	mögen	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	auch	auch	ADV	ADV	_	6	advmod	_	_
+4	Tier	Tier	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+5	besonders	besonders	ADV	ADV	_	6	advmod	_	_
+6	Hund	Hund	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Aber ich kann mit ihm nicht sich kommern, weil ich kein Zeit habe.
+1	Aber	aber	CCONJ	KON	_	8	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	mit	mit	ADP	APPR	_	5	case	_	_
+5	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obl	_	_
+6	nicht	nicht	PART	PTKNEG	Polarity=Neg	8	advmod	_	_
+7	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+8	kommern	kommern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	8	punct	_	_
+10	weil	weil	SCONJ	KOUS	_	14	mark	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+12	kein	kein	PRON	PIAT	PronType=Neg	13	advmod	_	_
+13	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+14	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 8
+# text = Ich muss jeden Tag Deutsch lernen, weil ich 9.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	jeden	jed	PRON	PIAT	PronType=Tot	4	det	_	_
+4	Tag	Tag	NOUN	NN	_	6	obl	_	_
+5	Deutsch	deutsch	PROPN	ADJD	Case=Acc|Number=Sing	6	obj	_	_
+6	lernen	lernen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	9	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	advcl	_	_
+10	9	9	NUM	CARD	NumType=Card	9	dep	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 9
+# text = März eine Prüfung habe.
+1	März	März	PROPN	NN	Case=Nom|Number=Sing	4	nsubj	_	_
+2	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Prüfung	Prüfung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 10
+# text = Ich möchte dich besuchen und kann nach Prüfung besuchen.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	möchte	mögen	AUX	VMFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	nsubj	_	_
+4	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+5	und	und	CCONJ	KON	_	9	cc	_	_
+6	kann	können	AUX	VMFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	9	aux	_	_
+7	nach	nach	ADP	APPR	_	8	case	_	_
+8	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+9	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 11
+# text = Ich wünsche mich neu Handy, damit mein Handy nicht gut funktioniert.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünschen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	neu	neu	ADJ	ADJD	Degree=Pos	5	advmod	_	_
+5	Handy	Handy	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	2	punct	_	_
+7	damit	damit	SCONJ	KOUS	_	12	mark	_	_
+8	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Handy	Handy	NOUN	NE	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+11	gut	gut	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+12	funktioniert	funktionieren	VERB	VVFIN	Person=3|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 12
+# text = Ich hoffe bis bald.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoffen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	bis	bis	ADP	APPR	_	4	case	_	_
+4	bald	bald	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = Liebe Grüße Michael
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	2	appos	_	SpacesAfter=\n
+

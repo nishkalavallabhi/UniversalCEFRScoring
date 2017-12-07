@@ -1,0 +1,93 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000469_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Cari cari amici!
+1	Cari	caro	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	cari	caro	ADJ	A	Gender=Masc|Number=Plur	3	amod	_	_
+3	amici	amico	NOUN	S	Gender=Masc|Number=Plur	1	obj	_	SpaceAfter=No
+4	!	!	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Io sono a Città X per tre settimane, da dove io faccio un corso di lingua italiana!
+1	Io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	Città	Città	PROPN	SP	_	2	obl	_	_
+5	X	x	ADJ	NO	Number=Sing|NumType=Ord	4	amod	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	tre	tre	NUM	N	NumType=Card	8	nummod	_	_
+8	settimane	settimana	NOUN	S	Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	4	punct	_	_
+10	da	da	ADP	E	_	11	case	_	_
+11	dove	dove	ADV	B	_	13	advmod	_	_
+12	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	faccio	fare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+14	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	corso	corso	NOUN	S	Gender=Masc|Number=Sing	13	obj	_	_
+16	di	di	ADP	E	_	17	case	_	_
+17	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	15	nmod	_	_
+18	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	17	amod	_	SpaceAfter=No
+19	!	!	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Siamo 8 Persone al corso.
+1	Siamo	essere	AUX	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	8	8	NUM	N	NumType=Card	3	nummod	_	_
+3	Persone	persona	NOUN	S	Gender=Fem|Number=Plur	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	corso	corso	NOUN	S	Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 4
+# text = 5 Ragazze e 3 Ragazzi.
+1	5	5	NUM	N	NumType=Card	2	nummod	_	_
+2	Ragazze	ragazze	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	_
+4	3	3	NUM	N	NumType=Card	5	nummod	_	_
+5	Ragazzi	ragazzi	PROPN	SP	_	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = La nostra insegnante si chiama Maria e lei è molto gentile.
+1	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+2	nostra	nostro	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	insegnante	insegnante	NOUN	S	Number=Sing	5	nsubj	_	_
+4	si	si	PRON	PC	Clitic=Yes|Person=3|PronType=Prs	5	expl	_	_
+5	chiama	chiamare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	Maria	Maria	PROPN	SP	_	5	xcomp	_	_
+7	e	e	CCONJ	CC	_	11	cc	_	_
+8	lei	lei	PRON	PE	Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	molto	molto	ADV	B	_	11	advmod	_	_
+11	gentile	gentile	ADJ	A	Number=Sing	5	conj	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = In tempo libero io sono in giro alla città per visitare diversi Musei.
+1	In	in	ADP	E	_	2	case	_	_
+2	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+3	libero	libero	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+4	io	io	PRON	PE	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	giro	giro	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+8-9	alla	_	_	_	_	_	_	_	_
+8	a	a	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	città	città	NOUN	S	Gender=Fem	7	nmod	_	_
+11	per	per	ADP	E	_	12	mark	_	_
+12	visitare	visitare	VERB	V	VerbForm=Inf	7	advcl	_	_
+13	diversi	diverso	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	14	det	_	_
+14	Musei	musei	PROPN	SP	_	12	obj	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Tanti Salutie a presto Michele
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur	2	det	_	_
+2	Salutie	Salutie	PROPN	SP	_	0	root	_	_
+3	a	a	ADP	E	_	4	case	_	_
+4	presto	presto	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	SpacesAfter=\n
+5	Michele	Michele	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,297 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000099_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 12345 Città X Giorgio Armani moda Via Borgonuovo, 21 I- 20121 Milano Città X, 19 maggio 2010 Domanda per un posto di lavoro Egregi Signori, ho 23 anni e sono nubile.
+1	Maria	Maria	PROPN	SP	_	39	nsubj	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	10	nmod	_	SpacesAfter=\n
+5	12345	12345	NUM	N	NumType=Card	4	flat:name	_	_
+6	Città	Città	PROPN	SP	_	4	flat:name	_	_
+7	X	X	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+8	Giorgio	Giorgio	PROPN	SP	_	4	flat:name	_	_
+9	Armani	Armani	PROPN	SP	_	4	flat:name	_	SpacesAfter=\n
+10	moda	modare	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\n
+11	Via	via	PROPN	SP	_	10	nmod	_	_
+12	Borgonuovo	Borgonuovo	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	21	21	NUM	N	NumType=Card	15	nummod	_	SpacesAfter=\n
+15	I	I	NOUN	S	Gender=Masc|Number=Plur	11	nmod	_	SpaceAfter=No
+16	-	-	PUNCT	FF	_	1	punct	_	_
+17	20121	20121	NUM	N	NumType=Card	18	nummod	_	_
+18	Milano	Milano	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+19	Città	Città	PROPN	SP	_	1	flat:name	_	_
+20	X	X	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	1	punct	_	_
+22	19	19	NUM	N	NumType=Card	25	nmod	_	_
+23	maggio	maggio	NOUN	S	Gender=Masc|Number=Sing	22	flat	_	_
+24	2010	2010	NUM	N	NumType=Card	22	flat	_	SpacesAfter=\n
+25	Domanda	domanda	NOUN	S	Gender=Fem|Number=Sing	1	appos	_	_
+26	per	per	ADP	E	_	28	case	_	_
+27	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	28	det	_	_
+28	posto	posto	NOUN	S	Gender=Masc|Number=Sing	25	nmod	_	_
+29	di	di	ADP	E	_	30	case	_	_
+30	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	31	nmod	_	SpacesAfter=\n
+31	Egregi	Egregi	PROPN	SP	_	28	nmod	_	_
+32	Signori	Signori	PROPN	SP	_	31	flat:name	_	SpaceAfter=No
+33	,	,	PUNCT	FF	_	31	punct	_	SpacesAfter=\n
+34	ho	avere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	acl	_	_
+35	23	23	NUM	N	NumType=Card	36	nummod	_	_
+36	anni	anno	NOUN	S	Gender=Masc|Number=Plur	34	obl	_	_
+37	e	e	CCONJ	CC	_	39	cc	_	_
+38	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	39	cop	_	_
+39	nubile	nubile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	39	punct	_	_
+
+# sent_id = 2
+# text = Ho finito una formazione professionale come apprendista di commesso in un negozio di abbigliamento a Città Y tre anni fa con un buon risultato.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	finito	finire	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	professionale	professionale	ADJ	A	Number=Sing	4	amod	_	_
+6	come	come	ADP	E	_	7	case	_	_
+7	apprendista	apprendista	NOUN	S	Number=Sing	2	obl	_	_
+8	di	di	ADP	E	_	9	case	_	_
+9	commesso	commettere	NOUN	S	Gender=Masc|Number=Sing	7	nmod	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	abbigliamento	abbigliamento	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	_
+15	a	a	ADP	E	_	16	case	_	_
+16	Città	città	PROPN	SP	_	12	nmod	_	_
+17	Y	y	PROPN	SP	_	16	flat:name	_	_
+18	tre	tre	NUM	N	NumType=Card	19	nummod	_	_
+19	anni	anno	NOUN	S	Gender=Masc|Number=Plur	16	nmod	_	_
+20	fa	fa	ADV	B	_	19	advmod	_	_
+21	con	con	ADP	E	_	24	case	_	_
+22	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+23	buon	buono	ADJ	A	Gender=Masc|Number=Sing	24	amod	_	_
+24	risultato	risultato	NOUN	S	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+25	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Per il momento lavoro per un negozio sportivo a Città Z.
+1	Per	per	ADP	E	_	3	case	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	momento	momento	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	compound	_	_
+5	per	per	ADP	E	_	7	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	negozio	negozio	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+8	sportivo	sportivo	ADJ	A	Gender=Masc|Number=Sing	7	amod	_	_
+9	a	a	ADP	E	_	10	case	_	_
+10	Città	Città	PROPN	SP	_	7	nmod	_	_
+11	Z	Z	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Mi piace molto l'italiano.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	SpaceAfter=No
+5	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 5
+# text = Da tre anni ho frequentato dei corsi serali d'italiano a Città Y. Ho fatto con buoni risultati il test TELC A1, A2 e B1.
+1	Da	da	ADP	E	_	3	case	_	_
+2	tre	tre	NUM	N	NumType=Card	3	nummod	_	_
+3	anni	anno	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+4	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	frequentato	frequentare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+6-7	dei	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	8	case	_	_
+7	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	_
+8	corsi	corso	NOUN	S	Gender=Masc|Number=Plur	5	obl	_	_
+9	serali	serale	ADJ	A	Number=Plur	8	amod	_	_
+10	d'	di	ADP	E	_	11	case	_	SpaceAfter=No
+11	italiano	italiano	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+12	a	a	ADP	E	_	13	case	_	_
+13	Città	città	PROPN	SP	_	5	obl	_	_
+14	Y.	Y.	PROPN	SP	_	13	flat:name	_	_
+15	Ho	avere	PROPN	SP	_	13	flat:name	_	_
+16	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl	_	_
+17	con	con	ADP	E	_	19	case	_	_
+18	buoni	buono	ADJ	A	Gender=Masc|Number=Plur	19	amod	_	_
+19	risultati	risultato	NOUN	S	Gender=Masc|Number=Plur	16	obl	_	_
+20	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	test	test	NOUN	S	Gender=Masc	16	obj	_	_
+22	TELC	TELC	PROPN	SP	_	21	nmod	_	_
+23	A1	A1	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	,	,	PUNCT	FF	_	25	punct	_	_
+25	A2	A2	PROPN	SP	_	22	conj	_	_
+26	e	e	CCONJ	CC	_	27	cc	_	_
+27	B1	B1	PROPN	SP	_	22	conj	_	SpaceAfter=No
+28	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 6
+# text = E questo è il motivo della mia lettera.
+1	E	e	CCONJ	CC	_	5	cc	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	5	nsubj	_	_
+3	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	motivo	motivo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+6-7	della	_	_	_	_	_	_	_	_
+6	di	di	ADP	E	_	9	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+8	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	5	punct	_	_
+
+# sent_id = 7
+# text = Per migliorare le mie conoscenze nella lingua italiana mi interessa molto lavorare per un mese in Italia.
+1	Per	per	ADP	E	_	2	mark	_	_
+2	migliorare	migliorare	VERB	V	VerbForm=Inf	11	advcl	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+4	mie	mio	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	conoscenze	conoscenza	NOUN	S	Gender=Fem|Number=Plur	2	obj	_	_
+6-7	nella	_	_	_	_	_	_	_	_
+6	in	in	ADP	E	_	8	case	_	_
+7	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	lingua	lingua	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+9	italiana	italiano	ADJ	A	Gender=Fem|Number=Sing	8	amod	_	_
+10	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+11	interessa	interessare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	lavorare	lavorare	VERB	V	VerbForm=Inf	11	csubj	_	_
+14	per	per	ADP	E	_	16	case	_	_
+15	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
+16	mese	mese	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+17	in	in	ADP	E	_	18	case	_	_
+18	Italia	Italia	PROPN	SP	_	13	obl	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 8
+# text = Vi scrivo questa lettera per domandare se avete un posto di lavoro in settembre, ottobre o novembre.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	scrivo	scrivere	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	lettera	lettera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	per	per	ADP	E	_	6	mark	_	_
+6	domandare	domandare	VERB	V	VerbForm=Inf	2	advcl	_	_
+7	se	se	SCONJ	CS	_	8	mark	_	_
+8	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+9	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
+10	posto	posto	NOUN	S	Gender=Masc|Number=Sing	8	obj	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	10	nmod	_	_
+13	in	in	ADP	E	_	14	case	_	_
+14	settembre	settembre	NOUN	S	Gender=Masc|Number=Sing	12	nmod	_	SpaceAfter=No
+15	,	,	PUNCT	FF	_	14	punct	_	_
+16	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+17	o	o	CCONJ	CC	_	18	cc	_	_
+18	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 9
+# text = Mi piace molto la moda di Giorgio Armani è ho fatto una formazione professionale.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis	_	_
+3	molto	molto	ADV	B	_	5	advmod	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	moda	moda	NOUN	S	Gender=Fem|Number=Sing	2	nsubj	_	_
+6	di	di	ADP	E	_	7	case	_	_
+7	Giorgio	Giorgio	PROPN	SP	_	5	nmod	_	_
+8	Armani	Armani	PROPN	SP	_	7	flat:name	_	_
+9	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	fatto	fare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
+13	formazione	formazione	NOUN	S	Gender=Fem|Number=Sing	11	obj	_	_
+14	professionale	professionale	ADJ	A	Number=Sing	13	amod	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 10
+# text = Sarebbe molto bello e un suono per me lavorare in Italia pressa "Giorgio Armani moda".
+1	Sarebbe	essere	AUX	V	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+2	molto	molto	ADV	B	_	3	advmod	_	_
+3	bello	bello	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+4	e	e	CCONJ	CC	_	9	cc	_	_
+5	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	suono	suono	NOUN	S	Gender=Masc|Number=Sing	9	obj	_	_
+7	per	per	ADP	E	_	8	case	_	_
+8	me	me	PRON	PE	Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+9	lavorare	lavorare	VERB	V	VerbForm=Inf	3	conj	_	_
+10	in	in	ADP	E	_	11	case	_	_
+11	Italia	Italia	PROPN	SP	_	9	obl	_	_
+12	pressa	pressare	ADJ	A	Gender=Fem|Number=Sing	14	amod	_	_
+13	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+14	Giorgio	Giorgio	PROPN	SP	_	9	obj	_	_
+15	Armani	Armani	PROPN	SP	_	14	flat:name	_	_
+16	moda	moda	NOUN	S	Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	FB	_	14	punct	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Se avete delle domande, il mio numero di telefono è 0345-11111111, il mio indirizzo e-mail:
+1	Se	se	SCONJ	CS	_	2	mark	_	_
+2	avete	avere	VERB	V	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+3-4	delle	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	_
+5	domande	domanda	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+8	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	numero	numero	NOUN	S	Gender=Masc|Number=Sing	13	nsubj	_	_
+10	di	di	ADP	E	_	11	case	_	_
+11	telefono	telefono	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	_
+12	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	0345	0345	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+14	-	-	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+15	11111111	11111111	NUM	N	NumType=Card	13	nummod	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	13	punct	_	_
+17	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+18	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	19	det:poss	_	_
+19	indirizzo	indirizzo	NOUN	S	Gender=Masc|Number=Sing	0	root	_	_
+20	e	e	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+21	-mail	-mail	NOUN	S	Gender=Masc	19	conj	_	SpaceAfter=No
+22	:	:	PUNCT	FC	_	19	punct	_	_
+
+# sent_id = 12
+# text = Maria.rossi@internet.it.
+1	Maria.rossi@internet.it	Maria.rossi@internet.it	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = In attesa di una vostra risposta, spero una risposta positiva, Vi ringrazio in anticipo.
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	8	obl	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	vostra	vostro	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	_
+6	risposta	risposta	ADJ	A	Gender=Fem|Number=Sing	5	amod	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	2	punct	_	_
+8	spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	risposta	risposta	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+11	positiva	positivo	ADJ	A	Gender=Fem|Number=Sing	10	amod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	14	punct	_	_
+13	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	14	obj	_	_
+14	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	conj	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	anticipo	anticipo	NOUN	S	Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Cordiali saluti Maria Rossi Allegato - una fotografia -curriculum vitae - conferma di professione XX
+1	Cordiali	Cordiale	DET	DQ	Number=Plur|PronType=Int	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\n
+3	Maria	Maria	PROPN	SP	_	2	nmod	_	_
+4	Rossi	Rossi	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+5	Allegato	allegare	PROPN	SP	_	3	flat:name	_	SpacesAfter=\n
+6	-	-	PUNCT	FF	_	3	punct	_	_
+7	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	fotografia	fotografia	NOUN	S	Gender=Fem|Number=Sing	3	nmod	_	SpacesAfter=\n
+9	-	-	PUNCT	FF	_	10	punct	_	SpaceAfter=No
+10	curriculum	curriculum	NOUN	S	Gender=Masc|Number=Sing	13	nmod	_	_
+11	vitae	vitae	ADJ	A	Number=Sing	13	amod	_	SpacesAfter=\n
+12	-	-	PUNCT	FF	_	11	punct	_	_
+13	conferma	conferma	NOUN	S	Gender=Fem|Number=Sing	8	compound	_	_
+14	di	di	ADP	E	_	15	case	_	_
+15	professione	professione	NOUN	S	Gender=Fem|Number=Sing	8	nmod	_	_
+16	XX	XX	ADJ	NO	Number=Sing|NumType=Ord	8	amod	_	SpacesAfter=\n
+

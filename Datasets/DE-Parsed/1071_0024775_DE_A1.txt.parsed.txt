@@ -1,0 +1,79 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024775_DE_A1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 26,04,12 Lieber Jens, Ich hörren er Vater ist geworden.
+1	Stadt	Stadt	NOUN	NN	_	11	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	26,04,12	26,04,12	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Lieber	Lieber	PROPN	NN	_	4	flat	_	_
+6	Jens	Jens	PROPN	NE	_	4	flat	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	hörren	hörren	NOUN	NN	Case=Gen|Number=Plur	11	nmod	_	_
+10	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	Vater	Vater	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+13	geworden	werden	AUX	VAPP	VerbForm=Part	12	aux:pass	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 2
+# text = Das ich prima und Glückwünsche.
+1	Das	d	SCONJ	PRELS	_	3	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	prima	prima	ADJ	ADJA	Degree=Pos	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Glückwünsche	Glückwünsche	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Was ist die Babys name?
+1	Was	was	PRON	PWS	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	die	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Babys	Baby	PROPN	NN	_	0	root	_	_
+5	name	Name	PROPN	NN	_	4	flat	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Schreiben Sie am e-mail schnell.
+1	Schreiben	Schreiben	NOUN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	1	nsubj	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	e-mail	e-mail	PROPN	NE	Case=Dat|Gender=Masc,Neut|Number=Sing	6	nmod	_	_
+6	schnell	schnellen	ADJ	ADJD	Degree=Pos	1	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Und er Mutter?
+1	Und	und	CCONJ	KON	_	3	cc	_	_
+2	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	Mutter	Mutter	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 6
+# text = We gehts sie est?
+1	We	We	PROPN	ADJA	Case=Nom|Number=Sing	4	nsubj	_	_
+2	gehts	gehts	ADV	NN	_	4	advmod	_	_
+3	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+4	est	esen	PROPN	VVFIN	_	0	root	_	SpaceAfter=No
+5	?	?	PROPN	$.	_	4	flat	_	_
+
+# sent_id = 7
+# text = Ich hope ALLes clan.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hope	hop	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	_
+3	ALLes	alle	PROPN	NN	_	2	appos	_	_
+4	clan	clan	PROPN	NE	_	3	flat	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Liebe Grüße Frienden, Tobias
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	3	nmod	_	_
+3	Frienden	Frienden	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Tobias	Tobias	PROPN	NN	_	3	appos	_	SpacesAfter=\n
+

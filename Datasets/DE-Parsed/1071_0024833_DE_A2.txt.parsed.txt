@@ -1,0 +1,95 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024833_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Liebe Jens, herzlichen glückwünsch!
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Jens	Jens	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	herzlichen	herzlichen	ADJ	ADJA	Degree=Pos	5	advmod	_	_
+5	glückwünsch	glückwünsch	ADJ	ADJD	Degree=Pos	2	appos	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 2
+# text = Du bist jetzt Vater, das Freue mich sehr.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	bist	sein	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	jetzt	jetzt	ADV	ADV	_	4	advmod	_	_
+4	Vater	Vater	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	das	der	PRON	ART	Case=Nom|PronType=Dem	9	nsubj	_	_
+7	Freue	freu	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	_
+8	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	9	obj	_	_
+9	sehr	sehr	ADV	ADV	_	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Wie es der Mutter des Babys geht? geht sie gut?
+1	Wie	wie	ADP	KOUS	_	4	case	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	der	der	DET	ART	Definite=Def|PronType=Art	4	det	_	_
+4	Mutter	Mutter	NOUN	NN	_	7	obl	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Babys	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	nmod	_	_
+7	geht	geht	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	7	parataxis	_	_
+10	sie	sie	PRON	PPER	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+11	gut	gut	ADJ	ADJD	Degree=Pos	9	advmod	_	SpaceAfter=No
+12	?	?	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Herzlichen glückwünsch für sie auch!
+1	Herzlichen	Herzlichen	NOUN	NN	_	0	root	_	_
+2	glückwünsch	glückwünsch	ADJ	ADJD	Degree=Pos	1	advmod	_	_
+3	für	für	ADP	APPR	_	4	case	_	_
+4	sie	sie	PRON	PPER	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	nmod	_	_
+5	auch	auch	ADV	ADV	_	1	advmod	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 5
+# text = Also, wie heißt des Baby?
+1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	4	punct	_	_
+3	wie	wie	ADV	KOUS	_	4	advmod	_	_
+4	heißt	heißen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Baby	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Hast du nächste woche zeit?
+1	Hast	hast	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	1	nsubj	_	_
+3	nächste	nach	ADJ	ADJA	_	5	amod	_	_
+4	woche	woch	ADJ	ADJA	Degree=Pos	5	amod	_	_
+5	zeit	zeit	NOUN	APPR	_	2	nmod	_	SpaceAfter=No
+6	?	?	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 7
+# text = Könnte ich des Baby kennen lernen?
+1	Könnte	können	AUX	VMFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Baby	Baby	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	6	obl	_	_
+5	kennen	kennen	ADV	VVFIN	_	4	advmod	_	_
+6	lernen	lernen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Bitte schreib mir bald!
+1	Bitte	Bitte	NOUN	PTKANT	_	2	compound	_	_
+2	schreib	schreib	PROPN	NE	_	0	root	_	_
+3	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+4	bald	bald	ADV	ADV	_	2	advmod	_	SpaceAfter=No
+5	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Mit viele Gruße Dein Freund, Tobias
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	viele	viel	ADJ	PIS	Case=Nom|Degree=Pos	3	amod	_	_
+3	Gruße	Muß|Gruße	PROPN	NN	_	0	root	_	SpacesAfter=\n
+4	Dein	dein	PROPN	PPOSAT	_	3	flat	_	_
+5	Freund	Freund	PROPN	NN	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	3	punct	_	_
+7	Tobias	Tobias	PROPN	NN	_	3	flat	_	SpacesAfter=\n
+

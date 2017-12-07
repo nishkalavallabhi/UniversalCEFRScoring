@@ -1,0 +1,59 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000030_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 04.01.2012 Sehr geehrte Damen und Herren, ich suche eine Groß Wohnung.
+1	Stadt	Stadt	NOUN	NN	_	6	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	04.01.2012	04.01.2012	PROPN	CARD	_	1	appos	_	SpacesAfter=\n
+5	Sehr	Sehr	PROPN	ADV	_	4	flat	_	_
+6	geehrte	geehrt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+7	Damen	Dame	PROPN	NN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	Herren	Herr	PROPN	NN	_	7	conj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	6	punct	_	SpacesAfter=\n
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+12	suche	suchen	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+13	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+14	Groß	groß	PROPN	NE	_	15	amod	_	_
+15	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 2
+# text = Ich brauche vier Zimmer, weil ich drei Kinder habe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	vier	vier	NUM	CARD	NumType=Card	4	nummod	_	_
+4	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	2	punct	_	_
+6	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+8	drei	drei	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Kinder	Kind	NOUN	NN	Case=Acc|Number=Plur	10	obj	_	_
+10	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich brauche auch eine Garage für meine Auto.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	auch	auch	ADV	ADV	_	2	advmod	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Garage	Garage	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Auto	Auto	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Mit Freundlichen Grüßen.
+1	Mit	mit	ADP	APPR	_	2	case	_	_
+2	Freundlichen	freundliche	NOUN	NN	_	3	obl	_	_
+3	Grüßen	Grüßen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Eva Müller
+1	Eva	Eva	PROPN	NE	_	0	root	_	_
+2	Müller	Müller	PROPN	NE	Case=Nom|Number=Sing	1	flat	_	SpacesAfter=\n
+

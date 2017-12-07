@@ -1,0 +1,182 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0001070_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Città X, 16 giugno 2011
+1	Città	Città	NOUN	S	Gender=Fem	0	root	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	16	16	NUM	N	NumType=Card	1	nmod	_	_
+5	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	4	flat	_	_
+6	2011	2011	NUM	N	NumType=Card	4	flat	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Caro Claudio, Come stai?
+1	Caro	caro	ADJ	A	Gender=Masc|Number=Sing	2	amod	_	_
+2	Claudio	Claudio	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+4	Come	come	SCONJ	CS	_	5	mark	_	_
+5	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	advcl	_	SpaceAfter=No
+6	?	?	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = È pecato che non ci siamo incontrati dopo la festa di Maria.
+1	È	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	pecato	pecare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	che	che	SCONJ	CS	_	7	mark	_	_
+4	non	non	ADV	BN	PronType=Neg	7	advmod	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	7	expl	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	incontrati	incontrare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	_
+8	dopo	dopo	ADP	E	_	10	case	_	_
+9	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	festa	festa	NOUN	S	Gender=Fem|Number=Sing	7	obl	_	_
+11	di	di	ADP	E	_	12	case	_	_
+12	Maria	Maria	PROPN	SP	_	10	nmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Noi stiamo molto bene.
+1	Noi	noi	PRON	PE	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	stiamo	stare	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	molto	molto	ADV	B	_	4	advmod	_	_
+4	bene	bene	ADV	B	_	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Mia figlia ha comminciato a giocare al tennis e adesso andiamo a giocare insieme ogni lunedì.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	4	nsubj	_	_
+3	ha	avere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	comminciato	comminciare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	mark	_	_
+6	giocare	giocare	VERB	V	VerbForm=Inf	4	xcomp	_	_
+7-8	al	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	6	obl	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	adesso	adesso	ADV	B	_	12	advmod	_	_
+12	andiamo	andare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	a	a	ADP	E	_	14	mark	_	_
+14	giocare	giocare	VERB	V	VerbForm=Inf	12	xcomp	_	_
+15	insieme	insieme	ADV	B	_	14	advmod	_	_
+16	ogni	ogni	DET	DI	Number=Sing|PronType=Ind	17	det	_	_
+17	lunedì	lunedì	NOUN	S	Gender=Masc	14	obl	_	SpaceAfter=No
+18	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 6
+# text = Michele, mio figlio, sempre suona il flauto e a volte mio marito ha tempo di accompagnarlo.
+1	Michele	Michele	PROPN	SP	_	7	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	figlio	figlio	NOUN	S	Gender=Masc|Number=Sing	1	appos	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	sempre	sempre	ADV	B	_	7	advmod	_	_
+7	suona	suonare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	flauto	flauto	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10	e	e	CCONJ	CC	_	15	cc	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	volte	volta	NOUN	S	Gender=Fem|Number=Plur	14	nmod	_	_
+13	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	marito	marito	NOUN	S	Gender=Masc|Number=Sing	15	nsubj	_	_
+15	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	_
+16	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	15	obj	_	_
+17	di	di	ADP	E	_	18	mark	_	_
+18-19	accompagnarlo	_	_	_	_	_	_	_	SpaceAfter=No
+18	accompagnar	accompagnare	VERB	V	VerbForm=Inf	16	acl	_	_
+19	lo	lo	PRON	PC	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	_
+20	.	.	PUNCT	FS	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Anche al lavoro tutto è a posto.
+1	Anche	anche	ADV	B	_	4	advmod	_	_
+2-3	al	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	_
+5	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+6	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	posto	posto	NOUN	S	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 8
+# text = L'atmosfera all' ente X mi piace e ho trovato dei colleghi molto simpatici.
+1	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	2	det	_	SpaceAfter=No
+2	atmosfera	atmosfera	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	_
+3-4	all'	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
+5	ente	ente	NOUN	S	Gender=Masc|Number=Sing	2	nmod	_	_
+6	X	decimo	PROPN	SP	_	5	nmod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	piace	piacere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	trovato	trovare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	_
+12-13	dei	_	_	_	_	_	_	_	_
+12	di	di	ADP	E	_	14	case	_	_
+13	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	14	det	_	_
+14	colleghi	collega	NOUN	S	Gender=Masc|Number=Plur	11	obl	_	_
+15	molto	molto	ADV	B	_	16	advmod	_	_
+16	simpatici	simpatico	ADJ	A	Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+17	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 9
+# text = Febbraio scorso siamo andati a Città X.
+1	Febbraio	febbraio	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	_
+2	scorso	scorso	ADJ	A	Gender=Masc|Number=Sing	1	amod	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	_
+5	a	a	ADP	E	_	6	case	_	_
+6	Città	Città	PROPN	SP	_	4	obl	_	_
+7	X	x	ADJ	NO	Number=Sing|NumType=Ord	6	amod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Mio suocero ha una casa in quale siamo stati per una settimana.
+1	Mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	suocero	suocero	NOUN	S	Gender=Masc|Number=Sing	3	nsubj	_	_
+3	ha	avere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	casa	casa	NOUN	S	Gender=Fem|Number=Sing	3	obj	_	_
+6	in	in	ADP	E	_	7	case	_	_
+7	quale	quale	PRON	PR	Number=Sing|PronType=Rel	9	obl	_	_
+8	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	stati	essere	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	per	per	ADP	E	_	12	case	_	_
+11	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 11
+# text = Faceva bel tempo, però non c'era troppo neve.
+1	Faceva	fare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+2	bel	bello	ADJ	A	Gender=Masc|Number=Sing	3	amod	_	_
+3	tempo	tempo	NOUN	S	Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+4	,	,	PUNCT	FF	_	8	punct	_	_
+5	però	però	ADV	B	_	8	advmod	_	_
+6	non	non	ADV	BN	PronType=Neg	8	advmod	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	era	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	conj	_	_
+9	troppo	troppo	ADV	B	_	10	advmod	_	_
+10	neve	neve	ADJ	A	Gender=Fem|Number=Plur	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Spero di vederti in ottobre a Città Y. Tanti saluti Eva
+1	Spero	sperare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	di	di	ADP	E	_	3	mark	_	_
+3-4	vederti	_	_	_	_	_	_	_	_
+3	veder	vedere	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	3	expl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ottobre	ottobre	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	a	a	ADP	E	_	8	case	_	_
+8	Città	città	PROPN	SP	_	3	obl	_	_
+9	Y.	Y.	PROPN	SP	_	8	flat:name	_	SpacesAfter=\s\n
+10	Tanti	tanto	PROPN	SP	_	3	obj	_	_
+11	saluti	saluti	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	acl	_	SpacesAfter=\n
+12	Eva	Eva	PROPN	SP	_	1	nmod	_	SpacesAfter=\n
+

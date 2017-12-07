@@ -1,0 +1,102 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000045_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Sehr geehrte Damen und Herren!
+1	Sehr	sehr	ADV	ADV	_	2	advmod	_	_
+2	geehrte	geehrt	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Damen	Dama	NOUN	NN	_	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Herren	Herr	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	!	!	PUNCT	$.	_	3	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Für meine Familie, die besteht aus zwei Erwachsene und ein minderjahrige Kind, suche ich Drei_Zimmer Wohnung.
+1	Für	für	ADP	APPR	_	3	case	_	_
+2	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	_
+5	die	der	PRON	PRELS	Case=Nom|PronType=Rel	6	nsubj	_	_
+6	besteht	bestehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	3	acl	_	_
+7	aus	aus	ADP	APPR	_	9	case	_	_
+8	zwei	zwei	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Erwachsene	Erwachsene	NOUN	NN	_	6	obl	_	_
+10	und	und	CCONJ	KON	_	13	cc	_	_
+11	ein	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+12	minderjahrige	minderjahrig	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Kind	Kind	NOUN	NN	_	9	conj	_	SpaceAfter=No
+14	,	,	PUNCT	$,	_	15	punct	_	_
+15	suche	suchen	NOUN	NN	_	9	conj	_	_
+16	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+17	Drei_Zimmer	Drei_Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	_
+18	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Jede Zimmer muss ein separat Eingang haben.
+1	Jede	jed	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot	2	det	_	_
+2	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+5	separat	separat	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	6	amod	_	_
+6	Eingang	Eingang	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	7	nsubj	_	_
+7	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 4
+# text = Auch wünschen wir ein Balkon, der befindet sich im Hof., die Zimmer auf verschiedenen Seiten des Hauses.
+1	Auch	auch	ADV	ADV	_	2	advmod	_	_
+2	wünschen	wünschen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4	ein	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Balkon	Balkon	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	15	nsubj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	5	punct	_	_
+7	der	der	PRON	PRELS	Case=Nom|PronType=Rel	8	nsubj	_	_
+8	befindet	befinden	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	5	acl	_	_
+9	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	_
+10-11	im	_	_	_	_	_	_	_	_
+10	in	in	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Hof.	Hof.	NOUN	NE	_	8	obl	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	15	punct	_	_
+14	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Zimmer	Zimmer	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	2	obj	_	_
+16	auf	auf	ADP	APPR	_	18	case	_	_
+17	verschiedenen	verschieden	ADJ	ADJA	Degree=Pos	18	amod	_	_
+18	Seiten	Seite	NOUN	NN	_	15	nmod	_	_
+19	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	20	det	_	_
+20	Hauses	Haus	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Die Miete muss nicht 300 € ubersteigen .
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Miete	Miete	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	5	advmod	_	_
+5	300	300	NUM	CARD	NumType=Card	6	nummod	_	_
+6	€	€	X	NN	_	7	dep	_	_
+7	ubersteigen	ubersteigen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 6
+# text = Die Toilette und Badezimmer brauchen wir getrennt mit separaten Eingängen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Toilette	Toilette	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	und	und	CCONJ	KON	_	4	cc	_	_
+4	Badezimmer	Badezimmer	NOUN	NN	_	2	conj	_	_
+5	brauchen	brauchen	VERB	VVFIN	Number=Plur|Person=1|VerbForm=Fin	0	root	_	_
+6	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+7	getrennt	trennen	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+8	mit	mit	ADP	APPR	_	10	case	_	_
+9	separaten	separat	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	Eingängen	Eingang	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Mit freundlichen Grüßen Hr Winkelmann
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	4	nmod	_	SpacesAfter=\n
+4	Hr	Hr	NOUN	NE	_	0	root	_	_
+5	Winkelmann	Winkelmann	PROPN	NE	_	4	appos	_	SpacesAfter=\n
+

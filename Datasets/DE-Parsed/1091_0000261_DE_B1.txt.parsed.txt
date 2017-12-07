@@ -1,0 +1,96 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000261_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 11.
+1	11	11	NUM	CARD	NumType=Card	0	root	_	SpaceAfter=No
+2	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = März.12 Lieber Julia, Wie gehts es dir?
+1	März.12	März.12	PROPN	NN	_	8	nmod	_	SpacesAfter=\n
+2	Lieber	Lieber	PROPN	NN	_	1	flat	_	_
+3	Julia	Julia	PROPN	NE	_	1	flat	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+5	Wie	Wie	ADP	KOUS	_	6	case	_	_
+6	gehts	gehts	ADV	NN	_	8	advmod	_	_
+7	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+8	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	SpaceAfter=No
+9	?	?	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Ich hoffe es geht dir gut?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hoffe	hoff	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+5	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	4	iobj	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	4	xcomp	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 4
+# text = Ich wollte am 6 märz nach Stadt X fahren, aber es geht Leider nicht, weil ich in der Zeit viel zu tun habe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+2	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	aux	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	6	6	NUM	CARD	NumType=Card	10	obl	_	_
+6	märz	märz	ADJ	ADJD	Degree=Pos	10	advmod	_	_
+7	nach	nach	ADP	APPR	_	8	case	_	_
+8	Stadt	Stadt	PROPN	NN	Case=Dat|Number=Sing	10	obl	_	_
+9	X	X	PROPN	NN	_	8	appos	_	_
+10	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	14	punct	_	_
+12	aber	aber	CCONJ	KON	_	14	cc	_	_
+13	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+14	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	10	conj	_	_
+15	Leider	leider	ADV	ADV	_	14	advmod	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	14	advmod	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	14	punct	_	_
+18	weil	weil	SCONJ	KOUS	_	25	mark	_	_
+19	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+20	in	in	ADP	APPR	_	22	case	_	_
+21	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
+22	Zeit	Zeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	_
+23	viel	viel	ADV	ADV	_	25	advmod	_	_
+24	zu	zu	PART	PTKZU	_	25	mark	_	_
+25	tun	tun	VERB	VVINF	VerbForm=Inf	14	advcl	_	_
+26	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	aux	_	SpaceAfter=No
+27	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 5
+# text = Aber Ich habe die Fahrkarte schon gekauft, und die Fahrkarte kann Ich auch nicht zurückgeben, möchtest du die Fahrkarte haben?
+1	Aber	aber	SCONJ	KON	_	7	mark	_	_
+2	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+3	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+6	schon	schon	ADV	ADV	_	7	advmod	_	_
+7	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	16	punct	_	_
+9	und	und	CCONJ	KON	_	16	cc	_	_
+10	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	Fahrkarte	Fahrkarte	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	16	nsubj:pass	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+13	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+14	auch	auch	ADV	ADV	_	15	advmod	_	_
+15	nicht	nicht	PART	PTKNEG	Polarity=Neg	16	advmod	_	_
+16	zurückgeben	zurückben	VERB	VVPP	VerbForm=Part	7	conj	_	SpaceAfter=No
+17	,	,	PUNCT	$,	_	7	punct	_	_
+18	möchtest	möchtesen	ADJ	ADJD	Degree=Sup	19	amod	_	_
+19	du	du	PROPN	PPER	_	22	nsubj	_	_
+20	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+21	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+22	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	conj	_	SpaceAfter=No
+23	?	?	PUNCT	$.	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Lieber grüße.
+1	Lieber	lieb	ADV	ADJD	_	2	advmod	_	_
+2	grüße	grüß	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Michael
+1	Michael	Michael	PROPN	NE	_	0	root	_	SpacesAfter=\n
+

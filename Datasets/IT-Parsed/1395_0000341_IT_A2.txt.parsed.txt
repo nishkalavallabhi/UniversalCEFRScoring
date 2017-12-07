@@ -1,0 +1,95 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000341_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = 3 Luglio 2010 A Città X Cara Laura, Vado bene, mia figlia e mio marito anche.
+1	3	3	NUM	N	NumType=Card	2	nummod	_	_
+2	Luglio	luglio	PROPN	SP	_	10	nmod	_	_
+3	2010	2010	NUM	N	NumType=Card	2	flat:name	_	SpacesAfter=\n
+4	A	a	PROPN	SP	_	2	flat:name	_	_
+5	Città	Città	PROPN	SP	_	2	flat:name	_	_
+6	X	x	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+7	Cara	Cara	PROPN	SP	_	2	flat:name	_	_
+8	Laura	Laura	PROPN	SP	_	2	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\n
+10	Vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	bene	bene	ADV	B	_	10	advmod	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	10	punct	_	_
+13	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	figlia	figlia	NOUN	S	Gender=Fem|Number=Sing	10	parataxis	_	_
+15	e	e	CCONJ	CC	_	17	cc	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	marito	marito	NOUN	S	Gender=Masc|Number=Sing	14	conj	_	_
+18	anche	anche	ADV	B	_	17	advmod	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = Siamo andati, durante ultime vacanze alla mare, a Città X, la città è magnifica.
+1	Siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andati	andare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	durante	durante	ADP	E	_	6	case	_	_
+5	ultime	ultimo	ADJ	A	Gender=Fem|Number=Plur	6	amod	_	_
+6	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	2	obl	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mare	mare	NOUN	S	Number=Sing	2	obl	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	2	punct	_	_
+11	a	a	ADP	E	_	12	case	_	_
+12	Città	Città	PROPN	SP	_	18	obl	_	_
+13	X	X	PROPN	SP	_	12	flat:name	_	SpaceAfter=No
+14	,	,	PUNCT	FF	_	12	punct	_	_
+15	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	città	città	NOUN	S	Gender=Fem	18	nsubj	_	_
+17	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+18	magnifica	magnifica	ADJ	A	Gender=Fem|Number=Sing	2	parataxis	_	SpaceAfter=No
+19	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 3
+# text = Lavoro sempre alla pasticeria, tutto va bene, Penso di venire in Italia te vedere in Agosto con mia famiglia, è possibile?
+1	Lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	25	nsubj	_	_
+2	sempre	sempre	ADV	B	_	5	advmod	_	_
+3-4	alla	_	_	_	_	_	_	_	_
+3	a	a	ADP	E	_	5	case	_	_
+4	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	pasticeria	pasticeria	NOUN	S	Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	1	punct	_	_
+7	tutto	tutto	PRON	PI	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+9	bene	bene	ADV	B	_	8	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	11	punct	_	_
+11	Penso	Penso	PROPN	SP	_	8	obj	_	_
+12	di	di	ADP	E	_	13	mark	_	_
+13	venire	venire	VERB	V	VerbForm=Inf	11	acl	_	_
+14	in	in	ADP	E	_	15	case	_	_
+15	Italia	Italia	PROPN	SP	_	13	obl	_	_
+16	te	te	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	17	obj	_	_
+17	vedere	vedere	VERB	V	VerbForm=Inf	15	acl:relcl	_	_
+18	in	in	ADP	E	_	19	case	_	_
+19	Agosto	agosto	PROPN	SP	_	17	obl	_	_
+20	con	con	ADP	E	_	22	case	_	_
+21	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	22	det:poss	_	_
+22	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+23	,	,	PUNCT	FF	_	1	punct	_	_
+24	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+25	possibile	possibile	ADJ	A	Number=Sing	0	root	_	SpaceAfter=No
+26	?	?	PUNCT	FS	_	25	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Mi chiami per dirmi.
+1	Mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	_
+2	chiami	chiamare	VERB	V	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	per	per	ADP	E	_	4	mark	_	_
+4-5	dirmi	_	_	_	_	_	_	_	SpaceAfter=No
+4	dir	dire	VERB	V	VerbForm=Inf	2	advcl	_	_
+5	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Baci, A presto Maria
+1	Baci	Baco	PROPN	SP	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	FF	_	1	punct	_	_
+3	A	a	ADP	E	_	4	case	_	_
+4	presto	presto	ADV	B	_	5	fixed	_	SpacesAfter=\n
+5	Maria	Maria	PROPN	SP	_	1	nsubj	_	SpacesAfter=\n
+

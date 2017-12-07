@@ -1,0 +1,192 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1365_0100258_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Beatrice Russo e Stefano Tittarelli Napoli Via Friuli, 72 Città X, 25-6-2011
+1	Beatrice	Beatore	PROPN	SP	_	0	root	_	_
+2	Russo	russo	PROPN	SP	_	1	flat:name	_	_
+3	e	e	CCONJ	CC	_	4	cc	_	SpacesAfter=\s\n
+4	Stefano	Stefano	PROPN	SP	_	1	conj	_	_
+5	Tittarelli	Tittarelli	PROPN	SP	_	4	flat:name	_	SpacesAfter=\s\n
+6	Napoli	Napoli	PROPN	SP	_	4	flat:name	_	SpacesAfter=\s\n
+7	Via	via	PROPN	SP	_	4	flat:name	_	_
+8	Friuli	Friuli	PROPN	SP	_	4	flat:name	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	10	punct	_	_
+10	72	72	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	Città	città	PROPN	SP	_	1	conj	_	_
+12	X	X	ADJ	NO	Number=Sing|NumType=Ord	11	amod	_	SpaceAfter=No
+13	,	,	PUNCT	FF	_	11	punct	_	_
+14	25	25	NUM	N	NumType=Card	11	nummod	_	SpaceAfter=No
+15	-	-	PUNCT	FF	_	14	punct	_	SpaceAfter=No
+16	6	6	NUM	N	NumType=Card	14	compound	_	SpaceAfter=No
+17	-	-	PUNCT	FF	_	16	punct	_	SpaceAfter=No
+18	2011	2011	NUM	N	NumType=Card	11	nummod	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Cara Beatrice, caro Stefano, vi ringrazio tanto per il vostro invito.
+1	Cara	caro	ADJ	A	Gender=Fem|Number=Sing	2	amod	_	_
+2	Beatrice	Beatore	PROPN	SP	_	8	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	2	punct	_	_
+4	caro	caro	ADJ	A	Gender=Masc|Number=Sing	5	amod	_	_
+5	Stefano	Stefano	PROPN	SP	_	2	appos	_	SpaceAfter=No
+6	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n
+7	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	obj	_	_
+8	ringrazio	ringraziare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	tanto	tanto	ADV	B	_	8	advmod	_	_
+10	per	per	ADP	E	_	13	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+12	vostro	vostro	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	invito	invito	NOUN	S	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	8	punct	_	_
+
+# sent_id = 3
+# text = Sono felice che vi m'invitato.
+1	Sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+2	felice	felice	ADJ	A	Number=Sing	0	root	_	_
+3	che	che	SCONJ	CS	_	6	mark	_	_
+4	vi	vi	ADV	B	_	6	advmod	_	_
+5	m'	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	obj	_	SpaceAfter=No
+6	invitato	invitare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Per fortuna ho libero il 20 e il 21 novembre e posso venire da voi.
+1	Per	per	ADP	E	_	2	case	_	_
+2	fortuna	fortuna	NOUN	S	Gender=Fem|Number=Sing	4	obl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	libero	libero	ADJ	A	Gender=Masc|Number=Sing	0	root	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	20	20	NUM	N	NumType=Card	4	nummod	_	_
+7	e	e	CCONJ	CC	_	9	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	21	21	NUM	N	NumType=Card	4	conj	_	_
+10	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	9	flat	_	_
+11	e	e	CCONJ	CC	_	13	cc	_	_
+12	posso	potere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	venire	venire	VERB	V	VerbForm=Inf	4	conj	_	_
+14	da	da	ADP	E	_	15	case	_	_
+15	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	13	obl	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 5
+# text = Vengo con il treno e arrivo alla stazione a mezzogiorno.
+1	Vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	con	con	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	treno	treno	NOUN	S	Gender=Masc|Number=Sing	1	obl	_	_
+5	e	e	CCONJ	CC	_	6	cc	_	_
+6	arrivo	arrivo	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	_
+7-8	alla	_	_	_	_	_	_	_	_
+7	a	a	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	stazione	stazione	NOUN	S	Gender=Fem|Number=Sing	6	obl	_	_
+10	a	a	ADP	E	_	11	case	_	_
+11	mezzogiorno	mezzogiorno	NOUN	S	Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = Ho prenotato una camera in albergo.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	prenotato	prenotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	camera	camera	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	albergo	albergo	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 7
+# text = Vengo alle diciannove in ristorante "daciro ".
+1	Vengo	venire	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2-3	alle	_	_	_	_	_	_	_	_
+2	a	a	ADP	E	_	4	case	_	_
+3	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
+4	diciannove	diciannove	NOUN	S	Gender=Fem|Number=Plur	1	obl	_	_
+5	in	in	ADP	E	_	6	case	_	_
+6	ristorante	ristorante	NOUN	S	Gender=Masc|Number=Sing	4	nmod	_	_
+7	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+8	daciro	daciro	NOUN	S	Gender=Masc|Number=Sing	6	compound	_	_
+9	"	"	PUNCT	FB	_	8	punct	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Non sono stata sicura che cosa voglio regalarvi.
+1	Non	non	ADV	BN	PronType=Neg	4	advmod	_	_
+2	sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	stata	essere	AUX	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	cop	_	_
+4	sicura	sicurare	ADJ	A	Gender=Fem|Number=Sing	0	root	_	_
+5	che	che	DET	DQ	PronType=Int	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	8	obj	_	_
+7	voglio	volere	AUX	VM	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8-9	regalarvi	_	_	_	_	_	_	_	SpaceAfter=No
+8	regalar	regalare	VERB	V	VerbForm=Inf	4	csubj	_	_
+9	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	8	iobj	_	_
+10	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Per questo ho parlato con Maria, lei organizza una sorpresa per voi.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	parlato	parlare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+5	con	con	ADP	E	_	6	case	_	_
+6	Maria	Maria	PROPN	SP	_	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	FF	_	9	punct	_	_
+8	lei	lei	PRON	PE	Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	organizza	organizzare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+10	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+11	sorpresa	sorpresa	NOUN	S	Gender=Fem|Number=Sing	9	obj	_	_
+12	per	per	ADP	E	_	13	case	_	_
+13	voi	voi	PRON	PE	Number=Plur|Person=2|PronType=Prs	9	obl	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 10
+# text = Ma c'è ancora una cosa di quale avete bisogna, vi chiamo sul mio cellulare (no 0345-11111111).
+1	Ma	ma	CCONJ	CC	_	3	cc	_	_
+2	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+3	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ancora	ancora	ADV	B	_	3	advmod	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	cosa	cosa	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	di	di	ADP	E	_	8	case	_	_
+8	quale	quale	PRON	PR	Number=Sing|PronType=Rel	10	obl	_	_
+9	avete	avere	AUX	VA	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	bisogna	bisognare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	SpaceAfter=No
+11	,	,	PUNCT	FF	_	3	punct	_	_
+12	vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	13	obj	_	_
+13	chiamo	chare	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	_
+14-15	sul	_	_	_	_	_	_	_	_
+14	su	su	ADP	E	_	17	case	_	_
+15	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
+16	mio	mio	DET	AP	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	cellulare	cellulare	NOUN	S	Gender=Masc|Number=Sing	13	obl	_	_
+18	(	(	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+19	no	no	NOUN	S	Gender=Masc|Number=Sing	17	appos	_	_
+20	0345	0345	NUM	N	NumType=Card	19	nummod	_	SpaceAfter=No
+21	-	-	PUNCT	FF	_	20	punct	_	SpaceAfter=No
+22	11111111	11111111	NUM	N	NumType=Card	20	compound	_	SpaceAfter=No
+23	)	)	PUNCT	FB	_	19	punct	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Vi auguro tutto il buono per il futuro e ci vediamo il 20 novembre.
+1	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	2	iobj	_	_
+2	auguro	augurare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	tutto	tutto	DET	T	Gender=Masc|Number=Sing|PronType=Tot	5	det:predet	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	buono	buono	NOUN	S	Gender=Masc|Number=Sing	2	obj	_	_
+6	per	per	ADP	E	_	8	case	_	_
+7	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+8	futuro	futuro	NOUN	S	Gender=Masc|Number=Sing	5	nmod	_	_
+9	e	e	CCONJ	CC	_	11	cc	_	_
+10	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	_
+11	vediamo	vedere	VERB	V	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	_
+12	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	20	20	NUM	N	NumType=Card	11	obl	_	_
+14	novembre	novembre	NOUN	S	Gender=Masc|Number=Sing	13	flat	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	2	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 12
+# text = Tanti saluti Eva
+1	Tanti	tanto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	saluti	saluti	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	Eva	Eva	PROPN	SP	_	2	nmod	_	SpacesAfter=\n
+

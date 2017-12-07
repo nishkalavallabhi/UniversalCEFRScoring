@@ -1,0 +1,88 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000636_IT_A2.txt
+# newpar
+# sent_id = 1
+# text = Città X, il 4 Marzo 2010 Caro Pietro, Come stai?
+1	Città	Città	PROPN	SP	_	0	root	_	_
+2	X	decimo	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	4	4	NUM	N	NumType=Card	1	nmod	_	_
+6	Marzo	marzo	PROPN	SP	_	5	flat	_	_
+7	2010	2010	NUM	N	NumType=Card	5	flat	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s
+8	Caro	Caro	NOUN	S	Gender=Masc|Number=Sing	12	parataxis	_	_
+9	Pietro	Pietro	PROPN	SP	_	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	8	punct	_	SpacesAfter=\s\n
+11	Come	come	SCONJ	CS	_	12	mark	_	_
+12	stai	stare	VERB	V	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+13	?	?	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Oggi giorni vado al lavoro con il sorriso perché sono tornati di vacanza.
+1	Oggi	oggi	ADV	B	_	3	advmod	_	_
+2	giorni	giorno	NOUN	S	Gender=Masc|Number=Plur	3	obl	_	_
+3	vado	andare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4-5	al	_	_	_	_	_	_	_	_
+4	a	a	ADP	E	_	6	case	_	_
+5	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	3	obl	_	_
+7	con	con	ADP	E	_	9	case	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	sorriso	sorriso	NOUN	S	Gender=Masc|Number=Sing	6	nmod	_	_
+10	perché	perché	SCONJ	CS	_	12	mark	_	_
+11	sono	essere	AUX	VA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	tornati	tornare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	3	advcl	_	_
+13	di	di	ADP	E	_	14	case	_	_
+14	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+15	.	.	PUNCT	FS	_	3	punct	_	_
+
+# sent_id = 3
+# text = Sono andato in Maroco una settimana fa.
+1	Sono	essere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	andato	andare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	in	in	ADP	E	_	4	case	_	_
+4	Maroco	Maroco	PROPN	SP	_	2	obl	_	_
+5	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	2	obl	_	_
+7	fa	fa	ADV	B	_	6	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ma il lavoro è dificile perché c'è molte gente.
+1	Ma	ma	CCONJ	CC	_	5	cc	_	_
+2	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	lavoro	lavoro	NOUN	S	Gender=Masc|Number=Sing	5	nsubj	_	_
+4	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	dificile	dificile	ADJ	A	Number=Sing	0	root	_	_
+6	perché	perché	SCONJ	CS	_	8	mark	_	_
+7	c'	ci	PRON	PC	Clitic=Yes|PronType=Prs	8	expl	_	SpaceAfter=No
+8	è	essere	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+9	molte	molto	DET	DI	Gender=Fem|Number=Plur|PronType=Ind	10	det	_	_
+10	gente	gente	NOUN	S	Gender=Fem|Number=Sing	8	nsubj	_	SpaceAfter=No
+11	.	.	PUNCT	FS	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Mia famiglia va bene.
+1	Mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+3	va	andare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	bene	bene	ADV	B	_	3	advmod	_	SpaceAfter=No
+5	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Penso ti ricontrare per Natale.
+1	Penso	pensare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	ti	ti	PRON	PC	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	1	expl	_	_
+3	ricontrare	ricontrare	VERB	V	VerbForm=Inf	1	xcomp	_	_
+4	per	per	ADP	E	_	5	case	_	_
+5	Natale	Natale	PROPN	SP	_	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 7
+# text = Molti baci la tua amica Maria
+1	Molti	molto	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	2	det	_	_
+2	baci	baco	NOUN	S	Gender=Masc|Number=Plur	0	root	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	tua	tuo	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	amica	amico	NOUN	S	Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+6	Maria	Maria	PROPN	SP	_	5	nmod	_	SpacesAfter=\n
+

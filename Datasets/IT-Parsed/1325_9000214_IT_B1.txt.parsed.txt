@@ -1,0 +1,242 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1325_9000214_IT_B1.txt
+# newpar
+# sent_id = 1
+# text = Maria Rossi Strada Maggiore 12 12345 Città X Paese X
+1	Maria	Maria	PROPN	SP	_	0	root	_	_
+2	Rossi	Rossi	PROPN	SP	_	1	flat:name	_	SpacesAfter=\n
+3	Strada	strada	PROPN	SP	_	1	flat:name	_	_
+4	Maggiore	Maggiore	PROPN	SP	_	1	flat:name	_	_
+5	12	12	NUM	N	NumType=Card	7	nummod	_	SpacesAfter=\n
+6	12345	12345	NUM	N	NumType=Card	5	flat	_	_
+7	Città	Città	PROPN	SP	_	1	nmod	_	_
+8	X	X	PROPN	SP	_	7	flat:name	_	SpacesAfter=\s\n
+9	Paese	paese	PROPN	SP	_	7	flat:name	_	_
+10	X	X	PROPN	SP	_	1	flat:name	_	SpacesAfter=\s\s\s\n\n
+
+# newpar
+# sent_id = 2
+# text = Residence del Lago Via S. Francesco 20348 Ticino ITALIA 03/07/2010 Egregi signori, gentili signore, Dal 10 al 17 giugno 2010 ho passato una settimana con mia famiglia al Vs. villaggio turistico "Residence del Lago".
+1	Residence	Residence	NOUN	S	_	31	nsubj	_	_
+2-3	del	_	_	_	_	_	_	_	_
+2	di	di	ADP	E	_	4	case	_	_
+3	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	8	nmod	_	SpacesAfter=\s\n
+5	Via	via	PROPN	SP	_	4	nmod	_	_
+6	S.	S.	PROPN	SP	_	5	flat:name	_	_
+7	Francesco	Francesco	PROPN	SP	_	5	flat:name	_	SpacesAfter=\s\n
+8	20348	20348	NUM	N	NumType=Card	1	nummod	_	_
+9	Ticino	Ticino	PROPN	SP	_	1	nmod	_	SpacesAfter=\s\n
+10	ITALIA	Italia	PROPN	SP	_	9	flat:name	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+11	03	03	NUM	N	NumType=Card	9	flat:name	_	SpaceAfter=No
+12	/	/	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+13	07	07	NUM	N	NumType=Card	1	nummod	_	SpaceAfter=No
+14	/	/	PUNCT	FF	_	13	punct	_	SpaceAfter=No
+15	2010	2010	NUM	N	NumType=Card	17	nummod	_	SpacesAfter=\s\n
+16	Egregi	Egregi	ADJ	A	Gender=Masc|Number=Plur	17	amod	_	_
+17	signori	signore	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	SpaceAfter=No
+18	,	,	PUNCT	FF	_	19	punct	_	_
+19	gentili	gentile	NOUN	S	Gender=Masc|Number=Plur	1	conj	_	_
+20	signore	signore	NOUN	S	Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	FF	_	24	punct	_	SpacesAfter=\s\n\s\n
+22-23	Dal	_	_	_	_	_	_	_	_
+22	Da	da	ADP	E	_	24	case	_	_
+23	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	10	10	NUM	N	NumType=Card	31	nummod	_	_
+25-26	al	_	_	_	_	_	_	_	_
+25	a	a	ADP	E	_	27	case	_	_
+26	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
+27	17	17	NUM	N	NumType=Card	24	nmod	_	_
+28	giugno	giugno	NOUN	S	Gender=Masc|Number=Sing	27	flat	_	_
+29	2010	2010	NUM	N	NumType=Card	27	flat	_	_
+30	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	passato	passare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+32	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	33	det	_	_
+33	settimana	settimana	NOUN	S	Gender=Fem|Number=Sing	31	obj	_	_
+34	con	con	ADP	E	_	36	case	_	_
+35	mia	mio	DET	AP	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	36	det:poss	_	_
+36	famiglia	famiglia	NOUN	S	Gender=Fem|Number=Sing	33	nmod	_	_
+37-38	al	_	_	_	_	_	_	_	_
+37	a	a	ADP	E	_	39	case	_	_
+38	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	39	det	_	_
+39	Vs	Vs	PROPN	SP	_	31	obl	_	SpaceAfter=No
+40	.	.	PUNCT	FS	_	39	punct	_	_
+41	villaggio	villaggio	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	_
+42	turistico	turistico	ADJ	A	Gender=Masc|Number=Sing	41	amod	_	_
+43	"	"	PUNCT	FB	_	39	punct	_	SpaceAfter=No
+44	Residence	Residence	PROPN	SP	_	39	flat:name	_	_
+45-46	del	_	_	_	_	_	_	_	_
+45	di	di	ADP	E	_	47	case	_	_
+46	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	47	det	_	_
+47	Lago	lago	NOUN	S	Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
+48	"	"	PUNCT	FB	_	31	punct	_	SpaceAfter=No
+49	.	.	PUNCT	FS	_	31	punct	_	_
+
+# sent_id = 3
+# text = Ho prenotato questa vacanza perché ho letto l'annuncio nel giornale "La Reppublica" e mi sembrava un pel posto per trascorrere le nostre vacanze.
+1	Ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	_
+2	prenotato	prenotare	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+3	questa	questo	DET	DD	Gender=Fem|Number=Sing|PronType=Dem	4	det	_	_
+4	vacanza	vacanza	NOUN	S	Gender=Fem|Number=Sing	2	obj	_	_
+5	perché	perché	SCONJ	CS	_	7	mark	_	_
+6	ho	avere	AUX	VA	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	letto	leggere	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	advcl	_	_
+8	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	9	det	_	SpaceAfter=No
+9	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	7	obj	_	_
+10-11	nel	_	_	_	_	_	_	_	_
+10	in	in	ADP	E	_	12	case	_	_
+11	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
+12	giornale	giornale	NOUN	S	Gender=Masc|Number=Sing	7	obl	_	_
+13	"	"	PUNCT	FB	_	15	punct	_	SpaceAfter=No
+14	La	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Reppublica	Reppublica	PROPN	SP	_	12	nmod	_	SpaceAfter=No
+16	"	"	PUNCT	FB	_	15	punct	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	19	iobj	_	_
+19	sembrava	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	conj	_	_
+20	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+21-22	pel	_	_	_	_	_	_	_	_
+21	per	per	ADP	E	_	23	case	_	_
+22	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
+23	posto	posto	NOUN	S	Gender=Masc|Number=Sing	19	obj	_	_
+24	per	per	ADP	E	_	25	mark	_	_
+25	trascorrere	trascorrere	VERB	V	VerbForm=Inf	19	advcl	_	_
+26	le	il	DET	RD	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	28	det	_	_
+27	nostre	nostro	DET	AP	Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs	28	det:poss	_	_
+28	vacanze	vacanza	NOUN	S	Gender=Fem|Number=Plur	25	obj	_	SpaceAfter=No
+29	.	.	PUNCT	FS	_	2	punct	_	_
+
+# sent_id = 4
+# text = In particolare la possibilità di fare molto sport mi è piaciuta tanto.
+1	In	in	ADP	E	_	2	case	_	_
+2	particolare	particolare	NOUN	S	Gender=Masc|Number=Sing	11	obl	_	_
+3	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	possibilità	possibilità	NOUN	S	Gender=Fem	11	nsubj:pass	_	_
+5	di	di	ADP	E	_	6	mark	_	_
+6	fare	fare	VERB	V	VerbForm=Inf	4	acl	_	_
+7	molto	molto	ADV	B	_	8	advmod	_	_
+8	sport	sport	NOUN	S	Gender=Masc	6	obj	_	_
+9	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+11	piaciuta	piacere	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+12	tanto	tanto	ADV	B	_	11	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	11	punct	_	_
+
+# sent_id = 5
+# text = Pero quando siamo arrivati ci siamo accorti subito che i campi da tennis sono in riparazioni e che andare al lago per nuotare è difficile perché è lontano dal residence e ci sono solo pochi collegamenti.
+1	Pero	pero	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	quando	quando	SCONJ	CS	_	4	mark	_	_
+3	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	arrivati	arrivare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	7	advcl	_	_
+5	ci	ci	PRON	PC	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	_
+6	siamo	essere	AUX	VA	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	accorti	accortare	VERB	V	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	1	xcomp	_	_
+8	subito	subito	ADV	B	_	7	advmod	_	_
+9	che	che	SCONJ	CS	_	16	mark	_	_
+10	i	il	DET	RD	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
+11	campi	campo	NOUN	S	Gender=Masc|Number=Plur	16	nsubj	_	_
+12	da	da	ADP	E	_	13	case	_	_
+13	tennis	tennis	NOUN	S	Gender=Masc|Number=Sing	11	nmod	_	_
+14	sono	essere	AUX	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	in	in	ADP	E	_	16	case	_	_
+16	riparazioni	riparazione	NOUN	S	Gender=Fem|Number=Plur	7	obl	_	_
+17	e	e	CCONJ	CC	_	19	cc	_	_
+18	che	che	SCONJ	CS	_	19	mark	_	_
+19	andare	andare	VERB	V	VerbForm=Inf	26	csubj	_	_
+20-21	al	_	_	_	_	_	_	_	_
+20	a	a	ADP	E	_	22	case	_	_
+21	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	lago	lago	NOUN	S	Gender=Masc|Number=Sing	19	obl	_	_
+23	per	per	ADP	E	_	24	mark	_	_
+24	nuotare	nuotare	VERB	V	VerbForm=Inf	26	csubj	_	_
+25	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	difficile	difficile	ADJ	A	Number=Sing	16	conj	_	_
+27	perché	perché	SCONJ	CS	_	29	mark	_	_
+28	è	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	lontano	lontano	ADJ	A	Gender=Masc|Number=Sing	26	advcl	_	_
+30-31	dal	_	_	_	_	_	_	_	_
+30	da	da	ADP	E	_	32	case	_	_
+31	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
+32	residence	residence	NOUN	S	_	29	obl	_	_
+33	e	e	CCONJ	CC	_	35	cc	_	_
+34	ci	ci	PRON	PC	Clitic=Yes|PronType=Prs	35	expl	_	_
+35	sono	essere	VERB	V	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	conj	_	_
+36	solo	solo	ADV	B	_	38	advmod	_	_
+37	pochi	poco	DET	DI	Gender=Masc|Number=Plur|PronType=Ind	38	det	_	_
+38	collegamenti	collegamento	NOUN	S	Gender=Masc|Number=Plur	35	nsubj	_	SpaceAfter=No
+39	.	.	PUNCT	FS	_	1	punct	_	_
+
+# sent_id = 6
+# text = C'era infatto una grande differenza tra la realtà e l'annuncio pubblicitario.
+1	C'	ci	PRON	PC	Clitic=Yes|PronType=Prs	3	expl	_	SpaceAfter=No
+2	era	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	aux	_	_
+3	infatto	infarre	VERB	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+5	grande	grande	ADJ	A	Number=Sing	6	amod	_	_
+6	differenza	differenza	NOUN	S	Gender=Fem|Number=Sing	3	nsubj	_	_
+7	tra	tra	ADP	E	_	9	case	_	_
+8	la	il	DET	RD	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	realtà	realtà	NOUN	S	Gender=Fem	6	nmod	_	_
+10	e	e	CCONJ	CC	_	12	cc	_	_
+11	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	12	det	_	SpaceAfter=No
+12	annuncio	annuncio	NOUN	S	Gender=Masc|Number=Sing	9	conj	_	_
+13	pubblicitario	pubblicitario	ADJ	A	Gender=Masc|Number=Sing	12	amod	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Anche l'aria condizionata non funzionava e il receptionist è stato molto scortese.
+1	Anche	anche	ADV	B	_	3	advmod	_	_
+2	l'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	3	det	_	SpaceAfter=No
+3	aria	aria	NOUN	S	Gender=Fem|Number=Sing	6	nsubj	_	_
+4	condizionata	condizionare	VERB	V	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	acl	_	_
+5	non	non	ADV	BN	PronType=Neg	6	advmod	_	_
+6	funzionava	funzionare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+7	e	e	CCONJ	CC	_	13	cc	_	_
+8	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	receptionist	receptionist	NOUN	S	Gender=Masc	13	nsubj	_	_
+10	è	essere	AUX	VA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+11	stato	essere	AUX	V	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	cop	_	_
+12	molto	molto	ADV	B	_	13	advmod	_	_
+13	scortese	scortesa	ADJ	A	Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+14	.	.	PUNCT	FS	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Per questo Vi prego di un parziale rimborso.
+1	Per	per	ADP	E	_	2	case	_	_
+2	questo	questo	PRON	PD	Gender=Masc|Number=Sing|PronType=Dem	4	obl	_	_
+3	Vi	vi	PRON	PC	Clitic=Yes|Number=Plur|Person=2|PronType=Prs	4	obj	_	_
+4	prego	pregare	VERB	V	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	di	di	ADP	E	_	8	case	_	_
+6	un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
+7	parziale	parziale	ADJ	A	Number=Sing	8	amod	_	_
+8	rimborso	rimborso	NOUN	S	Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	FS	_	4	punct	_	_
+
+# sent_id = 9
+# text = Un quarto del prezzo totale mi sembra adeguato.
+1	Un	uno	DET	RI	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	quarto	quarto	ADJ	NO	Gender=Masc|Number=Sing|NumType=Ord	8	nsubj	_	_
+3-4	del	_	_	_	_	_	_	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	il	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	prezzo	prezzo	NOUN	S	Gender=Masc|Number=Sing	2	obl	_	_
+6	totale	totale	ADJ	A	Number=Sing	5	amod	_	_
+7	mi	mi	PRON	PC	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	8	iobj	_	_
+8	sembra	sembrare	VERB	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	adeguato	adeguato	ADJ	A	Gender=Masc|Number=Sing	8	xcomp	_	SpaceAfter=No
+10	.	.	PUNCT	FS	_	8	punct	_	SpacesAfter=\s\n\s\n
+
+# newpar
+# sent_id = 10
+# text = In attesa di una Vs. cortese risposta, Maria Rossi
+1	In	in	ADP	E	_	2	case	_	_
+2	attesa	attesa	NOUN	S	Gender=Fem|Number=Sing	10	nmod	_	_
+3	di	di	ADP	E	_	5	case	_	_
+4	una	uno	DET	RI	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Vs	Vs	PROPN	SP	_	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	FF	_	5	punct	_	_
+7	cortese	cortesa	NOUN	S	Gender=Fem|Number=Plur	5	nmod	_	_
+8	risposta	risposto	NOUN	S	Gender=Fem|Number=Sing	7	compound	_	SpaceAfter=No
+9	,	,	PUNCT	FF	_	2	punct	_	SpacesAfter=\s\n\s
+10	Maria	Maria	PROPN	SP	_	0	root	_	_
+11	Rossi	Rossi	PROPN	SP	_	10	flat:name	_	SpacesAfter=\n
+

@@ -1,0 +1,112 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024686_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 08 Marz 2011 Lieber Ingo, Wie geht´s dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	08	08	PROPN	CARD	_	7	nmod	_	_
+5	Marz	Marz	PROPN	VVFIN	_	4	flat	_	_
+6	2011	2011	NUM	CARD	NumType=Card	4	nmod	_	SpacesAfter=\n
+7	Lieber	Lieber	PROPN	NN	_	1	appos	_	_
+8	Ingo	Ingo	PROPN	NE	_	7	flat	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+10	Wie	wie	PROPN	NE	_	1	appos	_	_
+11	geht´s	geht´s	PROPN	NE	_	10	flat	_	_
+12	dir	dir	PROPN	NN	_	10	flat	_	SpaceAfter=No
+13	?	?	PROPN	$.	_	10	flat	_	_
+
+# sent_id = 2
+# text = Ich habe eine große Nachricht "Ich habe eine Arbeit in Neuber gefunden".
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	Nachricht	Nachricht	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+6	"	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+7	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+8	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+11	in	in	ADP	APPR	_	12	case	_	_
+12	Neuber	Neuber	PROPN	NE	_	13	obl	_	_
+13	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+14	"	"	PUNCT	$(	_	13	punct	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	13	punct	_	_
+
+# sent_id = 3
+# text = Deshalb muss ich eine Wohnung suchen.
+1	Deshalb	deshalb	ADV	PAV	_	6	advmod	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Meine Arbeit beginnt ab 01. Juni, abere will ich von 15. Mai unziehen.
+1	Meine	mein	PRON	PPOSAT	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Arbeit	Arbeit	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	beginnt	beginnen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+4	ab	ab	ADP	APPR	_	5	case	_	_
+5	01	01	NUM	CARD	NumType=Card	3	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+7	Juni	Juni	PROPN	NN	_	3	appos	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	3	punct	_	_
+9	abere	abern	ADJ	ADJA	Degree=Pos	16	advmod	_	_
+10	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+12	von	von	ADP	APPR	_	15	case	_	_
+13	15	15	NUM	CARD	NumType=Card	15	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	13	punct	_	_
+15	Mai	Mai	PROPN	NN	_	16	obl	_	_
+16	unziehen	unziehen	VERB	VVINF	VerbForm=Inf	3	parataxis	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 5
+# text = Die Wohnung muss aus einem Schlafzimmer, einem Babezimmer und einer Kleinen Küche bestehen.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+4	aus	aus	ADP	APPR	_	6	case	_	_
+5	einem	ein	DET	ART	Case=Dat|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Schlafzimmer	Schlafzimmer	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	14	obl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	einem	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Babezimmer	Babezimmer	NOUN	NN	_	6	conj	_	_
+10	und	und	CCONJ	KON	_	13	cc	_	_
+11	einer	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+12	Kleinen	klein	ADJ	ADJA	Degree=Pos	13	amod	_	_
+13	Küche	Küche	NOUN	NN	_	6	conj	_	_
+14	bestehen	bestehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	14	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Könntest du mir bitte bei der Wohnungssuche helfen.
+1	Könntest	Könntest	PROPN	NN	_	8	appos	_	_
+2	du	du	PROPN	PPER	_	3	case	_	_
+3	mir	ich	PROPN	PPER	_	1	nmod	_	_
+4	bitte	bitten	PROPN	NN	_	1	flat	_	_
+5	bei	bei	ADP	APPR	_	7	case	_	_
+6	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 7
+# text = Das wird nett von dir sein Vielen Dank im Voraus Julia
+1	Das	der	PRON	PDS	Case=Nom|PronType=Dem	11	nsubj	_	_
+2	wird	werden	AUX	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	nett	nett	ADJ	ADJD	Degree=Pos	11	advmod	_	_
+4	von	von	ADP	APPR	_	5	case	_	_
+5	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	11	nmod	_	_
+6	sein	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	SpacesAfter=\n
+7	Vielen	viel	ADJ	PIAT	Degree=Pos	8	amod	_	_
+8	Dank	Dank	NOUN	NN	_	5	nmod	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Voraus	voraus	NOUN	NN	_	0	root	_	SpacesAfter=\n
+12	Julia	Julia	PROPN	NE	_	11	appos	_	SpacesAfter=\n
+

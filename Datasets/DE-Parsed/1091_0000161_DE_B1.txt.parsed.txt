@@ -1,0 +1,127 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000161_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Betreuen meines Hundes.
+1	Betreuen	Betreuen	NOUN	NN	_	0	root	_	_
+2	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	3	amod	_	_
+3	Hundes	Hundes	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Liebe Maria, nächte Mittwoch musste ich eine Bewerbungsgesprech in Stadt X, und konnte meiner Hund nicht mitbringen, , wie wir gesprochen hatten, bringe ich ihm dieser Dienstag es zu dir, du brauchst nur 2 dinge zu tun.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	4	nsubj	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	nächte	nächt	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	Mittwoch	Mittwoch	ADV	ADV	_	4	advmod	_	_
+6	musste	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	cop	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+8	eine	ein	DET	ART	Definite=Ind|PronType=Art	9	det	_	_
+9	Bewerbungsgesprech	Bewerbungsgesprech	NOUN	NN	_	4	obl	_	_
+10	in	in	ADP	APPR	_	11	case	_	_
+11	Stadt	Stadt	PROPN	NN	_	9	nmod	_	_
+12	X	X	PROPN	NN	_	11	appos	_	SpaceAfter=No
+13	,	,	PUNCT	$,	_	19	punct	_	_
+14	und	und	CCONJ	KON	_	19	cc	_	_
+15	konnte	können	AUX	VMFIN	Mood=Ind|Tense=Past|VerbForm=Fin	19	aux	_	_
+16	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det:poss	_	_
+17	Hund	Hund	NOUN	NN	Case=Acc|Number=Sing	19	obj	_	_
+18	nicht	nicht	PART	PTKNEG	Polarity=Neg	19	advmod	_	_
+19	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	4	conj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	4	punct	_	_
+21	,	,	PUNCT	$,	_	4	punct	_	_
+22	wie	wie	SCONJ	KOUS	_	24	mark	_	_
+23	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+24	gesprochen	sprechen	VERB	VVPP	VerbForm=Part	4	ccomp	_	_
+25	hatten	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	24	aux	_	SpaceAfter=No
+26	,	,	PUNCT	$,	_	27	punct	_	_
+27	bringe	bringen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	4	conj	_	_
+28	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	27	nsubj	_	_
+29	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	iobj	_	_
+30	dieser	dies	PRON	PDAT	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	31	det	_	SpacesAfter=\s\s
+31	Dienstag	Dienstag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+32	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+33	zu	zu	ADP	APPR	_	34	case	_	_
+34	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	27	obl	_	SpaceAfter=No
+35	,	,	PUNCT	$,	_	27	punct	_	_
+36	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	27	nsubj	_	_
+37	brauchst	brauchen	ADV	ADV	_	40	advmod	_	_
+38	nur	nur	ADV	ADV	_	39	advmod	_	_
+39	2	2	NUM	CARD	NumType=Card	40	nummod	_	_
+40	dinge	ding	NOUN	NN	Case=Acc|Number=Plur	42	obj	_	_
+41	zu	zu	PART	PTKZU	_	42	mark	_	_
+42	tun	tun	VERB	VVINF	VerbForm=Inf	36	acl	_	SpaceAfter=No
+43	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 3
+# text = Täglich mindesten 2 mal Gast gehen, und futern ihm nur am Vormittag, sonst er ist sehr lieb und rühig.
+1	Täglich	täglich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	mindesten	mindesen	ADJ	ADJA	Degree=Sup	6	amod	_	_
+3	2	2	NUM	CARD	NumType=Card	4	nummod	_	_
+4	mal	mal	ADV	ADV	_	6	advmod	_	_
+5	Gast	Gast	NOUN	NN	_	6	obl	_	_
+6	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	9	punct	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	futern	futern	VERB	VVINF	VerbForm=Inf	6	conj	_	_
+10	ihm	er	PRON	PPER	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+11	nur	nur	ADV	ADV	_	6	advmod	_	_
+12-13	am	_	_	_	_	_	_	_	_
+12	an	an	ADP	APPR	_	14	case	_	_
+13	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	14	det	_	_
+14	Vormittag	Vormittag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	6	obl	_	SpaceAfter=No
+15	,	,	PUNCT	$,	_	6	punct	_	_
+16	sonst	sonst	ADV	ADV	_	20	advmod	_	_
+17	er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+18	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	cop	_	_
+19	sehr	sehr	ADV	ADV	_	20	advmod	_	_
+20	lieb	lieb	ADJ	ADJD	Degree=Pos	6	conj	_	_
+21	und	und	CCONJ	KON	_	22	cc	_	_
+22	rühig	rühig	ADJ	ADJD	Degree=Pos	20	conj	_	SpaceAfter=No
+23	.	.	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Ich bin am Sonntag der Woche wieder zuruck.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+3-4	am	_	_	_	_	_	_	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+5	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+6	der	der	DET	ART	Definite=Def|PronType=Art	7	det	_	_
+7	Woche	Woche	NOUN	NN	_	5	nmod	_	_
+8	wieder	wieder	ADV	ADV	_	2	advmod	_	_
+9	zuruck	zuruck	NOUN	NN	Case=Acc|Number=Sing	2	obj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = und werde direk zu dir für das Abholen, wäre es dir passen wenn wir den Abends zusammen Essen?
+1	und	und	CCONJ	KON	_	13	cc	_	_
+2	werde	werden	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+3	direk	direk	PROPN	NE	Case=Nom|Number=Sing	13	nsubj	_	_
+4	zu	zu	ADP	APPR	_	5	case	_	_
+5	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	13	nmod	_	_
+6	für	für	ADP	APPR	_	8	case	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	Abholen	abhole	NOUN	NN	Case=Acc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	5	punct	_	_
+10	wäre	sein	VERB	VAFIN	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	_	_
+11	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+12	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	13	obj	_	_
+13	passen	passen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+14	wenn	wenn	SCONJ	KOUS	_	19	mark	_	_
+15	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+16	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
+17	Abends	abends	ADV	NN	_	19	advmod	_	_
+18	zusammen	zusammen	ADV	ADV	_	19	advmod	_	_
+19	Essen	Essen	NOUN	NN	_	13	obl	_	SpaceAfter=No
+20	?	?	PUNCT	$.	_	13	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Viele Grüße, dein Katharina
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\s\n
+4	dein	dein	PROPN	PPOSAT	_	2	appos	_	_
+5	Katharina	Katharina	PROPN	NE	_	4	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,74 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/1395_0000638_IT_unrated.txt
+# newpar
+# sent_id = 1
+# text = Città X, LUNEDI 20 FEBBRAIO CERA JULIA SONO ANDATO IN VACANZA A Città X.
+1	Città	Città	NOUN	S	Gender=Fem	10	nsubj	_	_
+2	X	decimo	ADJ	NO	Number=Sing|NumType=Ord	1	amod	_	SpaceAfter=No
+3	,	,	PUNCT	FF	_	1	punct	_	_
+4	LUNEDI	LUNEDI	PROPN	SP	_	1	nmod	_	_
+5	20	20	NUM	N	NumType=Card	4	flat:name	_	_
+6	FEBBRAIO	febbraio	PROPN	SP	_	4	flat:name	_	SpacesAfter=\s\s\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+7	CERA	cera	PROPN	SP	_	1	nmod	_	_
+8	JULIA	Julia	PROPN	SP	_	7	flat:name	_	SpacesAfter=\s\n\s\s\s\s\s
+9	SONO	essere	AUX	V	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+10	ANDATO	andare	PROPN	SP	_	0	root	_	_
+11	IN	in	PROPN	SP	_	10	flat:name	_	_
+12	VACANZA	vacanza	PROPN	SP	_	10	flat:name	_	_
+13	A	a	PROPN	SP	_	10	flat:name	_	_
+14	Città	Città	PROPN	SP	_	10	flat:name	_	_
+15	X	X	PROPN	SP	_	10	flat:name	_	SpaceAfter=No
+16	.	.	PUNCT	FS	_	10	punct	_	_
+
+# sent_id = 2
+# text = VISITA AL CITTA, Monumento X Monumento Y, CITTA BELLISSIMO.
+1	VISITA	visita	PROPN	SP	_	0	root	_	_
+2-3	AL	_	_	_	_	_	_	_	_
+2	A	a	PROPN	SP	_	1	flat:name	_	_
+3	IL	il	PROPN	SP	_	1	flat:name	_	_
+4	CITTA	CITTA	PROPN	SP	_	1	flat:name	_	SpaceAfter=No
+5	,	,	PUNCT	FF	_	1	punct	_	_
+6	Monumento	monumento	PROPN	SP	_	1	appos	_	_
+7	X	X	PROPN	SP	_	6	flat:name	_	_
+8	Monumento	monumento	PROPN	SP	_	6	flat:name	_	_
+9	Y	y	PROPN	SP	_	6	flat:name	_	SpaceAfter=No
+10	,	,	PUNCT	FF	_	6	punct	_	_
+11	CITTA	CITTA	PROPN	SP	_	6	appos	_	_
+12	BELLISSIMO	bello	PROPN	SP	_	11	flat:name	_	SpaceAfter=No
+13	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = MERCOLEDI IO LAVORO AL L'ALBERGO ST ETIENNE A BICICLETTA, CINQUE MINUTI, DE LA CASA, AL ALBERGO.
+1	MERCOLEDI	MERCOLEDI	PROPN	SP	_	0	root	_	_
+2	IO	io	PROPN	SP	_	1	flat:name	_	_
+3	LAVORO	lavoro	PROPN	SP	_	1	flat:name	_	_
+4-5	AL	_	_	_	_	_	_	_	_
+4	A	A	PROPN	SP	_	1	flat:name	_	_
+5	IL	il	PROPN	SP	_	1	flat:name	_	_
+6	L'	il	DET	RD	Definite=Def|Number=Sing|PronType=Art	7	det	_	SpaceAfter=No
+7	ALBERGO	albergo	PROPN	SP	_	1	nmod	_	_
+8	ST	St	PROPN	SP	_	7	nmod	_	_
+9	ETIENNE	ETIENNE	PROPN	SP	_	8	flat:name	_	_
+10	A	A	PROPN	SP	_	8	flat:name	_	_
+11	BICICLETTA	bicicletta	PROPN	SP	_	8	flat:name	_	SpaceAfter=No
+12	,	,	PUNCT	FF	_	13	punct	_	_
+13	CIN	CIN	PROPN	SP	_	8	conj	_	SpaceAfter=No
+14	QUE	Que	PROPN	SP	_	13	flat:name	_	_
+15	MINUTI	Minuti	PROPN	SP	_	13	flat:name	_	SpaceAfter=No
+16	,	,	PUNCT	FF	_	8	punct	_	_
+17	DE	DE	PROPN	SP	_	8	appos	_	_
+18	LA	La	PROPN	SP	_	17	flat:name	_	_
+19	CASA	Casa	PROPN	SP	_	17	flat:name	_	SpaceAfter=No
+20	,	,	PUNCT	FF	_	17	punct	_	_
+21-22	AL	_	_	_	_	_	_	_	_
+21	A	a	ADP	E	_	22	case	_	_
+22	IL	il	PROPN	SP	_	17	nmod	_	_
+23	ALBERGO	albergo	PROPN	SP	_	22	flat:name	_	SpaceAfter=No
+24	.	.	PUNCT	FS	_	1	punct	_	SpacesAfter=\s\n\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+
+# sent_id = 4
+# text = IL TUO AMICO Michele
+1	IL	il	DET	RD	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	TUO	tuo	PROPN	SP	_	0	root	_	_
+3	AMICO	amico	PROPN	SP	_	2	flat:name	_	SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
+4	Michele	Michele	PROPN	SP	_	2	flat:name	_	SpacesAfter=\n
+

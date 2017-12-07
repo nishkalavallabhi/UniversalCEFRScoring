@@ -1,0 +1,174 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120453_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 17.4 Lieber Michael, danke mich ganzherzlich für deine liebevolle Briefe.
+1	Stadt	Stadt	NOUN	NN	_	8	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	17.4	17.4	NUM	CARD	NumType=Card	5	nummod	_	SpacesAfter=\n
+5	Lieber	lieb	PROPN	NN	_	1	appos	_	_
+6	Michael	Michael	PROPN	NE	_	5	appos	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+8	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+9	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	obj	_	_
+10	ganzherzlich	ganzherzlich	ADJ	ADJD	Degree=Pos	8	advmod	_	_
+11	für	für	ADP	APPR	_	14	case	_	_
+12	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+13	liebevolle	liebevoll	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	Briefe	Brief	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 2
+# text = Ich habe mich sehr gefreut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	obj	_	_
+4	sehr	sehr	ADV	ADV	_	5	advmod	_	_
+5	gefreut	freuen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Die Silvesternacht haben wir eine große uberachung gehabt.
+1	Die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Silvesternacht	Silvesternacht	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	große	groß	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	uberachung	uberachung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	gehabt	haben	VERB	VAPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 4
+# text = Mein Eltern sind zu uns gekomen.
+1	Mein	mein	PRON	PPOSAT	Case=Nom|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	2	det:poss	_	_
+2	Eltern	Eltern	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	sind	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	zu	zu	ADP	APPR	_	5	case	_	_
+5	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	6	nmod	_	_
+6	gekomen	gekomen	NOUN	NN	Case=Dat|Number=Sing	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Wir haben gemeinsam gekocht und gegessen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	haben	haben	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	4	advmod	_	_
+4	gekocht	gekocht	VERB	VVPP	VerbForm=Part	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	gegessen	essen	VERB	VVPP	VerbForm=Part	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 6
+# text = Später sind wir nach Stodt X gefahren und den Zoo bestitigen.
+1	Später	spät	ADJ	ADJD	Degree=Cmp,Pos	7	advmod	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+4	nach	nach	ADP	APPR	_	5	case	_	_
+5	Stodt	Stodt	PROPN	NN	Case=Dat|Number=Sing	7	obl	_	_
+6	X	X	PROPN	NN	_	5	appos	_	_
+7	gefahren	fahren	VERB	VVPP	VerbForm=Part	0	root	_	_
+8	und	und	CCONJ	KON	_	10	cc	_	_
+9	den	der	DET	ART	Definite=Def|PronType=Art	10	det	_	_
+10	Zoo	Zoo	NOUN	NN	_	11	conj	_	_
+11	bestitigen	bestitig	VERB	VVINF	VerbForm=Inf	7	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 7
+# text = Es war echt super und Sehenswürdig.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	echt	echt	ADV	ADJD	_	4	advmod	_	_
+4	super	super	ADJ	ADJD	Degree=Pos	0	root	_	_
+5	und	und	CCONJ	KON	_	6	cc	_	_
+6	Sehenswürdig	Sehenswürdig	ADJ	ADJD	Degree=Pos	4	conj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = Hoffentlich geht mein Wünsch für das neue Jahr im Erfüllung.
+1	Hoffentlich	Hoffentlich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Wünsch	Wünsch	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	2	nsubj	_	_
+5	für	für	ADP	APPR	_	8	case	_	_
+6	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+7	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	Jahr	Jahr	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
+9-10	im	_	_	_	_	_	_	_	_
+9	in	in	ADP	APPR	_	11	case	_	_
+10	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	11	det	_	_
+11	Erfüllung	Erfüllung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 9
+# text = Im spätjahr werde ich mit meiner Ausbildung als Heilpraktiker abgeschlossen.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	spätjahr	spätjahr	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	11	obl	_	_
+4	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux:pass	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj:pass	_	_
+6	mit	mit	ADP	APPR	_	8	case	_	_
+7	meiner	mein	PRON	PPOSAT	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Ausbildung	Ausbildung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	11	obl	_	_
+9	als	als	ADP	KOKOM	_	10	case	_	_
+10	Heilpraktiker	Heilpraktiker	NOUN	NN	_	11	obl	_	_
+11	abgeschlossen	abschließen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 10
+# text = Danach würde ich Euch gerne besuchen und gemeinsam mit Euch etwas unternehmen.
+1	Danach	danach	ADV	PAV	_	6	advmod	_	_
+2	würde	werden	AUX	VAFIN	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+4	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	6	obj	_	_
+5	gerne	gerne	ADV	ADV	_	6	advmod	_	_
+6	besuchen	besuchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	und	und	CCONJ	KON	_	12	cc	_	_
+8	gemeinsam	gemeinsam	ADJ	ADJD	Degree=Pos	12	advmod	_	_
+9	mit	mit	ADP	APPR	_	10	case	_	_
+10	Euch	ihr	PRON	PPER	Case=Acc|Number=Plur|Person=2|Polite=Infm|PronType=Prs	12	obl	_	_
+11	etwas	etwas	PRON	PIS	Case=Acc|PronType=Ind	12	obj	_	_
+12	unternehmen	unternehmen	VERB	VVINF	VerbForm=Inf	6	conj	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Habt ihr Zeit und auch Lust?
+1	Habt	haben	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+2	ihr	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	3	det:poss	_	_
+3	Zeit	Zeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	und	und	CCONJ	KON	_	6	cc	_	_
+5	auch	auch	ADV	ADV	_	6	advmod	_	_
+6	Lust	Lust	PROPN	NN	_	3	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 12
+# text = Ich bin beim der Arbeit ganz entspann-unreadable- viele idee austausch möglich ist und Andre Leute helfen kann.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bin	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	cop	_	_
+3-4	beim	_	_	_	_	_	_	_	_
+3	bei	bei	ADP	APPR	_	4	case	_	_
+4	dem	der	PRON	ART	Case=Dat|PronType=Dem	12	nmod	_	_
+5	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
+6	Arbeit	Arbeit	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	12	nmod	_	_
+7	ganz	ganz	ADJ	ADV	Degree=Pos	8	advmod	_	_
+8	entspann-unreadable-	entspann-unreadable-	PUNCT	$(	_	10	punct	_	_
+9	viele	viel	ADJ	PIS	Case=Nom|Degree=Pos	10	amod	_	_
+10	idee	ide	PROPN	NE	_	11	conj	_	_
+11	austausch	austausch	PROPN	VVFIN	_	6	appos	_	_
+12	möglich	möglich	ADJ	ADJD	Degree=Pos	17	obj	_	_
+13	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+14	und	und	CCONJ	KON	_	16	cc	_	_
+15	Andre	Andre	NOUN	NN	_	16	compound	_	_
+16	Leute	Leute	NOUN	NN	_	12	conj	_	_
+17	helfen	helfen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+18	kann	können	AUX	VMFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	17	punct	_	SpacesAfter=\n
+
+# sent_id = 13
+# text = mit freundliche Grußen Katharina
+1	mit	mit	ADP	APPR	_	3	case	_	_
+2	freundliche	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grußen	Gruße	NOUN	ADV	Case=Dat|Number=Sing	0	root	_	SpacesAfter=\n
+4	Katharina	Katharina	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

@@ -1,0 +1,190 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120361_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Stadt X, 28.02.
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X	X	PROPN	NN	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	_
+4	28.02	28.02	NUM	CARD	NumType=Card	1	appos	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Liebe Silke, ich war sehr froh deinen Brief zu bekommen.
+1	Liebe	lieb	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Silke	Silke	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	7	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+5	war	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	sehr	sehr	ADV	ADV	_	7	advmod	_	_
+7	froh	froh	ADJ	ADJD	Degree=Pos	2	acl	_	_
+8	deinen	dein	DET	PPOSAT	Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Polite=Infm|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Brief	Brief	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	bekommen	bekommen	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich freue mich, dass bei dir es geht alles gut.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	freue	freuen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	dass	dass	SCONJ	KOUS	_	9	mark	_	_
+6	bei	bei	ADP	APPR	_	7	case	_	_
+7	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	9	obl	_	_
+8	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	ccomp	_	_
+10	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	11	obj	_	_
+11	gut	gut	ADJ	ADJD	Degree=Pos	9	xcomp	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Bei uns es geht auch gut.
+1	Bei	bei	ADP	APPR	_	2	case	_	_
+2	uns	wir	PRON	PPER	Case=Dat|Number=Plur|Person=1|PronType=Prs	4	obl	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+5	auch	auch	ADV	ADV	_	4	advmod	_	_
+6	gut	gut	ADJ	ADJD	Degree=Pos	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 5
+# text = Ich nehme an einen Deutschkurs teil und mein Mann arbeitet sehr viel.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	nehme	nehmen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	an	an	ADP	APPR	_	5	case	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Deutschkurs	Deutschkurs	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+6	teil	teil	ADV	PTKVZ	_	2	compound:prt	_	_
+7	und	und	CCONJ	KON	_	10	cc	_	_
+8	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	10	nsubj	_	_
+10	arbeitet	arbeiten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	conj	_	_
+11	sehr	sehr	ADV	ADV	_	12	advmod	_	_
+12	viel	viel	ADV	PIS	_	10	advmod	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Tobias geht in den Kindergarten.
+1	Tobias	Tobias	PROPN	NE	Case=Nom|Number=Sing	2	nsubj	_	_
+2	geht	gehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Kindergarten	Kindergarten	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = Er hat dort ein paar Freunden.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	hat	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	dort	dort	ADV	ADV	_	2	advmod	_	_
+4	ein	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+5	paar	paar	PRON	PIAT	Case=Dat|Number=Plur|PronType=Ind	6	det	_	_
+6	Freunden	Freund	NOUN	NN	Case=Dat|Number=Plur	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 8
+# text = Er will auch eine Katze oder einen Hund haben.
+1	Er	er	PRON	PPER	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	will	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	auch	auch	ADV	ADV	_	9	advmod	_	_
+4	eine	ein	DET	ART	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Katze	Katze	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	oder	oder	CCONJ	KON	_	8	cc	_	_
+7	einen	ein	DET	ART	Definite=Ind|PronType=Art	8	det	_	_
+8	Hund	Hund	NOUN	NN	_	5	conj	_	_
+9	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 9
+# text = Ich mag Tiere, deswegen bekommt Tobias einen Hund, weil mein Mann die Katze nicht gefällt.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mag	miegen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	Tiere	Tier	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	_
+5	deswegen	deswegen	ADV	PAV	_	6	advmod	_	_
+6	bekommt	bekommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	2	parataxis	_	_
+7	Tobias	Tobias	PROPN	NE	Case=Nom|Number=Sing	6	nsubj	_	_
+8	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
+9	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	6	punct	_	_
+11	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+12	mein	mein	PRON	PPOSAT	Case=Nom|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	13	det:poss	_	_
+13	Mann	Mann	NOUN	NN	Case=Nom|Gender=Masc,Neut|Number=Sing	17	nsubj	_	_
+14	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+16	nicht	nicht	PART	PTKNEG	Polarity=Neg	17	advmod	_	_
+17	gefällt	gefallen	VERB	VVPP	VerbForm=Part	6	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Für mir es ist eigentlich egal, was du mir schenkest.
+1	Für	für	ADP	APPR	_	2	case	_	_
+2	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+3	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	eigentlich	eigentlich	ADJ	ADV	Degree=Pos	6	advmod	_	_
+6	egal	egal	ADJ	ADJD	Degree=Pos	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	was	was	PRON	PRELS	Case=Nom|Number=Sing|PronType=Rel	11	nsubj	_	_
+9	du	du	PROPN	PPER	_	10	case	_	_
+10	mir	ich	PROPN	PPER	_	8	nmod	_	_
+11	schenkest	schenkest	PROPN	VVFIN	_	6	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 11
+# text = Ich werde auf jeden Fall froh!
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+2	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	auf	auf	ADP	APPR	_	5	case	_	_
+4	jeden	jed	PRON	PIAT	Case=Acc|Gender=Masc|Number=Sing|PronType=Tot	5	det	_	_
+5	Fall	Fall	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	froh	friehen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 12
+# text = Aber wenn du kein Idee hast, kannst du mir einfach eine Gutschein aus Drogerieladen schenken.
+1	Aber	aber	ADV	KON	_	16	advmod	_	_
+2	wenn	wenn	SCONJ	KOUS	_	6	mark	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	6	nsubj	_	_
+4	kein	kein	PRON	PIAT	PronType=Neg	5	advmod	_	_
+5	Idee	Idee	NOUN	NN	Case=Acc|Number=Sing	6	obj	_	_
+6	hast	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	advcl	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	kannst	kannsen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+9	du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	13	nsubj	_	_
+10	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
+11	einfach	einfach	ADV	ADJD	_	13	advmod	_	_
+12	eine	ein	DET	ART	Definite=Ind|PronType=Art	13	det	_	_
+13	Gutschein	Gutschein	NOUN	NN	_	16	obj	_	_
+14	aus	aus	ADP	APPR	_	15	case	_	_
+15	Drogerieladen	Drogerieladen	NOUN	NN	Case=Dat|Number=Plur	13	nmod	_	_
+16	schenken	schenken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 13
+# text = Natürlich ich besuche dir gern in nächsten Monat.
+1	Natürlich	natürlich	ADP	APPR	_	4	case	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	besuche	besuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
+4	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	0	root	_	_
+5	gern	gern	ADV	ADV	_	8	advmod	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	nächsten	nah	ADJ	ADJA	_	8	amod	_	_
+8	Monat	Monat	NOUN	NN	_	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Bis bald!
+1	Bis	bis	ADP	KON	_	2	case	_	_
+2	bald	bald	ADV	ADV	_	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Mit freundlichen Grüßen, Katharina
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Katharina	Katharina	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

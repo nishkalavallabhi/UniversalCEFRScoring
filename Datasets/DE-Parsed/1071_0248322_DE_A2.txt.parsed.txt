@@ -1,0 +1,100 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0248322_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Hallo Ingo, wie giest dir?
+1	Hallo	Hallo	X	ITJ	_	2	dep	_	_
+2	Ingo	Ingo	NOUN	NE	_	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4	wie	wie	ADP	KOKOM	_	5	case	_	_
+5	giest	giesen	PROPN	NN	_	2	nmod	_	_
+6	dir	du	PROPN	NN	_	5	flat	_	SpaceAfter=No
+7	?	?	PROPN	$.	_	5	flat	_	_
+
+# sent_id = 2
+# text = Ich habe eine Arbeit in Neuburg gefunden.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	_
+7	gefunden	finden	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 3
+# text = Ich brauche eine Wohnung in Neuburg.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	in	in	ADP	APPR	_	6	case	_	_
+6	Neuburg	Neuburg	PROPN	NE	_	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich brauche eine Wohnung im Juli weil ich beginn mein Arbeit im beginn Juli.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5-6	im	_	_	_	_	_	_	_	_
+5	in	in	ADP	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Juli	Juli	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	obl	_	_
+8	weil	weil	SCONJ	KOUS	_	10	mark	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	beginn	beginn	NOUN	VVIMP	_	2	advcl	_	_
+11	mein	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	12	det:poss	_	_
+12	Arbeit	Arbeit	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13-14	im	_	_	_	_	_	_	_	_
+13	in	in	ADP	APPR	_	15	case	_	_
+14	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	15	det	_	_
+15	beginn	beginnen	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+16	Juli	Juli	PROPN	NN	_	15	appos	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = Der Wohnung muss habe Zwei Zimmer.
+1	Der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Wohnung	Wohnung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	0	root	_	_
+3	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	_
+5	Zwei	zwei	NUM	CARD	NumType=Card	6	nummod	_	_
+6	Zimmer	Zimmer	NOUN	NN	Case=Acc|Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = eine Schlafzimmer.
+1	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
+2	Schlafzimmer	Schlafzimmer	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 7
+# text = und eine Wohnzimmer Kannst du hilfe bei der Wohnungssuche?
+1	und	und	CCONJ	KON	_	3	cc	_	_
+2	eine	ein	DET	ART	Definite=Ind|PronType=Art	3	det	_	_
+3	Wohnzimmer	Wohnzimmer	NOUN	NN	_	4	conj	_	_
+4	Kannst	kannst	NOUN	NN	_	0	root	_	_
+5	du	du	PROPN	PPER	Case=Nom|Number=Sing	4	nsubj	_	_
+6	hilfe	hilf	PROPN	NN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	bei	bei	ADP	APPR	_	9	case	_	_
+8	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	Wohnungssuche	Wohnungssuche	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+10	?	?	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 8
+# text = Vielen Dank für Ihre Mithilfe.
+1	Vielen	viel	ADJ	PIAT	Degree=Pos	2	amod	_	_
+2	Dank	Dank	NOUN	NN	_	0	root	_	_
+3	für	für	ADP	APPR	_	5	case	_	_
+4	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Mithilfe	Mithilfe	NOUN	NN	Case=Dat|Number=Plur	2	nmod	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Viele Grüße Michael Müller
+1	Viele	viel	PRON	PIAT	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	2	det	_	_
+2	Grüße	Grüße	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\n
+3	Michael	Michael	PROPN	NE	_	2	appos	_	_
+4	Müller	Müller	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,80 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1061_0120291_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X 27.02.12 Liebe Danna, vielen Dank für Deine Brief.
+1	Stadt	Stadt	NOUN	NN	_	11	dep	_	_
+2	X	X	PROPN	NN	_	1	appos	_	_
+3	27.02.12	27.02.12	PROPN	CARD	_	2	appos	_	SpacesAfter=\n
+4	Liebe	Liebe	PROPN	NN	_	3	flat	_	_
+5	Danna	Danna	PROPN	NE	_	3	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+7	vielen	viel	ADJ	PIAT	Degree=Pos	8	amod	_	_
+8	Dank	Dank	NOUN	NN	_	1	appos	_	_
+9	für	für	ADP	APPR	_	10	case	_	_
+10	Deine	Deine	NOUN	NN	Case=Acc|Number=Plur	8	nmod	_	_
+11	Brief	Braufen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Natürlich ich komme gern, wann zürick kommen nach Hause.
+1	Natürlich	natürlich	ADJ	ADJD	Degree=Pos	2	advmod	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	komme	kommen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+4	gern	gern	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+5	,	,	PUNCT	$,	_	3	punct	_	_
+6	wann	wann	ADV	PWAV	_	8	advmod	_	_
+7	zürick	zürick	NOUN	NN	Case=Nom|Number=Sing	8	nsubj	_	_
+8	kommen	kommen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	3	acl	_	_
+9	nach	nach	ADP	APPR	_	10	case	_	_
+10	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	8	obl	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 3
+# text = Bitte mitbringen mich fotos aus Istanbul.
+1	Bitte	Bitte	PART	ADV	_	2	advmod	_	_
+2	mitbringen	mitbringen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	fotos	fotos	NOUN	NN	Case=Acc|Number=Plur	2	obj	_	_
+5	aus	aus	ADP	APPR	_	6	case	_	_
+6	Istanbul	Istanbul	PROPN	NE	Case=Dat|Number=Sing	4	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Ich wünsche dir viel glück im Prüfung.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	wünsche	wünsch	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	obj	_	_
+4	viel	viel	ADJ	PIAT	Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	glück	glück	NOUN	NN	Case=Acc|Number=Sing	3	obj	_	_
+6-7	im	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Prüfung	Prüfung	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Im schöne Land lieben deine Verwandten.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	4	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+3	schöne	schön	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Land	Land	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	obl	_	_
+5	lieben	lieben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6	deine	dein	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	Verwandten	Verwandte|Verwandter	NOUN	NN	Case=Nom|Number=Plur	5	nsubj	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Also, dann bis bald in Stadt X Viele Grüße Maria
+1	Also	also	ADV	ADV	_	10	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	10	punct	_	_
+3	dann	dann	ADV	ADV	_	10	advmod	_	_
+4	bis	bis	ADP	APPR	_	5	case	_	_
+5	bald	bald	ADV	ADV	_	7	advmod	_	_
+6	in	in	ADP	APPR	_	7	case	_	_
+7	Stadt	Stadt	PROPN	NN	_	10	nmod	_	_
+8	X	X	PROPN	NN	_	7	appos	_	SpacesAfter=\n
+9	Viele	viel	PROPN	PIS	_	10	amod	_	_
+10	Grüße	Grüße	PROPN	NN	_	0	root	_	SpacesAfter=\n
+11	Maria	Maria	PROPN	NE	_	10	flat	_	SpacesAfter=\n
+

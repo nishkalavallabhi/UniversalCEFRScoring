@@ -1,0 +1,85 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000017_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Julia, ich wollte am Wochenende nach Köln mit dem Bus eine Reise machen.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	0	root	_	_
+2	Julia	Julia	PROPN	NE	_	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	1	punct	_	SpacesAfter=\n
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+5	wollte	wollen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	aux	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Wochenende	Wochenende	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+9	nach	nach	ADP	APPR	_	10	case	_	_
+10	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	16	obl	_	_
+11	mit	mit	ADP	APPR	_	13	case	_	_
+12	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	13	det	_	_
+13	Bus	Bus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	16	obl	_	_
+14	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	Reise	Reise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+16	machen	machen	VERB	VVINF	VerbForm=Inf	1	ccomp	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	1	punct	_	_
+
+# sent_id = 2
+# text = Ich habe eine Fahrkarte für den Wochenendausflug gekauft.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+2	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	Fahrkarte	Fahrkarte	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+5	für	für	ADP	APPR	_	7	case	_	_
+6	den	der	DET	ART	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	Wochenendausflug	Wochenendausflug	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	gekauft	kaufen	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 3
+# text = Aber leide kann ich nicht fahren, weil meiner Mutter krank ist.
+1	Aber	aber	CCONJ	KON	_	6	cc	_	_
+2	leide	leide	NOUN	NN	Case=Nom|Number=Plur	6	nsubj	_	_
+3	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+6	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	weil	weil	SCONJ	KOUS	_	11	mark	_	_
+9	meiner	mein	DET	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Mutter	Mutter	NOUN	NN	Case=Nom|Number=Sing	11	nsubj	_	_
+11	krank	krank	ADJ	ADJD	Degree=Pos	6	advcl	_	_
+12	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 4
+# text = Ich muss zu Hause bleiben.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+5	bleiben	bleiben	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 5
+# text = Wieleicht möchtes du die Reise machen?
+1	Wieleicht	Wieleicht	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+2	möchtes	möcht	ADJ	ADJA	Case=Nom|Degree=Pos|Number=Sing	3	amod	_	_
+3	du	du	PROPN	PPER	Case=Nom|Number=Sing	1	nsubj	_	_
+4	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	Reise	Reise	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+6	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Ruf mich bitte an.
+1	Ruf	Ruf	PROPN	NN	Case=Nom|Number=Sing	0	root	_	_
+2	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	1	obj	_	_
+3	bitte	bitte	NOUN	NN	Case=Acc|Number=Plur	1	obj	_	_
+4	an	an	ADP	PTKVZ	_	1	compound:prt	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Mit freundlichen Grüßen Eva
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpacesAfter=\n
+4	Eva	Eva	PROPN	NE	_	3	appos	_	SpacesAfter=\n
+

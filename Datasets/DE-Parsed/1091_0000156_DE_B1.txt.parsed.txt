@@ -1,0 +1,157 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000156_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = Liebe Maria, Am Nächsten Woche werde ich nach Köln fahren mit meine Familie.
+1	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+2	Maria	Maria	PROPN	NE	_	1	appos	_	SpaceAfter=No
+3	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n
+4-5	Am	_	_	_	_	_	_	_	_
+4	An	an	PROPN	APPR	_	2	flat	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+6	Nächsten	nah	ADJ	ADJA	Case=Dat|Gender=Masc,Neut|Number=Sing	7	amod	_	_
+7	Woche	Woche	NOUN	NN	_	1	nmod	_	_
+8	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	aux	_	_
+9	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	12	obl	_	_
+12	fahren	fahren	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+13	mit	mit	ADP	APPR	_	15	case	_	_
+14	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	15	det:poss	_	_
+15	Familie	Familie	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Wir werden unsere Eltern besuchen am 13 Janaur weil es der Geburtstag von meine Mutter ist.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	werden	werden	AUX	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	unsere	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	4	det:poss	_	_
+4	Eltern	Eltern	NOUN	NN	Case=Nom|Number=Sing	5	nsubj	_	_
+5	besuchen	besuchen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	9	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	9	det	_	_
+8	13	13	NUM	CARD	NumType=Card	9	nummod	_	_
+9	Janaur	Janaur	NOUN	NN	_	5	obl	_	_
+10	weil	weil	SCONJ	KOUS	_	17	mark	_	_
+11	es	es	PRON	PPER	Case=Acc,Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	_
+12	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
+13	Geburtstag	Geburtstag	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+14	von	von	ADP	APPR	_	16	case	_	_
+15	meine	mein	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	16	det:poss	_	_
+16	Mutter	Mutter	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+17	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 3
+# text = Aber ich habe einen Hund ins Haus, hier.
+1	Aber	aber	CCONJ	KON	_	3	cc	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	habe	haben	VERB	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6-7	ins	_	_	_	_	_	_	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	das	der	DET	ART	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Haus	Haus	NOUN	NN	Case=Acc|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	$,	_	3	punct	_	_
+10	hier	hier	ADV	ADV	_	3	advmod	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 4
+# text = Niemand ist in meinem Haus während ich und familie nach Köln für 2 Tage fahren.
+1	Niemand	niemand	PRON	PIS	Case=Nom|PronType=Ind	15	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+3	in	in	ADP	APPR	_	5	case	_	_
+4	meinem	mein	PRON	PPOSAT	Case=Dat|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	15	obl	_	_
+6	während	während	SCONJ	KOUS	_	15	mark	_	_
+7	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+8	und	und	CCONJ	KON	_	9	cc	_	_
+9	familie	famili	NOUN	NN	_	7	conj	_	_
+10	nach	nach	ADP	APPR	_	11	case	_	_
+11	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	15	obl	_	_
+12	für	für	ADP	APPR	_	14	case	_	_
+13	2	2	NUM	CARD	NumType=Card	14	nummod	_	_
+14	Tage	Tag	NOUN	NN	Case=Acc|Number=Plur	15	obl	_	_
+15	fahren	fahren	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 5
+# text = Könnten Sie bitte einen Hund das Essen flüttern.
+1	Könnten	können	AUX	VMFIN	Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	_
+2	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	8	nsubj	_	_
+3	bitte	bitten	NOUN	NN	Case=Nom|Number=Plur	8	nsubj	_	_
+4	einen	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
+5	Hund	Hund	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+6	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	_
+7	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	flüttern	flüttern	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	8	punct	_	_
+
+# sent_id = 6
+# text = Das Essen des Hunds ist in der Garage.
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Essen	Essen	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	4	det	_	_
+4	Hunds	Hund	PROPN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	2	nmod	_	_
+5	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	in	in	ADP	APPR	_	8	case	_	_
+7	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
+8	Garage	Garage	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+9	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 7
+# text = Ich werde zu Haus zurückfahren am Sonntag 15 Janaur.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	zu	zu	ADP	APPR	_	4	case	_	_
+4	Haus	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Sing	5	obl	_	_
+5	zurückfahren	zurückfahren	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+6-7	am	_	_	_	_	_	_	_	_
+6	an	an	ADP	APPR	_	8	case	_	_
+7	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	8	det	_	_
+8	Sonntag	Sonntag	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	5	obl	_	_
+9	15	15	PROPN	CARD	_	8	appos	_	_
+10	Janaur	Janaur	PROPN	NN	_	9	flat	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 8
+# text = Bevor ich nach Köln fahre, besuche ich ihrem Haus und gebe Sie der Schlüssel meines Haus.
+1	Bevor	bevor	SCONJ	KOUS	_	12	mark	_	_
+2	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+3	nach	nach	ADP	APPR	_	4	case	_	_
+4	Köln	Köln	PROPN	NE	Case=Dat|Number=Sing	12	obl	_	_
+5	fahre	fahren	PROPN	NN	Case=Nom|Number=Plur	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	4	punct	_	_
+7	besuche	besuchen	NOUN	NN	Case=Acc|Number=Plur	12	obj	_	_
+8	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+9	ihrem	ihr	DET	PPOSAT	Person=3|Poss=Yes|PronType=Prs	10	det:poss	_	_
+10	Haus	Haus	PROPN	NN	_	8	conj	_	_
+11	und	und	CCONJ	KON	_	10	cc	_	_
+12	gebe	geben	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+13	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	12	obj	_	_
+14	der	der	DET	ART	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
+15	Schlüssel	Schlüssel	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+16	meines	mein	PRON	PPOSAT	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	17	det	_	_
+17	Haus	Haus	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	12	obj	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 9
+# text = Ich bedanke mich für Ihre Hilfe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	bedanke	bedanken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	mich	ich	PRON	PRF	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	2	obj	_	_
+4	für	für	ADP	APPR	_	6	case	_	_
+5	Ihre	Ihr|ihr	DET	PPOSAT	Person=2,3|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Hilfe	Hilfe	NOUN	NN	Case=Dat|Number=Sing	2	obl	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Mit freundlichen Grüßen, Katharina Meier
+1	Mit	mit	ADP	APPR	_	3	case	_	_
+2	freundlichen	freundlich	ADJ	ADJA	Degree=Pos	3	amod	_	_
+3	Grüßen	grüßen	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	3	punct	_	SpacesAfter=\n
+5	Katharina	Katharina	PROPN	NE	_	3	appos	_	_
+6	Meier	Meier	PROPN	NN	_	5	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,328 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1031_0003170_DE_B2.txt
+# newpar
+# sent_id = 1
+# text = Kultur, Traditionnen und Ausland.
+1	Kultur	Kultur	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	3	punct	_	_
+3	Traditionnen	Tradition	NOUN	NN	_	1	conj	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Ausland	Auslehen	NOUN	NN	_	1	conj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = wie machen? wie sich orientieren?
+1	wie	wie	PART	KOKOM	_	2	mark	_	_
+2	machen	machen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	$.	_	2	punct	_	_
+4	wie	wie	CCONJ	KOKOM	_	6	cc	_	_
+5	sich	er|es|sie	PRON	PRF	Case=Acc|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	_
+6	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	2	conj	_	SpaceAfter=No
+7	?	?	PUNCT	$.	_	2	punct	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = Wenn wir nicht in unseren Heimatland leben, bedeutet es, dass wir einen Gastland „haben".
+1	Wenn	wenn	SCONJ	KOUS	_	7	mark	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	7	advmod	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	unseren	unser	ADJ	ADJA	Degree=Pos	6	amod	_	_
+6	Heimatland	Heimatland	NOUN	NN	_	7	obl	_	_
+7	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	9	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	9	punct	_	_
+9	bedeutet	bedeuten	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+10	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	SpaceAfter=No
+11	,	,	PUNCT	$,	_	9	punct	_	_
+12	dass	dass	SCONJ	KOUS	_	17	mark	_	_
+13	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+14	einen	ein	DET	ART	Definite=Ind|PronType=Art	15	det	_	_
+15	Gastland	Gastland	NOUN	NN	_	17	obl	_	_
+16	„	„	PUNCT	$.	_	15	punct	_	SpaceAfter=No
+17	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	SpaceAfter=No
+18	"	"	PUNCT	$(	_	9	punct	_	SpaceAfter=No
+19	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 4
+# text = Es ist als ob wir einladen seien.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	als	als	ADP	KOKOM	_	6	case	_	_
+4	ob	ieben	SCONJ	KOUS	_	6	mark	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	einladen	einladen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+7	seien	sein	AUX	VAFIN	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 5
+# text = Also mussen wir diese Land und seinen Leuten respektiert.
+1	Also	also	ADV	ADV	_	2	advmod	_	_
+2	mussen	mussen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+4	diese	dies	PRON	PDAT	Case=Acc|PronType=Dem	5	det	_	_
+5	Land	Land	NOUN	NN	Case=Acc|Gender=Masc,Neut|Number=Sing	2	obj	_	_
+6	und	und	CCONJ	KON	_	9	cc	_	_
+7	seinen	sein	DET	PPOSAT	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Leuten	Leute	NOUN	NN	Case=Nom|Number=Plur	9	nsubj:pass	_	_
+9	respektiert	respektieren	VERB	VVPP	VerbForm=Part	2	conj	_	SpaceAfter=No
+10	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 6
+# text = Aber es ist nicht einen Grund um unsere Kutur zu vergessen.
+1	Aber	aber	CCONJ	KON	_	6	cc	_	_
+2	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+3	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	6	advmod	_	_
+5	einen	ein	DET	ART	Definite=Ind|PronType=Art	6	det	_	_
+6	Grund	Grund	NOUN	NN	_	0	root	_	_
+7	um	um	ADP	APPR	_	11	mark	_	_
+8	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Kutur	Kutur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	vergessen	vergessen	VERB	VVINF	VerbForm=Inf	6	advcl	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 7
+# text = Im Tätsät können wir fast nie sie vergessen oder verloren.
+1-2	Im	_	_	_	_	_	_	_	_
+1	In	in	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
+3	Tätsät	Tätsät	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+4	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+5	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+6	fast	fast	ADV	ADV	_	7	advmod	_	_
+7	nie	nie	ADV	ADV	Polarity=Neg	9	advmod	_	_
+8	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj:pass	_	_
+9	vergessen	vergessen	VERB	VVPP	VerbForm=Part	0	root	_	_
+10	oder	oder	CCONJ	KON	_	11	cc	_	_
+11	verloren	verlieren	VERB	VVPP	VerbForm=Part	9	conj	_	SpaceAfter=No
+12	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 8
+# text = Am Anfang ist es wahrscheinlich schwierig in eine andere Kultur zu leben.
+1-2	Am	_	_	_	_	_	_	_	_
+1	An	an	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Anfang	Anfang	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	nmod	_	_
+4	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+6	wahrscheinlich	wahrscheinlich	ADJ	ADJD	Degree=Pos	7	advmod	_	_
+7	schwierig	schwierig	ADJ	ADJD	Degree=Pos	0	root	_	_
+8	in	in	ADP	APPR	_	11	case	_	_
+9	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
+10	andere	ander	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+12	zu	zu	PART	PTKZU	_	13	mark	_	_
+13	leben	leben	VERB	VVINF	VerbForm=Inf	7	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 9
+# text = Es kommt wie eine Arbeit.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	kommt	kommen	VERB	VVFIN	Number=Sing|Person=3|VerbForm=Fin	0	root	_	_
+3	wie	wie	ADP	KOKOM	_	5	case	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Arbeit	Arbeit	NOUN	NN	_	2	obl	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 10
+# text = Wir müssen Schritt zum Schritt die Traditionnen und die Kultur unseres neuen Land kennen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	_
+3	Schritt	Schritt	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+4-5	zum	_	_	_	_	_	_	_	_
+4	zu	zu	ADP	APPR	_	6	case	_	_
+5	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	6	det	_	_
+6	Schritt	Schritt	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	8	nmod	_	_
+7	die	der	DET	ART	Definite=Def|PronType=Art	8	det	_	_
+8	Traditionnen	Tradition	NOUN	NN	_	3	conj	_	_
+9	und	und	CCONJ	KON	_	11	cc	_	_
+10	die	der	DET	ART	Definite=Def|PronType=Art	11	det	_	_
+11	Kultur	Kultur	NOUN	NN	_	3	conj	_	_
+12	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+13	neuen	neu	ADJ	ADJA	Case=Gen|Degree=Pos|Gender=Masc,Neut|Number=Sing	14	amod	_	_
+14	Land	Land	NOUN	NN	_	11	nmod	_	_
+15	kennen	kennen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+16	.	.	PUNCT	$.	_	15	punct	_	_
+
+# sent_id = 11
+# text = Es ist nähmlich einfacher eine neue Kutur zu verstehen, wenn wir sie kennen.
+1	Es	es	PRON	PPER	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+3	nähmlich	nähmlich	ADJ	ADJD	Degree=Pos	9	advmod	_	_
+4	einfacher	einfach	ADJ	ADJA	Degree=Cmp,Pos	9	advmod	_	_
+5	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Kutur	Kutur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	zu	zu	PART	PTKZU	_	9	mark	_	_
+9	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	9	punct	_	_
+11	wenn	wenn	SCONJ	KOUS	_	14	mark	_	_
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+13	sie	sie	PRON	PPER	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	kennen	kennen	VERB	VVINF	VerbForm=Inf	9	advcl	_	SpaceAfter=No
+15	.	.	PUNCT	$.	_	9	punct	_	_
+
+# sent_id = 12
+# text = Dann, wenn wir diese neue Kultur kennen werden, können wir zwischen die Beide leben.
+1	Dann	dann	ADV	ADV	_	16	advmod	_	SpaceAfter=No
+2	,	,	PUNCT	$,	_	1	punct	_	_
+3	wenn	wenn	SCONJ	KOUS	_	8	mark	_	_
+4	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+5	diese	dies	PRON	PDAT	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	7	det	_	_
+6	neue	neu	ADJ	ADJA	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+8	kennen	kennen	VERB	VVINF	VerbForm=Inf	16	advcl	_	_
+9	werden	werden	AUX	VAINF	VerbForm=Inf	8	aux:pass	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	8	punct	_	_
+11	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	aux	_	_
+12	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+13	zwischen	zwischen	ADP	APPR	_	15	case	_	_
+14	die	der	DET	ART	Case=Nom|Definite=Def|Number=Plur|PronType=Art	15	det	_	_
+15	Beide	beide	NOUN	NN	Case=Nom|Number=Plur	16	nsubj	_	_
+16	leben	leben	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	16	punct	_	_
+
+# sent_id = 13
+# text = Jedoch müssen wir aufpassen.
+1	Jedoch	jedoch	ADV	ADV	_	4	advmod	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	aufpassen	aufpassen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	4	punct	_	_
+
+# sent_id = 14
+# text = Wir müssen immer unsere Gastland respektiert.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	immer	immer	ADV	ADV	_	6	advmod	_	_
+4	unsere	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	5	det:poss	_	_
+5	Gastland	Gastland	NOUN	NN	_	6	obj	_	_
+6	respektiert	respektieren	VERB	VVPP	VerbForm=Part	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	$.	_	6	punct	_	_
+
+# sent_id = 15
+# text = Also müssen wir nicht die anderen Leute unsere Kultur zu verstehen oder haben verpflichten:
+1	Also	also	ADV	ADV	_	11	advmod	_	_
+2	müssen	müssen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+4	nicht	nicht	PART	PTKNEG	Polarity=Neg	11	advmod	_	_
+5	die	der	DET	ART	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+6	anderen	ander	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	Leute	Leute	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+8	unsere	unser	PRON	PPOSAT	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	9	det:poss	_	_
+9	Kultur	Kultur	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+10	zu	zu	PART	PTKZU	_	11	mark	_	_
+11	verstehen	verstehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+12	oder	oder	CCONJ	KON	_	14	cc	_	_
+13	haben	haben	AUX	VAFIN	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	verpflichten	verpflichten	VERB	VVINF	VerbForm=Inf	11	conj	_	SpaceAfter=No
+15	:	:	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 16
+# text = Wir sind nur eine Person mit anderen.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	nur	nur	ADV	ADV	_	5	advmod	_	_
+4	eine	ein	DET	ART	Definite=Ind|PronType=Art	5	det	_	_
+5	Person	Person	NOUN	NN	_	0	root	_	_
+6	mit	mit	ADP	APPR	_	7	case	_	_
+7	anderen	ander	PRON	PIS	PronType=Ind	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	5	punct	_	_
+
+# sent_id = 17
+# text = Zum Abschluss werde ich nie sagen, dass wir die Traditionen unseres Heimatlandes Fortzusetzen sollen oder, dass wir uns an der Kultur des Gastlandes orientieren sollen.
+1-2	Zum	_	_	_	_	_	_	_	_
+1	Zu	zu	ADP	APPR	_	3	case	_	_
+2	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	3	det	_	_
+3	Abschluss	Abschluß	NOUN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	7	obl	_	_
+4	werde	werden	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	nie	nie	ADV	ADV	Polarity=Neg	7	advmod	_	_
+7	sagen	sagen	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	dass	dass	SCONJ	KOUS	_	15	mark	_	_
+10	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+11	die	der	DET	ART	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	det	_	_
+12	Traditionen	Tradition	NOUN	NN	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+13	unseres	unser	PRON	PPOSAT	Case=Gen|Gender=Masc,Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	14	det:poss	_	_
+14	Heimatlandes	Heimatland	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	12	nmod	_	_
+15	Fortzusetzen	fortzusetz	VERB	VVIZU	_	7	ccomp	_	_
+16	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+17	oder	oder	CCONJ	KON	_	18	cc	_	SpaceAfter=No
+18	,	,	PUNCT	$,	_	15	punct	_	_
+19	dass	dass	SCONJ	KOUS	_	27	mark	_	_
+20	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+21	uns	wir	PRON	PRF	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	27	obj	_	_
+22	an	an	ADP	APPR	_	24	case	_	_
+23	der	der	DET	ART	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
+24	Kultur	Kultur	NOUN	NN	Case=Dat|Gender=Fem|Number=Sing	27	obl	_	_
+25	des	der	DET	ART	Case=Gen|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	26	det	_	_
+26	Gastlandes	Gastland	NOUN	NN	Case=Gen|Gender=Masc,Neut|Number=Sing	24	nmod	_	_
+27	orientieren	orientieren	VERB	VVINF	VerbForm=Inf	15	ccomp	_	_
+28	sollen	sollen	AUX	VMFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	aux	_	SpaceAfter=No
+29	.	.	PUNCT	$.	_	7	punct	_	_
+
+# sent_id = 18
+# text = Wir sind unabhängig und Frei.
+1	Wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	sind	sein	VERB	VAFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	unabhängig	unabhängig	ADJ	ADJD	Degree=Pos	0	root	_	_
+4	und	und	CCONJ	KON	_	5	cc	_	_
+5	Frei	frei	NOUN	NN	_	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	$.	_	3	punct	_	_
+
+# sent_id = 19
+# text = Das erste Wort für eine schöne Leben ist „Carpe diem".
+1	Das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	erste	erst	ADJ	ADJA	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	_
+3	Wort	Wort	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+4	für	für	ADP	APPR	_	7	case	_	_
+5	eine	ein	DET	ART	Definite=Ind|PronType=Art	7	det	_	_
+6	schöne	schön	ADJ	ADJA	Degree=Pos	7	amod	_	_
+7	Leben	Leben	NOUN	NN	_	3	nmod	_	_
+8	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	„	„	PUNCT	$.	_	10	punct	_	SpaceAfter=No
+10	Carpe	Carpe	PROPN	NN	_	0	root	_	_
+11	diem	di	PROPN	VVFIN	Case=Dat|Number=Sing	10	flat	_	SpaceAfter=No
+12	"	"	PUNCT	$(	_	10	punct	_	SpaceAfter=No
+13	.	.	PUNCT	$.	_	10	punct	_	_
+
+# sent_id = 20
+# text = Wenn wir nicht den Leuten auf die Palme bringen, geht alles gut.
+1	Wenn	wenn	SCONJ	KOUS	_	9	mark	_	_
+2	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+3	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+4	den	der	DET	ART	Case=Dat|Definite=Def|Number=Plur|PronType=Art	5	det	_	_
+5	Leuten	Leute	NOUN	NN	Case=Dat|Number=Plur	9	iobj	_	_
+6	auf	auf	ADP	APPR	_	8	case	_	_
+7	die	der	DET	ART	Case=Acc|Definite=Def|Number=Plur|PronType=Art	8	det	_	_
+8	Palme	Palm|Palme	NOUN	NN	Case=Acc|Number=Plur	9	obl	_	_
+9	bringen	bringen	VERB	VVINF	VerbForm=Inf	11	advcl	_	SpaceAfter=No
+10	,	,	PUNCT	$,	_	11	punct	_	_
+11	geht	gehen	VERB	VVFIN	VerbForm=Fin	0	root	_	_
+12	alles	alle	PRON	PIS	Case=Acc|PronType=Tot	13	obj	_	_
+13	gut	gut	ADJ	ADJD	Degree=Pos	11	xcomp	_	SpaceAfter=No
+14	.	.	PUNCT	$.	_	11	punct	_	_
+
+# sent_id = 21
+# text = Außerdem können wir in unsere Heimatland nicht die Heimatkultur haben.
+1	Außerdem	außerdem	ADV	ADV	_	9	advmod	_	_
+2	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	_
+3	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+4	in	in	ADP	APPR	_	6	case	_	_
+5	unsere	unser	DET	PPOSAT	Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs	6	det:poss	_	_
+6	Heimatland	Heimatland	NOUN	NN	_	9	nmod	_	_
+7	nicht	nicht	PART	PTKNEG	Polarity=Neg	9	advmod	_	_
+8	die	der	DET	ART	Definite=Def|PronType=Art	9	det	_	_
+9	Heimatkultur	Heimatkultur	NOUN	NN	_	10	obl	_	_
+10	haben	haben	VERB	VAINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	10	punct	_	SpacesAfter=\n
+
+# sent_id = 22
+# text = Also: „Carpe diem"
+1	Also	also	ADV	ADV	_	4	advmod	_	SpaceAfter=No
+2	:	:	PUNCT	$.	_	4	punct	_	_
+3	„	„	PUNCT	$.	_	4	punct	_	SpaceAfter=No
+4	Carpe	Carpe	PROPN	NE	_	0	root	_	_
+5	diem	diem	PROPN	VVFIN	Case=Dat|Number=Sing	4	flat	_	SpaceAfter=No
+6	"	"	PUNCT	$(	_	4	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,106 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1091_0000220_DE_B1.txt
+# newpar
+# sent_id = 1
+# text = 12.3.2012 Liebe Katharina, Am 1. April muss ich gehen nach Polen für eine woche.
+1	12.3.2012	12.3.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+2	Liebe	Liebe	NOUN	NN	Case=Nom|Number=Plur	12	nsubj	_	_
+3	Katharina	Katharina	PROPN	NE	_	2	appos	_	SpaceAfter=No
+4	,	,	PUNCT	$,	_	2	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s
+5-6	Am	_	_	_	_	_	_	_	_
+5	An	an	PROPN	APPR	_	7	case	_	_
+6	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	7	det	_	_
+7	1	1	PROPN	CARD	Case=Dat|Gender=Masc,Neut|Number=Sing	2	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	$.	_	2	punct	_	_
+9	April	April	PROPN	NN	Case=Dat|Gender=Masc,Neut|Number=Sing	2	appos	_	_
+10	muss	müssen	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	_
+11	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	gehen	gehen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+13	nach	nach	ADP	APPR	_	14	case	_	_
+14	Polen	Polen	PROPN	NE	Case=Dat|Number=Sing	12	obl	_	_
+15	für	für	ADP	APPR	_	17	case	_	_
+16	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+17	woche	woch	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	12	obl	_	SpaceAfter=No
+18	.	.	PUNCT	$.	_	12	punct	_	_
+
+# sent_id = 2
+# text = Ich brauche deine Hilfe.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	brauche	brauchen	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	deine	dein	ADJ	ADJA	Degree=Pos	4	amod	_	_
+4	Hilfe	Hilfe	NOUN	NN	_	2	obl	_	SpaceAfter=No
+5	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Du weiss daß habe ich eine Katze, nämlich Mietze.
+1	Du	du	PRON	PPER	Case=Nom|Number=Sing|Person=2|Polite=Infm|PronType=Prs	2	nsubj	_	_
+2	weiss	weiß	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	daß	ditzen	CCONJ	KOUS	_	10	cc	_	_
+4	habe	haben	AUX	VAFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	_
+5	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+6	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	Katze	Katze	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No
+8	,	,	PUNCT	$,	_	7	punct	_	_
+9	nämlich	nämlich	ADV	ADV	_	10	advmod	_	_
+10	Mietze	Mietz	NOUN	NN	_	2	ccomp	_	SpaceAfter=No
+11	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 4
+# text = Kannst du bitte jeden Tag zu mein Hause gehen für Bella etwas Essen zu geben, und natürlich Wasser, auch.
+1	Kannst	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+2	du	du	PROPN	PPER	Case=Nom|Number=Sing	9	nsubj	_	_
+3	bitte	bitten	PROPN	NN	_	2	appos	_	_
+4	jeden	jed	PRON	PIAT	PronType=Tot	5	det	_	_
+5	Tag	Tag	NOUN	NN	_	2	nmod	_	_
+6	zu	zu	ADP	APPR	_	8	case	_	_
+7	mein	mein	PRON	PPOSAT	Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs	8	det:poss	_	_
+8	Hause	Haus	NOUN	NN	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+9	gehen	gehen	VERB	VVFIN	Number=Plur|Person=3|VerbForm=Fin	0	root	_	_
+10	für	für	ADP	APPR	_	11	case	_	_
+11	Bella	Bella	PROPN	NE	Case=Acc|Number=Sing	9	obl	_	_
+12	etwas	etwas	PRON	PIS	Case=Acc|PronType=Ind	15	obj	_	_
+13	Essen	Essen	NOUN	NN	Case=Acc|Number=Sing	15	obj	_	_
+14	zu	zu	PART	PTKZU	_	15	mark	_	_
+15	geben	geben	VERB	VVINF	VerbForm=Inf	9	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	$,	_	19	punct	_	_
+17	und	und	CCONJ	KON	_	19	cc	_	_
+18	natürlich	natürlich	ADJ	ADV	Degree=Pos	19	advmod	_	_
+19	Wasser	Wasser	NOUN	NN	Case=Acc|Number=Sing	9	obj	_	SpaceAfter=No
+20	,	,	PUNCT	$,	_	19	punct	_	_
+21	auch	auch	ADV	ADV	_	9	advmod	_	SpaceAfter=No
+22	.	.	PUNCT	$.	_	9	punct	_	SpacesAfter=\n\s\s\s\s\s\s\s\s
+
+# sent_id = 5
+# text = Wenn ist das okey für dich, Können wir treffen und kann ich die Schlussel zu dir geben und vielleich können wir etwas trinken.
+1	Wenn	wenn	SCONJ	KOUS	_	18	mark	_	_
+2	ist	sein	VERB	VAFIN	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	das	der	DET	ART	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	okey	okey	NOUN	NN	Case=Nom|Number=Sing	6	nsubj	_	_
+5	für	für	ADP	APPR	_	6	case	_	_
+6	dich	du	PRON	PPER	Case=Acc|Number=Sing|Person=2|Polite=Infm|PronType=Prs	18	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	$,	_	6	punct	_	_
+8	Können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+9	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	_
+10	treffen	treffen	ADJ	ADJD	Degree=Pos	18	advmod	_	_
+11	und	und	CCONJ	KON	_	18	cc	_	_
+12	kann	können	AUX	VMFIN	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	aux	_	_
+13	ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	_
+14	die	der	DET	ART	Definite=Def|PronType=Art	15	det	_	_
+15	Schlussel	Schlussel	NOUN	NN	_	18	obj	_	_
+16	zu	zu	ADP	APPR	_	17	case	_	_
+17	dir	du	PRON	PPER	Case=Dat|Number=Sing|Person=2|Polite=Infm|PronType=Prs	18	obl	_	_
+18	geben	geben	VERB	VVINF	VerbForm=Inf	24	advcl	_	_
+19	und	und	CCONJ	KON	_	20	cc	_	_
+20	vielleich	vielleich	ADJ	ADJD	Degree=Pos	18	conj	_	_
+21	können	können	AUX	VMFIN	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	aux	_	_
+22	wir	wir	PRON	PPER	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+23	etwas	etwas	ADV	ADV	_	24	advmod	_	_
+24	trinken	trinken	VERB	VVINF	VerbForm=Inf	0	root	_	SpaceAfter=No
+25	.	.	PUNCT	$.	_	24	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Liebe Grüße Deine Maria
+1	Liebe	Liebe	ADJ	ADJA	Degree=Pos	2	amod	_	_
+2	Grüße	Grüße	NOUN	NN	_	0	root	_	SpacesAfter=\n
+3	Deine	Deine	PROPN	NE	_	2	appos	_	_
+4	Maria	Maria	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+

@@ -1,0 +1,76 @@
+# newdoc id = /Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/1071_0024807_DE_A2.txt
+# newpar
+# sent_id = 1
+# text = Stadt X´den 16.03.2012 Lieber Ingo, Wie geht´s dir?
+1	Stadt	Stadt	NOUN	NN	_	0	root	_	_
+2	X´den	X´den	NOUN	NN	_	1	appos	_	_
+3	16.03.2012	16.03.2012	NUM	CARD	NumType=Card	2	nummod	_	SpacesAfter=\n
+4	Lieber	Lieber	PROPN	NN	_	2	appos	_	_
+5	Ingo	Ingo	PROPN	NE	_	4	flat	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	SpacesAfter=\n
+7	Wie	wie	PROPN	NE	_	2	appos	_	_
+8	geht´s	geht´s	PROPN	NE	_	7	flat	_	_
+9	dir	dir	PROPN	NN	_	7	flat	_	SpaceAfter=No
+10	?	?	PROPN	$.	_	7	flat	_	_
+
+# sent_id = 2
+# text = Ich suchen eine neu Wohnung, haben Sie zeit am Wochnende bei mir helfen Wohnunsuchen?
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	suchen	suchen	VERB	VVINF	VerbForm=Inf	0	root	_	_
+3	eine	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+4	neu	neu	ADJ	ADJD	Degree=Pos	5	amod	_	_
+5	Wohnung	Wohnung	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	2	obj	_	SpaceAfter=No
+6	,	,	PUNCT	$,	_	7	punct	_	_
+7	haben	haben	VERB	VAFIN	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+8	Sie	Sie|sie	PRON	PPER	Case=Nom|Person=2|Polite=Form|PronType=Prs	7	nsubj	_	_
+9	zeit	zeit	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10-11	am	_	_	_	_	_	_	_	_
+10	an	an	ADP	APPR	_	12	case	_	_
+11	dem	der	DET	ART	Case=Dat|Definite=Def|Gender=Masc,Neut|Number=Sing|PronType=Art	12	det	_	_
+12	Wochnende	Wochnende	NOUN	NN	_	9	nmod	_	_
+13	bei	bei	ADP	APPR	_	16	case	_	_
+14	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	16	det:poss	_	_
+15	helfen	helfen	NOUN	NN	Case=Acc|Number=Plur	16	obj	_	_
+16	Wohnunsuchen	Wohnunsuchen	NOUN	NN	_	9	nmod	_	SpaceAfter=No
+17	?	?	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 3
+# text = Ich suche ein Große wohnung (3 Zimmer) ungefähr 80 m²= Bitte schreiben mir zürück.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
+2	suche	suchen	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	ein	ein	DET	ART	Case=Acc|Definite=Ind|Gender=Masc,Neut|Number=Sing|PronType=Art	5	det	_	_
+4	Große	groß	PROPN	ADJA	Case=Acc|Gender=Neut|Number=Sing	5	amod	_	_
+5	wohnung	wohnung	PROPN	NN	Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+6	(	(	PUNCT	$(	_	8	punct	_	SpaceAfter=No
+7	3	3	NUM	CARD	NumType=Card	8	nummod	_	_
+8	Zimmer	Zimmer	NOUN	NN	_	5	appos	_	SpaceAfter=No
+9	)	)	PUNCT	$(	_	8	punct	_	_
+10	ungefähr	ungefähr	ADV	ADJD	_	11	advmod	_	_
+11	80	80	NUM	CARD	NumType=Card	14	obl	_	_
+12	m²=	m²=	PUNCT	$(	_	14	punct	_	_
+13	Bitte	bitte	PART	ADV	_	14	mark	_	_
+14	schreiben	schreiben	VERB	VVINF	VerbForm=Inf	0	root	_	_
+15	mir	ich	PRON	PPER	Case=Dat|Number=Sing|Person=1|PronType=Prs	14	iobj	_	_
+16	zürück	zürück	ADV	PTKVZ	_	14	advmod	_	SpaceAfter=No
+17	.	.	PUNCT	$.	_	14	punct	_	_
+
+# sent_id = 4
+# text = Ich danke Ihn.
+1	Ich	ich	PRON	PPER	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	danke	danken	VERB	VVFIN	Number=Sing|Person=1|VerbForm=Fin	0	root	_	_
+3	Ihn	er	PRON	PPER	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	$.	_	2	punct	_	_
+
+# sent_id = 5
+# text = biss Wochenende.
+1	biss	biß	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	Wochenende	Wochenend	NOUN	NN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No
+3	.	.	PUNCT	$.	_	1	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Mit Freundlichen Großen Maria
+1	Mit	mit	ADP	APPR	_	2	case	_	_
+2	Freundlichen	freundliche	NOUN	NN	_	0	root	_	_
+3	Großen	groß	PROPN	NN	_	2	appos	_	SpacesAfter=\n
+4	Maria	Maria	PROPN	NE	_	3	flat	_	SpacesAfter=\n
+
