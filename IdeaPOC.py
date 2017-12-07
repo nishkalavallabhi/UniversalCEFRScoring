@@ -11,6 +11,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import cross_val_score,cross_val_predict,StratifiedKFold
 from sklearn.metrics import f1_score,classification_report,accuracy_score,confusion_matrix, mean_absolute_error
 
+from scipy.stats import spearmanr, pearsonr
+
 def makePOSsentences(conllufilepath):
     fh =  open(conllufilepath)
     everything_POS = []
@@ -84,13 +86,12 @@ def train_onelang_regression(train_scores,train_data):
             print("Printing results for: " + str(regressor) + str(vectorizer))
             cross_val = cross_val_score(regressor, train_vector, train_scores, cv=k_fold, n_jobs=1)
             predicted = cross_val_predict(regressor, train_vector, train_scores, cv=k_fold)
-            print(cross_val)
-            print(sum(cross_val)/float(len(cross_val)))
-            print(vectorizer.get_feature_names())
             predicted[predicted < 0] = 0
             n = len(predicted)
             print("RMSLE: ", np.sqrt((1/n) * sum(np.square(np.log10(predicted +1) - (np.log10(train_scores) +1)))))
             print("MAE: ", mean_absolute_error(train_scores,predicted))
+            print("Pearson: ", pearsonr(train_scores,predicted))
+            print("Spearman: ", spearmanr(train_scores,predicted))
     print("SAME LANG EVAL DONE")
 
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
@@ -125,6 +126,8 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
             n = len(predicted)
             print("RMSLE: ", np.sqrt((1/n) * sum(np.square(np.log10(predicted +1) - (np.log10(test_scores) +1)))))
             print("MAE: ", mean_absolute_error(test_scores,predicted))
+            print("Pearson: ", pearsonr(test_scores,predicted))
+            print("Spearman: ", spearmanr(test_scores,predicted))
 
 def main():
     itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
