@@ -6,7 +6,7 @@ import collections
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor, RandomForestClassifier, RandomForestRegressor
-from sklearn import linear_model
+from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import cross_val_score,cross_val_predict,StratifiedKFold
 from sklearn.metrics import f1_score,classification_report,accuracy_score,confusion_matrix, mean_absolute_error
@@ -14,6 +14,9 @@ from xgboost import XGBClassifier, XGBRegressor
 
 from scipy.stats import spearmanr, pearsonr
 
+'''
+convert a text into its POS form. i.e., each word is replaced by its POS
+'''
 def makePOSsentences(conllufilepath):
     fh =  open(conllufilepath)
     everything_POS = []
@@ -31,6 +34,23 @@ def makePOSsentences(conllufilepath):
             pos_sentence.append(pos_tag)
     fh.close()
     return " ".join(everything_POS) #Returns a string which contains one sentence as POS tag sequence per line
+
+def makeTextOnly(conllufilepath):
+    fh =  open(conllufilepath)
+    allText = []
+    this_sentence = []
+    sent_id = 0
+    for line in fh:
+        if line == "\n":
+            word_string = " ".join(this_sentence) + "\n"
+            allText.append(word_string)
+            this_sentence = []
+            sent_id = sent_id+1
+        elif not line.startswith("#"):
+            word = line.split("\t")[1]
+            this_sentence.append(word)
+    fh.close()
+    return " ".join(allText) #Returns a string which contains one sentence as POS tag sequence per line
 
 '''
 convert a sentence into this form: nmod_NN_PRON, dobj_VB_NN etc. i.e., each word is replaced by a dep. trigram of that form.
@@ -83,8 +103,9 @@ def getLangData(dirpath):
     posversionslist = []
     for file in files:
         if file.endswith(".txt"):
-          #  pos_version_of_file = makePOSsentences(os.path.join(dirpath,file)) #DO THIS TO GET POS N-GRAM FEATURES later
-            pos_version_of_file = makeDepRelSentences(os.path.join(dirpath,file)) #DO THIS TO GET DEP-TRIAD N-gram features later
+            pos_version_of_file = makePOSsentences(os.path.join(dirpath,file)) #DO THIS TO GET POS N-GRAM FEATURES later
+            #pos_version_of_file = makeDepRelSentences(os.path.join(dirpath,file)) #DO THIS TO GET DEP-TRIAD N-gram features later
+            #pos_version_of_file = makeTextOnly(os.path.join(dirpath,file)) #DO THIS TO GET Word N-gram features later
             fileslist.append(file)
             posversionslist.append(pos_version_of_file)
     return fileslist, posversionslist
@@ -108,9 +129,9 @@ def getnumlist(filenameslist):
 
 #Training on one language data, Stratified 10 fold CV
 def train_onelang_classification(train_labels,train_data):
-    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
+    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), XGBClassifier()] #Add more.GradientBoostingClassifier(),
+    classifiers = [RandomForestClassifier(class_weight="balanced")] #RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
     k_fold = StratifiedKFold(10)
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -128,7 +149,7 @@ def train_onelang_classification(train_labels,train_data):
 def train_onelang_regression(train_scores,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
     vectorizers = [uni_to_tri_vectorizer]
-    regressors = [linear_model.LinearRegression(), RandomForestRegressor(), GradientBoostingRegressor(), XGBRegressor()]
+    regressors = [LinearRegression(), RandomForestRegressor(), GradientBoostingRegressor(), XGBRegressor()]
     k_fold = StratifiedKFold(10)
     for vectorizer in vectorizers:
         for regressor in regressors:
@@ -147,7 +168,7 @@ def train_onelang_regression(train_scores,train_data):
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier()] #RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
+    classifiers = [RandomForestClassifier(class_weight="balanced")] #RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
     #Check this discussion for handling the sparseness issue: https://stackoverflow.com/questions/28384680/scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -167,7 +188,7 @@ Seems to be a known issue: https://github.com/dmlc/xgboost/issues/2334
 """
 
 def cross_lang_testing_regression(train_scores, train_data, test_scores, test_data):
-    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
+    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "char", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,10), min_df=10, max_features = 10000)
     vectorizers = [uni_to_tri_vectorizer]
     regressors = [RandomForestRegressor()] #linear_model.LinearRegression(),  - seems to be doing badly for cross-lang.
     for vectorizer in vectorizers:
@@ -190,11 +211,13 @@ def main():
     itlabels = getcatlist(fileslist)
     itscores = getnumlist(fileslist)
     print("IT data details: ", len(fileslist), len(itposdata))
+    print(collections.Counter(itlabels))
 
     dedirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed"
     defiles,deposdata = getLangData(dedirpath)
     delabels = getcatlist(defiles)
     descores = getnumlist(defiles)
+    print(collections.Counter(delabels))
     print("DE data details: ", len(delabels), len(deposdata))
 
     czdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ-Parsed"
@@ -202,24 +225,26 @@ def main():
     czlabels = getcatlist(czfiles)
     czscores = getnumlist(czfiles)
     print("CZ data details: ", len(czlabels), len(czposdata))
+    print(collections.Counter(czlabels))
 
-    """
     print("Training and Testing with German - Classification")
     train_onelang_classification(delabels,deposdata)
-    print(collections.Counter(delabels))
     print("***********")
+    train_onelang_classification(itlabels,itposdata)
+    train_onelang_classification(czlabels,czposdata)
+
     """
     print("Training with German, Testing on Italian  - Classification: ")
     cross_lang_testing_classification(delabels,deposdata, itlabels, itposdata)
-    print(collections.Counter(itlabels)) #get basic stats
+     #get basic stats
     print("***********")
 
     print("Training with German, Testing on Czech  - Classification: ")
-    cross_lang_testing_classification(delabels,deposdata, czlabels,czposdata)
-    print(collections.Counter(czlabels)) #get basic stats
+    cross_lang_testing_classification(delabels,deposdata,czlabels, czposdata)
+     #get basic stats
     #print(collections.Counter(getcatlist(fileslist))) #get basic stats
     print("***********")
-    """
+
     print("Training and Testing with German - Regression")
     train_onelang_regression(descores,deposdata)
     print("***********")
@@ -232,7 +257,8 @@ def main():
     cross_lang_testing_regression(descores,deposdata,czscores,czposdata)
     print("***********")
     """
-#makeDepRelSentences("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1071_0024812_DE_A2.txt.parsed.txt")
+#print(makeTextOnly("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1071_0024812_DE_A2.txt.parsed.txt"))
+#exit(1)
 
 if __name__ == "__main__":
     main()
