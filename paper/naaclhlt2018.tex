@@ -29,18 +29,12 @@
 
 \newcommand\BibTeX{B{\sc ib}\TeX}
 
-\title{Instructions for NAACL-HLT 2018 Proceedings}
+\title{Working Title: UD for Cross-Lingual essay scoring based on CEFR}
 
-\author{First Author \\
-  Affiliation / Address line 1 \\
-  Affiliation / Address line 2 \\
-  Affiliation / Address line 3 \\
-  {\tt email@domain} \\\And
-  Second Author \\
-  Affiliation / Address line 1 \\
-  Affiliation / Address line 2 \\
-  Affiliation / Address line 3 \\
-  {\tt email@domain} \\}
+%\author{Sowmya Vajjala\\
+%  {\tt email@domain} \\\And
+%  Taraka Rama \\
+%  {\tt email@domain} \\}
 
 \date{}
 
@@ -57,25 +51,29 @@
 \end{abstract}
 
 \section{Credits}
+Outline: 
+What is the point of cross-lingual scoring?
+Is it even possible? 
+How do we set about testing the idea?
 
-This document has been adapted from the instructions
-for earlier ACL and NAACL proceedings,
-including those for ACL 2017 by Dan Gildea
-and Min-Yen Kan, NAACL 2017 by Margaret
-Mitchell, ACL 2012 by Maggie Li and Michael
-White, those from ACL 2010 by Jing-Shing Chang
-and Philipp Koehn, those for ACL 2008 by Johanna
-D. Moore, Simone Teufel, James Allan, and
-Sadaoki Furui, those for ACL 2005 by Hwee Tou
-Ng and Kemal Oflazer, those for ACL 2002 by Eugene
-Charniak and Dekang Lin, and earlier ACL
-and EACL formats.
-Those versions were written by several
-people, including John Chen, Henry S. Thompson and Donald
-Walker. Additional elements were taken from the formatting
-instructions of the {\em International Joint Conference on Artificial
-  Intelligence} and the \emph{Conference on Computer Vision and
-  Pattern Recognition}.
+Features: 
+Char-embeddings, Word embeddings (per Lang separately - baseline)
+Char-embeddings (for all languages put together) - Zero shot scoring kind of thing.
+[+Logistic Reg, SVM, LSTM]
+
+POS n-grams 
+Dep triad n-grams
+[+logistic reg, SVM, other algorithms]
+
+Summary: table of the form:
+train-lang, test-lang, performance
+
+can do both classification and regression
+
+Possible plans for extension: Adding Estonian/Norwegin etc... which have learner data, which have UD parsers
+adding features related to spelling and grammar errors
+feature ensembles
+etc
 
 \section{Introduction}
 
