@@ -257,7 +257,7 @@ def regEval(predicted,actual):
 def train_onelang_classification(train_labels,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced"), ] #RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
+    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC() ] #RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
     k_fold = StratifiedKFold(10)
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -293,7 +293,7 @@ def train_onelang_regression(train_scores,train_data):
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced")] #RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
+    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC()] #RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
     #Check this discussion for handling the sparseness issue: https://stackoverflow.com/questions/28384680/scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -334,7 +334,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
 
     k_fold = StratifiedKFold(10)
-    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC(dual="False")] #Add more later
+    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC()] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
     #RandomForestClassifer(), GradientBoostClassifier()
     #Not useful: SVC with kernels - poly, sigmoid, rbf.
@@ -349,7 +349,7 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
 
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
-    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC(dual="False")]
+    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC()]
     for classifier in classifiers:
         classifier.fit(train_vector,train_labels)
         predicted = classifier.predict(test_vector)
