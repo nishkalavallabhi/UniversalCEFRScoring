@@ -244,6 +244,14 @@ def getnumlist(filenameslist):
         result.append(mapping[name.split(".txt")[0].split("_")[-1]])
     return result
 
+def regEval(predicted,actual):
+    n = len(predicted)
+    MAE = mean_absolute_error(actual,predicted)
+    pearson = pearsonr(actual,predicted)
+    spearman = spearmanr(actual,predicted)
+    rmsle = np.sqrt((1/n) * sum(np.square(np.log10(predicted +1) - (np.log10(actual) +1))))
+    return [MAE,rmsle,pearson,spearman]
+
 #Training on one language data, Stratified 10 fold CV
 def train_onelang_classification(train_labels,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
@@ -276,10 +284,7 @@ def train_onelang_regression(train_scores,train_data):
             predicted = cross_val_predict(regressor, train_vector, train_scores, cv=k_fold)
             predicted[predicted < 0] = 0
             n = len(predicted)
-            print("RMSLE: ", np.sqrt((1/n) * sum(np.square(np.log10(predicted +1) - (np.log10(train_scores) +1)))))
-            print("MAE: ", mean_absolute_error(train_scores,predicted))
-            print("Pearson: ", pearsonr(train_scores,predicted))
-            print("Spearman: ", spearmanr(train_scores,predicted))
+            print(regEval(predicted,train_scores))
     print("SAME LANG EVAL DONE")
 
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
@@ -322,7 +327,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
             print("Pearson: ", pearsonr(test_scores,predicted))
             print("Spearman: ", spearmanr(test_scores,predicted))
 
-def singleLagWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
+def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
 
     k_fold = StratifiedKFold(10)
     classifiers = [LogisticRegression(C=0.1, max_iter=500)] #Add more later
@@ -337,7 +342,7 @@ def singleLagWithoutVectorizer(train_vector,train_labels): #test_vector,test_lab
         print(sum(cross_val)/float(len(cross_val)))
         print(confusion_matrix(train_labels, predicted))
 
-def crossLangWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
+def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
     classifiers = [LogisticRegression(C=0.1, max_iter=500)]
     for classifier in classifiers:
@@ -345,6 +350,23 @@ def crossLangWithoutVectorizer(train_vector, train_labels, test_vector, test_lab
         predicted = classifier.predict(test_vector)
         print(np.mean(predicted == test_labels,dtype=float))
         print(confusion_matrix(test_labels,predicted))
+
+def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector, test_scores):
+    print("CROSS LANG EVAL")
+    regressors = [RandomForestRegressor()]
+    k_fold = StratifiedKFold(10)
+    for regressor in regressors:
+        cross_val = cross_val_score(regressor, train_vector, train_scores, cv=k_fold, n_jobs=1)
+        predicted = cross_val_predict(regressor, train_vector, train_scores, cv=k_fold)
+        predicted[predicted < 0] = 0
+        print("Cross Val Results: ")
+        print(regEval(predicted,train_scores))
+        regressor.fit(train_vector,train_scores)
+        predicted =regressor.predict(test_vector)
+        predicted[predicted < 0] = 0
+        print("Test data Results: ")
+        print(regEval(predicted,test_scores))
+
 
 def main():
 
@@ -367,7 +389,8 @@ def main():
 
     defiles,deposdata = getScoringFeatures(dedirpath, "de")
     delabels = getcatlist(defiles)
-    crossLangWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
+    #crossLangClassificationWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
+    crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
 
     """
     itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
