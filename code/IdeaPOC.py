@@ -270,6 +270,8 @@ def train_onelang_classification(train_labels,train_data):
             print(vectorizer.get_feature_names())
             print(confusion_matrix(train_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
     print("SAME LANG EVAL DONE")
+    print(f1_score(train_labels,predicted,average='weighted'))
+
 
 def train_onelang_regression(train_scores,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
@@ -302,7 +304,8 @@ def cross_lang_testing_classification(train_labels,train_data, test_labels, test
             #print(vectorizer.get_feature_names())
             print(np.mean(predicted == test_labels,dtype=float))
             print(confusion_matrix(test_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
-            print("CROSS LANG EVAL DONE")
+            print("CROSS LANG EVAL DONE. F1score: ")
+            print(f1_score(test_labels,predicted,average='weighted'))
 """
 Note: XGBoost classifier has some issue with retaining feature names between train and test data properly. This is resulting in error while doing cross language classification.
 Strangely, I did not encounter this issue with POS trigrams. Only encountering with dependency features.
@@ -341,6 +344,7 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
         print(cross_val)
         print(sum(cross_val)/float(len(cross_val)))
         print(confusion_matrix(train_labels, predicted))
+        print(f1_score(train_labels,predicted,average='macro'))
 
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
@@ -350,6 +354,7 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
         predicted = classifier.predict(test_vector)
         print(np.mean(predicted == test_labels,dtype=float))
         print(confusion_matrix(test_labels,predicted))
+        print(f1_score(test_labels,predicted,average='weighted'))
 
 def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector, test_scores):
     print("CROSS LANG EVAL")
@@ -370,6 +375,7 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
 
 def main():
 
+    """
     dedirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed"
     #defiles,deposdata = getScoringFeatures(dedirpath, "de")
     #delabels = getcatlist(defiles)
@@ -389,8 +395,9 @@ def main():
 
     defiles,deposdata = getScoringFeatures(dedirpath, "de")
     delabels = getcatlist(defiles)
-    #crossLangClassificationWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
-    crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
+    singleLangClassificationWithoutVectorizer(deposdata,delabels)
+    crossLangClassificationWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
+    #crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
 
     """
     itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
@@ -417,7 +424,9 @@ def main():
     print("Training and Testing with German - Classification")
     train_onelang_classification(delabels,deposdata)
     print("***********")
+    print("Training and Testing with Italian - Classification")
     train_onelang_classification(itlabels,itposdata)
+    print("Training and Testing with Czech - Classification")
     train_onelang_classification(czlabels,czposdata)
 
 
@@ -432,6 +441,7 @@ def main():
     #print(collections.Counter(getcatlist(fileslist))) #get basic stats
     print("***********")
 
+    """
     print("Training and Testing with German - Regression")
     train_onelang_regression(descores,deposdata)
     print("***********")
