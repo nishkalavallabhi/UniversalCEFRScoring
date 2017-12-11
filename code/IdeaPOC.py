@@ -5,6 +5,7 @@ import os
 import collections
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.preprocessing import Imputer #to replace NaN with mean values.
 from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor, RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.pipeline import Pipeline
@@ -177,16 +178,21 @@ Num. Errors. NumSpellErrors
 May be other error based features can be added later.
 """
 def getErrorFeatures(conllufilepath, lang):
-    checker = language_check.LanguageTool(lang)
-    text = makeTextOnly(conllufilepath)
-    matches = checker.check(text)
-    numerr = 0
-    numspellerr = 0
-    for match in matches:
-        if not match.locqualityissuetype == "whitespace":
-            numerr = numerr +1
-            if match.locqualityissuetype == "typographical" or match.locqualityissuetype == "misspelling":
-                numspellerr = numspellerr +1
+    try:
+        checker = language_check.LanguageTool(lang)
+        text = makeTextOnly(conllufilepath)
+        matches = checker.check(text)
+        numerr = 0
+        numspellerr = 0
+        for match in matches:
+            if not match.locqualityissuetype == "whitespace":
+                numerr = numerr +1
+                if match.locqualityissuetype == "typographical" or match.locqualityissuetype == "misspelling":
+                    numspellerr = numspellerr +1
+    except:
+        print("Ignorig this text: ", conllufilepath)
+        numerr = np.nan
+        numspellerr = np.nan
     return [numerr, numspellerr]
 
 
@@ -316,14 +322,13 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
             print("Pearson: ", pearsonr(test_scores,predicted))
             print("Spearman: ", spearmanr(test_scores,predicted))
 
-def doExperimentsWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
+def singleLagWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
 
     k_fold = StratifiedKFold(10)
     classifiers = [LogisticRegression(C=0.1, max_iter=500)] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
     #RandomForestClassifer(), GradientBoostClassifier()
     #Not useful: SVC with kernels - poly, sigmoid, rbf.
-
     for classifier in classifiers:
         print(classifier)
         cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
@@ -332,15 +337,37 @@ def doExperimentsWithoutVectorizer(train_vector,train_labels): #test_vector,test
         print(sum(cross_val)/float(len(cross_val)))
         print(confusion_matrix(train_labels, predicted))
 
+def crossLangWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
+    print("CROSS LANG EVAL")
+    classifiers = [LogisticRegression(C=0.1, max_iter=500)]
+    for classifier in classifiers:
+        classifier.fit(train_vector,train_labels)
+        predicted = classifier.predict(test_vector)
+        print(np.mean(predicted == test_labels,dtype=float))
+        print(confusion_matrix(test_labels,predicted))
+
 def main():
 
     dedirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed"
+    #defiles,deposdata = getScoringFeatures(dedirpath, "de")
+    #delabels = getcatlist(defiles)
+    #print(collections.Counter(delabels))
+    #print("DE data details: ", len(delabels), len(deposdata))
+   # singleLagWithoutVectorizer(deposdata,delabels)
+
+    itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
+    itfiles,itposdata = getScoringFeatures(itdirpath, "it")
+    itlabels = getcatlist(itfiles)
+    print(collections.Counter(itlabels))
+    print("IT data details: ", len(itlabels), len(itposdata))
+    mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+    mean_imputer = mean_imputer.fit(itposdata)
+    imputed_df = mean_imputer.transform(itposdata)
+    #singleLagWithoutVectorizer(imputed_df,itlabels)
+
     defiles,deposdata = getScoringFeatures(dedirpath, "de")
     delabels = getcatlist(defiles)
-    print(collections.Counter(delabels))
-    print("DE data details: ", len(delabels), len(deposdata))
-    doExperimentsWithoutVectorizer(deposdata,delabels)
-
+    crossLangWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
 
     """
     itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
