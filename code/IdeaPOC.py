@@ -12,6 +12,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.model_selection import cross_val_score,cross_val_predict,StratifiedKFold
 from sklearn.metrics import f1_score,classification_report,accuracy_score,confusion_matrix, mean_absolute_error
 from xgboost import XGBClassifier, XGBRegressor
+from sklearn.svm import LinearSVC
 
 from scipy.stats import spearmanr, pearsonr
 
@@ -256,7 +257,7 @@ def regEval(predicted,actual):
 def train_onelang_classification(train_labels,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced")] #RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
+    classifiers = [RandomForestClassifier(class_weight="balanced"), ] #RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
     k_fold = StratifiedKFold(10)
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -333,7 +334,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
 
     k_fold = StratifiedKFold(10)
-    classifiers = [LogisticRegression(C=0.1, max_iter=500)] #Add more later
+    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC(dual="False")] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
     #RandomForestClassifer(), GradientBoostClassifier()
     #Not useful: SVC with kernels - poly, sigmoid, rbf.
@@ -348,7 +349,7 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
 
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
-    classifiers = [LogisticRegression(C=0.1, max_iter=500)]
+    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC(dual="False")]
     for classifier in classifiers:
         classifier.fit(train_vector,train_labels)
         predicted = classifier.predict(test_vector)
@@ -400,21 +401,21 @@ def main():
     #crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
 
     """
-    itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
+    itdirpath = "/home/taraka/CrossLingualScoring/Datasets/IT-Parsed"
     fileslist,itposdata = getLangData(itdirpath)
     itlabels = getcatlist(fileslist)
     itscores = getnumlist(fileslist)
     print("IT data details: ", len(fileslist), len(itposdata))
     print(collections.Counter(itlabels))
 
-    dedirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed"
+    dedirpath = "/home/taraka/CrossLingualScoring/Datasets/DE-Parsed"
     defiles,deposdata = getLangData(dedirpath)
     delabels = getcatlist(defiles)
     descores = getnumlist(defiles)
     print(collections.Counter(delabels))
     print("DE data details: ", len(delabels), len(deposdata))
 
-    czdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/CZ-Parsed"
+    czdirpath = "/home/taraka/CrossLingualScoring/Datasets/CZ-Parsed"
     czfiles,czposdata = getLangData(czdirpath)
     czlabels = getcatlist(czfiles)
     czscores = getnumlist(czfiles)
