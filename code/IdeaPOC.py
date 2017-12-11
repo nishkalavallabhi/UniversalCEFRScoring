@@ -14,6 +14,8 @@ from xgboost import XGBClassifier, XGBRegressor
 
 from scipy.stats import spearmanr, pearsonr
 
+import language_check
+
 '''
 convert a text into its POS form. i.e., each word is replaced by its POS
 '''
@@ -97,6 +99,111 @@ def makeDepRelSentences(conllufilepath):
     return " ".join(wanted_features)
 
 
+"""
+As described in Lu, 2010: http://onlinelibrary.wiley.com/doi/10.1111/j.1540-4781.2011.01232_1.x/epdf
+Lexical words (N_lex: all open-class category words in UD (ADJ, ADV, INTJ, NOUN, PROPN, VERB)
+All words (N)
+Lex.Density = N_lex/N
+Lex. Variation = Uniq_Lex/N_Lex
+Type-Token Ratio = Uniq_words/N
+Verb Variation = Uniq_Verb/N_verb
+Noun Variation
+ADJ variation
+ADV variation
+Modifier variation
+"""
+def getLexFeatures(conllufilepath,lang):
+    fh =  open(conllufilepath)
+    ndw = [] #To get number of distinct words
+    ndn = [] #To get number of distinct nouns - includes propn
+    ndv = [] #To get number of distinct verbs
+    ndadj = []
+    ndadv = []
+    ndint = []
+    numN = 0.0 #INCL PROPN
+    numV = 0.0
+    numI = 0.0 #INTJ
+    numADJ = 0.0
+    numADV = 0.0
+    numIntj = 0.0
+    total = 0.0
+    numSent = 0.0
+    for line in fh:
+        if not line == "\n" and not line.startswith("#"):
+            fields = line.split("\t")
+            word = fields[1]
+            pos_tag = fields[3]
+            if word.isalpha():
+                if not word in ndw:
+                    ndw.append(word)
+                if pos_tag == "NOUN" or pos_tag == "PROPN":
+                    numN = numN +1
+                    if not word in ndn:
+                        ndn.append(word)
+                elif pos_tag == "ADJ":
+                    numADJ = numADJ+1
+                    if not word in ndadj:
+                        ndadj.append(word)
+                elif pos_tag == "ADV":
+                    numADV = numADV+1
+                    if not word in ndadv:
+                        ndadv.append(word)
+                elif pos_tag == "VERB":
+                    numV = numV+1
+                    if not word in ndv:
+                        ndv.append(word)
+                elif pos_tag == "INTJ":
+                    numI = numI +1
+                    if not word in ndint:
+                        ndint.append(word)
+        elif line == "\n":
+            numSent = numSent +1
+        total = total +1
+    error_features = getErrorFeatures(conllufilepath,lang)
+    nlex = float(numN + numV + numADJ + numADV + numI) #Total Lexical words i.e., tokens
+    dlex = float(len(ndn) + len(ndv) + len(ndadj) + len(ndadv) + len(ndint)) #Distinct Lexical words i.e., types
+
+    #Scriptlen, Mean Sent Len, TTR, LexD, LexVar, VVar, NVar, AdjVar, AdvVar, ModVar, Total_Errors, Total Spelling errors
+    result = [total, round(total/numSent,2), round(len(ndw)/total,2), round(nlex/total,2), round(dlex/nlex,2), round(len(ndv)/nlex,2), round(len(ndn)/nlex,2),
+              round(len(ndadj)/nlex,2), round(len(ndadv)/nlex,2), round((len(ndadj) + len(ndadv))/nlex,2),error_features[0], error_features[1]]
+    return result
+
+"""
+Num. Errors. NumSpellErrors
+May be other error based features can be added later.
+"""
+def getErrorFeatures(conllufilepath, lang):
+    checker = language_check.LanguageTool(lang)
+    text = makeTextOnly(conllufilepath)
+    matches = checker.check(text)
+    numerr = 0
+    numspellerr = 0
+    for match in matches:
+        if not match.locqualityissuetype == "whitespace":
+            numerr = numerr +1
+            if match.locqualityissuetype == "typographical" or match.locqualityissuetype == "misspelling":
+                numspellerr = numspellerr +1
+    return [numerr, numspellerr]
+
+
+"""
+get features that are typically used in scoring models using getErrorFeatures and getLexFeatures functions.
+"""
+def getScoringFeatures(dirpath,lang):
+    files = os.listdir(dirpath)
+    fileslist = []
+    featureslist = []
+    for file in files:
+        if file.endswith(".txt"):
+            features_for_this_file = getLexFeatures(os.path.join(dirpath,file),lang)
+            fileslist.append(file)
+            featureslist.append(features_for_this_file)
+    return fileslist, featureslist
+
+
+"""
+Function to get n-gram like features for Word, POS, and Dependency representations
+"""
 def getLangData(dirpath):
     files = os.listdir(dirpath)
     fileslist = []
@@ -205,7 +312,33 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
             print("Pearson: ", pearsonr(test_scores,predicted))
             print("Spearman: ", spearmanr(test_scores,predicted))
 
+def doExperimentsWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
+
+    k_fold = StratifiedKFold(10)
+    classifiers = [LogisticRegression(C=0.1, max_iter=500)] #Add more later
+    #classifiers = [MLPClassifier(max_iter=500)]
+    #RandomForestClassifer(), GradientBoostClassifier()
+    #Not useful: SVC with kernels - poly, sigmoid, rbf.
+
+    for classifier in classifiers:
+        print(classifier)
+        cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
+        predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold)
+        print(cross_val)
+        print(sum(cross_val)/float(len(cross_val)))
+        print(confusion_matrix(train_labels, predicted))
+
 def main():
+
+    dedirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed"
+    defiles,deposdata = getScoringFeatures(dedirpath, "de")
+    delabels = getcatlist(defiles)
+    print(collections.Counter(delabels))
+    print("DE data details: ", len(delabels), len(deposdata))
+    doExperimentsWithoutVectorizer(deposdata,delabels)
+
+
+    """
     itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
     fileslist,itposdata = getLangData(itdirpath)
     itlabels = getcatlist(fileslist)
@@ -233,7 +366,7 @@ def main():
     train_onelang_classification(itlabels,itposdata)
     train_onelang_classification(czlabels,czposdata)
 
-    """
+
     print("Training with German, Testing on Italian  - Classification: ")
     cross_lang_testing_classification(delabels,deposdata, itlabels, itposdata)
      #get basic stats
@@ -257,7 +390,7 @@ def main():
     cross_lang_testing_regression(descores,deposdata,czscores,czposdata)
     print("***********")
     """
-#print(makeTextOnly("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1071_0024812_DE_A2.txt.parsed.txt"))
+#print(getLexFeatures("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1031_0003076_DE_C1.txt.parsed.txt", "de"))
 #exit(1)
 
 if __name__ == "__main__":
