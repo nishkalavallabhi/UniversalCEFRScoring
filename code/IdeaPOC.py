@@ -159,7 +159,11 @@ def getLexFeatures(conllufilepath,lang):
         elif line == "\n":
             numSent = numSent +1
         total = total +1
-    error_features = getErrorFeatures(conllufilepath,lang)
+    if not lang == "cz":
+        error_features = getErrorFeatures(conllufilepath,lang)
+    else:
+        error_features = ['NA', 'NA']
+
     nlex = float(numN + numV + numADJ + numADV + numI) #Total Lexical words i.e., tokens
     dlex = float(len(ndn) + len(ndv) + len(ndadj) + len(ndadv) + len(ndint)) #Distinct Lexical words i.e., types
 
