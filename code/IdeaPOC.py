@@ -9,7 +9,7 @@ from sklearn.preprocessing import Imputer #to replace NaN with mean values.
 from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor, RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LogisticRegression, LinearRegression
 from sklearn.pipeline import Pipeline
-from sklearn.model_selection import cross_val_score,cross_val_predict,StratifiedKFold
+from sklearn.model_selection import cross_val_score,cross_val_predict,StratifiedKFold 
 from sklearn.metrics import f1_score,classification_report,accuracy_score,confusion_matrix, mean_absolute_error
 from xgboost import XGBClassifier, XGBRegressor
 from sklearn.svm import LinearSVC
@@ -257,7 +257,7 @@ def regEval(predicted,actual):
 def train_onelang_classification(train_labels,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC() ] #RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
+    classifiers = [RandomForestClassifier(class_weight="balanced")] #, LinearSVC() RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
     k_fold = StratifiedKFold(10)
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -268,11 +268,35 @@ def train_onelang_classification(train_labels,train_data):
             predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
             print(cross_val)
             print(sum(cross_val)/float(len(cross_val)))
-            print(vectorizer.get_feature_names())
-            print(confusion_matrix(train_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
+            #print(vectorizer.get_feature_names())
+            #print(confusion_matrix(train_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
+            print(predicted)
     print("SAME LANG EVAL DONE")
-    print(f1_score(train_labels,predicted,average='weighted'))
+    #print(f1_score(train_labels,predicted,average='weighted'))
 
+"""
+Combine features like this: get probability distribution over categories with n-gram features. Use that distribution as a feature set concatenated with the domain features - one way to combine sparse and dense feature groups.
+Just testing this approach here. 
+"""
+def combine_features(train_labels,train_sparse,train_dense):
+    k_fold = StratifiedKFold(10)
+    vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,3), min_df=10, max_features = 2000)
+    train_vector = vectorizer.fit_transform(train_sparse).toarray()
+    classifier = RandomForestClassifier()
+    cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
+    print("Old CV score with sparse features", str(sum(cross_val)/float(len(cross_val))))
+    predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold)
+    print(f1_score(train_labels,predicted,average='weighted'))
+    predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold, method="predict_proba")
+    new_features = []
+    for i in range(0,len(predicted)):
+       temp = list(predicted[i]) + train_dense[i]
+       new_features.append(temp)
+    new_predicted = cross_val_predict(classifier, new_features, train_labels, cv=k_fold)
+    cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
+    print("new CV score", str(cross_val))
+    print(sum(cross_val)/float(len(cross_val)))
+    print(f1_score(train_labels,new_predicted,average='weighted'))
 
 def train_onelang_regression(train_scores,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
@@ -300,7 +324,7 @@ def cross_lang_testing_classification(train_labels,train_data, test_labels, test
             print("Printing results for: " + str(classifier) + str(vectorizer))
             text_clf = Pipeline([('vect', vectorizer), ('clf', classifier)])
             text_clf.fit(train_data,train_labels)
-            print(vectorizer.get_feature_names())
+            #print(vectorizer.get_feature_names())
             predicted = text_clf.predict(test_data)
             #print(vectorizer.get_feature_names())
             print(np.mean(predicted == test_labels,dtype=float))
@@ -376,14 +400,14 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
 
 def main():
 
-    """
-    dedirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed"
+    
+    dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     #defiles,deposdata = getScoringFeatures(dedirpath, "de")
     #delabels = getcatlist(defiles)
     #print(collections.Counter(delabels))
     #print("DE data details: ", len(delabels), len(deposdata))
    # singleLagWithoutVectorizer(deposdata,delabels)
-
+    """
     itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
     itfiles,itposdata = getScoringFeatures(itdirpath, "it")
     itlabels = getcatlist(itfiles)
@@ -400,31 +424,39 @@ def main():
     crossLangClassificationWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
     #crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
 
-    """
-    itdirpath = "/home/taraka/CrossLingualScoring/Datasets/IT-Parsed"
+
+    itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
     fileslist,itposdata = getLangData(itdirpath)
     itlabels = getcatlist(fileslist)
     itscores = getnumlist(fileslist)
     print("IT data details: ", len(fileslist), len(itposdata))
     print(collections.Counter(itlabels))
 
-    dedirpath = "/home/taraka/CrossLingualScoring/Datasets/DE-Parsed"
+    dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     defiles,deposdata = getLangData(dedirpath)
     delabels = getcatlist(defiles)
     descores = getnumlist(defiles)
     print(collections.Counter(delabels))
     print("DE data details: ", len(delabels), len(deposdata))
+    
 
-    czdirpath = "/home/taraka/CrossLingualScoring/Datasets/CZ-Parsed"
+    czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
     czfiles,czposdata = getLangData(czdirpath)
     czlabels = getcatlist(czfiles)
     czscores = getnumlist(czfiles)
     print("CZ data details: ", len(czlabels), len(czposdata))
     print(collections.Counter(czlabels))
+    """
 
     print("Training and Testing with German - Classification")
-    train_onelang_classification(delabels,deposdata)
+    #train_onelang_classification(delabels,deposdata)
+    defiles,dedense = getScoringFeatures(dedirpath, "de")
+    defiles,desparse = getLangData(dedirpath)
+    delabels = getcatlist(defiles)
+    combine_features(delabels,desparse,dedense)
     print("***********")
+
+    """
     print("Training and Testing with Italian - Classification")
     train_onelang_classification(itlabels,itposdata)
     print("Training and Testing with Czech - Classification")
@@ -441,7 +473,7 @@ def main():
      #get basic stats
     #print(collections.Counter(getcatlist(fileslist))) #get basic stats
     print("***********")
-
+    """
     """
     print("Training and Testing with German - Regression")
     train_onelang_regression(descores,deposdata)
