@@ -191,9 +191,9 @@ def getErrorFeatures(conllufilepath, lang):
                 if match.locqualityissuetype == "typographical" or match.locqualityissuetype == "misspelling":
                     numspellerr = numspellerr +1
     except:
-        print("Ignorig this text: ", conllufilepath)
-        numerr = np.nan
-        numspellerr = np.nan
+        print("Ignoring this text: ", conllufilepath)
+        numerr = 'NA'
+        numspellerr = 'NA'
     return [numerr, numspellerr]
 
 
@@ -204,10 +204,10 @@ def getScoringFeatures(dirpath,lang):
     files = os.listdir(dirpath)
     fileslist = []
     featureslist = []
-    for file in files:
-        if file.endswith(".txt"):
-            features_for_this_file = getLexFeatures(os.path.join(dirpath,file),lang)
-            fileslist.append(file)
+    for filename in files:
+        if filename.endswith(".txt"):
+            features_for_this_file = getLexFeatures(os.path.join(dirpath,filename),lang)
+            fileslist.append(filename)
             featureslist.append(features_for_this_file)
     return fileslist, featureslist
 
@@ -220,15 +220,15 @@ def getLangData(dirpath, option):
     files = os.listdir(dirpath)
     fileslist = []
     posversionslist = []
-    for file in files:
-        if file.endswith(".txt"):
+    for filename in files:
+        if filename.endswith(".txt"):
             if option == "pos":
-            	pos_version_of_file = makePOSsentences(os.path.join(dirpath,file)) #DO THIS TO GET POS N-GRAM FEATURES later
+            	pos_version_of_file = makePOSsentences(os.path.join(dirpath,filename)) #DO THIS TO GET POS N-GRAM FEATURES later
             elif option == "dep":
-                pos_version_of_file = makeDepRelSentences(os.path.join(dirpath,file)) #DO THIS TO GET DEP-TRIAD N-gram features later
+                pos_version_of_file = makeDepRelSentences(os.path.join(dirpath,filename)) #DO THIS TO GET DEP-TRIAD N-gram features later
             else:
-                pos_version_of_file = makeTextOnly(os.path.join(dirpath,file)) #DO THIS TO GET Word N-gram features later
-            fileslist.append(file)
+                pos_version_of_file = makeTextOnly(os.path.join(dirpath,filename)) #DO THIS TO GET Word N-gram features later
+            fileslist.append(filename)
             posversionslist.append(pos_version_of_file)
     return fileslist, posversionslist
 
@@ -286,21 +286,26 @@ def combine_features(train_labels,train_sparse,train_dense):
     k_fold = StratifiedKFold(10)
     vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,3), min_df=10, max_features = 2000)
     train_vector = vectorizer.fit_transform(train_sparse).toarray()
-    classifier = RandomForestClassifier()
-    cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
-    print("Old CV score with sparse features", str(sum(cross_val)/float(len(cross_val))))
-    predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold)
-    print(f1_score(train_labels,predicted,average='weighted'))
+    classifier = RandomForestClassifier(class_weight="balanced")
+  #  cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
+  #  print("Old CV score with sparse features", str(sum(cross_val)/float(len(cross_val))))
+  #  predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold)
+    #print(f1_score(train_labels,predicted,average='weighted'))
+
+    #Get probability distribution for classes.
     predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold, method="predict_proba")
+    #Use those probabilities as the new featureset.
     new_features = []
     for i in range(0,len(predicted)):
-       temp = list(predicted[i]) + train_dense[i]
+       temp = list(predicted[i]) + list(train_dense[i])
        new_features.append(temp)
+    #predict with new features
     new_predicted = cross_val_predict(classifier, new_features, train_labels, cv=k_fold)
     cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
-    print("new CV score", str(cross_val))
-    print(sum(cross_val)/float(len(cross_val)))
-    print(f1_score(train_labels,new_predicted,average='weighted'))
+   # print("new CV score", str(cross_val))
+    print("Acc: " ,str(sum(cross_val)/float(len(cross_val))))
+    print("F1: ", str(f1_score(train_labels,new_predicted,average='weighted')))
+    
 
 def train_onelang_regression(train_scores,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
@@ -361,7 +366,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
 
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
     k_fold = StratifiedKFold(10)
-    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC()] #Add more later
+    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
     #RandomForestClassifer(), GradientBoostClassifier()
     #Not useful: SVC with kernels - poly, sigmoid, rbf.
@@ -410,16 +415,19 @@ def do_single_lang_all_features(langdirpath,lang,modelas):
     langfiles,langwordngrams = getLangData(langdirpath, "word")
     langfiles,langposngrams = getLangData(langdirpath, "pos")
     langfiles,langdepngrams = getLangData(langdirpath, "dep")
-    langfiles,langdomain = getScoringFeatures(langdirpath,lang) 
+    if not lang == "cz":
+        langfiles,langdomain = getScoringFeatures(langdirpath,lang) 
+    
+    print("Extracted all features: ")
     langlabels = getcatlist(langfiles)
     langscores = getnumlist(langfiles)
 
     if lang == "it": #Those two files where langtool throws error
-       mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+       mean_imputer = Imputer(missing_values='NA', strategy='mean', axis=0)
        mean_imputer = mean_imputer.fit(langdomain)
        imputed_df = mean_imputer.transform(langdomain)
        langdomain = imputed_df
-       print("Modified feature vector for Italian")
+       print("Modified domain feature vector for Italian")
 
     print("Printing class statistics")
     print(collections.Counter(langlabels))
@@ -430,11 +438,20 @@ def do_single_lang_all_features(langdirpath,lang,modelas):
        print("With POS ngrams: ", "\n", "******") 
        train_onelang_classification(langlabels,langposngrams)
        print("Dep ngrams: ", "\n", "******") 
-       train_onelang_classification(langlabels,langwordngrams)
-       print("Domain features: ", "\n", "******")
-       singleLangClassificationWithoutVectorizer(langdomain,langlabels)
+       train_onelang_classification(langlabels,langdepngrams)
+       if not lang == "cz":
+          print("Domain features: ", "\n", "******")
+          singleLangClassificationWithoutVectorizer(langdomain,langlabels)
 
-       #TODO: combine_features
+          print("Combined feature rep: wordngrams + domain")
+          combine_features(langlabels,langwordngrams,langdomain)
+          print("Combined feature rep: posngrams + domain")
+          combine_features(langlabels,langposngrams,langdomain)
+          print("Combined feature rep: depngrams + domain")
+          combine_features(langlabels,langdepngrams,langdomain)
+       #TODO
+       #print("ALL COMBINED")
+
        """
        defiles,dedense = getScoringFeatures(dedirpath, "de")
        defiles,desparse = getLangData(dedirpath)
@@ -457,7 +474,7 @@ def main():
     itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
-    do_single_lang_all_features(itdirpath,"it", "regr")
+    do_single_lang_all_features(czdirpath,"cz", "class")
 
     #TODO
     """
