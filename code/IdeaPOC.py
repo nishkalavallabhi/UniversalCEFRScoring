@@ -214,16 +214,20 @@ def getScoringFeatures(dirpath,lang):
 
 """
 Function to get n-gram like features for Word, POS, and Dependency representations
+option takes: word, pos, dep. default is word
 """
-def getLangData(dirpath):
+def getLangData(dirpath, option):
     files = os.listdir(dirpath)
     fileslist = []
     posversionslist = []
     for file in files:
         if file.endswith(".txt"):
-            pos_version_of_file = makePOSsentences(os.path.join(dirpath,file)) #DO THIS TO GET POS N-GRAM FEATURES later
-            #pos_version_of_file = makeDepRelSentences(os.path.join(dirpath,file)) #DO THIS TO GET DEP-TRIAD N-gram features later
-            #pos_version_of_file = makeTextOnly(os.path.join(dirpath,file)) #DO THIS TO GET Word N-gram features later
+            if option == "pos":
+            	pos_version_of_file = makePOSsentences(os.path.join(dirpath,file)) #DO THIS TO GET POS N-GRAM FEATURES later
+            elif option == "dep":
+                pos_version_of_file = makeDepRelSentences(os.path.join(dirpath,file)) #DO THIS TO GET DEP-TRIAD N-gram features later
+            else:
+                pos_version_of_file = makeTextOnly(os.path.join(dirpath,file)) #DO THIS TO GET Word N-gram features later
             fileslist.append(file)
             posversionslist.append(pos_version_of_file)
     return fileslist, posversionslist
@@ -251,13 +255,13 @@ def regEval(predicted,actual):
     pearson = pearsonr(actual,predicted)
     spearman = spearmanr(actual,predicted)
     rmsle = np.sqrt((1/n) * sum(np.square(np.log10(predicted +1) - (np.log10(actual) +1))))
-    return [MAE,rmsle,pearson,spearman]
+    return {"MAE": MAE, "rmlse": rmsle, "pearson": pearson, "spearman":spearman}
 
 #Training on one language data, Stratified 10 fold CV
 def train_onelang_classification(train_labels,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced")] #, LinearSVC() RandomForestClassifier(), , XGBClassifier()] #Add more.GradientBoostingClassifier(),
+    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more.GradientBoostingClassifier(),
     k_fold = StratifiedKFold(10)
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -266,13 +270,13 @@ def train_onelang_classification(train_labels,train_data):
             #print(vectorizer.get_feature_names()) #To see what features were selected.
             cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
             predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
-            print(cross_val)
-            print(sum(cross_val)/float(len(cross_val)))
+           # print(cross_val)
+            print(sum(cross_val)/float(len(cross_val)), f1_score(train_labels,predicted,average='weighted'))
             #print(vectorizer.get_feature_names())
-            #print(confusion_matrix(train_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
-            print(predicted)
-    print("SAME LANG EVAL DONE")
-    #print(f1_score(train_labels,predicted,average='weighted'))
+            print(confusion_matrix(train_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
+            #print(predicted)
+    print("SAME LANG EVAL DONE FOR THIS LANG")
+    
 
 """
 Combine features like this: get probability distribution over categories with n-gram features. Use that distribution as a feature set concatenated with the domain features - one way to combine sparse and dense feature groups.
@@ -315,9 +319,9 @@ def train_onelang_regression(train_scores,train_data):
     print("SAME LANG EVAL DONE")
 
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
-    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
+    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10) #, max_features = 2000
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC()] #RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
+    classifiers = [RandomForestClassifier(class_weight="balanced")] #, LinearSVC()RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
     #Check this discussion for handling the sparseness issue: https://stackoverflow.com/questions/28384680/scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -356,7 +360,6 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
             print("Spearman: ", spearmanr(test_scores,predicted))
 
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
-
     k_fold = StratifiedKFold(10)
     classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC()] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
@@ -397,98 +400,76 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
         print("Test data Results: ")
         print(regEval(predicted,test_scores))
 
+"""
+this function takes a language data directory path, and lang code, 
+gets all features, and prints the results with those.
+lang codes: de, it, cz (lower case)
+modelas: "class" for classification, "regr" for regression
+"""
+def do_single_lang_all_features(langdirpath,lang,modelas):
+    langfiles,langwordngrams = getLangData(langdirpath, "word")
+    langfiles,langposngrams = getLangData(langdirpath, "pos")
+    langfiles,langdepngrams = getLangData(langdirpath, "dep")
+    langfiles,langdomain = getScoringFeatures(langdirpath,lang) 
+    langlabels = getcatlist(langfiles)
+    langscores = getnumlist(langfiles)
+
+    if lang == "it": #Those two files where langtool throws error
+       mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+       mean_imputer = mean_imputer.fit(langdomain)
+       imputed_df = mean_imputer.transform(langdomain)
+       langdomain = imputed_df
+       print("Modified feature vector for Italian")
+
+    print("Printing class statistics")
+    print(collections.Counter(langlabels))
+
+    if modelas == "class":
+       print("With Word ngrams:", "\n", "******") 
+       train_onelang_classification(langlabels,langwordngrams)
+       print("With POS ngrams: ", "\n", "******") 
+       train_onelang_classification(langlabels,langposngrams)
+       print("Dep ngrams: ", "\n", "******") 
+       train_onelang_classification(langlabels,langwordngrams)
+       print("Domain features: ", "\n", "******")
+       singleLangClassificationWithoutVectorizer(langdomain,langlabels)
+
+       #TODO: combine_features
+       """
+       defiles,dedense = getScoringFeatures(dedirpath, "de")
+       defiles,desparse = getLangData(dedirpath)
+       delabels = getcatlist(defiles)
+       combine_features(delabels,desparse,dedense)
+       """
+    elif modelas == "regr":
+       print("With Word ngrams:", "\n", "******") 
+       train_onelang_regression(langscores,langwordngrams)
+       print("With POS ngrams: ", "\n", "******") 
+       train_onelang_regression(langscores,langposngrams)
+       print("Dep ngrams: ", "\n", "******") 
+       train_onelang_regression(langscores,langwordngrams)
+       #TODO: singleLangRegressionWithoutVectorizer function.
+       #print("Domain features: ", "\n", "******")
+       #singleLangRegressionWithoutVectorizer(langdomain,langlabels)
 
 def main():
 
-    
-    dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
-    #defiles,deposdata = getScoringFeatures(dedirpath, "de")
-    #delabels = getcatlist(defiles)
-    #print(collections.Counter(delabels))
-    #print("DE data details: ", len(delabels), len(deposdata))
-   # singleLagWithoutVectorizer(deposdata,delabels)
-    """
-    itdirpath = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT-Parsed"
-    itfiles,itposdata = getScoringFeatures(itdirpath, "it")
-    itlabels = getcatlist(itfiles)
-    print(collections.Counter(itlabels))
-    print("IT data details: ", len(itlabels), len(itposdata))
-    mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
-    mean_imputer = mean_imputer.fit(itposdata)
-    imputed_df = mean_imputer.transform(itposdata)
-    #singleLagWithoutVectorizer(imputed_df,itlabels)
-
-    defiles,deposdata = getScoringFeatures(dedirpath, "de")
-    delabels = getcatlist(defiles)
-    singleLangClassificationWithoutVectorizer(deposdata,delabels)
-    crossLangClassificationWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
-    #crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles))
-
-
     itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
-    fileslist,itposdata = getLangData(itdirpath)
-    itlabels = getcatlist(fileslist)
-    itscores = getnumlist(fileslist)
-    print("IT data details: ", len(fileslist), len(itposdata))
-    print(collections.Counter(itlabels))
-
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
-    defiles,deposdata = getLangData(dedirpath)
-    delabels = getcatlist(defiles)
-    descores = getnumlist(defiles)
-    print(collections.Counter(delabels))
-    print("DE data details: ", len(delabels), len(deposdata))
-    
-
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
-    czfiles,czposdata = getLangData(czdirpath)
-    czlabels = getcatlist(czfiles)
-    czscores = getnumlist(czfiles)
-    print("CZ data details: ", len(czlabels), len(czposdata))
-    print(collections.Counter(czlabels))
+    do_single_lang_all_features(itdirpath,"it", "regr")
+
+    #TODO
     """
-
-    print("Training and Testing with German - Classification")
-    #train_onelang_classification(delabels,deposdata)
-    defiles,dedense = getScoringFeatures(dedirpath, "de")
-    defiles,desparse = getLangData(dedirpath)
-    delabels = getcatlist(defiles)
-    combine_features(delabels,desparse,dedense)
-    print("***********")
-
-    """
-    print("Training and Testing with Italian - Classification")
-    train_onelang_classification(itlabels,itposdata)
-    print("Training and Testing with Czech - Classification")
-    train_onelang_classification(czlabels,czposdata)
-
-
+    crossLangClassificationWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
+    #crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles)
     print("Training with German, Testing on Italian  - Classification: ")
     cross_lang_testing_classification(delabels,deposdata, itlabels, itposdata)
-     #get basic stats
-    print("***********")
-
-    print("Training with German, Testing on Czech  - Classification: ")
     cross_lang_testing_classification(delabels,deposdata,czlabels, czposdata)
-     #get basic stats
-    #print(collections.Counter(getcatlist(fileslist))) #get basic stats
-    print("***********")
     """
-    """
-    print("Training and Testing with German - Regression")
-    train_onelang_regression(descores,deposdata)
-    print("***********")
-
-    print("Training with German, Testing on Italian  - Regression: ")
-    cross_lang_testing_regression(descores,deposdata,itscores,itposdata)
-    print("***********")
-
-    print("Training with German, Testing on Czech - Regression: ")
-    cross_lang_testing_regression(descores,deposdata,czscores,czposdata)
-    print("***********")
-    """
-#print(getLexFeatures("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1031_0003076_DE_C1.txt.parsed.txt", "de"))
-#exit(1)
 
 if __name__ == "__main__":
     main()
+
+#print(getLexFeatures("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1031_0003076_DE_C1.txt.parsed.txt", "de"))
+#exit(1)
