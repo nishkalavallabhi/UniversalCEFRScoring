@@ -1,0 +1,142 @@
+Ignorig this text:  /home/bangaru/CrossLingualScoring/Datasets/IT-Parsed/1365_0100217_IT_B1.txt.parsed.txt
+Modified feature vector for Italian
+Printing class statistics
+Counter({'B1': 394, 'A2': 381, 'A1': 29})
+With Word ngrams: 
+ ******
+Printing results for: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.50330628233180885, 7.4799570761641557e-53), 'rmlse': 0.855664418244377, 'spearman': SpearmanrResult(correlation=0.53122690532330852, pvalue=9.5492204732485361e-60), 'MAE': 0.54353059776011825}
+Printing results for: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_split=1e-07, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.69054985109702871, 5.9706508393923767e-115), 'rmlse': 0.84945405366106863, 'spearman': SpearmanrResult(correlation=0.69227972710181329, pvalue=9.4794567769656016e-116), 'MAE': 0.27487562189054726}
+Printing results for: GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+             learning_rate=0.1, loss='ls', max_depth=3, max_features=None,
+             max_leaf_nodes=None, min_impurity_split=1e-07,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=None, subsample=1.0, verbose=0,
+             warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.74846375975862567, 3.320939748921107e-145), 'rmlse': 0.8468390291343294, 'spearman': SpearmanrResult(correlation=0.7463661941853611, pvalue=5.749912334280659e-144), 'MAE': 0.25596733472073424}
+Printing results for: XGBRegressor(base_score=0.5, colsample_bylevel=1, colsample_bytree=1, gamma=0,
+       learning_rate=0.1, max_delta_step=0, max_depth=3,
+       min_child_weight=1, missing=None, n_estimators=100, nthread=-1,
+       objective='reg:linear', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.75204565963892545, 2.3868792883399134e-147), 'rmlse': 0.84642836821902279, 'spearman': SpearmanrResult(correlation=0.75078505829111419, pvalue=1.3688474868655156e-146), 'MAE': 0.25577673182558658}
+SAME LANG EVAL DONE
+With POS ngrams:  
+ ******
+Printing results for: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.48083183935550844, 9.4902490251607505e-48), 'rmlse': 0.84891643861789889, 'spearman': SpearmanrResult(correlation=0.4946706332476184, pvalue=7.5837760303359834e-51), 'MAE': 0.5435302925458213}
+Printing results for: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_split=1e-07, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.7530027824294836, 6.2928969277235366e-148), 'rmlse': 0.8461867484807063, 'spearman': SpearmanrResult(correlation=0.75474270178157321, pvalue=5.4890933788512832e-149), 'MAE': 0.25360696517412934}
+Printing results for: GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+             learning_rate=0.1, loss='ls', max_depth=3, max_features=None,
+             max_leaf_nodes=None, min_impurity_split=1e-07,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=None, subsample=1.0, verbose=0,
+             warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.75897890393106304, 1.3264229420474019e-151), 'rmlse': 0.84557290143853903, 'spearman': SpearmanrResult(correlation=0.75011006669509728, pvalue=3.4724611661227963e-146), 'MAE': 0.25772043305732356}
+Printing results for: XGBRegressor(base_score=0.5, colsample_bylevel=1, colsample_bytree=1, gamma=0,
+       learning_rate=0.1, max_delta_step=0, max_depth=3,
+       min_child_weight=1, missing=None, n_estimators=100, nthread=-1,
+       objective='reg:linear', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.76837438961985149, 1.3196198172293121e-157), 'rmlse': 0.84503192012646244, 'spearman': SpearmanrResult(correlation=0.75879168957712606, pvalue=1.7356937388143582e-151), 'MAE': 0.25000299891429162}
+SAME LANG EVAL DONE
+Dep ngrams:  
+ ******
+Printing results for: LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.50330628233180885, 7.4799570761641557e-53), 'rmlse': 0.855664418244377, 'spearman': SpearmanrResult(correlation=0.53122690532330852, pvalue=9.5492204732485361e-60), 'MAE': 0.54353059776011825}
+Printing results for: RandomForestRegressor(bootstrap=True, criterion='mse', max_depth=None,
+           max_features='auto', max_leaf_nodes=None,
+           min_impurity_split=1e-07, min_samples_leaf=1,
+           min_samples_split=2, min_weight_fraction_leaf=0.0,
+           n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+           verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.697654092682093, 2.8653814892451363e-118), 'rmlse': 0.84946842253080135, 'spearman': SpearmanrResult(correlation=0.70128656321487937, pvalue=5.2746059610868939e-120), 'MAE': 0.27425373134328362}
+Printing results for: GradientBoostingRegressor(alpha=0.9, criterion='friedman_mse', init=None,
+             learning_rate=0.1, loss='ls', max_depth=3, max_features=None,
+             max_leaf_nodes=None, min_impurity_split=1e-07,
+             min_samples_leaf=1, min_samples_split=2,
+             min_weight_fraction_leaf=0.0, n_estimators=100,
+             presort='auto', random_state=None, subsample=1.0, verbose=0,
+             warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.74788599360243468, 7.3046280550020316e-145), 'rmlse': 0.8467455338532478, 'spearman': SpearmanrResult(correlation=0.74467280634789268, pvalue=5.6306136703295044e-143), 'MAE': 0.25600277963130685}
+Printing results for: XGBRegressor(base_score=0.5, colsample_bylevel=1, colsample_bytree=1, gamma=0,
+       learning_rate=0.1, max_delta_step=0, max_depth=3,
+       min_child_weight=1, missing=None, n_estimators=100, nthread=-1,
+       objective='reg:linear', reg_alpha=0, reg_lambda=1,
+       scale_pos_weight=1, seed=0, silent=True, subsample=1)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=2000, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+{'pearson': (0.75204565963892545, 2.3868792883399134e-147), 'rmlse': 0.84642836821902279, 'spearman': SpearmanrResult(correlation=0.75078505829111419, pvalue=1.3688474868655156e-146), 'MAE': 0.25577673182558658}
+SAME LANG EVAL DONE
