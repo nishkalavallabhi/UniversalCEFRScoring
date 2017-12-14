@@ -405,6 +405,13 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
         print("Test data Results: ")
         print(regEval(predicted,test_scores))
 
+"""
+this function does cross language evaluation.
+takes a language data directory path, and lang code for both source and target languages. 
+gets all features (no domain features for cz), and prints the results with those.
+lang codes: de, it, cz (lower case)
+modelas: "class" for classification, "regr" for regression
+"""
 def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangdirpath, targetlang):
    #Read source language data
    sourcelangfiles,sourcelangposngrams = getLangData(sourcelangdirpath, "pos")
@@ -434,7 +441,8 @@ def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangd
       cross_lang_testing_classification(sourcelanglabels,sourcelangposngrams, targetlanglabels, targetlangposngrams)
       print("Features: dep")
       cross_lang_testing_classification(sourcelanglabels,sourcelangdepngrams, targetlanglabels, targetlangdepngrams)
-             
+      if "cz" not in [sourcelang, targetlang]:
+          crossLangClassificationWithoutVectorizer(sourcelangdomain,sourcelanglabels,targetlangdomain,targetlanglabels)
  
 """
 this function takes a language data directory path, and lang code, 
@@ -506,8 +514,8 @@ def main():
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
     #do_single_lang_all_features(czdirpath,"cz", "class")
-    #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
-    do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
+    do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
+    #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
 
     #TODO
     """
