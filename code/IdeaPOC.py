@@ -192,8 +192,8 @@ def getErrorFeatures(conllufilepath, lang):
                     numspellerr = numspellerr +1
     except:
         print("Ignoring this text: ", conllufilepath)
-        numerr = 'NA'
-        numspellerr = 'NA'
+        numerr = np.nan
+        numspellerr = np.nan
     return [numerr, numspellerr]
 
 
@@ -326,7 +326,7 @@ def train_onelang_regression(train_scores,train_data):
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10) #, max_features = 2000
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced")] #, LinearSVC()RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
+    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #, LinearSVC()RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
     #Check this discussion for handling the sparseness issue: https://stackoverflow.com/questions/28384680/scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -381,7 +381,7 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
 
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
-    classifiers = [LogisticRegression(C=0.1, max_iter=500), LinearSVC()]
+    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")]
     for classifier in classifiers:
         classifier.fit(train_vector,train_labels)
         predicted = classifier.predict(test_vector)
@@ -405,6 +405,37 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
         print("Test data Results: ")
         print(regEval(predicted,test_scores))
 
+def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangdirpath, targetlang):
+   #Read source language data
+   sourcelangfiles,sourcelangposngrams = getLangData(sourcelangdirpath, "pos")
+   sourcelangfiles,sourcelangdepngrams = getLangData(sourcelangdirpath, "dep")
+   #Read target language data
+   targetlangfiles,targetlangposngrams = getLangData(targetlangdirpath, "pos")
+   targetlangfiles,targetlangdepngrams = getLangData(targetlangdirpath, "dep")
+   #Get label info
+   sourcelanglabels = getcatlist(sourcelangfiles)
+   targetlanglabels = getcatlist(targetlangfiles)
+
+   if "cz" not in [sourcelang, targetlang]:
+      sourcelangfiles,sourcelangdomain = getScoringFeatures(sourcelangdirpath,sourcelang)
+      targetlangfiles,targetlangdomain = getScoringFeatures(targetlangdirpath,targetlang)
+      if targetlang == "it": #Those two files where langtool throws error
+         mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+         mean_imputer = mean_imputer.fit(targetlangdomain)
+         imputed_df = mean_imputer.transform(targetlangdomain)
+         targetlangdomain = imputed_df
+         print("Modified domain feature vector for Italian")
+      #TODO: it can be sourcelang too!
+   if modelas == "class":
+      print("Printing cross-corpus classification evaluation results: ")
+
+      print("*******", "\n", "Setting - Train with: ", sourcelang, " Test with: ", targetlang, " ******", "\n")
+      print("Features: pos")
+      cross_lang_testing_classification(sourcelanglabels,sourcelangposngrams, targetlanglabels, targetlangposngrams)
+      print("Features: dep")
+      cross_lang_testing_classification(sourcelanglabels,sourcelangdepngrams, targetlanglabels, targetlangdepngrams)
+             
+ 
 """
 this function takes a language data directory path, and lang code, 
 gets all features, and prints the results with those.
@@ -474,7 +505,9 @@ def main():
     itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
-    do_single_lang_all_features(czdirpath,"cz", "class")
+    #do_single_lang_all_features(czdirpath,"cz", "class")
+    #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
+    do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
 
     #TODO
     """
