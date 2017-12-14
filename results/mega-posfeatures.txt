@@ -1,0 +1,54 @@
+Doing: take all data as if it belongs to one large dataset, and do classification
+2267 2267
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.685288076463 0.666855339072
+[[ 26  59   1   0   0   0]
+ [ 24 733 115   3   0   0]
+ [  0 244 546 100   0   0]
+ [  0  10 129 235   0   0]
+ [  0   0   5  37   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.649031284703 0.643145502631
+[[ 22  59   4   1   0   0]
+ [ 44 642 175  13   1   0]
+ [  1 243 564  82   0   0]
+ [  0  18 105 240  11   0]
+ [  0   0   5  34   3   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.661939118146 0.6558392498
+[[ 21  59   5   1   0   0]
+ [ 36 654 173  11   1   0]
+ [  1 228 571  90   0   0]
+ [  0  15  94 250  15   0]
+ [  0   0   2  36   4   0]
+ [  0   0   0   0   0   0]]
+SAME LANG EVAL DONE FOR THIS LANG

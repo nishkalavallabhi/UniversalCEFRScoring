@@ -253,7 +253,7 @@ def regEval(predicted,actual):
     n = len(predicted)
     MAE = mean_absolute_error(actual,predicted)
     pearson = pearsonr(actual,predicted)
-    spearman = spearmanr(actual,predicted)
+    spearman = spearsssmanr(actual,predicted)
     rmsle = np.sqrt((1/n) * sum(np.square(np.log10(predicted +1) - (np.log10(actual) +1))))
     return {"MAE": MAE, "rmlse": rmsle, "pearson": pearson, "spearman":spearman}
 
@@ -406,6 +406,24 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
         print(regEval(predicted,test_scores))
 
 """
+Goal: combine all languages into one big model
+setting: pos, dep, domain
+"""
+def do_mega_multilingual_model_all_features(lang1path,lang1,lang2path,lang2,lang3path,lang3,modelas, setting):
+   print("Doing: take all data as if it belongs to one large dataset, and do classification")   
+   lang1files,lang1features = getLangData(lang1path,setting)
+   lang1labels = getcatlist(lang1files)
+   lang2files,lang2features = getLangData(lang2path,setting)
+   lang2labels = getcatlist(lang2files)
+   lang3files,lang3features = getLangData(lang3path,setting)
+   lang3labels = getcatlist(lang3files)
+   megalabels = []
+   megalabels = lang1labels + lang2labels + lang3labels
+   megadata = lang1features + lang2features + lang3features
+   print(len(megalabels), len(megadata))
+   train_onelang_classification(megalabels,megadata)
+
+"""
 this function does cross language evaluation.
 takes a language data directory path, and lang code for both source and target languages. 
 gets all features (no domain features for cz), and prints the results with those.
@@ -442,7 +460,10 @@ def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangd
       print("Features: dep")
       cross_lang_testing_classification(sourcelanglabels,sourcelangdepngrams, targetlanglabels, targetlangdepngrams)
       if "cz" not in [sourcelang, targetlang]:
+          print("Features: domain")
           crossLangClassificationWithoutVectorizer(sourcelangdomain,sourcelanglabels,targetlangdomain,targetlanglabels)
+   if modelas == "regr":
+          print("Did not add for regression yet")
  
 """
 this function takes a language data directory path, and lang code, 
@@ -514,8 +535,9 @@ def main():
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
     #do_single_lang_all_features(czdirpath,"cz", "class")
-    do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
+    #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
     #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
+    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "dep")
 
     #TODO
     """
