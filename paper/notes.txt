@@ -1,0 +1,33 @@
+
+My thoughts: crosslingual text classification - generally seems to be more about getting the content (topics etc) right (e.g., work on cross lingual sentiment, topic, plagiarism detection etc). So, machine translation kind of makes sense. For our specific task (scoring), perhaps the exact content is irrelevant compared to underlying properties of language. So, it is easier to work with cross-lingual classification.
+
+* Cross-lingual dataless classification for many languages
+https://www.ijcai.org/Proceedings/16/Papers/412.pdf
+IJCAI 2016
+
+"However, supervised learning, which is difficult to scale even in English, is unrealistic when applied to many other lan- guages, where annotated corpora do not exist.  Therefore, besides traditional semi-supervised learning [ Chapelle et al. , 2006 ] and transfer learning [ Pan and Yang, 2010 ] , cross- lingual document classification was recently proposed as a way to use training data in one language to classify the documents in another language [ Amini and Goutte, 2010; Klementiev et al. , 2012 ] ."
+
+"existing cross-lingual document classification approaches either need a parallel corpus to train word embedding for different languages [ Hermann and Blun- som, 2014 ] , require labeled documents in both source and target languages [ Xiao and Guo, 2013 ] , make use of ma- chine translation techniques to translate words [ Prettenhofer and Stein, 2010 ] or documents [ Amini and Goutte, 2010 ] , or combine different approaches [ Shi et al. , 2010 ]"
+
+cited papers in this:
+
+[Amini and Goutte, 2010] Massih-Reza Amini and Cyril Goutte. A co-classification approach to learning from multilingual corpora.
+Machine Learning, 79(1-2):105–121, 2010.
+
+[ Hermann and Blunsom, 2014 ] Karl Moritz Hermann and Phil Blunsom. Multilingual models for compositional dis- tributed semantics. In ACL , pages 58–68, 2014
+
+[ Klementiev et al. , 2012 ] Alexandre Klementiev, Ivan Titov, and Binod Bhattarai.  Inducing crosslingual distributed representations of words. In COLING , pages 1459–1474, 2012.
+
+[ Prettenhofer and Stein, 2010 ] Peter Prettenhofer and Benno Stein. Cross-language text classification using structural correspondence learning. In ACL , pages 1118–1127, 2010. 
+
+[ Shi et al. , 2010 ] Lei Shi, Rada Mihalcea, and Mingjun Tian. Cross language text classification by model translation and semi-supervised learning. In EMNLP , pages 1057–1067, 2010.
+
+* Another example of this kind:
+Structural Correspondence Learning for Cross-Lingual Sentiment Classification with One-to-Many Mappings
+AAAI 2017
+http://www.aaai.org/ocs/index.php/AAAI/AAAI17/paper/download/14265/14139
+
+*  A character-based convolutional neural network for language-agnostic Twitter sentiment analysis 
+http://ieeexplore.ieee.org/abstract/document/7966145/?reload=true
+
+* checK. https://www.google.com/patents/US9588958
