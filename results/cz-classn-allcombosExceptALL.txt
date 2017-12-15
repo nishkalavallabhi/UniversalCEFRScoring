@@ -15,11 +15,11 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.66168864727 0.662002037814
+0.650274338065 0.661527374481
 [[  0   0   0   0   0   0]
- [  0 172  14   2   0   0]
- [  0  59  88  18   0   0]
- [  0   5  42  34   0   0]
+ [  0 157  31   0   0   0]
+ [  0  48  97  20   0   0]
+ [  0   4  41  36   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
@@ -69,11 +69,11 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.649805530387 0.619134774433
+0.642073727306 0.607521137825
 [[  0   0   0   0   0   0]
- [  0 159  27   2   0   0]
- [  0  54  88  23   0   0]
- [  0   2  52  27   0   0]
+ [  0 154  34   0   0   0]
+ [  0  52  90  23   0   0]
+ [  0   7  49  25   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
@@ -123,11 +123,11 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.642663008826 0.645570931209
+0.656984126984 0.603739293234
 [[  0   0   0   0   0   0]
- [  0 161  27   0   0   0]
- [  0  47  96  22   0   0]
- [  0   2  51  28   0   0]
+ [  0 153  34   1   0   0]
+ [  0  54  92  19   0   0]
+ [  0   6  52  23   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
@@ -163,3 +163,50 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 SAME LANG EVAL DONE FOR THIS LANG
+Domain features:  
+ ******
+RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
+[ 0.71111111  0.68181818  0.70454545  0.59090909  0.72727273  0.60465116
+  0.74418605  0.69767442  0.66666667  0.61904762]
+0.674788247928
+[[162  25   1]
+ [ 52  91  22]
+ [  3  39  39]]
+0.638068181818
+LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
+     verbose=0)
+[ 0.64444444  0.54545455  0.5         0.52272727  0.65909091  0.51162791
+  0.58139535  0.55813953  0.61904762  0.52380952]
+0.566573710527
+[[170  10   8]
+ [ 87  33  45]
+ [ 24  21  36]]
+0.478895237949
+LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)
+[ 0.57777778  0.56818182  0.65909091  0.61363636  0.72727273  0.51162791
+  0.74418605  0.6744186   0.66666667  0.64285714]
+0.638571596362
+[[167  19   2]
+ [ 53  67  45]
+ [  2  36  43]]
+0.594819025884
+Combined feature rep: wordngrams + domain
+Acc:  0.684372462163
+F1:  0.64327802034
+Combined feature rep: posngrams + domain
+Acc:  0.675110741971
+F1:  0.674675187962
+Combined feature rep: depngrams + domain
+Acc:  0.643027953958
+F1:  0.667482476862

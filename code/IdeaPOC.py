@@ -114,7 +114,7 @@ ADJ variation
 ADV variation
 Modifier variation
 """
-def getLexFeatures(conllufilepath,lang):
+def getLexFeatures(conllufilepath,lang, err):
     fh =  open(conllufilepath)
     ndw = [] #To get number of distinct words
     ndn = [] #To get number of distinct nouns - includes propn
@@ -161,7 +161,7 @@ def getLexFeatures(conllufilepath,lang):
         elif line == "\n":
             numSent = numSent +1
         total = total +1
-    if not lang == "cz":
+    if err:
         error_features = getErrorFeatures(conllufilepath,lang)
     else:
         error_features = ['NA', 'NA']
@@ -172,7 +172,10 @@ def getLexFeatures(conllufilepath,lang):
     #Scriptlen, Mean Sent Len, TTR, LexD, LexVar, VVar, NVar, AdjVar, AdvVar, ModVar, Total_Errors, Total Spelling errors
     result = [total, round(total/numSent,2), round(len(ndw)/total,2), round(nlex/total,2), round(dlex/nlex,2), round(len(ndv)/nlex,2), round(len(ndn)/nlex,2),
               round(len(ndadj)/nlex,2), round(len(ndadv)/nlex,2), round((len(ndadj) + len(ndadv))/nlex,2),error_features[0], error_features[1]]
-    return result
+    if not err: #remove last two features - they are error features which are NA for cz
+       return result[:-2]
+    else:
+       return result
 
 """
 Num. Errors. NumSpellErrors
@@ -199,14 +202,15 @@ def getErrorFeatures(conllufilepath, lang):
 
 """
 get features that are typically used in scoring models using getErrorFeatures and getLexFeatures functions.
+err - indicates whether or not error features should be extracted. Boolean. True/False
 """
-def getScoringFeatures(dirpath,lang):
+def getScoringFeatures(dirpath,lang,err):
     files = os.listdir(dirpath)
     fileslist = []
     featureslist = []
     for filename in files:
         if filename.endswith(".txt"):
-            features_for_this_file = getLexFeatures(os.path.join(dirpath,filename),lang)
+            features_for_this_file = getLexFeatures(os.path.join(dirpath,filename),lang,err)
             fileslist.append(filename)
             featureslist.append(features_for_this_file)
     return fileslist, featureslist
@@ -411,17 +415,33 @@ setting: pos, dep, domain
 """
 def do_mega_multilingual_model_all_features(lang1path,lang1,lang2path,lang2,lang3path,lang3,modelas, setting):
    print("Doing: take all data as if it belongs to one large dataset, and do classification")   
-   lang1files,lang1features = getLangData(lang1path,setting)
-   lang1labels = getcatlist(lang1files)
-   lang2files,lang2features = getLangData(lang2path,setting)
-   lang2labels = getcatlist(lang2files)
-   lang3files,lang3features = getLangData(lang3path,setting)
-   lang3labels = getcatlist(lang3files)
+   if not setting == "domain":
+      lang1files,lang1features = getLangData(lang1path,setting)
+      lang1labels = getcatlist(lang1files)
+      lang2files,lang2features = getLangData(lang2path,setting)
+      lang2labels = getcatlist(lang2files)
+      lang3files,lang3features = getLangData(lang3path,setting)
+      lang3labels = getcatlist(lang3files)
+
+   else: #i.e., domain features only.
+      lang1files,lang1features = getScoringFeatures(lang1path,lang1,False)
+      lang1labels = getcatlist(lang1files)
+      lang2files,lang2features = getScoringFeatures(lang2path,lang2,False)
+      lang2labels = getcatlist(lang2files)
+      lang3files,lang3features = getScoringFeatures(lang3path,lang3,False)
+      lang3labels = getcatlist(lang3files)
+
+
    megalabels = []
    megalabels = lang1labels + lang2labels + lang3labels
    megadata = lang1features + lang2features + lang3features
-   print(len(megalabels), len(megadata))
-   train_onelang_classification(megalabels,megadata)
+   print("Mega classification for: ", setting, " features")	
+   print("Distribution of labels: ")
+   print(collections.Counter(megalabels))
+   if setting == "domain":
+      singleLangClassificationWithoutVectorizer(megadata,megalabels)
+   else:
+      train_onelang_classification(megalabels,megadata)
 
 """
 this function does cross language evaluation.
@@ -442,15 +462,18 @@ def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangd
    targetlanglabels = getcatlist(targetlangfiles)
 
    if "cz" not in [sourcelang, targetlang]:
-      sourcelangfiles,sourcelangdomain = getScoringFeatures(sourcelangdirpath,sourcelang)
-      targetlangfiles,targetlangdomain = getScoringFeatures(targetlangdirpath,targetlang)
+      sourcelangfiles,sourcelangdomain = getScoringFeatures(sourcelangdirpath,sourcelang,True)
+      targetlangfiles,targetlangdomain = getScoringFeatures(targetlangdirpath,targetlang,True)
+   else: 
+      sourcelangfiles,sourcelangdomain = getScoringFeatures(sourcelangdirpath,sourcelang,False)
+      targetlangfiles,targetlangdomain = getScoringFeatures(targetlangdirpath,targetlang,False)
       if targetlang == "it": #Those two files where langtool throws error
          mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
          mean_imputer = mean_imputer.fit(targetlangdomain)
          imputed_df = mean_imputer.transform(targetlangdomain)
          targetlangdomain = imputed_df
          print("Modified domain feature vector for Italian")
-      #TODO: it can be sourcelang too!
+      #TODO: it can be sourcelang too! I am ignoring that for now.
    if modelas == "class":
       print("Printing cross-corpus classification evaluation results: ")
 
@@ -459,9 +482,8 @@ def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangd
       cross_lang_testing_classification(sourcelanglabels,sourcelangposngrams, targetlanglabels, targetlangposngrams)
       print("Features: dep")
       cross_lang_testing_classification(sourcelanglabels,sourcelangdepngrams, targetlanglabels, targetlangdepngrams)
-      if "cz" not in [sourcelang, targetlang]:
-          print("Features: domain")
-          crossLangClassificationWithoutVectorizer(sourcelangdomain,sourcelanglabels,targetlangdomain,targetlanglabels)
+      print("Features: domain")
+      crossLangClassificationWithoutVectorizer(sourcelangdomain,sourcelanglabels,targetlangdomain,targetlanglabels)
    if modelas == "regr":
           print("Did not add for regression yet")
  
@@ -476,7 +498,9 @@ def do_single_lang_all_features(langdirpath,lang,modelas):
     langfiles,langposngrams = getLangData(langdirpath, "pos")
     langfiles,langdepngrams = getLangData(langdirpath, "dep")
     if not lang == "cz":
-        langfiles,langdomain = getScoringFeatures(langdirpath,lang) 
+       langfiles,langdomain = getScoringFeatures(langdirpath,lang,True)
+    else:
+       langfiles,langdomain = getScoringFeatures(langdirpath,lang,False)
     
     print("Extracted all features: ")
     langlabels = getcatlist(langfiles)
@@ -499,21 +523,20 @@ def do_single_lang_all_features(langdirpath,lang,modelas):
        train_onelang_classification(langlabels,langposngrams)
        print("Dep ngrams: ", "\n", "******") 
        train_onelang_classification(langlabels,langdepngrams)
-       if not lang == "cz":
-          print("Domain features: ", "\n", "******")
-          singleLangClassificationWithoutVectorizer(langdomain,langlabels)
-
-          print("Combined feature rep: wordngrams + domain")
-          combine_features(langlabels,langwordngrams,langdomain)
-          print("Combined feature rep: posngrams + domain")
-          combine_features(langlabels,langposngrams,langdomain)
-          print("Combined feature rep: depngrams + domain")
-          combine_features(langlabels,langdepngrams,langdomain)
+       print("Domain features: ", "\n", "******")
+       singleLangClassificationWithoutVectorizer(langdomain,langlabels)
+          
+       print("Combined feature rep: wordngrams + domain")
+       combine_features(langlabels,langwordngrams,langdomain)
+       print("Combined feature rep: posngrams + domain")
+       combine_features(langlabels,langposngrams,langdomain)
+       print("Combined feature rep: depngrams + domain")
+       combine_features(langlabels,langdepngrams,langdomain)
        #TODO
        #print("ALL COMBINED")
 
        """
-       defiles,dedense = getScoringFeatures(dedirpath, "de")
+       defiles,dedense = getScoringFeatures(dedirpath, "de", True)
        defiles,desparse = getLangData(dedirpath)
        delabels = getcatlist(defiles)
        combine_features(delabels,desparse,dedense)
@@ -537,7 +560,7 @@ def main():
     #do_single_lang_all_features(czdirpath,"cz", "class")
     #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
     #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
-    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "dep")
+    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "domain")
 
     #TODO
     """
