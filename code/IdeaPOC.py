@@ -244,6 +244,18 @@ def getcatlist(filenameslist):
         result.append(name.split(".txt")[0].split("_")[-1])
     return result
 
+#Get langs list from filenames - to use in megadataset classification
+def getlangslist(filenameslist):
+    result = []
+    for name in filenameslist:
+        if "_DE_" in name:
+           result.append("de")
+        elif "_IT_" in name:
+           result.append("it")
+        else:
+           result.append("cz")
+    return result
+
 #Get numbers from filenames - Regression
 def getnumlist(filenameslist):
     result = []
@@ -263,7 +275,7 @@ def regEval(predicted,actual):
     return {"MAE": MAE, "rmlse": rmsle, "pearson": pearson, "spearman":spearman}
 
 #Training on one language data, Stratified 10 fold CV
-def train_onelang_classification(train_labels,train_data):
+def train_onelang_classification(train_labels,train_data,labelascat=False, langslist=None):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
     classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more.GradientBoostingClassifier(),
@@ -272,6 +284,10 @@ def train_onelang_classification(train_labels,train_data):
         for classifier in classifiers:
             print("Printing results for: " + str(classifier) + str(vectorizer))
             train_vector = vectorizer.fit_transform(train_data).toarray()
+            print(len(train_vector[0]))
+            if labelascat and len(langslist) > 1:
+               train_vector = enhance_features_withcat(train_vector,language=None,langslist=langslist)
+            print(len(train_vector[0]))
             #print(vectorizer.get_feature_names()) #To see what features were selected.
             cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
             predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
@@ -419,11 +435,27 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
         print("Test data Results: ")
         print(regEval(predicted,test_scores))
 
+#add label features as one hot vector. de - 1 0 0, it - 0 1 0, cz - 0 0 1 as sklearn has issues with combination of cat and num features.
+def enhance_features_withcat(features,language=None,langslist=None):
+   addition = {'de':[1,0,0], 'it': [0,1,0], 'cz': [0,0,1]}
+   if language:
+        for i in range(0,len(features)):
+           features[i].extend(addition[language])
+        return features
+   if langslist:
+        features = np.ndarray.tolist(features)
+        for i in range(0,len(features)):
+           features[i].extend(addition[langslist[i]])
+        return features
+
+
+
 """
 Goal: combine all languages data into one big model
 setting options: pos, dep, domain
+labelascat = true, false (to indicate whether to add label as a categorical feature)
 """
-def do_mega_multilingual_model_all_features(lang1path,lang1,lang2path,lang2,lang3path,lang3,modelas, setting):
+def do_mega_multilingual_model_all_features(lang1path,lang1,lang2path,lang2,lang3path,lang3,modelas, setting,labelascat):
    print("Doing: take all data as if it belongs to one large dataset, and do classification")   
    if not setting == "domain":
       lang1files,lang1features = getLangData(lang1path,setting)
@@ -441,17 +473,23 @@ def do_mega_multilingual_model_all_features(lang1path,lang1,lang2path,lang2,lang
       lang3files,lang3features = getScoringFeatures(lang3path,lang3,False)
       lang3labels = getcatlist(lang3files)
 
-
    megalabels = []
    megalabels = lang1labels + lang2labels + lang3labels
-   megadata = lang1features + lang2features + lang3features
+   megalangs = getlangslist(lang1files) + getlangslist(lang2files) + getlangslist(lang3files)
+   if labelascat and setting == "domain": 
+      megadata = enhance_features_withcat(lang1features,"de") + enhance_features_withcat(lang2features,"it") + enhance_features_withcat(lang3features,"cz")
+   else:
+      megadata = lang1features + lang2features + lang3features
    print("Mega classification for: ", setting, " features")	
+   
+   print(len(megalabels), len(megadata), len(megalangs), len(megadata[0]))
+  
    print("Distribution of labels: ")
    print(collections.Counter(megalabels))
    if setting == "domain":
       singleLangClassificationWithoutVectorizer(megadata,megalabels)
    else:
-      train_onelang_classification(megalabels,megadata)
+      train_onelang_classification(megalabels,megadata,labelascat,megalangs)
 
 """
 this function does cross language evaluation.
@@ -570,10 +608,15 @@ def main():
     #do_single_lang_all_features(czdirpath,"cz", "class")
     #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
     #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
-    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "domain")
+    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "pos", True)
 
 if __name__ == "__main__":
     main()
+
+"""
+TODO: Refactoring, reducing redundancy
+
+"""
 
 #print(getLexFeatures("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1031_0003076_DE_C1.txt.parsed.txt", "de"))
 #exit(1)
