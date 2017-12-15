@@ -253,6 +253,7 @@ def getnumlist(filenameslist):
         result.append(mapping[name.split(".txt")[0].split("_")[-1]])
     return result
 
+#Regression evaluation.
 def regEval(predicted,actual):
     n = len(predicted)
     MAE = mean_absolute_error(actual,predicted)
@@ -310,9 +311,11 @@ def combine_features(train_labels,train_sparse,train_dense):
     print("Acc: " ,str(sum(cross_val)/float(len(cross_val))))
     print("F1: ", str(f1_score(train_labels,new_predicted,average='weighted')))
     
-
+"""
+Single language, regression with 10 fold CV
+"""
 def train_onelang_regression(train_scores,train_data):
-    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10, max_features = 2000)
+    uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10) #can specify max_features but dataset seems small enough
     vectorizers = [uni_to_tri_vectorizer]
     regressors = [LinearRegression(), RandomForestRegressor(), GradientBoostingRegressor(), XGBRegressor()]
     k_fold = StratifiedKFold(10)
@@ -327,6 +330,9 @@ def train_onelang_regression(train_scores,train_data):
             print(regEval(predicted,train_scores))
     print("SAME LANG EVAL DONE")
 
+"""
+train on one language and test on another, classification
+"""
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10) #, max_features = 2000
     vectorizers = [uni_to_tri_vectorizer]
@@ -350,6 +356,7 @@ Strangely, I did not encounter this issue with POS trigrams. Only encountering w
 Seems to be a known issue: https://github.com/dmlc/xgboost/issues/2334
 """
 
+#train on one language and test on another, classification
 def cross_lang_testing_regression(train_scores, train_data, test_scores, test_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "char", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,10), min_df=10, max_features = 10000)
     vectorizers = [uni_to_tri_vectorizer]
@@ -368,6 +375,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
             print("Pearson: ", pearsonr(test_scores,predicted))
             print("Spearman: ", spearmanr(test_scores,predicted))
 
+#Single language, 10 fold cv for domain features - i.e., non n-gram features.
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
     k_fold = StratifiedKFold(10)
     classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more later
@@ -383,6 +391,7 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
         print(confusion_matrix(train_labels, predicted))
         print(f1_score(train_labels,predicted,average='macro'))
 
+#cross lingual classification evaluation for non ngram features
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
     classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")]
@@ -393,6 +402,7 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
         print(confusion_matrix(test_labels,predicted))
         print(f1_score(test_labels,predicted,average='weighted'))
 
+#cross lingual regression evaluation for non ngram features
 def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector, test_scores):
     print("CROSS LANG EVAL")
     regressors = [RandomForestRegressor()]
@@ -410,8 +420,8 @@ def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector
         print(regEval(predicted,test_scores))
 
 """
-Goal: combine all languages into one big model
-setting: pos, dep, domain
+Goal: combine all languages data into one big model
+setting options: pos, dep, domain
 """
 def do_mega_multilingual_model_all_features(lang1path,lang1,lang2path,lang2,lang3path,lang3,modelas, setting):
    print("Doing: take all data as if it belongs to one large dataset, and do classification")   
@@ -561,15 +571,6 @@ def main():
     #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
     #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
     do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "domain")
-
-    #TODO
-    """
-    crossLangClassificationWithoutVectorizer(deposdata,delabels,imputed_df,itlabels)
-    #crossLangRegressionWithoutVectorizer(deposdata,getnumlist(defiles),imputed_df,getnumlist(itfiles)
-    print("Training with German, Testing on Italian  - Classification: ")
-    cross_lang_testing_classification(delabels,deposdata, itlabels, itposdata)
-    cross_lang_testing_classification(delabels,deposdata,czlabels, czposdata)
-    """
 
 if __name__ == "__main__":
     main()
