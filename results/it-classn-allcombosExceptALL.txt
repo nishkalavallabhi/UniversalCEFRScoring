@@ -1,7 +1,6 @@
-Ignorig this text:  /home/bangaru/CrossLingualScoring/Datasets/IT-Parsed/1365_0100217_IT_B1.txt.parsed.txt
-Modified feature vector for Italian
+Extracted all features: 
 Printing class statistics
-Counter({'B1': 394, 'A2': 381, 'A1': 29})
+Counter({'B1': 393, 'A2': 381, 'A1': 29})
 With Word ngrams: 
  ******
 Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
@@ -16,10 +15,12 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.803479607141 0.796522684255
-[[  5  24   0   0   0   0]
- [  6 325  50   0   0   0]
- [  0  79 315   0   0   0]
+2701
+2701
+0.809589574781 0.793694293696
+[[  2  26   1   0   0   0]
+ [  1 323  57   0   0   0]
+ [  0  72 321   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -32,10 +33,12 @@ Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_i
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.804711873807 0.802134787566
-[[  9  19   1   0   0   0]
- [ 11 304  66   0   0   0]
- [  0  60 334   0   0   0]
+2701
+2701
+0.800745824424 0.797635179722
+[[  8  20   1   0   0   0]
+ [ 11 302  68   0   0   0]
+ [  0  60 333   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -48,10 +51,12 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.818369657607 0.814623080251
+2701
+2701
+0.818138176125 0.814454170877
 [[  8  21   0   0   0   0]
- [  9 308  64   0   0   0]
- [  0  52 342   0   0   0]
+ [  9 309  63   0   0   0]
+ [  0  53 340   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -70,10 +75,12 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.802273587908 0.796237315427
-[[  5  24   0   0   0   0]
- [  5 328  48   0   0   0]
- [  0  82 312   0   0   0]
+4796
+4796
+0.814618919115 0.787097026285
+[[  4  25   0   0   0   0]
+ [  7 320  54   0   0   0]
+ [  0  80 313   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -86,10 +93,12 @@ Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_i
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.769927213284 0.76181557162
+4796
+4796
+0.766038324395 0.760261714897
 [[  6  22   1   0   0   0]
- [  2 304  75   0   0   0]
- [  0  87 307   0   0   0]
+ [  2 302  77   0   0   0]
+ [  0  86 307   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -102,10 +111,12 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.761239694464 0.755705259153
+4796
+4796
+0.760992780884 0.755401366506
 [[  6  22   1   0   0   0]
  [  3 295  83   0   0   0]
- [  0  83 311   0   0   0]
+ [  0  83 310   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -124,10 +135,12 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.76875320172 0.792357970299
-[[  7  21   1   0   0   0]
- [  3 323  55   0   0   0]
- [  0  83 311   0   0   0]
+5044
+5044
+0.820747344288 0.778655060186
+[[  2  27   0   0   0   0]
+ [  3 324  54   0   0   0]
+ [  0  86 307   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -140,10 +153,12 @@ Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_i
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.756191082639 0.748875415732
+5044
+5044
+0.754694169058 0.748561667693
 [[  4  23   2   0   0   0]
  [  7 294  80   0   0   0]
- [  0  85 309   0   0   0]
+ [  0  85 308   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -156,10 +171,12 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.766176417619 0.761656242243
+5044
+5044
+0.765944936137 0.761400181534
 [[  6  21   2   0   0   0]
- [  8 295  78   0   0   0]
- [  0  79 315   0   0   0]
+ [  8 296  77   0   0   0]
+ [  0  80 313   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
@@ -173,41 +190,42 @@ RandomForestClassifier(bootstrap=True, class_weight='balanced',
             min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
             oob_score=False, random_state=None, verbose=0,
             warm_start=False)
-[ 0.86585366  0.79012346  0.81481481  0.7654321   0.725       0.875       0.8
-  0.8         0.8         0.87341772]
-0.810964175043
-[[  1  27   1]
- [  2 327  52]
- [  0  72 322]]
-0.570120052435
+[ 0.84146341  0.77777778  0.77777778  0.8375      0.7375      0.85        0.8
+  0.8125      0.85        0.79746835]
+0.808198732462
+[[  1  28   0]
+ [  3 328  50]
+ [  0  74 319]]
+0.568918110099
 LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)
-[ 0.75609756  0.33333333  0.77777778  0.50617284  0.475       0.875       0.475
-  0.775       0.675       0.84810127]
-0.649648277742
-[[  9  20   0]
- [112 237  32]
- [ 75  91 228]]
-0.47581782258
+[ 0.57317073  0.71604938  0.7654321   0.8125      0.8         0.4875
+  0.8375      0.5125      0.775       0.29113924]
+0.65707914537
+[[  1  28   0]
+ [  1 325  55]
+ [  0  75 318]]
+0.56608813278
 LogisticRegression(C=1.0, class_weight='balanced', dual=False,
           fit_intercept=True, intercept_scaling=1, max_iter=100,
           multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
           solver='liblinear', tol=0.0001, verbose=0, warm_start=False)
-[ 0.85365854  0.83950617  0.77777778  0.83950617  0.7625      0.8375
-  0.8375      0.825       0.8         0.88607595]
-0.825902460941
+[ 0.85365854  0.82716049  0.79012346  0.8375      0.7625      0.8375
+  0.8375      0.825       0.7875      0.88607595]
+0.824451843657
 [[  6  23   0]
- [  9 330  42]
- [  0  66 328]]
-0.652122005394
+ [ 10 329  42]
+ [  0  66 327]]
+0.649487931656
 Combined feature rep: wordngrams + domain
-Acc:  0.797414430227
-F1:  0.824843119854
+Acc:  0.815870076879
+F1:  0.800260965515
 Combined feature rep: posngrams + domain
-Acc:  0.809819927085
-F1:  0.799694901375
+Acc:  0.813168258951
+F1:  0.814103612349
 Combined feature rep: depngrams + domain
-Acc:  0.795991594533
-F1:  0.795975813137
+Acc:  0.794432909677
+F1:  0.802234333156
+

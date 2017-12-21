@@ -1,6 +1,6 @@
 Printing cross-corpus classification evaluation results: 
 ******* 
- Setting - Train with:  de  Test with:  it  ****** 
+ Setting - Train with:  de  Test with:  cz  ****** 
 
 Features: pos
 Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
@@ -15,15 +15,15 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.641344956413
-[[  4  25   0   0   0   0]
- [ 13 322  42   4   0   0]
- [  3 146 189  55   0   0]
- [  0   0   0   0   0   0]
+0.562211981567
+[[  0   0   0   0   0   0]
+ [  0 121  64   3   0   0]
+ [  0  58  84  23   0   0]
+ [  0   8  34  39   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 CROSS LANG EVAL DONE. F1score: 
-0.651978634714
+0.56332111865
 Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
@@ -33,15 +33,15 @@ Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_i
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.266500622665
-[[  5  19   2   3   0   0]
- [ 20 185  54 113   9   0]
- [  7  85  24 276   1   0]
- [  0   0   0   0   0   0]
+0.451612903226
+[[  0   0   0   0   0   0]
+ [  0 149   6  29   4   0]
+ [  0 106   4  40  15   0]
+ [  0  29   1  43   8   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 CROSS LANG EVAL DONE. F1score: 
-0.317607335244
+0.373935897472
 Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
           fit_intercept=True, intercept_scaling=1, max_iter=100,
           multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
@@ -51,15 +51,15 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.291407222914
-[[  4  19   2   4   0   0]
- [ 19 204  53 100   5   0]
- [  7  97  26 262   1   0]
- [  0   0   0   0   0   0]
+0.476958525346
+[[  0   0   0   0   0   0]
+ [  0 150   4  33   1   0]
+ [  0  90   5  50  20   0]
+ [  0  20   1  52   8   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 CROSS LANG EVAL DONE. F1score: 
-0.334742105364
+0.401662277814
 Features: dep
 Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
             criterion='gini', max_depth=None, max_features='auto',
@@ -73,15 +73,15 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.549190535492
-[[  7  22   0   0   0   0]
- [ 17 285  66  13   0   0]
- [  8 122 149 113   1   0]
- [  0   0   0   0   0   0]
+0.523041474654
+[[  0   0   0   0   0   0]
+ [  2 141  41   4   0   0]
+ [  1  74  51  39   0   0]
+ [  1  28  17  35   0   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 CROSS LANG EVAL DONE. F1score: 
-0.582053000426
+0.507121418386
 Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
@@ -91,15 +91,15 @@ Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_i
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.394769613948
-[[  4  20   3   1   1   0]
- [ 20 184  82  79  16   0]
- [  5  84 129 163  12   0]
- [  0   0   0   0   0   0]
+0.338709677419
+[[  0   0   0   0   0   0]
+ [  3 106  40   2  37   0]
+ [  0  58  36   6  65   0]
+ [  0  10   4   5  62   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 CROSS LANG EVAL DONE. F1score: 
-0.473997087793
+0.385267891034
 Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
           fit_intercept=True, intercept_scaling=1, max_iter=100,
           multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,
@@ -109,33 +109,31 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.341220423412
-[[  2  22   2   2   1   0]
- [ 17 189  61 100  14   0]
- [  6  73  83 223   8   0]
- [  0   0   0   0   0   0]
+0.3133640553
+[[  0   0   0   0   0   0]
+ [  3 101  38   2  44   0]
+ [  0  46  28  11  80   0]
+ [  0   3   1   7  70   0]
  [  0   0   0   0   0   0]
  [  0   0   0   0   0   0]]
 CROSS LANG EVAL DONE. F1score: 
-0.423103137814
+0.376521517431
 Features: domain
 CROSS LANG EVAL
-0.561643835616
-[[  4  24   1   0]
- [  7 224 139  11]
- [  0  33 223 137]
+0.511520737327
+[[87 88 12  1]
+ [ 6 65 93  1]
+ [ 0  9 70  2]
+ [ 0  0  0  0]]
+0.521442434708
+0.437788018433
+[[188   0   0]
+ [164   0   1]
+ [ 79   0   2]]
+0.272014366224
+0.458525345622
+[[ 77  91  20   0]
+ [  3  51 110   1]
+ [  0   7  71   3]
  [  0   0   0   0]]
-0.617043666694
-0.459526774595
-[[  2  27   0   0]
- [  3 367   0  11]
- [  0 244   0 149]
- [  0   0   0   0]]
-0.346016701642
-0.584059775841
-[[  7  22   0   0   0]
- [  7 317  47   4   6]
- [  0  80 145 143  25]
- [  0   0   0   0   0]
- [  0   0   0   0   0]]
-0.630392121153
+0.466395877658
