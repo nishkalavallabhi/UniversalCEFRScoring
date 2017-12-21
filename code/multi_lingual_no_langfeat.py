@@ -14,7 +14,7 @@ import sys, time, re, glob
 from collections import defaultdict
 from gensim.utils import simple_preprocess
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, confusion_matrix
 from keras.layers import SpatialDropout1D
 
 seed = 1234
@@ -220,6 +220,7 @@ for train, test in k_fold.split(x_word_train, y_labels):
     y_gold = np.array(y_labels)[test]
     print(y_classes.shape, y_gold.shape)
     cv_f1.append(f1_score(y_gold, y_classes, average="weighted"))
+    print(confusion_matrix(gold_labels, pred_labels, labels=unique_labels))
     #print("All done!\n{}".format(hist.history), file=sys.stderr)
     n_iter += 1
 

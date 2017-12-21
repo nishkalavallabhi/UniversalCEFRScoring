@@ -12,7 +12,7 @@ import sys, time, re, glob
 from collections import defaultdict
 from gensim.utils import simple_preprocess
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, confusion_matrix
 
 _white_spaces = re.compile(r"\s\s+")
 
@@ -28,6 +28,11 @@ data_path = sys.argv[1]
 minwordfreq = 15
 maxwordlen = 400
 seed = 1234
+
+import keras.backend as K
+
+def mean_pred(y_true, y_pred):
+    return K.mean(y_pred)
 
 def read_data():
     labels = []
@@ -135,6 +140,7 @@ unique_labels = list(set(y_labels))
 print("Class labels = ",unique_labels)
 n_classes = len(unique_labels)
 indim = x_word_train.shape[1]
+
 y_labels = [unique_labels.index(y) for y in y_labels]
 
 y_train = np_utils.to_categorical(np.array(y_labels), len(unique_labels))
@@ -168,7 +174,12 @@ for train, test in k_fold.split(x_word_train, y_labels):
 
     y_pred = model.predict_classes(x_word_train[test])
     #print(y_pred, np.array(y_labels)[test], sep="\n")
+
+    pred_labels = [unique_labels[x] for x in y_pred]
+    gold_labels = [unique_labels[x] for x in np.array(y_labels)[test]]
+
     cv_f1.append(f1_score(np.array(y_labels)[test], y_pred, average="weighted"))
+    print(confusion_matrix(gold_labels, pred_labels, labels=unique_labels))
 
 print("\nF1-scores", cv_f1,sep="\n")
 print("Average F1 scores", np.mean(cv_f1))
