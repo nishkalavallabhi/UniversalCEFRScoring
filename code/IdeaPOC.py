@@ -279,7 +279,7 @@ def train_onelang_classification(train_labels,train_data,labelascat=False, langs
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
     classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more.GradientBoostingClassifier(),
-    k_fold = StratifiedKFold(10)
+    k_fold = StratifiedKFold(10,random_state=seed)
     for vectorizer in vectorizers:
         for classifier in classifiers:
             print("Printing results for: " + str(classifier) + str(vectorizer))
@@ -304,7 +304,7 @@ Combine features like this: get probability distribution over categories with n-
 Just testing this approach here. 
 """
 def combine_features(train_labels,train_sparse,train_dense):
-    k_fold = StratifiedKFold(10)
+    k_fold = StratifiedKFold(10,random_state=seed)
     vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,3), min_df=10, max_features = 2000)
     train_vector = vectorizer.fit_transform(train_sparse).toarray()
     classifier = RandomForestClassifier(class_weight="balanced")
@@ -334,7 +334,7 @@ def train_onelang_regression(train_scores,train_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10) #can specify max_features but dataset seems small enough
     vectorizers = [uni_to_tri_vectorizer]
     regressors = [LinearRegression(), RandomForestRegressor(), GradientBoostingRegressor(), XGBRegressor()]
-    k_fold = StratifiedKFold(10)
+    k_fold = StratifiedKFold(10,random_state=seed)
     for vectorizer in vectorizers:
         for regressor in regressors:
             train_vector = vectorizer.fit_transform(train_data).toarray()
@@ -393,7 +393,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
 
 #Single language, 10 fold cv for domain features - i.e., non n-gram features.
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
-    k_fold = StratifiedKFold(10)
+    k_fold = StratifiedKFold(10,random_state=seed)
     classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
     #RandomForestClassifer(), GradientBoostClassifier()
@@ -422,7 +422,7 @@ def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_ve
 def crossLangRegressionWithoutVectorizer(train_vector, train_scores, test_vector, test_scores):
     print("CROSS LANG EVAL")
     regressors = [RandomForestRegressor()]
-    k_fold = StratifiedKFold(10)
+    k_fold = StratifiedKFold(10,random_state=seed)
     for regressor in regressors:
         cross_val = cross_val_score(regressor, train_vector, train_scores, cv=k_fold, n_jobs=1)
         predicted = cross_val_predict(regressor, train_vector, train_scores, cv=k_fold)
