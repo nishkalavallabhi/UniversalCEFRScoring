@@ -219,6 +219,10 @@ for train, test in k_fold.split(x_word_train, y_labels):
     y_classes = np.argmax(y_pred, axis=1)
     y_gold = np.array(y_labels)[test]
     print(y_classes.shape, y_gold.shape)
+
+    pred_labels = [unique_labels[x] for x in y_classes]
+    gold_labels = [unique_labels[x] for x in y_gold]
+
     cv_f1.append(f1_score(y_gold, y_classes, average="weighted"))
     print(confusion_matrix(gold_labels, pred_labels, labels=unique_labels))
     #print("All done!\n{}".format(hist.history), file=sys.stderr)
