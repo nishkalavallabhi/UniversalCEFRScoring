@@ -6,7 +6,7 @@ np.random.seed(1337)  # for reproducibility
 
 from keras.preprocessing import sequence
 from keras.models import Sequential, Model
-from keras.layers import Dense, Flatten, Dropout, Activation, Input, merge
+from keras.layers import Dense, Flatten, Dropout, Activation, Input, concatenate
 from keras.layers import Embedding, Convolution1D, MaxPooling1D
 from keras.layers import AveragePooling1D, LSTM, GRU
 from keras.utils import np_utils
@@ -193,22 +193,22 @@ for train, test in k_fold.split(x_word_train, y_labels):
     #wordx = Dense(256, activation="relu")(wordx)
     #wordx = Dropout(0.25)(wordx)
 
-    y = merge([charx, wordx], mode='concat')
+    y = concatenate([charx, wordx])
     grp_predictions = Dense(n_grp_classes, activation='softmax')(y)
     #grp_predictions1 = Dense(32, activation='relu')(grp_predictions)
-    y = merge([y, grp_predictions], mode='concat')
+    y = concatenate([y, grp_predictions])
     #y = Dense(20, activation="relu")(y)
 
     #y = Dense(50, activation='relu', name='hidden_layer')(y)
     y = Dropout(0.25)(y)
     y_predictions = Dense(n_classes, activation='softmax')(y)
 
-    model = Model(input=[char_input, word_input], output=[y_predictions, grp_predictions])
+    model = Model(inputs=[char_input, word_input], outputs=[y_predictions, grp_predictions])
 
     model.summary()
     model.compile(loss='categorical_crossentropy',
               optimizer='adadelta',
-              metrics=['accuracy'])#, loss_weights=[1.0, 0.5])
+              metrics=['accuracy'], loss_weights=[1.0, 0.5])
 
     hist = model.fit([x_char_train[train], x_word_train[train]], [y_train[train], lng_train[train]],
               batch_size=batch_size,
