@@ -517,12 +517,12 @@ def do_cross_lang_all_features(sourcelangdirpath,sourcelang,modelas, targetlangd
    else: 
       sourcelangfiles,sourcelangdomain = getScoringFeatures(sourcelangdirpath,sourcelang,False)
       targetlangfiles,targetlangdomain = getScoringFeatures(targetlangdirpath,targetlang,False)
-      if targetlang == "it": #Those two files where langtool throws error
-         mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
-         mean_imputer = mean_imputer.fit(targetlangdomain)
-         imputed_df = mean_imputer.transform(targetlangdomain)
-         targetlangdomain = imputed_df
-         print("Modified domain feature vector for Italian")
+      #if targetlang == "it": #Those two files where langtool throws error
+      #   mean_imputer = Imputer(missing_values='NaN', strategy='mean', axis=0)
+      #   mean_imputer = mean_imputer.fit(targetlangdomain)
+      #   imputed_df = mean_imputer.transform(targetlangdomain)
+      #   targetlangdomain = imputed_df
+      #   print("Modified domain feature vector for Italian")
       #TODO: it can be sourcelang too! I am ignoring that for now.
    if modelas == "class":
       print("Printing cross-corpus classification evaluation results: ")
@@ -556,12 +556,12 @@ def do_single_lang_all_features(langdirpath,lang,modelas):
     langlabels = getcatlist(langfiles)
     langscores = getnumlist(langfiles)
 
-    if lang == "it": #Those two files where langtool throws error
-       mean_imputer = Imputer(missing_values='NA', strategy='mean', axis=0)
-       mean_imputer = mean_imputer.fit(langdomain)
-       imputed_df = mean_imputer.transform(langdomain)
-       langdomain = imputed_df
-       print("Modified domain feature vector for Italian")
+   # if lang == "it": #Those two files where langtool throws error
+   #    mean_imputer = Imputer(missing_values='NA', strategy='mean', axis=0)
+   #    mean_imputer = mean_imputer.fit(langdomain)
+   #    imputed_df = mean_imputer.transform(langdomain)
+   #    langdomain = imputed_df
+   #    print("Modified domain feature vector for Italian")
 
     print("Printing class statistics")
     print(collections.Counter(langlabels))
@@ -607,10 +607,10 @@ def main():
     itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
-    #do_single_lang_all_features(czdirpath,"cz", "class")
+    #do_single_lang_all_features(dedirpath,"de", "class")
     #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
-    #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
-    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "pos", True)
+    do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
+    #do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "pos", True)
 
 if __name__ == "__main__":
     main()
@@ -621,4 +621,4 @@ TODO: Refactoring, reducing redundancy
 """
 
 #print(getLexFeatures("/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE-Parsed/1031_0003076_DE_C1.txt.parsed.txt", "de"))
-#exit(1)
+#exit(1):
