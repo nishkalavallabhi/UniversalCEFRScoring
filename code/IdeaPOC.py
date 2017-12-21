@@ -609,8 +609,8 @@ def main():
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
     #do_single_lang_all_features(dedirpath,"de", "class")
     #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
-    do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
-    #do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "pos", True)
+    #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
+    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "dep", True)
 
 if __name__ == "__main__":
     main()

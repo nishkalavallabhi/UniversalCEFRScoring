@@ -151,7 +151,8 @@ print(time.time() - pt)
 
 cv_accs, cv_f1 = [], []
 k_fold = StratifiedKFold(10, random_state=seed)
-
+all_gold = []
+all_preds = []
 for train, test in k_fold.split(x_word_train, y_labels):
     #print("TRAIN:", train, "TEST:", test)
     print('Build model...')
@@ -177,10 +178,12 @@ for train, test in k_fold.split(x_word_train, y_labels):
 
     pred_labels = [unique_labels[x] for x in y_pred]
     gold_labels = [unique_labels[x] for x in np.array(y_labels)[test]]
+    all_gold.extend(gold_labels)
+    all_preds.extend(pred_labels)
 
     cv_f1.append(f1_score(np.array(y_labels)[test], y_pred, average="weighted"))
     print(confusion_matrix(gold_labels, pred_labels, labels=unique_labels))
 
 print("\nF1-scores", cv_f1,sep="\n")
 print("Average F1 scores", np.mean(cv_f1))
-
+print(confusion_matrix(all_gold,all_preds))

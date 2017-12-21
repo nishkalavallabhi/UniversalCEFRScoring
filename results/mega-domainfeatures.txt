@@ -1,5 +1,6 @@
 Doing: take all data as if it belongs to one large dataset, and do classification
 Mega classification for:  domain  features
+2267 2267 2267 10
 Distribution of labels: 
 Counter({'B1': 890, 'A2': 875, 'B2': 374, 'A1': 86, 'C1': 42})
 RandomForestClassifier(bootstrap=True, class_weight='balanced',
@@ -9,28 +10,28 @@ RandomForestClassifier(bootstrap=True, class_weight='balanced',
             min_weight_fraction_leaf=0.0, n_estimators=10, n_jobs=1,
             oob_score=False, random_state=None, verbose=0,
             warm_start=False)
-[ 0.54585153  0.5720524   0.5745614   0.64035088  0.64317181  0.67256637
-  0.69777778  0.63555556  0.56888889  0.62666667]
-0.617744327757
-[[ 23  63   0   0   0]
- [ 19 688 162   6   0]
- [  1 218 565 101   5]
- [  0  10 182 179   3]
- [  0   0  16  26   0]]
-0.448644728091
+[ 0.62445415  0.57641921  0.58333333  0.63157895  0.66960352  0.67699115
+  0.72        0.68        0.61777778  0.57333333]
+0.635349142893
+[[ 19  67   0   0   0]
+ [ 19 689 163   4   0]
+ [  0 224 564  98   4]
+ [  0  10 212 140  12]
+ [  0   0  13  27   2]]
+0.431965782261
 LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
      multi_class='ovr', penalty='l2', random_state=None, tol=0.0001,
      verbose=0)
-[ 0.49781659  0.38427948  0.61842105  0.42105263  0.3876652   0.65486726
-  0.39555556  0.28        0.2         0.52      ]
-0.435965776451
-[[ 24  59   3   0   0]
- [174 541 102  50   8]
- [131 343 167 244   5]
- [ 29  79  95 169   2]
- [  3   5  11  22   1]]
-0.273525581839
+[ 0.50218341  0.18340611  0.60087719  0.60526316  0.59030837  0.61946903
+  0.27555556  0.58666667  0.57777778  0.37333333]
+0.491484060045
+[[ 25  61   0   0   0]
+ [ 78 667 113  16   1]
+ [  9 419 302 159   1]
+ [  0 105 154 115   0]
+ [  0   9  18  15   0]]
+0.324945510756
 LogisticRegression(C=1.0, class_weight='balanced', dual=False,
           fit_intercept=True, intercept_scaling=1, max_iter=100,
           multi_class='ovr', n_jobs=1, penalty='l2', random_state=None,

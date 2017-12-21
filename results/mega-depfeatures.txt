@@ -1,5 +1,8 @@
 Doing: take all data as if it belongs to one large dataset, and do classification
-2267 2267
+Mega classification for:  dep  features
+2267 2267 2267 2212
+Distribution of labels: 
+Counter({'B1': 890, 'A2': 875, 'B2': 374, 'A1': 86, 'C1': 42})
 Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
             criterion='gini', max_depth=None, max_features='auto',
             max_leaf_nodes=None, min_impurity_split=1e-07,
@@ -12,12 +15,14 @@ Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balan
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.654525110543 0.641482464675
-[[ 24  61   1   0   0   0]
- [ 33 709 129   4   0   0]
- [  2 289 516  83   0   0]
- [  0  19 123 230   2   0]
- [  0   0   9  32   1   0]
+13223
+13223
+0.659188338165 0.634069476865
+[[ 21  64   1   0   0   0]
+ [ 29 705 137   4   0   0]
+ [  3 287 521  78   1   0]
+ [  0  23 132 216   3   0]
+ [  0   1   2  38   1   0]
  [  0   0   0   0   0   0]]
 Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
      intercept_scaling=1, loss='squared_hinge', max_iter=1000,
@@ -28,9 +33,11 @@ Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_i
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
-0.637609665978 0.630000132843
+13223
+13223
+0.638052143854 0.630413536468
 [[ 16  64   6   0   0   0]
- [ 42 649 175   9   0   0]
+ [ 42 650 174   9   0   0]
  [  2 233 564  90   1   0]
  [  0  24 123 216  11   0]
  [  0   1   6  34   1   0]
@@ -44,6 +51,8 @@ Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=Fa
         ngram_range=(1, 5), preprocessor=None, stop_words=None,
         strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
         tokenizer=None, vocabulary=None)
+13223
+13223
 0.656592154287 0.648347081354
 [[ 16  66   4   0   0   0]
  [ 36 662 168   9   0   0]
