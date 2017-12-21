@@ -10,15 +10,19 @@ from keras.layers import Dense, Flatten, Dropout, Activation, Input, merge
 from keras.layers import Embedding, Convolution1D, MaxPooling1D
 from keras.layers import AveragePooling1D, LSTM, GRU
 from keras.utils import np_utils
-import sys, time, re
+import sys, time, re, glob
 from collections import defaultdict
 from gensim.utils import simple_preprocess
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import f1_score
+from keras.layers import SpatialDropout1D
 
+seed = 1234
 _white_spaces = re.compile(r"\s\s+")
-maxlen = 512
+maxlen = 2000
 embedding_dims = 16
 batch_size = 128
-nb_epoch = 40
+nb_epoch = 5
 nb_filter = 50
 filter_length = 5
 pool_length = 5
@@ -36,17 +40,20 @@ def read_data():
     lg_labels = []
     documents = []
     for data_file in glob.iglob(sys.argv[1]+"/*/*"):
+        lang_label = data_file.split("/")[-2]
+
+        if "RemovedFiles" in data_file: continue
         if "parsed" in data_file: continue
         doc = open(data_file, "r").read().strip()
         wrds = doc.split(" ")
-        lang_label = data_file.split("/")[-2]
+
         label = data_file.split("/")[-1].split(".txt")[0].split("_")[-1]
-        if label == "EMPTY": continue
+        if label in ["EMPTY", "unrated"]: continue
         if len(wrds) >= maxwordlen:
             doc = " ".join(wrds[:maxwordlen])
         doc = _white_spaces.sub(" ", doc)
         labels.append(label)
-        lg_labels.append(lang_label
+        lg_labels.append(lang_label)
         documents.append(doc)
         
     return (documents, labels, lg_labels)
@@ -115,7 +122,7 @@ def transform(D, vocab, minfreq, tokenizer="char"):
 print("Reading the training set... ", end="")
 sys.stdout.flush()
 pt = time.time()
-doc_train, y_lang_labels, y_labels = read_data()
+doc_train, y_labels, y_lang_labels = read_data()
 print(time.time() - pt)
 
 print("Transforming the datasets... ", end="")
@@ -141,30 +148,30 @@ unique_labels = list(set(y_labels))
 lang_labels = ["CZ", "IT", "DE"]
 print("Class labels = ",unique_labels)
 n_classes = len(unique_labels)
-n_grp_classes = len(group_labels)
+n_grp_classes = len(lang_labels)
 
 grp_train, grp_test = [], []
 
-y_train = [unique_labels.index(y) for y in y_labels]
-lng_train = [group_labels.index(y) for y in y_lang_labels]
+y_labels = [unique_labels.index(y) for y in y_labels]
+y_lang_labels = [lang_labels.index(y) for y in y_lang_labels]
 
-y_train = np_utils.to_categorical(np.array(y_train), len(unique_labels))
-lng_train = np_utils.to_categorical(np.array(y_train), len(lang_labels))
+y_train = np_utils.to_categorical(np.array(y_labels), len(unique_labels))
+lng_train = np_utils.to_categorical(np.array(y_lang_labels), len(lang_labels))
 
 print(time.time() - pt)
 
 cv_accs, cv_f1 = [], []
-k_fold = StratifiedKFold(10)
-
+k_fold = StratifiedKFold(10,random_state=seed)
+n_iter = 1
 for train, test in k_fold.split(x_word_train, y_labels):
-    print('Build model...')
+    print('Build model... ', n_iter)
     char_input = Input(shape=(maxlen, ), dtype='int32', name='char_input')
-    charx = Embedding(max_char_features, 16, input_length=maxlen,
-            dropout=0.25)(char_input)
+    charx = Embedding(max_char_features, 16, input_length=maxlen)(char_input)
+    charx = SpatialDropout1D(0.25)(charx)
 
     word_input = Input(shape=(maxwordlen, ), dtype='int32', name='word_input')
-    wordx = Embedding(max_word_features, 32, input_length=maxwordlen,
-        dropout=0.25)(word_input)
+    wordx = Embedding(max_word_features, 32, input_length=maxwordlen)(word_input)
+    wordx = SpatialDropout1D(0.25)(wordx)
 
     #charx = Convolution1D(nb_filter=128, filter_length=9, activation="relu")(charx)
     #charx = MaxPooling1D(pool_length=maxlen-6)(charx)#Or Max-pooling
@@ -205,9 +212,18 @@ for train, test in k_fold.split(x_word_train, y_labels):
 
     hist = model.fit([x_char_train[train], x_word_train[train]], [y_train[train], lng_train[train]],
               batch_size=batch_size,
-              nb_epoch=nb_epoch,
-              validation_data=([x_char_train[test], x_word_train[test]], [y_train[test], lng_train[test]]))
-    
-    print("All done!\n{}".format(hist.history), file=sys.stderr)
+              epochs=nb_epoch)
+
+    y_pred = model.predict([x_char_train[test], x_word_train[test]])
+    print(y_pred[0].shape, y_pred[1].shape, sep="\n")
+    y_classes = np.argmax(y_pred[0], axis=1)
+    y_gold = np.array(y_labels)[test]
+    print(y_classes.shape, y_gold.shape)
+    cv_f1.append(f1_score(y_gold, y_classes, average="weighted"))
+    #print("All done!\n{}".format(hist.history), file=sys.stderr)
+    n_iter += 1
+
+print("\nF1-scores", cv_f1,sep="\n")
+print("Average F1 scores", np.mean(cv_f1))
 
 
