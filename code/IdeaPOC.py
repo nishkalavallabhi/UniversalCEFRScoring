@@ -18,6 +18,8 @@ from scipy.stats import spearmanr, pearsonr
 
 import language_check
 
+seed=1234
+
 '''
 convert a text into its POS form. i.e., each word is replaced by its POS
 '''
