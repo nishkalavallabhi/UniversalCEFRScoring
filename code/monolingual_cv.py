@@ -144,7 +144,7 @@ print('y_train shape:', y_train.shape)
 print(time.time() - pt)
 
 cv_accs, cv_f1 = [], []
-k_fold = StratifiedKFold(10)
+k_fold = StratifiedKFold(10, random_state=seed)
 
 for train, test in k_fold.split(x_word_train, y_labels):
     #print("TRAIN:", train, "TEST:", test)
@@ -164,7 +164,7 @@ for train, test in k_fold.split(x_word_train, y_labels):
 
     model.fit(x_word_train[train], y_train[train],
               batch_size=batch_size,
-              nb_epoch=nb_epoch)
+              epochs=nb_epoch)
 
     y_pred = model.predict_classes(x_word_train[test])
     #print(y_pred, np.array(y_labels)[test], sep="\n")
