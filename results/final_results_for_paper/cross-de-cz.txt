@@ -1,0 +1,139 @@
+Printing cross-corpus classification evaluation results: 
+******* 
+ Setting - Train with:  de  Test with:  cz  ****** 
+
+Features: pos
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.642857142857
+[[  0   0   0   0   0   0]
+ [  0 110  77   1   0   0]
+ [  0   9 129  27   0   0]
+ [  0   0  41  40   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.648705766452
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.451612903226
+[[  0   0   0   0   0   0]
+ [  0 149   6  29   4   0]
+ [  0 106   4  40  15   0]
+ [  0  29   1  43   8   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.373935897472
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.476958525346
+[[  0   0   0   0   0   0]
+ [  0 150   4  33   1   0]
+ [  0  90   5  50  20   0]
+ [  0  20   1  52   8   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.401662277814
+Features: dep
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.647465437788
+[[  0   0   0   0   0   0]
+ [  0 129  57   2   0   0]
+ [  0  23 101  41   0   0]
+ [  0   5  25  51   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.653406900895
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.338709677419
+[[  0   0   0   0   0   0]
+ [  3 106  40   2  37   0]
+ [  0  58  36   6  65   0]
+ [  0  10   4   5  62   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.385267891034
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.3133640553
+[[  0   0   0   0   0   0]
+ [  3 101  38   2  44   0]
+ [  0  46  28  11  80   0]
+ [  0   3   1   7  70   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.376521517431
+Features: domain
+CROSS LANG EVAL
+0.470046082949
+[[ 75  96  17   0]
+ [  3  57 104   1]
+ [  0   8  72   1]
+ [  0   0   0   0]]
+0.475308219269
+0.370967741935
+[[ 80   0 108]
+ [  4   0 161]
+ [  0   0  81]]
+0.324962467586
+0.458525345622
+[[ 77  91  20   0]
+ [  3  51 110   1]
+ [  0   7  71   3]
+ [  0   0   0   0]]
+0.466395877658

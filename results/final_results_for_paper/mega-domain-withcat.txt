@@ -1,0 +1,47 @@
+Doing: take all data as if it belongs to one large dataset, and do classification
+Mega classification for:  domain  features
+2267 2267 2267 13
+Distribution of labels: 
+Counter({'B1': 890, 'A2': 875, 'B2': 374, 'A1': 86, 'C1': 42})
+RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)
+[ 0.6069869   0.68122271  0.6754386   0.74122807  0.78854626  0.78761062
+  0.80444444  0.79555556  0.63555556  0.63111111]
+0.71476998153
+[[  7  79   0   0   0]
+ [  6 714 154   1   0]
+ [  1 178 610 101   0]
+ [  0   5  76 289   4]
+ [  0   0   0  42   0]]
+0.466582030434
+LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)
+[ 0.55895197  0.61572052  0.26754386  0.53508772  0.6123348   0.62831858
+  0.39111111  0.35111111  0.38666667  0.52888889]
+0.487573523164
+[[ 25  59   2   0   0]
+ [126 563 180   3   3]
+ [ 22 348 485  34   1]
+ [  0  99 241  33   1]
+ [  0   7  29   6   0]]
+0.289556360328
+LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)
+[ 0.43668122  0.43668122  0.43859649  0.60964912  0.8061674   0.84070796
+  0.84444444  0.83111111  0.62222222  0.56      ]
+0.642626120271
+[[ 38  48   0   0   0]
+ [ 79 701  60  30   5]
+ [  2 241 371 272   4]
+ [  0  14  12 344   4]
+ [  0   0   0  41   1]]
+0.471534316164

@@ -1,0 +1,249 @@
+Ignoring this text:  /home/bangaru/CrossLingualScoring/Datasets/IT-Parsed/1365_0100217_IT_B1.txt.parsed.txt
+Extracted all features: 
+Printing class statistics
+Counter({'B1': 394, 'A2': 381, 'A1': 29})
+With Word ngrams: 
+ ******
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+2704
+2704
+[ 0.87804878  0.79012346  0.81481481  0.83950617  0.7875      0.875       0.8875
+  0.7875      0.8375      0.88607595]
+0.83835691743 0.827727680674
+[[  3  26   0   0   0   0]
+ [  1 319  61   0   0   0]
+ [  0  42 352   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+2704
+2704
+[ 0.82926829  0.7654321   0.83950617  0.80246914  0.7125      0.825       0.825
+  0.8         0.8125      0.83544304]
+0.804711873807 0.802134787566
+[[  9  19   1   0   0   0]
+ [ 11 304  66   0   0   0]
+ [  0  60 334   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+2704
+2704
+[ 0.84146341  0.79012346  0.86419753  0.80246914  0.725       0.825       0.875
+  0.7875      0.8375      0.83544304]
+0.818369657607 0.814623080251
+[[  8  21   0   0   0   0]
+ [  9 308  64   0   0   0]
+ [  0  52 342   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+SAME LANG EVAL DONE FOR THIS LANG
+With POS ngrams:  
+ ******
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+4808
+4808
+[ 0.85365854  0.79012346  0.80246914  0.86419753  0.7875      0.8875      0.875
+  0.7375      0.8875      0.86075949]
+0.834620815371 0.824713524821
+[[  3  26   0   0   0   0]
+ [  1 335  45   0   0   0]
+ [  0  61 333   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+4808
+4808
+[ 0.76829268  0.7654321   0.7654321   0.83950617  0.7         0.775       0.8
+  0.6625      0.7125      0.87341772]
+0.766208077482 0.760595144582
+[[  6  22   1   0   0   0]
+ [  2 304  75   0   0   0]
+ [  0  88 306   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+4808
+4808
+[ 0.79268293  0.75308642  0.74074074  0.80246914  0.675       0.775       0.825
+  0.65        0.725       0.87341772]
+0.761239694464 0.755705259153
+[[  6  22   1   0   0   0]
+ [  3 295  83   0   0   0]
+ [  0  83 311   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+SAME LANG EVAL DONE FOR THIS LANG
+Dep ngrams:  
+ ******
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+5052
+5052
+[ 0.85365854  0.79012346  0.80246914  0.82716049  0.775       0.8625
+  0.8375      0.775       0.8625      0.86075949]
+0.824667111668 0.813250444981
+[[  2  27   0   0   0   0]
+ [  0 334  47   0   0   0]
+ [  0  67 327   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+5052
+5052
+[ 0.75609756  0.74074074  0.80246914  0.79012346  0.7         0.775       0.7125
+  0.725       0.7125      0.82278481]
+0.753721570444 0.747627678363
+[[  4  23   2   0   0   0]
+ [  7 293  81   0   0   0]
+ [  0  85 309   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+5052
+5052
+[ 0.7804878   0.72839506  0.80246914  0.80246914  0.7375      0.8         0.725
+  0.7         0.75        0.83544304]
+0.766176417619 0.761656242243
+[[  6  21   2   0   0   0]
+ [  8 295  78   0   0   0]
+ [  0  79 315   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+SAME LANG EVAL DONE FOR THIS LANG
+Domain features:  
+ ******
+RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)
+[ 0.84146341  0.79012346  0.82716049  0.85185185  0.775       0.875       0.825
+  0.8375      0.825       0.86075949]
+0.830885871077
+[[  0  29   0]
+ [  1 328  52]
+ [  0  54 340]]
+0.564474259131
+LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)
+[ 0.51219512  0.74074074  0.48148148  0.58024691  0.475       0.75        0.7625
+  0.775       0.55        0.48101266]
+0.610817691598
+[[  7  20   2]
+ [ 32 245 104]
+ [  1 154 239]]
+0.487406192596
+LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)
+[ 0.85365854  0.83950617  0.77777778  0.85185185  0.7625      0.8375
+  0.8375      0.825       0.8         0.88607595]
+0.827137028842
+[[  6  23   0]
+ [  9 331  41]
+ [  0  66 328]]
+0.652986092735
+Combined feature rep: wordngrams + domain
+Acc:  0.843356541037
+F1:  0.836668427773
+Combined feature rep: posngrams + domain
+Acc:  0.829666344589
+F1:  0.815603150096
+Combined feature rep: depngrams + domain
+Acc:  0.823354992586
+F1:  0.805557772869

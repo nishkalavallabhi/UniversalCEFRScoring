@@ -164,13 +164,16 @@ def getLexFeatures(conllufilepath,lang, err):
             numSent = numSent +1
         total = total +1
     if err:
-        error_features = getErrorFeatures(conllufilepath,lang)
+        try:
+            error_features = getErrorFeatures(conllufilepath,lang)
+        except:
+            print("Ignoring file:",conllufilepath)
+            error_features = [0,0]
     else:
         error_features = ['NA', 'NA']
 
     nlex = float(numN + numV + numADJ + numADV + numI) #Total Lexical words i.e., tokens
     dlex = float(len(ndn) + len(ndv) + len(ndadj) + len(ndadv) + len(ndint)) #Distinct Lexical words i.e., types
-
     #Scriptlen, Mean Sent Len, TTR, LexD, LexVar, VVar, NVar, AdjVar, AdvVar, ModVar, Total_Errors, Total Spelling errors
     result = [total, round(total/numSent,2), round(len(ndw)/total,2), round(nlex/total,2), round(dlex/nlex,2), round(len(ndv)/nlex,2), round(len(ndn)/nlex,2),
               round(len(ndadj)/nlex,2), round(len(ndadv)/nlex,2), round((len(ndadj) + len(ndadv))/nlex,2),error_features[0], error_features[1]]
@@ -184,12 +187,12 @@ Num. Errors. NumSpellErrors
 May be other error based features can be added later.
 """
 def getErrorFeatures(conllufilepath, lang):
+    numerr = 0
+    numspellerr = 0
     try:
         checker = language_check.LanguageTool(lang)
         text = makeTextOnly(conllufilepath)
         matches = checker.check(text)
-        numerr = 0
-        numspellerr = 0
         for match in matches:
             if not match.locqualityissuetype == "whitespace":
                 numerr = numerr +1
@@ -197,8 +200,9 @@ def getErrorFeatures(conllufilepath, lang):
                     numspellerr = numspellerr +1
     except:
         print("Ignoring this text: ", conllufilepath)
-        numerr = np.nan
-        numspellerr = np.nan
+       # numerr = np.nan
+       # numspellerr = np.nan
+
     return [numerr, numspellerr]
 
 
@@ -280,7 +284,7 @@ def regEval(predicted,actual):
 def train_onelang_classification(train_labels,train_data,labelascat=False, langslist=None):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10)
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more.GradientBoostingClassifier(),
+    classifiers = [RandomForestClassifier(class_weight="balanced", n_estimators=300, random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)	] #Add more.GradientBoostingClassifier(),
     k_fold = StratifiedKFold(10,random_state=seed)
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -293,7 +297,7 @@ def train_onelang_classification(train_labels,train_data,labelascat=False, langs
             #print(vectorizer.get_feature_names()) #To see what features were selected.
             cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
             predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
-           # print(cross_val)
+            print(cross_val)
             print(sum(cross_val)/float(len(cross_val)), f1_score(train_labels,predicted,average='weighted'))
             #print(vectorizer.get_feature_names())
             print(confusion_matrix(train_labels, predicted, labels=["A1","A2","B1","B2", "C1", "C2"]))
@@ -309,7 +313,7 @@ def combine_features(train_labels,train_sparse,train_dense):
     k_fold = StratifiedKFold(10,random_state=seed)
     vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,3), min_df=10, max_features = 2000)
     train_vector = vectorizer.fit_transform(train_sparse).toarray()
-    classifier = RandomForestClassifier(class_weight="balanced")
+    classifier = RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed)
   #  cross_val = cross_val_score(classifier, train_vector, train_labels, cv=k_fold, n_jobs=1)
   #  print("Old CV score with sparse features", str(sum(cross_val)/float(len(cross_val))))
   #  predicted = cross_val_predict(classifier, train_vector, train_labels, cv=k_fold)
@@ -354,7 +358,7 @@ train on one language and test on another, classification
 def cross_lang_testing_classification(train_labels,train_data, test_labels, test_data):
     uni_to_tri_vectorizer =  CountVectorizer(analyzer = "word", tokenizer = None, preprocessor = None, stop_words = None, ngram_range=(1,5), min_df=10) #, max_features = 2000
     vectorizers = [uni_to_tri_vectorizer]
-    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #, LinearSVC()RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
+    classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)] #, LinearSVC()RandomForestClassifier(), RandomForestClassifier(class_weight="balanced"), GradientBoostingClassifier()] #Side note: gradient boosting needs a dense array. Testing fails for that. Should modifiy the pipeline later to account for this.
     #Check this discussion for handling the sparseness issue: https://stackoverflow.com/questions/28384680/scikit-learns-pipeline-a-sparse-matrix-was-passed-but-dense-data-is-required
     for vectorizer in vectorizers:
         for classifier in classifiers:
@@ -396,7 +400,7 @@ def cross_lang_testing_regression(train_scores, train_data, test_scores, test_da
 #Single language, 10 fold cv for domain features - i.e., non n-gram features.
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
     k_fold = StratifiedKFold(10,random_state=seed)
-    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")] #Add more later
+    classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
     #RandomForestClassifer(), GradientBoostClassifier()
     #Not useful: SVC with kernels - poly, sigmoid, rbf.
@@ -412,7 +416,7 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
 #cross lingual classification evaluation for non ngram features
 def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
     print("CROSS LANG EVAL")
-    classifiers = [RandomForestClassifier(class_weight="balanced"), LinearSVC(class_weight="balanced"), LogisticRegression(class_weight="balanced")]
+    classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)]
     for classifier in classifiers:
         classifier.fit(train_vector,train_labels)
         predicted = classifier.predict(test_vector)
@@ -607,10 +611,10 @@ def main():
     itdirpath = "/home/bangaru/CrossLingualScoring/Datasets/IT-Parsed"
     dedirpath = "/home/bangaru/CrossLingualScoring/Datasets/DE-Parsed"
     czdirpath = "/home/bangaru/CrossLingualScoring/Datasets/CZ-Parsed"
-    #do_single_lang_all_features(dedirpath,"de", "class")
+    #do_single_lang_all_features(czdirpath,"cz", "class")
     #do_cross_lang_all_features(dedirpath,"de","class", itdirpath, "it")
     #do_cross_lang_all_features(dedirpath,"de","class", czdirpath, "cz")
-    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "dep", True)
+    do_mega_multilingual_model_all_features(dedirpath,"de",itdirpath,"it",czdirpath,"cz","class", "pos", True)
 
 if __name__ == "__main__":
     main()

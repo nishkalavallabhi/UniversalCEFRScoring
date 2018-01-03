@@ -1,0 +1,69 @@
+Doing: take all data as if it belongs to one large dataset, and do classification
+Mega classification for:  dep  features
+2267 2267 2267 2212
+Distribution of labels: 
+Counter({'B1': 890, 'A2': 875, 'B2': 374, 'A1': 86, 'C1': 42})
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+13223
+13226
+[ 0.58951965  0.65065502  0.6754386   0.69736842  0.79295154  0.80088496
+  0.79111111  0.81777778  0.61777778  0.65777778]
+0.709126263208 0.69340882774
+[[ 18  68   0   0   0   0]
+ [ 11 755 107   2   0   0]
+ [  0 238 552 100   0   0]
+ [  0  11  81 282   0   0]
+ [  0   0   1  41   0   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+13223
+13226
+[ 0.56768559  0.6069869   0.52631579  0.64473684  0.74889868  0.71681416
+  0.72888889  0.70666667  0.57333333  0.61333333]
+0.643366018059 0.634815688777
+[[ 17  63   6   0   0   0]
+ [ 38 658 171   8   0   0]
+ [  1 231 566  91   1   0]
+ [  0  23 124 216  11   0]
+ [  0   1   7  33   1   0]
+ [  0   0   0   0   0   0]]
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+13223
+13226
+[ 0.58951965  0.62445415  0.54824561  0.65789474  0.76651982  0.73451327
+  0.72444444  0.72888889  0.59111111  0.63111111]
+0.659670280368 0.651336823108
+[[ 17  65   4   0   0   0]
+ [ 33 666 169   7   0   0]
+ [  1 222 569  97   1   0]
+ [  0  17 105 241  11   0]
+ [  0   0   3  37   2   0]
+ [  0   0   0   0   0   0]]
+SAME LANG EVAL DONE FOR THIS LANG

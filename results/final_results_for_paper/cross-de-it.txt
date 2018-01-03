@@ -1,0 +1,143 @@
+Ignoring this text:  /home/bangaru/CrossLingualScoring/Datasets/IT-Parsed/1365_0100217_IT_B1.txt.parsed.txt
+Printing cross-corpus classification evaluation results: 
+******* 
+ Setting - Train with:  de  Test with:  it  ****** 
+
+Features: pos
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.740049751244
+[[  5  24   0   0   0   0]
+ [  9 311  56   5   0   0]
+ [  1  70 279  44   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.758302204973
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.264925373134
+[[  5  19   2   3   0   0]
+ [ 20 185  54 113   9   0]
+ [  7  85  23 278   1   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.315266428073
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.291044776119
+[[  4  19   2   4   0   0]
+ [ 19 204  53 100   5   0]
+ [  7  97  26 263   1   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.334349027532
+Features: dep
+Printing results for: RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_split=1e-07,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=300, n_jobs=1,
+            oob_score=False, random_state=1234, verbose=0,
+            warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.56592039801
+[[  3  26   0   0   0   0]
+ [ 11 271  85  14   0   0]
+ [  7  53 181 153   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.62447202284
+Printing results for: LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.394278606965
+[[  4  20   3   1   1   0]
+ [ 20 184  82  79  16   0]
+ [  5  84 129 164  12   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.473593612948
+Printing results for: LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)CountVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=10,
+        ngram_range=(1, 5), preprocessor=None, stop_words=None,
+        strip_accents=None, token_pattern='(?u)\\b\\w\\w+\\b',
+        tokenizer=None, vocabulary=None)
+0.3407960199
+[[  2  22   2   2   1   0]
+ [ 17 189  61 100  14   0]
+ [  6  73  83 224   8   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]
+ [  0   0   0   0   0   0]]
+CROSS LANG EVAL DONE. F1score: 
+0.422680457362
+Features: domain
+CROSS LANG EVAL
+0.544776119403
+[[  3  26   0   0]
+ [  4 242 119  16]
+ [  0  17 193 184]
+ [  0   0   0   0]]
+0.618324187576
+0.495024875622
+[[  0  29   0   0   0]
+ [  0 378   2   1   0]
+ [  0 299  20  72   3]
+ [  0   0   0   0   0]
+ [  0   0   0   0   0]]
+0.376700418015
+0.583333333333
+[[  7  22   0   0   0]
+ [  7 317  47   4   6]
+ [  0  80 145 143  26]
+ [  0   0   0   0   0]
+ [  0   0   0   0   0]]
+0.629810069177
