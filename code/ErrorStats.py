@@ -5,12 +5,13 @@ Purpose: Knowing error statistics in the data for DE and IT using LanguageTool
 import language_check
 import os, collections, pprint
 
-def error_stats(inputpath,lang):
+def error_stats(inputpath,lang,output_path):
     files = os.listdir(inputpath)
     checker = language_check.LanguageTool(lang)
     rules = {}
     locqualityissuetypes = {}
     categories = {}
+    fw = open(output_path,"w")
     for file in files:
         if file.endswith(".txt"):
             text = open(os.path.join(inputpath,file)).read()
@@ -22,18 +23,20 @@ def error_stats(inputpath,lang):
                 rules[rule] = rules.get(rule,0) +1
                 locqualityissuetypes[loc] = locqualityissuetypes.get(loc,0) +1
                 categories[cat] = categories.get(cat,0)+1
+ 
+    fw.write("unique rules for " + lang + "  " + str(len(rules.keys())) +"\n")
+    fw.write(str(rules))
+    fw.write("\n")
+    fw.write(str(locqualityissuetypes))
+    fw.write("\n")
+    fw.write(str(categories))
+    fw.close()
 
-    print("unique rules for", lang, "  ", str(len(rules.keys())))
-    #pprint.pprint(rules)
-    pprint.pprint(locqualityissuetypes)
-    pprint.pprint(categories)
+inputpath_de = "../Datasets/DE/"
+inputpath_it = "../Datasets/IT/"
 
-
-inputpath_de = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/DE/"
-inputpath_it = "/Users/sowmya/Research/CrossLing-Scoring/CrossLingualScoring/Datasets/IT/"
-
-error_stats(inputpath_de, "de")
-error_stats(inputpath_it, "it")
+error_stats(inputpath_de, "de", "../results/errorfeatureslist-de.txt")
+error_stats(inputpath_it, "it","../results/errorfeatureslist-it.txt")
 
 
 """
