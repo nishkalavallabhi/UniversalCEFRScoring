@@ -1,17 +1,14 @@
 
 data driven features:
-lang specific: word, character ngrams
-works across langs: pos, dependency ngrams
+lang specific: word, character ngrams, pos, dependency ngrams, word, char, pos embeddings. How dep embeddings?
+works across langs: pos, dependency ngrams; pos/dep embeddings
 
 Domain features:
 works across langs: num. words, mean sentence length, type token ratio
 lexical density, lexical variation etc (Lu-2010 paper), num.errors, num.spelling errors.
+individual error rules from language tool
 
 Czech does not have a spell checker I know of. So, error features don't exist for that.
-
-TO ADD: Data driven, language specific:
-Character Embeddings
-may be: word embeddings?
 
 
 
