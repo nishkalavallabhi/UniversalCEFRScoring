@@ -5,13 +5,20 @@ Purpose: Knowing error statistics in the data for DE and IT using LanguageTool
 import language_check
 import os, collections, pprint
 
+def write_featurelist(file_path,some_list):
+    fh = open(file_path, "w")
+    for item in some_list:
+      fh.write(item)
+      fh.write("\n")
+    fh.close()
+
 def error_stats(inputpath,lang,output_path):
     files = os.listdir(inputpath)
     checker = language_check.LanguageTool(lang)
     rules = {}
     locqualityissuetypes = {}
     categories = {}
-    fw = open(output_path,"w")
+
     for file in files:
         if file.endswith(".txt"):
             text = open(os.path.join(inputpath,file)).read()
@@ -23,68 +30,15 @@ def error_stats(inputpath,lang,output_path):
                 rules[rule] = rules.get(rule,0) +1
                 locqualityissuetypes[loc] = locqualityissuetypes.get(loc,0) +1
                 categories[cat] = categories.get(cat,0)+1
- 
-    fw.write("unique rules for " + lang + "  " + str(len(rules.keys())) +"\n")
-    fw.write(str(rules))
-    fw.write("\n")
-    fw.write(str(locqualityissuetypes))
-    fw.write("\n")
-    fw.write(str(categories))
-    fw.close()
 
-inputpath_de = "../Datasets/DE/"
-inputpath_it = "../Datasets/IT/"
+    write_featurelist(output_path+lang+"-rules.txt", sorted(rules.keys()))
+    write_featurelist(output_path+lang+"-locquality.txt", sorted(locqualityissuetypes.keys()))
+    write_featurelist(output_path+lang+"-errorcats.txt", sorted(categories.keys()))
 
-error_stats(inputpath_de, "de", "../results/errorfeatureslist-de.txt")
-error_stats(inputpath_it, "it","../results/errorfeatureslist-it.txt")
+inputpath_de = "/home/bangaru/GitProjects/CrossLingualScoring/Datasets/DE/"
+inputpath_it = "/home/bangaru/GitProjects/CrossLingualScoring/Datasets/IT/"
+
+error_stats(inputpath_de, "de", "../features/")
+error_stats(inputpath_it, "it","../features/")
 
 
-"""
-Results for locqualityissuetype:
-unique rules for de    137
-{'duplication': 19,
- 'misspelling': 21,
- 'style': 185,
- 'typographical': 609,
- 'uncategorized': 4746,
- 'whitespace': 1280}
-unique rules for it    31
-{'duplication': 21,
- 'misspelling': 3157,
- 'typographical': 169,
- 'uncategorized': 3956,
- 'whitespace': 2239}
-
-Results for category:
-{'Briefe und E-Mails': 162,
- 'Grammatik': 1703,
- 'Groß-/Kleinschreibung': 2410,
- 'Leicht zu verwechselnde Wörter': 25,
- 'Mögliche Tippfehler': 98,
- 'Redundanz': 2,
- 'Semantische Unstimmigkeiten': 4,
- 'Sonstiges': 1673,
- 'Stil, Umgangssprache': 11,
- 'Typographie': 412,
- 'Zeichensetzung': 324,
- 'Zusammen-/Getrenntschreibung': 36}
- 
-{'Altre': 2275,
- 'Grammatica - Articoli': 200,
- 'Grammatica - Elisioni e troncamenti': 99,
- 'Grammatica - Frase': 641,
- 'Grammatica - Preposizioni': 2,
- 'Grammatica - Punteggiatura': 32,
- 'Grammatica - Verbi': 192,
- 'Possibile errore di battitura': 3157,
- 'Stile - Espressioni': 5,
- 'Stile - Frase': 130,
- 'Stile - Leggibilità': 1396,
- 'Stile - Numeri': 777,
- 'Ulteriori errori comuni - ortografia': 57,
- "Ulteriori errori comuni - voci del verbo 'avere'": 425,
- 'Uso delle maiuscole': 154}
-
-
-There are 137 unique rules for German, and 31 for Italian
-"""
