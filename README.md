@@ -1,8 +1,9 @@
-# CrossLingualScoring
-This idea of pursuing a general-language agnostic-CEFR level classifier
+# About
+This paper contains the code and some of the data and result files for the experiments described in the following paper:
 
-# Neural Networks:
-1. Monolingual FastText: A character embedding based Fast Text model with CV evaluation. Word based embedding combine with character embeddings. A single model.
-`python3 code/monolingual_cv.py Datasets/IT`
-2. Monolingual LSTM: A character embedding with word based embedding with LSTM model.
-3. Multilingual model: A char- and word embedding model with two types of targets. One to train a language feature and the other to train a predictor of difficulty level of the texts.
+> Experiments with Universal CEFR Classification  
+> Authors: Sowmya Vajjala and Taraka Rama
+> (to appear) In Proceedings of The 13th Workshop on Innovative Use of NLP for Building Educational Applications
+
+For enquiries, contact one of the authors, at:
+sowmya@iastate.edu, tarakark@ifi.uio.no
