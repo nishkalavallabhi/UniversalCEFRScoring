@@ -17,6 +17,16 @@ About this github repo's folders:
   * RemovedFiles/ folder in this folder contains files that we did not use for our analysis, either because they are unrated, or because that proficiency level has too few examples (Read the paper for details).
 
 - **code/:**
+  * CreateDataset.py: takes the original MERLIN corpus and creates a new version by removing metadata inside files, and renaming them.
+  * CreateMetaDataFile.py: takes the original MERLIN corpus files, and creates a file with filenames and information about
+different proficiency dimensions (resulting files for all languages are seen in Datasets/)
+  * ErrorStats.py: uses [LanguageTool](https://languagetool.org/) to extract spelling/grammar error information for DE and IT corpora.
+  * ExtractErrorFeatures.py: extracts information about individual error rules from LanguageTool, and stores them as numpy arrays - this is not used in this paper.
+  * IdeaPOC.py  
+  * bulklangparse.sh  
+  * monolingual_cv.py  
+  * multi_lingual.py  
+  * multi_lingual_no_langfeat.py  
 
 - **features/:**
   * This directory contains some analysis of the data using [LanguageTool](https://languagetool.org/) to understand the different error types in different languages, as identified by the tool. Only the files ending with errorcats.txt have been used in this paper.
