@@ -23,7 +23,7 @@ different proficiency dimensions (resulting files for all languages are seen in 
   * ErrorStats.py: uses [LanguageTool](https://languagetool.org/) to extract spelling/grammar error information for DE and IT corpora.
   * ExtractErrorFeatures.py: extracts information about individual error rules from LanguageTool, and stores them as numpy arrays - this is not used in this paper.
   * IdeaPOC.py  
-  * bulklangparse.sh  
+  * bulklangparse.sh: Script to parse all files for a given language using its UDPipe model.  
   * monolingual_cv.py  
   * multi_lingual.py  
   * multi_lingual_no_langfeat.py  
