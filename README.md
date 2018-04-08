@@ -22,11 +22,12 @@ About this github repo's folders:
 different proficiency dimensions (resulting files for all languages are seen in Datasets/)
   * ErrorStats.py: uses [LanguageTool](https://languagetool.org/) to extract spelling/grammar error information for DE and IT corpora.
   * ExtractErrorFeatures.py: extracts information about individual error rules from LanguageTool, and stores them as numpy arrays - this is not used in this paper.
-  * IdeaPOC.py  
+  * IdeaPOC.py: contains the bulk of the code - basically, all experiments without neural networks are seen here. 
   * bulklangparse.sh: Script to parse all files for a given language using its UDPipe model.  
-  * monolingual_cv.py  
-  * multi_lingual.py  
-  * multi_lingual_no_langfeat.py  
+  * monolingual_cv.py: mono-lingual neural network training using keras, with tensorflow backend.
+  * multi_lingual.py: multi-lingual, multi-task learning (learning the language, and learning its CEFR)
+  * multi_lingual_no_langfeat.py: multi-lingual, without language identification.  
+  (For more details, read the paper, and see the code!)
 
 - **features/:**
   * This directory contains some analysis of the data using [LanguageTool](https://languagetool.org/) to understand the different error types in different languages, as identified by the tool. Only the files ending with errorcats.txt have been used in this paper.
