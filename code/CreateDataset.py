@@ -1,4 +1,9 @@
-#Create a new dataset with renamed files, removed metadata etc.
+'''
+Create a new dataset with new filenames, and removed metadata. 
+Renamed corpora are in the Datasets/ folder in this repo
+Original corpora for all languages can be downloaded from MERLIN website
+http://www.merlin-platform.eu/C_data.php
+'''
 
 import os
 
