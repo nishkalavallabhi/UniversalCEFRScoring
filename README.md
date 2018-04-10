@@ -1,5 +1,4 @@
-# About this repo: 
-This paper contains the code and some of the data and result files for the experiments described in the following paper:
+This repository contains the code and some of the data and result files for the experiments described in the following paper:
 
 > Experiments with Universal CEFR Classification  
 > Authors: Sowmya Vajjala and Taraka Rama  
