@@ -36,7 +36,7 @@ different proficiency dimensions (resulting files for all languages are seen in 
 
 - **README.md**: This file  
 
-- **bea-naacl2018-supplementarymaterial.zip**: Submitted/pre-peer-reviewed version of this folder for BEA. The current version primarily has more documentation, and no added code.
+- **bea-naacl2018-supplementarymaterial.zip**: Submitted/pre-peer-reviewed version of this folder for BEA. The current version primarily has more documentation, and added code for baseline classifiers.
 
 - **notesonfeatures.txt**: Just some initial notes made about what to implement.
 
