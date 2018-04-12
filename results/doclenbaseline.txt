@@ -115,3 +115,84 @@ LogisticRegression(C=1.0, class_weight='balanced', dual=False,
  [ 54  74  37]
  [  5  41  35]]
 0.58682940914
+*** Train with DE, test with IT baseline******
+0.437810945274
+[[  9  17   3   0   0]
+ [ 22 210 132  14   3]
+ [  0  37 133 153  71]
+ [  0   0   0   0   0]
+ [  0   0   0   0   0]]
+0.516302515736
+0.394278606965
+[[  1  28   0   0]
+ [  1 316   0  64]
+ [  0  52   0 342]
+ [  0   0   0   0]]
+0.387774355276
+0.490049751244
+[[  6  23   0   0]
+ [  2 294  67  18]
+ [  0  44  94 256]
+ [  0   0   0   0]]
+0.553225120361
+*** Train with DE, test with CZ baseline ******
+0.391705069124
+[[ 0  0  0  0  0]
+ [ 8 71 88 19  2]
+ [ 1  5 57 73 29]
+ [ 0  1 13 42 25]
+ [ 0  0  0  0  0]]
+0.439219881076
+0.410138248848
+[[ 97   0  91]
+ [  9   0 156]
+ [  0   0  81]]
+0.35976394321
+0.483870967742
+[[ 86  83  19]
+ [  6  49 110]
+ [  0   6  75]]
+0.487289469739
+****Multilingual classification baseline*************
+RandomForestClassifier(bootstrap=True, class_weight='balanced',
+            criterion='gini', max_depth=None, max_features='auto',
+            max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            n_estimators=300, n_jobs=1, oob_score=False, random_state=1234,
+            verbose=0, warm_start=False)
+[ 0.54148472  0.49781659  0.49122807  0.46929825  0.54185022  0.5
+  0.51111111  0.50666667  0.41333333  0.45777778]
+0.493056673499
+[[ 55  31   0   0   0]
+ [142 534 162  32   5]
+ [  4 219 335 238  94]
+ [  0  13 110 187  64]
+ [  0   0  13  22   7]]
+0.394046021564
+LinearSVC(C=1.0, class_weight='balanced', dual=True, fit_intercept=True,
+     intercept_scaling=1, loss='squared_hinge', max_iter=1000,
+     multi_class='ovr', penalty='l2', random_state=1234, tol=0.0001,
+     verbose=0)
+[ 0.52838428  0.62445415  0.37280702  0.18421053  0.52863436  0.65486726
+  0.67555556  0.50222222  0.20444444  0.50222222]
+0.477780203412
+[[ 29  52   3   0   2]
+ [123 450 215  69  18]
+ [ 52 144 498 195   1]
+ [  5  41 222 106   0]
+ [  0   4  26  12   0]]
+0.317792584414
+LogisticRegression(C=1.0, class_weight='balanced', dual=False,
+          fit_intercept=True, intercept_scaling=1, max_iter=100,
+          multi_class='ovr', n_jobs=1, penalty='l2', random_state=1234,
+          solver='liblinear', tol=0.0001, verbose=0, warm_start=False)
+[ 0.5720524   0.62008734  0.59210526  0.5877193   0.60792952  0.59292035
+  0.60444444  0.59111111  0.55111111  0.61777778]
+0.593725861324
+[[ 29  57   0   0   0]
+ [ 18 746 100  11   0]
+ [  1 286 378 224   1]
+ [  0  11 170 193   0]
+ [  0   0  12  30   0]]
+0.427992620409

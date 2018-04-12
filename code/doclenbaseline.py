@@ -9,6 +9,8 @@ from sklearn.model_selection import cross_val_score,cross_val_predict,Stratified
 from sklearn.metrics import f1_score,classification_report,accuracy_score,confusion_matrix, mean_absolute_error
 from sklearn.svm import LinearSVC
 
+seed = 1234
+
 def getdoclen(conllufilepath):
     fh =  open(conllufilepath, encoding="utf-8")
     allText = []
@@ -33,7 +35,6 @@ def getfeatures(dirpath):
     return doclenfeaturelist,cats
 
 def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_vector,test_labels):
-    seed = 1234
     k_fold = StratifiedKFold(10,random_state=seed)
     classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)] #Add more later
     #classifiers = [MLPClassifier(max_iter=500)]
@@ -48,6 +49,15 @@ def singleLangClassificationWithoutVectorizer(train_vector,train_labels): #test_
         print(confusion_matrix(train_labels, predicted))
         print(f1_score(train_labels,predicted,average='macro'))
 
+def crossLangClassificationWithoutVectorizer(train_vector, train_labels, test_vector, test_labels):
+    classifiers = [RandomForestClassifier(class_weight="balanced",n_estimators=300,random_state=seed), LinearSVC(class_weight="balanced",random_state=seed), LogisticRegression(class_weight="balanced",random_state=seed)]
+    for classifier in classifiers:
+        classifier.fit(train_vector,train_labels)
+        predicted = classifier.predict(test_vector)
+        print(np.mean(predicted == test_labels,dtype=float))
+        print(confusion_matrix(test_labels,predicted))
+        print(f1_score(test_labels,predicted,average='weighted'))
+
 
 def main():
     itdirpath = "../Datasets/IT-Parsed"
@@ -61,9 +71,24 @@ def main():
     singleLangClassificationWithoutVectorizer(itfeats,itlabels)
     print("************CZ baseline:****************")
     czfeats,czlabels = getfeatures(czdirpath)
-    singleLangClassificationWithoutVectorizer(czfeats,czlabels) 
+    singleLangClassificationWithoutVectorizer(czfeats,czlabels)
 
-
+    print("*** Train with DE, test with IT baseline******")
+    crossLangClassificationWithoutVectorizer(defeats,delabels, itfeats,itlabels)
+     
+    print("*** Train with DE, test with CZ baseline ******")
+    crossLangClassificationWithoutVectorizer(defeats,delabels, czfeats,czlabels)
+    
+    bigfeats = []
+    bigcats = []
+    bigfeats.extend(defeats)
+    bigfeats.extend(itfeats)
+    bigfeats.extend(czfeats)
+    bigcats.extend(delabels)
+    bigcats.extend(itlabels)
+    bigcats.extend(czlabels)
+    print("****Multilingual classification baseline*************")
+    singleLangClassificationWithoutVectorizer(bigfeats,bigcats)
 
     
     
