@@ -1,5 +1,7 @@
 This repository contains the code and some of the data and result files for the experiments described in the following paper:
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1218081.svg)](https://doi.org/10.5281/zenodo.1218081)
+
 > Experiments with Universal CEFR Classification  
 > Authors: Sowmya Vajjala and Taraka Rama  
 > (to appear) In Proceedings of The 13th Workshop on Innovative Use of NLP for Building Educational Applications
